@@ -17,6 +17,7 @@ from evaluator import (  # noqa: E402
     plan_discovery,
     plan_searches,
     render_brief,
+    filter_relevant,
     verify_prices,
 )
 
@@ -255,3 +256,30 @@ class PriceCheckTests(unittest.TestCase):
         kept, rejected, counts = verify_prices(claims, self.sources, {"https://a.com": ""})
         self.assertEqual(len(kept), 1)
         self.assertEqual(counts["checked"], 0)
+
+
+class RelevanceTests(unittest.TestCase):
+    def test_keeps_results_that_name_a_product(self):
+        results = [{"title": "Linear pricing", "content": "Basic plan"},
+                   {"title": "Spirit Airlines shuts down", "content": "flights cancelled"}]
+        kept, dropped = filter_relevant(results, ["Linear", "Jira"])
+        self.assertEqual([r["title"] for r in kept], ["Linear pricing"])
+        self.assertEqual(dropped, 1)
+
+    def test_whole_word_only(self):
+        results = [{"title": "10 airplanes discontinued", "content": ""}]
+        kept, dropped = filter_relevant(results, ["Plane"])
+        self.assertEqual(kept, [])
+        self.assertEqual(dropped, 1)
+
+    def test_lowercase_common_word_does_not_match_product(self):
+        results = [{"title": "Spirit Airlines", "content": "A Spirit Airline plane sits on the tarmac"}]
+        kept, dropped = filter_relevant(results, ["Plane"])
+        self.assertEqual(kept, [])
+        self.assertEqual(dropped, 1)
+
+    def test_no_names_means_no_filter(self):
+        results = [{"title": "anything", "content": ""}]
+        kept, dropped = filter_relevant(results, [])
+        self.assertEqual(kept, results)
+        self.assertEqual(dropped, 0)

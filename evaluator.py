@@ -117,6 +117,20 @@ def plan_searches(product: str, similar: list[str], today: date) -> list[Planned
     return plan
 
 
+def mentions_any(result: dict[str, Any], names: list[str]) -> bool:
+    """True if the result names one of the products: whole word, as capitalized (e.g. "Plane", not "plane")."""
+    text = f"{result.get('title') or ''} {result.get('content') or ''}"
+    return any(re.search(rf"(?<![A-Za-z]){re.escape(n)}(?![A-Za-z])", text) for n in names if n)
+
+
+def filter_relevant(results: list[dict[str, Any]], names: list[str]) -> tuple[list[dict[str, Any]], int]:
+    """Keep only results that name a product in scope. Returns (kept, number dropped)."""
+    if not names:
+        return results, 0
+    kept = [r for r in results if mentions_any(r, names)]
+    return kept, len(results) - len(kept)
+
+
 def add_sources(registry: list[Source], planned: PlannedSearch, results: list[dict[str, Any]]) -> list[Source]:
     """Add results to the registry, skipping URLs already seen. Returns the new sources."""
     known = {source.url for source in registry}
@@ -389,6 +403,7 @@ def main(
     llm = ChatNebius(model=model, max_tokens=32768)
     sources: list[Source] = []
     errors: list[str] = []
+    off_topic = 0  # results dropped because they name none of the products in scope
 
     console.rule(f"[bold blue]Evaluating {product}")
 
@@ -396,7 +411,9 @@ def main(
     discovery = plan_discovery(product, category)
     console.print(f"Discovery: {discovery.query}")
     try:
-        add_sources(sources, discovery, search(tavily, discovery))
+        kept, dropped = filter_relevant(search(tavily, discovery), [product])
+        off_topic += dropped
+        add_sources(sources, discovery, kept)
     except Exception as exc:
         errors.append(f"discovery: {exc}")
     similar: list[str] = []
@@ -415,7 +432,9 @@ def main(
             for name in candidates:
                 status_search = PlannedSearch("status", f"{name} discontinued or shut down", topic="news", require_date=True)
                 try:
-                    add_sources(sources, status_search, search(tavily, status_search))
+                    kept, dropped = filter_relevant(search(tavily, status_search), [name])
+                    off_topic += dropped
+                    add_sources(sources, status_search, kept)
                 except Exception as exc:
                     errors.append(f"status search '{name}': {exc}")
             for name in candidates:
@@ -440,7 +459,9 @@ def main(
     for planned in plan:
         console.print(f"Search [{planned.dimension}]: {planned.query}")
         try:
-            added = add_sources(sources, planned, search(tavily, planned))
+            kept, dropped = filter_relevant(search(tavily, planned), [product, *similar])
+            off_topic += dropped
+            added = add_sources(sources, planned, kept)
             console.print(f"  {len(added)} new sources")
         except Exception as exc:
             errors.append(f"{planned.dimension} '{planned.query}': {exc}")
@@ -480,6 +501,7 @@ def main(
     record = {
         "product": product,
         "price_check": price_counts,
+        "off_topic_dropped": off_topic,
         "description": description,
         "category": category,
         "model": model,

@@ -89,6 +89,14 @@ Caveats, to state in the interview:
 | Evaluator judge | 3 claims not stated and 1 with no source text. | Same fixes as above. The evaluator's remaining misses are a source-coverage problem, not a citation-format one. | **Open** |
 | Both | The judge and the generator are the same model family, so the judge may be lenient toward its own wording. | Judge with a different model when one is available on Nebius, and compare verdicts on the same claims. | **Open** |
 
+### Pricing check and source filter (branch `pricing-verification`)
+
+| Problem | Fix | Status |
+|---|---|---|
+| Pricing claims were checked only offline, so a wrong price reached the PM unchecked. | Before the brief is written, each price in a pricing claim must appear in the full text of its cited page (Tavily extract). A claim that fails moves to "Unsupported", naming the missing figure. Pages that cannot be fetched keep the claim, labeled "(price check unavailable)". | **Done** for prices. Live on Linear: 6 price claims checked, 1 failed ($5,000 range). |
+| The brief wrote prices as words ("ten dollars"), which the check could not read. | The brief prompt now requires digits with a dollar sign. | **Done** |
+| Off-topic sources (Nintendo emulators, Spirit Airlines, airplane lists) reached the brief through the status searches. | Each result must name the product or one of its similar products, as a whole word, capitalized. The count of dropped results is in `run.json` as `off_topic_dropped`. Live on Linear: 27 dropped, 0 off-topic sources left. | **Done.** Limit: a product name used as a common word in a relevant article can still match. |
+
 ## Decisions and trade-offs
 
 Each decision lists what we chose, the cost, and what we would change next.
