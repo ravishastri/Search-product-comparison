@@ -66,6 +66,7 @@ Rules:
 - Use only facts stated in the evidence. Do not add outside knowledge.
 - Each claim must list the IDs (for example "S1") of the sources that support it.
 - Write short, specific claims. Do not predict sales or make causal claims.
+- Write every price as digits with a dollar sign, for example $10 or $5,000, never as words like "ten dollars".
 - Paraphrase every claim in your own words. Do not copy sentences from the evidence. Use no quotation marks.
 - Never combine quotes or statements from different people into one claim. Attribute each opinion to its source.
 - Dimensions: "pricing", "competitive", "reception". Skip a dimension if the evidence does not cover it.
@@ -225,6 +226,53 @@ def check_claims(claims: list[Claim], valid_ids: set[str]) -> tuple[list[Claim],
         target = supported if ids else unsupported
         target.append(Claim(claim.dimension, claim.text, ids))
     return supported, unsupported
+
+
+PRICE_RE = re.compile(r"\$\d[\d,]*(?:\.\d+)?")
+
+
+def fetch_page_text(tavily: TavilyClient, urls: list[str]) -> dict[str, str]:
+    """Full text of each URL via Tavily extract. A URL that cannot be fetched maps to ''."""
+    texts = {url: "" for url in urls}
+    for i in range(0, len(urls), 20):
+        res = tavily.extract(urls=urls[i:i + 20], extract_depth="basic", format="text")
+        for r in res.get("results", []):
+            texts[r["url"]] = r.get("raw_content") or ""
+    return texts
+
+
+def verify_prices(
+    supported: list[Claim], sources_by_id: dict[str, Source], texts: dict[str, str]
+) -> tuple[list[Claim], list[Claim], dict[str, int]]:
+    """Check each price in a pricing claim against the full text of its cited pages.
+
+    A price that is not on any cited page moves the claim to rejected. A claim whose pages
+    could not be fetched is kept and labeled, so nothing disappears without a reason.
+    """
+    kept: list[Claim] = []
+    rejected: list[Claim] = []
+    counts = {"checked": 0, "missing": 0, "unavailable": 0}
+    for claim in supported:
+        figures = [m[1:] for m in PRICE_RE.findall(claim.text)]  # drop the leading "$"
+        if claim.dimension != "pricing" or not figures:
+            kept.append(claim)
+            continue
+        counts["checked"] += 1
+        pages = [texts.get(sources_by_id[i].url, "") for i in claim.source_ids if i in sources_by_id]
+        if not any(pages):
+            counts["unavailable"] += 1
+            kept.append(Claim(claim.dimension, f"{claim.text} (price check unavailable)", claim.source_ids))
+            continue
+        combined = " ".join(pages)
+        missing = [f for f in figures if not re.search(r"(?<!\d)" + re.escape(f) + r"(?!\d)", combined)]
+        if missing:
+            counts["missing"] += 1
+            shown = ", ".join("$" + m for m in missing)
+            rejected.append(Claim(claim.dimension, f"{claim.text} (price {shown} not found on the cited page)",
+                                  claim.source_ids))
+        else:
+            kept.append(claim)
+    return kept, rejected, counts
 
 
 def render_brief(
@@ -410,6 +458,20 @@ def main(
                 errors.append(f"brief attempt {attempt + 1}: {exc}")
     supported, unsupported = check_claims(claims, {s.id for s in sources})
 
+    # Pricing claims are checked against the full text of their cited pages before the brief is written.
+    sources_by_id = {s.id: s for s in sources}
+    price_counts: dict[str, int] = {}
+    priced = [c for c in supported if c.dimension == "pricing" and PRICE_RE.search(c.text)]
+    if priced:
+        urls = list({sources_by_id[i].url for c in priced for i in c.source_ids if i in sources_by_id})
+        try:
+            texts = fetch_page_text(tavily, urls)
+        except Exception as exc:  # the brief still gets written, with the checks marked unavailable
+            errors.append(f"price check fetch: {exc}")
+            texts = {}
+        supported, rejected, price_counts = verify_prices(supported, sources_by_id, texts)
+        unsupported = unsupported + rejected
+
     # 4. Write the brief and the run record.
     run_dir = out_dir / f"{re.sub(r'[^a-z0-9]+', '-', product.lower()).strip('-')}-{now.strftime('%Y%m%d-%H%M%S')}"
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -417,6 +479,7 @@ def main(
     (run_dir / "brief.md").write_text(brief)
     record = {
         "product": product,
+        "price_check": price_counts,
         "description": description,
         "category": category,
         "model": model,

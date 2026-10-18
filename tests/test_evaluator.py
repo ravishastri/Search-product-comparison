@@ -17,6 +17,7 @@ from evaluator import (  # noqa: E402
     plan_discovery,
     plan_searches,
     render_brief,
+    verify_prices,
 )
 
 
@@ -215,3 +216,42 @@ class RenderTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PriceCheckTests(unittest.TestCase):
+    def setUp(self):
+        self.sources = {"S1": Source("S1", "https://a.com", "A", "", "pricing", "q")}
+
+    def test_price_on_cited_page_is_kept(self):
+        claims = [Claim("pricing", "Basic is $10 per user per month.", ["S1"])]
+        kept, rejected, counts = verify_prices(claims, self.sources, {"https://a.com": "Basic $10 per user/month"})
+        self.assertEqual(len(kept), 1)
+        self.assertEqual(rejected, [])
+        self.assertEqual(counts["checked"], 1)
+
+    def test_price_not_on_cited_page_is_rejected(self):
+        claims = [Claim("pricing", "Plans range from $5,000 to $70,000.", ["S1"])]
+        kept, rejected, counts = verify_prices(claims, self.sources, {"https://a.com": "Plans from $70,000"})
+        self.assertEqual(kept, [])
+        self.assertEqual(len(rejected), 1)
+        self.assertIn("$5,000 not found on the cited page", rejected[0].text)
+        self.assertEqual(counts["missing"], 1)
+
+    def test_unfetched_page_keeps_claim_with_label(self):
+        claims = [Claim("pricing", "Basic is $10.", ["S1"])]
+        kept, rejected, counts = verify_prices(claims, self.sources, {"https://a.com": ""})
+        self.assertEqual(rejected, [])
+        self.assertIn("(price check unavailable)", kept[0].text)
+        self.assertEqual(counts["unavailable"], 1)
+
+    def test_price_does_not_match_inside_a_longer_number(self):
+        claims = [Claim("pricing", "Plan costs $10.", ["S1"])]
+        kept, rejected, _ = verify_prices(claims, self.sources, {"https://a.com": "Plan costs $100 per month"})
+        self.assertEqual(kept, [])
+        self.assertEqual(len(rejected), 1)
+
+    def test_non_pricing_claims_are_not_checked(self):
+        claims = [Claim("competitive", "Jira costs $10.", ["S1"])]
+        kept, rejected, counts = verify_prices(claims, self.sources, {"https://a.com": ""})
+        self.assertEqual(len(kept), 1)
+        self.assertEqual(counts["checked"], 0)
