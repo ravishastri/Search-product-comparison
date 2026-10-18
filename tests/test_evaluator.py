@@ -176,6 +176,17 @@ class CheckClaimsTests(unittest.TestCase):
 
 
 class RenderTests(unittest.TestCase):
+    def test_price_not_in_cited_text_is_flagged(self):
+        sources = [Source("S1", "https://a.com", "A", "Basic is $10 per user per month.", "pricing", "q")]
+        claims = [
+            Claim("pricing", "Basic costs $10 per user per month.", ["S1"]),
+            Claim("pricing", "Plans range from $5,000 to $70,000.", ["S1"]),
+        ]
+        brief = render_brief("Acme", [], claims, [], sources, "2026-10-18")
+        self.assertNotIn("Basic costs $10 per user per month. [S1] (date unknown) (price not in cited text)", brief)
+        self.assertIn("Basic costs $10 per user per month. [S1] (date unknown)\n", brief)
+        self.assertIn("(price not in cited text)", brief)
+
     def test_undated_sources_are_marked_in_brief(self):
         sources = [
             Source("S1", "https://a.com", "Dated", "", "reception", "q", published="2026-03-01"),

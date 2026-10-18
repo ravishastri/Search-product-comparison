@@ -10,15 +10,14 @@
     "dated_claims": 0.0,
     "stale_claims": 0,
     "errors": 0,
-    "ground_truth_price_recall": 0.667,
+    "ground_truth_price_recall": 1.0,
     "ground_truth_facts": 3,
     "ground_truth_found_in_brief": [
+      "$0",
       "$10 per user/month",
       "$16 per user/month"
     ],
-    "ground_truth_missing_from_brief": [
-      "$0"
-    ]
+    "ground_truth_missing_from_brief": []
   },
   "claims": [
     {

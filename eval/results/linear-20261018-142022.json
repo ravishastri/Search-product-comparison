@@ -1,0 +1,407 @@
+{
+  "summary": {
+    "run": "linear-20261018-142022",
+    "claims": 33,
+    "cited_ids_valid": 1.0,
+    "price_claims": 8,
+    "prices_in_cited_text": 0.625,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.576,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": 1.0,
+    "ground_truth_facts": 3,
+    "ground_truth_found_in_brief": [
+      "$0",
+      "$10 per user/month",
+      "$16 per user/month"
+    ],
+    "ground_truth_missing_from_brief": []
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "Linear offers a free plan that supports unlimited members across up to two teams and 250 issues",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's Basic plan costs $10, removes the issue limit, and allows up to five teams",
+      "all_ids_valid": true,
+      "prices": [
+        "$10,"
+      ],
+      "prices_in_cited_text": false,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's Business plan is priced at $16 per user per month",
+      "all_ids_valid": true,
+      "prices": [
+        "$16"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's Enterprise tier is available exclusively with annual billing",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear pricing plans can range from $5,000 to $70,000 depending on organizational needs",
+      "all_ids_valid": true,
+      "prices": [
+        "$5,000",
+        "$70,000"
+      ],
+      "prices_in_cited_text": false,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "A free version of Linear is available for organizations with up to two teams and lighter requirements",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's cost is affected by the number of teams, required features, and organization size",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Annual billing for Linear includes a discount",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's paid plans are structured with predictable per-user costs",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear has indicated that automations and coding features may shift to usage-based pricing beyond a certain threshold af",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "A 2026 roundup of Linear alternatives identifies Jira as best for advanced agile boards and YouTrack as best for AI-powe",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Zoye is positioned as the strongest alternative for teams that have outgrown pure issue tracking because it bundles task",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear is widely regarded as the fastest, most opinionated issue tracker available, favoring maximum velocity over flexi",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Atlassian is discontinuing its datacenter products including Jira in favor of cloud-only products, with server products ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "More than three-quarters of Atlassian customers now use cloud products",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Tech commentator Fireship described Jira as entrenched in large organizations despite widespread user frustration, while",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira suits teams that want deep agile structure, sprint management, and a large integration ecosystem, while Linear suit",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear is built for speed and simplicity with a clean, keyboard-friendly interface and Git-like workflow that appeals to",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear provides automatic issue linking from branches and pull requests and includes core agent features across all plan",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear describes its agents as first-class users that can be assigned issues, added to teams, and mentioned in comments",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Grok can connect to Linear workspaces to search backlogs, summarize sprint progress, draft updates, and create new issue",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack bundles features that Linear leaves to other tools, including Scrum and Kanban boards, sprint planning with dep",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack offers a cloud edition that is free for up to 10 users and a Server edition that can be self-hosted",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Plane is an open-source Linear alternative covering issues, cycles, modules, and pages; its hosted version is free for u",
+      "all_ids_valid": true,
+      "prices": [
+        "$6"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira's Standard plan is priced at $7.91 per user per month and its Premium plan at $14.54 per user per month, with month",
+      "all_ids_valid": true,
+      "prices": [
+        "$7.91",
+        "$14.54"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack's Standard cloud plan starts at $5.40 per user per month for monthly billing or $4.50 per user per month for an",
+      "all_ids_valid": true,
+      "prices": [
+        "$5.40",
+        "$4.50"
+      ],
+      "prices_in_cited_text": false,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "GitHub's Team plan costs $4 per user per month and its Enterprise plan starts at $21 per user per month",
+      "all_ids_valid": true,
+      "prices": [
+        "$4",
+        "$21"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira offers a free plan for up to 10 users, paid plans starting around $7 per user per month, and an Enterprise tier wit",
+      "all_ids_valid": true,
+      "prices": [
+        "$7"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Linear has earned a reputation as the fastest, most opinionated issue tracker available and is a favorite among small-to",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "A Coursera article states that Linear delivers exceptional performance and user experience for developers",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Users have praised Linear's speed and keyboard-first design, noting that the interface feels snappy and can be navigated",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Linear's CEO has declared that traditional issue tracking is dead as the company adopts agentic AI",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Linear's free plan is described as remarkably generous",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    }
+  ]
+}

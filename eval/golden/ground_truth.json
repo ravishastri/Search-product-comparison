@@ -4,7 +4,7 @@
     "Linear": {
       "file": "linear-pricing.yml",
       "facts": [
-        {"plan": "Free", "price": "$0", "quote": "$0", "context_verified": false},
+        {"plan": "Free", "price": "$0", "quote": "$0", "match": "free", "context_verified": false},
         {"plan": "Basic", "price": "$10 per user/month", "quote": "$10 per user/month", "context_verified": true},
         {"plan": "Business", "price": "$16 per user/month", "quote": "$16 per user/month", "context_verified": true}
       ]

@@ -88,12 +88,17 @@ def check_run(run_dir: Path, ground_truth: dict | None, product: str | None, tod
     if ground_truth and product and product in ground_truth.get("products", {}):
         facts = ground_truth["products"][product]["facts"]
         amounts = [f["price"] for f in facts]
-        found = [f for f in facts if PRICE.search(f["price"]) and any(
-            p in brief for p in PRICE.findall(f["price"]))]
+        def in_brief(f: dict) -> bool:
+            # "match" is a plain term (for example "free") for facts with no dollar amount.
+            if "match" in f:
+                return f["match"].lower() in brief.lower()
+            return any(p in brief for p in PRICE.findall(f["price"]))
+
+        found = [f for f in facts if in_brief(f)]
         summary["ground_truth_price_recall"] = round(len(found) / len(facts), 3) if facts else None
         summary["ground_truth_facts"] = len(facts)
         summary["ground_truth_found_in_brief"] = [f["price"] for f in found]
-        summary["ground_truth_missing_from_brief"] = [a for a in amounts if a not in [f["price"] for f in found]]
+        summary["ground_truth_missing_from_brief"] = [f["price"] for f in facts if f not in found]
 
     return {"summary": summary, "claims": rows}
 

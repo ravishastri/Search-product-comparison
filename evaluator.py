@@ -243,6 +243,7 @@ def render_brief(
         "",
     ]
     dated = {s.id: bool(s.published) for s in sources}
+    text_by_id = {s.id: s.content for s in sources}
     for dimension, title in DIMENSION_TITLES.items():
         lines += [f"## {title}", ""]
         items = [c for c in supported if c.dimension == dimension]
@@ -253,6 +254,10 @@ def render_brief(
             cites = "".join(f"[{i}]" for i in claim.source_ids)
             undated = not any(dated.get(i, False) for i in claim.source_ids)
             note = " (date unknown)" if undated else ""
+            # A price in the claim must appear in the text of a cited source; otherwise flag it.
+            cited_text = " ".join(text_by_id.get(i, "") for i in claim.source_ids)
+            if any(p not in cited_text for p in re.findall(r"\$\d[\d,]*(?:\.\d+)?", claim.text)):
+                note += " (price not in cited text)"
             lines.append(f"- {claim.text} {cites}{note}")
         lines.append("")
 
