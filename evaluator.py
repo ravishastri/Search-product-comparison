@@ -78,6 +78,8 @@ class PlannedSearch:
     query: str
     time_range: str | None = None
     start_date: str | None = None  # YYYY-MM-DD; results dated before this are dropped
+    topic: str | None = None  # "news" returns published_date; general results often have none
+    require_date: bool = False  # drop results with no published date (for time-sensitive claims)
 
 
 @dataclass
@@ -108,8 +110,9 @@ def plan_searches(product: str, similar: list[str], today: date) -> list[Planned
     """Fixed query plan for the three dimensions. Reception covers the last 365 days only."""
     cutoff = (today - timedelta(days=365)).isoformat()
     plan = [PlannedSearch("pricing", f"{name} pricing plans") for name in [product, *similar]]
-    plan += [PlannedSearch("competitive", f"{product} vs {name} features", start_date=cutoff) for name in similar]
-    plan.append(PlannedSearch("reception", f"{product} launch reviews {today.year}", start_date=cutoff))
+    dated = {"start_date": cutoff, "topic": "news", "require_date": True}
+    plan += [PlannedSearch("competitive", f"{product} vs {name} features", **dated) for name in similar]
+    plan.append(PlannedSearch("reception", f"{product} launch reviews {today.year}", **dated))
     return plan
 
 
@@ -122,8 +125,10 @@ def add_sources(registry: list[Source], planned: PlannedSearch, results: list[di
         if not url or url in known:
             continue
         published = (result.get("published_date") or "")[:10]
+        if planned.require_date and not published:
+            continue  # time-sensitive claims need a date to check
         if planned.start_date and published and published < planned.start_date:
-            continue  # dated before the search window; undated results are kept
+            continue  # dated before the search window; undated results are kept unless require_date
         known.add(url)
         source = Source(
             id=f"S{len(registry) + 1}",
@@ -290,12 +295,15 @@ def search(tavily: TavilyClient, planned: PlannedSearch) -> list[dict[str, Any]]
         kwargs["time_range"] = planned.time_range
     if planned.start_date:
         kwargs["start_date"] = planned.start_date
+    if planned.topic:
+        kwargs["topic"] = planned.topic
     get_client().update_current_span(
         name=f"tavily_search:{planned.dimension}",
         input={
             "query": planned.query,
             "time_range": planned.time_range,
             "start_date": planned.start_date,
+            "topic": planned.topic,
             "search_depth": "advanced",
         },
     )
@@ -352,7 +360,7 @@ def main(
             # The discovery results often say nothing about a shutdown, so the judge needs evidence
             # about the candidate itself.
             for name in candidates:
-                status_search = PlannedSearch("status", f"{name} discontinued or shut down")
+                status_search = PlannedSearch("status", f"{name} discontinued or shut down", topic="news", require_date=True)
                 try:
                     add_sources(sources, status_search, search(tavily, status_search))
                 except Exception as exc:

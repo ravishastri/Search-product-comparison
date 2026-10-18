@@ -82,6 +82,29 @@ class SourceTests(unittest.TestCase):
                     [{"url": "https://a.com", "title": "A", "published_date": "2026-02-03T10:00:00"}])
         self.assertEqual(registry[0].published, "2026-02-03")
 
+    def test_require_date_drops_undated_results(self):
+        registry: list[Source] = []
+        planned = PlannedSearch("reception", "q", topic="news", require_date=True)
+        add_sources(registry, planned, [
+            {"url": "https://a.com", "title": "A", "published_date": "2026-02-03"},
+            {"url": "https://b.com", "title": "B"},
+        ])
+        self.assertEqual([s.url for s in registry], ["https://a.com"])
+
+    def test_undated_results_kept_without_require_date(self):
+        registry: list[Source] = []
+        add_sources(registry, PlannedSearch("pricing", "q"), [{"url": "https://b.com", "title": "B"}])
+        self.assertEqual(len(registry), 1)
+
+    def test_time_sensitive_searches_use_news_and_require_dates(self):
+        plan = plan_searches("Acme", ["Beta"], date(2026, 10, 18))
+        for p in plan:
+            if p.dimension in ("competitive", "reception"):
+                self.assertEqual(p.topic, "news")
+                self.assertTrue(p.require_date)
+            if p.dimension == "pricing":
+                self.assertFalse(p.require_date)
+
 
 class ParseTests(unittest.TestCase):
     def test_parse_similar_strips_prose_and_fences(self):
