@@ -54,6 +54,15 @@ Each run's problems are listed with the fix and its status. Runs are listed in t
 | Environment | `.env` Nebius key is rejected here (401, then "Invalid HTTP request"), while the key in the user's shell works. | Run the evaluator from the user's terminal, or re-enter the key in `.env`. | **Open.** |
 | All runs | The judge checks 600-character snippets, not full pages, so "not in cited text" can mean "not in the snippet". | Fetch and store full page text for each cited source, then judge against that. | **Open**, the highest-priority fix. |
 
+### Runs after the key fix (Linear, 2026-10-18)
+
+| Run | Problem | Fix | Status |
+|---|---|---|---|
+| Judge (`eval/judge.py`) | The claim pattern allowed only one trailing "(…)" note. A claim with two notes ("(date unknown) (price not in cited text)") was dropped silently, so the judge counted 33 claims in a run that had 34. | Pattern now accepts any number of trailing notes. Both Linear runs rejudged. Earlier judge numbers for `142022` are superseded. | **Done** |
+| `.env` Nebius key | Pasting into the hidden prompt was unreliable: the paste failed twice, and one attempt left a stray file holding a copy of the keys. | Copy from the shell variable straight into `.env` with `printf ... "$NEBIUS_API_KEY"`. Stray file deleted. Length checked: 236 characters, matching the shell key. | **Done** |
+| Evaluator `linear-20261018-143031` | None blocking. All 34 claims have valid IDs, 0 errors. The `$5,000` range claim is still in the brief but is now labeled "(price not in cited text)". | Label is working as designed. Removing such claims still needs the LLM judge (full page text). | **Partial** |
+| Starter baseline (`eval/runs/starter/linear.txt`) | Output is free text with inline URLs, not source IDs, so the judge cannot score it. Measured without claim extraction: 61 bullet or table lines, 36 (59%) with a URL. 37 price mentions. All 3 ground-truth facts present. No `$5,000` claim. | Build a claim extractor for free-text output, then judge both systems with the same LLM judge against full page text. | **Open**, next step |
+
 ## Decisions and trade-offs
 
 Each decision lists what we chose, the cost, and what we would change next.

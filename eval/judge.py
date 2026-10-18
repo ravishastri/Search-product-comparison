@@ -18,7 +18,7 @@ from pathlib import Path
 
 PRICE = re.compile(r"\$\d[\d,]*(?:\.\d+)?")
 QUOTE = re.compile(r'"([^"]{8,})"')
-CLAIM = re.compile(r"^- (?P<text>.+?)\s*(?P<cites>(?:\[S\d+\])+)\s*(?:\((?P<date>[^)]*)\))?\s*$")
+CLAIM = re.compile(r"^- (?P<text>.+?)\s*(?P<cites>(?:\[S\d+\])+)(?P<notes>(?:\s*\([^)]*\))*)\s*$")
 STALE_DAYS = 365
 
 
