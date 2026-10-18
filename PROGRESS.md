@@ -28,8 +28,8 @@ Working log for the take-home. Update the checkboxes and the log as we go. Produ
 ### Phase 0: Repo setup
 - [x] Initialize git repo (branch `main`, no commits yet)
 - [x] `.gitignore` excludes `.env`, `.venv/`, `__pycache__/`, `starter_agent.py`, and the assignment doc
-- [ ] First commit (waiting on your go-ahead)
-- [ ] Create a GitHub remote and push (waiting on your go-ahead)
+- [x] First commit (`4eda3e2`, plus `b1e693b` and `7516234` on branch `evaluator-brief-fixes`)
+- [x] Create a GitHub remote and push (`origin`, branch `evaluator-brief-fixes` pushed; not merged to `main`)
 
 ### Phase 1: Understand the starter
 - [x] Read the rest of `starter_agent.py` (streaming and output logic)
@@ -115,6 +115,10 @@ Working log for the take-home. Update the checkboxes and the log as we go. Produ
   - Option 1 applied: undated sources are flagged in the brief. Each source line shows its date or "date unknown", and any claim whose cited sources are all undated gets a "(date unknown)" note. `published` is saved per source in `run.json`. 25 unit tests pass. Replaying run `linear-20261018-112014` through the new renderer shows the flags. Live re-run not done yet.
   - Run `linear-20261018-112447`: similar products Jira, GitHub Issues, YouTrack; Height retired. 68 sources, none dated, so every claim is flagged "date unknown," as intended. 0 unsupported claims. Two problems: (1) the brief is mostly long quotes, a side effect of the earlier "one quote per claim" rule. The prompt now asks for paraphrase, with quotes of at most 10 words. (2) The first brief attempt hit the 16,384-token output limit with an empty reply, and the second attempt worked. The model spends most of its output budget on reasoning. Live re-run not done yet.
   - Takeaway: these tools simulate consumers. Our differentiator is sourced, checkable evidence from Tavily, plus an eval that measures whether claims are supported. Avoid claiming causal predictions. A 2025 arXiv paper found persona simulations can fail on causal questions.
+  - Brief fixes (session 2026-10-18, later). The first brief attempt still hit the output limit on run `linear-20261018-112447`. Raised `max_tokens` from 16384 to 32768. The brief prompt now requires paraphrase with no quotation marks, which replaces the one-quote-per-claim rule. 25 unit tests pass.
+  - Live run `linear-20261018-113305` (run by the user in their terminal): 0 errors, so the first attempt finished. 69 sources. The brief has 0 quotation marks, down from 17 in the previous run. Claims still cite source IDs. All sources are undated, so every claim carries "(date unknown)". Not yet checked: claim support against the cited text, and the Plane "roughly 40% less than Linear's Basic tier" comparison, and the Huly "discontinued" line.
+  - Git: fix committed as `b1e693b` (evaluator, tests, run `linear-20261018-113305`). Remaining project files committed as `7516234`, excluding `starter_agent.py`, which is gitignored. Branch `evaluator-brief-fixes` pushed to `origin`. The commit includes `.playwright-mcp/`, which holds Langfuse dashboard snapshots from the Playwright session. Not yet removed.
+  - Observability: Playwright MCP is connected to Claude Code, and the Langfuse project home is readable. The ERROR-level trace view loaded, but which observations carry the errors is not yet confirmed.
 
 ## Build record
 
