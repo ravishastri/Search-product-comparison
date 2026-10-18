@@ -18,6 +18,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -39,7 +40,10 @@ Answer:
 Quote the single sentence from the source that decides your answer, copied character for character.
 Return only JSON: {"verdict": "supported" | "contradicted" | "not_stated", "evidence": "..."}"""
 
-MAX_CHARS_PER_URL = 20000
+# A different family from the generator (Kimi). Chosen from the Nebius catalog; it accepted
+# 150,000 characters in a test, and each judged claim gets up to 3 pages of 50,000 characters.
+JUDGE_MODEL = os.environ.get("JUDGE_MODEL", "moonshotai/Kimi-K2.6")  # best on the 26-claim sample; see calibration notes
+MAX_CHARS_PER_URL = 50000
 MAX_URLS_PER_CLAIM = 3
 
 
@@ -86,7 +90,7 @@ def main(src: str, out: str) -> None:
     all_urls = [u for c in claims for u in c["urls"][:MAX_URLS_PER_CLAIM]]
     pages = fetch(all_urls)
     # Per-call timeout so one slow reply cannot stall the whole run.
-    llm = ChatNebius(model="moonshotai/Kimi-K2.6", max_tokens=32768, timeout=120, max_retries=1)
+    llm = ChatNebius(model=JUDGE_MODEL, max_tokens=32768, timeout=300, max_retries=1, temperature=0)
 
     rows = []
     for n, c in enumerate(claims, 1):

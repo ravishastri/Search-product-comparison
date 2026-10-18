@@ -47,7 +47,7 @@ def parse_json(text: str) -> dict:
 
 def main(src: str, out: str) -> None:
     answer = answer_text(Path(src).read_text())
-    Path(out).with_name("answer.md").write_text(answer)  # kept so the input can be checked
+    Path(out).with_name(f"{Path(out).stem}.answer.md").write_text(answer)  # kept so the input can be checked
     llm = ChatNebius(model="moonshotai/Kimi-K2.6", max_tokens=32768)
     reply = llm.invoke([{"role": "system", "content": PROMPT}, {"role": "user", "content": answer}]).content
     claims = [c for c in parse_json(reply).get("claims", []) if c.get("text")]
