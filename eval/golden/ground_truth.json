@@ -1,0 +1,70 @@
+{
+  "_status": "EXTRACTED from the captured pages in this folder (captured 2026-10-18). Each fact quotes a price line found in its snapshot. The plan name and billing context are inferred where marked and need human review before the set is used for scoring.",
+  "products": {
+    "Linear": {
+      "file": "linear-pricing.yml",
+      "facts": [
+        {"plan": "Free", "price": "$0", "quote": "$0", "context_verified": false},
+        {"plan": "Basic", "price": "$10 per user/month", "quote": "$10 per user/month", "context_verified": true},
+        {"plan": "Business", "price": "$16 per user/month", "quote": "$16 per user/month", "context_verified": true}
+      ]
+    },
+    "Jira": {
+      "file": "jira-pricing.yml",
+      "facts": [
+        {"plan": "Free", "price": "$0", "quote": "$0", "context_verified": false},
+        {"plan": "Standard (inferred)", "price": "$8.48", "quote": "$8.48", "context_verified": false},
+        {"plan": "Premium (inferred)", "price": "$15.56", "quote": "$15.56", "context_verified": false}
+      ]
+    },
+    "Plane": {
+      "file": "plane-pricing.yml",
+      "facts": [
+        {"plan": "Free (inferred)", "price": "$0", "quote": "$0", "context_verified": false},
+        {"plan": "Pro (inferred)", "price": "$6 per seat per month", "quote": "$6 seat per month", "context_verified": true},
+        {"plan": "Business (inferred)", "price": "$13", "quote": "$13", "context_verified": false}
+      ]
+    },
+    "ClickUp": {
+      "file": "clickup-pricing.yml",
+      "facts": [
+        {"plan": "unknown", "price": "$7", "quote": "$7", "context_verified": false},
+        {"plan": "unknown", "price": "$10", "quote": "$10", "context_verified": false},
+        {"plan": "unknown", "price": "$12", "quote": "$12", "context_verified": false},
+        {"plan": "unknown", "price": "$19", "quote": "$19", "context_verified": false}
+      ],
+      "notes": "Snapshot also contains competitor tooltips (Airtable, Asana, Jira, ChatGPT, etc.). Those are NOT ClickUp prices and are excluded on purpose."
+    },
+    "Trello": {
+      "file": "trello-pricing.yml",
+      "facts": [
+        {"plan": "Free", "price": "$0", "quote": "$0USD", "context_verified": false},
+        {"plan": "Standard (inferred)", "price": "$5 per user/month billed annually", "quote": "$5USD; Per user/month if billed annually ($6 billed monthly)", "context_verified": true},
+        {"plan": "Premium (inferred)", "price": "$10 per user/month billed annually", "quote": "$10USD; Per user/month if billed annually ($12.50 billed monthly)", "context_verified": true},
+        {"plan": "Enterprise (inferred)", "price": "$17.50 per user/month billed annually", "quote": "$17.50USD; Per user/month - billed annually ($210.00 annual price per user)", "context_verified": true}
+      ]
+    },
+    "Asana": {
+      "file": "asana-pricing.yml",
+      "facts": [
+        {"plan": "Starter (inferred)", "price": "$10.99", "quote": "$10.99", "context_verified": false},
+        {"plan": "Advanced (inferred)", "price": "$24.99", "quote": "$24.99", "context_verified": false},
+        {"plan": "AI add-on", "price": "$5.99 per user per month billed annually", "quote": "$5.99 per user, per month billed annually. Available on Starter, Advanced, Enterprise, and Enterprise+ plans", "context_verified": true}
+      ]
+    },
+    "YouTrack": {
+      "file": "youtrack-pricing.yml",
+      "facts": [
+        {"plan": "per-user tier (lowest)", "price": "$2.81 per user/month", "quote": "$2.81", "context_verified": false},
+        {"plan": "per-user starting price", "price": "$5.40 per user/month", "quote": "Monthly subscription prices start from $5.40 per user/month", "context_verified": true},
+        {"plan": "Helpdesk agent", "price": "$6 per agent/month", "quote": "the price per agent is fixed at $6 per agent/month for monthly subscriptions", "context_verified": true}
+      ],
+      "notes": "Conflict on the page: the tier table shows $4.50 down to $2.81 per user, while the text says prices start from $5.40. Both are on the page; the brief should show the conflict."
+    },
+    "Shortcut": {
+      "file": "shortcut-pricing.yml",
+      "facts": [],
+      "notes": "MISSING. Plans (Free, Team, Business, Enterprise) appear in the snapshot, but no prices were captured. The prices are likely in a user-count slider that did not render. Needs a manual capture before use."
+    }
+  }
+}

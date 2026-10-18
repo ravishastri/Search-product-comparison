@@ -1,0 +1,533 @@
+{
+  "summary": {
+    "run": "linear-20261018-113305",
+    "claims": 45,
+    "cited_ids_valid": 1.0,
+    "price_claims": 6,
+    "prices_in_cited_text": 0.833,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.0,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": 0.667,
+    "ground_truth_facts": 3,
+    "ground_truth_found_in_brief": [
+      "$10 per user/month",
+      "$16 per user/month"
+    ],
+    "ground_truth_missing_from_brief": [
+      "$0"
+    ]
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "Linear offers a free plan that caps usage at two teams and 250 active issues while allowing unlimited members, and it in",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's Basic tier costs $10 per user per month with annual billing and includes unlimited issues, guest access, advanc",
+      "all_ids_valid": true,
+      "prices": [
+        "$10"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's Business tier costs $16 per user per month with annual billing and adds priority support, advanced analytics, S",
+      "all_ids_valid": true,
+      "prices": [
+        "$16"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear's Enterprise plan uses custom pricing and includes dedicated support, advanced security, and compliance features.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "According to Spendflo, Linear pricing plans range from $5,000 to $70,000 depending on organizational needs.",
+      "all_ids_valid": true,
+      "prices": [
+        "$5,000",
+        "$70,000"
+      ],
+      "prices_in_cited_text": false,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Factors that affect Linear pricing include the number of teams, required features, and organization size, with discounts",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Guest accounts require Linear's Business plan and are billed as regular members rather than at a reduced rate.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Some Linear AI features, including coding sessions and loops, consume prepaid AI credits, while the remainder of its AI ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Plane's managed cloud service starts at $6 per user per month when billed annually.",
+      "all_ids_valid": true,
+      "prices": [
+        "$6"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Plane's 10-seat Pro plan costs roughly 40% less than Linear's Basic tier.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "GitHub's Team plan is priced at $4 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$4"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "GitHub's Enterprise plan starts at $21 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$21"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Plane offers a free self-hosted tier with no per-seat cost for teams running the software on their own infrastructure.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear is intentionally narrow and built for Engineering, Product, and Design teams that want a polished, cloud-hosted s",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear offers an interface optimized for keyboard navigation, automated sprint management, and streamlined design.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Plane serves Engineering, Marketing, Operations, and Customer Success teams, while Linear targets only Engineering, Prod",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Plane is an open-source alternative that supports self-hosting via Docker, and Codegen describes its codebase as MIT-lic",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "According to Zoobbe, Plane is licensed under AGPL-3.0.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Plane mirrors Linear's core model by using cycles for sprints, modules for epics, and a keyboard-driven interface.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Codegen states that Plane's interface is improving but still falls behind Linear in the refinement of keyboard shortcuts",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Plane provides a spreadsheet view for bulk-editing issues in a table format, a capability reviewers say is not natively ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Plane includes integrated pages tied to projects, which means teams may not need a separate wiki tool for specifications",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Hosted Huly has been discontinued and is no longer funded or available, though the software can still be self-hosted.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Huly is an open-source platform licensed under EPL-2.0 that combines project tracking, documents, team chat, video calls",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Huly includes two-way GitHub synchronization, built-in video conferencing, and collaborative wiki documents.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Huly runs multiple services in Docker containers and is described as more resource-intensive than simpler tools.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Huly offers syntax highlighting in code blocks for technical documentation.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "GitHub Issues integrates tightly with code repositories and mixes timeline data with CI events, pull request reviews, an",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear's GitHub integration links issues to pull requests and commits and automatically updates issue status as pull req",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear generates consistent issue identifiers that allow branches or pull requests containing those identifiers to autom",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear maintains a detailed history of every state change, comment, and assignment, which supports automatic generation ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "DevToolReviews reports that Linear loads instantly and processes actions in under 100 milliseconds, using aggressive loc",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira offers maximum configurability for complex organizations.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Plane has a smaller integration ecosystem and more basic reporting and mobile experience than older tools, reflecting it",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Alfred_ notes that Plane is the only major Linear alternative that allows full self-hosting on a team's own servers at n",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear provides an agent platform and an official MCP server.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear Agent launched in public beta on March 24, 2026, and can be assigned to issues, added to projects, and used to tr",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear introduced Shared Skills on June 4, 2026, allowing teams to save and reuse agent instructions.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear's Coding Sessions became generally available on June 11, 2026, on Basic, Business, and Enterprise plans and allow",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Linear earned a reputation for being the fastest and most opinionated issue tracker available.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Agiflow states that Linear is a best-in-class product development system with strong capabilities in cycles, triage, ins",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Bundl rated Linear 4.7 out of 5 in August 2026 and described it as the default modern issue tracker for product-engineer",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "A Bundl review cited the free plan's 250-issue cap and annual-only paid billing as the main drawbacks.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Linear holds a rating of 4.6 out of 5 on G2 based on 122 reviews.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Linear holds a rating of 4.4 out of 5 on Capterra based on 5 reviews.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    }
+  ]
+}
