@@ -1,0 +1,146 @@
+[1/135] no_source_text: Linear offers one free tier and three paid tiers billed annually.
+[2/135] supported: The Linear Free plan is $0.
+[3/135] supported: The Linear Free plan includes unlimited members.
+[4/135] supported: The Linear Free plan includes 2 teams.
+[5/135] supported: The Linear Free plan includes 250 active issues.
+[6/135] supported: The Linear Free plan includes 10MB file uploads.
+[7/135] supported: The Linear Free plan includes Agent platform.
+[8/135] supported: The Linear Basic plan is $10/user/month.
+[9/135] supported: The Linear Basic plan includes 5 teams.
+[10/135] supported: The Linear Basic plan includes unlimited issues.
+[11/135] supported: The Linear Basic plan includes unlimited file uploads.
+[12/135] supported: The Linear Basic plan includes admin roles.
+[13/135] supported: The Linear Business plan is $16/user/month.
+[14/135] supported: The Linear Business plan includes unlimited teams.
+[15/135] supported: The Linear Business plan includes private teams.
+[16/135] supported: The Linear Business plan includes guest access.
+[17/135] supported: The Linear Business plan includes Linear Insights.
+[18/135] supported: The Linear Business plan includes Linear Asks.
+[19/135] supported: The Linear Business plan includes Triage Intelligence.
+[20/135] supported: The Linear Business plan includes Zendesk/Intercom integrations.
+[21/135] not_stated: The Linear Enterprise plan is Custom (annual only).
+[22/135] supported: The Linear Enterprise plan includes SAML/SCIM.
+[23/135] supported: The Linear Enterprise plan includes enterprise security.
+[24/135] supported: The Linear Enterprise plan includes migration support.
+[25/135] supported: The Linear Enterprise plan includes priority support.
+[26/135] contradicted: Linear raised prices in 2025.
+[27/135] supported: Linear previously charged $8 for Basic.
+[28/135] supported: Linear previously charged $14 for Plus.
+[29/135] supported: Linear expanded the free tier to unlimited members with the 250-issue 
+[30/135] supported: The Jira Free plan is $0.
+[31/135] supported: The Jira Free plan is up to 10 users.
+[32/135] supported: The Jira Free plan includes 2GB storage.
+[33/135] supported: The Jira Free plan includes community support.
+[34/135] supported: The Jira Standard plan is ~$7.53–$8.60/user/month.
+[35/135] supported: The Jira Standard plan includes project roles.
+[36/135] not_stated: The Jira Standard plan includes audit logs.
+[37/135] supported: The Jira Standard plan price varies by tier size.
+[38/135] contradicted: The Jira Premium plan is ~$12–$16/user/month.
+[39/135] not_stated: The Jira Premium plan includes Advanced roadmaps.
+[40/135] not_stated: The Jira Premium plan includes global automation.
+[41/135] supported: The Jira Premium plan includes 24/7 support.
+[42/135] supported: The Jira Enterprise plan is Custom.
+[43/135] supported: The Jira Enterprise plan includes unlimited sites.
+[44/135] not_stated: The Jira Enterprise plan includes cross-product analytics.
+[45/135] not_stated: The Jira Enterprise plan includes advanced security.
+[46/135] supported: Atlassian raised cloud pricing 5–20% in October 2024.
+[47/135] supported: Jira Data Center pricing jumped 15% in February 2026.
+[48/135] no_source_text: GitHub Issues is free with every repository (public or private).
+[49/135] supported: The GitHub Free plan is $0/month.
+[50/135] supported: The GitHub Free plan includes unlimited repos.
+[51/135] supported: The GitHub Free plan includes 2,000 CI/CD minutes/month.
+[52/135] not_stated: The GitHub Free plan includes basic Issues & Projects.
+[53/135] supported: The GitHub Team plan is $4/user/month.
+[54/135] supported: The GitHub Team plan includes protected branches.
+[55/135] not_stated: The GitHub Team plan includes required reviewers.
+[56/135] supported: The GitHub Team plan includes 3,000 CI/CD minutes.
+[57/135] supported: The GitHub Enterprise plan is from $21/user/month.
+[58/135] supported: The GitHub Enterprise plan includes SAML SSO.
+[59/135] supported: The GitHub Enterprise plan includes audit logs.
+[60/135] supported: The GitHub Enterprise plan includes 50,000 CI/CD minutes.
+[61/135] supported: The GitHub Enterprise plan includes advanced security.
+[62/135] supported: There is no separate charge for issue tracking itself.
+[63/135] supported: Issue tracking is included in all GitHub plans.
+[64/135] no_source_text: YouTrack changed to per-user pricing effective October 1, 2025.
+[65/135] no_source_text: It was YouTrack's first increase since launching in 2020.
+[66/135] supported: The YouTrack Free plan is $0.
+[67/135] supported: The YouTrack Free plan is up to 10 users (unchanged).
+[68/135] supported: The YouTrack Cloud Monthly plan is from $5.40/user/month.
+[69/135] not_stated: The YouTrack Cloud Monthly rate decreases as user count rises.
+[70/135] supported: The YouTrack Cloud Monthly plan includes all features.
+[71/135] supported: The YouTrack Cloud Annual plan is from $4.50/user/month.
+[72/135] supported: The YouTrack Cloud Annual plan includes 2 months free.
+[73/135] supported: The YouTrack Cloud Annual per-user rate decreases with scale.
+[74/135] supported: The YouTrack HelpDesk add-on is $6/user/month (monthly).
+[75/135] contradicted: The YouTrack HelpDesk add-on is $5.50/user/month (annual).
+[76/135] supported: The YouTrack HelpDesk add-on is free for first 3 agents.
+[77/135] supported: The YouTrack HelpDesk add-on includes unlimited reporters.
+[78/135] supported: The YouTrack Server plan is custom/per-pack.
+[79/135] supported: YouTrack Server is an on-premise option.
+[80/135] supported: Perpetual licenses are valid for pre-June 2026 buyers.
+[81/135] contradicted: YouTrack includes all features at no extra charge regardless of plan.
+[82/135] supported: YouTrack includes AI assistance at no extra charge regardless of plan.
+[83/135] no_source_text: Linear has ~40 core dev integrations (GitHub, Slack, Figma, Notion).
+[84/135] no_source_text: Jira has 3,000+ integrations across all departments.
+[85/135] no_source_text: Linear Agent includes triage.
+[86/135] no_source_text: Linear Agent includes issue creation from Slack.
+[87/135] no_source_text: Linear Agent includes duplicate detection.
+[88/135] no_source_text: Atlassian Intelligence includes summaries.
+[89/135] no_source_text: Atlassian Intelligence includes search.
+[90/135] no_source_text: Copilot is sold separately for GitHub.
+[91/135] no_source_text: YouTrack AI Features are included at no extra cost.
+[92/135] not_stated: Linear raised a $52M Series B at a $400M valuation in 2022.
+[93/135] not_stated: Linear reached 40,000+ companies by 2025.
+[94/135] not_stated: Linear reached companies including Vercel and Ramp.
+[95/135] not_stated: Jira launched simplified "Team-managed" projects.
+[96/135] not_stated: Jira has continued tightening GitHub integrations.
+[97/135] not_stated: Many teams outgrow GitHub Issues around 500 tickets.
+[98/135] not_stated: Many teams migrate to Linear or Jira for structured workflows.
+[99/135] not_stated: YouTrack is particularly strong in Eastern Europe.
+[100/135] not_stated: YouTrack is particularly strong in Russia.
+[101/135] supported: YouTrack is particularly strong among JetBrains IDE users.
+[102/135] not_stated: YouTrack offers a full feature set (including AI).
+[103/135] not_stated: YouTrack offers features at roughly half the per-seat cost of competit
+[104/135] supported: YouTrack offers cloud options.
+[105/135] supported: YouTrack offers self-hosted options.
+[106/135] supported: YouTrack offers cloud and self-hosted options without enterprise-only 
+[107/135] supported: One 2024 developer survey scored Linear 4.6/5 for UX.
+[108/135] supported: One 2024 developer survey scored Jira 3.2/5 for UX.
+[109/135] supported: Linear's G2 Rating is ~4.5/5.
+[110/135] supported: Linear's Trustpilot rating is 2.7/5.
+[111/135] supported: Linear has only 10 reviews on Trustpilot.
+[112/135] not_stated: Many Trustpilot reviews appear conflated with an unrelated energy comp
+[113/135] not_stated: Linear launched Linear Agent in 2025.
+[114/135] supported: Linear Agent is a built-in AI agent.
+[115/135] supported: Linear Agent uses workspace context (threads, backlog, customer reques
+[116/135] not_stated: Linear Agent synthesizes recommendations.
+[117/135] supported: Linear Agent takes action.
+[118/135] not_stated: "Everyone hated Jira" is a common trope.
+[119/135] supported: Negative sentiment toward Jira was part of Linear's founding insight.
+[120/135] supported: Jira's G2 Rating is ~4.3/5.
+[121/135] supported: Jira Enterprise Capabilities are rated 4.4/5 for enterprise features.
+[122/135] supported: Linear Enterprise Capabilities are rated 3.6/5 for enterprise features
+[123/135] supported: Atlassian had rising prices (5–20% in 2024/2025).
+[124/135] supported: Jira requires paid add-ons for roadmaps.
+[125/135] supported: Jira requires paid add-ons for Gantt.
+[126/135] supported: Jira requires paid add-ons for time tracking.
+[127/135] supported: GitHub Projects v2 includes boards, custom fields, and roadmaps.
+[128/135] not_stated: GitHub Projects v2 narrowed the gap with Jira/Linear.
+[129/135] supported: GitHub added sub-issues in 2024–2025.
+[130/135] not_stated: GitHub added dependencies in 2024–2025.
+[131/135] not_stated: Teams commonly start with GitHub Issues.
+[132/135] not_stated: Teams move to Linear or Jira at ~500 tickets.
+[133/135] not_stated: Teams move to Linear or Jira for multi-repo complexity.
+[134/135] supported: AI assistance is included free with all YouTrack subscriptions.
+[135/135] not_stated: Competitors gate or upsell AI.
+{
+  "claims": 135,
+  "supported": 88,
+  "contradicted": 4,
+  "not_stated": 30,
+  "unverified_evidence": 0,
+  "no_source_text": 13,
+  "support_rate": 0.652,
+  "contradiction_rate": 0.03
+}
+wrote eval/results/starter-llm.json

@@ -9,3 +9,4 @@ __pycache__/
 # Assignment materials (not part of the submission)
 starter_agent.py
 2606_Tavily_FDE_TakeHomeAssignment.md
+eval/cache/

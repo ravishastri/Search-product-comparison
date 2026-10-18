@@ -63,6 +63,31 @@ Each run's problems are listed with the fix and its status. Runs are listed in t
 | Evaluator `linear-20261018-143031` | None blocking. All 34 claims have valid IDs, 0 errors. The `$5,000` range claim is still in the brief but is now labeled "(price not in cited text)". | Label is working as designed. Removing such claims still needs the LLM judge (full page text). | **Partial** |
 | Starter baseline (`eval/runs/starter/linear.txt`) | Output is free text with inline URLs, not source IDs, so the judge cannot score it. Measured without claim extraction: 61 bullet or table lines, 36 (59%) with a URL. 37 price mentions. All 3 ground-truth facts present. No `$5,000` claim. | Build a claim extractor for free-text output, then judge both systems with the same LLM judge against full page text. | **Open**, next step |
 
+## Results: starter vs evaluator (Linear, LLM judge)
+
+Both systems were judged by `eval/llm_judge.py`, which reads the full text of each cited page and accepts a verdict only when its quoted evidence is verbatim in that text.
+
+| System | Claims | Supported | Contradicted | Not stated | No source text | Support rate |
+|---|---|---|---|---|---|---|
+| Starter | 135 | 88 | 4 | 30 | 13 | 65% |
+| Evaluator (`linear-20261018-143031`) | 34 | 30 | 0 | 3 | 1 | 88% |
+
+Caveats, to state in the interview:
+- The starter's answer is much longer (135 claims against 34), so the rates are not counts from the same set of claims.
+- The judge is the same model that wrote the starter's and the evaluator's text. It has not been checked against hand labels yet.
+- Page text is capped at 20,000 characters per URL, so a claim whose evidence sits later on the page can be marked "not stated".
+
+### Problems from these runs, and fixes
+
+| Run | Problem | Fix | Status |
+|---|---|---|---|
+| Starter judge, first run | The judge ran for about 85 minutes with no output and had to be stopped. It had no per-call timeout and printed nothing until the end. | Per-call timeout (120 s), one retry, progress output for each claim, and a recorded error instead of a stalled run. Restart finished in about 40 minutes with 0 errors. | **Done** |
+| Starter judge | 13 claims have no fetchable source text, so they cannot be judged. | Failed fetches are cached as empty and reported as "no source text". Retry failed URLs with a second fetch method. | **Open** |
+| Starter judge | 4 claims were marked contradicted. Two are close calls: "Linear raised prices in 2025" and "YouTrack includes all features at no extra charge". The judge may be wrong on these. | Hand-label a sample of about 50 claims, including these four, and measure judge agreement before quoting the contradiction rate. | **Open** (calibration) |
+| Starter judge | 30 claims are "not stated". Some are inferences the starter made from uncited or loosely cited text. | Report them separately, as "not supported by the cited source", not as false. | **Open** |
+| Evaluator judge | 3 claims not stated and 1 with no source text. | Same fixes as above. The evaluator's remaining misses are a source-coverage problem, not a citation-format one. | **Open** |
+| Both | The judge and the generator are the same model family, so the judge may be lenient toward its own wording. | Judge with a different model when one is available on Nebius, and compare verdicts on the same claims. | **Open** |
+
 ## Decisions and trade-offs
 
 Each decision lists what we chose, the cost, and what we would change next.
