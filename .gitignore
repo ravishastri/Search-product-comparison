@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Assignment materials (not part of the submission)
+starter_agent.py
+2606_Tavily_FDE_TakeHomeAssignment.md
