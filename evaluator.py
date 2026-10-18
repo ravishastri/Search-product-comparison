@@ -1,0 +1,442 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "langchain-nebius>=0.1.0",
+#   "langfuse>=5.0.0",
+#   "python-dotenv>=1.0.0",
+#   "rich>=13.0.0",
+#   "tavily-python>=0.5.0",
+#   "typer>=0.12.0",
+# ]
+# ///
+"""
+Product launch evaluator (Tavily take-home, Option 1).
+
+Given a product, it finds similar products, runs a fixed set of Tavily searches
+per dimension, and writes a Markdown brief. Every claim cites source IDs that
+Tavily returned. Claims with no valid source ID go in a separate "unsupported"
+section.
+
+The source check confirms that a cited ID exists. It does not confirm that the
+source says what the claim says. That is measured in the eval phase.
+
+Usage:
+  uv run evaluator.py --product "Acme Search" --description "Search API for AI agents"
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+from dataclasses import asdict, dataclass
+from datetime import date, datetime, timedelta
+from pathlib import Path
+from typing import Any
+
+import typer
+from dotenv import load_dotenv
+from langchain_nebius import ChatNebius
+from langfuse import get_client, observe
+from rich.console import Console
+from tavily import TavilyClient
+
+load_dotenv()
+
+app = typer.Typer(add_completion=False)
+console = Console()
+
+DEFAULT_MODEL = "moonshotai/Kimi-K2.6"
+MAX_SIMILAR = 3
+RESULTS_PER_QUERY = 5
+SNIPPET_CHARS = 600
+DIMENSION_TITLES = {
+    "pricing": "Pricing and plans",
+    "competitive": "Competitive landscape",
+    "reception": "Recent reception",
+}
+
+SIMILAR_PROMPT = """You identify similar products. Given a product and search results, name up to {limit} products in the same category that target the same kind of customer.
+Use only product names that appear in the search results. Do not include the product itself.
+Only name products that are currently available. Skip any product that the results describe as shut down, discontinued, or sunset.
+Return only JSON: {{"products": ["Name 1", "Name 2"]}}"""
+
+BRIEF_PROMPT = """You write a product launch brief using only the evidence below.
+Rules:
+- Use only facts stated in the evidence. Do not add outside knowledge.
+- Each claim must list the IDs (for example "S1") of the sources that support it.
+- Write short, specific claims. Do not predict sales or make causal claims.
+- Paraphrase every claim in your own words. Do not copy sentences from the evidence. Use no quotation marks.
+- Never combine quotes or statements from different people into one claim. Attribute each opinion to its source.
+- Dimensions: "pricing", "competitive", "reception". Skip a dimension if the evidence does not cover it.
+Return only JSON: {"claims": [{"dimension": "pricing", "text": "...", "sources": ["S1"]}]}"""
+
+
+@dataclass
+class PlannedSearch:
+    dimension: str
+    query: str
+    time_range: str | None = None
+    start_date: str | None = None  # YYYY-MM-DD; results dated before this are dropped
+
+
+@dataclass
+class Source:
+    id: str
+    url: str
+    title: str
+    content: str
+    dimension: str
+    query: str
+    published: str = ""  # YYYY-MM-DD from Tavily, if provided
+
+
+@dataclass
+class Claim:
+    dimension: str
+    text: str
+    source_ids: list[str]
+
+
+def plan_discovery(product: str, category: str) -> PlannedSearch:
+    """Search that finds similar products."""
+    suffix = f" {category}" if category else ""
+    return PlannedSearch("discovery", f"{product} alternatives competitors{suffix}")
+
+
+def plan_searches(product: str, similar: list[str], today: date) -> list[PlannedSearch]:
+    """Fixed query plan for the three dimensions. Reception covers the last 365 days only."""
+    cutoff = (today - timedelta(days=365)).isoformat()
+    plan = [PlannedSearch("pricing", f"{name} pricing plans") for name in [product, *similar]]
+    plan += [PlannedSearch("competitive", f"{product} vs {name} features", start_date=cutoff) for name in similar]
+    plan.append(PlannedSearch("reception", f"{product} launch reviews {today.year}", start_date=cutoff))
+    return plan
+
+
+def add_sources(registry: list[Source], planned: PlannedSearch, results: list[dict[str, Any]]) -> list[Source]:
+    """Add results to the registry, skipping URLs already seen. Returns the new sources."""
+    known = {source.url for source in registry}
+    added: list[Source] = []
+    for result in results:
+        url = (result.get("url") or "").strip()
+        if not url or url in known:
+            continue
+        published = (result.get("published_date") or "")[:10]
+        if planned.start_date and published and published < planned.start_date:
+            continue  # dated before the search window; undated results are kept
+        known.add(url)
+        source = Source(
+            id=f"S{len(registry) + 1}",
+            url=url,
+            title=result.get("title") or "Untitled",
+            content=" ".join((result.get("content") or "").split()),
+            dimension=planned.dimension,
+            query=planned.query,
+            published=published,
+        )
+        registry.append(source)
+        added.append(source)
+    return added
+
+
+def evidence_block(sources: list[Source], snippet_chars: int = SNIPPET_CHARS) -> str:
+    return "\n\n".join(
+        f"[{s.id}] {s.title}\nURL: {s.url}\nDimension: {s.dimension}\n{s.content[:snippet_chars]}"
+        for s in sources
+    )
+
+
+def parse_json(text: str) -> Any:
+    """Parse the first JSON object or array in a model reply, even if it is wrapped in prose or code fences.
+
+    Reasoning blocks (<think>...</think>) are removed first, since they can contain braces and quotes.
+    """
+    cleaned = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+    match = re.search(r"[\[{].*[\]}]", cleaned, re.DOTALL)
+    if not match:
+        raise ValueError(f"No JSON found in model reply: {cleaned[:300]!r}")
+    try:
+        return json.loads(match.group(0))
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Malformed JSON in model reply ({exc}): {match.group(0)[:300]!r}") from exc
+
+
+def parse_similar(text: str, product: str, limit: int = MAX_SIMILAR) -> list[str]:
+    names = parse_json(text).get("products", [])
+    seen: set[str] = {product.lower()}
+    result: list[str] = []
+    for name in names:
+        if not isinstance(name, str):
+            continue
+        cleaned = name.strip()
+        if not cleaned or cleaned.lower() in seen:
+            continue
+        seen.add(cleaned.lower())
+        result.append(cleaned)
+    return result[:limit]
+
+
+STATUS_PROMPT = """You check whether a software product is still available. Use only the search results below.
+Answer "retired" only if a result says the product itself was shut down, discontinued, or sunset.
+A shutdown of one plan, deployment type, or feature is not the product being retired.
+Answer "active" if the results show it is currently sold or used. Answer "unknown" if the results do not say.
+Return only JSON: {"status": "active" | "retired" | "unknown", "source": "S#"}
+Use the source ID of the result you relied on, or "" if none."""
+
+STATUSES = {"active", "retired", "unknown"}
+
+
+def parse_status(text: str) -> tuple[str, str]:
+    """Return (status, source_id). Anything other than a known status becomes 'unknown'."""
+    data = parse_json(text)
+    status = str(data.get("status", "unknown")).strip().lower()
+    if status not in STATUSES:
+        status = "unknown"
+    return status, str(data.get("source", "") or "")
+
+
+def parse_claims(text: str) -> list[Claim]:
+    raw = parse_json(text).get("claims", [])
+    claims: list[Claim] = []
+    for item in raw:
+        if not isinstance(item, dict) or not item.get("text"):
+            continue
+        claims.append(
+            Claim(
+                dimension=str(item.get("dimension", "")),
+                text=str(item["text"]).strip(),
+                source_ids=[str(i) for i in item.get("sources", []) if isinstance(i, str)],
+            )
+        )
+    return claims
+
+
+def check_claims(claims: list[Claim], valid_ids: set[str]) -> tuple[list[Claim], list[Claim]]:
+    """Split claims into supported (at least one cited ID exists) and unsupported."""
+    supported: list[Claim] = []
+    unsupported: list[Claim] = []
+    for claim in claims:
+        ids = [i for i in claim.source_ids if i in valid_ids]
+        target = supported if ids else unsupported
+        target.append(Claim(claim.dimension, claim.text, ids))
+    return supported, unsupported
+
+
+def render_brief(
+    product: str,
+    similar: list[str],
+    supported: list[Claim],
+    unsupported: list[Claim],
+    sources: list[Source],
+    run_date: str,
+) -> str:
+    lines = [
+        f"# Launch brief: {product}",
+        "",
+        f"Generated {run_date}. Similar products (same category, same target customer): "
+        f"{', '.join(similar) if similar else 'none found'}.",
+        "",
+    ]
+    dated = {s.id: bool(s.published) for s in sources}
+    for dimension, title in DIMENSION_TITLES.items():
+        lines += [f"## {title}", ""]
+        items = [c for c in supported if c.dimension == dimension]
+        if not items:
+            lines += ["No sourced claims for this dimension.", ""]
+            continue
+        for claim in items:
+            cites = "".join(f"[{i}]" for i in claim.source_ids)
+            undated = not any(dated.get(i, False) for i in claim.source_ids)
+            note = " (date unknown)" if undated else ""
+            lines.append(f"- {claim.text} {cites}{note}")
+        lines.append("")
+
+    lines += ["## Unsupported claims", ""]
+    if unsupported:
+        lines += [f"- {c.text} (no valid source)" for c in unsupported]
+    else:
+        lines.append("None.")
+    lines.append("")
+
+    lines += ["## Sources", ""]
+    lines += [f"- [{s.id}] {s.title} ({s.published or 'date unknown'}): {s.url}" for s in sources]
+    return "\n".join(lines) + "\n"
+
+
+@observe(as_type="generation", capture_input=False)
+def llm_reply(llm: ChatNebius, system: str, user: str) -> str:
+    get_client().update_current_generation(
+        name="llm_reply", model=llm.model_name, input=[system, user]
+    )
+    message = llm.invoke([{"role": "system", "content": system}, {"role": "user", "content": user}])
+    content = message.content
+    text = content if isinstance(content, str) else "".join(b.get("text", "") for b in content if isinstance(b, dict))
+    get_client().update_current_generation(output=text)
+    if not text.strip():
+        meta = getattr(message, "response_metadata", {}) or {}
+        usage = getattr(message, "usage_metadata", None)
+        raise ValueError(f"Empty model reply (finish_reason={meta.get('finish_reason')}, usage={usage})")
+    return text
+
+
+@observe(as_type="tool", capture_input=False)
+def search(tavily: TavilyClient, planned: PlannedSearch) -> list[dict[str, Any]]:
+    kwargs: dict[str, Any] = {
+        "query": planned.query,
+        "max_results": RESULTS_PER_QUERY,
+        "search_depth": "advanced",
+    }
+    if planned.time_range:
+        kwargs["time_range"] = planned.time_range
+    if planned.start_date:
+        kwargs["start_date"] = planned.start_date
+    get_client().update_current_span(
+        name=f"tavily_search:{planned.dimension}",
+        input={
+            "query": planned.query,
+            "time_range": planned.time_range,
+            "start_date": planned.start_date,
+            "search_depth": "advanced",
+        },
+    )
+    results = tavily.search(**kwargs).get("results", [])
+    get_client().update_current_span(
+        output=[{"title": r.get("title"), "url": r.get("url")} for r in results]
+    )
+    return results
+
+
+@app.command()
+@observe(name="launch_evaluation")
+def main(
+    product: str = typer.Option(..., help="Product name to evaluate"),
+    description: str = typer.Option("", help="One-line product description"),
+    category: str = typer.Option("", help="Product category, used to find similar products"),
+    model: str = typer.Option(DEFAULT_MODEL, help="Nebius model name"),
+    out_dir: Path = typer.Option(Path("runs"), help="Where to write the brief and run record"),
+) -> None:
+    for name in ("TAVILY_API_KEY", "NEBIUS_API_KEY"):
+        if not os.getenv(name):
+            console.print(f"[bold red]Missing {name}[/bold red]. Set it in your shell or .env file.")
+            raise typer.Exit(code=1)
+
+    now = datetime.now()
+    run_date = now.strftime("%Y-%m-%d")
+    tavily = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+    # The model can use the whole output budget on reasoning before writing any text (finish_reason=length).
+    # 16384 still ran out on the brief (run linear-20261018-112447), so the limit is doubled. Use --model to try another model.
+    llm = ChatNebius(model=model, max_tokens=32768)
+    sources: list[Source] = []
+    errors: list[str] = []
+
+    console.rule(f"[bold blue]Evaluating {product}")
+
+    # 1. Find similar products.
+    discovery = plan_discovery(product, category)
+    console.print(f"Discovery: {discovery.query}")
+    try:
+        add_sources(sources, discovery, search(tavily, discovery))
+    except Exception as exc:
+        errors.append(f"discovery: {exc}")
+    similar: list[str] = []
+    excluded_retired: list[str] = []
+    candidate_status: dict[str, dict[str, str]] = {}
+    if sources:
+        try:
+            candidates = parse_similar(
+                llm_reply(llm, SIMILAR_PROMPT.format(limit=MAX_SIMILAR + 2), f"Product: {product}. {description}\n\n{evidence_block(sources)}"),
+                product,
+                limit=MAX_SIMILAR + 2,
+            )
+            # Check each candidate's status with its own search, then ask the model to judge it.
+            # The discovery results often say nothing about a shutdown, so the judge needs evidence
+            # about the candidate itself.
+            for name in candidates:
+                status_search = PlannedSearch("status", f"{name} discontinued or shut down")
+                try:
+                    add_sources(sources, status_search, search(tavily, status_search))
+                except Exception as exc:
+                    errors.append(f"status search '{name}': {exc}")
+            for name in candidates:
+                own = [s for s in sources if s.dimension == "status" and s.query == f"{name} discontinued or shut down"]
+                verdict, evidence = "unknown", ""
+                if own:
+                    try:
+                        verdict, evidence = parse_status(llm_reply(llm, STATUS_PROMPT, f"Product: {name}\n\n{evidence_block(own)}"))
+                    except (ValueError, json.JSONDecodeError) as exc:
+                        errors.append(f"status judge '{name}': {exc}")
+                candidate_status[name] = {"status": verdict, "source": evidence}
+            excluded_retired = [n for n in candidates if candidate_status[n]["status"] == "retired"]
+            similar = [n for n in candidates if n not in excluded_retired][:MAX_SIMILAR]
+        except (ValueError, json.JSONDecodeError) as exc:
+            errors.append(f"similar products: {exc}")
+    if excluded_retired:
+        console.print(f"Excluded as retired: {', '.join(excluded_retired)}")
+    console.print(f"Similar products: {', '.join(similar) or 'none found'}")
+
+    # 2. Run the fixed query plan.
+    plan = plan_searches(product, similar, now.date())
+    for planned in plan:
+        console.print(f"Search [{planned.dimension}]: {planned.query}")
+        try:
+            added = add_sources(sources, planned, search(tavily, planned))
+            console.print(f"  {len(added)} new sources")
+        except Exception as exc:
+            errors.append(f"{planned.dimension} '{planned.query}': {exc}")
+            console.print(f"  [red]failed: {exc}[/red]")
+
+    # 3. Write the brief from the evidence, then check its citations.
+    claims: list[Claim] = []
+    if sources:
+        user_prompt = f"Product: {product}. {description}\nSimilar products: {', '.join(similar) or 'none'}\n\nEvidence:\n\n{evidence_block(sources)}"
+        for attempt in range(2):
+            try:
+                claims = parse_claims(llm_reply(llm, BRIEF_PROMPT, user_prompt))
+                break
+            except (ValueError, json.JSONDecodeError) as exc:
+                errors.append(f"brief attempt {attempt + 1}: {exc}")
+    supported, unsupported = check_claims(claims, {s.id for s in sources})
+
+    # 4. Write the brief and the run record.
+    run_dir = out_dir / f"{re.sub(r'[^a-z0-9]+', '-', product.lower()).strip('-')}-{now.strftime('%Y%m%d-%H%M%S')}"
+    run_dir.mkdir(parents=True, exist_ok=True)
+    brief = render_brief(product, similar, supported, unsupported, sources, run_date)
+    (run_dir / "brief.md").write_text(brief)
+    record = {
+        "product": product,
+        "description": description,
+        "category": category,
+        "model": model,
+        "run_date": run_date,
+        "similar": similar,
+        "candidate_status": candidate_status,
+        "excluded_retired": excluded_retired,
+        "queries": [discovery.query, *[p.query for p in plan]],
+        "errors": errors,
+        "sources": [asdict(s) for s in sources],
+        "supported_claims": [asdict(c) for c in supported],
+        "unsupported_claims": [asdict(c) for c in unsupported],
+    }
+    (run_dir / "run.json").write_text(json.dumps(record, indent=2))
+
+    console.print(f"\n[green]Sources:[/green] {len(sources)}  [green]Supported claims:[/green] {len(supported)}  "
+                  f"[yellow]Unsupported:[/yellow] {len(unsupported)}  [red]Errors:[/red] {len(errors)}")
+    get_client().update_current_span(
+        input={"product": product, "description": description, "category": category, "model": model},
+        output={
+            "similar": similar,
+            "sources": len(sources),
+            "supported_claims": len(supported),
+            "unsupported_claims": len(unsupported),
+            "errors": errors,
+            "run_dir": str(run_dir),
+        },
+    )
+    get_client().flush()
+
+    console.print(f"Brief: {run_dir / 'brief.md'}")
+    console.print(f"Run record: {run_dir / 'run.json'}")
+
+
+if __name__ == "__main__":
+    app()
