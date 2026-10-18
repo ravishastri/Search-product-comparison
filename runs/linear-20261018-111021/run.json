@@ -1,0 +1,542 @@
+{
+  "product": "Linear",
+  "description": "Issue tracker for software teams",
+  "category": "issue tracker",
+  "model": "moonshotai/Kimi-K2.6",
+  "run_date": "2026-10-18",
+  "similar": [
+    "Jira",
+    "GitHub Issues",
+    "Height"
+  ],
+  "excluded_retired": [],
+  "queries": [
+    "Linear alternatives competitors issue tracker",
+    "Linear pricing plans",
+    "Jira pricing plans",
+    "GitHub Issues pricing plans",
+    "Height pricing plans",
+    "Linear vs Jira features",
+    "Linear vs GitHub Issues features",
+    "Linear vs Height features",
+    "Linear launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://thedigitalprojectmanager.com/tools/best-linear-alternatives",
+      "title": "10 Best Linear Alternatives for Issue Tracking in 2026",
+      "content": "I\u2019ve rounded up the standout Linear alternatives for 2026, revealing which tools truly level up your workflow\u2014so you can pick the right fit without second-guessing. ## Best Linear Alternatives Shortlist 1. 1. OpenProject \u2014 Best for a self-hosted option 2. 2. Zenhub \u2014 Best for teams managing code and tasks together 3. 3. Taiga \u2014 Best for agile sprints 4. 4. YouTrack \u2014 Best for AI-powered issue tracking 5. 5. Jira \u2014 Best with advanced agile boards 6. 6. Superthread \u2014 Best with threaded project discussions 7. 7. Bugasura \u2014 Best for tracking bugs within product teams 8. 8. GitHub Issues \u2014 Best for developers already using GitHub 9. 9. Huly \u2014 Best for visualizing projects on a timeline 10. 10. Plane \u2014 Best for teams needing open source flexibility [...] ### Pros and Cons Pros: Active, engaged community for support Advanced cycles and custom workflow builder Self-hosting option with data ownership Cons: Limited analytics and reporting functionality Workflow automations are still basic LEARN MORE ABOUT PLANE: Check out Plane on their website ## Other Linear Alternatives Here are some additional linear alternative options that didn\u2019t make it onto my shortlist but are still worth checking out: 1. Atono With note-driven task management 2. GoodDay For customizable workflows 3. Smartsheet For spreadsheet-style project tracking 4. Wrike With advanced workflow automations 5. Shortcut For fast story-based planning 6. Teamwork For managing client deliverables 7. Notion [...] ### Pros and Cons Pros: Built-in time tracking and reporting tools Bulk issue editing with advanced search filters Automation for bug reporting and description Cons: Mobile apps lack feature parity with web version Interface feels cluttered for new users LEARN MORE ABOUT YOUTRACK: Check out YouTrack on their website Visit Website Plane screenshot - 10 Best Linear Alternatives for Issue Tracking in 2026 Plane helps teams manage issues, cycles, roadmaps, and workflows. Plane is an open-source project workflow platform designed for teams who want transparency, customization, and full control over their workspace. You\u2019ll find it especially helpful if you need a flexible alternative with a strong community-driven approach to issues, cycles, and roadmapping.",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issue tracker"
+    },
+    {
+      "id": "S2",
+      "url": "https://www.zoye.io/blog/best-linear-alternatives",
+      "title": "Best Linear Alternatives 2026: 7 Tools for Teams That Outgrew Issue Tracking | Zoye",
+      "content": "### 7. Height - the AI-leaning issue tracker Height is the closest spiritual alternative to Linear for teams that want a fast, modern issue tracker with AI woven through it. It focuses on autonomous project management features, using AI to help triage, organize, and keep work moving, in a clean interface that will feel familiar to anyone who liked Linear. Where it works best: Software teams that want a fast, modern issue tracker Teams curious about AI-assisted backlog management Groups that liked Linear's feel but want a different take Product and engineering teams comfortable in a focused tool Pricing: Free tier available. Paid plans start around $7 per user per month. [...] ## The 7 best Linear alternatives in 2026 ### 1. Zoye - the AI-native all-in-one alternative Zoye is the strongest Linear alternative for teams that have outgrown pure issue tracking and want to run the whole business in one place. Where Linear gives you a beautiful issue tracker and leaves customers, budget, and reporting to a separate stack, Zoye bundles tasks and projects with CRM, budget, calendar, and reporting, all under a native acting AI, at flat-rate pricing. [...] Worth knowing: Asana is a strong project coordinator but not an issue tracker, so engineering teams that loved Linear's speed and Git links will miss them. It also has no CRM or budget tracking, so business operations live elsewhere. ### 5. Trello - the simple visual board Trello is the alternative for teams that found even Linear heavier than they needed and just want a clean, visual board. Cards, lists, and drag-and-drop make it the most approachable tracker here, and Power-Ups extend it when you need a little more. Where it works best: Small teams and individuals who want the simplest possible board Lightweight task and workflow tracking without process overhead Teams that prize approachability over depth Personal projects and small side initiatives",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issue tracker"
+    },
+    {
+      "id": "S3",
+      "url": "https://storyflow.so/blog/best-linear-alternatives-2026",
+      "title": "The 12 Best Linear Alternatives in 2026 (We Tested Them All) | Storyflow",
+      "content": "Cons: Not an issue tracker, with no sprint, velocity, or git integration. Cloud-only, so there is no self-hosted or local-first option for regulated or offline teams. Newer than Linear or Jira, so the ecosystem and integration library are still growing. For engineering tracking, pair it with Linear or Height. Verdict: Storyflow is the right pick for creative and strategy teams whose work does not fit a tracker. It earns its mid-pack slot honestly: it wins its lane and does not pretend to win Linear's. See The 12 Best Collaboration Tools for Creative Teams in 2026. ### 2. Height (Best Direct Linear Competitor) Height logo [...] ### 3. Plane (Best Open-Source Linear-Shaped) Plane logo Plane is the open-source, Linear-shaped issue tracker with a self-hostable cloud, and it preserves more of Linear's feel than any other open-source option I tested. Cycles, modules, and a keyboard-driven issue view read as deliberate Linear-inspired choices. For teams with data-sovereignty needs, a hard budget ceiling, or a commitment to owning their stack, it is the strongest answer in 2026. The tradeoff is maturity: polish lags Linear in small ways that add up, and AI is lighter than Height's. Best for: Engineering teams who want Linear-shaped tracking on an open-source, self-hostable base. Not for: teams without the engineering capacity or appetite to self-host and maintain it. [...] Best for Creative and Strategy Teams (Different Paradigm): Storyflow. Not an issue tracker but a project canvas where briefs, references, plans, and AI Tactic Blueprints live on one board, with the AI reading the full canvas plus @-mentioned context. Plus from $7.99/month billed annually. The honest friction: no sprints, no velocity, no git integration. If your work is ticket-shaped, Linear is right and Storyflow is not. Best Open-Source Linear Alternative: Plane. The open-source, Linear-shaped tracker with a self-hostable cloud. Free for self-hosting; cloud from $7/user/month. The limitation: less polish than Linear and a smaller community.",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issue tracker"
+    },
+    {
+      "id": "S4",
+      "url": "https://www.ideaplan.io/alternatives/linear",
+      "title": "Linear Alternatives: 7 Better Picks for Eng Teams (2026)",
+      "content": "Published 2026-03-04Updated 2026-06-23 Share: TL;DR: Linear alternatives ranked for engineering teams: 7 faster, cheaper, or open-source picks like Plane, Huly, and GitHub Issues. Pricing and fit compared. ## Why Look for Linear Alternatives? Linear earned its reputation by being the fastest, most opinionated issue tracker available. Its keyboard-first interface, automatic sprint management, and clean design make it a favorite among small-to-mid product and engineering teams. Where other tools offer maximum flexibility, Linear offers maximum velocity. [...] For teams that want to minimize their tool stack and maintain full data control, Huly's breadth is appealing. The issue tracking module is clean and fast, with customizable workflows, Kanban boards, and sprint management. The real-time collaboration features (chat, document editing, video calls) reduce the need for separate communication tools. Huly's ambition to be everything creates a predictable trade-off: each individual module is less deep than the dedicated tool it replaces. The issue tracker is good but not as polished as Linear. The chat is functional but not as refined as Slack. For teams that value consolidation over best-of-breed, Huly offers a unique proposition. Read our comparison of project management approaches for help choosing a workflow methodology. [...] Jira is the industry standard for issue tracking, and it represents the opposite end of the philosophy spectrum from Linear. Where Linear constrains workflows for speed, Jira allows nearly unlimited customization: custom issue types, fields, workflows, screens, permission schemes, and automation rules. If you can describe a process, Jira can model it. For product teams in larger organizations (100+ engineers), Jira's advantages are real. Cross-project reporting, advanced roadmaps (formerly Portfolio), and the Atlassian ecosystem (Confluence, Bitbucket, Opsgenie) create an integrated development operations platform. The automation engine handles complex routing, SLA tracking, and status transitions without code.",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issue tracker"
+    },
+    {
+      "id": "S5",
+      "url": "https://agiflow.io/linear-alternative",
+      "title": "Linear Alternative for Developer Teams Using AI | Agiflow",
+      "content": "No, if your team mainly wants the most polished issue tracker, cycles, triage, insights, roadmaps, and product operations experience. Linear is excellent at product issue tracking and has its own agent platform plus an official MCP server. Agiflow is a better fit when the daily job is not managing an issue tracker better, but giving the assistant you already use enough live project context to move work forward safely. ## Why teams look for a Linear alternative Linear is a best-in-class product development system. Teams still compare alternatives when their daily work is closer to the assistant and CLI than to a polished issue tracker. ### The free plan can become tight as you grow [...] Skip to content Linear alternative for developer teams # A Linear alternative for teams that want AI assistants closer to the work Linear is one of the fastest and most polished issue trackers for product teams. Agiflow is different: a focused project board where your own assistant, such as Claude Code, Cursor, Codex, or ChatGPT, can work from scoped project context, artifacts, vault entries, CLI workflows, and workflow locks. Start freeConnect ChatGPT Free for solo use. Bring the assistant you already use. Open-source developer tooling is available through aicode-toolkit. The MCP-native alternative to Linear. ## Is Agiflow a good Linear alternative? Yes, if your team wants a low-admin project board that your own AI assistant can use through scoped project tools.",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issue tracker"
+    },
+    {
+      "id": "S6",
+      "url": "https://www.spendflo.com/blog/linear-pricing-guide",
+      "title": "Linear Pricing: A Comprehensive Guide",
+      "content": "\u200d ###### Frequently Asked Questions About Linear Pricing \u200d1. What is the cost of Linear pricing plans? \u200d Linear pricing plans range from $5000 to $70,000 based on your needs. \u200d 2. Does Linear offer a free version? \u200d Yes, Linear does offer a free version for organizations with up to two teams and fewer needs. \u200d 3. What factors affect the pricing of the Linear platform? \u200d Things like the number of teams, necessary features, and size of the organization can affect the pricing of the Linear platform. \u200d 4. Will I get a discount on the Linear pricing plan with annual billing? \u200d Yes, you will get a 20% discount with annual billing on select plans in the Linear platform. \u200d 5. Does Linear offer a pricing plan for smaller organizations? \u200d [...] ###### How Much Does Linear Cost? Linear comes with different pricing plans that can range from anywhere between $5000 to $70000. This offers a greater deal of flexibility in terms of evaluating your team\u2019s unique needs and requirements and picking a plan that best caters to those needs. If your organization is working with up to two teams, you can use the free version of the platform, and meet most of your needs. However, if your organization has more needs, there is the option of using the Basic plan. This plan will cost you $8 monthly in exchange for allowing you to raise unlimited issues and upload as many files as needed. \u200d [...] \u200d Leverage the Free Plan: As you know, Linear provides users with a free plan where they can work with up to two teams. If you are a small organization with one or two teams and 250 issues are enough for you, then you must leverage the free plan. \u200d Pay Annually: Another great way to get the most out of the Linear platform\u2019s pricing plan is to choose annual payment options. When you do that, you get a discount of 20% on different plans, which is a great way to save some money. \u200d Keep an Eye Out for Discounts: Platforms like Linear often offer impressive discounts based on different timings, like the end of the quarter. You must keep an eye out for these special discounts and strike the hammer while the iron is still hot to get better deals. \u200d",
+      "dimension": "pricing",
+      "query": "Linear pricing plans"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.usecarly.com/blog/linear-pricing",
+      "title": "Linear Pricing in 2026: What Every Plan Actually Costs",
+      "content": "Fast keyboard-driven Linear issue tracker surrounded by alternative project-management tool icons # Linear Pricing in 2026: What Every Plan Actually Costs LinearProject ManagementIssue TrackingDev Tools Linear (linear.app) keeps its pricing refreshingly short: one free plan, two paid tiers, and a custom Enterprise plan. As of July 2026, Basic runs $10 per user/month and Business runs $16 per user/month, both billed yearly, while the free plan is genuinely usable for small teams \u2014 unlimited members, but capped at 2 teams and 250 issues. Prices change, so confirm the current numbers on Linear\u2019s official pricing page before you commit; the figures below reflect what Linear advertised in mid-2026. ## Linear plans at a glance [...] ## Business \u2014 $16/user/month Business is where Linear puts most of what a scaling company asks for. On top of Basic, you get unlimited teams, private teams and guest access, Linear Insights (analytics and reporting), Linear Asks (turning Slack requests into tracked issues), Triage Intelligence, Code Intelligence, agent automations (in beta), an audit log, advanced team management, and native Zendesk and Intercom integrations. Two things worth flagging: guests and private teams \u2014 a common ask the moment you work with contractors or clients \u2014 are gated all the way up to this tier, and much of Linear\u2019s AI and reporting story lives here rather than lower down. Like Basic, the $16 rate is billed yearly. [...] Whichever tracker you land on, Carly, an AI executive assistant that integrates with Linear and starts at $35/month, can create and update issues from your inbox and calendar so the busywork around the board doesn\u2019t fall on you. ## FAQ How much does Linear cost per user? Basic is $10 per user/month and Business is $16 per user/month, both billed yearly. Enterprise is custom-quoted. The free plan is $0 for unlimited members. Does Linear have a free plan? Yes. It\u2019s free forever for unlimited members, capped at 2 teams, 250 issues, and 10MB file uploads. It\u2019s a full plan, not a time-limited trial.",
+      "dimension": "pricing",
+      "query": "Linear pricing plans"
+    },
+    {
+      "id": "S8",
+      "url": "https://theintactone.com/2023/01/04/linear-and-non-linear-pricing",
+      "title": "Linear and Non-linear Pricing",
+      "content": "Pros and Cons of Linear Pricing Linear pricing is a type of pricing strategy where the price of a product or service is based on the quantity of units sold. This means that each unit sold has the same price, regardless of how many units are sold. linear pricing can be used to encourage customers to buy more products or services, as they know that they will get the same price per unit regardless of how many units they purchase. [...] Skip to content the intact one Read MBA, BBA, B.COM Notes # Linear and Non-linear Pricing Linear Pricing When a customer pays the same price for each unit the seller is using \u201clinear pricing\u201d. The linear pricing method is not only easier to manage for business owners, it maintains the marginal profit on each item. In the case of simple components where the crucial cost driver is evident (e.g. weight) a straightforward \u201crule-of-three\u201d calculation is sufficient to determine the target price. Simple steel parts, products sold by the yard/meter, etc. are good examples. [...] Drawbacks of Linear Pricing The primary disadvantage of the linear pricing method is that it does not provide adequate incentive for customers to order in larger quantities. When customers order only single items, the price per transaction stays the same. Linear pricing also denies the business owner the opportunity to take advantage of economies of scale. Larger quantities allow businesses to combine incidental per-unit costs, such as shipping and packaging, into one order. Nonlinear pricing",
+      "dimension": "pricing",
+      "query": "Linear pricing plans"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.vendr.com/marketplace/linear",
+      "title": "Linear Software Pricing & Plans 2026: See Your Cost",
+      "content": "Whether you're evaluating Linear for the first time or preparing for renewal, this guide is designed to help you budget accurately and negotiate with clearer market context. # How much does Linear cost in 2026? Linear's pricing is structured around three paid tiers\u2014Standard, Plus, and Enterprise\u2014plus a Free plan for small teams. Costs scale with the number of users (seats) and the features required. Linear bills monthly or annually, with annual commitments typically offering a discount compared to month-to-month billing. Core pricing components: [...] # Introduction Linear is a project management and issue tracking platform designed for software development teams. Built for speed and simplicity, Linear offers a streamlined alternative to traditional project management tools, with features including issue tracking, sprint planning, roadmaps, and integrations with development workflows. Pricing is based on the number of users and the plan tier selected, with options ranging from free plans for small teams to enterprise packages with advanced features and support. Evaluating Linear or planning a purchase? [...] # How do you negotiate Linear pricing? Linear pricing is negotiable, particularly for annual commitments, larger seat counts, and competitive evaluations. These strategies are based on anonymized Linear deals in Vendr's dataset and reflect tactics that have produced favorable outcomes for buyers. ### 1. Engage early and anchor to budget Start conversations 60\u201390 days before your target start date or renewal. Early engagement creates time for competitive evaluation and negotiation. Anchor to a budget constraint rather than accepting the first quote. Vendr data shows that buyers who frame pricing discussions around budget limitations often achieve better outcomes than those who negotiate from the vendor's initial offer. ### 2. Commit to annual or multi-year terms",
+      "dimension": "pricing",
+      "query": "Linear pricing plans"
+    },
+    {
+      "id": "S10",
+      "url": "https://lifestack.ai/blog/linear-pricing",
+      "title": "Linear App Pricing: Is It Worth It in 2026? | Lifestack",
+      "content": "This guide breaks down every Linear pricing tier, what you actually get at each level, and which plan makes sense depending on your team size and how you work. Pricing is current as of June 2026. ## Key Takeaways Linear's free plan is genuinely useful for small teams: 250 issues and 2 teams covers most early-stage startups. The $10/user/month Basic plan is the sweet spot for growing teams. It removes the issue and team limits without paying for features most teams don't need. The $16/user/month Business plan is worth it when you need private teams, guest access, or Linear's advanced AI features. ## Linear Pricing at a Glance [...] ## Key Takeaways Linear's free plan is genuinely useful for small teams: 250 issues and 2 teams covers most early-stage startups. The $10/user/month Basic plan is the sweet spot for growing teams. It removes the issue and team limits without paying for features most teams don't need. The $16/user/month Business plan is worth it when you need private teams, guest access, or Linear's advanced AI features. ## Linear Pricing at a Glance Free: $0/month, unlimited members, 2 teams, 250 issues Basic: $10/user/month (billed annually), 5 teams, unlimited issues Business: $16/user/month (billed annually), unlimited teams, private teams, guest access, advanced AI Enterprise: Custom pricing, SAML/SCIM, dedicated account management [...] ## Linear Pricing at a Glance Free: $0/month, unlimited members, 2 teams, 250 issues Basic: $10/user/month (billed annually), 5 teams, unlimited issues Business: $16/user/month (billed annually), unlimited teams, private teams, guest access, advanced AI Enterprise: Custom pricing, SAML/SCIM, dedicated account management All paid plans are billed annually. Monthly billing is available at a higher rate. Linear does not currently publish the monthly billing rate on their public pricing page. ## Free Plan: What You Get Linear project development system Linear's free plan is more capable than most free tiers in the project management category. Unlimited members means you're not paying per seat on a headcount basis. The real limits are structural: 2 teams and 250 issues.",
+      "dimension": "pricing",
+      "query": "Linear pricing plans"
+    },
+    {
+      "id": "S11",
+      "url": "https://tech.co/project-management-software/jira-pricing",
+      "title": "Jira Pricing Guide: How Much Does the Provider Cost in 2026?",
+      "content": "Time tracking Unlimited projects AI insights Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users. Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users. There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available. In this guide, I\u2019ll take you through everything you need to know about Jira pricing, including plans, hidden fees, and potential competitors. In This Guide: [...] ### Key Takeaways Jira\u2019s Standard plan starts at $7.91 per user, per month, while its Premium plan goes up to $14.54 per user, per month, for up to 300 users. Choose annual billing to reduce the cost of the Standard plan to $6.52 per user, per month for a team of 300. Large enterprises that favor a self-hosting option should go for Jira Data Center, which starts at $51,000 per year and supports teams of 500 or more. Alternatives include Trello, which is great for budget-conscious teams, and monday work management, which is much easier to use. Jira has hidden costs in the form of paid add-ons from the Atlassian marketplace. ## How Much Does Jira Cost? Jira has four pricing plans \u2014 a free plan, Standard, Premium, and Enterprise. [...] Free \u2013 Free (up to 10 users) Standard \u2013 $7.91 per user, per month (300 users) Premium \u2013 $14.54 per user, per month (300 users) Enterprise \u2013 Custom pricing Jira is favored by tech and IT teams for its deep level of customizability, scrum and kanban boards, and integration with developer tools, such as GitHub. As a result of this, some of the terminology used in the app might be unfamiliar, and it\u2019s not very easy to use. Screenshot of Jira The \u201cimpact vs effort\u201d graph is a great way of measuring ROI. Source: Tech.co testing 0 out of 0",
+      "dimension": "pricing",
+      "query": "Jira pricing plans"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.eesel.ai/blog/jira-pricing-guide",
+      "title": "A comprehensive Jira pricing guide for 2026 | eesel AI",
+      "content": "### Jira pricing plans at a glance | Feature | Free | Standard | Premium | Enterprise | --- --- | Price | $0 | $7.91 /user/month | $14.54 /user/month | Custom (Annual) | | User Limit | 10 | 100,000 | 100,000 | 100,000 | | Storage | 2 GB | 250 GB | Unlimited | Unlimited | | Automation Runs | 100 / month | 1,700 / month | 1,000 / user / month | Unlimited | | Support | Community | 9/5 Regional | 24/7 Premium | 24/7 Enterprise | | Uptime SLA | None | None | 99.9% | 99.95% | | Advanced Planning | No | Single Project | Cross-project | Cross-project | | Atlassian Analytics | No | No | No | Yes | ## Ecosystem and growth considerations with Jira [...] The official Jira product landing page from Atlassian. This guide focuses only on Jira's Cloud plans for a simple reason: Atlassian is moving toward a cloud-first future. With support for the self-hosted Data Center option ending on March 28, 2029, the cloud is the standard for Jira users and the default choice for new teams. That makes understanding its pricing more critical than ever in 2026. ## A complete breakdown of Jira pricing plans Jira has four main cloud plans: Free, Standard, Premium, and Enterprise. Each one is designed for a different stage of a company\u2019s journey, from small startups to massive corporations. Let's get into what you actually get with each one, based on Atlassian's official pricing. ### Jira free plan: For getting started [...] ### Jira premium plan: For scaling up The Premium plan is where Jira shines as an enterprise-ready tool, with features built for high reliability and large-scale operations. Price: $14.54 per user/month. Best for: Larger companies and multiple teams that need to coordinate work across different projects and require 24/7 reliability. Key features:",
+      "dimension": "pricing",
+      "query": "Jira pricing plans"
+    },
+    {
+      "id": "S13",
+      "url": "https://thedigitalprojectmanager.com/tools/jira-pricing",
+      "title": "Jira Pricing Tiers & Costs",
+      "content": "## How Much Does Jira Cost? Jira\u2019s paid plans start at $7/user/month and go up to $12/user/month. A free version is available for small teams or individual users with up to 10 users. Additionally, there is a custom pricing tier for enterprise users, which includes advanced analytics, enhanced security features, and support for multiple instances. ## Jira Plans & Pricing Tiers Here's an overview of the available Jira plans: [...] ## Jira Pricing Vs. Competitors Jira is generally considered to be in the average to affordable range for project management software. It offers four user tiers: Free, Standard ($7/user/month), Premium ($12/user/month), and Enterprise (custom pricing). Each plan includes features such as various project views, automation capabilities, and extensive integrations. The Free plan offers basic features, while the Standard and Premium plans offer more advanced perks like user roles, permissions, and increased storage. Overall, Jira's pricing is competitive, especially for small to medium-sized teams, and it provides strong security safeguards across all plans. ### Comparison Chart: Jira vs. Alternatives [...] jira pricing screenshot Jira offers Free, Standard, Premium, and custom Enterprise plans for different needs. Let\u2019s break down the available Jira plans a bit further: ### Jira Free Plan This plan is most ideal for small teams or startups. The Free plan supports up to 10 users and includes unlimited projects, tasks, and forms, along with basic views and dashboards. It\u2019s best for teams needing simple project management tools without advanced features. However, it\u2019s limited to 2 GB of storage and offers community support only. Stay Ahead of What Deserves Your Attention Get timely perspective on the shifts, decisions, and trade-offs shaping your role, plus practical resources you can put to work.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans"
+    },
+    {
+      "id": "S14",
+      "url": "https://ones.com/blog/jira-pricing-explained-why-you-should-consider-other-options",
+      "title": "Jira Pricing 2026: Plans, Hidden Costs & TCO Guide",
+      "content": "| Plan | Price | Users | Storage | Automation | SLA | --- --- --- | | Free | $0 | Up to 10 | 2 GB | 100 rules/month | None | | Standard | $7.91/user/mo | Up to 100,000 | 250 GB | 1,700 rules/month | None | | Premium | $14.54/user/mo | Unlimited | Unlimited | 1,000 rules/user/mo | 99.9% | | Enterprise | Custom | Unlimited | Unlimited | Unlimited | 99.95% | Monthly billing costs 7\u201310% more. Standard goes from $7.91 to $8.15, Premium from $14.54 to $15.25. The practical trigger point: once you exceed 10 users, you\u2019re forced onto a paid Jira pricing plan. For a 50-person team on Standard, that\u2019s roughly $4,750/year \u2014 before any add-ons. ## Jira Cloud Pricing Plans: The Full Breakdown [...] Log in Book a Demo Try for free Jira Alternative # Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives Scott, Andrew Scott, Andrew \u00b7 14 min read Try ONES for free ![Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives]( If you\u2019re considering Jira as your project management tool, you\u2019re not alone. Jira has long been a popular choice for software development teams, especially those working with Agile workflows. That said, pricing is still worth a closer look before you commit. Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page. [...] According to Atlassian\u2019s pricing tables, Jira Data Center currently starts at $51,000/year for up to 500 users. From February 17, 2026 PT, that tier will increase to $59,000/year. The 1,000-user tier will rise from $87,000 to $100,000/year, and the 2,000-user tier will rise from $158,000 to $182,000/year. Because Jira DC pricing uses fixed tiers, costs can jump quickly when your team crosses into the next user band. For example, moving from 500 to 501 users means moving into the 1,000-user tier. ### Data Center EOL: March 28, 2029 (What It Means for Your Budget?) Atlassian has announced end-of-life for Jira Data Center Server on March 28, 2029. After that date, no security patches, no bug fixes, no support.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.vendr.com/marketplace/atlassian",
+      "title": "Atlassian Software Pricing & Plans 2026: See Your Cost",
+      "content": "## How much does Jira Software cost? Pricing Structure: Free: Up to 10 users, basic features, community support Standard: Starts at $8.15/user/month (billed annually) for 1\u201310 users; decreases to ~$7.16/user/month for 11\u2013100 users, and continues to scale down with volume Premium: Starts at $16/user/month (billed annually) for 1\u201310 users; includes advanced permissions, analytics, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, enterprise-grade security, and dedicated support Observed Outcomes: [...] Benchmarking context: Vendr transaction data shows that bundled Jira + Confluence deals often achieve lower effective per-user pricing compared to standalone purchases. Compare Confluence pricing with Vendr to see how your quote aligns with recent market outcomes. ## How much does Jira Service Management cost? Pricing Structure: Free: Up to 3 agents, basic ITSM features Standard: Starts at $21.25/agent/month (billed annually) for 1\u20133 agents; scales down with volume Premium: Starts at $49.50/agent/month (billed annually); includes advanced automation, SLA management, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, and enterprise-grade controls Observed Outcomes:",
+      "dimension": "pricing",
+      "query": "Jira pricing plans"
+    },
+    {
+      "id": "S16",
+      "url": "https://github.com/pricing",
+      "title": "Pricing \u00b7 Plans for every developer \u00b7 GitHub",
+      "content": "$4 per user/month $21 per user/month Issues Track bugs, enhancements, and other requests, prioritize work, and communicate with stakeholders as changes are proposed and merged. ### Uh oh! There was an error while loading. Please reload this page. Projects Visualize and manage issues and pull requests across tables, boards, and roadmaps with custom fields and views that you can arrange to suit your workflow. ### Uh oh! There was an error while loading. Please reload this page. Milestones Track progress on groups of issues or pull requests in a repository, and map groups to overall project goals. ### Uh oh! There was an error while loading. Please reload this page. Organization and team management [...] Unlimited Unlimited Unlimited Invite any GitHub member, or all GitHub members, to work with you on code in a public repository you control \u2013 including making changes and opening issues. ### Uh oh! There was an error while loading. Please reload this page. Unlimited Unlimited Unlimited Collaborators for private repositories Unlimited $4 per user/month $21 per user/month Invite any GitHub member, or all GitHub members, to work with you on code in a private repository you control \u2013 including making changes and opening issues. ### Uh oh! There was an error while loading. Please reload this page. Unlimited $4 per user/month $21 per user/month Issues [...] Learn more ### GitHub Codespaces Starting at $0.18 per hour of compute and $0.07 per GB of storage. Learn more Preview ### GitHub sandbox (public preview) Run Copilot agent workflows in isolated, resumable cloud environments. See pricing details ### Git Large File Storage $5 per month for 50 GB bandwidth and 50 GB of storage. Learn more Create a custom estimate with the pricing calculator. Compare all features Trustpilot office Netdata team American Airlines office SAP meeting Spotify studio Stripe office Ford car interior Nubank office \u201cGitHub is the world\u2019s mono repository, so sharing our open source there is natural.\u201d \u2014 Martin Andersen, VP of Engineering, Trustpilot Read the case study",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.emergentsoftware.net/resources/insights/github-pricing-simply-explained",
+      "title": "GitHub Pricing Simply Explained",
+      "content": "## GitHub Pricing Plans Overview GitHub currently offers three main pricing tiers: Free, Team, and Enterprise. Each plan provides different levels of functionality and support, so it\u2019s important to understand what\u2019s included. ### Free Plan Cost: $0 USD per month Unlimited public and private repositories Automatic security and version updates 2,000 CI/CD minutes per month (free for public repositories) 500MB of Packages storage (free for public repositories) Access to Issues & Projects for project management Community support ### Team Plan Cost: $4 USD per user/month [...] The Team Plan, at $4 per user per month, introduces features like branch protection, required reviewers, and enhanced CI/CD capacity, making it a practical choice for growing teams that rely on consistent collaboration and automated testing. For larger organizations, the Enterprise Plan starts at $21 per user per month and includes enterprise-grade features such as SAML single sign-on, advanced auditing, and dedicated support. Custom pricing may apply depending on the scale and compliance requirements of your business. In short, GitHub\u2019s pricing is designed to scale with your organization \u2014 you pay only for the features and support level you actually need. #### 2. Is GitHub free or paid? [...] ### Large File Storage (LFS) What it does: A solution for versioning large files like videos, images, and data-heavy assets in Git repositories. Pricing: $5 per month for 50 GB bandwidth and 50 GB storage, with additional tiers available. ### GitHub Advanced Security (Enterprise-Only Add-On) What it does: A suite of powerful security tools that help you identify vulnerabilities and secrets in your code before they become a problem. Pricing: $49 per month per active committer. ## How to Choose the Right Plan",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.spendflo.com/blog/github-pricing-guide",
+      "title": "GitHub Pricing: Plans, Features, and Best Deals",
+      "content": "March 23, 2025 ## GitHub Pricing: A Comprehensive Guide GitHub pricing ranges from $3,000 to $95,000 annually. Explore its collaboration tools, security features, and automation for developers and teams. \u200d GitHub enterprise is a code-sharing platform that facilitates collaboration between companies and developers. It allows multiple people to work on the same project and make changes to it as needed. For example, if a company wants to build a website and assigns the work to a developer team, GitHub provides a space where all team members can update, modify, and edit the code. \u200d [...] This way, the project does not rely on just one person to make changes. Instead, everyone can contribute according to the ongoing requirements. By enabling collaborative coding, GitHub enterprise helps streamline workflow and accelerate project development and delivery. The platform makes it easy to coordinate efforts even when people are working remotely. \u200d ###### How Much Does GitHub Cost? GitHub enterprise pricing ranges from $3,000 to $95,000 annually, depending on the plan and organization size. It offers a Free plan for individuals, while Team and Enterprise plans provide enhanced collaboration, security, and automation features. The Team plan starts at $4 per user/month, and larger businesses can opt for Enterprise plans for GitHub advanced security and GitHub support. \u200d [...] \u200d | Plan | Price | Features | --- | Free | $0 per month | Unlimited public/private repositories, 2,000 CI/CD minutes per month, community support, primary features | | Team | $4 per user/month | All Free features, plus 3,000 CI/CD minutes, protected branches, multiple reviewers, web support | | Enterprise | $21 per user/month | All Team features, 50,000 CI/CD minutes, SAML SSO, advanced security features, audit logs, premium support | \u200d",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.eesel.ai/blog/github-pricing",
+      "title": "A complete guide to GitHub pricing in 2026 | eesel AI",
+      "content": "Here\u2019s a quick side-by-side look at the three main plans. | Feature | Free Plan | Team Plan | Enterprise Plan | --- --- | | Price | $0 | $4/user/month | Starts at $21/user/month | | Private Repositories | Unlimited | Unlimited | Unlimited | | CI/CD Minutes | 2,000/month | 3,000/month | 50,000/month | | Package Storage | 500MB | 2GB | 50GB | | Protected Branches | Public repos only | Yes | Yes | | Required Reviewers | No | Yes | Yes | | SAML SSO | No | No | Yes | | Data residency | No | No | Yes (EU, Australia) | | Support | Community | Web-based | Web-based + optional Premium | ## Beyond the subscription: Understanding add-on costs [...] All posts Blog / Guides # GitHub pricing 2026: All enterprise plans compared Kurnia Kharisma Written by Kurnia Kharisma Katelin Teen Reviewed by Katelin Teen Last editedJune 24, 2026 Expert Verified A complete guide to GitHub pricing in 2026 Table of Contents What is GitHub? GitHub pricing plans + The Free plan + The Team plan ($4/user/month) + The Enterprise plan (starts at $21/user/month) + Plan comparison table Beyond the subscription: Understanding add-on costs + GitHub Copilot: The AI assistant add-on + GitHub Advanced Security: Now two separate add-ons + Usage-based costs: Actions, Packages, and Codespaces The hidden costs: What's not on the page? Making the right choice for your budget [...] While you're looking at your development budget, don't forget about your support costs. The most efficient teams use AI everywhere to keep things moving smoothly. eesel AI can plug into your existing help desk and knowledge bases to help automate support, with predictable pricing that won\u2019t leave you with a surprise bill. You can even simulate its impact on your past support tickets to see how it could work for you. ## Frequently asked questions How is GitHub pricing generally structured across its main plans? GitHub pricing is structured into Free, Team, and Enterprise plans, each offering different levels of features for individuals, small teams, and large organizations respectively. Costs increase with advanced collaboration tools, security features, and support options.",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.getpricepulse.com/companies/github-pricing.html",
+      "title": "GitHub Pricing 2026 \u2014 Plans & Cost Breakdown",
+      "content": "### Quick Summary Free Plan: $0/month \u2014 Perfect for open source and learning Pro Plan: $4/month \u2014 Paid features for an individual developer Team Plan: $4/user/month \u2014 For collaborative teams Enterprise: Starts at $21/user/month \u2014 Security, compliance and enterprise controls; contract terms can vary Usage matters: Actions, Packages, Copilot and Advanced Security are separate metered or subscription products beyond plan allowances. Most common choice: Pro for individuals, Team for teams of 5+ ## All GitHub Plans [...] ## All GitHub Plans Pricing terms checked September 30, 2026. The public GitHub comparison marks Team's $4/user/month and Enterprise's starting $21/user/month as first-12-month prices. Confirm your offer, billing currency and renewal quote; these are not guarantees that the same rate applies forever. ### GitHub Pro vs Team: Personal Account or Organization? Pro upgrades a personal account's private-repository features. Team is an organization purchase. Buying Pro for each individual is not a substitute for the organization's Team entitlements. Identify who owns the repositories and which controls are required before multiplying a seat price. See GitHub's account-upgrade documentation. ### Enterprise Cost: Separate Seats From Usage [...] | Feature | Free | Pro | Team | Enterprise | --- --- | Price | $0 | $4/user/mo | $4/user/mo | From $21/user/mo | | Public Repos | Unlimited | Unlimited | Unlimited | Unlimited | | Private Repos | Unlimited | Unlimited | Unlimited | Unlimited | | Collaborators | Unlimited | Unlimited | Unlimited | Unlimited | | GitHub Actions (monthly minutes) | 2,000 (free) | 3,000 | 3,000 | 50,000 | | Package Storage | 0.5 GB | 2 GB | 2 GB | 50 GB | | Branch Protection Rules | Basic | Basic | Advanced | Advanced | | Code Scanning (SAST) | \u2705 | \u2705 | \u2705 | \u2705 | | Organization Roles | Basic | Basic | Advanced | Advanced | | SAML SSO | \u274c | \u274c | \u2705 | \u2705 | | Audit Logs | \u274c | \u274c | \u2705 | \u2705 | | Support | Community | Email | Email + Priority | Premium 24/7 | ## How Much Does GitHub Actually Cost?",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.techrepublic.com/article/height-app-review",
+      "title": "Height App Review: Features, Pricing, Pros & Cons",
+      "content": "## Height pricing: 4.4/5 | Pricing Plan | Cost/month (per user, billed monthly) | Cost/month (per user, billed annually) | --- | Free | free | free | | Team | $8.50 | $6.99 | | Business | $14.99 | $11.99 | | Enterprise | Custom quote | Custom quote | ### Free plan Height offers a generous free plan for small teams and startups. The free plan allows you to add unlimited team members and guests and create unlimited tasks and subtasks. Though this plan gives you the necessary tools to run a basic AI-charged project, it is limited in terms of customization. File storage for Height\u2019s free plan is limited to 50MB. ### Team plan [...] ### Team plan You can try this plan for free for 30 days, after which you will be required to choose either a month-to-month plan or an annual plan. The Height team plan is priced at $8.50 per member per month, billed monthly, or $6.99 per member per month, billed yearly. It is well suited for fast-growing teams managing multiple cross-functional workstreams. This plan bumps the file storage up from the 50MB you will get in the free plan to 100MB. Consider the business plan if you need more storage space, advanced project management features and priority support. ### Business plan [...] ### Business plan Height\u2019s business plan is designed to cater to the needs of diverse teams across an entire organization. Costing $14.99 per member per month when billed monthly or $11.99 per member per month when billed annually, the plan offers strong administrative and security capabilities. It also gives you access to priority support and up to 1GB of storage space for file uploads. ### Enterprise Height doesn\u2019t advertise its enterprise plan on its website. The company requires potential buyers to contact their sales team for custom quotes. The plan gives you up to 5GB of storage space and up to 2,500 monthly automation runs per member. ## Core Height features: 3.2/5 ### Code to task",
+      "dimension": "pricing",
+      "query": "Height pricing plans"
+    },
+    {
+      "id": "S22",
+      "url": "https://digijaws.com/reviews/height-pricing",
+      "title": "Height Pricing 2026: Every Plan and What It Really Costs",
+      "content": "DigiJaws Scan free # Height Pricing (2026): Every Plan and What It Really Costs Posted by Beau Thoutt \u00b7 Project Management, Tool Reviews Height pricing starts at $6.99/member/mo billed yearly (Team). Every figure on this page was checked against Height\u2019s own pricing page on 2026-09-18, and the date is on the page so you can judge how stale it is. Below: what each plan costs, what the step up actually buys you, and what the headline price leaves out. There is a free plan: yes \u2014 unlimited tasks, lists and AI features. Read the allowance rather than the label \u2014 what runs out first is usually what forces the upgrade. ## Height pricing at a glance Height pricing at a glance [...] ## Is Height worth the money? Our reviewers rated Height 4.0/5. All autonomous capabilities on every plan, including free. In a category where AI is routinely the premium upsell, Height charges the same for it at every level. The full assessment \u2014 what it does well, where it falls down and who should avoid it \u2014 is in our Height review. ## Frequently asked questions ### How much does Height cost? The entry paid plan is $6.99/member/mo billed yearly (Team). The full range runs from $0 on Free to $8.50/member/mo \u00b7 $6.99/member/mo yearly on Team. Figures were checked against Height\u2019s own pricing page on 2026-09-18. ### Does Height have a free plan? Yes \u2014 yes \u2014 unlimited tasks, lists and AI features. ### What does the headline Height price not include? [...] ## Height pricing at a glance Height pricing at a glance | Plan | Price | Per year | What it includes | | Free | $0 | \u2014 | \u2b50 Unlimited tasks \u00b7 unlimited lists \u00b7 all AI features included \u00b7 suitable for individuals and small teams | | Team | $8.50/member/mo \u00b7 $6.99/member/mo yearly | $83.88 | \u2b50 All autonomous capabilities, as on every plan \u00b7 team collaboration and shared workspaces | Verified against the vendor\u2019s pricing page on 2026-09-18. ## Monthly or annual The entry tier is quoted at two rates: $8.5 and $6.99 a month. The lower figure is the annual rate, so committing for a year saves $18.12 over twelve months \u2014 about 18% \u2014 and the monthly rate is what you pay for the flexibility to leave. ## What the headline price leaves out",
+      "dimension": "pricing",
+      "query": "Height pricing plans"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.heightsplatform.com/pricing",
+      "title": "Heights Platform - Pricing and Plans",
+      "content": "Skip to Content # Pricing and Plans Create unlimited content. No hard limits on number of students. Zero transaction fees on payments you collect. Billed monthlyBilled annually Save 20% with Annual Plans #### Challenge Get started and grow by creating challenges for your audience $2919/month HEIGHTS AI 1 Challenge Course Lesson Comments Unlimited Students Collect Payments with 0 Fees Unlimited Email to 1,000 Contacts Up to 100 Active Students Expert Email Support Unlimited Video Upload/Hosting Live Lessons Drag-&-drop lesson builder Coupons and Coupon Links Gamification Completion Certificates Learner Analytics Desktop/Tablet/Mobile Access Private Creator Community #### Basic [...] Private Creator Community #### Basic Launch your courses and community as a growing creator $4939/month HEIGHTS AI Unlimited Courses & Challenges Unlimited Community Channels Unlimited Students Collect Payments with 0 Fees Unlimited Email to 5,000 Contacts Up to 5,000 Active Students Expert Email Support Includes all \"Challenge\" features Create and Sell Digital Products Meeting Rooms & Chat Bundles and Hidden Products Create Student Projects Affiliate Program Product Sales Pages & Blog Custom Code All Integrations + Zapier #### Pro MOST POPULAR All you need to grow an online knowledge business $11999/month HEIGHTS AI Unlimited Courses & Challenges Unlimited Community Channels Unlimited Students [...] Unlimited Community Channels Unlimited Students Collect Payments with 0 Fees Unlimited Email to 10,000 Contacts Up to 10,000 Active Students Expert Email Support Includes all \"Basic\" features Weekly Personal Coaching Drag-&-Drop Web Page Builder Custom Domain Live Streaming Remove HEIGHTS Branding 2 Admin Users Free T-30 Launch Course #### Academy For the largest creators at scale and organizations $499399/month HEIGHTS AI Unlimited Courses & Challenges Unlimited Community Channels Unlimited Students Collect Payments with 0 Fees Unlimited Email to 100,000 Contacts Unlimited Active Students Expert Email Support Includes all \"Pro\" features 25 Admin Users Advanced Reporting Customizable Student Roles",
+      "dimension": "pricing",
+      "query": "Height pricing plans"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.capterra.com/p/184368/Heights-Platform/pricing",
+      "title": "Heights Platform Pricing 2026",
+      "content": "Heights Platform has 4 different plans. The pricing starts at $29 flat rate per month. Challenge $29.00 Flat Rate, Per Month. Basic $49.00 Flat Rate, Per Month",
+      "dimension": "pricing",
+      "query": "Height pricing plans"
+    },
+    {
+      "id": "S25",
+      "url": "https://ideaproof.io/saas-pricing/product/height",
+      "title": "Height Pricing 2026: Plans & Real Costs",
+      "content": "Height publishes 3 tiers, starting with a free plan. The cheapest paid tier is $0/mo and the top published tier is $15/mo. In Project Management the median",
+      "dimension": "pricing",
+      "query": "Height pricing plans"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.youtube.com/watch?v=vsO3W15YjK0&vl=en-US",
+      "title": "Linear vs Jira (2026) | Which One is Better?",
+      "content": "\ud83d\udc49 Winner: Jira (for complex use cases) \ud83e\udd16 AI Features Linear: Smart issue creation, prioritization, duplicate detection Jira: Basic AI (summaries, search, writing assistance) \ud83d\udc49 Winner: Linear \ud83d\udd17 Integrations Linear: ~40 essential dev integrations (GitHub, Slack, Figma, Notion) Jira: 3,000+ integrations across all departments \ud83d\udc49 Winner: Jira \ud83d\udcb0 Pricing Linear: Free tier scales with usage, flexible pricing Jira: Free up to 10 users, then per-seat pricing kicks in Jira often requires paid add-ons for key features \ud83d\udc49 Winner: Linear (for growing teams) \ud83e\udde0 Which One Should You Choose? \ud83d\udc49 Choose Linear if you: Have a small to mid-sized engineering team Use modern tools (GitHub, Slack, Figma) Want speed and simplicity Follow standard agile workflows Care about developer experience [...] Jira Enterprise-grade project management platform Highly customizable workflows and permissions Massive ecosystem (3,000+ integrations) Deep integration with Atlassian tools (Confluence, etc.) Built for large organizations and complex environments \ud83d\udd0d Core Comparison \u26a1 Speed & Performance Linear: Instant, real-time sync, extremely fast Jira: Slower, especially with large or complex boards \ud83d\udc49 Winner: Linear \ud83e\udde9 Ease of Use Linear: Minimal setup, teams onboard in hours Jira: Complex setup, often requires admin management \ud83d\udc49 Winner: Linear \ud83d\udee0\ufe0f Features & Flexibility Jira: Advanced workflows, custom fields, enterprise features Linear: Focused feature set for developers \ud83d\udc49 Winner: Jira (for complex use cases) [...] [1:23] Jira days to weeks and often needs a dedicated admin just to manage configurations. In linear, the workflow [1:29] is the workflow. In Jira, changing one workflow step can take five admin screens. Features and flexibility. [1:37] Here's where Jira wins if you need it. [1:39] Custom fields, complex permission schemes, scrum plus conbon plus waterfall support, 3000 plus marketplace integrations, and native Confluence [1:48] linking. Linear has to 40 native integrations, but they're the ones dev teams actually use. GitHub, GitLab, [1:54] Figma, Slack, Notion. If you need HR, marketing, and engineering all in one tool, Jira handles that. Linear doesn't [2:02] even try to AI features. Linear's AI is actually useful. It autocreates issues from Slack conversations, prioritizes",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features"
+    },
+    {
+      "id": "S27",
+      "url": "https://efficient.app/compare/linear-vs-jira",
+      "title": "Linear vs Jira: Which Should You Choose? | Efficient App",
+      "content": "### AI Assistance Linear Linear's AI features are actually integrated into how engineers work: it helps prioritize backlogs, auto-generates reports, triages tickets, and even creates issues directly from Slack conversations. It doesn't just summarize or search, it actively takes work off your plate and plugs into engineering workflows, even connecting with coding tools to help write code and handle technical tasks. Jira's AI, on the other hand, feels tacked on and only covers the basics like summarizing, search, and writing. It doesn't go further than that, so it won't really save you time beyond those standard features. [...] If you care about staying productive and want a tool that actually helps you manage your own work, go with Linear. Jira just gets in the way. ### Ease of Learning Linear Linear is way easier to pick up if you're managing engineering tasks. Its clean interface and built-in best practices mean most engineering teams can get started in under a day without any real friction. You don't have to figure out complicated setup or learn a bunch of new concepts. Jira, on the other hand, is a beast to learn. It's so complex that there are certification programs just for setting it up, and most teams need a dedicated person to manage it. You're not getting started quickly with Jira, period.",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features"
+    },
+    {
+      "id": "S28",
+      "url": "https://tech-insider.org/linear-vs-jira-2026",
+      "title": "Linear vs Jira: Why 30% of Teams Switched [2026]",
+      "content": "Fireship, the YouTube channel known for concise and opinionated tech commentary, summed up the dynamic perfectly: \u201cJira is the tool everyone loves to hate but can\u2019t replace in large organizations. Linear is what happens when you start from scratch with modern UX principles.\u201d This captures the essential tension in the market. Jira\u2019s dominance comes from its comprehensiveness and enterprise features, while Linear\u2019s appeal comes from rethinking the fundamentals of how issue tracking should work. [...] Linear\u2019s Enterprise plan includes SSO via SAML, SCIM provisioning for automated user management, audit logs, and dedicated customer success management, and a 2026 head-to-head comparison of the two platforms confirms Linear Enterprise pricing remains custom-quoted rather than published, with SSO and SCIM still bundled as baseline inclusions rather than paid add-ons. These are the table-stakes features that enterprise procurement teams look for, and Linear covers them competently. However, Linear lacks some of the deeper enterprise features that large organizations have come to expect from Jira: granular permission schemes that control field-level visibility, custom security levels for issues, project-level role-based access control, and the ability to create organization-wide policies [...] The pattern is clear: Linear wins on speed, simplicity, and developer experience. Jira wins on breadth, enterprise readiness, and customization. Neither tool is objectively better; they serve different needs and organizational cultures. The right choice depends on which set of tradeoffs aligns with your team\u2019s priorities. ## The Leading Verdict: Linear vs Jira in 2026 After exhaustive analysis of pricing, performance, features, integrations, and real-world usage, we can offer a clear framework for the linear vs jira decision in 2026. There is no universal winner. Instead, the right choice depends on three key factors: your team size, your complexity needs, and your organizational culture.",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.siit.io/tools/comparison/linear-vs-jira",
+      "title": "Linear vs Jira (2026): Which Fits Your Team? | Siit",
+      "content": "TL;DR: Linear is the pick for engineering and product teams at small and mid-size companies that want a fast, opinionated tracker with minimal setup. Jira suits larger, multi-department organizations that need custom workflows, granular permissions, cross-team reporting, and compliance controls. Linear prioritizes speed and simplicity, while Jira provides configurability and governance across many teams and departments. Ratings: Linear: G2 4.6/5 \u00b7 Jira: G2 4.3/5, verified August 2026 ## Linear vs Jira at a Glance Linear favors fast, simple workflows. Jira can model almost any workflow through deeper configuration. [...] Key features: Cycles and Triage: Built-in sprint-style cycles plus a dedicated inbox for reviewing incoming issues before they enter a workflow, so planning and intake work without any setup project. Coding sessions: Linear Agent writes code through Claude Code or Codex, drafts a pull request, and attaches a diff for human review before merge. Releases: Tracks releases with continuous integration and delivery (CI/CD) integration and automatic issue status updates on deploy, so no one closes tickets by hand after a ship. Jira Sync: Configurable one-way or bidirectional sync between Jira spaces and Linear teams for organizations running both tools. Ideal for: engineering-led teams that want to spend less time managing the tracker. ## Overview of Jira",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features"
+    },
+    {
+      "id": "S30",
+      "url": "https://clickup.com/blog/linear-vs-jira",
+      "title": "Linear vs. Jira 2026 : An Honest, Review-Backed Comparison",
+      "content": "For teams running formal agile project management, Jira remains the reference implementation, down to the standard Scrum vocabulary. Read More: 50 Agile Scrum Terms Everyone Must Know (Detailed Glossary) ### Jira\u2019s standout features Real difference number one is workflow modeling. Branching statuses, conditions, validators, and post-functions let you encode a process exactly. That matters when sign-off needs to be enforced, and not just encouraged. Advanced Roadmaps, on Premium, plans across multiple teams and projects, with capacity and dependency maps. Teams doing quarterly planning across pods name this as the thing Linear does not replace. Subtask structures and story point estimation are mature and well-documented. [...] ### Does Linear or Jira have better AI? Linear puts more AI in reach of small teams; Jira embeds AI more deeply across a larger platform. Linear includes its agent platform and Linear Agent on the free tier, with Triage and Code Intelligence on Business and some features metered by AI credits. Atlassian states every paid Jira plan includes AI agents, though Atlassian Intelligence requires an admin to opt in first. ### Is Linear cheaper than Jira? [...] ### Is Jira better than Linear? Jira is better when your process must be exact, and audited; Linear is better when you want the tool to decide the process for you. Jira offers granular permissions, custom workflows, and multi-team roadmaps that Linear deliberately does not. Linear offers faster daily use and near-zero administration. On G2, Linear scores 4.6/5 across 120 reviews and Jira 4.3/5 across 7,966. ### Is Linear a replacement for Jira?",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features"
+    },
+    {
+      "id": "S31",
+      "url": "https://t0ggles.com/compare/linear-vs-github-issues",
+      "title": "Linear vs GitHub Issues (2026): Which Tracker to Pick",
+      "content": "| Feature | Linear | GitHub Issues | --- | PR to Issue Linking | Yes - branch names, magic words, auto status | Yes - closing keywords, linked PRs | | Two-Way Issue Sync | Yes - one repo per team for two-way | Not applicable - it is the source | | Delegate to Agents | Yes - Claude Code, Codex, Cursor, Devin, more | Yes - Copilot coding agent (paid Copilot) | | Built-In Coding Agent | Yes - Linear Agent coding sessions (Business+) | Yes - Copilot coding agent | | Deeplink to IDE Tools | Yes - Claude Code, Codex, Cursor | Via Copilot and Codespaces | | MCP Server | Yes | Yes - GitHub MCP server | Verdict: GitHub Issues has the edge for the tightest code-to-PR loop with Copilot, while Linear has the edge for choosing your agent and managing agent work as part of planning. [...] | Feature | Linear | GitHub Issues | --- | Sprints / Cycles | Yes - automatic carryover, velocity | Iteration fields, manual carryover | | Roadmap / Timeline | Yes - projects and initiatives | Yes - roadmap layout per project | | Milestones | Yes - project milestones | Yes - repository milestones | | Estimates | Yes - points, t-shirt, Fibonacci | Via a number field | | Capacity | Yes - cycle scope and capacity | No | | Project Updates | Yes - health status and written updates | Status updates on Projects | Verdict: Linear has the edge here because cycles with automatic carryover and velocity, plus an initiative hierarchy, are built in, while GitHub Projects requires you to assemble the equivalent from fields. ## #GitHub Integration and AI Agents [...] | Aspect | Linear | GitHub Issues | --- | Speed | Very fast - local-first, keyboard-driven | Standard web app | | Learning Curve | Low - but opinionated structure | Very low for developers | | Navigation | One app, command palette | Issues, Projects, and dashboard are separate | | Search | Fast filter and full-text | Advanced boolean plus semantic search (2026) | | Customization | Workflow states, labels, templates | Labels, types, fields, templates, issue forms | Verdict: Linear has the edge here because it was designed as a tracker from the first keystroke, while GitHub Issues is a capable tracker attached to a larger platform. ## #Issue and Project Management",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.devtoolreviews.com/reviews/linear-vs-github-issues-vs-jira",
+      "title": "Linear vs GitHub Issues vs Jira (2026) | DevToolReviews",
+      "content": "Linear, GitHub Issues, and Jira represent three philosophies: Linear optimizes for speed and opinionated workflows, GitHub Issues integrates tightly with code, and Jira offers maximum configurability for complex organizations. We used all three on active projects over four weeks. ## Speed and Responsiveness This is Linear's defining advantage. The application loads instantly, transitions are animated at 60fps, and every action \u2014 creating an issue, changing status, filtering, searching \u2014 responds in under 100ms. Linear achieves this through aggressive local caching and optimistic updates. When you drag an issue to a new status, the UI updates immediately; the server sync happens in the background. [...] ## The Verdict Linear is the best project management tool for small-to-medium engineering teams in 2026. Its speed, keyboard-driven workflow, and opinionated design make daily issue tracking feel effortless rather than burdensome. GitHub Issues is the right choice for open-source projects and cost-conscious teams that value code integration over workflow features. Jira remains the enterprise standard \u2014 its configurability and reporting depth are unmatched, even if its speed and usability lag behind Linear. [...] ## Reporting and Analytics Jira offers the most comprehensive reporting: velocity charts, burndown charts, cumulative flow diagrams, sprint reports, and custom JQL-powered dashboards. For organizations that need to report engineering metrics to stakeholders, Jira provides the most out of the box. Linear provides cycle reports (velocity, scope changes), project progress tracking, and team analytics. The reports are clean and actionable but less customizable than Jira's. GitHub Issues has minimal built-in reporting. You can see issue counts and milestone progress, but for detailed analytics, you need third-party tools or custom queries via the GraphQL API. ## Automation All three tools support automation, but the depth varies:",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features"
+    },
+    {
+      "id": "S33",
+      "url": "https://cotera.co/articles/linear-vs-github-issues-comparison",
+      "title": "We Outgrew GitHub Issues at 500 Tickets. Linear Was the Obvious Next Step.",
+      "content": "The standup generator works because Linear's data model is clean. Every state change, comment, and assignment is tracked in the issue activity. The agent reads that activity stream and composes a readable summary. In GitHub Issues, the equivalent data exists in the timeline but it's mixed with CI events, PR reviews, and deployment notifications. Priya also uses a sprint status reporter that generates Friday summaries with completion rates and velocity trends. She forwards it to leadership without editing it most weeks. Neither GitHub Issues nor Linear's native features can analyze sprint data and write a narrative about what it means. Agents handle that layer. ## The Decision Framework [...] The proximity to code. In GitHub Issues, you're already in the repo. You can reference a line of code, link to a file, and see the code context without switching tools. In Linear, you're in a separate application. The code lives in GitHub. The issues live in Linear. The two are connected by links and integrations, but they're not in the same place. For debugging sessions where you're jumping between code and issues, the context switch is real. Free. GitHub Issues costs nothing. Linear is $8 per user per month. For a ten-person team, that's $960 per year. Not much, but GitHub Issues is literally free. For pre-revenue startups counting every dollar, the zero cost of GitHub Issues is meaningful. ## The Agent Layer [...] ## What Changed Immediately The speed difference was the first thing everyone noticed. Linear's local sync engine means the interface responds instantly. Clicking on an issue loads it in under 100 milliseconds because the data is already cached on your machine. GitHub Issues requires a server round trip for every page load. The difference in absolute time is small (maybe one to two seconds per interaction), but at dozens of interactions per day, it changes the experience from \"using a web app\" to \"using a desktop app.\"",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.stackfyi.com/guides/linear-vs-jira-vs-github-issues-2026",
+      "title": "Linear vs Jira vs GitHub Issues 2026 | StackFYI",
+      "content": "Contents # Linear vs Jira vs GitHub Issues 2026 ## TL;DR In 2026, Linear is the best issue tracker for most engineering teams \u2014 fast, keyboard-first, built for developers who want to ship without ceremony. Jira wins for enterprises that need unlimited configurability, formal Scrum analytics, and the deep Atlassian ecosystem. GitHub Issues is the clear pick for open-source projects and any team that lives entirely in GitHub and wants zero context-switching between code and tasks. The right choice depends heavily on your team size, workflow discipline, and how much time you can invest in tooling setup. Quick picks: [...] Jira's configurable workflow engine means every stage transition can enforce rules: required fields on status change, approval flows, automated transitions triggered by CI/CD events. For orgs with formal release processes, this is genuinely valuable \u2014 not available in Linear at comparable depth. ### GitHub Issues: Zero Friction, Limited Ceiling GitHub Issues has the lowest friction of any tool in this comparison for teams that already live in GitHub. Creating an issue is as fast as opening a new browser tab. Issues cross-reference commits and PRs automatically \u2014 every `Fixes #123` in a commit message closes the issue and adds a timeline event. The context between code and tasks is the tightest of any tool here. [...] The GitHub REST and GraphQL APIs are among the best-documented in the industry. Automation on top of GitHub Issues has a large, active community with open-source tooling available. ## Developer Experience ### Linear: Optimized for Engineers Linear is the only issue tracker in this comparison that was designed with the assumption that the people creating and triaging issues are engineers who value speed and keyboard control. The command palette (`Cmd+K`) handles every action without leaving the keyboard. Issue creation takes under five seconds from any context. The triage inbox consolidates new issues for team leads to process without drowning in notifications.",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features"
+    },
+    {
+      "id": "S35",
+      "url": "https://medium.com/@catherineangelr/creating-the-ideal-team-workflow-with-linear-and-github-ccbda5a65db3",
+      "title": "Creating the Ideal Team Workflow with Linear and Github",
+      "content": "Slack: You can create issues from Slack and sync discussions across both platforms. This allows you to keep track of discussions and tasks directly within Slack, making it easier to collaborate with your team members. GitHub: By linking your issues to GitHub, you can automate your pull request workflows. This means that status changes in GitHub will be automatically updated in Linear, saving you time and effort. You can also link single or multiple issues to a specific pull request, and comments in Linear will be synced with GitHub conversations.",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features"
+    },
+    {
+      "id": "S36",
+      "url": "https://aidevstart.com/compare/linear-vs-height",
+      "title": "Linear vs Height (2026) | AIDevStart",
+      "content": "Can I switch from Linear to Height? Yes, switching from Linear to Height is generally straightforward since both are Project Management tools. Linear supports Web, macOS while Height supports Web, macOS, Windows, so make sure your platform is supported. Most of your existing workflows should transfer with some adjustment for each tool's unique features. Which tool has more features: Linear or Height? Linear offers 3 documented strengths including fastest ui and ai issue triage. Height provides 3 key strengths including autonomous updates and chat-to-task. Both tools take different approaches \u2014 Linear focuses on issue tracking while Height targets startups. What are some alternatives to both Linear and Height? [...] ## How to read this 2026 comparison Linear and Height are both strong options in Project Management, but they optimize for different workflows. This page combines structured specs with excerpts from our full reviews so you can decide without opening ten tabs. ### Linear at a glance Linear is the standard for modern software projects. Its AI features (Linear Insights) help triage issues, generate titles, and spot duplicates automatically. Standout strengths: Fastest UI; AI issue triage; GitHub integration. Typical use: Issue tracking. Pricing: Freemium. ### Height at a glance Height is an autonomous project management tool that uses AI to handle the \"grunt work\" of updating statuses, prioritizing tasks, and deduplicating issues. [...] ## Quick Summary Linear is a Freemium Project Management tool \u2014 the issue tracker built for high-performance teams.. It stands out for fastest ui and ai issue triage. Well suited for issue tracking. Height is a Freemium Project Management tool \u2014 the only autonomous project management tool.. It excels at autonomous updates and chat-to-task. Well suited for startups. Both tools share a Freemium pricing model, so the decision comes down to features and workflow preferences. Linear Linear ### Linear Project Management \u00b7 Freemium The issue tracker built for high-performance teams. Linear is the standard for modern software projects. Its AI features (Linear Insights) help triage issues, generate titles, and spot duplicates automatically. Full ReviewVisit Site Height Height",
+      "dimension": "competitive",
+      "query": "Linear vs Height features"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.openhelm.ai/blog/linear-vs-height-vs-plane-project-management",
+      "title": "Linear vs Height vs Plane: Project Management for AI Teams | OpenHelm",
+      "content": "## Summary Linear offers best speed and developer experience with excellent GitHub integration, ideal for fast-moving product teams under 10 users (free) or willing to pay premium. Height provides best AI features (auto-assignment, smart lists) at lower cost, great for async teams wanting automation. Plane best for privacy-conscious teams requiring self-hosted, open-source solution. For most AI startups, Linear recommended if <10 users, otherwise Height for AI features + cost efficiency. Winner: Linear for developer teams, Height for AI automation. Internal links: </blog/multi-agent-orchestration-implementation-guide> </blog/cursor-vs-github-copilot-vs-codeium-ai-coding> External references: Linear Height Plane ## More from the blog Academy [...] ## Height Best for: Async teams, AI-powered workflows, spreadsheet-style management Strengths: Best AI features (auto-assignment, smart task creation) Chat-based collaboration built-in Spreadsheet view (best for data-heavy planning) Smart lists (AI-powered filtering) Most affordable ($6.99/user) Excellent for distributed teams Weaknesses: Slower interface than Linear Less polished design Smaller community GitHub integration weaker AI-specific features: Auto-assignment (AI suggests best team member) Smart task creation (AI extracts tasks from messages) Smart lists (AI-powered dynamic filtering) Auto-tagging (analyzes content, applies labels) Meeting notes \u2192 tasks (AI converts notes to issues) Use cases: [...] Skip to content Reviews # Linear vs Height vs Plane: Project Management for AI Teams Compare Linear, Height, and Plane project management tools -evaluating speed, AI features, keyboard shortcuts, and which tool best fits fast-moving AI development teams. Max Beech\u00b7 Founder \u00b7\u00b78 min read Linear vs Height vs Plane: Project Management for AI Teams TL;DR Linear: Fastest, most polished, best for product teams ($8/user/month, free for <10 users) Height: Best AI features (auto-assignment, smart lists), great for async teams ($6.99/user/month, free for individuals) Plane: Open-source, self-hostable, best for privacy-conscious teams (free self-hosted, $10/user/month cloud) ## Feature comparison",
+      "dimension": "competitive",
+      "query": "Linear vs Height features"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.getguru.com/reference/linear-vs-height",
+      "title": "Linear vs Height: Which Project Management Tool is Best for You?",
+      "content": "Linear's focus on simplicity comes with features like batch operations for speedy task updates. In comparison, Height's Kanban boards and Gantt charts cater to detailed project planning and tracking. Choose Linear for streamlined workflows and Height for in-depth project visualization and management capabilities based on your project requirements. Contributors Rick Nucci Co-founder & CEO [...] \u200b Linear is celebrated for being the project and issue tracking system that teams actually love to use. It helps thousands of high-impact product teams streamline issues, sprints, and product roadmaps. On the other hand, Height positions itself as the autonomous project collaboration tool with an embedded AI engine that handles the legwork of building products on autopilot. This includes automating tasks such as bug triage, backlog refining, and documentation updates. \u200b The importance of comparing these tools lies in uncovering which one aligns better with your team\u2019s needs and ensures seamless project management. \u200b ## Linear Overview Linear offers a sleek and efficient platform designed to ease project tracking and issue management for product teams. \u200b ### Key Features [...] \u200b Linear stands out with its streamlined issue tracking, sprint planning, and product roadmap capabilities, making it an excellent choice for product development teams and mid-sized enterprises looking for an intuitive and stable project management solution. \u200b Height, on the other hand, excels with its AI-driven approach, automating routine tasks and promoting autonomous project collaboration. It is best suited for teams in fast-paced environments and those seeking a high level of customization and automation in their project management processes. \u200b",
+      "dimension": "competitive",
+      "query": "Linear vs Height features"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.vantageos.tech/vs/linear-vs-height",
+      "title": "Linear vs Height: Which Is Better for Product Teams? (2026) | Vantage",
+      "content": "## Linear Linear is the fastest issue tracker available. Its keyboard-first design, triage inbox, fixed-length cycles, and clean interface enforce productive habits. Linear takes a strong stance on how issue tracking should work. ## Height Height is a flexible project management tool that combines issue tracking with spreadsheet-like views, forms, and cross-functional features. Its AI-powered automations and task inference features are notable. More flexible than Linear but less opinionated. ## Feature comparison [...] ## Feature comparison | Feature | Linear | Height | --- | Speed | Fastest available | Fast | | Flexibility | Opinionated | More flexible | | Views | List, board | List, board, spreadsheet, calendar | | AI features | Basic | AI task inference and automations | | Cross-functional use | Engineering-focused | Broader accessibility | | API | GraphQL | REST | | Free tier | Small teams | Up to 5 users | | Paid plans | From $8/user/mo | From $8.50/user/mo | ## Linearpros Fastest issue tracker available Clean, focused interface Strong keyboard navigation Opinionated workflows reduce setup ## Linearcons Less flexible for custom workflows Engineering-focused Limited views Smaller feature set Pricing: Free (small teams), Standard ($8/user/mo), Plus ($14/user/mo) ## Heightpros [...] Vantage Get Started Free Linearvs Height # Linear vs Height: Which Is Better for Product Teams? (2026) Linear and Height are both modern issue trackers positioning themselves as Jira alternatives. Linear is known for speed and opinionated workflows. Height takes a more flexible approach with strong cross-functional collaboration features. This guide compares them for product and engineering teams. Where Vantage fits Comparing Linear and Height? Four questions, one straight answer. Tell us how your team works. We\u2019ll say where Vantage fits next to your tracker, and where it doesn\u2019t. ## Linear",
+      "dimension": "competitive",
+      "query": "Linear vs Height features"
+    },
+    {
+      "id": "S40",
+      "url": "https://bundl.run/compare/height-vs-linear",
+      "title": "Height vs Linear \u2014 Which is Better in 2026? \u2014 Bundl.run",
+      "content": "Verdict: Only Linear's agent platform is available today; Height autonomous features ended with the service. ### Views and planning High importance #### Height Good Historically broad views including spreadsheet and timeline-style planning. Verdict: Linear wins as the available option. Recreate special Height views via projects and initiatives where needed. ### Integrations High importance #### Height Fair Had Slack and GitHub-class integrations; endpoints are gone with the product. Verdict: Live integrations only exist on Linear. Height endpoints disappeared with the product. ### Pricing predictability High importance #### Height Poor No active pricing. Service ended. Historical freemium is moot. [...] ## Detailed Feature Comparison ### Product viability (2026) Critical importance #### Height Poor Discontinued. Final service day 24 September 2025. No responsible team should adopt Height now. Document the date in runbooks so new hires do not treat old bookmarks as live. Verdict: Viability alone decides the comparison: only Linear is a living product in August 2026. ### Issue tracking speed Critical importance #### Height Good Historically fast keyboard UI. That speed is irrelevant for new work after shutdown. Verdict: Linear is the living speed tool; Height's historical keyboard UI cannot be adopted for new work. ### AI and agents High importance #### Height Fair Autonomous PM features existed pre-shutdown but died with the service. [...] Height is gone. Linear is the living product in this pairing as of August 2026. Scores that pretend Height still competes on features mislead buyers. Migrate archives if you have them, rebuild active work as Linear issues and projects, reconnect Git and Slack, and enable Linear Agent only after a security review. Free and Basic cover small teams; Business unlocks guests and deeper AI; Enterprise covers SAML and SCIM. Agencies that need classic Gantt-heavy PM should evaluate other living tools rather than mourning Height. For software delivery teams on macOS, Linear is the default successor path documented here. If your company still has Height in password managers, SSO tiles, or onboarding checklists, schedule a cleanup sprint this week. The product comparison is over; the operational",
+      "dimension": "competitive",
+      "query": "Linear vs Height features"
+    },
+    {
+      "id": "S41",
+      "url": "https://get-alfred.ai/blog/is-linear-worth-it",
+      "title": "Is Linear Worth It? Honest Review for Engineering Teams (2026) | alfred_",
+      "content": "### What is Linear Agent? Linear Agent launched in March 2026 is an AI feature that creates issues from Slack messages, auto-triages bugs, suggests duplicate issues, and helps draft issue descriptions. It also provides deeplinks to AI coding tools like Cursor. It brings automation to triage within Linear's ecosystem but does not read email or understand communication outside connected integrations. Linear has become the default project tracker for a generation of fast-moving software teams. The pitch is simple: Jira is bloated, GitHub Issues is too basic, and Linear sits in the sweet spot, powerful enough for real engineering workflows, fast enough that using it does not feel like work. [...] Linear Agent adds AI-powered automation. Launched in March 2026, Linear Agent can create issues from Slack messages, suggest duplicates, auto-assign based on team areas, and help draft issue descriptions. It also provides deeplinks to AI coding tools like Cursor. These features streamline the gap between \u201csomeone mentions a bug in Slack\u201d and \u201cthere is a tracked issue in Linear.\u201d Git integration is seamless. Connect a branch to an issue and Linear auto-updates the issue status when you open a PR, merge, or deploy. This eliminates the \u201cupdate the ticket\u201d ceremony that developers hate. The issue tracker stays current because it is connected to the actual development workflow. ## What Linear Does Not Do [...] What is Linear Agent? Linear Agent, launched in March 2026, is an AI feature that can create issues from Slack messages, auto-triage bugs, suggest duplicate issues, and help with issue descriptions. It brings some automation to the triage process within Linear's ecosystem. It is promising but limited to Linear's own context. It does not read your email or understand communication outside of connected integrations. Is Linear worth it over free tools like GitHub Issues?",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026"
+    },
+    {
+      "id": "S42",
+      "url": "https://www.siit.io/tools/trending/linear-app-review",
+      "title": "Linear Review (2026): Pricing, Pros & Cons, Verdict | Siit",
+      "content": "Linear Agent: Launched in public beta on March 24, 2026 and free on all plans during beta, agents are full workspace members that can be assigned to issues, added to projects, or mentioned in comments to triage, answer questions, create follow-up work, and draft project updates. Shared Skills (June 4, 2026) let teams save and reuse agent instructions. Coding Sessions: Generally available June 11, 2026 on Basic, Business, and Enterprise (AI credits required), where Linear Agent writes code using Claude Code and Codex, running in the cloud with workspace context so teams can prototype without local setup. [...] TL;DR verdict: Linear is a fast, minimalist product development system built for software teams, with speed and developer-first UX as its standout strengths and workflow rigidity as its main limitation. Teams that live in issues and PRs get the most from it; teams that need client-facing reporting or deep customization across departments should look elsewhere. Ratings: G2: 4.6/5 \u00b7 Capterra: 4.3/5, verified August 2026 ## What Is Linear? [...] Linear Diffs: The code-review feature, available on all plans since May 28, 2026, lets teams review PR diffs from any issue and ship without leaving Linear, syncing back to GitHub; Business and Enterprise add Guided Reviews that explain each section of a diff. Loops: Launched July 20, 2026 on Business and Enterprise (AI credits required), Loops are recurring agent automations that run on a schedule or in response to an event, described in plain language.",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026"
+    },
+    {
+      "id": "S43",
+      "url": "https://linear.app/changelog/page/2",
+      "title": "Changelog \u2013 Linear",
+      "content": "Skip to content \u2192 AllChangelogProduct launchesFrom the teamFrom the communityPress June 11, 2026 ## Coding sessions in Linear Earlier this year, we launched Linear Agent, giving teams a new way to plan and coordinate their issues and projects. Since then, we\u2019ve added Code Intelligence to extend that understanding to the codebase, and MCP support to bring all of your context together. Today we\u2019re closing the loop: Linear Agent can now write code using Claude Code and Codex. You can triage, plan, review, and ship\u2014all in Linear. Start a coding session by assigning an issue to Linear, or ask it to make a change in a chat, comment, or Slack thread. Each session is grounded in your workspace context, pulling in issue details, history, customer requests, discussions, and related work.",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026"
+    },
+    {
+      "id": "S44",
+      "url": "https://bundl.run/apps/linear-linear",
+      "title": "Linear for Mac (2026) \u2014 Review & Install \u2014 Bundl.run",
+      "content": "Bundl Submit an App Linear icon # Linear Modern issue tracking and project management For Mac Official website Free + paid plans Editorial score 4.7/5 Bundl review CategoryProductivity PlatformmacOS InstallationHomebrew ## Preview Take a closer look Website previewCredit: Linear ## Our review 4.7/5 Bundl editorial assessment How we review apps Linear in August 2026 is still the default modern issue tracker for product-engineering teams that value speed: Free for evaluation, Basic at $10, Business at $16, and a serious agent story on top. The Free 250-issue cap and annual paid billing are the main frictions. If you need Jira-level flexibility, look elsewhere. If you want low tracker latency and agents in the loop, Linear remains outstanding. ### Best for [...] Linear is a modern issue tracker and product delivery platform for software teams that prefer speed over endless configuration. It syncs data for a local-first feel, leans hard on keyboard workflows, and pairs issues with projects, cycles, initiatives, plus an expanding agent platform. As of August 2026 Linear reports trust from more than 40,000 companies and keeps pushing AI: Linear Agent, triage intelligence, coding sessions, loops, and MCP access show up across marketing and CEO/COO updates. Some AI features are metered via AI credits instead of a flat AI seat tax. Pricing on linear.app/pricing (verified August 2026): - Free, $0: unlimited members, 2 teams, 250 issues, agent platform / Linear Agent entry points, 10MB file uploads. - Basic, $10 per user/month (billed yearly): 5 teams, [...] Verified against linear.app/pricing in August 2026. - Free ($0): Unlimited members; 2 teams; 250 issues; agent platform & Linear Agent; 10MB uploads; core issues/projects/cycles/initiatives. - Basic ($10/user/month, billed yearly): 5 teams; unlimited issues; unlimited uploads; admin roles; all Free features. - Business ($16/user/month, billed yearly): Unlimited teams; private teams & guests; Triage Intelligence; Loops; Code Intelligence (beta); Insights; Asks; Zendesk/Intercom integrations; advanced AI/agent workflows (some require AI credits). - Enterprise (custom, annual): SAML & SCIM; granular admin; advanced security; invoice/PO; migration & onboarding support; priority support; account management. Notes: Marketing emphasizes yearly billing for paid seats. Certain agent/coding session",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026"
+    },
+    {
+      "id": "S45",
+      "url": "https://www.breeze.pm/articles/project-management-software-for-startups",
+      "title": "Best project management software for startups in 2026",
+      "content": "## Engineering trackers ### Linear Linear issue list with Todo issues, sidebar for teams, projects and views Pricing: Free for unlimited members, capped at 2 teams and 250 issues. Basic is $10 per user per month and Business $16, both billed yearly; Linear's pricing page shows yearly rates only. Guest accounts need Business and are billed as regular members. Coding sessions and Loops draw on prepaid AI credits, while Linear's other AI features are included in the plan. Rating: 4.6/5 on G2 from 122 reviews, 4.4/5 on Capterra from 5 reviews.",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "Linear offers a free plan for unlimited members, capped at two teams and 250 issues.",
+      "source_ids": [
+        "S7",
+        "S10",
+        "S45"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Linear's Basic plan costs $10 per user per month when billed yearly.",
+      "source_ids": [
+        "S7",
+        "S10",
+        "S44",
+        "S45"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Linear's Business plan costs $16 per user per month when billed yearly.",
+      "source_ids": [
+        "S7",
+        "S10",
+        "S44",
+        "S45"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Linear bills monthly or annually, with annual commitments typically offering a discount compared to month-to-month billing.",
+      "source_ids": [
+        "S9"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Guest accounts require Linear's Business plan and are billed as regular members.",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Linear's AI-powered coding sessions and Loops draw on prepaid AI credits.",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Linear pricing plans are reported to range from $5,000 to $70,000 annually depending on organizational needs.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira is cited as offering advanced agile boards, over 3,000 integrations, and extensive configurability for complex, multi-department organizations.",
+      "source_ids": [
+        "S1",
+        "S26",
+        "S30"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear is positioned as a fast, opinionated issue tracker with a keyboard-first interface and automatic sprint management for small-to-mid-size product and engineering teams.",
+      "source_ids": [
+        "S4",
+        "S29",
+        "S34"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Height is identified as the closest spiritual alternative to Linear for AI-assisted issue tracking, though reports indicate its autonomous features and integrations have ended.",
+      "source_ids": [
+        "S2",
+        "S40"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear and GitHub Issues both support coding agents and MCP servers, while Linear is noted for a clean issue activity data model, compared with GitHub Issues' timeline that is mixed with CI events, PR reviews, and deployment notifications.",
+      "source_ids": [
+        "S31",
+        "S32",
+        "S33"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear offers a free tier scaling with usage, whereas Jira offers a free plan for up to 10 users before requiring per-seat pricing.",
+      "source_ids": [
+        "S26"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear holds a G2 rating of 4.6 out of 5 compared to Jira's 4.3 out of 5 as of August 2026.",
+      "source_ids": [
+        "S29"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Linear holds a G2 rating of 4.6 out of 5 based on 122 reviews and a Capterra rating of 4.4 out of 5 based on 5 reviews.",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Linear received a Bundl editorial assessment score of 4.7 out of 5.",
+      "source_ids": [
+        "S44"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Linear Agent launched in public beta on March 24, 2026, as an AI feature for triaging bugs, suggesting duplicates, creating issues from Slack, and drafting descriptions; it was free on all plans during beta.",
+      "source_ids": [
+        "S41",
+        "S42"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Coding sessions that allow Linear Agent to write code using Claude Code and Codex became generally available on June 11, 2026, for Basic, Business, and Enterprise plans.",
+      "source_ids": [
+        "S42",
+        "S43"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Linear is described as the default modern issue tracker for product-engineering teams that value speed, with interface transitions reported at 60 frames per second and actions responding in under 100 milliseconds.",
+      "source_ids": [
+        "S32",
+        "S41",
+        "S44"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "One review summarized Linear as \"what happens when you start from scratch with modern UX principles,\" contrasting it with Jira's entrenched position in large organizations.",
+      "source_ids": [
+        "S28"
+      ]
+    }
+  ],
+  "unsupported_claims": []
+}
