@@ -1,0 +1,913 @@
+- generic [active] [ref=f3014e1]:
+  - generic [ref=f3014e3]:
+    - banner [ref=f3014e4]:
+      - navigation "Main" [ref=f3014e5]:
+        - generic [ref=f3014e6]:
+          - link "Atlassian logo" [ref=f3014e8] [cursor=pointer]:
+            - /url: /
+            - img "Atlassian" [ref=f3014e9]
+          - generic [ref=f3014e13]:
+            - generic [ref=f3014e14]:
+              - generic [ref=f3014e15]:
+                - link "Skip to content" [ref=f3014e16] [cursor=pointer]:
+                  - /url: "#content"
+                - link "Jira Software logo" [ref=f3014e17] [cursor=pointer]:
+                  - /url: /software/jira
+                  - img "Jira" [ref=f3014e19]
+              - menubar [ref=f3014e28]:
+                - menuitem "Features" [ref=f3014e29] [cursor=pointer]
+                - menuitem "Solutions" [ref=f3014e33] [cursor=pointer]
+                - menuitem "Guides" [ref=f3014e37] [cursor=pointer]
+                - menuitem "Templates" [ref=f3014e38] [cursor=pointer]
+                - menuitem "Pricing" [ref=f3014e42] [cursor=pointer]
+            - generic [ref=f3014e44]:
+              - search [ref=f3014e46]:
+                - generic: Search
+                - button "search" [ref=f3014e47] [cursor=pointer]
+              - link "Sign in" [ref=f3014e55] [cursor=pointer]:
+                - /url: https://id.atlassian.com/login?continue=https%3A%2F%2Fwww.atlassian.com%2Fgateway%2Fapi%2Fstart%2Fauthredirect%3Fcontinue%3Dhttps%3A%2F%2Fwww.atlassian.com%2Fsoftware%2Fjira%2Fpricing&application=wac--ic
+              - link "Get it free" [ref=f3014e58] [cursor=pointer]:
+                - /url: /try/cloud/signup?bundle=jira-software&edition=free
+    - main [ref=f3014e60]:
+      - heading "Transparent pricing for every team." [level=1] [ref=f3014e62]
+      - generic [ref=f3014e64]:
+        - generic [ref=f3014e67]:
+          - generic [ref=f3014e68]:
+            - text: "Team size:"
+            - spinbutton "Team size:" [ref=f3014e70]: "300"
+            - text: users
+          - group "Bill me:" [ref=f3014e71]:
+            - generic [ref=f3014e73]:
+              - generic [ref=f3014e74] [cursor=pointer]:
+                - radio "Monthly" [checked] [ref=f3014e75]
+                - text: Monthly
+              - generic [ref=f3014e76]:
+                - generic [ref=f3014e77] [cursor=pointer]:
+                  - radio "Annually" [ref=f3014e78]
+                  - text: Annually
+                - generic [ref=f3014e79]: SAVE UP TO 17%
+        - generic [ref=f3014e83]:
+          - generic [ref=f3014e86]:
+            - generic [ref=f3014e87]:
+              - heading "Free" [level=2] [ref=f3014e88]
+              - generic [ref=f3014e89]: Free forever for 10 users
+            - generic [ref=f3014e90]:
+              - generic [ref=f3014e91]: $0
+              - link "Free Get it now" [ref=f3014e95] [cursor=pointer]:
+                - /url: https://www.atlassian.com/try/cloud/signup?bundle=jira-software&edition=free&editionIntent=free&signupSource=pricing
+                - text: Get it now
+          - generic [ref=f3014e97]:
+            - heading "Includes:" [level=3] [ref=f3014e98]
+            - list [ref=f3014e99]:
+              - listitem [ref=f3014e100]:
+                - button "Unlimited goals, projects, tasks, and forms" [ref=f3014e104] [cursor=pointer]
+              - listitem [ref=f3014e109]:
+                - button "Backlog, list, board, timeline, calendar, and summary views" [ref=f3014e113] [cursor=pointer]
+              - listitem [ref=f3014e118]:
+                - button "AI-driven reports and dashboards" [ref=f3014e122] [cursor=pointer]
+              - listitem [ref=f3014e127]:
+                - button "150 automation steps per subscription per month" [ref=f3014e131] [cursor=pointer]
+              - listitem [ref=f3014e136]:
+                - generic [ref=f3014e137]: 2 GB of storage
+              - listitem [ref=f3014e144]:
+                - button "Support from Atlassian Community" [ref=f3014e148] [cursor=pointer]
+              - listitem [ref=f3014e153]:
+                - generic [ref=f3014e154]: Up to 10 users
+          - generic [ref=f3014e163]:
+            - generic [ref=f3014e164]:
+              - heading "Standard" [level=2] [ref=f3014e165]
+              - generic [ref=f3014e166]: Everything you need to get started
+            - generic [ref=f3014e167]:
+              - generic [ref=f3014e168]:
+                - generic [ref=f3014e169]: $8.48
+                - generic [ref=f3014e170]: per user / month
+              - link "Standard Start free trial" [ref=f3014e173] [cursor=pointer]:
+                - /url: https://www.atlassian.com/try/cloud/signup?bundle=jira-software&edition=standard&signupSource=pricing
+                - text: Start free trial
+          - generic [ref=f3014e175]:
+            - heading "Everything from Free, plus:" [level=3] [ref=f3014e176]
+            - list [ref=f3014e177]:
+              - listitem [ref=f3014e178]:
+                - button "Rovo Search, Chat, and Agents, and integrated AI-powered work features" [ref=f3014e182] [cursor=pointer]
+              - listitem [ref=f3014e187]:
+                - button "User roles and permissions" [ref=f3014e191] [cursor=pointer]
+              - listitem [ref=f3014e196]:
+                - button "External collaboration" [ref=f3014e200] [cursor=pointer]
+              - listitem [ref=f3014e205]:
+                - button "Multi-region data residency" [ref=f3014e209] [cursor=pointer]
+              - listitem [ref=f3014e214]:
+                - button "Cross-source data analysis" [ref=f3014e218] [cursor=pointer]
+              - listitem [ref=f3014e223]:
+                - button "Shared data foundation" [ref=f3014e227] [cursor=pointer]
+              - listitem [ref=f3014e232]:
+                - button "400 automation steps per user per month" [ref=f3014e236] [cursor=pointer]
+              - listitem [ref=f3014e241]:
+                - generic [ref=f3014e242]: 250 GB of storage
+              - listitem [ref=f3014e249]:
+                - button "9/5 regional support" [ref=f3014e253] [cursor=pointer]
+              - listitem [ref=f3014e258]:
+                - generic [ref=f3014e259]: Up to 100,000 users per site
+          - generic [ref=f3014e266]:
+            - generic [ref=f3014e267]: Recommended
+            - generic [ref=f3014e269]:
+              - generic [ref=f3014e270]:
+                - heading "Premium" [level=2] [ref=f3014e271]
+                - generic [ref=f3014e272]: Align multiple teams
+              - generic [ref=f3014e273]:
+                - generic [ref=f3014e274]:
+                  - generic [ref=f3014e275]: $15.56
+                  - generic [ref=f3014e276]: per user / month
+                - link "Premium Start free trial" [ref=f3014e279] [cursor=pointer]:
+                  - /url: https://www.atlassian.com/try/cloud/signup?bundle=jira-software&edition=premium&signupSource=pricing
+                  - text: Start free trial
+          - generic [ref=f3014e281]:
+            - heading "Everything from Standard, plus:" [level=3] [ref=f3014e282]
+            - list [ref=f3014e283]:
+              - listitem [ref=f3014e284]:
+                - button "Cross-team planning and dependency management" [ref=f3014e288] [cursor=pointer]
+              - listitem [ref=f3014e293]:
+                - button "Customizable approval processes" [ref=f3014e297] [cursor=pointer]
+              - listitem [ref=f3014e302]:
+                - button "Customizable onboarding by team type" [ref=f3014e306] [cursor=pointer]
+              - listitem [ref=f3014e311]:
+                - button "750 automation steps per user per month" [ref=f3014e315] [cursor=pointer]
+              - listitem [ref=f3014e320]:
+                - generic [ref=f3014e321]: Unlimited storage
+              - listitem [ref=f3014e328]:
+                - button "24/7 support for critical issues" [ref=f3014e332] [cursor=pointer]
+              - listitem [ref=f3014e337]:
+                - generic [ref=f3014e338]: 99.9% uptime SLA
+          - generic [ref=f3014e347]:
+            - generic [ref=f3014e348]:
+              - heading "Enterprise" [level=2] [ref=f3014e349]
+              - generic [ref=f3014e350]: Advanced analytics, scale and security for enterprises
+            - generic [ref=f3014e351]:
+              - generic [ref=f3014e353]:
+                - button "Billed annually."
+                - text: Switch to Annual billing above to view Enterprise pricing.
+              - link "Enterprise Contact sales" [ref=f3014e356] [cursor=pointer]:
+                - /url: https://www.atlassian.com/enterprise/contact?formType=pricing-quotes&signupSource=pricing
+                - text: Contact sales
+          - generic [ref=f3014e358]:
+            - heading "Everything from Premium, plus:" [level=3] [ref=f3014e359]
+            - list [ref=f3014e360]:
+              - listitem [ref=f3014e361]:
+                - button "Advanced data analysis" [ref=f3014e365] [cursor=pointer]
+              - listitem [ref=f3014e370]:
+                - button "Advanced admin controls and security" [ref=f3014e374] [cursor=pointer]
+              - listitem [ref=f3014e379]:
+                - button "Enterprise-grade identity and access management" [ref=f3014e383] [cursor=pointer]
+              - listitem [ref=f3014e388]:
+                - button "Enhanced data management and governance" [ref=f3014e392] [cursor=pointer]
+              - listitem [ref=f3014e397]:
+                - button "1,000 automation steps per user per month" [ref=f3014e401] [cursor=pointer]
+              - listitem [ref=f3014e406]:
+                - button "Multiple sites (up to 150)" [ref=f3014e410] [cursor=pointer]
+              - listitem [ref=f3014e415]:
+                - button "24/7 support for all issues" [ref=f3014e419] [cursor=pointer]
+              - listitem [ref=f3014e424]:
+                - generic [ref=f3014e425]: 99.95% uptime SLA
+      - generic [ref=f3014e432]:
+        - generic [ref=f3014e433]:
+          - heading "Compare features" [level=2] [ref=f3014e434]
+          - link "Learn about features" [ref=f3014e437] [cursor=pointer]:
+            - /url: /software/jira/features
+        - table [ref=f3014e441]:
+          - rowgroup [ref=f3014e442]:
+            - row [ref=f3014e443]:
+              - columnheader [aria-hidden] [ref=f3014e444]
+              - columnheader "Free" [ref=f3014e445]
+              - columnheader "Standard" [ref=f3014e448]
+              - columnheader "Premium" [ref=f3014e451]
+              - columnheader "Enterprise" [ref=f3014e454]
+          - rowgroup [ref=f3014e457]:
+            - row [ref=f3014e458]:
+              - rowheader "Project management essentials" [ref=f3014e459]
+            - row [ref=f3014e461]:
+              - rowheader [ref=f3014e462]:
+                - button "Unlimited goals" [ref=f3014e465] [cursor=pointer]
+              - cell [ref=f3014e470]
+              - cell [ref=f3014e477]
+              - cell [ref=f3014e484]
+              - cell [ref=f3014e491]
+            - row [ref=f3014e498]:
+              - rowheader [ref=f3014e499]:
+                - button "Unlimited work items" [ref=f3014e502] [cursor=pointer]
+              - cell [ref=f3014e507]
+              - cell [ref=f3014e514]
+              - cell [ref=f3014e521]
+              - cell [ref=f3014e528]
+            - row [ref=f3014e535]:
+              - rowheader [ref=f3014e536]:
+                - button "Unlimited spaces" [ref=f3014e539] [cursor=pointer]
+              - cell [ref=f3014e544]
+              - cell [ref=f3014e551]
+              - cell [ref=f3014e558]
+              - cell [ref=f3014e565]
+            - row [ref=f3014e572]:
+              - rowheader [ref=f3014e573]:
+                - button "Unlimited forms" [ref=f3014e576] [cursor=pointer]
+              - cell [ref=f3014e581]
+              - cell [ref=f3014e588]
+              - cell [ref=f3014e595]
+              - cell [ref=f3014e602]
+            - row [ref=f3014e609]:
+              - rowheader [ref=f3014e610]:
+                - button "Customizable workflows" [ref=f3014e613] [cursor=pointer]
+              - cell [ref=f3014e618]
+              - cell [ref=f3014e625]
+              - cell [ref=f3014e632]
+              - cell [ref=f3014e639]
+            - row [ref=f3014e646]:
+              - rowheader [ref=f3014e647]:
+                - button "Custom fields" [ref=f3014e650] [cursor=pointer]
+              - cell [ref=f3014e655]
+              - cell [ref=f3014e662]
+              - cell [ref=f3014e669]
+              - cell [ref=f3014e676]
+            - row [ref=f3014e683]:
+              - rowheader [ref=f3014e684]:
+                - button "Automation" [ref=f3014e687] [cursor=pointer]
+              - cell "150 automation steps per subscription per month" [ref=f3014e692]
+              - cell "400 automation steps per user per month" [ref=f3014e695]
+              - cell "750 automation steps per user per month" [ref=f3014e698]
+              - cell "1,000 automation steps per user per month" [ref=f3014e701]
+            - row [ref=f3014e704]:
+              - rowheader [ref=f3014e705]:
+                - button "Templates" [ref=f3014e708] [cursor=pointer]
+              - cell [ref=f3014e713]
+              - cell [ref=f3014e720]
+              - cell [ref=f3014e727]
+              - cell [ref=f3014e734]
+            - row [ref=f3014e741]:
+              - rowheader [ref=f3014e742]:
+                - button "Backlog view" [ref=f3014e745] [cursor=pointer]
+              - cell [ref=f3014e750]
+              - cell [ref=f3014e757]
+              - cell [ref=f3014e764]
+              - cell [ref=f3014e771]
+            - row [ref=f3014e778]:
+              - rowheader [ref=f3014e779]:
+                - button "List view" [ref=f3014e782] [cursor=pointer]
+              - cell [ref=f3014e787]
+              - cell [ref=f3014e794]
+              - cell [ref=f3014e801]
+              - cell [ref=f3014e808]
+            - row [ref=f3014e815]:
+              - rowheader [ref=f3014e816]:
+                - button "Board view" [ref=f3014e819] [cursor=pointer]
+              - cell [ref=f3014e824]
+              - cell [ref=f3014e831]
+              - cell [ref=f3014e838]
+              - cell [ref=f3014e845]
+            - row [ref=f3014e852]:
+              - rowheader [ref=f3014e853]:
+                - button "Timeline view" [ref=f3014e856] [cursor=pointer]
+              - cell [ref=f3014e861]
+              - cell [ref=f3014e868]
+              - cell [ref=f3014e875]
+              - cell [ref=f3014e882]
+            - row [ref=f3014e889]:
+              - rowheader [ref=f3014e890]:
+                - button "Calendar view" [ref=f3014e893] [cursor=pointer]
+              - cell [ref=f3014e898]
+              - cell [ref=f3014e905]
+              - cell [ref=f3014e912]
+              - cell [ref=f3014e919]
+            - row [ref=f3014e926]:
+              - rowheader [ref=f3014e927]:
+                - button "Summary view" [ref=f3014e930] [cursor=pointer]
+              - cell [ref=f3014e935]
+              - cell [ref=f3014e942]
+              - cell [ref=f3014e949]
+              - cell [ref=f3014e956]
+            - row [ref=f3014e963]:
+              - rowheader [ref=f3014e964]:
+                - button "Reports and insights" [ref=f3014e967] [cursor=pointer]
+              - cell [ref=f3014e972]
+              - cell [ref=f3014e979]
+              - cell [ref=f3014e986]
+              - cell [ref=f3014e993]
+            - row [ref=f3014e1000]:
+              - rowheader [ref=f3014e1001]:
+                - button "Apps and integrations" [ref=f3014e1004] [cursor=pointer]
+              - cell [ref=f3014e1009]
+              - cell [ref=f3014e1016]
+              - cell [ref=f3014e1023]
+              - cell [ref=f3014e1030]
+            - row [ref=f3014e1037]:
+              - rowheader [ref=f3014e1038]:
+                - link "iOS and Android apps" [ref=f3014e1041] [cursor=pointer]:
+                  - /url: /software/jira/mobile-app
+              - cell [ref=f3014e1045]
+              - cell [ref=f3014e1052]
+              - cell [ref=f3014e1059]
+              - cell [ref=f3014e1066]
+            - row [ref=f3014e1073]:
+              - rowheader "AI that understands your work" [ref=f3014e1074]
+            - row [ref=f3014e1076]:
+              - rowheader [ref=f3014e1077]:
+                - button "Atlassian Rovo" [ref=f3014e1080] [cursor=pointer]
+              - cell [ref=f3014e1085]
+              - cell [ref=f3014e1086]:
+                - generic [ref=f3014e1088]:
+                  - text: "25"
+                  - link "Rovo credits" [ref=f3014e1089] [cursor=pointer]:
+                    - /url: https://support.atlassian.com/rovo/docs/rovo-usage-limits
+                  - text: per user per month 100
+                  - link "indexed objects" [ref=f3014e1090] [cursor=pointer]:
+                    - /url: https://support.atlassian.com/rovo/docs/rovo-usage-limits
+                  - text: per user
+              - cell [ref=f3014e1091]:
+                - generic [ref=f3014e1093]:
+                  - text: "70"
+                  - link "Rovo credits" [ref=f3014e1094] [cursor=pointer]:
+                    - /url: https://support.atlassian.com/rovo/docs/rovo-usage-limits
+                  - text: per user per month 250
+                  - link "indexed objects" [ref=f3014e1095] [cursor=pointer]:
+                    - /url: https://support.atlassian.com/rovo/docs/rovo-usage-limits
+                  - text: per user
+              - cell [ref=f3014e1096]:
+                - generic [ref=f3014e1098]:
+                  - text: "150"
+                  - link "Rovo credits" [ref=f3014e1099] [cursor=pointer]:
+                    - /url: https://support.atlassian.com/rovo/docs/rovo-usage-limits
+                  - text: per user per month 625
+                  - link "indexed objects" [ref=f3014e1100] [cursor=pointer]:
+                    - /url: https://support.atlassian.com/rovo/docs/rovo-usage-limits
+                  - text: per user
+            - row [ref=f3014e1101]:
+              - rowheader [ref=f3014e1102]:
+                - button "Agents in Jira" [ref=f3014e1105] [cursor=pointer]
+              - cell [ref=f3014e1110]
+              - cell [ref=f3014e1111]
+              - cell [ref=f3014e1118]
+              - cell [ref=f3014e1125]
+            - row [ref=f3014e1132]:
+              - rowheader [ref=f3014e1133]:
+                - button "Teamwork Graph" [ref=f3014e1136] [cursor=pointer]
+              - cell [ref=f3014e1141]
+              - cell [ref=f3014e1142]
+              - cell [ref=f3014e1149]
+              - cell [ref=f3014e1156]
+            - row [ref=f3014e1163]:
+              - rowheader [ref=f3014e1164]:
+                - button "Agent Sessions" [ref=f3014e1167] [cursor=pointer]
+              - cell [ref=f3014e1172]
+              - cell [ref=f3014e1173]
+              - cell [ref=f3014e1180]
+              - cell [ref=f3014e1187]
+            - row [ref=f3014e1194]:
+              - rowheader [ref=f3014e1195]:
+                - button "Rovo Studio" [ref=f3014e1198] [cursor=pointer]
+              - cell [ref=f3014e1203]
+              - cell [ref=f3014e1204]
+              - cell [ref=f3014e1205]
+              - cell [ref=f3014e1212]
+            - row [ref=f3014e1219]:
+              - rowheader [ref=f3014e1220]:
+                - button "Rovo MCP Server" [ref=f3014e1223] [cursor=pointer]
+              - cell [ref=f3014e1228]
+              - cell [ref=f3014e1229]
+              - cell [ref=f3014e1236]
+              - cell [ref=f3014e1243]
+            - row [ref=f3014e1250]:
+              - rowheader [ref=f3014e1251]:
+                - button "Teamwork Graph CLI" [ref=f3014e1254] [cursor=pointer]
+              - cell [ref=f3014e1259]
+              - cell [ref=f3014e1260]
+              - cell [ref=f3014e1267]
+              - cell [ref=f3014e1274]
+            - row [ref=f3014e1281]:
+              - rowheader [ref=f3014e1282]:
+                - button "Third-party agents" [ref=f3014e1285] [cursor=pointer]
+              - cell [ref=f3014e1290]
+              - cell [ref=f3014e1291]
+              - cell [ref=f3014e1298]
+              - cell [ref=f3014e1305]
+            - row [ref=f3014e1312]:
+              - rowheader "Bring all your teams into Jira" [ref=f3014e1313]
+            - row [ref=f3014e1315]:
+              - rowheader [ref=f3014e1316]:
+                - button "User limit per site" [ref=f3014e1319] [cursor=pointer]
+              - cell "10 users" [ref=f3014e1324]
+              - cell "100,000 users" [ref=f3014e1327]
+              - cell "100,000 users" [ref=f3014e1330]
+              - cell "100,000 users" [ref=f3014e1333]
+            - row [ref=f3014e1336]:
+              - rowheader [ref=f3014e1337]:
+                - button "Number of sites" [ref=f3014e1340] [cursor=pointer]
+              - cell "1 site" [ref=f3014e1345]
+              - cell "1 site" [ref=f3014e1348]
+              - cell "1 site" [ref=f3014e1351]
+              - cell "Up to 150" [ref=f3014e1354]
+            - row [ref=f3014e1357]:
+              - rowheader [ref=f3014e1358]:
+                - button "Storage" [ref=f3014e1361] [cursor=pointer]
+              - cell "2 GB file storage" [ref=f3014e1366]
+              - cell "250 GB file storage" [ref=f3014e1369]
+              - cell "Unlimited file storage" [ref=f3014e1372]
+              - cell "Unlimited file storage" [ref=f3014e1375]
+            - row [ref=f3014e1378]:
+              - rowheader [ref=f3014e1379]:
+                - button "Email notifications" [ref=f3014e1382] [cursor=pointer]
+              - cell "100 emails per day" [ref=f3014e1387]
+              - cell "Unlimited" [ref=f3014e1390]
+              - cell "Unlimited" [ref=f3014e1393]
+              - cell "Unlimited" [ref=f3014e1396]
+            - row [ref=f3014e1399]:
+              - rowheader [ref=f3014e1400]:
+                - button "User roles and permissions" [ref=f3014e1403] [cursor=pointer]
+              - cell [ref=f3014e1408]
+              - cell [ref=f3014e1409]
+              - cell [ref=f3014e1416]
+              - cell [ref=f3014e1423]
+            - row [ref=f3014e1430]:
+              - rowheader [ref=f3014e1431]:
+                - button "Anonymous access" [ref=f3014e1434] [cursor=pointer]
+              - cell [ref=f3014e1439]
+              - cell [ref=f3014e1440]
+              - cell [ref=f3014e1447]
+              - cell [ref=f3014e1454]
+            - row [ref=f3014e1461]:
+              - rowheader [ref=f3014e1462]:
+                - button "Free guest access" [ref=f3014e1465] [cursor=pointer]
+              - cell [ref=f3014e1470]
+              - cell [ref=f3014e1471]
+              - cell [ref=f3014e1478]
+              - cell [ref=f3014e1485]
+            - row [ref=f3014e1492]:
+              - rowheader "Simplify cross-functional work" [ref=f3014e1493]
+            - row [ref=f3014e1495]:
+              - rowheader [ref=f3014e1496]:
+                - button "Advanced planning (Plans)" [ref=f3014e1499] [cursor=pointer]
+              - cell [ref=f3014e1504]
+              - cell [ref=f3014e1505]
+              - cell [ref=f3014e1506]
+              - cell [ref=f3014e1513]
+            - row [ref=f3014e1520]:
+              - rowheader [ref=f3014e1521]:
+                - button "Dependency management" [ref=f3014e1524] [cursor=pointer]
+              - cell "Single Project" [ref=f3014e1529]
+              - cell "Single Project" [ref=f3014e1532]
+              - cell "Cross-project" [ref=f3014e1535]
+              - cell "Cross-project" [ref=f3014e1538]
+            - row [ref=f3014e1541]:
+              - rowheader [ref=f3014e1542]:
+                - button "Capacity management" [ref=f3014e1545] [cursor=pointer]
+              - cell [ref=f3014e1550]
+              - cell [ref=f3014e1551]
+              - cell [ref=f3014e1552]
+              - cell [ref=f3014e1559]
+            - row [ref=f3014e1566]:
+              - rowheader [ref=f3014e1567]:
+                - button "Expandable Work Type Hierarchy" [ref=f3014e1570] [cursor=pointer]
+              - cell [ref=f3014e1575]
+              - cell [ref=f3014e1576]
+              - cell [ref=f3014e1577]
+              - cell [ref=f3014e1584]
+            - row [ref=f3014e1591]:
+              - rowheader [ref=f3014e1592]:
+                - button "Scenario Modeling" [ref=f3014e1595] [cursor=pointer]
+              - cell [ref=f3014e1600]
+              - cell [ref=f3014e1601]
+              - cell [ref=f3014e1602]
+              - cell [ref=f3014e1609]
+            - row [ref=f3014e1616]:
+              - rowheader [ref=f3014e1617]:
+                - button "Approvals" [ref=f3014e1620] [cursor=pointer]
+              - cell [ref=f3014e1625]
+              - cell [ref=f3014e1626]
+              - cell [ref=f3014e1627]
+              - cell [ref=f3014e1634]
+            - row [ref=f3014e1641]:
+              - rowheader [ref=f3014e1642]:
+                - button "Custom onboarding" [ref=f3014e1645] [cursor=pointer]
+              - cell [ref=f3014e1650]
+              - cell [ref=f3014e1651]
+              - cell [ref=f3014e1652]
+              - cell [ref=f3014e1659]
+            - row [ref=f3014e1666]:
+              - rowheader "Scale on the Atlassian platform" [ref=f3014e1667]
+            - row [ref=f3014e1669]:
+              - rowheader [ref=f3014e1670]:
+                - button "Teamwork Graph" [ref=f3014e1673] [cursor=pointer]
+              - cell [ref=f3014e1678]
+              - cell [ref=f3014e1685]
+              - cell [ref=f3014e1692]
+              - cell [ref=f3014e1699]
+            - row [ref=f3014e1706]:
+              - rowheader [ref=f3014e1707]:
+                - button "Custom templates" [ref=f3014e1710] [cursor=pointer]
+              - cell [ref=f3014e1715]
+              - cell [ref=f3014e1716]
+              - cell [ref=f3014e1717]
+              - cell [ref=f3014e1718]
+            - row [ref=f3014e1725]:
+              - rowheader [ref=f3014e1726]:
+                - button "Goals, projects, and communication Beta" [ref=f3014e1729] [cursor=pointer]:
+                  - generic [ref=f3014e1734]:
+                    - text: Goals, projects, and communication
+                    - generic [ref=f3014e1735]: Beta
+              - cell [ref=f3014e1738]
+              - cell [ref=f3014e1745]
+              - cell [ref=f3014e1752]
+              - cell [ref=f3014e1759]
+            - row [ref=f3014e1766]:
+              - rowheader [ref=f3014e1767]:
+                - button "Employee directory for people and teams" [ref=f3014e1770] [cursor=pointer]
+              - cell [ref=f3014e1775]
+              - cell [ref=f3014e1782]
+              - cell [ref=f3014e1789]
+              - cell [ref=f3014e1796]
+            - row [ref=f3014e1803]:
+              - rowheader [ref=f3014e1804]:
+                - button "Automation" [ref=f3014e1807] [cursor=pointer]
+              - cell "150 automation steps per subscription per month" [ref=f3014e1812]
+              - cell "400 automation steps per user per month" [ref=f3014e1815]
+              - cell "750 automation steps per user per month" [ref=f3014e1818]
+              - cell "1,000 automation steps per user per month" [ref=f3014e1821]
+            - row [ref=f3014e1824]:
+              - rowheader [ref=f3014e1825]:
+                - button "Insights" [ref=f3014e1828] [cursor=pointer]
+              - cell [ref=f3014e1833]
+              - cell [ref=f3014e1840]
+              - cell [ref=f3014e1847]
+              - cell "Enhanced data management & governance" [ref=f3014e1854]
+            - row [ref=f3014e1862]:
+              - rowheader [ref=f3014e1863]:
+                - button "Atlassian Data Lake" [ref=f3014e1866] [cursor=pointer]
+              - cell [ref=f3014e1871]
+              - cell [ref=f3014e1872]
+              - cell [ref=f3014e1873]
+              - cell [ref=f3014e1874]
+            - row [ref=f3014e1881]:
+              - rowheader [ref=f3014e1882]:
+                - button "Data connectors" [ref=f3014e1885] [cursor=pointer]
+              - cell [ref=f3014e1890]
+              - cell [ref=f3014e1891]
+              - cell [ref=f3014e1898]
+              - cell [ref=f3014e1905]
+            - row [ref=f3014e1912]:
+              - rowheader [ref=f3014e1913]:
+                - button "Assets objects" [ref=f3014e1916] [cursor=pointer]
+              - cell [ref=f3014e1921]
+              - cell "1,000 objects per month*" [ref=f3014e1922]
+              - cell "1,000 objects per month*" [ref=f3014e1930]
+              - cell "1,000 objects per month*" [ref=f3014e1938]
+            - row [ref=f3014e1946]:
+              - rowheader "Manage users & products" [ref=f3014e1947]
+            - row [ref=f3014e1949]:
+              - rowheader [ref=f3014e1950]:
+                - button "Domain verification and account capture" [ref=f3014e1953] [cursor=pointer]
+              - cell [ref=f3014e1958]
+              - cell [ref=f3014e1965]
+              - cell [ref=f3014e1972]
+              - cell [ref=f3014e1979]
+            - row [ref=f3014e1986]:
+              - rowheader [ref=f3014e1987]:
+                - button "Session duration management (desktop)" [ref=f3014e1990] [cursor=pointer]
+              - cell [ref=f3014e1995]
+              - cell [ref=f3014e2002]
+              - cell [ref=f3014e2009]
+              - cell [ref=f3014e2016]
+            - row [ref=f3014e2023]:
+              - rowheader [ref=f3014e2024]:
+                - button "Atlassian Command-Line Interface" [ref=f3014e2027] [cursor=pointer]
+              - cell [ref=f3014e2032]
+              - cell [ref=f3014e2039]
+              - cell [ref=f3014e2046]
+              - cell [ref=f3014e2053]
+            - row [ref=f3014e2060]:
+              - rowheader [ref=f3014e2061]:
+                - button "Admin insights" [ref=f3014e2064] [cursor=pointer]
+              - cell [ref=f3014e2069]
+              - cell [ref=f3014e2070]
+              - cell [ref=f3014e2071]
+              - cell [ref=f3014e2078]
+            - row [ref=f3014e2085]:
+              - rowheader [ref=f3014e2086]:
+                - button "Sandbox" [ref=f3014e2089] [cursor=pointer]
+              - cell [ref=f3014e2094]
+              - cell [ref=f3014e2095]
+              - cell [ref=f3014e2096]
+              - cell [ref=f3014e2103]
+            - row [ref=f3014e2110]:
+              - rowheader [ref=f3014e2111]:
+                - button "Release tracks" [ref=f3014e2114] [cursor=pointer]
+              - cell [ref=f3014e2119]
+              - cell [ref=f3014e2120]
+              - cell [ref=f3014e2121]
+              - cell [ref=f3014e2128]
+            - row [ref=f3014e2135]:
+              - rowheader [ref=f3014e2136]:
+                - button "Space archiving" [ref=f3014e2139] [cursor=pointer]
+              - cell [ref=f3014e2144]
+              - cell [ref=f3014e2145]
+              - cell [ref=f3014e2146]
+              - cell [ref=f3014e2153]
+            - row [ref=f3014e2160]:
+              - rowheader [ref=f3014e2161]:
+                - button "User counts" [ref=f3014e2164] [cursor=pointer]
+              - cell [ref=f3014e2169]
+              - cell [ref=f3014e2170]
+              - cell [ref=f3014e2171]
+              - cell [ref=f3014e2172]
+            - row [ref=f3014e2179]:
+              - rowheader [ref=f3014e2180]:
+                - button "Centralized user subscriptions" [ref=f3014e2183] [cursor=pointer]
+              - cell [ref=f3014e2188]
+              - cell [ref=f3014e2189]
+              - cell [ref=f3014e2190]
+              - cell [ref=f3014e2191]
+            - row [ref=f3014e2198]:
+              - rowheader [ref=f3014e2199]:
+                - button "Product requests" [ref=f3014e2202] [cursor=pointer]
+              - cell [ref=f3014e2207]
+              - cell [ref=f3014e2208]
+              - cell [ref=f3014e2209]
+              - cell [ref=f3014e2210]
+            - row [ref=f3014e2217]:
+              - rowheader [ref=f3014e2218]:
+                - button "Site Optimizer" [ref=f3014e2221] [cursor=pointer]
+              - cell [ref=f3014e2226]
+              - cell [ref=f3014e2227]
+              - cell [ref=f3014e2228]
+              - cell [ref=f3014e2235]
+            - row [ref=f3014e2242]:
+              - rowheader "Security & Compliance" [ref=f3014e2243]
+            - row [ref=f3014e2245]:
+              - rowheader [ref=f3014e2246]:
+                - button "AI governance" [ref=f3014e2249] [cursor=pointer]
+              - cell [ref=f3014e2254]
+              - cell [ref=f3014e2255]
+              - cell [ref=f3014e2262]
+              - cell [ref=f3014e2269]
+            - row [ref=f3014e2276]:
+              - rowheader [ref=f3014e2277]:
+                - button "Atlassian Guard Standard (SSO, SCIM, Active Directory Sync)" [ref=f3014e2280] [cursor=pointer]
+              - cell "Requires Atlassian Guard Standard subscription" [ref=f3014e2285]
+              - cell "Requires Atlassian Guard Standard subscription" [ref=f3014e2288]
+              - cell "Requires Atlassian Guard Standard subscription" [ref=f3014e2291]
+              - cell "Included" [ref=f3014e2294]
+            - row [ref=f3014e2297]:
+              - rowheader [ref=f3014e2298]:
+                - button "Password policies" [ref=f3014e2301] [cursor=pointer]
+              - cell [ref=f3014e2306]
+              - cell [ref=f3014e2313]
+              - cell [ref=f3014e2320]
+              - cell [ref=f3014e2327]
+            - row [ref=f3014e2334]:
+              - rowheader [ref=f3014e2335]:
+                - button "Encryption in transit and at rest" [ref=f3014e2338] [cursor=pointer]
+              - cell [ref=f3014e2343]
+              - cell [ref=f3014e2350]
+              - cell [ref=f3014e2357]
+              - cell [ref=f3014e2364]
+            - row [ref=f3014e2371]:
+              - rowheader [ref=f3014e2372]:
+                - button "Business continuity and disaster recovery" [ref=f3014e2375] [cursor=pointer]
+              - cell [ref=f3014e2380]
+              - cell [ref=f3014e2387]
+              - cell [ref=f3014e2394]
+              - cell [ref=f3014e2401]
+            - row [ref=f3014e2408]:
+              - rowheader [ref=f3014e2409]:
+                - button "MDM (Mobile Device Management)" [ref=f3014e2412] [cursor=pointer]
+              - cell [ref=f3014e2417]
+              - cell [ref=f3014e2424]
+              - cell [ref=f3014e2431]
+              - cell [ref=f3014e2438]
+            - row [ref=f3014e2445]:
+              - rowheader [ref=f3014e2446]:
+                - button "Audit logs - site changes" [ref=f3014e2449] [cursor=pointer]
+              - cell [ref=f3014e2454]
+              - cell [ref=f3014e2455]
+              - cell [ref=f3014e2462]
+              - cell [ref=f3014e2469]
+            - row [ref=f3014e2476]:
+              - rowheader [ref=f3014e2477]:
+                - button "Data residency" [ref=f3014e2480] [cursor=pointer]
+              - cell [ref=f3014e2485]
+              - cell [ref=f3014e2486]
+              - cell [ref=f3014e2493]
+              - cell [ref=f3014e2500]
+            - row [ref=f3014e2507]:
+              - rowheader [ref=f3014e2508]:
+                - button "Work item-level security" [ref=f3014e2511] [cursor=pointer]
+              - cell [ref=f3014e2516]
+              - cell [ref=f3014e2517]
+              - cell [ref=f3014e2524]
+              - cell [ref=f3014e2531]
+            - row [ref=f3014e2538]:
+              - rowheader [ref=f3014e2539]:
+                - button "IP allowlisting" [ref=f3014e2542] [cursor=pointer]
+              - cell [ref=f3014e2547]
+              - cell [ref=f3014e2548]
+              - cell [ref=f3014e2549]
+              - cell [ref=f3014e2556]
+            - row [ref=f3014e2563]:
+              - rowheader [ref=f3014e2564]:
+                - button "Multiple IdP" [ref=f3014e2567] [cursor=pointer]
+              - cell [ref=f3014e2572]
+              - cell [ref=f3014e2573]
+              - cell [ref=f3014e2574]
+              - cell [ref=f3014e2575]
+            - row [ref=f3014e2582]:
+              - rowheader [ref=f3014e2583]:
+                - button "Audit logs - user activity" [ref=f3014e2586] [cursor=pointer]
+              - cell [ref=f3014e2591]
+              - cell [ref=f3014e2592]
+              - cell [ref=f3014e2593]
+              - cell [ref=f3014e2594]
+            - row [ref=f3014e2601]:
+              - rowheader "Customer Support" [ref=f3014e2602]
+            - row [ref=f3014e2604]:
+              - rowheader [ref=f3014e2605]:
+                - link "Support" [ref=f3014e2608] [cursor=pointer]:
+                  - /url: /enterprise/support-services
+              - cell "Community Support" [ref=f3014e2612]
+              - cell "Local Business Hours" [ref=f3014e2615]
+              - cell "24/7 Premium Support" [ref=f3014e2618]
+              - cell "24/7 Enterprise Support" [ref=f3014e2621]
+            - row [ref=f3014e2624]:
+              - rowheader [ref=f3014e2625]:
+                - link "Guaranteed uptime SLA" [ref=f3014e2628] [cursor=pointer]:
+                  - /url: /legal/sla
+              - cell [ref=f3014e2632]
+              - cell [ref=f3014e2633]
+              - cell "99.9%" [ref=f3014e2634]
+              - cell "99.95%" [ref=f3014e2637]
+      - generic [ref=f3014e2645]:
+        - heading "Data Center Products" [level=3] [ref=f3014e2646]
+        - paragraph [ref=f3014e2647]: Data Center is our self-managed product offering for customers with strict regulatory or security requirements. To learn more about this offering, please contact us.
+        - link "Learn more Data Center Products" [ref=f3014e2650] [cursor=pointer]:
+          - /url: /enterprise/data-center
+          - generic [ref=f3014e2651]: Learn more
+      - generic [ref=f3014e2658]:
+        - generic [ref=f3014e2659]:
+          - img "Teamwork Collection logo" [ref=f3014e2660]
+          - heading "All your tools, one collection" [level=3] [ref=f3014e2661]
+          - paragraph [ref=f3014e2662]: Get Jira, Confluence, Loom, and Rovo in one collection to bring together projects, knowledge, video communication, and AI-powered insights.
+        - link "Explore Teamwork Collection All your tools, one collection" [ref=f3014e2665] [cursor=pointer]:
+          - /url: /collections/teamwork
+          - generic [ref=f3014e2666]: Explore Teamwork Collection
+      - generic [ref=f3014e2673]:
+        - heading "Get more details" [level=2] [ref=f3014e2674]
+        - button "How do you calculate your Jira subscription cost?" [ref=f3014e2676] [cursor=pointer]:
+          - heading "How do you calculate your Jira subscription cost?" [level=3] [ref=f3014e2677]
+        - button "How are you billed for Jira users?" [ref=f3014e2680] [cursor=pointer]:
+          - heading "How are you billed for Jira users?" [level=3] [ref=f3014e2681]
+        - button "What are Jira payment options?" [ref=f3014e2684] [cursor=pointer]:
+          - heading "What are Jira payment options?" [level=3] [ref=f3014e2685]
+        - button "What are Jira free trial period, refunds, & subscription plan details?" [ref=f3014e2688] [cursor=pointer]:
+          - heading "What are Jira free trial period, refunds, & subscription plan details?" [level=3] [ref=f3014e2689]
+        - button "What are Jira Cloud and self-managed options?" [ref=f3014e2692] [cursor=pointer]:
+          - heading "What are Jira Cloud and self-managed options?" [level=3] [ref=f3014e2693]
+        - button "What is the Teamwork Graph in Jira?" [ref=f3014e2696] [cursor=pointer]:
+          - heading "What is the Teamwork Graph in Jira?" [level=3] [ref=f3014e2697]
+        - button "What is difference between Jira Premium and Jira Enterprise?" [ref=f3014e2700] [cursor=pointer]:
+          - heading "What is difference between Jira Premium and Jira Enterprise?" [level=3] [ref=f3014e2701]
+        - button "What are automation limits in Jira?" [ref=f3014e2704] [cursor=pointer]:
+          - heading "What are automation limits in Jira?" [level=3] [ref=f3014e2705]
+        - button "Who can use Rovo AI in Jira?" [ref=f3014e2708] [cursor=pointer]:
+          - heading "Who can use Rovo AI in Jira?" [level=3] [ref=f3014e2709]
+        - button "Can I use AI agents in Jira automation?" [ref=f3014e2712] [cursor=pointer]:
+          - heading "Can I use AI agents in Jira automation?" [level=3] [ref=f3014e2713]
+      - generic [ref=f3014e2717]:
+        - heading "Questions?" [level=3] [ref=f3014e2718]
+        - paragraph [ref=f3014e2719]: We have answers. Read our full list of common questions and answers for specific Jira pricing and licensing.
+        - link "See price and licensing page" [ref=f3014e2721] [cursor=pointer]:
+          - /url: /licensing/jira#jira-cloud
+    - contentinfo [ref=f3014e2727]:
+      - generic [ref=f3014e2728]:
+        - generic [ref=f3014e2730]:
+          - generic [ref=f3014e2731]:
+            - link "Atlassian logo" [ref=f3014e2733] [cursor=pointer]:
+              - /url: /
+            - list [ref=f3014e2738]:
+              - listitem [ref=f3014e2739]:
+                - link "Company" [ref=f3014e2741] [cursor=pointer]:
+                  - /url: /company
+              - listitem [ref=f3014e2743]:
+                - link "Careers" [ref=f3014e2745] [cursor=pointer]:
+                  - /url: /company/careers
+              - listitem [ref=f3014e2747]:
+                - link "Events" [ref=f3014e2749] [cursor=pointer]:
+                  - /url: /company/events
+              - listitem [ref=f3014e2751]:
+                - link "Blogs" [ref=f3014e2753] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f3014e2755]:
+                - link "Investor Relations" [ref=f3014e2757] [cursor=pointer]:
+                  - /url: https://investors.atlassian.com
+              - listitem [ref=f3014e2759]:
+                - link "Atlassian Foundation" [ref=f3014e2761] [cursor=pointer]:
+                  - /url: https://www.atlassianfoundation.org/
+              - listitem [ref=f3014e2763]:
+                - link "Press kit" [ref=f3014e2765] [cursor=pointer]:
+                  - /url: /company/news/press-kit
+              - listitem [ref=f3014e2767]:
+                - link "Contact us" [ref=f3014e2769] [cursor=pointer]:
+                  - /url: /company/contact
+          - generic [ref=f3014e2771]:
+            - heading "Products" [level=2] [ref=f3014e2773]
+            - list [ref=f3014e2774]:
+              - listitem [ref=f3014e2775]:
+                - link "Rovo" [ref=f3014e2777] [cursor=pointer]:
+                  - /url: /rovo
+              - listitem [ref=f3014e2779]:
+                - link "Jira" [ref=f3014e2781] [cursor=pointer]:
+                  - /url: /software/jira
+              - listitem [ref=f3014e2783]:
+                - link "Jira Align" [ref=f3014e2785] [cursor=pointer]:
+                  - /url: /software/jira/align
+              - listitem [ref=f3014e2787]:
+                - link "Jira Service Management" [ref=f3014e2789] [cursor=pointer]:
+                  - /url: /software/jira/service-management
+              - listitem [ref=f3014e2791]:
+                - link "Confluence" [ref=f3014e2793] [cursor=pointer]:
+                  - /url: /software/confluence
+              - listitem [ref=f3014e2795]:
+                - link "Loom" [ref=f3014e2797] [cursor=pointer]:
+                  - /url: /software/loom
+              - listitem [ref=f3014e2799]:
+                - link "Trello" [ref=f3014e2801] [cursor=pointer]:
+                  - /url: https://trello.com/home
+              - listitem [ref=f3014e2803]:
+                - link "Bitbucket" [ref=f3014e2805] [cursor=pointer]:
+                  - /url: /software/bitbucket
+            - link "See all products" [ref=f3014e2809] [cursor=pointer]:
+              - /url: /software
+          - generic [ref=f3014e2813]:
+            - heading "Resources" [level=2] [ref=f3014e2815]
+            - list [ref=f3014e2816]:
+              - listitem [ref=f3014e2817]:
+                - link "Technical support" [ref=f3014e2819] [cursor=pointer]:
+                  - /url: https://support.atlassian.com/
+              - listitem [ref=f3014e2821]:
+                - link "Purchasing & licensing" [ref=f3014e2823] [cursor=pointer]:
+                  - /url: /licensing/purchase-licensing
+              - listitem [ref=f3014e2825]:
+                - link "Templates" [ref=f3014e2827] [cursor=pointer]:
+                  - /url: /templates
+              - listitem [ref=f3014e2829]:
+                - link "Atlassian Community" [ref=f3014e2831] [cursor=pointer]:
+                  - /url: https://community.atlassian.com/
+              - listitem [ref=f3014e2833]:
+                - link "Knowledge base" [ref=f3014e2835] [cursor=pointer]:
+                  - /url: https://confluence.atlassian.com/kb
+              - listitem [ref=f3014e2837]:
+                - link "Marketplace" [ref=f3014e2839] [cursor=pointer]:
+                  - /url: https://marketplace.atlassian.com/
+              - listitem [ref=f3014e2841]:
+                - link "My account" [ref=f3014e2843] [cursor=pointer]:
+                  - /url: https://my.atlassian.com/products/index
+            - link "Create support ticket" [ref=f3014e2847] [cursor=pointer]:
+              - /url: https://support.atlassian.com/contact/
+          - generic [ref=f3014e2851]:
+            - heading "Learn" [level=2] [ref=f3014e2853]
+            - list [ref=f3014e2854]:
+              - listitem [ref=f3014e2855]:
+                - link "Partners" [ref=f3014e2857] [cursor=pointer]:
+                  - /url: /partners
+              - listitem [ref=f3014e2859]:
+                - link "Training & certification" [ref=f3014e2861] [cursor=pointer]:
+                  - /url: /university
+              - listitem [ref=f3014e2863]:
+                - link "Documentation" [ref=f3014e2865] [cursor=pointer]:
+                  - /url: https://confluence.atlassian.com/display/ALLDOC/Atlassian+Documentation
+              - listitem [ref=f3014e2867]:
+                - link "Developer resources" [ref=f3014e2869] [cursor=pointer]:
+                  - /url: /developers
+              - listitem [ref=f3014e2871]:
+                - link "Enterprise services" [ref=f3014e2873] [cursor=pointer]:
+                  - /url: /enterprise/services
+            - link "See all resources" [ref=f3014e2877] [cursor=pointer]:
+              - /url: /resources
+        - generic [ref=f3014e2881]:
+          - generic [ref=f3014e2882]: Copyright © 2026 Atlassian
+          - generic [ref=f3014e2883]:
+            - list [ref=f3014e2884]:
+              - listitem [ref=f3014e2885]:
+                - link "Privacy policy" [ref=f3014e2887] [cursor=pointer]:
+                  - /url: /legal/privacy-policy
+              - listitem [ref=f3014e2889]:
+                - link "Terms" [ref=f3014e2891] [cursor=pointer]:
+                  - /url: /legal/cloud-terms-of-service
+              - listitem [ref=f3014e2893]:
+                - link "Trust Center" [ref=f3014e2895] [cursor=pointer]:
+                  - /url: /trust
+              - listitem [ref=f3014e2897]:
+                - link "Impressum" [ref=f3014e2899] [cursor=pointer]:
+                  - /url: /legal/impressum
+            - generic [ref=f3014e2901]: Language selector
+            - generic [ref=f3014e2906]:
+              - generic [ref=f3014e2915]:
+                - generic [ref=f3014e2916]: English
+                - combobox "Choose your language" [ref=f3014e2918]
+              - generic [aria-hidden] [ref=f3014e2921]: ▾
+  - iframe [ref=f3014e2924]:
+    - generic [ref=f3017e6]:
+      - text: protected by
+      - strong [ref=f3017e7]: reCAPTCHA

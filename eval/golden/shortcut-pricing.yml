@@ -1,0 +1,965 @@
+- generic [active] [ref=f3040e1]:
+  - banner [ref=f3040e2]:
+    - generic [ref=f3040e3]:
+      - link "Shortcut home" [ref=f3040e5] [cursor=pointer]:
+        - /url: /
+        - img "Shortcut" [ref=f3040e6]
+      - navigation "Primary" [ref=f3040e7]:
+        - list [ref=f3040e8]:
+          - listitem [ref=f3040e9]:
+            - link "Shortcut Way" [ref=f3040e10] [cursor=pointer]:
+              - /url: /shortcut-way
+          - listitem [ref=f3040e11]:
+            - button "Product" [ref=f3040e12] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Products
+                    - generic:
+                      - link "Shortcut Fast, powerful project management.":
+                        - /url: /
+                        - generic:
+                          - generic:
+                            - generic: Shortcut
+                            - generic: Fast, powerful project management.
+                      - link "Korey AI agent for product engineering workflows. New":
+                        - /url: https://korey.ai/
+                        - generic:
+                          - generic:
+                            - generic: Korey
+                            - generic: AI agent for product engineering workflows.
+                          - generic: New
+                  - generic:
+                    - generic: Core Features
+                    - generic:
+                      - link "Boards See and track work on kanban boards.":
+                        - /url: /product/boards
+                        - generic:
+                          - generic:
+                            - generic: Boards
+                            - generic: See and track work on kanban boards.
+                      - link "Agent Coordination Collaborate with AI teammates. New":
+                        - /url: /agents
+                        - generic:
+                          - generic:
+                            - generic: Agent Coordination
+                            - generic: Collaborate with AI teammates.
+                          - generic: New
+                      - link "Roadmaps See a big picture view of workloads.":
+                        - /url: /product/roadmap
+                        - generic:
+                          - generic:
+                            - generic: Roadmaps
+                            - generic: See a big picture view of workloads.
+                      - link "Docs Connect your plans to your work.":
+                        - /url: /product/docs
+                        - generic:
+                          - generic:
+                            - generic: Docs
+                            - generic: Connect your plans to your work.
+                      - link "Sprints Manage work in a set time period.":
+                        - /url: /product/sprints
+                        - generic:
+                          - generic:
+                            - generic: Sprints
+                            - generic: Manage work in a set time period.
+                      - link "Automations Let us do your busy work.":
+                        - /url: /product/automations
+                        - generic:
+                          - generic:
+                            - generic: Automations
+                            - generic: Let us do your busy work.
+                      - link "Reporting Measure and review team progress.":
+                        - /url: /product/reports
+                        - generic:
+                          - generic:
+                            - generic: Reporting
+                            - generic: Measure and review team progress.
+                      - link "Backlogs Organize and prioritize upcoming work.":
+                        - /url: /product/backlog
+                        - generic:
+                          - generic:
+                            - generic: Backlogs
+                            - generic: Organize and prioritize upcoming work.
+                      - link "Objectives Align work with company goals.":
+                        - /url: /product/objectives
+                        - generic:
+                          - generic:
+                            - generic: Objectives
+                            - generic: Align work with company goals.
+                      - link "APIs Build custom integrations and automations.":
+                        - /url: https://developer.shortcut.com/api/rest/v3
+                        - generic:
+                          - generic:
+                            - generic: APIs
+                            - generic: Build custom integrations and automations.
+                - generic:
+                  - generic:
+                    - generic: Integrate with your tech stack
+                    - generic:
+                      - link "GitHub logo":
+                        - /url: /integrations
+                        - img "GitHub logo"
+                      - link "Slack logo":
+                        - /url: /integrations
+                        - img "Slack logo"
+                      - link "GitLab logo":
+                        - /url: /integrations
+                        - img "GitLab logo"
+                      - link "Figma logo":
+                        - /url: /integrations
+                        - img "Figma logo"
+                    - link "View all":
+                      - /url: /integrations
+                  - generic:
+                    - link "Schedule a demo":
+                      - /url: /demo
+                    - link "Get started - it’s free":
+                      - /url: /signup
+          - listitem [ref=f3040e16]:
+            - button "Solutions" [ref=f3040e17] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - link "For Engineering Issue tracking built for engineering workflows.":
+                    - /url: /solutions/engineering
+                    - generic:
+                      - generic:
+                        - generic: For Engineering
+                        - generic: Issue tracking built for engineering workflows.
+                  - link "For Product Track product backlogs and prioritize workflows.":
+                    - /url: /solutions/product
+                    - generic:
+                      - generic:
+                        - generic: For Product
+                        - generic: Track product backlogs and prioritize workflows.
+                  - link "For Leadership Gain visibility into work, progress, and goals.":
+                    - /url: /solutions/leadership
+                    - generic:
+                      - generic:
+                        - generic: For Leadership
+                        - generic: Gain visibility into work, progress, and goals.
+                  - link "For Design Manage design work and stay in the loop.":
+                    - /url: /solutions/design
+                    - generic:
+                      - generic:
+                        - generic: For Design
+                        - generic: Manage design work and stay in the loop.
+                - generic:
+                  - generic: Moving from another tool?
+                  - generic:
+                    - generic: "Compare Shortcut to:"
+                    - link "Jira":
+                      - /url: /import/jira
+                    - link "Trello":
+                      - /url: /import/trello
+                    - link "Pivotal Tracker":
+                      - /url: /import/pivotal-tracker
+          - listitem [ref=f3040e21]:
+            - link "Customers" [ref=f3040e22] [cursor=pointer]:
+              - /url: /customer-stories
+          - listitem [ref=f3040e23]:
+            - link "Pricing" [ref=f3040e24] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=f3040e25]:
+            - button "Resources" [ref=f3040e26] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - link "Release Notes":
+                    - /url: /release-notes
+                  - link "Shortcut Blog":
+                    - /url: /blog
+                  - link "Guides":
+                    - /url: /guides
+                  - link "Help Center":
+                    - /url: /help
+                  - link "Schedule a Demo":
+                    - /url: /demo
+                  - link "Community":
+                    - /url: https://shortcutcommunity.slack.com/join/shared_invite/zt-2oppvu8g4-tX~pRJV2FT4__PpWqhaYNA#/shared-invite/email
+                - generic:
+                  - link "About Shortcut":
+                    - /url: /about
+                  - link "Contact":
+                    - /url: /contact
+                  - link "Security":
+                    - /url: /security
+                  - link "FAQs":
+                    - /url: /faq
+      - generic [ref=f3040e31]:
+        - link "Get started - it's free" [ref=f3040e32] [cursor=pointer]:
+          - /url: /signup
+        - link "Log In" [ref=f3040e33] [cursor=pointer]:
+          - /url: https://app.shortcut.com/login
+  - main [ref=f3040e34]:
+    - generic [ref=f3040e38]:
+      - generic [ref=f3040e39]: Pricing
+      - heading [level=1] [ref=f3040e40]:
+        - text: Try for free,upgrade for
+        - strong [ref=f3040e41]: growth
+      - paragraph [ref=f3040e42]: From small teams to enterprise scale, we've got a plan for you.
+      - paragraph [ref=f3040e43]: Free 14 day full access. No credit card required.
+      - paragraph [ref=f3040e44]:
+        - link [ref=f3040e45] [cursor=pointer]:
+          - /url: https://www.g2.com/products/shortcut/reviews
+          - generic [aria-hidden] [ref=f3040e46]: ★★★★★
+          - generic [ref=f3040e47]:
+            - strong [ref=f3040e48]: "4.4"
+            - text: /5 on G2 from 177 reviews
+        - generic [aria-hidden] [ref=f3040e49]: ·
+        - link "Reviews on Capterra" [ref=f3040e50] [cursor=pointer]:
+          - /url: https://www.capterra.com/p/160498/Shortcut/
+      - generic [ref=f3040e51]:
+        - group "Billing period" [ref=f3040e52]:
+          - button "Yearly" [pressed] [ref=f3040e53] [cursor=pointer]
+          - button "Monthly" [ref=f3040e54] [cursor=pointer]
+        - generic [aria-hidden]:
+          - generic: Save up to 25%
+  - generic [ref=f3040e56]:
+    - generic [ref=f3040e57]:
+      - generic [ref=f3040e58]: Free Plan
+      - paragraph [ref=f3040e59]: Best for teams getting started.
+      - generic [ref=f3040e60]:
+        - superscript [ref=f3040e61]: $
+        - text: "0"
+      - paragraph [ref=f3040e62]: Per user/month
+      - link "Sign up for FREE" [ref=f3040e64] [cursor=pointer]:
+        - /url: /signup
+      - separator [ref=f3040e65]
+      - list [ref=f3040e66]:
+        - listitem [ref=f3040e67]: Plan work with Kanban views
+        - listitem [ref=f3040e68]: See progress on a Roadmap
+        - listitem [ref=f3040e69]: Get quick insights with Reports
+        - listitem [ref=f3040e70]: Plan sprints using Iterations
+        - listitem [ref=f3040e71]: Work together with Docs
+        - listitem [ref=f3040e72]: GitHub, Slack & Figma integrations
+    - generic [ref=f3040e73]:
+      - generic [ref=f3040e74]: Team Plan
+      - paragraph [ref=f3040e75]: Best for small teams.
+      - generic [ref=f3040e76]:
+        - superscript [ref=f3040e77]: $
+        - text: "8.50"
+      - paragraph [ref=f3040e78]: Per user/month
+      - link "Sign up for FREE" [ref=f3040e80] [cursor=pointer]:
+        - /url: /signup
+      - separator [ref=f3040e81]
+      - list [ref=f3040e82]:
+        - listitem [ref=f3040e83]: Everything in Free +
+        - listitem [ref=f3040e84]: Track work with a suite of Reports
+        - listitem [ref=f3040e85]: Set Work In Progress limits
+        - listitem [ref=f3040e86]: Customize multiple workflows
+        - listitem [ref=f3040e87]: Manage repetitive tasks with Automations
+        - listitem [ref=f3040e88]: Access all integrations
+    - generic [ref=f3040e89]:
+      - generic [ref=f3040e90]: Recommended
+      - generic [ref=f3040e91]: Business Plan
+      - paragraph [ref=f3040e92]: Best for fast-growing teams.
+      - generic [ref=f3040e93]:
+        - superscript [ref=f3040e94]: $
+        - text: "12"
+      - paragraph [ref=f3040e95]: Per user/month
+      - link "Sign up for FREE" [ref=f3040e97] [cursor=pointer]:
+        - /url: /signup
+      - separator [ref=f3040e98]
+      - list [ref=f3040e99]:
+        - listitem [ref=f3040e100]: Everything in Team +
+        - listitem [ref=f3040e101]: Unlimited everything
+        - listitem [ref=f3040e102]: Track strategic Objectives and key results
+        - listitem [ref=f3040e103]: Categorize work with advanced Custom Fields
+        - listitem [ref=f3040e104]: Get insights with advanced Reports
+        - listitem [ref=f3040e105]: Multiple Workspaces for sandboxing
+    - generic [ref=f3040e106]:
+      - generic [ref=f3040e107]: Enterprise Plan
+      - paragraph [ref=f3040e108]: For mature software companies.
+      - generic [ref=f3040e109]: Custom Pricing
+      - link "Contact Sales" [ref=f3040e111] [cursor=pointer]:
+        - /url: /demo
+      - separator [ref=f3040e112]
+      - list [ref=f3040e113]:
+        - listitem [ref=f3040e114]: Everything in Business +
+        - listitem [ref=f3040e115]: Predictable pricing with volume discounts
+        - listitem [ref=f3040e116]: Premier support SLAs
+        - listitem [ref=f3040e117]: SSO and SCIM
+        - listitem [ref=f3040e118]: Custom Terms
+        - listitem [ref=f3040e119]: Dedicated Slack channel
+        - listitem [ref=f3040e120]: Onboarding Support
+  - paragraph [ref=f3040e123]: Trusted by thousands of software teams
+  - generic [ref=f3040e127]:
+    - heading "Compare our plans" [level=2] [ref=f3040e128]
+    - table [ref=f3040e130]:
+      - rowgroup [ref=f3040e131]:
+        - row [ref=f3040e132]:
+          - 'columnheader "Billing Period: Billing period" [ref=f3040e133]':
+            - generic [ref=f3040e134]: "Billing Period:"
+            - group "Billing period" [ref=f3040e135]:
+              - button "Yearly" [pressed] [ref=f3040e136] [cursor=pointer]
+              - button "Monthly" [ref=f3040e137] [cursor=pointer]
+          - columnheader "Free Plan $ 0 Sign up for FREE" [ref=f3040e138]:
+            - generic [ref=f3040e139]: Free Plan
+            - generic [ref=f3040e140]:
+              - superscript [ref=f3040e141]: $
+              - text: "0"
+            - link "Sign up for FREE" [ref=f3040e142] [cursor=pointer]:
+              - /url: /signup
+          - columnheader "Team Plan $ 8.50 Sign up for FREE" [ref=f3040e143]:
+            - generic [ref=f3040e144]: Team Plan
+            - generic [ref=f3040e145]:
+              - superscript [ref=f3040e146]: $
+              - text: "8.50"
+            - link "Sign up for FREE" [ref=f3040e147] [cursor=pointer]:
+              - /url: /signup
+          - columnheader "Business Plan $ 12 Sign up for FREE" [ref=f3040e148]:
+            - generic [ref=f3040e149]: Business Plan
+            - generic [ref=f3040e150]:
+              - superscript [ref=f3040e151]: $
+              - text: "12"
+            - link "Sign up for FREE" [ref=f3040e152] [cursor=pointer]:
+              - /url: /signup
+          - columnheader "Enterprise Plan Custom Pricing Contact Sales" [ref=f3040e153]:
+            - generic [ref=f3040e154]: Enterprise Plan
+            - generic [ref=f3040e155]: Custom Pricing
+            - link "Contact Sales" [ref=f3040e157] [cursor=pointer]:
+              - /url: /demo
+      - rowgroup [ref=f3040e158]:
+        - row [ref=f3040e159]:
+          - cell "Teams More info about Teams Organize users into teams and squads" [ref=f3040e160]:
+            - generic [ref=f3040e161]:
+              - generic [ref=f3040e162]: Teams
+              - generic [ref=f3040e163]:
+                - button "More info about Teams" [ref=f3040e164]
+                - tooltip "Organize users into teams and squads"
+          - cell "1" [ref=f3040e169]
+          - cell "Up to 5" [ref=f3040e170]
+          - cell "Unlimited" [ref=f3040e171]
+          - cell "Unlimited" [ref=f3040e172]
+        - row [ref=f3040e173]:
+          - cell "Users More info about Users The maximum number of users you can add" [ref=f3040e174]:
+            - generic [ref=f3040e175]:
+              - generic [ref=f3040e176]: Users
+              - generic [ref=f3040e177]:
+                - button "More info about Users" [ref=f3040e178]
+                - tooltip "The maximum number of users you can add"
+          - cell "10" [ref=f3040e183]
+          - cell "Unlimited" [ref=f3040e184]
+          - cell "Unlimited" [ref=f3040e185]
+          - cell "Unlimited" [ref=f3040e186]
+        - row [ref=f3040e187]:
+          - cell "Workspaces More info about Workspaces Create additional Workspaces for Sandboxing, to protect sensitive information, or for Agencies who want to separate clients work" [ref=f3040e188]:
+            - generic [ref=f3040e189]:
+              - generic [ref=f3040e190]: Workspaces
+              - generic [ref=f3040e191]:
+                - button "More info about Workspaces" [ref=f3040e192]
+                - tooltip "Create additional Workspaces for Sandboxing, to protect sensitive information, or for Agencies who want to separate clients work"
+          - cell "1" [ref=f3040e197]
+          - cell "1" [ref=f3040e198]
+          - cell "Unlimited" [ref=f3040e199]
+          - cell "Unlimited" [ref=f3040e200]
+        - row [ref=f3040e201]:
+          - cell "Customizable Workflows More info about Customizable Workflows Customize the way Stories move from creation to completion" [ref=f3040e202]:
+            - generic [ref=f3040e203]:
+              - generic [ref=f3040e204]: Customizable Workflows
+              - generic [ref=f3040e205]:
+                - button "More info about Customizable Workflows" [ref=f3040e206]
+                - tooltip "Customize the way Stories move from creation to completion"
+          - cell "1" [ref=f3040e211]
+          - cell "Up to 5" [ref=f3040e212]
+          - cell "Unlimited" [ref=f3040e213]
+          - cell "Unlimited" [ref=f3040e214]
+        - row [ref=f3040e215]:
+          - columnheader "Product Development" [ref=f3040e216]
+        - row [ref=f3040e217]:
+          - cell "Stories and Epics" [ref=f3040e218]
+          - cell "Included" [ref=f3040e221]
+          - cell "Included" [ref=f3040e223]
+          - cell "Included" [ref=f3040e225]
+          - cell "Included" [ref=f3040e227]
+        - row [ref=f3040e229]:
+          - cell "Spaces/Boards More info about Spaces/Boards Customized views of your Stories on Kanban with saved filters" [ref=f3040e230]:
+            - generic [ref=f3040e231]:
+              - generic [ref=f3040e232]: Spaces/Boards
+              - generic [ref=f3040e233]:
+                - button "More info about Spaces/Boards" [ref=f3040e234]
+                - tooltip "Customized views of your Stories on Kanban with saved filters"
+          - cell "Included" [ref=f3040e239]
+          - cell "Included" [ref=f3040e241]
+          - cell "Included" [ref=f3040e243]
+          - cell "Included" [ref=f3040e245]
+        - row [ref=f3040e247]:
+          - cell "Backlog More info about Backlog Better sort, manage and prioritize work before it makes its way into a Workflow" [ref=f3040e248]:
+            - generic [ref=f3040e249]:
+              - generic [ref=f3040e250]: Backlog
+              - generic [ref=f3040e251]:
+                - button "More info about Backlog" [ref=f3040e252]
+                - tooltip "Better sort, manage and prioritize work before it makes its way into a Workflow"
+          - cell "Included" [ref=f3040e257]
+          - cell "Included" [ref=f3040e259]
+          - cell "Included" [ref=f3040e261]
+          - cell "Included" [ref=f3040e263]
+        - row [ref=f3040e265]:
+          - cell "Iterations/Sprints More info about Iterations/Sprints Define a time-boxed period of development for a collection of Stories" [ref=f3040e266]:
+            - generic [ref=f3040e267]:
+              - generic [ref=f3040e268]: Iterations/Sprints
+              - generic [ref=f3040e269]:
+                - button "More info about Iterations/Sprints" [ref=f3040e270]
+                - tooltip "Define a time-boxed period of development for a collection of Stories"
+          - cell "Included" [ref=f3040e275]
+          - cell "Included" [ref=f3040e277]
+          - cell "Included" [ref=f3040e279]
+          - cell "Included" [ref=f3040e281]
+        - row [ref=f3040e283]:
+          - cell "AI Agent Collaboration More info about AI Agent Collaboration Collaborate with AI teammates in Shortcut" [ref=f3040e284]:
+            - generic [ref=f3040e285]:
+              - generic [ref=f3040e286]: AI Agent Collaboration
+              - generic [ref=f3040e287]:
+                - button "More info about AI Agent Collaboration" [ref=f3040e288]
+                - tooltip "Collaborate with AI teammates in Shortcut"
+          - cell "Included" [ref=f3040e293]
+          - cell "Included" [ref=f3040e295]
+          - cell "Included" [ref=f3040e297]
+          - cell "Included" [ref=f3040e299]
+        - row [ref=f3040e301]:
+          - cell "MCP Server More info about MCP Server Access your workspace data in a simple and secure way." [ref=f3040e302]:
+            - generic [ref=f3040e303]:
+              - generic [ref=f3040e304]: MCP Server
+              - generic [ref=f3040e305]:
+                - button "More info about MCP Server" [ref=f3040e306]
+                - tooltip "Access your workspace data in a simple and secure way."
+          - cell "Included" [ref=f3040e311]
+          - cell "Included" [ref=f3040e313]
+          - cell "Included" [ref=f3040e315]
+          - cell "Included" [ref=f3040e317]
+        - row [ref=f3040e319]:
+          - cell "Story Work in Progress Limits More info about Story Work in Progress Limits Set limit on Stories in progress to keep work moving smoothly" [ref=f3040e320]:
+            - generic [ref=f3040e321]:
+              - generic [ref=f3040e322]: Story Work in Progress Limits
+              - generic [ref=f3040e323]:
+                - button "More info about Story Work in Progress Limits" [ref=f3040e324]
+                - tooltip "Set limit on Stories in progress to keep work moving smoothly"
+          - cell "Not included" [ref=f3040e329]: —
+          - cell "Included" [ref=f3040e330]
+          - cell "Included" [ref=f3040e332]
+          - cell "Included" [ref=f3040e334]
+        - row [ref=f3040e336]:
+          - columnheader "Product Planning" [ref=f3040e337]
+        - row [ref=f3040e338]:
+          - cell "Roadmaps More info about Roadmaps Visualize Epics on a Roadmap" [ref=f3040e339]:
+            - generic [ref=f3040e340]:
+              - generic [ref=f3040e341]: Roadmaps
+              - generic [ref=f3040e342]:
+                - button "More info about Roadmaps" [ref=f3040e343]
+                - tooltip "Visualize Epics on a Roadmap"
+          - cell "Included" [ref=f3040e348]
+          - cell "Included" [ref=f3040e350]
+          - cell "Included" [ref=f3040e352]
+          - cell "Included" [ref=f3040e354]
+        - row [ref=f3040e356]:
+          - cell "Tactical Objectives More info about Tactical Objectives Group and track Epics related to releases and work" [ref=f3040e357]:
+            - generic [ref=f3040e358]:
+              - generic [ref=f3040e359]: Tactical Objectives
+              - generic [ref=f3040e360]:
+                - button "More info about Tactical Objectives" [ref=f3040e361]
+                - tooltip "Group and track Epics related to releases and work"
+          - cell "Included" [ref=f3040e366]
+          - cell "Included" [ref=f3040e368]
+          - cell "Included" [ref=f3040e370]
+          - cell "Included" [ref=f3040e372]
+        - row [ref=f3040e374]:
+          - cell "Strategic Objectives and Key Results More info about Strategic Objectives and Key Results Group and track Key Results and related Epics connected to business outcomes and goals" [ref=f3040e375]:
+            - generic [ref=f3040e376]:
+              - generic [ref=f3040e377]: Strategic Objectives and Key Results
+              - generic [ref=f3040e378]:
+                - button "More info about Strategic Objectives and Key Results" [ref=f3040e379]
+                - tooltip "Group and track Key Results and related Epics connected to business outcomes and goals"
+          - cell "Not included" [ref=f3040e384]: —
+          - cell "Not included" [ref=f3040e385]: —
+          - cell "Included" [ref=f3040e386]
+          - cell "Included" [ref=f3040e388]
+        - row [ref=f3040e390]:
+          - columnheader "Reporting & Insights" [ref=f3040e391]
+        - row [ref=f3040e392]:
+          - cell "Epic and Iteration Reports More info about Epic and Iteration Reports Visualize progress on Epics and Iterations" [ref=f3040e393]:
+            - generic [ref=f3040e394]:
+              - generic [ref=f3040e395]: Epic and Iteration Reports
+              - generic [ref=f3040e396]:
+                - button "More info about Epic and Iteration Reports" [ref=f3040e397]
+                - tooltip "Visualize progress on Epics and Iterations"
+          - cell "Included" [ref=f3040e402]
+          - cell "Included" [ref=f3040e404]
+          - cell "Included" [ref=f3040e406]
+          - cell "Included" [ref=f3040e408]
+        - row [ref=f3040e410]:
+          - cell "Reports page with Metrics Dashboard More info about Reports page with Metrics Dashboard Access Metrics dashboard, Velocity chart, ARC Chart, Cycle Time / Lead Time, Cumulative Flow Diagram, Completed Stories Table and Epics List" [ref=f3040e411]:
+            - generic [ref=f3040e412]:
+              - generic [ref=f3040e413]: Reports page with Metrics Dashboard
+              - generic [ref=f3040e414]:
+                - button "More info about Reports page with Metrics Dashboard" [ref=f3040e415]
+                - tooltip "Access Metrics dashboard, Velocity chart, ARC Chart, Cycle Time / Lead Time, Cumulative Flow Diagram, Completed Stories Table and Epics List"
+          - cell "Not included" [ref=f3040e420]: —
+          - cell "Included" [ref=f3040e421]
+          - cell "Included" [ref=f3040e423]
+          - cell "Included" [ref=f3040e425]
+        - row [ref=f3040e427]:
+          - cell "Additional Charts More info about Additional Charts Create reports beyond 100 days and access reports like Time Spent in Workflow State and Created vs. Completed" [ref=f3040e428]:
+            - generic [ref=f3040e429]:
+              - generic [ref=f3040e430]: Additional Charts
+              - generic [ref=f3040e431]:
+                - button "More info about Additional Charts" [ref=f3040e432]
+                - tooltip "Create reports beyond 100 days and access reports like Time Spent in Workflow State and Created vs. Completed"
+          - cell "Not included" [ref=f3040e437]: —
+          - cell "Not included" [ref=f3040e438]: —
+          - cell "Included" [ref=f3040e439]
+          - cell "Included" [ref=f3040e441]
+        - row [ref=f3040e443]:
+          - columnheader "Collaboration" [ref=f3040e444]
+        - row [ref=f3040e445]:
+          - cell "Docs and Docs Templates More info about Docs and Docs Templates Use Docs for PRDs, technical documentation, and much more" [ref=f3040e446]:
+            - generic [ref=f3040e447]:
+              - generic [ref=f3040e448]: Docs and Docs Templates
+              - generic [ref=f3040e449]:
+                - button "More info about Docs and Docs Templates" [ref=f3040e450]
+                - tooltip "Use Docs for PRDs, technical documentation, and much more"
+          - cell "Included" [ref=f3040e455]
+          - cell "Included" [ref=f3040e457]
+          - cell "Included" [ref=f3040e459]
+          - cell "Included" [ref=f3040e461]
+        - row [ref=f3040e463]:
+          - cell "Docs Suggestion Mode More info about Docs Suggestion Mode Allow Doc collaborators to see what changes are proposed" [ref=f3040e464]:
+            - generic [ref=f3040e465]:
+              - generic [ref=f3040e466]: Docs Suggestion Mode
+              - generic [ref=f3040e467]:
+                - button "More info about Docs Suggestion Mode" [ref=f3040e468]
+                - tooltip "Allow Doc collaborators to see what changes are proposed"
+          - cell "Not included" [ref=f3040e473]: —
+          - cell "Included" [ref=f3040e474]
+          - cell "Included" [ref=f3040e476]
+          - cell "Included" [ref=f3040e478]
+        - row [ref=f3040e480]:
+          - columnheader "Customization" [ref=f3040e481]
+        - row [ref=f3040e482]:
+          - cell "Custom Fields and Labels More info about Custom Fields and Labels Categorize your work using basic Custom Fields (Technical Area, Skill Set, Product Area, Priority, and Severity Fields)" [ref=f3040e483]:
+            - generic [ref=f3040e484]:
+              - generic [ref=f3040e485]: Custom Fields and Labels
+              - generic [ref=f3040e486]:
+                - button "More info about Custom Fields and Labels" [ref=f3040e487]
+                - tooltip "Categorize your work using basic Custom Fields (Technical Area, Skill Set, Product Area, Priority, and Severity Fields)"
+          - cell "Included" [ref=f3040e492]
+          - cell "Included" [ref=f3040e494]
+          - cell "Included" [ref=f3040e496]
+          - cell "Included" [ref=f3040e498]
+        - row [ref=f3040e500]:
+          - cell "Story Templates More info about Story Templates Create Stories from a pre-formatted template, saving time and effort on commonly written Stories" [ref=f3040e501]:
+            - generic [ref=f3040e502]:
+              - generic [ref=f3040e503]: Story Templates
+              - generic [ref=f3040e504]:
+                - button "More info about Story Templates" [ref=f3040e505]
+                - tooltip "Create Stories from a pre-formatted template, saving time and effort on commonly written Stories"
+          - cell "Included" [ref=f3040e510]
+          - cell "Included" [ref=f3040e512]
+          - cell "Included" [ref=f3040e514]
+          - cell "Included" [ref=f3040e516]
+        - row [ref=f3040e518]:
+          - cell "Automations More info about Automations Auto-start and auto-complete an Epic, auto-create future Iterations, and move unfinished Stories to the next Iteration" [ref=f3040e519]:
+            - generic [ref=f3040e520]:
+              - generic [ref=f3040e521]: Automations
+              - generic [ref=f3040e522]:
+                - button "More info about Automations" [ref=f3040e523]
+                - tooltip "Auto-start and auto-complete an Epic, auto-create future Iterations, and move unfinished Stories to the next Iteration"
+          - cell "Not included" [ref=f3040e528]: —
+          - cell "Included" [ref=f3040e529]
+          - cell "Included" [ref=f3040e531]
+          - cell "Included" [ref=f3040e533]
+        - row [ref=f3040e535]:
+          - cell "Advanced Custom Fields More info about Advanced Custom Fields Categorize your work with user-defined field names" [ref=f3040e536]:
+            - generic [ref=f3040e537]:
+              - generic [ref=f3040e538]: Advanced Custom Fields
+              - generic [ref=f3040e539]:
+                - button "More info about Advanced Custom Fields" [ref=f3040e540]
+                - tooltip "Categorize your work with user-defined field names"
+          - cell "Not included" [ref=f3040e545]: —
+          - cell "Not included" [ref=f3040e546]: —
+          - cell "Included" [ref=f3040e547]
+          - cell "Included" [ref=f3040e549]
+        - row [ref=f3040e551]:
+          - cell "Overlapping Pull Requests More info about Overlapping Pull Requests Avoid merge conflicts and duplicative code when using the GitHub integration" [ref=f3040e552]:
+            - generic [ref=f3040e553]:
+              - generic [ref=f3040e554]: Overlapping Pull Requests
+              - generic [ref=f3040e555]:
+                - button "More info about Overlapping Pull Requests" [ref=f3040e556]
+                - tooltip "Avoid merge conflicts and duplicative code when using the GitHub integration"
+          - cell "Not included" [ref=f3040e561]: —
+          - cell "Included" [ref=f3040e562]
+          - cell "Included" [ref=f3040e564]
+          - cell "Included" [ref=f3040e566]
+        - row [ref=f3040e568]:
+          - columnheader "Integrations" [ref=f3040e569]
+        - row [ref=f3040e570]:
+          - cell "GitHub / GitLab / Bitbucket" [ref=f3040e571]
+          - cell "Included" [ref=f3040e574]
+          - cell "Included" [ref=f3040e576]
+          - cell "Included" [ref=f3040e578]
+          - cell "Included" [ref=f3040e580]
+        - row [ref=f3040e582]:
+          - cell "Slack" [ref=f3040e583]
+          - cell "Included" [ref=f3040e586]
+          - cell "Included" [ref=f3040e588]
+          - cell "Included" [ref=f3040e590]
+          - cell "Included" [ref=f3040e592]
+        - row [ref=f3040e594]:
+          - cell "Figma" [ref=f3040e595]
+          - cell "Included" [ref=f3040e598]
+          - cell "Included" [ref=f3040e600]
+          - cell "Included" [ref=f3040e602]
+          - cell "Included" [ref=f3040e604]
+        - row [ref=f3040e606]:
+          - cell "Miro" [ref=f3040e607]
+          - cell "Included" [ref=f3040e610]
+          - cell "Included" [ref=f3040e612]
+          - cell "Included" [ref=f3040e614]
+          - cell "Included" [ref=f3040e616]
+        - row [ref=f3040e618]:
+          - cell "Notion" [ref=f3040e619]
+          - cell "Included" [ref=f3040e622]
+          - cell "Included" [ref=f3040e624]
+          - cell "Included" [ref=f3040e626]
+          - cell "Included" [ref=f3040e628]
+        - row [ref=f3040e630]:
+          - cell "Sentry" [ref=f3040e631]
+          - cell "Included" [ref=f3040e634]
+          - cell "Included" [ref=f3040e636]
+          - cell "Included" [ref=f3040e638]
+          - cell "Included" [ref=f3040e640]
+        - row [ref=f3040e642]:
+          - cell "Zendesk" [ref=f3040e643]
+          - cell "Included" [ref=f3040e646]
+          - cell "Included" [ref=f3040e648]
+          - cell "Included" [ref=f3040e650]
+          - cell "Included" [ref=f3040e652]
+        - row [ref=f3040e654]:
+          - cell "Zapier" [ref=f3040e655]
+          - cell "Included" [ref=f3040e658]
+          - cell "Included" [ref=f3040e660]
+          - cell "Included" [ref=f3040e662]
+          - cell "Included" [ref=f3040e664]
+        - row [ref=f3040e666]:
+          - cell "+ many more" [ref=f3040e667]
+          - cell "Included" [ref=f3040e670]
+          - cell "Included" [ref=f3040e672]
+          - cell "Included" [ref=f3040e674]
+          - cell "Included" [ref=f3040e676]
+        - row [ref=f3040e678]:
+          - columnheader "Storage & API" [ref=f3040e679]
+        - row [ref=f3040e680]:
+          - cell "Storage" [ref=f3040e681]
+          - cell "5G" [ref=f3040e684]
+          - cell "250G" [ref=f3040e685]
+          - cell "250G" [ref=f3040e686]
+          - cell "250G" [ref=f3040e687]
+        - row [ref=f3040e688]:
+          - cell "API and Webhook Access" [ref=f3040e689]
+          - cell "Included" [ref=f3040e692]
+          - cell "Included" [ref=f3040e694]
+          - cell "Included" [ref=f3040e696]
+          - cell "Included" [ref=f3040e698]
+        - row [ref=f3040e700]:
+          - columnheader "Support & Control" [ref=f3040e701]
+        - row [ref=f3040e702]:
+          - cell "SOC 2 Type II" [ref=f3040e703]
+          - cell "Available by request" [ref=f3040e706]
+          - cell "Included" [ref=f3040e707]
+          - cell "Included" [ref=f3040e709]
+          - cell "Included" [ref=f3040e711]
+        - row [ref=f3040e713]:
+          - cell "Encryption in transit & at rest" [ref=f3040e714]
+          - cell "Included" [ref=f3040e717]
+          - cell "Included" [ref=f3040e719]
+          - cell "Included" [ref=f3040e721]
+          - cell "Included" [ref=f3040e723]
+        - row [ref=f3040e725]:
+          - cell "Google SSO More info about Google SSO Single sign-on (SSO) with Google Workspace" [ref=f3040e726]:
+            - generic [ref=f3040e727]:
+              - generic [ref=f3040e728]: Google SSO
+              - generic [ref=f3040e729]:
+                - button "More info about Google SSO" [ref=f3040e730]
+                - tooltip "Single sign-on (SSO) with Google Workspace"
+          - cell "Included" [ref=f3040e735]
+          - cell "Included" [ref=f3040e737]
+          - cell "Included" [ref=f3040e739]
+          - cell "Included" [ref=f3040e741]
+        - row [ref=f3040e743]:
+          - cell "Read-only seats More info about Read-only seats Like a user but with read-only access. Up to 5 read-only users per paid seat." [ref=f3040e744]:
+            - generic [ref=f3040e745]:
+              - generic [ref=f3040e746]: Read-only seats
+              - generic [ref=f3040e747]:
+                - button "More info about Read-only seats" [ref=f3040e748]
+                - tooltip "Like a user but with read-only access. Up to 5 read-only users per paid seat."
+          - cell "Not included" [ref=f3040e753]: —
+          - cell "Included" [ref=f3040e754]
+          - cell "Included" [ref=f3040e756]
+          - cell "Included" [ref=f3040e758]
+        - row [ref=f3040e760]:
+          - cell "HIPAA Compliance" [ref=f3040e761]
+          - cell "Not included" [ref=f3040e764]: —
+          - cell "Not included" [ref=f3040e765]: —
+          - cell "Not included" [ref=f3040e766]: —
+          - cell "Available by request" [ref=f3040e767]
+        - row [ref=f3040e768]:
+          - cell "Single sign-on (SSO) More info about Single sign-on (SSO) Contact our Support Team for details" [ref=f3040e769]:
+            - generic [ref=f3040e770]:
+              - generic [ref=f3040e771]: Single sign-on (SSO)
+              - generic [ref=f3040e772]:
+                - button "More info about Single sign-on (SSO)" [ref=f3040e773]
+                - tooltip "Contact our Support Team for details"
+          - cell "Not included" [ref=f3040e778]: —
+          - cell "Not included" [ref=f3040e779]: —
+          - cell "Add-on" [ref=f3040e780]
+          - cell "Included" [ref=f3040e781]
+        - row [ref=f3040e782]:
+          - cell "SCIM More info about SCIM Available for those using SAML SSO and Okta. Includes user provisioning, deprovisioning, and role based attribute support." [ref=f3040e783]:
+            - generic [ref=f3040e784]:
+              - generic [ref=f3040e785]: SCIM
+              - generic [ref=f3040e786]:
+                - button "More info about SCIM" [ref=f3040e787]
+                - tooltip "Available for those using SAML SSO and Okta. Includes user provisioning, deprovisioning, and role based attribute support."
+          - cell "Not included" [ref=f3040e792]: —
+          - cell "Not included" [ref=f3040e793]: —
+          - cell "Add-on" [ref=f3040e794]
+          - cell "Included" [ref=f3040e795]
+        - row [ref=f3040e796]:
+          - cell "User Roles" [ref=f3040e797]
+          - cell "Admins and Owners" [ref=f3040e800]
+          - cell "Owners, Admins, Members, and Observers" [ref=f3040e801]
+          - cell "Owners, Admins, Members, and Observers" [ref=f3040e802]
+          - cell "Owners, Admins, Members, and Observers" [ref=f3040e803]
+  - generic [ref=f3040e805]:
+    - heading "Frequently Asked Questions" [level=2] [ref=f3040e806]
+    - paragraph [ref=f3040e807]: Some questions about Shortcut are asked frequently. We've answered the most frequent of those frequent questions below.
+    - generic [ref=f3040e808]:
+      - generic [ref=f3040e809]:
+        - heading "What can I expect each billing cycle if I'm on the yearly Team or Business Plan?" [level=3] [ref=f3040e810]
+        - paragraph [ref=f3040e811]: For these plans, we use metered billing, which means we charge you per user, per month during your yearly billing cycle.
+      - generic [ref=f3040e812]:
+        - heading "We want to cancel our subscription. Can we get a refund?" [level=3] [ref=f3040e813]
+        - paragraph [ref=f3040e814]: Shortcut does not offer pro-rated refunds for cancelled subscriptions.
+      - generic [ref=f3040e815]:
+        - heading "How do I add a credit card in Shortcut?" [level=3] [ref=f3040e816]
+        - paragraph [ref=f3040e817]: To add a credit card, go to Settings > Workspace > Billing, and update your billing information in the Card section. It's always a good idea to review and update your billing contact information while you're there.
+      - generic [ref=f3040e818]:
+        - heading "What happens when the trial period ends?" [level=3] [ref=f3040e819]
+        - paragraph [ref=f3040e820]: If you have 10 or fewer users when the trial ends, you can simply use Shortcut for free or manually choose one of our paid plans to get access to the features included within it. If you have more than 10 users and want to continue using Shortcut after your trial ends, subscribe to one of our paid plans.
+      - generic [ref=f3040e821]:
+        - heading "Do I have to wait until the end of the trial to subscribe to a paid plan?" [level=3] [ref=f3040e822]
+        - paragraph [ref=f3040e823]: Nope! You are welcome to add a credit card at any time, but you won't be charged until your 14-day Trial is over.
+      - generic [ref=f3040e824]:
+        - heading "What can I do in Shortcut during the 14-day trial period?" [level=3] [ref=f3040e825]
+        - paragraph [ref=f3040e826]: "Anything! The Shortcut Trial is meant to give you an opportunity to truly test Shortcut's features and to build processes that work for your team. You'll have full access to Shortcut as a robust tool, including (but definitely not limited to): an Organization with unlimited Workspaces and user management, unlimited Observer users, our API, and outgoing webhooks. Feel free to experiment with using Teams, Epics and Objectives, Stories, Labels, and Custom Workflows together to create a project management environment unique and useful to your team."
+    - paragraph [ref=f3040e827]:
+      - text: For more billing information, check out our
+      - link "Help Center" [ref=f3040e828] [cursor=pointer]:
+        - /url: /help
+      - text: .
+  - generic [ref=f3040e830]:
+    - heading "But wait, there's more...." [level=2] [ref=f3040e831]
+    - paragraph [ref=f3040e832]: Shortcut is honored to extend a full membership at no cost to eligible Nonprofit organizations as thanks for the hard work.
+    - generic [ref=f3040e833]:
+      - article [ref=f3040e834]:
+        - img "An Engineer at a computer working in a development environment." [ref=f3040e836]
+        - generic [ref=f3040e837]:
+          - heading "The Shortcut Nonprofit Plan" [level=3] [ref=f3040e838]
+          - paragraph [ref=f3040e839]: Shortcut is free for qualifying nonprofits. Thank you for the hard work your team does to make the world a better place.
+          - link "Apply Now" [ref=f3040e841] [cursor=pointer]:
+            - /url: https://forms.gle/nEycYUu6MFB7EP5AA
+      - article [ref=f3040e845]:
+        - generic [ref=f3040e846]:
+          - heading "The Shortcut Startup Program" [level=3] [ref=f3040e847]
+          - paragraph [ref=f3040e848]: Get 12 months free if your startup has fewer than 50 employees. Open to all startups, regardless of VC-fund or accelerator affiliation.
+          - link "Get started now" [ref=f3040e850] [cursor=pointer]:
+            - /url: /startups
+        - img "A design team reviewing progress" [ref=f3040e855]
+  - generic [ref=f3040e856]:
+    - generic [ref=f3040e858]:
+      - heading [level=2] [ref=f3040e859]:
+        - text: Build what's
+        - strong [ref=f3040e860]: next
+        - text: .
+      - paragraph [ref=f3040e861]: Experience the most enjoyable, powerful way for your team to work.
+      - generic [ref=f3040e862]:
+        - link "Get started - it's free" [ref=f3040e863] [cursor=pointer]:
+          - /url: /signup
+        - link "Request a demo" [ref=f3040e864] [cursor=pointer]:
+          - /url: /demo
+      - paragraph [ref=f3040e865]: Trusted by thousands of software teams
+      - generic:
+        - img "Slice logo"
+        - img "Farmer's Dog logo"
+        - img "Dataiku logo"
+    - contentinfo [ref=f3040e866]:
+      - generic [ref=f3040e867]:
+        - generic [ref=f3040e868]:
+          - link "Shortcut home" [ref=f3040e869] [cursor=pointer]:
+            - /url: /
+            - img "Shortcut"
+          - list [ref=f3040e870]:
+            - listitem [ref=f3040e871]:
+              - link "GitHub" [ref=f3040e872] [cursor=pointer]:
+                - /url: https://github.com/useshortcut
+            - listitem [ref=f3040e875]:
+              - link "LinkedIn" [ref=f3040e876] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/shortcutsoftware/
+            - listitem [ref=f3040e879]:
+              - link "Slack" [ref=f3040e880] [cursor=pointer]:
+                - /url: https://shortcutcommunity.slack.com/
+            - listitem [ref=f3040e883]:
+              - link "X" [ref=f3040e884] [cursor=pointer]:
+                - /url: https://x.com/shortcut
+            - listitem [ref=f3040e887]:
+              - link "Reddit" [ref=f3040e888] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/shortcut/
+          - generic [ref=f3040e891]:
+            - paragraph [ref=f3040e892]: Ask AI for a summary of Shortcut
+            - generic [ref=f3040e893]:
+              - link "ChatGPT" [ref=f3040e894] [cursor=pointer]:
+                - /url: https://chat.openai.com/?q=As%20a%20product%20or%20engineering%20manager%2C%20I%20want%20to%20understand%20what%20makes%20Shortcut%20the%20best%20project%20management%20tool%20to%20plan%2C%20track%2C%20and%20deliver%20work%20as%20a%20team.%20Summarize%20the%20highlights%20from%20Shortcut's%20website%3A%20https%3A%2F%2Fshortcut.com
+                - img "ChatGPT" [ref=f3040e895]
+              - link "Claude" [ref=f3040e896] [cursor=pointer]:
+                - /url: https://claude.ai/new?q=As%20a%20product%20or%20engineering%20manager%2C%20I%20want%20to%20understand%20what%20makes%20Shortcut%20the%20best%20project%20management%20tool%20to%20plan%2C%20track%2C%20and%20deliver%20work%20as%20a%20team.%20Summarize%20the%20highlights%20from%20Shortcut's%20website%3A%20https%3A%2F%2Fshortcut.com
+                - img "Claude" [ref=f3040e897]
+              - link "Perplexity" [ref=f3040e898] [cursor=pointer]:
+                - /url: https://www.perplexity.ai/search/new?q=As%20a%20product%20or%20engineering%20manager%2C%20I%20want%20to%20understand%20what%20makes%20Shortcut%20the%20best%20project%20management%20tool%20to%20plan%2C%20track%2C%20and%20deliver%20work%20as%20a%20team.%20Summarize%20the%20highlights%20from%20Shortcut's%20website%3A%20https%3A%2F%2Fshortcut.com
+                - img "Perplexity" [ref=f3040e899]
+              - link "Gemini" [ref=f3040e900] [cursor=pointer]:
+                - /url: https://www.google.com/search?udm=50&aep=11&q=As%20a%20product%20or%20engineering%20manager%2C%20I%20want%20to%20understand%20what%20makes%20Shortcut%20the%20best%20project%20management%20tool%20to%20plan%2C%20track%2C%20and%20deliver%20work%20as%20a%20team.%20Summarize%20the%20highlights%20from%20Shortcut's%20website%3A%20https%3A%2F%2Fshortcut.com
+                - img "Gemini" [ref=f3040e901]
+              - link "Grok" [ref=f3040e902] [cursor=pointer]:
+                - /url: https://x.com/i/grok?text=As%20a%20product%20or%20engineering%20manager%2C%20I%20want%20to%20understand%20what%20makes%20Shortcut%20the%20best%20project%20management%20tool%20to%20plan%2C%20track%2C%20and%20deliver%20work%20as%20a%20team.%20Summarize%20the%20highlights%20from%20Shortcut's%20website%3A%20https%3A%2F%2Fshortcut.com
+                - img "Grok" [ref=f3040e903]
+        - generic [ref=f3040e904]:
+          - generic [ref=f3040e905]:
+            - heading "Product" [level=2] [ref=f3040e906]
+            - list [ref=f3040e907]:
+              - listitem [ref=f3040e908]:
+                - link "Product Development" [ref=f3040e909] [cursor=pointer]:
+                  - /url: /product-development
+              - listitem [ref=f3040e911]:
+                - link "Product Planning" [ref=f3040e912] [cursor=pointer]:
+                  - /url: /product-planning
+              - listitem [ref=f3040e914]:
+                - link "Collaboration" [ref=f3040e915] [cursor=pointer]:
+                  - /url: /collaboration
+              - listitem [ref=f3040e917]:
+                - link "Customization" [ref=f3040e918] [cursor=pointer]:
+                  - /url: /customization
+              - listitem [ref=f3040e920]:
+                - link "Integrations" [ref=f3040e921] [cursor=pointer]:
+                  - /url: /integrations
+              - listitem [ref=f3040e923]:
+                - link "Shortcut for Agents New" [ref=f3040e924] [cursor=pointer]:
+                  - /url: /agents
+                  - generic [ref=f3040e925]: Shortcut for Agents
+                  - generic [ref=f3040e926]: New
+              - listitem [ref=f3040e927]:
+                - link "Korey New" [ref=f3040e928] [cursor=pointer]:
+                  - /url: https://korey.ai/
+                  - generic [ref=f3040e929]: Korey
+                  - generic [ref=f3040e930]: New
+              - listitem [ref=f3040e931]:
+                - link "API" [ref=f3040e932] [cursor=pointer]:
+                  - /url: https://developer.shortcut.com/api/rest/v3
+          - generic [ref=f3040e934]:
+            - heading "Solutions" [level=2] [ref=f3040e935]
+            - list [ref=f3040e936]:
+              - listitem [ref=f3040e937]:
+                - link "Engineers" [ref=f3040e938] [cursor=pointer]:
+                  - /url: /solutions/engineering
+              - listitem [ref=f3040e940]:
+                - link "Product Managers" [ref=f3040e941] [cursor=pointer]:
+                  - /url: /solutions/product
+              - listitem [ref=f3040e943]:
+                - link "Designers" [ref=f3040e944] [cursor=pointer]:
+                  - /url: /solutions/design
+              - listitem [ref=f3040e946]:
+                - link "Leaders" [ref=f3040e947] [cursor=pointer]:
+                  - /url: /solutions/leadership
+              - listitem [ref=f3040e949]:
+                - link "Enterprise" [ref=f3040e950] [cursor=pointer]:
+                  - /url: /solutions/enterprise
+              - listitem [ref=f3040e952]:
+                - link "Small Business" [ref=f3040e953] [cursor=pointer]:
+                  - /url: /solutions/small-business
+              - listitem [ref=f3040e955]:
+                - link "Startups" [ref=f3040e956] [cursor=pointer]:
+                  - /url: /solutions/startup-teams
+              - listitem [ref=f3040e958]:
+                - link "Import from Jira" [ref=f3040e959] [cursor=pointer]:
+                  - /url: /import/jira
+              - listitem [ref=f3040e961]:
+                - link "Import from Trello" [ref=f3040e962] [cursor=pointer]:
+                  - /url: /import/trello
+          - generic [ref=f3040e964]:
+            - heading "Resources" [level=2] [ref=f3040e965]
+            - list [ref=f3040e966]:
+              - listitem [ref=f3040e967]:
+                - link "Help Center" [ref=f3040e968] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=f3040e970]:
+                - link "Status" [ref=f3040e971] [cursor=pointer]:
+                  - /url: https://status.shortcut.com/
+              - listitem [ref=f3040e973]:
+                - link "Release Notes" [ref=f3040e974] [cursor=pointer]:
+                  - /url: /release-notes
+              - listitem [ref=f3040e976]:
+                - link "Customers" [ref=f3040e977] [cursor=pointer]:
+                  - /url: /customer-stories
+              - listitem [ref=f3040e979]:
+                - link "Startup Program" [ref=f3040e980] [cursor=pointer]:
+                  - /url: /startups
+              - listitem [ref=f3040e982]:
+                - link "Blog" [ref=f3040e983] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f3040e985]:
+                - link "Guides" [ref=f3040e986] [cursor=pointer]:
+                  - /url: /guides
+              - listitem [ref=f3040e988]:
+                - link "Events" [ref=f3040e989] [cursor=pointer]:
+                  - /url: https://lu.ma/shortcut
+              - listitem [ref=f3040e991]:
+                - link "Request a Demo" [ref=f3040e992] [cursor=pointer]:
+                  - /url: /demo
+          - generic [ref=f3040e994]:
+            - heading "Company" [level=2] [ref=f3040e995]
+            - list [ref=f3040e996]:
+              - listitem [ref=f3040e997]:
+                - link "About" [ref=f3040e998] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f3040e1000]:
+                - link "Pricing" [ref=f3040e1001] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=f3040e1003]:
+                - link "Shortcut Way" [ref=f3040e1004] [cursor=pointer]:
+                  - /url: /shortcut-way
+              - listitem [ref=f3040e1006]:
+                - link "Press" [ref=f3040e1007] [cursor=pointer]:
+                  - /url: /press
+              - listitem [ref=f3040e1009]:
+                - link "Our Branding" [ref=f3040e1010] [cursor=pointer]:
+                  - /url: /branding
+              - listitem [ref=f3040e1012]:
+                - link "Careers" [ref=f3040e1013] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=f3040e1015]:
+                - link "Contact" [ref=f3040e1016] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=f3040e1018]:
+                - link "FAQ" [ref=f3040e1019] [cursor=pointer]:
+                  - /url: /faq
+      - generic [ref=f3040e1021]:
+        - paragraph [ref=f3040e1022]: © 2026 Shortcut Software Company
+        - generic [ref=f3040e1023]:
+          - link "Privacy Policy" [ref=f3040e1024] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms Of Use" [ref=f3040e1025] [cursor=pointer]:
+            - /url: /terms
+          - link "Security" [ref=f3040e1026] [cursor=pointer]:
+            - /url: /security
+          - button "Manage Cookies" [ref=f3040e1027] [cursor=pointer]

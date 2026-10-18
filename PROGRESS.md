@@ -50,10 +50,18 @@ Working log for the take-home. Update the checkboxes and the log as we go. Produ
 - [x] Live run with real keys (run `linear-20261018-110358`: 44 sources, 20 cited claims, 0 errors)
 
 ### Phase 4: Verify
-- [ ] Build a test set of 5–10 launches with known reception or outcomes
-- [ ] Run the evaluator on each and record results
-- [ ] Score: are findings supported by their cited sources? (before and after any change)
-- [ ] Record what the tool gets wrong, too
+Decided: SaaS is the main eval domain (pricing has ground truth; matches the target user). Car run (`bmw-i4-20261018-130527`) is a secondary generalization case. The starter baseline is included, so improvement is measured on the same products and judge.
+
+- [x] 4a. Golden set: 8 SaaS products in the issue-tracker category. Captured 2026-10-18 with Playwright (accessibility snapshots in `eval/golden/`): Linear, Jira, Plane, Shortcut, ClickUp, Asana, Trello, YouTrack. These pages are the ground truth.
+- [ ] 4b. Ground-truth sheet: for each product, list plan names, per-seat prices, billing period, and limits, each tied to its captured page. Hand-written, not model-written.
+- [ ] 4c. Starter baseline: run `starter_agent.py` on the same 8 products. Save raw outputs to `eval/runs/starter/`. Needs the API keys in the terminal.
+- [ ] 4d. Evaluator run: run `evaluator.py` on the same 8 products. Save to `eval/runs/evaluator/`.
+- [ ] 4e. Claim-level judge: for each claim, give the judge the full cited page text (not the 600-character snippet). It returns supported, contradicted, or not stated, with an evidence quote. Reject any quote that is not verbatim in the page text. Use a different model from the generator, at temperature 0.
+- [ ] 4f. Judge calibration: hand-label about 50 claims. Measure agreement with the judge. Report it with the scores. Seed: the claims already hand-checked this session.
+- [ ] 4g. Metrics for starter and evaluator, under the same judge: claim support rate, contradiction rate, citation precision, staleness rate, and recall of ground-truth prices.
+- [ ] 4h. Ablation: turn off one enhancement at a time (date rule, status judge, paraphrase rule) and record the change in each metric.
+- [ ] 4i. Car case: run the evaluator on `bmw-i4` and report what fails, without tuning it to pass.
+- [ ] 4j. Record what the tool gets wrong, too.
 
 ### Phase 4b: Observability (bonus)
 - [x] Add tracing for each run: query plan, each Tavily call, each extraction, and the aggregation step (Langfuse: one root trace `launch_evaluation`, a span per Tavily search, a generation per model call)

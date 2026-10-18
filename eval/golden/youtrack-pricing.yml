@@ -1,0 +1,484 @@
+- generic [ref=f3070e2]:
+  - generic [ref=f3070e3]:
+    - banner [ref=f3070e5]:
+      - generic [ref=f3070e7]:
+        - link "Navigate to main page" [ref=f3070e8] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f3070e15]:
+          - navigation "Main menu" [ref=f3070e16]:
+            - 'button "Products: Open submenu" [ref=f3070e18] [cursor=pointer]': Products
+            - 'button "For Business: Open submenu" [ref=f3070e20] [cursor=pointer]': For Business
+            - 'button "Education: Open submenu" [ref=f3070e22] [cursor=pointer]': Education
+            - 'button "Solutions: Open submenu" [ref=f3070e24] [cursor=pointer]': Solutions
+            - 'button "Support: Open submenu" [ref=f3070e26] [cursor=pointer]': Support
+            - link "Pricing" [ref=f3070e28] [cursor=pointer]:
+              - /url: /store/?section=personal&billing=yearly
+          - generic [ref=f3070e29]:
+            - button "Open search" [ref=f3070e30] [cursor=pointer]
+            - link "Navigate to profile" [ref=f3070e34] [cursor=pointer]:
+              - /url: https://account.jetbrains.com
+            - link "Navigate to Store" [ref=f3070e38] [cursor=pointer]:
+              - /url: /store/
+            - button "Open language selection" [ref=f3070e43] [cursor=pointer]
+    - generic [ref=f3070e48]:
+      - link "YouTrack" [ref=f3070e50] [cursor=pointer]:
+        - /url: /youtrack/
+      - generic [ref=f3070e53]:
+        - generic [ref=f3070e54] [cursor=pointer]: Features
+        - link "Helpdesk" [ref=f3070e60] [cursor=pointer]:
+          - /url: /youtrack/helpdesk/
+        - generic [ref=f3070e61] [cursor=pointer]: Comparisons
+        - generic [ref=f3070e67] [cursor=pointer]: Teams
+        - link "Support" [ref=f3070e73] [cursor=pointer]:
+          - /url: /youtrack/support/
+        - link "Pricing" [ref=f3070e74] [cursor=pointer]:
+          - /url: /youtrack/buy/
+        - generic [ref=f3070e75]:
+          - link "Book demo" [ref=f3070e76] [cursor=pointer]:
+            - /url: /youtrack/request-a-demo/
+          - link "Try free" [ref=f3070e78] [cursor=pointer]:
+            - /url: /youtrack/download/
+  - generic [ref=f3070e82]:
+    - heading "Buy YouTrack" [level=1] [ref=f3070e87]
+    - radiogroup [ref=f3070e90]:
+      - generic [ref=f3070e91]:
+        - generic [ref=f3070e92] [cursor=pointer]:
+          - radio "Cloud version" [checked] [ref=f3070e93]
+          - generic [ref=f3070e97]: Cloud version
+        - generic [ref=f3070e98] [cursor=pointer]:
+          - radio "Server version" [ref=f3070e99]
+          - generic [ref=f3070e103]: Server version
+        - generic [ref=f3070e104] [cursor=pointer]:
+          - radio "Special offers" [ref=f3070e105]
+          - generic [ref=f3070e109]: Special offers
+    - generic [ref=f3070e111]:
+      - generic [ref=f3070e113]:
+        - paragraph [ref=f3070e114]: Hosted in the cloud by JetBrains
+        - generic [ref=f3070e115]:
+          - radiogroup [ref=f3070e117]:
+            - generic [ref=f3070e118] [cursor=pointer]:
+              - radio "Annual billing Save 2 months" [checked] [ref=f3070e119]
+              - generic [ref=f3070e120]: Annual billing Save 2 months
+            - generic [ref=f3070e122] [cursor=pointer]:
+              - radio "Monthly billing" [ref=f3070e123]
+              - generic [ref=f3070e124]: Monthly billing
+          - generic [ref=f3070e129] [cursor=pointer]:
+            - generic [ref=f3070e130]:
+              - checkbox "with Helpdesk"
+            - generic [ref=f3070e133]:
+              - text: with
+              - link "Helpdesk" [ref=f3070e134]:
+                - /url: /youtrack/helpdesk/
+        - generic [ref=f3070e136]:
+          - generic [ref=f3070e137]:
+            - generic [ref=f3070e138]:
+              - generic [ref=f3070e139]:
+                - paragraph [ref=f3070e141]: 1–10 Users
+                - generic [ref=f3070e142]: Free AI Assistant
+              - generic [ref=f3070e147]: Full-featured edition for small teams
+            - generic [ref=f3070e148]: Free
+            - button "Get now" [ref=f3070e154] [cursor=pointer]
+          - generic [ref=f3070e156]:
+            - generic [ref=f3070e157]:
+              - generic [ref=f3070e158]:
+                - paragraph [ref=f3070e160]: 11+ Users
+                - generic [ref=f3070e161]: Free AI Assistant
+              - generic [ref=f3070e166]: Discount grows with number of users
+            - generic [ref=f3070e169]:
+              - generic [ref=f3070e170]:
+                - generic [ref=f3070e171]:
+                  - text: $4
+                  - superscript [ref=f3070e172]: ".50"
+                - generic [ref=f3070e173]: and less
+              - generic [ref=f3070e174]: per user/month
+            - button "Calculate your price" [ref=f3070e176] [cursor=pointer]
+      - generic [ref=f3070e179]:
+        - generic [ref=f3070e180]:
+          - heading "Calculate your price" [level=2] [ref=f3070e181]
+          - generic [ref=f3070e182]:
+            - radiogroup [ref=f3070e184]:
+              - generic [ref=f3070e185] [cursor=pointer]:
+                - radio "Annual billing Save 2 months" [checked] [ref=f3070e186]
+                - generic [ref=f3070e187]: Annual billing Save 2 months
+              - generic [ref=f3070e189] [cursor=pointer]:
+                - radio "Monthly billing" [ref=f3070e190]
+                - generic [ref=f3070e191]: Monthly billing
+            - generic [ref=f3070e195] [cursor=pointer]:
+              - generic [ref=f3070e196]:
+                - checkbox "with Helpdesk"
+              - generic [ref=f3070e199]:
+                - text: with
+                - link "Helpdesk" [ref=f3070e200]:
+                  - /url: /youtrack/helpdesk/
+          - generic [ref=f3070e202]:
+            - generic [ref=f3070e203]:
+              - generic [ref=f3070e204]:
+                - generic [ref=f3070e205]: "10"
+                - generic [ref=f3070e207]: "0"
+              - generic [ref=f3070e208]:
+                - generic [ref=f3070e209]: "100"
+                - generic [ref=f3070e211]: $4.50
+              - generic [ref=f3070e212]: $4.49
+              - generic [ref=f3070e215]: "200"
+              - generic [ref=f3070e218]: $4.33
+              - generic [ref=f3070e221]: "300"
+              - generic [ref=f3070e224]: $4.16
+              - generic [ref=f3070e227]: "400"
+              - generic [ref=f3070e230]:
+                - generic [ref=f3070e231]: "500"
+                - generic [ref=f3070e233]: $3.74
+              - generic [ref=f3070e234]:
+                - generic [ref=f3070e235]: "750"
+                - generic [ref=f3070e237]: $3.33
+              - generic [ref=f3070e238]:
+                - generic [ref=f3070e239]: "1000"
+                - generic [ref=f3070e241]: $2.81
+              - slider [ref=f3070e242]
+            - generic [ref=f3070e244]: "* the price is per one user"
+          - generic [ref=f3070e247]:
+            - generic [ref=f3070e248]: Users
+            - generic [ref=f3070e249]:
+              - textbox "Users" [ref=f3070e255]: "25"
+              - generic [ref=f3070e256]:
+                - generic [ref=f3070e257]: $112.50/month
+                - generic [ref=f3070e258]:
+                  - text: "Average price per user:"
+                  - generic [ref=f3070e259]: $4.50/month
+          - separator [ref=f3070e260]
+          - generic [ref=f3070e262]:
+            - generic [ref=f3070e263]:
+              - heading "Total price:" [level=4] [ref=f3070e264]
+              - generic [ref=f3070e265]:
+                - text: $1,350
+                - superscript [ref=f3070e266]: ".00"
+                - text: /year
+            - generic [ref=f3070e268]:
+              - link "Buy new" [ref=f3070e270] [cursor=pointer]:
+                - /url: /shop/buy?item=U:N:YTIUSGPR&quantity=25
+              - link "Upgrade" [ref=f3070e273] [cursor=pointer]:
+                - /url: /shop/buy?item=U:U:YTIUSGPR&quantity=25
+        - generic [ref=f3070e279]:
+          - paragraph [ref=f3070e280]:
+            - text: Taxes may still be added. The tax rate depends on your country tax rules, entered tax identification number (e.g.
+            - link "VAT ID" [ref=f3070e281] [cursor=pointer]:
+              - /url: https://www.jetbrains.com/shop/static/html/vat.html
+            - text: ), and selected purchase method.
+          - paragraph [ref=f3070e282]: Prices shown are approximate. Your final price is displayed at checkout.
+      - generic [ref=f3070e285]:
+        - heading "Licensing explained" [level=2] [ref=f3070e286]
+        - generic [ref=f3070e287]:
+          - generic [ref=f3070e288]:
+            - generic [ref=f3070e289]:
+              - heading "Free plan for up to 10 users" [level=3] [ref=f3070e290]
+              - paragraph [ref=f3070e291]: The YouTrack free plan is for teams of up to 10 users and comes with 30 GB of storage. It provides all of the functionality available with paid subscriptions except for a custom logo, which is only available with paid subscriptions.
+            - generic [ref=f3070e292]:
+              - heading "AI Assistant" [level=3] [ref=f3070e293]
+              - paragraph [ref=f3070e294]:
+                - text: All YouTrack Cloud customers, including small teams using YouTrack for free and YouTrack Server customers with active subscriptions, have access to free credits for AI-powered features. These credits are replenished weekly. Later on, we’re planning to offer additional credits purchases for teams who need more than the free amount.
+                - link "Learn more↗" [ref=f3070e295] [cursor=pointer]:
+                  - /url: https://youtrack-support.jetbrains.com/hc/en-us/sections/15618044333330-YouTrack-AI-Assistant
+                - text: about credits for generative AI in YouTrack.
+            - generic [ref=f3070e296]:
+              - heading "Paid subscriptions for 11+ users and 4+ support agents" [level=3] [ref=f3070e297]
+              - paragraph [ref=f3070e298]: You can switch seamlessly from a free plan or trial to a paid subscription at any time and keep all your current YouTrack data.
+              - paragraph [ref=f3070e299]: The more users you have, the less you pay per user. Monthly subscription prices start from $5.40 per user/month for 11 users, and gradually decrease to $1.83/ per user/month for 10,000 users. With an annual subscription, you save 2 months worth of costs. Annual subscription prices start from $4.50 and decrease to $1.53 per user/month.
+              - paragraph [ref=f3070e300]: If you use YouTrack Helpdesk, the price per agent is fixed at $6 per agent/month for monthly subscriptions and at $5.50 per agent/month for an annual subscription for support teams of 4 support agents or more.
+            - generic [ref=f3070e301]:
+              - heading "YouTrack Helpdesk pricing" [level=3] [ref=f3070e302]
+              - paragraph [ref=f3070e303]: You can start using YouTrack Helpdesk for free with 3 support agents and unlimited reporters – customers who submit tickets. If you need 4 or more support agents, you can switch to a paid monthly or annual subscription. Each support agent also requires a user license. For example, if your team consists of 30 members and 25 of them are regular users and 5 are support agents, you will pay for 30 users and 5 support agents for your YouTrack subscription.
+          - generic [ref=f3070e304]:
+            - generic [ref=f3070e305]:
+              - heading "Monthly subscription" [level=3] [ref=f3070e306]
+              - paragraph [ref=f3070e307]: With a monthly subscription, you pay at the end of each month for the maximum number of active user accounts in your YouTrack during that month. Banned user accounts are not included in the billing calculation.
+            - generic [ref=f3070e308]:
+              - heading "Annual subscription" [level=3] [ref=f3070e309]
+              - paragraph [ref=f3070e310]: With an annual subscription, you pay in advance to use YouTrack with a fixed number of users at a discounted rate. While your subscription is active, you can add up to 50% more users. You will be billed for these additional users at the end of the 12-month subscription period. Billing for additional users is calculated at the standard monthly subscription rate and is only applied to active users. Banned users are not included in the billing calculation.
+              - paragraph [ref=f3070e311]:
+                - text: Post-paid users are available as long as you have a valid payment method assigned to your YouTrack subscription. Contact the
+                - link "sales team" [ref=f3070e312] [cursor=pointer]:
+                  - /url: /support/sales/#email-sales
+                - text: to learn more.
+              - img "YouTrack Pricing" [ref=f3070e314]
+              - paragraph [ref=f3070e315]:
+                - text: If you purchase an annual YouTrack Cloud subscription from a JetBrains reseller, you cannot add post-paid users to your subscription. To add more permanent users at any time, please contact your reseller or the JetBrains
+                - link "sales team" [ref=f3070e316] [cursor=pointer]:
+                  - /url: /support/sales/#email-sales
+                - text: .
+            - generic [ref=f3070e317]:
+              - heading "Storage capacity" [level=3] [ref=f3070e318]
+              - paragraph [ref=f3070e319]: 1 user = 3 GB
+              - paragraph [ref=f3070e320]: The YouTrack free plan comes with 30 GB of storage. With paid subscriptions, you get 3 GB of storage per user.
+              - paragraph [ref=f3070e321]: You can’t purchase extra storage separately, but you can increase your storage allowance by adding more users to your subscription.
+          - generic [ref=f3070e322]:
+            - generic [ref=f3070e323]:
+              - 'heading "Free trial: 14 days with 100 users" [level=3] [ref=f3070e324]'
+              - paragraph [ref=f3070e325]: Once you’ve registered a free YouTrack plan for up to 10 users, you can start a 14-day trial with up to 100 users, 50 support agents, and 100 GB of disk space to see how YouTrack works at scale. No credit card required.
+              - paragraph [ref=f3070e326]: After the 14-day trial period expires, your YouTrack will return to the free plan with 10 users and three support agents.
+              - paragraph [ref=f3070e327]: Any additional users created during the trial are saved for 30 days. You can upgrade to a paid subscription and continue working with all the users and data you added at any time during the trial and up to 30 days after it ends.
+            - generic [ref=f3070e328]:
+              - heading "Legacy Cloud subscriptions" [level=3] [ref=f3070e329]
+              - paragraph [ref=f3070e330]:
+                - text: If you have a legacy Cloud subscription (with packages of users), you can no longer renew it under the legacy pricing. Your current subscription will remain valid until its expiration date. To continue using your YouTrack after that point, you’ll be asked to switch to a per-user subscription – either monthly or annual. We offer an extra three months for free when you switch to an annual per-user subscription. Learn more on our
+                - link "blog" [ref=f3070e331] [cursor=pointer]:
+                  - /url: https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025/
+                - text: .
+            - generic [ref=f3070e332]:
+              - heading "Migration from Cloud to YouTrack Server" [level=3] [ref=f3070e333]
+              - paragraph [ref=f3070e334]: YouTrack Cloud instances are hosted and maintained by JetBrains in our secure cloud infrastructure.
+              - paragraph [ref=f3070e335]: You can migrate all of your data from YouTrack Cloud to YouTrack Server at any time.
+            - generic [ref=f3070e336]:
+              - heading "Backups in case of inactivity" [level=3] [ref=f3070e337]
+              - paragraph [ref=f3070e338]: "If you don't use your YouTrack for a while, it will be automatically removed. The timeframe for removal depends on your plan: 1.5 months for trial plans, 3.5 months for free plans, and 6.5 months for paid plans. We'll keep a backup of your data for up to 6 months after removal, just in case you decide to return."
+      - separator [ref=f3070e339]
+      - generic [ref=f3070e343]:
+        - heading "Any questions? Learn more or contact us" [level=2] [ref=f3070e344]
+        - paragraph [ref=f3070e345]: All commercial plans include Custom Logo
+        - link "Terms of Service" [ref=f3070e350] [cursor=pointer]:
+          - /url: /youtrack/incloud/serviceterms.html
+        - heading "Sales support" [level=4] [ref=f3070e351]
+        - generic [ref=f3070e352]:
+          - link "Purchase Terms" [ref=f3070e358] [cursor=pointer]:
+            - /url: /legal/docs/store/terms/
+          - link "Contact Sales" [ref=f3070e364] [cursor=pointer]:
+            - /url: /support/sales/#product=youtrack
+          - link "FAQ" [ref=f3070e370] [cursor=pointer]:
+            - /url: https://sales.jetbrains.com/hc/en-gb/
+  - contentinfo [ref=f3070e372]:
+    - generic [ref=f3070e373]:
+      - list [ref=f3070e375]:
+        - listitem [ref=f3070e376]:
+          - heading "AI" [level=2] [ref=f3070e377]
+          - list [ref=f3070e378]:
+            - listitem [ref=f3070e379]:
+              - link "JetBrains Air" [ref=f3070e380] [cursor=pointer]:
+                - /url: /air/
+            - listitem [ref=f3070e381]:
+              - link "Junie" [ref=f3070e382] [cursor=pointer]:
+                - /url: https://junie.jetbrains.com/
+            - listitem [ref=f3070e383]:
+              - link "Air in IDEs" [ref=f3070e384] [cursor=pointer]:
+                - /url: /air/ides/
+            - listitem [ref=f3070e385]:
+              - link "Air Governance" [ref=f3070e386] [cursor=pointer]:
+                - /url: /air/governance/
+            - listitem [ref=f3070e387]:
+              - link "Air Teams" [ref=f3070e388] [cursor=pointer]:
+                - /url: https://air.jetbrains.cloud/
+            - listitem [ref=f3070e389]:
+              - link "AI News" [ref=f3070e390] [cursor=pointer]:
+                - /url: https://blog.jetbrains.com/ai/
+        - listitem [ref=f3070e391]:
+          - heading "Developer Tools" [level=2] [ref=f3070e392]
+          - list [ref=f3070e393]:
+            - listitem [ref=f3070e394]:
+              - link "All Products" [ref=f3070e395] [cursor=pointer]:
+                - /url: /products/
+            - listitem [ref=f3070e396]:
+              - link "IDEs" [ref=f3070e397] [cursor=pointer]:
+                - /url: /ides/
+            - listitem [ref=f3070e398]:
+              - link ".NET and Visual Studio" [ref=f3070e399] [cursor=pointer]:
+                - /url: /products/#tech=dotnet
+            - listitem [ref=f3070e400]:
+              - link "Team Tools" [ref=f3070e401] [cursor=pointer]:
+                - /url: /products/#type=team
+            - listitem [ref=f3070e402]:
+              - link "Plugin Marketplace" [ref=f3070e403] [cursor=pointer]:
+                - /url: https://plugins.jetbrains.com
+            - listitem [ref=f3070e404]:
+              - link "Toolbox App" [ref=f3070e405] [cursor=pointer]:
+                - /url: /toolbox-app/
+        - listitem [ref=f3070e406]:
+          - heading "Solutions" [level=2] [ref=f3070e407]
+          - list [ref=f3070e408]:
+            - listitem [ref=f3070e409]:
+              - link "Business" [ref=f3070e410] [cursor=pointer]:
+                - /url: /business/
+            - listitem [ref=f3070e411]:
+              - link "Remote Development" [ref=f3070e412] [cursor=pointer]:
+                - /url: /remote-development/
+            - listitem [ref=f3070e413]:
+              - link "Game Development" [ref=f3070e414] [cursor=pointer]:
+                - /url: /gamedev/
+            - listitem [ref=f3070e415]:
+              - link "DevOps" [ref=f3070e416] [cursor=pointer]:
+                - /url: /devops/
+        - listitem [ref=f3070e417]:
+          - heading "Initiatives" [level=2] [ref=f3070e418]
+          - list [ref=f3070e419]:
+            - listitem [ref=f3070e420]:
+              - link "Kotlin" [ref=f3070e421] [cursor=pointer]:
+                - /url: /kotlin-ecosystem/
+            - listitem [ref=f3070e422]:
+              - link "Open Source" [ref=f3070e423] [cursor=pointer]:
+                - /url: /opensource/
+            - listitem [ref=f3070e424]:
+              - link "JetBrains Research" [ref=f3070e425] [cursor=pointer]:
+                - /url: /research/
+            - listitem [ref=f3070e426]:
+              - link "JetBrains Mono" [ref=f3070e427] [cursor=pointer]:
+                - /url: /lp/mono/
+            - listitem [ref=f3070e428]:
+              - link "MPS" [ref=f3070e429] [cursor=pointer]:
+                - /url: /mps/
+        - listitem [ref=f3070e430]:
+          - heading "Education" [level=2] [ref=f3070e431]
+          - list [ref=f3070e432]:
+            - listitem [ref=f3070e433]:
+              - link "Students" [ref=f3070e434] [cursor=pointer]:
+                - /url: /academy/student-pack/
+            - listitem [ref=f3070e435]:
+              - link "Teachers" [ref=f3070e436] [cursor=pointer]:
+                - /url: /academy/teacher-pack/
+            - listitem [ref=f3070e437]:
+              - link "Teams" [ref=f3070e438] [cursor=pointer]:
+                - /url: /academy/organizations/
+            - listitem [ref=f3070e439]:
+              - link "Course Catalog" [ref=f3070e440] [cursor=pointer]:
+                - /url: https://academy.jetbrains.com/
+            - listitem [ref=f3070e441]:
+              - link "University Programs" [ref=f3070e442] [cursor=pointer]:
+                - /url: /education/university-programs/
+        - listitem [ref=f3070e443]:
+          - heading "Store" [level=2] [ref=f3070e444]
+          - list [ref=f3070e445]:
+            - listitem [ref=f3070e446]:
+              - link "Plans and Pricing" [ref=f3070e447] [cursor=pointer]:
+                - /url: /store/
+            - listitem [ref=f3070e448]:
+              - link "All Products Pack" [ref=f3070e449] [cursor=pointer]:
+                - /url: /all/
+            - listitem [ref=f3070e450]:
+              - link "dotUltimate" [ref=f3070e451] [cursor=pointer]:
+                - /url: /dotnet/
+            - listitem [ref=f3070e452]:
+              - link "Partners and Resellers" [ref=f3070e453] [cursor=pointer]:
+                - /url: /company/partners/
+            - listitem [ref=f3070e454]:
+              - link "Customers and Awards" [ref=f3070e455] [cursor=pointer]:
+                - /url: /company/customers/
+        - listitem [ref=f3070e456]:
+          - heading "Support" [level=2] [ref=f3070e457]
+          - list [ref=f3070e458]:
+            - listitem [ref=f3070e459]:
+              - link "Technical Support" [ref=f3070e460] [cursor=pointer]:
+                - /url: /support/
+            - listitem [ref=f3070e461]:
+              - link "Contact Sales" [ref=f3070e462] [cursor=pointer]:
+                - /url: /support/sales/
+            - listitem [ref=f3070e463]:
+              - link "Documentation" [ref=f3070e464] [cursor=pointer]:
+                - /url: /help/
+            - listitem [ref=f3070e465]:
+              - link "JetBrains Account" [ref=f3070e466] [cursor=pointer]:
+                - /url: https://account.jetbrains.com
+        - listitem [ref=f3070e467]:
+          - heading "Resources" [level=2] [ref=f3070e468]
+          - list [ref=f3070e469]:
+            - listitem [ref=f3070e470]:
+              - link "Blog" [ref=f3070e471] [cursor=pointer]:
+                - /url: https://blog.jetbrains.com/
+            - listitem [ref=f3070e472]:
+              - link "Early Access" [ref=f3070e473] [cursor=pointer]:
+                - /url: /resources/eap/
+            - listitem [ref=f3070e474]:
+              - link "Events and Livestreams" [ref=f3070e475] [cursor=pointer]:
+                - /url: /company/conferences/
+            - listitem [ref=f3070e476]:
+              - link "Newsletters" [ref=f3070e477] [cursor=pointer]:
+                - /url: /resources/newsletters/
+            - listitem [ref=f3070e478]:
+              - link "Industry Reports" [ref=f3070e479] [cursor=pointer]:
+                - /url: /resources/industry-reports/
+            - listitem [ref=f3070e480]:
+              - link "Inspectopedia" [ref=f3070e481] [cursor=pointer]:
+                - /url: /pages/inspectopedia-by-jetbrains/
+            - listitem [ref=f3070e482]:
+              - link "AI Agents Hub" [ref=f3070e483] [cursor=pointer]:
+                - /url: /pages/ai-agents/
+        - listitem [ref=f3070e484]:
+          - heading "Community" [level=2] [ref=f3070e485]
+          - list [ref=f3070e486]:
+            - listitem [ref=f3070e487]:
+              - link "Developer Communities" [ref=f3070e488] [cursor=pointer]:
+                - /url: /community/user-groups/
+            - listitem [ref=f3070e489]:
+              - link "Open-Source Partnerships" [ref=f3070e490] [cursor=pointer]:
+                - /url: /community/opensource/
+            - listitem [ref=f3070e491]:
+              - link "Developer Recognition" [ref=f3070e492] [cursor=pointer]:
+                - /url: /community/dev-recognition/
+            - listitem [ref=f3070e493]:
+              - link "Content Creators" [ref=f3070e494] [cursor=pointer]:
+                - /url: /community/content-creators/
+            - listitem [ref=f3070e495]:
+              - link "Course Creators" [ref=f3070e496] [cursor=pointer]:
+                - /url: /academy/course-creators/
+        - listitem [ref=f3070e497]:
+          - heading "Company" [level=2] [ref=f3070e498]
+          - list [ref=f3070e499]:
+            - listitem [ref=f3070e500]:
+              - link "About" [ref=f3070e501] [cursor=pointer]:
+                - /url: /company/
+            - listitem [ref=f3070e502]:
+              - link "Contacts" [ref=f3070e503] [cursor=pointer]:
+                - /url: /company/contacts/?office=headquarters-international-sales
+            - listitem [ref=f3070e504]:
+              - link "Careers" [ref=f3070e505] [cursor=pointer]:
+                - /url: /careers/
+            - listitem [ref=f3070e506]:
+              - link "Brand Assets" [ref=f3070e507] [cursor=pointer]:
+                - /url: /company/brand/
+            - listitem [ref=f3070e508]:
+              - link "Merchandise" [ref=f3070e509] [cursor=pointer]:
+                - /url: https://www.jetbrainsmerchandise.com/?utm_campaign=link&utm_medium=footer&utm_source=jetbrainscom
+            - listitem [ref=f3070e510]:
+              - link "Trust Center" [ref=f3070e511] [cursor=pointer]:
+                - /url: https://trust-center.jetbrains.com/
+      - generic [ref=f3070e512]:
+        - generic [ref=f3070e514]:
+          - link "JetBrains on Facebook" [ref=f3070e515] [cursor=pointer]:
+            - /url: https://www.facebook.com/JetBrains
+          - link "JetBrains on X (formerly Twitter)" [ref=f3070e519] [cursor=pointer]:
+            - /url: https://twitter.com/jetbrains
+          - link "JetBrains on LinkedIn" [ref=f3070e523] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/jetbrains
+          - link "JetBrains on YouTube" [ref=f3070e527] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/JetBrainsTV
+          - link "JetBrains on Instagram" [ref=f3070e531] [cursor=pointer]:
+            - /url: https://www.instagram.com/jetbrains/
+          - link "JetBrains on TikTok" [ref=f3070e535] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@jetbrains?lang=en
+          - link "JetBrains blog" [ref=f3070e539] [cursor=pointer]:
+            - /url: https://blog.jetbrains.com/
+          - link "JetBrains RSS Feed" [ref=f3070e543] [cursor=pointer]:
+            - /url: https://blog.jetbrains.com/feed/
+          - link "JetBrains Merchandise Store" [ref=f3070e547] [cursor=pointer]:
+            - /url: https://www.jetbrainsmerchandise.com/
+        - generic [ref=f3070e552]:
+          - button "Loading..." [disabled]
+          - button "English" [ref=f3070e554] [cursor=pointer]
+        - generic [ref=f3070e559]:
+          - link "Privacy and Security" [ref=f3070e560] [cursor=pointer]:
+            - /url: /privacy-security/
+          - link "Privacy Notice" [ref=f3070e561] [cursor=pointer]:
+            - /url: /legal/docs/privacy/privacy/
+          - link "Terms of Use" [ref=f3070e562] [cursor=pointer]:
+            - /url: /legal/docs/company/useterms/
+          - link "Attributions" [ref=f3070e563] [cursor=pointer]:
+            - /url: /legal/attributions/
+          - link "Legal" [ref=f3070e564] [cursor=pointer]:
+            - /url: /legal/
+          - link "Genuine Tools" [ref=f3070e565] [cursor=pointer]:
+            - /url: /genuine-tools/
+          - link "Opt-Out" [ref=f3070e566] [cursor=pointer]:
+            - /url: /opt-out/
+        - generic [ref=f3070e568]:
+          - text: Copyright © 2000-2026
+          - link "JetBrains" [ref=f3070e569] [cursor=pointer]:
+            - /url: https://jetbrains.com/
+          - text: s.r.o.
+        - generic [ref=f3070e571]:
+          - text: Developed with drive and
+          - link "IntelliJ IDEA" [ref=f3070e572] [cursor=pointer]:
+            - /url: https://jetbrains.com/idea

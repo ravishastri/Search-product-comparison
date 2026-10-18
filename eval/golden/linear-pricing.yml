@@ -1,0 +1,674 @@
+- generic [ref=f3013e2]:
+  - region "Notifications alt+T"
+  - link "Skip to content →":
+    - /url: "#skip-nav"
+  - generic [ref=f3013e3]:
+    - banner [ref=f3013e4]:
+      - navigation [ref=f3013e5]:
+        - list "Site navigation" [ref=f3013e7]:
+          - listitem [ref=f3013e8]:
+            - link "Navigate to home" [ref=f3013e10] [cursor=pointer]:
+              - /url: /homepage
+              - img "Linear" [ref=f3013e11]
+          - listitem [ref=f3013e14]:
+            - list [ref=f3013e15]:
+              - listitem [ref=f3013e16]:
+                - button "Product" [ref=f3013e17] [cursor=pointer]
+              - listitem [ref=f3013e18]:
+                - button "Resources" [ref=f3013e19] [cursor=pointer]
+              - listitem [ref=f3013e20]:
+                - link "Customers" [ref=f3013e21] [cursor=pointer]:
+                  - /url: /customers
+              - listitem [ref=f3013e22]:
+                - link "Pricing" [ref=f3013e23] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=f3013e24]:
+                - link "Now" [ref=f3013e25] [cursor=pointer]:
+                  - /url: /now
+              - listitem [ref=f3013e26]:
+                - link "Contact" [ref=f3013e27] [cursor=pointer]:
+                  - /url: /contact
+            - list [ref=f3013e29]:
+              - listitem [ref=f3013e30]:
+                - link "Log in" [ref=f3013e32] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=f3013e33]:
+                - link "Sign up" [ref=f3013e34] [cursor=pointer]:
+                  - /url: /signup
+    - main [ref=f3013e35]:
+      - generic [ref=f3013e36]:
+        - heading "Pricing" [level=1] [ref=f3013e40]
+        - generic [ref=f3013e41]:
+          - generic [ref=f3013e42]:
+            - generic [ref=f3013e43]:
+              - heading "Free" [level=3] [ref=f3013e44]
+              - generic [ref=f3013e46]: $0
+            - generic [ref=f3013e48]: Free for everyone
+            - list [ref=f3013e52]:
+              - listitem [ref=f3013e53]:
+                - generic [ref=f3013e56]: Unlimited members
+              - listitem [ref=f3013e57]:
+                - generic [ref=f3013e60]: 2 teams
+              - listitem [ref=f3013e61]:
+                - generic [ref=f3013e64]: 250 issues
+              - listitem [ref=f3013e65]:
+                - generic [ref=f3013e68]: Agent platform
+              - listitem [ref=f3013e69]:
+                - generic [ref=f3013e72]: Linear Agent
+            - link "Get started" [ref=f3013e75] [cursor=pointer]:
+              - /url: /signup
+          - generic [ref=f3013e76]:
+            - generic [ref=f3013e77]:
+              - heading "Basic" [level=3] [ref=f3013e78]
+              - generic [ref=f3013e80]:
+                - generic [ref=f3013e81]: $10 per user/month
+                - img [ref=f3013e84]:
+                  - generic [ref=f3013e85]: $
+                  - generic [ref=f3013e88]:
+                    - generic [ref=f3013e89]: "1"
+                    - generic [ref=f3013e90]: "0"
+                  - generic [ref=f3013e91]: per user/month
+            - generic [ref=f3013e95]:
+              - checkbox "Billed yearly" [checked] [ref=f3013e97]
+              - generic [ref=f3013e99]: Billed yearly
+            - list [ref=f3013e101]:
+              - listitem [ref=f3013e102]:
+                - generic [ref=f3013e105]: All Free features +
+              - listitem [ref=f3013e106]:
+                - generic [ref=f3013e109]: 5 teams
+              - listitem [ref=f3013e110]:
+                - generic [ref=f3013e113]: Unlimited issues
+              - listitem [ref=f3013e114]:
+                - generic [ref=f3013e117]: Unlimited file uploads
+              - listitem [ref=f3013e118]:
+                - generic [ref=f3013e121]: Admin roles
+            - link "Get started" [ref=f3013e124] [cursor=pointer]:
+              - /url: /signup
+          - generic [ref=f3013e125]:
+            - generic [ref=f3013e126]:
+              - heading "Business" [level=3] [ref=f3013e127]
+              - generic [ref=f3013e129]:
+                - generic [ref=f3013e130]: $16 per user/month
+                - img [ref=f3013e133]:
+                  - generic [ref=f3013e134]: $
+                  - generic [ref=f3013e137]:
+                    - generic [ref=f3013e138]: "1"
+                    - generic [ref=f3013e139]: "6"
+                  - generic [ref=f3013e140]: per user/month
+            - generic [ref=f3013e144]:
+              - checkbox "Billed yearly" [checked] [ref=f3013e146]
+              - generic [ref=f3013e148]: Billed yearly
+            - list [ref=f3013e150]:
+              - listitem [ref=f3013e151]:
+                - generic [ref=f3013e154]: All Basic features +
+              - listitem [ref=f3013e155]:
+                - generic [ref=f3013e158]: Unlimited teams
+              - listitem [ref=f3013e159]:
+                - generic [ref=f3013e162]: Private teams and guests
+              - listitem [ref=f3013e163]:
+                - generic [ref=f3013e166]: Triage Intelligence
+              - listitem [ref=f3013e167]:
+                - generic [ref=f3013e170]: Loops
+              - listitem [ref=f3013e171]:
+                - generic [ref=f3013e174]: Code Intelligence
+              - listitem [ref=f3013e175]:
+                - generic [ref=f3013e178]: Linear Insights
+              - listitem [ref=f3013e179]:
+                - generic [ref=f3013e182]: Linear Asks
+              - listitem [ref=f3013e183]:
+                - generic [ref=f3013e186]: Zendesk and Intercom integrations
+            - generic [ref=f3013e188]:
+              - link "Get started" [ref=f3013e189] [cursor=pointer]:
+                - /url: /signup
+              - link "Contact sales" [ref=f3013e190] [cursor=pointer]:
+                - /url: /contact/sales
+          - generic [ref=f3013e191]:
+            - generic [ref=f3013e192]:
+              - heading "Enterprise" [level=3] [ref=f3013e193]
+              - generic [ref=f3013e195]: Custom
+            - generic [ref=f3013e197]: Annual billing only
+            - list [ref=f3013e201]:
+              - listitem [ref=f3013e202]:
+                - generic [ref=f3013e205]: All Business features +
+              - listitem [ref=f3013e206]:
+                - generic [ref=f3013e209]: Invoice/PO billing
+              - listitem [ref=f3013e210]:
+                - generic [ref=f3013e213]: SAML and SCIM
+              - listitem [ref=f3013e214]:
+                - generic [ref=f3013e217]: Granular admin controls
+              - listitem [ref=f3013e218]:
+                - generic [ref=f3013e221]: Enterprise-grade security
+              - listitem [ref=f3013e222]:
+                - generic [ref=f3013e225]: Advanced org modeling
+              - listitem [ref=f3013e226]:
+                - generic [ref=f3013e229]: Migration & onboarding support
+              - listitem [ref=f3013e230]:
+                - generic [ref=f3013e233]: Priority support
+              - listitem [ref=f3013e234]:
+                - generic [ref=f3013e237]: Account management
+            - link "Contact sales" [ref=f3013e240] [cursor=pointer]:
+              - /url: /contact/sales
+        - paragraph [ref=f3013e242]:
+          - text: Trusted by more than
+          - strong [ref=f3013e243]: 40,000
+          - text: companies
+      - link [ref=f3013e246] [cursor=pointer]:
+        - /url: /customers
+        - list [ref=f3013e247]:
+          - listitem [ref=f3013e248]
+          - listitem [ref=f3013e251]
+          - listitem [ref=f3013e255]
+          - listitem [ref=f3013e259]
+          - listitem [ref=f3013e267]
+          - listitem [ref=f3013e271]
+          - listitem [ref=f3013e274]
+      - generic [ref=f3013e277]:
+        - link "Customer stories →" [ref=f3013e280] [cursor=pointer]:
+          - /url: /customers
+          - generic [ref=f3013e281]: Customer stories
+          - generic [ref=f3013e282]: →
+        - generic [ref=f3013e285]:
+          - table [ref=f3013e286]:
+            - rowgroup [ref=f3013e289]:
+              - row [ref=f3013e290]:
+                - cell "Features" [ref=f3013e291]
+                - columnheader "Free" [ref=f3013e292]
+                - columnheader "Basic" [ref=f3013e294]
+                - columnheader "Business" [ref=f3013e296]
+                - columnheader "Enterprise" [ref=f3013e298]
+            - rowgroup [ref=f3013e300]:
+              - row [ref=f3013e301]:
+                - cell "Members" [ref=f3013e302]
+                - cell "Unlimited" [ref=f3013e309]
+                - cell "Unlimited" [ref=f3013e314]
+                - cell "Unlimited" [ref=f3013e319]
+                - cell "Unlimited" [ref=f3013e324]
+              - row [ref=f3013e329]:
+                - cell "File upload" [ref=f3013e330]
+                - cell "10MB" [ref=f3013e337]
+                - cell "Unlimited" [ref=f3013e342]
+                - cell "Unlimited" [ref=f3013e347]
+                - cell "Unlimited" [ref=f3013e352]
+              - row [ref=f3013e357]:
+                - cell "Issues" [ref=f3013e358]
+                - cell "250 issues" [ref=f3013e365]
+                - cell "Unlimited" [ref=f3013e370]
+                - cell "Unlimited" [ref=f3013e375]
+                - cell "Unlimited" [ref=f3013e380]
+              - row [ref=f3013e385]:
+                - cell "Teams" [ref=f3013e386]
+                - cell "2 teams" [ref=f3013e393]
+                - cell "5 teams" [ref=f3013e398]
+                - cell "Unlimited" [ref=f3013e403]
+                - cell "Unlimited" [ref=f3013e408]
+              - generic [ref=f3013e413]: Core
+              - row [ref=f3013e414]:
+                - cell "Issues, projects, cycles, initiatives" [ref=f3013e415]
+                - cell [ref=f3013e422]
+                - cell [ref=f3013e426]
+                - cell [ref=f3013e430]
+                - cell [ref=f3013e434]
+              - row [ref=f3013e438]:
+                - cell "Customer requests" [ref=f3013e439]
+                - cell [ref=f3013e446]
+                - cell [ref=f3013e450]
+                - cell [ref=f3013e454]
+                - cell [ref=f3013e458]
+              - row [ref=f3013e462]:
+                - cell "API and webhook access" [ref=f3013e463]
+                - cell [ref=f3013e470]
+                - cell [ref=f3013e474]
+                - cell [ref=f3013e478]
+                - cell [ref=f3013e482]
+              - row [ref=f3013e486]:
+                - cell "Import and export" [ref=f3013e487]
+                - cell [ref=f3013e494]
+                - cell [ref=f3013e498]
+                - cell [ref=f3013e502]
+                - cell [ref=f3013e506]
+              - row [ref=f3013e510]:
+                - cell "Triage" [ref=f3013e511]
+                - cell [ref=f3013e518]
+                - cell [ref=f3013e522]
+                - cell [ref=f3013e526]
+                - cell [ref=f3013e530]
+              - row [ref=f3013e534]:
+                - cell "Pulse" [ref=f3013e535]
+                - cell [ref=f3013e542]
+                - cell [ref=f3013e546]
+                - cell [ref=f3013e550]
+                - cell [ref=f3013e554]
+              - row [ref=f3013e558]:
+                - cell "Issue sync" [ref=f3013e559]
+                - cell [ref=f3013e566]
+                - cell [ref=f3013e570]
+                - cell [ref=f3013e574]
+                - cell [ref=f3013e578]
+              - row [ref=f3013e582]:
+                - cell "Diffs" [ref=f3013e583]
+                - cell [ref=f3013e590]
+                - cell [ref=f3013e594]
+                - cell [ref=f3013e598]
+                - cell [ref=f3013e602]
+              - row [ref=f3013e606]:
+                - cell "Guided reviews" [ref=f3013e607]
+                - cell [ref=f3013e614]
+                - cell [ref=f3013e617]
+                - cell [ref=f3013e621]
+                - cell [ref=f3013e625]
+              - row [ref=f3013e629]:
+                - cell "Issue SLAs" [ref=f3013e630]
+                - cell [ref=f3013e637]
+                - cell [ref=f3013e640]
+                - cell [ref=f3013e643]
+                - cell [ref=f3013e647]
+              - row [ref=f3013e651]:
+                - cell "Triage responsibility" [ref=f3013e652]
+                - cell [ref=f3013e659]
+                - cell [ref=f3013e662]
+                - cell [ref=f3013e665]
+                - cell [ref=f3013e669]
+              - row [ref=f3013e673]:
+                - cell "Triage rules" [ref=f3013e674]
+                - cell [ref=f3013e681]
+                - cell [ref=f3013e684]
+                - cell [ref=f3013e687]
+                - cell [ref=f3013e691]
+              - row [ref=f3013e695]:
+                - cell "Releases" [ref=f3013e696]
+                - cell [ref=f3013e703]
+                - cell [ref=f3013e706]
+                - cell "15 pipelines" [ref=f3013e709]
+                - cell "Unlimited" [ref=f3013e714]
+              - row [ref=f3013e719]:
+                - cell "Sub-initiatives" [ref=f3013e720]
+                - cell [ref=f3013e727]
+                - cell [ref=f3013e730]
+                - cell [ref=f3013e733]
+                - cell [ref=f3013e736]
+              - generic [ref=f3013e740]: AI and agent workflows
+              - row [ref=f3013e741]:
+                - cell "Agent platform" [ref=f3013e742]
+                - cell [ref=f3013e749]
+                - cell [ref=f3013e753]
+                - cell [ref=f3013e757]
+                - cell [ref=f3013e761]
+              - row [ref=f3013e765]:
+                - cell "MCP access" [ref=f3013e766]
+                - cell [ref=f3013e773]
+                - cell [ref=f3013e777]
+                - cell [ref=f3013e781]
+                - cell [ref=f3013e785]
+              - row [ref=f3013e789]:
+                - cell "Linear Agent" [ref=f3013e790]
+                - cell [ref=f3013e797]
+                - cell [ref=f3013e801]
+                - cell [ref=f3013e805]
+                - cell [ref=f3013e809]
+              - row [ref=f3013e813]:
+                - cell "Coding sessions**" [ref=f3013e814]
+                - cell [ref=f3013e821]
+                - cell [ref=f3013e824]
+                - cell [ref=f3013e828]
+                - cell [ref=f3013e832]
+              - row [ref=f3013e836]:
+                - cell "Loops**" [ref=f3013e837]
+                - cell [ref=f3013e844]
+                - cell [ref=f3013e847]
+                - cell [ref=f3013e851]
+                - cell [ref=f3013e855]
+              - row [ref=f3013e859]:
+                - cell "Code Intelligence" [ref=f3013e860]
+                - cell [ref=f3013e867]
+                - cell [ref=f3013e870]
+                - cell [ref=f3013e873]
+                - cell [ref=f3013e877]
+              - row [ref=f3013e881]:
+                - cell "Triage Intelligence" [ref=f3013e882]
+                - cell [ref=f3013e889]
+                - cell [ref=f3013e892]
+                - cell [ref=f3013e895]
+                - cell [ref=f3013e899]
+              - generic [ref=f3013e903]: Integrations
+              - row [ref=f3013e904]:
+                - cell "Integrations" [ref=f3013e905]
+                - cell [ref=f3013e912]
+                - cell [ref=f3013e916]
+                - cell [ref=f3013e920]
+                - cell [ref=f3013e924]
+              - row [ref=f3013e928]:
+                - cell "Microsoft Teams integration" [ref=f3013e929]
+                - cell [ref=f3013e936]
+                - cell [ref=f3013e940]
+                - cell [ref=f3013e944]
+                - cell "Multiple tenants" [ref=f3013e948]
+              - row [ref=f3013e953]:
+                - cell "Support integrations" [ref=f3013e954]
+                - cell [ref=f3013e961]
+                - cell [ref=f3013e964]
+                - cell [ref=f3013e967]
+                - cell [ref=f3013e971]
+              - row [ref=f3013e975]:
+                - cell "Salesforce integration Add-on" [ref=f3013e976]:
+                  - generic [ref=f3013e977]: Salesforce integration
+                  - generic [ref=f3013e978]: Add-on
+                - cell [ref=f3013e984]
+                - cell [ref=f3013e987]
+                - cell [ref=f3013e990]
+                - cell [ref=f3013e993]
+              - generic [ref=f3013e997]: Team management
+              - row [ref=f3013e998]:
+                - cell "Sub-teams" [ref=f3013e999]
+                - cell [ref=f3013e1006]
+                - cell [ref=f3013e1009]
+                - cell "1 level" [ref=f3013e1012]
+                - cell "5 levels" [ref=f3013e1017]
+              - row [ref=f3013e1022]:
+                - cell "Private teams" [ref=f3013e1023]
+                - cell [ref=f3013e1030]
+                - cell [ref=f3013e1033]
+                - cell [ref=f3013e1036]
+                - cell [ref=f3013e1040]
+              - row [ref=f3013e1044]:
+                - cell "Guest accounts" [ref=f3013e1045]
+                - cell [ref=f3013e1052]
+                - cell [ref=f3013e1055]
+                - cell [ref=f3013e1058]
+                - cell [ref=f3013e1062]
+              - generic [ref=f3013e1066]: Analytics & Reporting
+              - row [ref=f3013e1067]:
+                - cell "Progress reports" [ref=f3013e1068]
+                - cell [ref=f3013e1075]
+                - cell [ref=f3013e1079]
+                - cell [ref=f3013e1083]
+                - cell [ref=f3013e1087]
+              - row [ref=f3013e1091]:
+                - cell "Insights" [ref=f3013e1092]
+                - cell [ref=f3013e1099]
+                - cell [ref=f3013e1102]
+                - cell [ref=f3013e1105]
+                - cell [ref=f3013e1109]
+              - row [ref=f3013e1113]:
+                - cell "Dashboards" [ref=f3013e1114]
+                - cell [ref=f3013e1121]
+                - cell [ref=f3013e1124]
+                - cell [ref=f3013e1127]
+                - cell [ref=f3013e1130]
+              - generic [ref=f3013e1134]: Linear Asks
+              - row [ref=f3013e1135]:
+                - cell "Slack intake" [ref=f3013e1136]
+                - cell [ref=f3013e1143]
+                - cell [ref=f3013e1146]
+                - cell [ref=f3013e1149]
+                - cell [ref=f3013e1153]
+              - row [ref=f3013e1157]:
+                - cell "Email intake" [ref=f3013e1158]
+                - cell [ref=f3013e1165]
+                - cell [ref=f3013e1168]
+                - cell [ref=f3013e1171]
+                - cell [ref=f3013e1175]
+              - row [ref=f3013e1179]:
+                - cell "Web forms" [ref=f3013e1180]
+                - cell [ref=f3013e1187]
+                - cell [ref=f3013e1190]
+                - cell [ref=f3013e1193]
+                - cell [ref=f3013e1196]
+              - row [ref=f3013e1200]:
+                - cell "Multiple Slack workspaces" [ref=f3013e1201]
+                - cell [ref=f3013e1208]
+                - cell [ref=f3013e1211]
+                - cell [ref=f3013e1214]
+                - cell [ref=f3013e1217]
+              - row [ref=f3013e1221]:
+                - cell "Private Slack channels" [ref=f3013e1222]
+                - cell [ref=f3013e1229]
+                - cell [ref=f3013e1232]
+                - cell [ref=f3013e1235]
+                - cell [ref=f3013e1238]
+              - row [ref=f3013e1242]:
+                - cell "Per-channel configurations" [ref=f3013e1243]
+                - cell [ref=f3013e1250]
+                - cell [ref=f3013e1253]
+                - cell [ref=f3013e1256]
+                - cell [ref=f3013e1259]
+              - generic [ref=f3013e1263]: Security
+              - row [ref=f3013e1264]:
+                - cell "SSO" [ref=f3013e1265]
+                - cell "Google" [ref=f3013e1272]
+                - cell "Google" [ref=f3013e1277]
+                - cell "Google" [ref=f3013e1282]
+                - cell "Google + SAML" [ref=f3013e1287]
+              - row [ref=f3013e1292]:
+                - cell "Admin roles" [ref=f3013e1293]
+                - cell [ref=f3013e1300]
+                - cell [ref=f3013e1304]
+                - cell [ref=f3013e1308]
+                - cell [ref=f3013e1312]
+              - row [ref=f3013e1316]:
+                - cell "Third-party app management" [ref=f3013e1317]
+                - cell [ref=f3013e1324]
+                - cell [ref=f3013e1327]
+                - cell [ref=f3013e1331]
+                - cell [ref=f3013e1335]
+              - row [ref=f3013e1339]:
+                - cell "Team owners" [ref=f3013e1340]
+                - cell [ref=f3013e1347]
+                - cell [ref=f3013e1350]
+                - cell [ref=f3013e1353]
+                - cell [ref=f3013e1357]
+              - row [ref=f3013e1361]:
+                - cell "Advanced authentication" [ref=f3013e1362]
+                - cell [ref=f3013e1369]
+                - cell [ref=f3013e1372]
+                - cell [ref=f3013e1375]
+                - cell [ref=f3013e1379]
+              - row [ref=f3013e1383]:
+                - cell "SCIM provisioning" [ref=f3013e1384]
+                - cell [ref=f3013e1391]
+                - cell [ref=f3013e1394]
+                - cell [ref=f3013e1397]
+                - cell [ref=f3013e1400]
+              - row [ref=f3013e1404]:
+                - cell "IP restrictions" [ref=f3013e1405]
+                - cell [ref=f3013e1412]
+                - cell [ref=f3013e1415]
+                - cell [ref=f3013e1418]
+                - cell [ref=f3013e1421]
+              - row [ref=f3013e1425]:
+                - cell "Domain claiming" [ref=f3013e1426]
+                - cell [ref=f3013e1433]
+                - cell [ref=f3013e1436]
+                - cell [ref=f3013e1439]
+                - cell [ref=f3013e1442]
+              - row [ref=f3013e1446]:
+                - cell "Audit log" [ref=f3013e1447]
+                - cell [ref=f3013e1454]
+                - cell [ref=f3013e1457]
+                - cell [ref=f3013e1460]
+                - cell [ref=f3013e1463]
+              - row [ref=f3013e1467]:
+                - cell "HIPAA compliance" [ref=f3013e1468]
+                - cell [ref=f3013e1475]
+                - cell [ref=f3013e1478]
+                - cell [ref=f3013e1481]
+                - cell [ref=f3013e1484]
+              - generic [ref=f3013e1488]: Support
+              - row [ref=f3013e1489]:
+                - cell "Priority support" [ref=f3013e1490]
+                - cell [ref=f3013e1497]
+                - cell [ref=f3013e1500]
+                - cell [ref=f3013e1503]
+                - cell [ref=f3013e1506]
+              - row [ref=f3013e1510]:
+                - cell "Account manager" [ref=f3013e1511]
+                - cell [ref=f3013e1518]
+                - cell [ref=f3013e1521]
+                - cell [ref=f3013e1524]
+                - cell [ref=f3013e1527]
+              - row [ref=f3013e1531]:
+                - cell "Custom terms" [ref=f3013e1532]
+                - cell [ref=f3013e1539]
+                - cell [ref=f3013e1542]
+                - cell [ref=f3013e1545]
+                - cell [ref=f3013e1548]
+              - row [ref=f3013e1552]:
+                - cell "Uptime SLA" [ref=f3013e1553]
+                - cell [ref=f3013e1560]
+                - cell [ref=f3013e1563]
+                - cell [ref=f3013e1566]
+                - cell [ref=f3013e1569]
+          - row [ref=f3013e1573]:
+            - cell [ref=f3013e1574]
+            - cell [ref=f3013e1575]:
+              - link "Get started" [ref=f3013e1576] [cursor=pointer]:
+                - /url: /signup
+            - cell [ref=f3013e1577]:
+              - link "Get started" [ref=f3013e1578] [cursor=pointer]:
+                - /url: /signup
+            - cell [ref=f3013e1579]:
+              - link "Get started" [ref=f3013e1580] [cursor=pointer]:
+                - /url: /signup
+              - generic [ref=f3013e1581]:
+                - text: or
+                - link "contact sales" [ref=f3013e1582] [cursor=pointer]:
+                  - /url: /contact/sales
+            - cell [ref=f3013e1583]:
+              - link "Contact sales" [ref=f3013e1584] [cursor=pointer]:
+                - /url: /contact/sales
+        - generic [ref=f3013e1587]:
+          - text: "** Requires AI credits"
+          - link "View docs" [ref=f3013e1588] [cursor=pointer]:
+            - /url: /docs/ai-credits
+        - generic [ref=f3013e1591]:
+          - heading "Built for the future. Available today." [level=2] [ref=f3013e1592]
+          - generic [ref=f3013e1593]:
+            - button "Get started" [ref=f3013e1594] [cursor=pointer]
+            - button "Contact sales" [ref=f3013e1595] [cursor=pointer]
+    - contentinfo [ref=f3013e1596]:
+      - generic [ref=f3013e1598]:
+        - link [ref=f3013e1600] [cursor=pointer]:
+          - /url: /
+          - img "Linear Logo" [ref=f3013e1601]
+        - generic [ref=f3013e1603]:
+          - heading "Product" [level=3] [ref=f3013e1604]
+          - list [ref=f3013e1605]:
+            - listitem [ref=f3013e1606]:
+              - link "Intake" [ref=f3013e1607] [cursor=pointer]:
+                - /url: /intake
+            - listitem [ref=f3013e1608]:
+              - link "Plan" [ref=f3013e1609] [cursor=pointer]:
+                - /url: /plan
+            - listitem [ref=f3013e1610]:
+              - link "AI" [ref=f3013e1611] [cursor=pointer]:
+                - /url: /ai
+            - listitem [ref=f3013e1612]:
+              - link "Build" [ref=f3013e1613] [cursor=pointer]:
+                - /url: /build
+            - listitem [ref=f3013e1614]:
+              - link "Pricing" [ref=f3013e1615] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f3013e1616]:
+              - link "Security" [ref=f3013e1617] [cursor=pointer]:
+                - /url: /security
+        - generic [ref=f3013e1618]:
+          - heading "Features" [level=3] [ref=f3013e1619]
+          - list [ref=f3013e1620]:
+            - listitem [ref=f3013e1621]:
+              - link "Asks" [ref=f3013e1622] [cursor=pointer]:
+                - /url: /asks
+            - listitem [ref=f3013e1623]:
+              - link "Agents" [ref=f3013e1624] [cursor=pointer]:
+                - /url: /agents
+            - listitem [ref=f3013e1625]:
+              - link "Coding Sessions" [ref=f3013e1626] [cursor=pointer]:
+                - /url: /coding-sessions
+            - listitem [ref=f3013e1627]:
+              - link "Customer Requests" [ref=f3013e1628] [cursor=pointer]:
+                - /url: /customer-requests
+            - listitem [ref=f3013e1629]:
+              - link "Insights" [ref=f3013e1630] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=f3013e1631]:
+              - link "Mobile" [ref=f3013e1632] [cursor=pointer]:
+                - /url: /mobile
+            - listitem [ref=f3013e1633]:
+              - link "Integrations" [ref=f3013e1634] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=f3013e1635]:
+              - link "Changelog" [ref=f3013e1636] [cursor=pointer]:
+                - /url: /changelog
+        - generic [ref=f3013e1637]:
+          - heading "Company" [level=3] [ref=f3013e1638]
+          - list [ref=f3013e1639]:
+            - listitem [ref=f3013e1640]:
+              - link "About" [ref=f3013e1641] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f3013e1642]:
+              - link "Customers" [ref=f3013e1643] [cursor=pointer]:
+                - /url: /customers
+            - listitem [ref=f3013e1644]:
+              - link "Careers" [ref=f3013e1645] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=f3013e1646]:
+              - link "Now" [ref=f3013e1647] [cursor=pointer]:
+                - /url: /now
+            - listitem [ref=f3013e1648]:
+              - link "Method" [ref=f3013e1649] [cursor=pointer]:
+                - /url: /method
+            - listitem [ref=f3013e1650]:
+              - link "Quality" [ref=f3013e1651] [cursor=pointer]:
+                - /url: /quality
+            - listitem [ref=f3013e1652]:
+              - link "Brand" [ref=f3013e1653] [cursor=pointer]:
+                - /url: /brand
+        - generic [ref=f3013e1654]:
+          - heading "Resources" [level=3] [ref=f3013e1655]
+          - list [ref=f3013e1656]:
+            - listitem [ref=f3013e1657]:
+              - link "Switch" [ref=f3013e1658] [cursor=pointer]:
+                - /url: /switch
+            - listitem [ref=f3013e1659]:
+              - link "Download" [ref=f3013e1660] [cursor=pointer]:
+                - /url: /download
+            - listitem [ref=f3013e1661]:
+              - link "Documentation" [ref=f3013e1662] [cursor=pointer]:
+                - /url: /docs
+            - listitem [ref=f3013e1664]:
+              - link "Developers" [ref=f3013e1665] [cursor=pointer]:
+                - /url: /developers
+            - listitem [ref=f3013e1666]:
+              - link "Status" [ref=f3013e1667] [cursor=pointer]:
+                - /url: https://linearstatus.com
+            - listitem [ref=f3013e1668]:
+              - link "Enterprise" [ref=f3013e1669] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=f3013e1670]:
+              - link "Startups" [ref=f3013e1671] [cursor=pointer]:
+                - /url: /startups
+        - generic [ref=f3013e1672]:
+          - heading "Connect" [level=3] [ref=f3013e1673]
+          - list [ref=f3013e1674]:
+            - listitem [ref=f3013e1675]:
+              - link "Contact us" [ref=f3013e1676] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f3013e1677]:
+              - link "Community" [ref=f3013e1678] [cursor=pointer]:
+                - /url: https://linear.app/join-slack
+            - listitem [ref=f3013e1679]:
+              - link "X (Twitter)" [ref=f3013e1680] [cursor=pointer]:
+                - /url: https://x.com/linear
+            - listitem [ref=f3013e1681]:
+              - link "GitHub" [ref=f3013e1682] [cursor=pointer]:
+                - /url: https://github.com/linear
+            - listitem [ref=f3013e1683]:
+              - link "YouTube" [ref=f3013e1684] [cursor=pointer]:
+                - /url: https://www.youtube.com/@linear
+        - generic [ref=f3013e1686]:
+          - link "Privacy" [ref=f3013e1687] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f3013e1688] [cursor=pointer]:
+            - /url: /terms
+          - link "DPA" [ref=f3013e1689] [cursor=pointer]:
+            - /url: /dpa
+          - link "AUP" [ref=f3013e1690] [cursor=pointer]:
+            - /url: /legal/aup
