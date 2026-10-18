@@ -40,10 +40,8 @@ Answer:
 Quote the single sentence from the source that decides your answer, copied character for character.
 Return only JSON: {"verdict": "supported" | "contradicted" | "not_stated", "evidence": "..."}"""
 
-# A different family from the generator (Kimi). Chosen from the Nebius catalog; it accepted
-# 150,000 characters in a test, and each judged claim gets up to 3 pages of 50,000 characters.
 JUDGE_MODEL = os.environ.get("JUDGE_MODEL", "moonshotai/Kimi-K2.6")  # best on the 26-claim sample; see calibration notes
-MAX_CHARS_PER_URL = 50000
+MAX_CHARS_PER_URL = 20000  # kept at 20,000 so results match the Kimi runs already judged
 MAX_URLS_PER_CLAIM = 3
 
 
