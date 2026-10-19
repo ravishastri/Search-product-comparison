@@ -4,6 +4,53 @@ A PM-tools evaluator and purchase recommender. It checks each price and SSO clai
 
 The starter code (`starter_agent.py`) gives one search and one model reply. Our code (`evaluator.py` and `eval/`) adds query planning, full-page price checks, a judge, a price-history store, and a purchase recommender.
 
+## Architecture
+
+Search and checking run in one pipeline. The purchase recommender reads only what the pipeline has verified, plus the PM's memory file. Tracing runs alongside and is off unless its keys are set.
+
+```mermaid
+flowchart LR
+  subgraph IN[" Inputs "]
+    Q["PM question"]
+    M["PM memory"]
+  end
+  subgraph SEARCH[" Search "]
+    P["Query plan"] --> T["Tavily search"] --> F["Filter off-topic and undated"]
+  end
+  subgraph VERIFY[" Verify "]
+    X["Full page text"] --> C["Price check against cited page"] --> J["LLM judge with verbatim evidence"]
+  end
+  subgraph STORE[" Verified stores "]
+    S[("Price history and gate")]
+    V[("Purchases and SSO facts")]
+  end
+  subgraph OBS[" Observability "]
+    L["Langfuse traces: one per run, span per search, generation per model call"]
+  end
+  subgraph DECIDE[" Decide and show "]
+    R["Purchase recommender"] --> U["Main page and purchase page"]
+  end
+  Q --> P
+  F --> X
+  J --> B["Brief with source IDs"]
+  C --> S
+  S --> R
+  V --> R
+  M --> R
+  P -.-> L
+  J -.-> L
+  classDef inp fill:#eef3ee,stroke:#1f5f4a,color:#1d1c19,stroke-width:2px
+  classDef srch fill:#dce8f7,stroke:#2b5c8a,color:#14273d,stroke-width:2px
+  classDef ver fill:#dff2e6,stroke:#1f6b45,color:#11301f,stroke-width:2px
+  classDef stor fill:#f7e9c6,stroke:#a7770f,color:#3a2a06,stroke-width:2px
+  classDef out fill:#1f5f4a,stroke:#123d2f,color:#ffffff,stroke-width:2px
+  class Q,M inp
+  class P,T,F srch
+  class X,C,J,B ver
+  class S,V,L stor
+  class R,U out
+```
+
 ## Results
 
 These pages are published from this repo. They are private to the account that published them.
