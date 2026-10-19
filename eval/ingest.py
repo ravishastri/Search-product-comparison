@@ -56,7 +56,7 @@ def main() -> None:
     ap.add_argument("judge_json", type=Path)
     ap.add_argument("--vendor", required=True)
     ap.add_argument("--checked", required=True, help="YYYY-MM-DD the page was checked")
-    ap.add_argument("--db", default=str(ROOT / "eval" / "store" / "prices.db"))
+    ap.add_argument("--db", default=str(ROOT / "eval" / "data" / "prices.db"))
     args = ap.parse_args()
 
     from langchain_nebius import ChatNebius

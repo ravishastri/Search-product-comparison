@@ -4,7 +4,7 @@ Inputs:
   vendor, plan    what the organization buys or considers renewing
   memory          eval/purchases/pm_memory.md (editable)
   purchases       eval/purchases/purchases.db (past purchases)
-  current price   eval/store/prices.db (verified prices only; rows exist only if they passed the gate)
+  current price   eval/data/prices.db (verified prices only; rows exist only if they passed the gate)
   bullets         the judged claims for the product (eval/results/evaluator-<slug>-llm.json)
 
 Output: a recommendation, a confidence score in [0, 1], the reasons, and each confidence factor.
@@ -31,7 +31,7 @@ import db as purchases_db  # noqa: E402
 from store import Store  # noqa: E402
 
 MEMORY = ROOT / "eval" / "purchases" / "pm_memory.md"
-PRICES = ROOT / "eval" / "store" / "prices.db"
+PRICES = ROOT / "eval" / "data" / "prices.db"
 STALE_DAYS = 90
 
 

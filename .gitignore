@@ -10,6 +10,10 @@ __pycache__/
 starter_agent.py
 2606_Tavily_FDE_TakeHomeAssignment.md
 eval/cache/
-eval/store/prices.db
+eval/data/prices.db
 eval/tune/key.json
 eval/purchases/purchases.db
+eval/tune/blind-key.json
+
+# Playwright MCP session logs
+.playwright-mcp/

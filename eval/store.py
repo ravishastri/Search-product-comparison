@@ -8,7 +8,7 @@ Rules:
 
 Usage (from Python):
   from eval.store import Store
-  s = Store("eval/store/prices.db")
+  s = Store("eval/data/prices.db")
   s.record_price(vendor="Linear", plan="Basic", amount=10, currency="USD", unit="per_user",
                  billing="annual", source_url="https://linear.app/pricing", verdict="supported",
                  checked_at="2026-10-19", page_hash="...")

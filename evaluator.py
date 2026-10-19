@@ -29,6 +29,9 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict, dataclass
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -41,6 +44,9 @@ from langfuse import get_client, observe
 from rich.console import Console
 from tavily import TavilyClient
 
+sys.path.insert(0, str(Path(__file__).resolve().parent / "eval"))
+from llm_judge import judge_one  # noqa: E402
+
 load_dotenv()
 
 app = typer.Typer(add_completion=False)
@@ -49,7 +55,11 @@ console = Console()
 DEFAULT_MODEL = "moonshotai/Kimi-K2.6"
 MAX_SIMILAR = 3
 RESULTS_PER_QUERY = 5
-SNIPPET_CHARS = 600
+SNIPPET_CHARS = 1500  # what the writer sees per source; claims are judged against the full page text
+# The judge is a different model family from the writer, so it does not grade its own wording.
+PIPELINE_JUDGE_MODEL = os.environ.get("PIPELINE_JUDGE_MODEL", "deepseek-ai/DeepSeek-V4-Pro")
+JUDGE_WORKERS = 4
+SEARCH_ATTEMPTS = 3
 DIMENSION_TITLES = {
     "pricing": "Pricing and plans",
     "competitive": "Competitive landscape",
@@ -252,7 +262,79 @@ def fetch_page_text(tavily: TavilyClient, urls: list[str]) -> dict[str, str]:
         res = tavily.extract(urls=urls[i:i + 20], extract_depth="basic", format="text")
         for r in res.get("results", []):
             texts[r["url"]] = r.get("raw_content") or ""
+    # A page that came back empty gets one more try with advanced extraction.
+    missing = [u for u, t in texts.items() if not t]
+    for i in range(0, len(missing), 20):
+        try:
+            res = tavily.extract(urls=missing[i:i + 20], extract_depth="advanced", format="text")
+        except Exception:
+            continue
+        for r in res.get("results", []):
+            texts[r["url"]] = r.get("raw_content") or texts.get(r["url"], "")
     return texts
+
+
+def judge_claims(
+    claims: list[Claim], sources_by_id: dict[str, Source], texts: dict[str, str], judge: Any
+) -> tuple[list[Claim], list[Claim], dict[str, int]]:
+    """Judge each claim against the full text of the pages it cites.
+
+    Only a "supported" verdict is kept as written. Claims the judge rejects move to unsupported,
+    with the verdict in the text. Claims that could not be judged (no page text, or a judge error)
+    stay, labeled, so nothing disappears without a reason.
+    """
+    def run(claim: Claim) -> tuple[Claim, str, str]:
+        urls = [sources_by_id[i].url for i in claim.source_ids if i in sources_by_id][:3]
+        page_texts = {u: texts[u] for u in urls if texts.get(u)}
+        if not page_texts:
+            return claim, "no_source_text", ""
+        try:
+            verdict, evidence = judge_one(judge, claim.text, page_texts)
+        except Exception as exc:  # one failed judge call must not stop the run
+            return claim, "judge_error", str(exc)
+        return claim, verdict, evidence
+
+    with ThreadPoolExecutor(max_workers=JUDGE_WORKERS) as pool:
+        results = list(pool.map(run, claims))
+
+    kept: list[Claim] = []
+    rejected: list[Claim] = []
+    counts: dict[str, int] = {}
+    for claim, verdict, _evidence in results:
+        counts[verdict] = counts.get(verdict, 0) + 1
+        if verdict == "supported":
+            kept.append(claim)
+        elif verdict in ("no_source_text", "judge_error"):
+            note = "source text unavailable" if verdict == "no_source_text" else "judge error"
+            kept.append(Claim(claim.dimension, f"{claim.text} ({note}, not judged)", claim.source_ids))
+        else:
+            rejected.append(Claim(claim.dimension, f"{claim.text} (judge: {verdict})", claim.source_ids))
+    return kept, rejected, counts
+
+
+PRICE_UNITS = (("per user", "per_user"), ("per seat", "per_user"), ("per month", "per_month"))
+
+
+def structure_prices(claims: list[Claim]) -> list[dict[str, Any]]:
+    """Pricing claims as fields (amounts, unit, billing) for the run record. Missing fields are 'unknown'."""
+    facts = []
+    for c in claims:
+        if c.dimension != "pricing":
+            continue
+        amounts = [m[1:] for m in PRICE_RE.findall(c.text)]
+        if not amounts:
+            continue
+        lower = c.text.lower()
+        unit = next((u for phrase, u in PRICE_UNITS if phrase in lower), "unknown")
+        if "annual" in lower or "per year" in lower:
+            billing = "annual"
+        elif "monthly" in lower or "per month" in lower:
+            billing = "monthly"
+        else:
+            billing = "unknown"
+        facts.append({"claim": c.text, "amounts": amounts, "unit": unit, "billing": billing,
+                      "source_ids": c.source_ids})
+    return facts
 
 
 def verify_prices(
@@ -381,7 +463,15 @@ def search(tavily: TavilyClient, planned: PlannedSearch) -> list[dict[str, Any]]
             "search_depth": "advanced",
         },
     )
-    results = tavily.search(**kwargs).get("results", [])
+    results: list[dict[str, Any]] = []
+    for attempt in range(SEARCH_ATTEMPTS):
+        try:
+            results = tavily.search(**kwargs).get("results", [])
+            break
+        except Exception:
+            if attempt == SEARCH_ATTEMPTS - 1:
+                raise
+            time.sleep(2 ** attempt)
     get_client().update_current_span(
         output=[{"title": r.get("title"), "url": r.get("url")} for r in results]
     )
@@ -407,7 +497,7 @@ def main(
     tavily = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
     # The model can use the whole output budget on reasoning before writing any text (finish_reason=length).
     # 16384 still ran out on the brief (run linear-20261018-112447), so the limit is doubled. Use --model to try another model.
-    llm = ChatNebius(model=model, max_tokens=32768)
+    llm = ChatNebius(model=model, max_tokens=32768, max_retries=3)
     sources: list[Source] = []
     errors: list[str] = []
     off_topic = 0  # results dropped because they name none of the products in scope
@@ -488,17 +578,20 @@ def main(
 
     # Pricing claims are checked against the full text of their cited pages before the brief is written.
     sources_by_id = {s.id: s for s in sources}
-    price_counts: dict[str, int] = {}
-    priced = [c for c in supported if c.dimension == "pricing" and PRICE_RE.search(c.text)]
-    if priced:
-        urls = list({sources_by_id[i].url for c in priced for i in c.source_ids if i in sources_by_id})
-        try:
-            texts = fetch_page_text(tavily, urls)
-        except Exception as exc:  # the brief still gets written, with the checks marked unavailable
-            errors.append(f"price check fetch: {exc}")
-            texts = {}
-        supported, rejected, price_counts = verify_prices(supported, sources_by_id, texts)
-        unsupported = unsupported + rejected
+    texts: dict[str, str] = {}
+    try:  # full text of every cited page, used by the price check and the judge
+        texts = fetch_page_text(tavily, list({s.url for s in sources}))
+    except Exception as exc:  # the brief still gets written, with the checks marked unavailable
+        errors.append(f"page text fetch: {exc}")
+    supported, rejected, price_counts = verify_prices(supported, sources_by_id, texts)
+    unsupported = unsupported + rejected
+
+    # Every supported claim is judged against the full text of its cited pages (a second model family).
+    judge_counts: dict[str, int] = {}
+    if supported:
+        judge = ChatNebius(model=PIPELINE_JUDGE_MODEL, max_tokens=32768, timeout=300, max_retries=2, temperature=0)
+        supported, judged_out, judge_counts = judge_claims(supported, sources_by_id, texts, judge)
+        unsupported = unsupported + judged_out
 
     # 4. Write the brief and the run record.
     run_dir = out_dir / f"{re.sub(r'[^a-z0-9]+', '-', product.lower()).strip('-')}-{now.strftime('%Y%m%d-%H%M%S')}"
@@ -512,6 +605,11 @@ def main(
         "description": description,
         "category": category,
         "model": model,
+        "judge_model": PIPELINE_JUDGE_MODEL,
+        "judge_counts": judge_counts,
+        "search": {"depth": "advanced", "results_per_query": RESULTS_PER_QUERY},
+        "snippet_chars": SNIPPET_CHARS,
+        "pricing_facts": structure_prices(supported),
         "run_date": run_date,
         "similar": similar,
         "candidate_status": candidate_status,

@@ -66,23 +66,30 @@ python3 eval/build_ui.py              # writes eval/ui/index.html (main results 
 
 ## Setup
 
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+cp .env.example .env   # then fill in the keys
+.venv/bin/python eval/purchases/db.py --seed   # builds the purchase database (git-ignored)
+```
+
 Copy `.env.example` to `.env` and fill in:
 
 - `TAVILY_API_KEY` (required): search and page extraction.
 - `NEBIUS_API_KEY` (required): model calls for the brief and the judge.
 - `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY`, `LANGFUSE_BASE_URL` (optional): tracing. Leave the keys empty to turn tracing off.
+- `PIPELINE_JUDGE_MODEL` (optional): the model that checks each claim. Defaults to a different model family from the writer.
 
 `.env` is git-ignored. Do not commit keys.
 
 ## Run
 
 ```bash
-python3 evaluator.py --product Linear --category "project management"   # our brief, written to runs/
-python3 starter_agent.py "What does Linear cost per user?"               # the starter, for comparison
-python3 tests/test_evaluator.py        # unit tests (evaluator)
-python3 tests/test_recommender.py      # unit tests (recommender)
-python3 tests/test_store.py            # unit tests (price store)
+.venv/bin/python evaluator.py --product Linear --category "project management"   # our brief, written to runs/
+.venv/bin/python starter_agent.py "What does Linear cost per user?"               # the starter, for comparison
+.venv/bin/python -m unittest discover -s tests -p "test_*.py"                     # unit tests (CI runs these on every push)
 ```
+
+Each evaluator run writes `brief.md` and `run.json`. The run record includes the writer and judge models, the search settings, the judge's verdict counts, and the structured pricing facts.
 
 ## Layout
 
@@ -91,12 +98,12 @@ python3 tests/test_store.py            # unit tests (price store)
 | `evaluator.py` | Query plan, search, filters, price check, brief |
 | `starter_agent.py` | The provided starter code, kept for comparison |
 | `eval/llm_judge.py` | LLM judge: checks each claim against full page text |
-| `eval/store.py` | Price history: gate, alerts, review queue (`eval/store/prices.db`) |
+| `eval/store.py` | Price history: gate, alerts, review queue (`eval/data/prices.db`) |
 | `eval/purchases/` | Purchases, verified SSO facts, PM memory, recommender |
 | `eval/build_ui.py` | Builds the results page (`eval/ui/index.html`) |
 | `eval/tune/` | Hand labels, labelling rule, judge scores |
 | `runs/` | Output of each evaluator run (`brief.md`, `run.json`) |
-| `tests/` | Unit tests |
+| `tests/` | Unit tests (run in CI from `.github/workflows/tests.yml`) |
 
 ## Documentation
 
