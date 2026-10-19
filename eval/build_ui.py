@@ -139,6 +139,24 @@ def build() -> None:
              ("Jira", "Standard", "jira"), ("Linear", "Plus", "linear"), ("YouTrack", "Per-user starting price", "youtrack")]
     recs = [{"vendor": v, "plan": pl, **R.recommend(v, pl, s, memory=memory, today=date.today())} for v, pl, s in cases]
     runs["purchases"] = {"recommendations": recs, "purchases": purchases, "memory": memory}
+    from collections import Counter
+    lin_runs = sorted(p for p in (ROOT / "runs").glob("linear-2026*") if (p / "run.json").exists())
+    lin = None
+    for rp in reversed(lin_runs):
+        d = json.loads((rp / "run.json").read_text())
+        if "off_topic_dropped" in d:
+            lin = (rp.name, d)
+            break
+    search = {}
+    if lin:
+        name, d = lin
+        search = {"run": name, "sources": len(d["sources"]),
+                  "by_dimension": dict(Counter(s["dimension"] for s in d["sources"])),
+                  "queries": sorted({s["query"] for s in d["sources"]}),
+                  "off_topic_dropped": d["off_topic_dropped"], "price_check": d.get("price_check", {})}
+    starter_answer_text = (ROOT / "eval/runs/starter/linear.txt").read_text()
+    search["starter_searches"] = starter_answer_text.count("Tool call tavily_search")
+    runs["search"] = search
 
     data = {"products": products, "enhancements": enh, "pages": pages, "runs": runs,
             "calibration": load(ROOT / "eval/calibration/labels-playwright.json")}
@@ -179,6 +197,13 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 @media (max-width:640px){th,td{font-size:13px}}
 </style></head>
 <body><main>
+<h2>Starter vs our system, in plain terms</h2>
+<div class="wrap"><table><thead><tr><th></th><th>Starter</th><th>Our system</th><th>What it means</th></tr></thead><tbody id="explainRows"></tbody></table></div>
+
+<h2>What the search returns, and what we do with it</h2>
+<p class="muted" style="font-size:13px">Example: the Linear run. Each search returns results; the starter reads them directly into its answer. We keep only results that name the product or a competitor, label what we cannot date, and check each price against the page it came from.</p>
+<div id="searchBlock"></div>
+
 <label for="question" class="label">Question</label>
 <input id="question" type="search" value="Compare Linear, an issue tracker for software teams, with its similar products Jira, GitHub Issues, and YouTrack. Cover pricing and plans, competitive landscape, and recent reception. Include source URLs for every claim." style="width:100%;font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);margin:4px 0 4px">
 <p class="muted" style="margin:0 0 18px;font-size:13px">Results on this page are for the question above. A different question needs a new run.</p>
@@ -367,6 +392,32 @@ function purchaseSection() {
     `<tr><td>${esc(k)}</td><td>${esc(Array.isArray(v) ? v.join(", ") : v)}</td></tr>`).join("");
 }
 purchaseSection();
+function explainSection() {
+  const p4 = (D.runs.phase4 && D.runs.phase4.products) || [];
+  const tot = (D.runs.phase4 && D.runs.phase4.totals) || {};
+  const s = D.runs.search || {};
+  const pc = (s.price_check || {});
+  const pct = x => x == null ? "-" : Math.round(x * 100) + "%";
+  const rows = [
+    ["Searches per question", `${s.starter_searches ?? "-"} (chosen by the model; varies by run)`, `${(s.queries || []).length || 14} distinct queries on the Linear run, fixed plan`, "Ours covers pricing, similar products, competitive comparison, and reception on every run."],
+    ["Results kept", "All results, as returned", `${s.sources ?? "-"} kept; ${s.off_topic_dropped ?? "-"} off-topic results dropped`, "Results that do not name the product or a competitor are removed before they can be cited."],
+    ["Claims supported by their cited page", `${pct(tot.starter && tot.starter.support_rate)} across ${tot.starter ? tot.starter.claims : "-"} claims (8 products)`, `${pct(tot.evaluator && tot.evaluator.support_rate)} across ${tot.evaluator ? tot.evaluator.claims : "-"} claims (8 products)`, "Judged against the full text of each cited page. A verdict counts only with a verbatim quote."],
+    ["Claims the cited page contradicts", `${pct(tot.starter && tot.starter.contradiction_rate)}`, `${pct(tot.evaluator && tot.evaluator.contradiction_rate)}`, "Lower is better. Measured on the same products with the same judge."],
+    ["Prices checked against the page", "Not checked", `${pc.checked ?? "-"} price claims checked on Linear; ${pc.missing ?? 0} failed and were moved to Unsupported`, "A price that is not on the cited page cannot appear as supported."],
+    ["Dated sources", "Often missing", "Undated sources are labeled; news-type searches require a date", "Stale sources are visible instead of read as current."],
+    ["Unverified claims", "Presented as facts", "Competitive and reception claims are labeled not yet verified", "Only pricing is treated as checked against a reference."],
+    ["Output", "Free text with links", "Brief with source IDs, unsupported section, and a run record", "Every claim can be traced to a source."],
+  ];
+  document.getElementById("explainRows").innerHTML = rows.map(r =>
+    `<tr><td><strong>${esc(r[0])}</strong></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td class="muted">${esc(r[3])}</td></tr>`).join("");
+  const q = (s.queries || []).map(x => `<li>${esc(x)}</li>`).join("");
+  const dims = Object.entries(s.by_dimension || {}).map(([k, v]) => `${esc(k)}: ${v}`).join(" · ");
+  document.getElementById("searchBlock").innerHTML = `
+    <div class="card"><div class="label">Sources kept by type (run ${esc(s.run || "-")})</div><div>${dims || "no data"}</div>
+    <div class="label" style="margin-top:8px">Distinct queries sent</div><ul style="margin:4px 0;padding-left:18px">${q || "<li>no data</li>"}</ul>
+    <div class="label">Off-topic results removed: ${esc(s.off_topic_dropped ?? "-")} · Prices checked: ${esc(pc.checked ?? "-")} · Failed: ${esc(pc.missing ?? 0)}</div></div>`;
+}
+explainSection();
 headline(); tabs(); detail(); enh();
 </script>
 </body></html>
