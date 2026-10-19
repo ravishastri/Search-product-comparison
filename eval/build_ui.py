@@ -373,9 +373,9 @@ function runsSection() {
   }).join("") || `<tr><td colspan="6" class="muted">No Phase 4 summary yet.</td></tr>`;
   const fs = R.final_scores || {};
   const pc = v => v == null ? "-" : Math.round(v * 100) + "%";
-  document.getElementById("finalrows").innerHTML = Object.entries(fs).map(([name, row]) =>
+  document.getElementById("finalrows").innerHTML = Object.entries(fs).filter(([name]) => name.startsWith("Current judge")).map(([name, row]) =>
     `<tr><td>${esc(name)}</td>${["tune","val","test","all"].map(s => `<td>${row[s] ? pc(row[s][1]) + " (n=" + row[s][0] + ")" : "-"}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="5" class="muted">No final scores yet.</td></tr>`;
-  const judge = [["Current judge (v1)", "results-v1"], ["Stricter prompt (v2)", "results-v2-dev"], ["Second model check", "results-check-dev"]];
+  const judge = [["Current judge (v1)", "results-v1"]];
   document.getElementById("judgerows").innerHTML = judge.map(([label, k]) => {
     const r = R.judge[k];
     const cell = s => !s ? "not scored" : (s.agreement == null ? (s.with_second_check_agreement == null ? "-" : Math.round(s.with_second_check_agreement * 100) + "%") : Math.round(s.agreement * 100) + "%");
