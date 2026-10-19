@@ -17,3 +17,21 @@ Labels are from `eval/tune/blind-labels-human.csv`. The judge verdicts are the e
 | not_stated | supported | 1 | The judge accepted a claim the human says the page does not state. |
 
 Rows: B02, B08, B09, B12, B20, B25, B28, B37, B43, B44, B46.
+
+## Check of the five contradictions
+
+Each cited page was fetched with Tavily extract and read for the figures, names, and dates in the claim.
+
+| Row | Claim (short) | What the page says | Judge (contradicted) | Your label (supported) | Proposed label |
+|---|---|---|---|---|---|
+| B08 | 55% of negative *ClickUp* reviews cite pricing | The 55% figure is in the *Monday.com* section | Right: wrong product | Wrong | contradicted |
+| B09 | ClickUp paid plans $7 to $19 per user per month | $7–$19 is the annual range; monthly runs $10–$29 | Right | Wrong | contradicted |
+| B28 | Trustpilot: ClickUp support takes weeks, including billing disputes | The support-delay line is in the *Monday.com* section; "billing disputes" is not on the page | Right | Wrong | contradicted |
+| B44 | ClickUp competes with Asana, Monday.com, Smartsheet, **Jira**, Notion | Page lists Asana, Monday.com, Notion, Trello, **Wrike**, Smartsheet. Jira is not listed; Wrike is missing | Direction right, but "contradicted" is strong | Wrong | not_stated (partial match, per the rule) |
+| B46 | Server support ends **after** Feb 15, 2024 | Page says support ends **on** Feb 15, 2024 | Right on a strict reading | Probably wrong | contradicted |
+
+Result: the judge was right on four of the five. Your label was wrong on all five. On B44 the judge overstated a partial match, but "supported" is still wrong.
+
+If these corrections are accepted, agreement moves from 39 of 50 (78%) to 43 of 50 (86%). The four that move to contradicted now agree with the judge. B44 still disagrees, because the judge said contradicted and the rule says not_stated.
+
+These are proposed, not applied. Your labels in `blind-labels-human.csv` are unchanged, pending your decision.
