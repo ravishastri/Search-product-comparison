@@ -1,0 +1,917 @@
+{
+  "product": "Plane",
+  "price_check": {
+    "checked": 7,
+    "missing": 0,
+    "unavailable": 1
+  },
+  "off_topic_dropped": 18,
+  "description": "Issue tracker and project management for software teams",
+  "category": "project management",
+  "model": "moonshotai/Kimi-K2.6",
+  "judge_model": "moonshotai/Kimi-K2.6",
+  "judge_counts": {
+    "no_source_text": 3,
+    "supported": 35,
+    "not_stated": 1
+  },
+  "search": {
+    "depth": "advanced",
+    "results_per_query": 5
+  },
+  "snippet_chars": 1500,
+  "pricing_facts": [
+    {
+      "claim": "G2 lists four Plane pricing editions ranging from $0 to $499. (price check unavailable) (source text unavailable, not judged)",
+      "amounts": [
+        "0",
+        "499"
+      ],
+      "unit": "unknown",
+      "billing": "unknown",
+      "source_ids": [
+        "S17"
+      ]
+    },
+    {
+      "claim": "Plane offers a free tier supporting up to 12 users at $0 per month.",
+      "amounts": [
+        "0"
+      ],
+      "unit": "per_month",
+      "billing": "monthly",
+      "source_ids": [
+        "S20",
+        "S38",
+        "S39"
+      ]
+    },
+    {
+      "claim": "The Pro plan for Plane costs $6 per seat per month.",
+      "amounts": [
+        "6"
+      ],
+      "unit": "per_user",
+      "billing": "monthly",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S38"
+      ]
+    },
+    {
+      "claim": "FindPM lists a Pro plan for Plane at $8 per member per month.",
+      "amounts": [
+        "8"
+      ],
+      "unit": "per_month",
+      "billing": "monthly",
+      "source_ids": [
+        "S39"
+      ]
+    },
+    {
+      "claim": "Plane's Business plan is priced at $13 per seat per month.",
+      "amounts": [
+        "13"
+      ],
+      "unit": "per_user",
+      "billing": "monthly",
+      "source_ids": [
+        "S20",
+        "S38"
+      ]
+    },
+    {
+      "claim": "A cost comparison on Plane's pricing page indicates a 10-person team would pay roughly $720 per year for Plane compared with about $2,084 for Jira and Confluence combined.",
+      "amounts": [
+        "720",
+        "2,084"
+      ],
+      "unit": "unknown",
+      "billing": "annual",
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "claim": "A 10-user deployment of Plane on cloud or self-hosted costs $2,160 over three years at $6 per seat per month with yearly billing.",
+      "amounts": [
+        "2,160",
+        "6"
+      ],
+      "unit": "per_user",
+      "billing": "monthly",
+      "source_ids": [
+        "S38"
+      ]
+    }
+  ],
+  "malformed_claims_dropped": 0,
+  "pages_unfetched": [
+    "https://www.capterra.com/p/160498/Shortcut/pricing",
+    "https://www.g2.com/products/plane-so/competitors/alternatives",
+    "https://www.g2.com/products/plane/pricing",
+    "https://www.venturegaps.com/alternatives/plane"
+  ],
+  "run_date": "2026-10-19",
+  "similar": [
+    "Jira",
+    "ClickUp",
+    "Shortcut"
+  ],
+  "candidate_status": {
+    "Jira": {
+      "status": "active",
+      "source": "S7"
+    },
+    "ClickUp": {
+      "status": "active",
+      "source": "S13"
+    },
+    "Shortcut": {
+      "status": "active",
+      "source": "S14"
+    },
+    "Pivotal Tracker": {
+      "status": "retired",
+      "source": "S15"
+    },
+    "Zube": {
+      "status": "unknown",
+      "source": ""
+    }
+  },
+  "excluded_retired": [
+    "Pivotal Tracker"
+  ],
+  "queries": [
+    "Plane alternatives competitors project management",
+    "Plane pricing plans",
+    "Jira pricing plans",
+    "ClickUp pricing plans",
+    "Shortcut pricing plans",
+    "Plane SSO plans",
+    "Plane time tracking plans",
+    "Plane vs Jira features",
+    "Plane vs ClickUp features",
+    "Plane vs Shortcut features",
+    "Plane launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.startuphub.ai/startups/plane/alternatives",
+      "title": "Top 60 Alternatives to Plane in 2026: Competitors | StartupHub.ai",
+      "content": "Title: Top 60 Alternatives to Plane in 2026: Competitors | StartupHub.ai # Alternatives to Plane. Planeis a Project Managementtool: aI-native platform unifying project management, documentation, and workflows.Here are the 60 closest alternatives, compared on pricing, features and what real users say. Plane profileOpen source alternatives (37)More Project Management alternatives. ## The 20 closest Project Management companies to Plane. Project Management\u00b7San Francisco, United States\u00b7$531.5M. ClickUp is a cloud-based productivity and collaboration platform offering task management, project management, and time tracking features. Work OS\u00b7Tel Aviv, Israel\u00b7$234.1M. The work platform teams love to use. SaaS\u00b7San Francisco, United States\u00b7$50.0M. A work management platform designed to help teams organize, track, and manage their work. Software\u00b7San Francisco, United States\u00b7$134.0M. Fast, elegant issue tracking and project management system for software teams and AI agents. Open-source project management software. A widely used project management and issue tracking software developed by the company Atlassian. Conclua Project is a platform for managing and executing complex projects. Project Management\u00b7Tel Aviv, Israel\u00b7$1.5M. AI-powered project management and team collaboration platform for creative agencies. Visual collaboration tool for project management and team organization. Productivity Software\u00b7Los Angeles, United States\u00b7$1.0M. A platform designed to streamline team collaboration and project management for creative professionals. AI-powered work management platform for human and AI employees. Presentation Software\u00b7Berlin, Germany\u00b7$73.0M. Productivity\u00b7San Francisco, United States\u00b7$76.0M. | ClickUpClickUp is a cloud-based productivity and collaboration platform offering task management, project management, and time tracking features. | Project Management | San Francisco, United States | $531.5M | 69 |. | AsanaA work management platform designed to help teams organize, track, and manage their work. | SaaS | San Francisco, United States | $50.0M | 75 | Website |. | SaaS | San Francisco, United States | $200.0M | 64 |. | LinearFast, elegant issue tracking and project management system for software teams and AI agents | Software | San Francisco, United States | $134.0M | 58 | Website |. | ThriveaiAI-powered project management and team collaboration platform for creative agencies. | COCollaboration EmpireA platform designed to streamline team collaboration and project management for creative professionals. | Productivity Software | Los Angeles, United States | $1.0M | 38 | Website |. | Productivity | San Francisco, United States | $76.0M | 62 | Website |.",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S2",
+      "url": "https://www.venturegaps.com/alternatives/plane",
+      "title": "Best Plane Alternatives in 2026 | VentureGaps",
+      "content": "Title: Best Plane Alternatives in 2026 | VentureGaps # Best Plane Alternatives in 2026. Here are the top alternatives to Plane, including direct competitors and similar tools. ## Why Look for PlaneAlternatives? While Planeis well-rated (7.5/10), it might not be the perfect fit for every team.Common reasons users switch: self-hosting requires technical expertise and ongoing maintenance., advanced reporting and analytics are less mature compared to established competitors like jira..Explore the alternatives below to find the best match for your specific needs and budget. ## Plane. Open-source project management for modern teams. \u25a0 INTELLIGENCE BRIEFING \u2014 Weekly tool drops. ### Teamhood. Visual team management with workload planning. ### Pivotal Tracker. Agile project management for software development teams. ### Height. Autonomous project management powered by AI. ### Celoxis. All-in-one project portfolio management software. ### Quire. Visual collaborative project management for teams. ### LiquidPlanner. Predictive project planning with built-in uncertainty. ### Favro. Planning and collaboration platform for cross-functional teams. ### Nuclino. Unified workspace for team knowledge and collaboration. ### Coda. All-in-one doc that combines documents, spreadsheets, and apps. ### Fibery. Connected workspace for product teams and startups. ### Shortcut. Modern project management for software teams. ### Aha! Product roadmapping and strategy software. ### OpenProject. Open source project management for teams. ### Tuleap. Complete agile project management with compliance built-in. ### Taiga. Free and open-source project management for agile teams. ### Wekan. Visual project management with complete data control. ### Planka. Elegant open source project tracking made simple. ### Vikunja. Organize, collaborate, and conquer your tasks.",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S3",
+      "url": "https://www.peerspot.com/products/plane-project-management-ami-by-meetrix-alternatives-and-competitors",
+      "title": "Top 10 Plane: Project Management AMI by Meetrix Alternatives 2026",
+      "content": "Title: Top 10 Plane: Project Management AMI by Meetrix Alternatives 2026 Plane: Project Management AMI by Meetrix Logo. # Top 10 Plane: Project Management AMI by Meetrix Alternatives. ## Top Plane: Project Management AMI by Meetrix Competitors. Plane: Project Management AMI by Meetrix surpasses its competitors by offering intuitive collaboration tools, seamless integration capabilities, and robust security features, ensuring efficient project management and increased productivity for teams globally. ## Meetrix.io Alternatives Report. Plane: Project Management AMI by Meetrix Logo. Plane: Project Management AMI by Meetrix Logo. Notion is an all-in-one workspace that enables teams to collaborate, organize, and manage their work effectively. Its primary use case is to streamline project management, knowledge sharing, and task tracking. With its versatile functionality, Notion allows users to create and customize databases, wikis, and documents, making it a powerful tool for organizing information. ## Related categories.",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S4",
+      "url": "https://www.g2.com/products/plane-so/competitors/alternatives",
+      "title": "Top 10 Plane Alternatives & Competitors in 2026",
+      "content": "The best Plane alternatives are ClickUp, monday AI Work Platform, and Jira. Find top-ranking free & paid apps similar to Plane for your Project Management",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S5",
+      "url": "https://www.cbinsights.com/company/plane/alternatives-competitors",
+      "title": "Top Plane Alternatives, Competitors",
+      "content": "New call-to-action ### Top5Planecompetitors KnowCode Planisware GitHub Zube CodeFirst ## Compare Plane to Competitors Zube Logo Zube Zube is a company focused on Agile project management, operating within the software development and project management industry. It offers a platform that integrates with GitHub Issues, providing tools such as kanban boards, Agile Epics, Scrum style Sprints, and customer support ticketing systems for product planning and management. The platform is designed for product development teams. It is based in San Francisco, California. Keto Software Logo Keto Software [...] Technology Vendors Recent Research Newsletter Media Support Login CB Insights Plane company logo # Plane plane.so ## Plane's alternatives and competitors See how Planecompares to similar products. Plane's top competitors include KnowCode, Planisware, and GitHub. KnowCode Logo KnowCode KnowCode specializes in enhancing software development team productivity within the technology sector. The company offers services such as CTO as a service and Remote S\u2026 Plane vs. KnowCode View more in-depth data on: Competitors Products Customer References and more Compare Plane and KnowCode New call-to-action Planisware Logo Planisware [...] Compare Plane and GitHub Zube Logo Zube Zube is a company focused on Agile project management, operating within the software development and project management industry. It offers a platform that integrates w\u2026 Plane vs. Zube View more in-depth data on: + Competitors + Products + Customer References and more Compare Plane and Zube CodeFirst Logo CodeFirst CodeFirst is a software development company that provides custom software solutions and agile project management tools. The company offers software development, mainten\u2026 Plane vs. CodeFirst View more in-depth data on: + Competitors + Products + Customer References and more Compare Plane and CodeFirst New call-to-action ### Top5Planecompetitors",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S6",
+      "url": "https://eu.36kr.com/en/p/3931781634260099",
+      "title": "OpenAI\u2019s 1-Year Progress Proves You Don\u2019t Need to Switch Browsers for AI Features",
+      "content": "In the past year, AI browsers have exited in four postures. Arc stopped updating: in May 2025, Josh Miller, founder of The Browser Company, released an open letter announcing the discontinuation of development of this star product, and the whole team turned to the AI browser Dia. Sidekick was absorbed: its team was acquired by Perplexity in the same month, and the product was shut down in August \u2014 if you open its official website today, the page will directly jump to comet.perplexity.ai. The Browser Company itself was acquired: in September, Atlassian bought the entire company for 610 million US dollars. The company that makes Jira acquired the company that makes browsers, a deal that was interpreted at the time as a decent exit.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Sat, 08 Au"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.theregister.com/software/2025/09/09/atlassian-goes-cloud-only-customers-face-integration-issues/391022",
+      "title": "Atlassian goes cloud-only, customers face integration issues",
+      "content": "# Atlassian's move to cloud-only means customers face integration issues and more First, server products go end of life, now datacenter gets the chop, and larger customers will pay more Atlassian is discontinuing its datacenter products, including Jira, Confluence and Bamboo, in favor of Atlassian Cloud. There is a partial exception for Bitbucket, a source code repository manager, which will have a license option covering both cloud and datacenter. The official post states that \"nearly all our new customers\" are choosing cloud and that there are benefits in AI search, chat and automation, thanks to its Rovo offering.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 09 Se"
+    },
+    {
+      "id": "S8",
+      "url": "https://zigiwave.com/resources/data-migration-tools-itsm-devops",
+      "title": "Data Migration Tools for ITSM and DevOps Teams (2026) | ZigiOps",
+      "content": "Atlassian's Data Center end of life. Atlassian has announced that it stops selling new Data Center subscriptions to new customers on March 30, 2026, and that Data Center reaches end of life on March 28, 2029. Thousands of Jira and Jira Service Management instances will move to cloud, and some organizations will use the moment to consolidate on a different ITSM platform altogether. Tool consolidation. After a decade of SaaS sprawl, many enterprises are reducing the number of service desks, moving from BMC Remedy or Cherwell to ServiceNow, from several Jira instances to one, or from a legacy tool to Freshservice or Jira Service Management.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Mon, 12 Oc"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.csoonline.com/article/4231527/atlassians-critical-flaw-turns-eight-enterprise-products-into-one-big-security-problem.html",
+      "title": "Atlassian\u2019s critical flaw turns eight enterprise products into one big security problem | CSO Online",
+      "content": "Another option is blocking requests using a Tomcat RewriteValve rule on each node in their data center cluster for Bamboo, Confluence, Crowd, Jira Software, and Jira Service Management. Each node should then be shut down and restarted. And Bitbucket users could back up their instances, write a rule in urlrewrite.xml, apply it to every node, mirror, and mirror farm node, and then restart. But Atlassian called the mitigations \u201climited and not a replacement for patching your instance,\u201d adding that it cannot confirm whether a particular enterprise\u2019s instances have been affected by this vulnerability. \u201cEngage your local security team to check all affected instances for evidence of compromise,\u201d the company advised. [...] The patch path explains why some customer updating lags; Atlassian no longer ships binary patches, so fixing this means moving to a new maintenance release, he pointed out. That is an upgrade project rather than a quick fix, and every \u201cwe cannot update yet\u201d is a risk acceptance. But the most telling detail may be the flaw\u2019s scoring vector, Dickson noted. It is rated as having no impact on the vulnerable server\u2019s own integrity and availability, but assesses high impact on subsequent systems across confidentiality, integrity, and availability. In other words, the Jira or Confluence server survives untouched, but the systems its files unlock may not. Essentially, \u201cit is a burglar who takes nothing but the key ring by the front door,\u201d Dickson said.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 06 Oc"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.atlassian.com/blog/company-news/farewell-to-server",
+      "title": "Farewell Server, Hello Cloud - Inside Atlassian",
+      "content": "What happens to your Server instances after Feb 15, 2024? Your products won\u2019t be eligible for renewal or receive updates, enhancements, or security patches. Over time, this may lead to performance and compatibility issues with evolving technologies, posing security and operational risks for your organization. Act now to mitigate these concerns. Which products does Server end of support apply to? Jira Software Server Jira Core Server Jira Service Management Server Confluence Server Bitbucket Server Crowd Server Bamboo Server Atlassian-built Server apps What to do next To remain supported, we recommend migrating to Cloud or upgrading to Data Center. Visit the Atlassian Migration Program to explore your options and learn how to take the next step. [...] Did you purchase a dual license? Here\u2019s what you can expect. If you purchased a Cloud subscription for more than 1,000 users of Jira Software & Confluence or more than 250 agents of Jira Service Management between September 12, 2023 and February 15, 2024 qualifying you for dual licensing, you\u2019re eligible for extended Server support for up to 12 months. If you have a dual license, make sure to update your preferences here in order to receive email updates for security patches, bug fixes, and tech alerts. Have questions? Get in touch: Your advocate is ready to help. ## Unable to make the move? Upgrade to Data Center [...] ## Unable to make the move? Upgrade to Data Center For those unable to move to Cloud for now, we encourage you to upgrade to Data Center to stay supported and receive dozens of additional enterprise-grade features not available on Server, such as advanced auditing, rate limiting, and rolling and zero-downtime upgrades. In addition to these, we\u2019ve continued to introduce more functionality in our Data Center products in the areas of performance and scale, security & compliance, and infrastructure and operations to increase productivity across admins and end-users. Just last year, we released the latest LTS (long-term support) releases for Jira Software and Jira Service Management, Confluence, and Bitbucket.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Thu, 15 Fe"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.cloudwards.net/best-wunderlist-alternative",
+      "title": "The Best Wunderlist Alternative in 2026 [Free List Apps]",
+      "content": "Reviewed by Aleksander Hougen (Chief Editor) Facts checked by Jasna Mishevska (Lead Fact-Checking Editor) Last Updated: All our content is written fully by humans; we do not publish AI writing. Learn more here. ## Key Takeaways: Alternative to Wunderlist Wunderlist was shut down in 2020 and is no longer available to use. We have a selection of alternatives to help you seamlessly transition to a new task management app. The best Wunderlist alternative is monday.com, closely followed by ClickUp, Notion, Trello and Todoist. If you\u2019re looking for a free replacement for Wunderlist, ClickUp is your best option. Trello and Todoist are also worth considering. [...] Next, select \u201cpriority.\u201d 6. Choose level of priority Finally, click inside the column and select the priority of your task. ## What Is the Best Free Task Management App Like Wunderlist? ClickUp is the best free project management app available that offers a similar experience to Wunderlist. You can create simple to-do lists and add as many tasks as you wish. You also get access to the Kanban board and native calendar, plus the mind map and document creator. ## Final Thoughts: Wunderlist Alternatives While the likes of Microsoft To Do and Google Tasks often come up as Wunderlist alternatives, we don\u2019t think they\u2019re very good. The options above are far better tools when compared to the tech giants. [...] Save 20% Standard Minimum users: 3; All prices per user 1-month plan1-month plan $14/month1-year plan $12/month $144 billed every year Save 14% ## 2. ClickUp ClickUp offers lots of features at an affordable price. More details about ClickUp: Pricing: $7 per month (one-year plan) Free plan: Yes, limited to five workspaces Provider website: clickup.com Pros: Very affordable Many task management tools Good free plan Cons: Steep learning curve",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Thu, 23 Se"
+    },
+    {
+      "id": "S12",
+      "url": "https://get-alfred.ai/blog/best-motion-alternatives",
+      "title": "7 Best Motion Alternatives in 2026 (Cheaper, Simpler, Better) | alfred_",
+      "content": "What's better than Motion for teams? For teams, the long-time pick was Clockwise, but it shut down on March 27, 2026 after Salesforce acquired its team. The closest replacement for team-wide calendar optimization and focus time is Reclaim.ai, which offers similar scheduling automation at $12/mo per seat on its Business plan. For team project management without the scheduling complexity, traditional tools like Asana or ClickUp paired with a simpler calendar tool often work better than Motion's all-in-one approach. Can Motion replace my email inbox?",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Fri, 13 Fe"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.cloudwards.net/clickup-review",
+      "title": "ClickUp Review 2026: Pros & Cons, Pricing, Features & Guides",
+      "content": "ClickUp also has a generous free plan with unlimited teammates and tasks, which makes it one of the best free project management software programs. However, its complexity is also a limitation, as it can be difficult for teams to adopt the project management software space. Keep reading to learn more about the service and how it compares to other project management platforms. 05/21/2023 Facts checked Our ClickUp review has been rewritten with new information and now uses an easy-to-read format. 09/25/2023 Facts checked Removed references to discontinued Business Plus plan. 02/08/2024 Facts checked We updated this review, adding an \u201cexpert opinion\u201d that evaluates the strengths and weaknesses of ClickUp for project management. 06/21/2024 Facts checked [...] We have updated our ClickUp review by adding a section covering ClickUp Brain. 04/16/2025 Facts checked We added more information on ClickUp\u2019s new and upcoming features. 08/16/2025 Facts checked We rewrote our full review of ClickUp with fresh information about its different plans and features, including a step-by-step installation guide. ## What Is ClickUp & Who Is It For? ClickUp is a cloud-based project management and productivity platform that helps individuals and teams plan, organize and collaborate. It combines task management, time tracking, resource management tools, goal setting, document sharing and automation tools to streamline workflows and improve team efficiency. ## Avoid Costly Project Management Mistakes \u2013 Get Free Tips Today! [...] From my hands-on testing, ClickUp is one of the most ambitious project management tools out there, with impressive flexibility for all kinds of businesses. Here at Cloudwards, we use ClickUp as our own project management tool to manage our editorial calendar and other communication projects. We chose the ClickUp Unlimited plan because it allows us to monitor project progress with incredible customization options: adding members to tasks and subtasks, enabling notifications and automations, setting conditional deadlines, sharing documents and more. For the features you get, it\u2019s also more affordable than other project management software.",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Fri, 31 Ja"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.theshortcut.com/p/sony-and-honda-wont-be-making-its-afeela-playstation-car-anymore",
+      "title": "Sony and Honda won\u2019t be making its Afeela 'PlayStation' car anymore",
+      "content": "The Shortcut has 155,000 subscribers and is the #1 consumer tech publication on Substack. Subscribe now for the latest news and to receive our banner-ad-free newsletter \u2935\ufe0f In a collaborative statement posted to Sony\u2019s website, the two brands said that they would \u201cdiscontinue the development and launch\u201d of the Afeela 1 and 2, the long-in-development electric cars. The statement added that it would review its \u201cbusiness direction\u201d and announce any future plans \u201cat the earliest possible opportunity\u201d, which sounds like the whole business venture is going to shut down, or scaled back to the point it doesn\u2019t resemble the original idea.",
+      "dimension": "status",
+      "query": "Shortcut discontinued or shut down",
+      "published": "Wed, 22 Ap"
+    },
+    {
+      "id": "S15",
+      "url": "https://docs.eastagiletracker.com/migrate-from-other-trackers",
+      "title": "Migrate From Pivotal Tracker, Jira and Other Trackers",
+      "content": "Pivotal Tracker shut down on 30 April 2025, so there is no live service to export from any more; a CSV export kept from before the shutdown is what this",
+      "dimension": "status",
+      "query": "Pivotal Tracker discontinued or shut down",
+      "published": "Tue, 06 Oc"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.homestimulus.com/new-homes/tx/hockley/communities/brighton-preserve",
+      "title": "Brighton Preserve | New Homes by KB Home in Hockley, TX",
+      "content": "It applies only to owner-occupied homes and may be discontinued at any time. at Zube Park and Hockley Recreational Complex,",
+      "dimension": "status",
+      "query": "Zube discontinued or shut down",
+      "published": "Wed, 14 Oc"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.g2.com/products/plane/pricing",
+      "title": "Plane Pricing 2026",
+      "content": "Plane offers 4 pricing editions, starting from $0 to $499. Plane pricing tiers are designed to support different usage levels and team sizes.",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S18",
+      "url": "https://outplane.com/pricing",
+      "title": "Pricing | Out Plane",
+      "content": "Every plan has a monthly base price that already includes an amount of usage. Compute is metered by the minute for each running instance, managed databases and persistent volumes by what you provision, and build minutes beyond your plan allowance. Anything above the included amount is added to the same monthly invoice. No. Plans start at $9 a month. Starter and Pro both begin with a 14-day free trial, so you can deploy and see how the platform behaves with your own workload before you pay anything. Eight sizes, from op-20 upwards. Starter reaches op-46, Pro reaches op-70, and Growth and Enterprise can use every size. The table above lists each one with its monthly cost. [...] Most Popular ### Pro $29/month + usage $15 of usage included Covers two small apps running all month For teams shipping to production Start free trial on Pro Free for 14 days. Cancel before it ends and you pay nothing. #### Includes: 100 apps 10 managed databases 10 team members 25 custom domains 5 replicas per app 200 GB volume storage 15,000 build minutes / month Instances up to op-70 500 Otto messages / month #### Everything in Starter, plus: Team collaboration & roles Deploy previews per branch ### Growth $299/month + usage $150 of usage included Covers an 8 vCPU app running all month For high-volume workloads Get started on Growth Billed monthly. Cancel any time, effective at the end of the period. #### Includes: [...] Pre-bundled vCPU + RAM combos \u00b7 pick from the dashboard | Plan | vCPU | RAM | Price per Service | --- --- | | op-20 | 500 mCPU | 512 MB | $3.04/mo ($0.0042/hr) | | op-22 | 1000 mCPU | 512 MB | $6.08/mo ($0.0083/hr) | | op-34 | 1000 mCPU | 2000 MB | $18.25/mo ($0.0250/hr) | | op-46 | 2000 mCPU | 4000 MB | $36.50/mo ($0.0500/hr) | | op-58 | 4000 mCPU | 8000 MB | $73.00/mo ($0.1000/hr) | | op-70 | 8000 mCPU | 16000 MB | $146.00/mo ($0.2000/hr) | | op-82 | 16000 mCPU | 32000 MB | $292.00/mo ($0.4000/hr) | | op-94 | 32000 mCPU | 64000 MB | $584.00/mo ($0.8000/hr) | Included on every plan. No add-ons, no feature unlocks. Otto, the AI agent that deploys and operates your apps Browser shell into running apps HTTP logs & request tracing Container registry Environment variables & secrets",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S19",
+      "url": "https://elest.io/open-source/plane/resources/plans-and-pricing",
+      "title": "Plane - Plans and pricing | Elestio",
+      "content": "Databases Applications Development Hosting & Infrastructure AI & GPU All Services Domains CI/CD Terraform Clusters AI DevOps Agents AI & Automation Vibecoder Documentation Blog Use Cases Community Pricing Documentation Login Get Started ### Plane Guide & Resources # Plans and pricing for Plane fully managed by Elestio Plane Guide & Resources Knowledge base Installation guide Features Quickstart Plans and pricing Managed service features Official documentation Platform overview Elestio offers a range of plans to fit any team size and budget. From basic setups perfect for small teams, to enterprise-grade solutions with advanced features and support, find the perfect plan that scales with your needs. ## Plans for Plane Choose your Provider: Choose your Region: [...] ## Billing We generate invoices when you buy credits or when your auto-recharge. Enter your billing details in the account settings. Business customers can enter their company name, and VAT number for the invoice. ## Elestio support plans for Plane Elestio support plans We provide 3 different support plans to help you with your Plane instance. The first level of support is free and included when you create your instance. You can upgrade to a higher or lower support plan at any time. Compare our different support plans [...] Choose your Provider: Choose your Region: | | | --- | | | The range of disc sizes available is 10 GB to 10 TB for $0.15/GB/month. | [PLAN] $[PPM]/month $[PPH]/hr [CORE] CPUs [RAM] GB RAM [DISK] GB SSD Deploy now ## Credits system Elestio charges you on an hourly basis for the resources you use. Each resource has a credit cost per hour. From the dashboard, you can view your current balance, credit cost per hour, and the number of days left before you run out of credits. Elestio credits system This system ensures that you only pay for the resources you use. The credits never expire, and you can use them to pay for any resource you want.",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S20",
+      "url": "https://www.gappsy.com/tools/plane-project-management",
+      "title": "Plane Review 2026: Open-Source PM Features and Pricing",
+      "content": "It includes a built-in Wiki linked to work items and Plane AI for AI-assisted workflows, and can be deployed as a managed Plane Cloud service or self-hosted via Docker or Kubernetes, including air-gapped enterprise setups. ## Pricing Plane follows a freemium, per-seat model: the Free tier supports up to 12 users, Pro is $6/seat/month, and Business is $13/seat/month, each with an increasing allocation of AI credits per seat. Enterprise Grid is custom-priced for organizations that need private or managed deployments, SSO/LDAP, audit logs and migration support. ## Key Features [...] # Plane Project Management Review, Pricing & Features Plane (plane.so) review: open-source Jira and Linear alternative with work items, cycles, docs and AI. Compare pricing, features and alternatives. Researched and fact-checked by Bartu Cavusoglu \u00b7 Updated July 19, 2026 Visit Plane Project Management Website \u2192 Category : Project Management Pricing : Freemium, from Free for up to 12 seats; paid plans from $6/seat/month Verified : Not yet Last updated : July 19, 2026 Founded : 2022 Headquarters : Hyderabad, India and Delaware/San Francisco, United States (dual headquarters) Free PlanWindowsWeb AppiOSAndroidAPIOpen SourceAIFreemiumTemplatesSelf-HostedMac ## Overview [...] ## Pricing Free $0/seat/month Monthly Pro $6/seat/month Monthly or annual (25% off annually) Business $13/seat/month Monthly or annual (13% off annually) Enterprise Grid Custom Custom ## Frequently Asked Questions Is Plane (plane.so) free? Yes, Plane offers a free cloud tier for up to 12 seats, plus a fully free self-hosted option since the software is open source. Who owns Plane? Plane is developed by a company founded by Vamsi Kurama and Vihar Kurama in 2022, backed by OSS Capital. Is Plane the same company as the payroll platform Plane at plane.com? No, they are unrelated companies that happen to share the name Plane; plane.so is the project management tool, and plane.com is a separate payroll and HR company founded in 2017. Can Plane be self-hosted?",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S21",
+      "url": "https://plane.so/pricing",
+      "title": "Plane Pricing | Simple per-seat plans for teams that ship",
+      "content": "Yes, Plane offers a generous free tier with core features. We also have paid plans for advanced features, enterprise needs, and priority support. Absolutely! Plane is open-source and can be self-hosted on your own infrastructure for complete control and privacy. We provide comprehensive documentation and support for self-hosting. Plane integrates with popular tools like GitHub, GitLab, Slack, Discord, and many more to streamline your workflow and keep your team connected. We provide migration tools and support to help you move from tools like Jira, Asana, Trello, or Linear to Plane. Our team can assist with the migration process. [...] Built for compliance and custom infra Ideal for teams with security, compliance, or infrastructure requirements. Complete feature listSavings calculator #### Slash your bills by more than 70% Choose one from both sets of tools below and we will automatically set their comparable plans. Number of members 10 100 1000 5000 Project management software Knowledge management software Plan Price $6 seat per month Annual cost with Jira for 1010 users $1,497.61,497.6 per year Annual cost with Confluence for 1010 users $586.8586.8 per year ##### We did the math for you. Your tools of choice today ##### $2,084.4$2,084.4 Price with Plane ##### $720$720 Savings with Plane ##### $1,364.4$1,364.4 ###### Join 50,000+ teams that actually enjoy their work [...] | | | | | | | --- --- --- | | Seat limitMaximum users allowed in your workspace or instance based on your plan | 12 users | Unlimited | Unlimited | Unlimited | 12 users | | RolesChoose from one of four pre-defined roles or create custom ones with RBAC. | Basic | RBAC | RBAC | GAC | Basic | | GuestsLet some users see everything or just their work items in a project. Enterprise handles this through custom roles with RBAC and GAC. | Limited | 5 per paid member | 5 per paid member | Custom roles via RBAC + GAC | Limited | | Power KAccess a keyboard-first gateway to almost anything in Plane. | | SAMLGet the officially supported SAML implementation and make Plane secure with any IdP. | | OIDCGet the officially supported OIDC implementation and make Plane secure with any IdP. |",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S22",
+      "url": "https://tech.co/project-management-software/jira-pricing",
+      "title": "Jira Pricing Guide: How Much Does the Provider Cost in 2026?",
+      "content": "Time tracking Unlimited projects AI insights Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users. Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users. There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available. In this guide, I\u2019ll take you through everything you need to know about Jira pricing, including plans, hidden fees, and potential competitors. In This Guide: [...] ### Key Takeaways Jira\u2019s Standard plan starts at $7.91 per user, per month, while its Premium plan goes up to $14.54 per user, per month, for up to 300 users. Choose annual billing to reduce the cost of the Standard plan to $6.52 per user, per month for a team of 300. Large enterprises that favor a self-hosting option should go for Jira Data Center, which starts at $51,000 per year and supports teams of 500 or more. Alternatives include Trello, which is great for budget-conscious teams, and monday work management, which is much easier to use. Jira has hidden costs in the form of paid add-ons from the Atlassian marketplace. ## How Much Does Jira Cost? Jira has four pricing plans \u2014 a free plan, Standard, Premium, and Enterprise. [...] 0 out of 0 | | | Price (monthly) The amount you'll pay per month, when paying on a rolling monthly basis with no 12-month commitment | Users | --- --- | | | | | | | Jira Free | Jira Standard | Jira Premium | Jira Enterprise | | Free | $7.91/user/month (300 users) | $14.54/user/month (300 users) | On request (and only billed annually) | | 10 maximum | 50,000 maximum | 50,000 maximum | 50,000 maximum | Find Project Management Software To Suit Your Business Compare Deals Here ## How Much Does Jira Cost if You Pay Annually? If you opt to annually, the price of your Standard and Premium plans will drop considerably.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S23",
+      "url": "https://thedigitalprojectmanager.com/tools/jira-pricing",
+      "title": "Jira Pricing Tiers & Costs",
+      "content": "## How Much Does Jira Cost? Jira\u2019s paid plans start at $7/user/month and go up to $12/user/month. A free version is available for small teams or individual users with up to 10 users. Additionally, there is a custom pricing tier for enterprise users, which includes advanced analytics, enhanced security features, and support for multiple instances. ## Jira Plans & Pricing Tiers Here's an overview of the available Jira plans: [...] ## Jira Pricing Vs. Competitors Jira is generally considered to be in the average to affordable range for project management software. It offers four user tiers: Free, Standard ($7/user/month), Premium ($12/user/month), and Enterprise (custom pricing). Each plan includes features such as various project views, automation capabilities, and extensive integrations. The Free plan offers basic features, while the Standard and Premium plans offer more advanced perks like user roles, permissions, and increased storage. Overall, Jira's pricing is competitive, especially for small to medium-sized teams, and it provides strong security safeguards across all plans. ### Comparison Chart: Jira vs. Alternatives [...] jira pricing screenshot Jira offers Free, Standard, Premium, and custom Enterprise plans for different needs. Let\u2019s break down the available Jira plans a bit further: ### Jira Free Plan This plan is most ideal for small teams or startups. The Free plan supports up to 10 users and includes unlimited projects, tasks, and forms, along with basic views and dashboards. It\u2019s best for teams needing simple project management tools without advanced features. However, it\u2019s limited to 2 GB of storage and offers community support only. Stay Ahead of What Deserves Your Attention Get timely perspective on the shifts, decisions, and trade-offs shaping your role, plus practical resources you can put to work.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S24",
+      "url": "https://ones.com/blog/jira-pricing-explained-why-you-should-consider-other-options",
+      "title": "Jira Pricing 2026: Plans, Hidden Costs & TCO Guide",
+      "content": "| Plan | Price | Users | Storage | Automation | SLA | --- --- --- | | Free | $0 | Up to 10 | 2 GB | 100 rules/month | None | | Standard | $7.91/user/mo | Up to 100,000 | 250 GB | 1,700 rules/month | None | | Premium | $14.54/user/mo | Unlimited | Unlimited | 1,000 rules/user/mo | 99.9% | | Enterprise | Custom | Unlimited | Unlimited | Unlimited | 99.95% | Monthly billing costs 7\u201310% more. Standard goes from $7.91 to $8.15, Premium from $14.54 to $15.25. The practical trigger point: once you exceed 10 users, you\u2019re forced onto a paid Jira pricing plan. For a 50-person team on Standard, that\u2019s roughly $4,750/year \u2014 before any add-ons. ## Jira Cloud Pricing Plans: The Full Breakdown [...] Log in Book a Demo Try for free Jira Alternative # Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives Scott, Andrew Scott, Andrew \u00b7 14 min read Try ONES for free ![Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives]( If you\u2019re considering Jira as your project management tool, you\u2019re not alone. Jira has long been a popular choice for software development teams, especially those working with Agile workflows. That said, pricing is still worth a closer look before you commit. Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page. [...] According to Atlassian\u2019s pricing tables, Jira Data Center currently starts at $51,000/year for up to 500 users. From February 17, 2026 PT, that tier will increase to $59,000/year. The 1,000-user tier will rise from $87,000 to $100,000/year, and the 2,000-user tier will rise from $158,000 to $182,000/year. Because Jira DC pricing uses fixed tiers, costs can jump quickly when your team crosses into the next user band. For example, moving from 500 to 501 users means moving into the 1,000-user tier. ### Data Center EOL: March 28, 2029 (What It Means for Your Budget?) Atlassian has announced end-of-life for Jira Data Center Server on March 28, 2029. After that date, no security patches, no bug fixes, no support.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S25",
+      "url": "https://www.vendr.com/marketplace/atlassian",
+      "title": "Atlassian Software Pricing & Plans 2026: See Your Cost",
+      "content": "## How much does Jira Software cost? Pricing Structure: Free: Up to 10 users, basic features, community support Standard: Starts at $8.15/user/month (billed annually) for 1\u201310 users; decreases to ~$7.16/user/month for 11\u2013100 users, and continues to scale down with volume Premium: Starts at $16/user/month (billed annually) for 1\u201310 users; includes advanced permissions, analytics, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, enterprise-grade security, and dedicated support Observed Outcomes: [...] Benchmarking context: Vendr transaction data shows that bundled Jira + Confluence deals often achieve lower effective per-user pricing compared to standalone purchases. Compare Confluence pricing with Vendr to see how your quote aligns with recent market outcomes. ## How much does Jira Service Management cost? Pricing Structure: Free: Up to 3 agents, basic ITSM features Standard: Starts at $21.25/agent/month (billed annually) for 1\u20133 agents; scales down with volume Premium: Starts at $49.50/agent/month (billed annually); includes advanced automation, SLA management, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, and enterprise-grade controls Observed Outcomes:",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S26",
+      "url": "https://www.xurrent.com/blog/jira-service-management-pricing",
+      "title": "Is Jira Service Management Pricing Right for Your Team in 2026? | Xurrent",
+      "content": "## What Is Jira Service Management Jira Service Management (JSM) pricing starts at $0 for the Free plan with up to 3 agents, roughly $20 per agent per month for Standard, around $49 per agent per month for Premium, and custom pricing for Enterprise. All paid plans bill annually, and you only pay for agents\u2014the people who handle tickets\u2014not the employees or customers who submit them. Now, here's where things get confusing. Jira Service Management is one of three separate Jira products, and each has its own pricing page. Mixing them up is easy to do.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S27",
+      "url": "https://tech.co/project-management-software/clickup-pricing",
+      "title": "ClickUp Pricing 2026: Everything You Need to Know",
+      "content": "### Key Takeaways ClickUp offers five pricing tiers, including a free plan. Its four paid plans range from $7 to $12, while the Enterprise plan has no public pricing. The Unlimited plan ($7 per user, per month), is ideal for small teams, while the Business plan ($12 per user, per month) is better suited for mid-sized businesses. ClickUp offers great value for money, with a pricing score of 4.4/5, making it more affordable than competitors like monday work management and Smartsheet. ClickUp\u2019s free plan is one of the best on the market, offering features like unlimited tasks and two-factor authentication, which are often paid features in other tools. In this guide: [...] Unlimited posts Live onboarding training White labeling ClickUp pricing starts at just $7 per user, per month (when billed annually), for the Unlimited plan. If your company or team is growing and needs advanced features, then you can opt for the Business tier, which costs just $12 per user, per month, when paid annually. ClickUp also offers an Enterprise plan, but it has no public pricing. And there\u2019s a free plan with no user limit, which our testers found to be the best free project management software, overall. ClickUp\u2019s pricing undercuts a lot of the big names on the market \u2014 you\u2019ll pay more for paid plans from Wrike, Asana, and Teamwork \u2014 making it a great option if you\u2019re concerned about project management costs. [...] It\u2019s important to note that not all of these criteria hold equal weight in our testing methodology. This is best practice and based on what businesses have told us is essential, compared with what\u2019s simply \u201cnice to have\u201d. Because of their central importance to project management, how easy each tool is to use, how much it costs, features for project and workflow creation, and task management had more of an impact overall than other criteria. ### Is ClickUp Worth The Cost? ClickUp\u2019s pricing plans start at $7 per user, per month, for the Unlimited plan and, all in all, it\u2019s definitely worth the cost, making it an ideal choice for small businesses and teams. Medium-sized teams will find the $12 per user, per month, Business plan good value for money, too.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S28",
+      "url": "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency",
+      "title": "ClickUp Pricing Plans Compared (2026): Free vs Business vs Enterprise | ZenPilot",
+      "content": "One thing has changed since this article was first written: you can now buy ClickUp licenses through ZenPilot at ClickUp\u2019s official rates. Same plans, same prices, plus a team that has implemented ClickUp 3,100+ times helping you pick. More on that at the end. ## ClickUp Pricing Plans: Key Feature Differences As of 2026, ClickUp\u2019s pricing page shows four plans. A fifth is still available even though it no longer appears there. The five ClickUp pricing plans are: 1. Free Forever 2. Unlimited 3. Business 4. Business Plus (no longer on the public pricing page, but still available as an upgrade and through partners like ZenPilot) 5. Enterprise On top of any paid plan, ClickUp sells AI as separate per-seat add-ons: ClickUp Brain and Everything AI. We\u2019ll cover those after the core plans. [...] ClickUp Brain at $9 per user per month (billed annually). Unlimited Brain assistant, @Brain agent, and AI chat, plus a monthly pool of AI Super Credits. Everything AI at $28 per user per month. Everything in Brain plus unlimited Ambient Answers, the AI Notetaker, image generation, and a much larger credit pool for Super Agents. AI Super Credits can be added on top of either tier when your agents, AI fields, and automations burn through the included pool. [...] #### Buy ClickUp Licenses Through ZenPilot Same plans, same official ClickUp rates. The difference is a Diamond Solutions Partner picking the plan with you, one invoice for licenses and services, and a human to call before the help desk. See How It Works \u2192 ## The Business Plus Plan This plan costs $19 per member per month billed annually. ClickUp removed Business Plus from its public pricing page in late 2024, but it\u2019s still available as an upgrade, and we can quote it for you. For some teams that might feel steep. But the payoff of the additional features can definitely be worth it. At ZenPilot, we highlight three key features of Business Plus: Subtasks in Multiple Lists Conditional Logic in Forms Custom Capacity in Workload Allow me to break these three down.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S29",
+      "url": "https://www.vendr.com/marketplace/clickup",
+      "title": "ClickUp Software Pricing & Plans 2026: See Your Cost",
+      "content": "# How much does ClickUp cost in 2026? ClickUp uses a per-seat, per-month pricing model with five main tiers: Free, Unlimited, Business, Business Plus, and Enterprise. Published pricing ranges from $0 for the Free plan to $19 per user per month for Business Plus when billed annually. Enterprise pricing is custom and negotiated directly with ClickUp's sales team. The total cost depends on several factors beyond the base subscription: [...] ## ClickUp vs. Notion ### Pricing comparison | Pricing component | ClickUp | Notion | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10/user/month (Plus) | | Mid-tier (annual) | $12/user/month (Business) | $18/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $15,000\u2013$21,600 | ### Pricing notes [...] ## ClickUp vs. Asana ### Pricing comparison | Pricing component | ClickUp | Asana | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10.99/user/month (Premium) | | Mid-tier (annual) | $12/user/month (Business) | $24.99/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $20,000\u2013$30,000 | ### Pricing notes",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S30",
+      "url": "https://www.larksuite.com/en_us/blog/clickup-pricing-plans-guide",
+      "title": "ClickUp Pricing 2026: Plans, Features + Hidden Costs",
+      "content": "Log in Download # ClickUp pricing for 2026 ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. A free plan is available, while paid plans cost $7\u2013$19 per user/month (annual billing) and $10\u2013$29 per user/month (monthly billing). Enterprise pricing is custom. A free trial is available for the paid tiers. ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. ## What's included in each ClickUp plan Tasks, Docs, Whiteboards, Chat, Dashboards, Goals, Forms, Calendar, and 17 other products are included. [...] | See other plans | Free Forever Best for testing, solo use, and very light workflows. $0/ user / month | Unlimited Best for small teams that need unlimited storage and day-to-day flexibility. $7/ user / monthAnnual$10/ user / monthMonthly | Business Best for cross-functional teams that need reporting, workload, and tighter controls. $12/ user / monthAnnual$19/ user / monthMonthly | Business Plus Best for multiple teams that need higher automation limits, custom roles, and team sharing. $19/ user / monthAnnual$29/ user / monthMonthly | Enterprise Best for large organizations with security, procurement, and rollout requirements. Custom pricing | --- --- --- | | Max users | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S31",
+      "url": "https://www.forbes.com/advisor/business/software/clickup-pricing",
+      "title": "ClickUp: Plans And Pricing Explained \u2013 Forbes Advisor",
+      "content": "If you\u2019re in the market for new project management software and ClickUp has caught your eye, with its robust roster of project and task management tools and powerful collaboration features, you may now be wondering how much it costs to use. We have spent hours analyzing ClickUp\u2019s plans so that you can make a more informed purchasing decision. In this ClickUp pricing guide, we\u2019ll break down the plans, explain who they\u2019re for, how much they cost and how ClickUp stacks up to its closest competitors. ## ClickUp Plans and Pricing Free Forever Unlimited Business Enterprise Pricing (Per Member) $0 $10 when billed monthly $19 when billed monthly Price not published online Users Unlimited Unlimited Unlimited Unlimited Storage 60MB 2GB per user [...] ### How much does ClickUp cost? ClickUp offers several paid plans that range in price from $10 to $19 per person per month when billed monthly. It also offers an Enterprise plan that can be customized. ### Is ClickUp really free forever? Yes! You will not be charged a dime to use ClickUp\u2019s Free Forever plan, which is excellent, considering it supports unlimited users and myriad tools and features. ### What are the disadvantages of ClickUp? The biggest downside of ClickUp is that some of its advanced features, such as mind maps, have a steep learning curve. In addition, the user interface, while serviceable, can be tricky to navigate. ### What are the limitations of ClickUp's free plan? [...] ### ClickUp vs. Asana While ClickUp allows you to have an unlimited number of members for the free plan, Asana has a limit of 10. ClickUp and Asana aim to be all-in-one project management tools, which means they have many flexibility and customization options. However, Asana has a more intuitive layout that is easier to navigate. Asana\u2019s paid plan is more expensive than ClickUp\u2019s. Asana\u2019s paid plans start at $13.49 per month per user (billed monthly), while ClickUp charges $10 per month per user (billed monthly). Read our full comparison of ClickUp vs. Asana. Learn more: Best ClickUp Alternatives. ## Is ClickUp Right for You?",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S32",
+      "url": "https://www.trustradius.com/products/shortcut/pricing",
+      "title": "Shortcut Pricing 2026",
+      "content": "Image 1: TrustRadius: an HG Insights company Search Categories Vendor solutions Write a review Research Boards Log in Sign up 1. Home 2. Task Management 3. Shortcut 4. Pricing Image 2: Shortcut logo # Shortcut Score 8.4 out of 10 10 Reviews and Ratings OverviewReviewsPricingDetailsAlternatives Image 3: Shortcut logo Shortcut Pricing ## Shortcut Pricing Plan Options Shortcut has 3 pricing plans(s), starting at $10.Available deployment types include saas. Review pricing options and learn more about the product to determine which plan is right for you.A free version and a free trial are available for Shortcut. ## Plans ### Team $10 per month / per user Cloud ### Business $16 per month / per user Cloud ### Enterprise Custom Pricing [...] Cloud ### Enterprise Custom Pricing Cloud ### Additional Pricing Information Up to a 25% discount for annual pricing. For the latest information on pricing, visitthe Shortcut official pricing page ## Alternatives for Shortcut Comparing pricing options side-by-side gives you clearer context on total cost so you can confidently choose the product that best fits your needs and budget. Compare Shortcut pricing to the most common alternatives, backed by TrustRadius buyer data. ### Linear Rating: 9.2 out of 10 Paid plans starting at:$12 _Free version available_ View pricing details Image 4: Atlassian Jira logo ### Atlassian Jira Rating: 8.4 out of 10 Paid plans starting at:$9 _Free version available_ View pricing details Image 5: Ekso logo ### Ekso Rating: 10 out of 10 [...] Image 5: Ekso logo ### Ekso Rating: 10 out of 10 Starting at:$10.00 View pricing details See all alternatives ## Support Options for Shortcut Support options are essential to consider when selecting a product because they directly affect issue resolution, team adoption, time-to-value, and lower downtime. Learn more about the support options that Shortcut offers for its pricing tiers below. | Feature | Free | Paid | --- | Forum/Community | Available | Available | | Chat | Available | Available | | Email | Available | Available | | 24/7 Live Representative | Available | Available | Image 6: TrustRadius: an HG Insights Company TrustRadius About Us Team Careers News Contact Us For Buyers Categories Buyer Blog For Vendors",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S33",
+      "url": "https://www.shortcut.com/faq",
+      "title": "Frequently Asked Questions \u2014 Shortcut",
+      "content": "Is there a free version of Shortcut? The free version of Shortcut is available for teams of up to 10 people. The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually. The Business Plan bills at $16/user per month on the monthly subscription, or $12/user per month if pre-paid annually. You can purchase Shortcut with any major credit card. What are the Shortcut pricing plans? Shortcut currently offers four subscription plans: [...] Shortcut currently offers four subscription plans: The Free Plan includes a majority of the features in our Team Plan and all the features a small team needs to build great software. The Team Plan is an excellent option for customers with multiple teams or squads who need to execute efficiently and collaboratively. For customers that require better visibility across the entire organization, the Business Plan is a better-suited offering to help them plan, execute, and measure their work. For customers with large teams with advanced processes that need a fast and easy way to scale, the Enterprise Plan will continue to serve their needs well. Learn more about our plans on our Pricing Page. Does Shortcut offer a plan for nonprofits?",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S34",
+      "url": "https://softwarefinder.com/project-management-software/clubhouse",
+      "title": "Shortcut Software Reviews, Pricing & Free Demo | Software Finder - 2026",
+      "content": "Yes, Shortcut provides an API. ### What language does Shortcut support? The software supports the English language. ### What other apps does Shortcut integrate with? Shortcut integrates with several third-party applications, including Slack Software, Figma, Loom, Slab, Miro Software, Zendesk, Zapier, and Clockify. ### What types of pricing plans does Shortcut offer? In addition to a free version, the software offers three pricing plans: Team ($10.00/user/month), Business ($16.00/user/month), and Enterprise (custom quote). You can request a customized Shortcut cost today! ### Who are the typical users of Shortcut? Shortcut serves several industries, including finance, information technology (IT), e-learning, entertainment, retail, and media production.",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S35",
+      "url": "https://www.capterra.com/p/160498/Shortcut/pricing",
+      "title": "Shortcut Pricing 2026",
+      "content": "How much does Shortcut cost? Shortcut has 4 different plans. The pricing starts at $8.50 per user per year with a free plan available.",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S36",
+      "url": "https://devtune.ai/verticals/issue-tracking-and-project-management/shortcut/pricing",
+      "title": "Shortcut AI search visibility, competitors, reviews, and pricing | DevTune",
+      "content": "### Pricing Shortcut offers four tiers. Free $0/user/month for up to 10 users, includes Kanban boards, roadmaps, basic reports, sprints, Docs, and GitHub/Slack/Figma integrations. Team $8.50/user/month (annual) or $10/user/month (monthly), unlimited users, adds advanced reporting, WIP limits, multiple custom workflows, automations, and all integrations. Business $12/user/month (annual) or $16/user/month (monthly), adds unlimited workspaces, strategic Objectives and Key Results, advanced custom fields, and extended reporting. Enterprise [...] Criticized Shortcut is broadly well-reviewed for its clean, intuitive interface and agile-friendly workflow structure. Users consistently praise the simplicity and power balance compared to Jira, specifically citing the Stories/Epics hierarchy, GitHub integration quality, fast search, and responsive customer support. Recurring criticisms include limited reporting depth, absence of a mobile app, steep per-user pricing for small teams, onboarding complexity around naming conventions, gaps in the Productboard integration, and occasional UI load time issues. On Capterra it holds a 4.6/5 average across 363 verified reviews. ### Pricing Shortcut offers four tiers. Free",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S37",
+      "url": "https://docs.plane.so/authentication/sso",
+      "title": "Single sign-on (SSO) | Plane",
+      "content": "| Field | Description | --- | | Entity ID | Your IdP's unique identifier | | SSO URL | The endpoint where Plane redirects users for authentication | | Logout URL | (Optional) Where users go after signing out | | Certificate | The X.509 certificate from your IdP | 2. Click Configure and enable to activate SAML authentication. ## How SSO works in Plane \u200b Once SSO is enabled: When users visit your Plane workspace, they see the Sign in with Single Sign-On button. Clicking it redirects them to your identity provider. After authentication, they're signed in to Plane automatically. Their Plane account is created automatically on first sign-in if it doesn't exist. [...] Skip to content PlanePlane Developer DocsSign in # Single sign-on (SSO) Business \u200b Single sign-on (SSO) lets your team sign in to Plane using your organization's identity provider instead of managing separate passwords. This centralizes authentication, improves security, and simplifies user management. ## Verify your domain \u200b Before configuring SSO, you must verify ownership of your organization's email domain. This ensures only authorized administrators can configure authentication for that domain. Each domain can only be verified in one workspace at a time. If you've already verified a domain in another workspace, you'll need to remove it there first. ### Add your domain \u200b [...] #### Create a SAML application in your IdP \u200b 1. Sign in to your identity provider. 2. Create a new SAML 2.0 Application. 3. Configure the service provider settings: Entity ID / Audience: Paste the Entity ID from Plane. ACS URL / SSO URL: Paste the SSO URL from Plane. SLO URL: Paste the SLO URL from Plane. 4. Configure attribute mapping to send the `email` attribute in the SAML assertion. Optionally map `firstName` and `lastName`. 5. Save and copy your IdP's SAML configuration: SSO URL (sign-in endpoint) Entity ID X.509 Certificate #### Configure SAML in Plane \u200b 1. Return to Plane and enter the following details from your identity provider:",
+      "dimension": "features",
+      "query": "Plane SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S38",
+      "url": "https://eigenfocus.com/compare/eigenfocus-vs-plane",
+      "title": "Eigenfocus vs Plane - Self-Hosted Without Per-Seat Fees | Eigenfocus",
+      "content": "| Eigenfocus | Plane | --- | | Pricing model | One-time payment (self-hosted) or flat monthly (cloud) | Per seat/month (cloud and self-hosted) | | Self-hosted cost (10 users, 3 years) | $489.00 (one-time) | $2,160 ($6/seat/mo, yearly billing) | | Cloud cost (10 users, 3 years) | $1,404.00 ($39.00/mo flat) | $2,160 ($6/seat/mo, yearly billing) | | Free tier user limit | 1 user (multi-user from Essential) | 12 users (Commercial), unlimited (Community, limited features) | | Time tracking | Included in Free | Requires Pro ($6/seat/mo) | | Custom fields | Pro ($489.00 one-time) | Pro ($6/seat/mo) | | SSO | Pro (Google, GitHub, Microsoft, OIDC) | Business ($13/seat/mo) for SAML. OIDC coming soon. | | Views | Board, List, Grid, Timeline | Board, List, Calendar, Gantt, Spreadsheet | [...] ### Eigenfocus is a good fit if you... Want to self-host without paying per seat on your own server Need time tracking included from the start, not locked behind a paid tier Want SSO without jumping to a $13/seat/month plan Prefer a focused project management tool over a multi-purpose workspace Want predictable costs that do not grow as your team grows ### Plane might be a better fit if you... Need built-in wiki and documentation alongside your project tracker Require compliance certifications (GDPR, HIPAA, ISO 27001, SOC 2) Need native GitHub, GitLab, or Slack integrations Need air-gapped deployment for disconnected environments Want native mobile apps for iOS and Android ### Further Reading Eigenfocus Features [...] ## Self-hosted cost over 3 years Plane Pro vs Eigenfocus PRO for a 10-person team, self-hosted ### Eigenfocus PRO One-time payment $489.00 2-year total $0 3-year total $489.00 Unlimited users included. Time tracking, custom fields, and SSO included. ### Plane Pro (10 users, self-hosted) Year 1 $720.00 2-year total $1,440.00 3-year total $2,160.00 Based on $6.00/seat/month (yearly billing). Infrastructure costs not included. ## Which one fits you? ### Eigenfocus is a good fit if you...",
+      "dimension": "features",
+      "query": "Plane SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S39",
+      "url": "https://findpmsoftware.com/products/plane.so",
+      "title": "Plane.so:: Reviews, Pricing and Free Demo | FindPM - 2026",
+      "content": "Plane offers a free-open-source Community Edition and a free-forever Cloud tier with core features. Paid tiered plans (Pro, Business, and Enterprise) are available for advanced capabilities like custom fields, time tracking, RBAC, and self-hosted enterprise support. Plane is an open-core project and knowledge management platform that teams use to plan, track, and collaborate on work. It supports issues, cycles (sprints), modules, dependencies, customizable workflows, and integrated documentation\u2014all accessible via cloud or self-hosting. Yes. You can try a 14-day free trial of Plane Cloud, and access self-hosted Community Edition immediately. There are also walkthrough videos on features like work items, sprints, dependencies, and docs. [...] logo Home Products Plane.so # Plane.so 4.7 3 Review(s) Plane.so 3 Review(s) Overview Features Reviews FAQs ### Plane.soPricing #### Free ### $0 /member/month ##### What's Included Projects and Issues Cycles and Modules Layouts and Views Intake Estimates Pages APIs 12 Seats #### Pro ### $8 /member/month ##### What's Included Everything in Free + Custom Issues + Properties Issue templates Full Time Tracking Cycle Reports Custom Dashboard Widgets Automation and Workflows Full Jira and GitHub imports Unlimited Members 1:5 Guests #### Business Custom pricing ##### What's Included [...] #### Business Custom pricing ##### What's Included Everything in Pro + RBAC Project Templates Baselines And Deviations Custom Reports Scheduled Comms Intake Forms API-enabled Activity Logs Unlimited Members 1:5 Guests #### Enterprise Custom Pricing ##### What's Included Everything in Business + Private + managed deployments GAC LDAP support Databases + Formulas Unlimited Automation Flows API-enabled Audit Logs Full-suite professional services Disclaimer: The pricing details were last updated on Sep 18, 2026 from the vendor's website. Please contact us for a tailored pricing list. ## Plane.soReviews Overall Rating ### 4.7 3Reviews Rating Distribution 5 star (2) 4 star (1) 3 star 2 star 1 star Share Your Experience ## Frequently Asked Questions",
+      "dimension": "features",
+      "query": "Plane SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S40",
+      "url": "https://github.com/makeplane/plane/issues/1296",
+      "title": "[feature]: SSO/SAML and LDAP auth \u00b7 Issue #1296 \u00b7 makeplane/plane \u00b7 GitHub",
+      "content": "I have searched the existing issues ### Summary According to and #1211 SSO/SAML will be present in the open-source self-hosted version of plane. Do we have any timeline on when that might be ready? Also, does Plane support LDAP auth? Can it be easily added - is the auth engine flexible or easily to work around with? ### Why should this be worked on? Adding SSO login support enables much easier integration with existing IAM solutions present inside firms and thus adding this crucial feature will make it ready to be used by our team in my $DAYJOB Reactions are currently unavailable ## Activity 1. rush-skills added \u2728feature on Jun 15, 2023 2. rhea0110 added Plane \ud83c\udfe0self-hosted on Jun 16, 2023 3. ### torbenraabcommentedon Jun 20, 2023 [...] @torbenraab torbenraab on Jun 20, 2023 More actions Hey there, just added a PR for SSO with OIDC which resolves Issue #413. I think I can look into SAML and/or LDAP soon. 4. ### rush-skillscommentedon Jun 20, 2023 @rush-skills rush-skills on Jun 20, 2023 ContributorAuthor More actions @torbenraab Thanks, I will look into that PR to see if it helps me understand how to go about the integration. Ideally, I want to add tequila auth to Plane for my $DAYJOB usage, which has a Django auth module present at . I have been trying to add this to the Django app, but can't get it to work as I desired (I wanted the login page to automatically redirect to tequila for auth and use the redirect to get the user info and login). [...] rush-skills on Jun 30, 2023 ContributorAuthor More actions Hey @torbenraab Thanks for the OIDC work. I have been experimenting with that to test our OIDC provider (SWITCH). I have eventually given up on tequila integration (that was halfway done) because I don't think a lot of people use it and it adds unnecessary complexity to the code base. I have now added LDAP support in #1446 which works for me now 7. ### Alexander-creator333commentedon Oct 31, 2023 @Alexander-creator333 Alexander-creator333 on Oct 31, 2023 More actions Hi all. I'm setting up plane authorization via Keycloak using saml-sso. In PLANE I included the following options: web/.env NEXT\\_PUBLIC\\_ENABLE\\_OAUTH=1 NEXT\\_PUBLIC\\_DEPLOY\\_URL=\"\"",
+      "dimension": "features",
+      "query": "Plane SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S41",
+      "url": "https://plane.so",
+      "title": "AI-native project management | Plane",
+      "content": "## Enterprise-grade security, compliance, and control Plane meets the security and compliance standards your InfoSec team requires, across cloud and self-hosted deployments. Certified across four compliance standards SOC 2, ISO 27001, GDPR, and CCPA compliance out of the box. Independently audited, continuously monitored. Go to security.plane.so \u2192 Fully committed uptime SLA Automatic backups, real-time scaling, and multi-layer failovers. Built to stay up when it matters most. Go to status.plane.so \u2192 Identity and access at every layer SSO, SAML, and LDAP across every workspace. Authenticate your way. Go to /enterprise \u2192 LOVED BY DEVELOPERS AND PROJECTOPS ADMINS ## Every setting versioned, reviewed, and deployed from your terminal. Get started freeTalk to a human \u2192 [...] ## Self-host without compromise, on-prem and air-gapped The only modern project management platform built for environments where you control every layer. Self-host PlaneTalk to a human \u2192 Prime CLI Install, configure, upgrade, back up, and monitor your instance with single commands. Multi-instance support, custom domain setup, and service scaling built in. Docker and Kubernetes Deploy with Docker for quick setup or Kubernetes with Helm charts for production scale. Bring your own Postgres, Redis, and S3-compatible storage. God Mode One admin panel for your entire instance. Configure SMTP, authentication methods, SSO, workspace security, and telemetry preferences from a single screen. Mobile ## Your entire workspace on your mobile on both our Cloud and your self-hosted instance",
+      "dimension": "features",
+      "query": "Plane SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S42",
+      "url": "https://docs.plane.so/core-concepts/issues/time-tracking",
+      "title": "Time tracking to log hours on tasks | Plane",
+      "content": "Skip to content PlanePlane Developer DocsSign in # Time Tracking Pro \u200b > Role: Project Admins ## Overview \u200b Log time per work item, record time by members and guests per work item, and download consolidated worklogs from one screen with Time Tracking in Plane. Project members can easily log the time they spend working on specific work items directly within the work item details page. Each time entry can include details such as the amount of time spent and optional notes to provide context. Plane also offers comprehensive reports that aggregate time-tracking data across different projects helping managers analyze productivity and ensure successful project delivery. ## Turn on Time Tracking \u200b To turn on the Time Tracking feature on your project, follow the steps below: [...] 1. Click the \u2026 icon next to your project name on the sidebar and click Settings. 2. Select Features on the right pane. Turn on the Time Tracking toggle button. The Time Tracking feature is now turned on for your project. ## Log time \u200b To track time on your work items, follow the steps below: 1. Under your project, open the work item on which you want to log time. 2. Click the + Log work button. Enter the hours, minutes, and description. Click Save. 3. The Tracked time property will display the logged time. Every time you log work to the work item, this property is updated. ## Edit or delete a time log \u200b To update or remove a time entry, find the worklog in the work item's activity trail. Click the \u2026 menu on the entry to see two options: [...] Edit \u2014 opens the log with editable hours, minutes, and description fields. Adjust the values and click Update. Delete \u2014 permanently removes the entry. The Tracked time property on the work item updates automatically. ## View worklogs \u200b To view timesheet records and download reports, follow the steps below: 1. Click the \u2228 icon next to your workspace name on the sidebar and click Workspace settings. 2. Select Worklogs on the right pane to view the timesheet records. 3. You can filter the records by Users, Projects, Start date and End date. It also allows you to download the timesheet reports as Excel or CSV files.",
+      "dimension": "features",
+      "query": "Plane time tracking plans",
+      "published": ""
+    },
+    {
+      "id": "S43",
+      "url": "https://github.com/makeplane/plane/issues/8045",
+      "title": "[feature]: Project-level time tracking analytics and worklogs \u00b7 Issue #8045 \u00b7 makeplane/plane \u00b7 GitHub",
+      "content": "Feature Shreevable/plane #1 Copy link Assignees viharpushya22 Labels \u2728feature ## Description @henkdeblauw henkdeblauw opened on Oct 30, 2025 Issue body actions ### Is there an existing issue for this? I have searched the existing issues ### Summary ### Problem While Plane tracks time at the work item level, there's no aggregated view of time data at the project level. This makes it impossible to get a holistic view of project health, budget utilization, or team time allocation without manual calculations. ### Current behavior [...] ### Use case As a project manager, I need to: 1. Answer \"How many hours have we spent on Project X?\" without opening 100+ items 2. Generate monthly time reports for client invoicing 3. Identify which team members are logging time and on what 4. Compare estimated vs actual time at project level to improve future estimates ### Why should this be worked on? This would transform Plane from a task tracker into a complete project management solution for agencies. Competitors are better at time reporting but lack Plane's project management features (to me, I like the simplicity of Plane) and this would give Plane the best of both worlds. Reactions are currently unavailable ## Activity Sign up for free to join this conversation on GitHub. Already have an account? Sign in to comment [...] ### Current behavior Worklogs only visible within individual work items No project-wide time properties No way to see worklogs about a single project (without going through several steps) Must export data or manually sum tracked time No time tracking properties in the dashboard widgets ### Expected behavior 1. \\\\Project Overview \\ Display total tracked time for entire project Display total estimated time (sum of all work item estimates) Show utilization percentage (tracked/estimated) Time breakdown by module/cycle/team member 2. Project Worklogs View New \"Worklogs\" tab at project level Filterable by date range, team member, work item type Exportable for invoicing/reporting Bulk edit capabilities ### Use case As a project manager, I need to:",
+      "dimension": "features",
+      "query": "Plane time tracking plans",
+      "published": ""
+    },
+    {
+      "id": "S44",
+      "url": "https://www.heise.de/en/news/Plane-Update-of-the-open-source-alternative-to-Jira-11399212.html",
+      "title": "Plane: Update of the open-source alternative to Jira | heise online",
+      "content": "(Image: Plane) With version 1.4.0, Plane introduces two important new features: there are now lightweight REST API endpoints for list views and a translation architecture divided by features. At the same time, the developers have improved webhooks, telemetry, log retention, accessibility, and operation behind reverse proxies. Plane is open-source project management software aimed at software developers as an alternative to Jira, Linear, Monday, and ClickUp. [...] heise Plus heise Plus Logo Hannover 96 ${title} ${title} ### ${intro} ${title} ${lead} ${title} ${title} ### ${intro} ${title} ${lead} ## heise+ Das Beste aus heise+ ## heise online Top-Beitr\u00e4ge von heise online ## heise online Most popular articles by heise online # Plane: Update of the open-source alternative to Jira Plane 1.4.0 brings lean REST APIs for list views and a new translation architecture. Webhooks and accessibility have also been improved. A user interface for managing work items with a sidebar and a list of tasks. A user interface for managing work items with a sidebar and a list of tasks. (Image: Plane) [...] Videos by heise With version 1.4.0, webhook payloads will also include the `workspace_slug`. This allows recipients to assign events to a workspace directly \u2013 i.e., without an additional API query. If you operate Plane yourself, the integrated telemetry of your own instance will send the key figures as OTLP metrics instead of OTLP traces in the future. This is intended to simplify the evaluation of counter and stock values, i.e., for users, projects, and pages. Additionally, Plane will now exclusively store instance logs in PostgreSQL; you can set your own retention periods for different log types. `workspace_slug`",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Wed, 05 Au"
+    },
+    {
+      "id": "S45",
+      "url": "https://www.augmentcode.com/tools/monday-com-alternatives",
+      "title": "7 Monday.com Alternatives for Dev-Heavy Teams | Augment Code",
+      "content": "Self-hosting: Plane documents an installation time under 20 minutes for self-hosted deployments, and GitHub and GitLab support lets teams run it alongside their version control systems. Backlog structure: Issue hierarchy underpins Plane's backlog, and migration importers exist for Jira, Linear, Asana, ClickUp, and Confluence. GovSlack support: Plane suits government and defense-adjacent teams when GovSlack and air-gapped deployment matter. Where Plane falls short: The interface feels less polished than Linear's, and the community is smaller than Jira, Linear, or Shortcut, which means fewer templates and third-party resources. [...] | Plan | Price (per seat/month) | GitHub Projects Access | --- | Free | $0 | Included, 2,000 CI/CD minutes/month | | Team | $4 | Included features; SAML SSO available at the organization level | | Enterprise | $21 | Included, advanced security, audit log | Source: GitHub pricing Choose GitHub Projects if: Your team is under 30 engineers, GitHub is your entire toolchain, and you don't need sprint analytics or velocity tracking. ## 5. Plane: Best for Self-Hosting and Compliance Requirements Plane is the only self-hostable option in this comparison, with an open-source codebase and feature parity between the self-hosted Community Edition and the cloud Free tier. For teams with data residency, compliance, or air-gapped requirements, Plane provides the self-hostable path. [...] | Plan | Price | Key Details | --- | Free (Cloud) | $0 | 12-seat limit | | Pro (Cloud) | Starts at $6/seat/month | | Business (Cloud) | Contact sales for current pricing and plan details | | Self-hosted | Free (open source) | Unlimited users, infrastructure costs apply | Source: Plane pricing Choose Plane if: You have data residency or compliance mandates, need self-hosting, or work in regulated industries (healthcare, fintech, government). ## 6. YouTrack: Best for JetBrains Ecosystem Teams YouTrack's main strengths are automation, workflows, and flexibility. Its automation features reduced manual backlog upkeep more than any other tool I tried.",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Fri, 12 Ju"
+    },
+    {
+      "id": "S46",
+      "url": "https://cio.economictimes.indiatimes.com/tools/10-best-free-project-management-tools/134596476",
+      "title": "Top 10 Free Project Management Tools for Enterprises in 2026, ETCIO",
+      "content": "Plane is an AI-first project and work management platform that combines tasks, documents, workflows, and AI assistance in one workspace. It is designed for both teams and AI agents, with a strong focus on software, product, and operations workflows. Image Source One standout feature is its Plane AI, which lets users ask natural-language questions about project progress, blockers, deadlines, and work across the workspace. AI agents can also help triage and organise tasks. Other features include work items, built-in docs and wikis, cycles/sprints, modules, dashboards, templates, time tracking, estimation, intake forms, and multiple views such as board, list, spreadsheet, Gantt, and calendar.",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Wed, 30 Se"
+    },
+    {
+      "id": "S47",
+      "url": "https://futurumgroup.com/insights/atlassian-fuses-the-agent-work-surface-workflow-and-control-plane-into-jira",
+      "title": "Atlassian Fuses the Agent Work Surface, Workflow, and Control Plane Into Jira - Futurum",
+      "content": "Atlassian delegates execution at Layer 0 to external runtimes like Claude Code, Cursor, and Copilot, while using Jira workflows and scoped permissions as its primary behavior guardrails at Layer 2. Agents can be invoked at defined workflow transitions and through automation rules, and their updates to Jira work items are recorded in issue history, real operational constraints, but not a formal, published AI safety standard. [...] The News: Atlassian announced new Jira capabilities on July 15 to advance AI-native software development, framing Jira as the coordination layer for human and agent work across the full software development lifecycle. Teams can assign work items to Claude Code, Cursor, or GitHub Copilot, with Codex support coming soon, and a built-in Jira Coding Agent, included in every paid plan, converts work items into ready-to-review pull requests. Teamwork Graph provides the enterprise context feeding those agents. [...] Skip to content Futurum Become a Client Market Coverage News Mitch Ashley Mitch Ashley # Atlassian Fuses the Agent Work Surface, Workflow, and Control Plane Into Jira Software Lifecycle Engineering Atlassian Fuses the Agent Work Surface, Workflow, and Control Plane Into Jira Analyst(s): Mitch Ashley Publication Date: July 29, 2026 On July 15, Atlassian let engineering teams assign work to Claude Code, Cursor, and GitHub Copilot directly in Jira, view all agents in one view, and route work to them with automation rules. The features matter less than what sits under them. Teamwork Graph, the 150-billion-object layer Atlassian has spent years building, now feeds all three at once, which is what turns a set of features into a single system. ## What Is Covered in This Article:",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Wed, 29 Ju"
+    },
+    {
+      "id": "S48",
+      "url": "https://www.opensourceforu.com/2026/10/ai-based-tools-accelerating-devops-adoption",
+      "title": "AI-based Tools: Accelerating DevOps Adoption - Open Source For You",
+      "content": "Backstage: This developer portal framework unifies software catalogues, technical documentation, and developer templates into a centralised dashboard. It standardises service discovery and accelerates developer onboarding. Plane/Open Project: Plane offers AI-native tracking, while Open Project focuses on classic enterprise task management and Gantt chart planning. These tools are self-hostable for full data sovereignty and have a modern UI as well as lower resource overhead compared to legacy enterprise platforms. Other tools that can be used are Git and Architecture Decision Records (ADRs). ### Develop",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Mon, 19 Oc"
+    },
+    {
+      "id": "S49",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/july-2026-major-product-update-whats-new",
+      "title": "July 2026 Major Product Update \u2013 What\u2019s New\u00a0 - Fusion Blog",
+      "content": "To use the new functionality, open any Construction Plane or Construction Axis command and select either Default or Extended from the new Resize options in the command dialog. Learn more about construction geometry. #### More Predictable Selection in Construction Geometry Selection behavior has been refined across Construction Geometry commands to make common workflows more efficient and consistent. In commands where replacing a selection is a natural part of the workflow, you can now simply select a new entity to replace the current selection. This reduces unnecessary clicks and interruptions when refining inputs during command creation. [...] #### Expanded Construction Geometry API Support New API support includes resizing construction planes, reference-object workflows for Plane at Angle, and expanded Plane Along Path functionality with additional extent and placement controls. These updates enable more advanced automation, scripting, and add-in development scenarios. #### Drawing API Enhancements Added API support for custom sheet sizes and support for creating drawings from templates through the Drawing API workflow. #### Mesh Compare [...] #### Resize Construction Planes and Axes New Resize controls are available across Construction Plane and Construction Axis commands, with two options: Default (fit to selection) and Extended (fit to view). The selected size is stored with the feature and can be updated later using Edit Feature, allowing construction geometry to adapt as designs evolve. Previously, the visual size of a construction plane or axis was determined automatically when it was created, and changing it required recreating the feature. This update provides direct control over the display size and makes it easier to work with construction geometry in both small and large designs. Public API support has also been added, allowing resize options to be used in automated workflows and custom add-ins.",
+      "dimension": "competitive",
+      "query": "Plane vs ClickUp features",
+      "published": "Tue, 07 Ju"
+    },
+    {
+      "id": "S50",
+      "url": "https://www.wired.com/story/7-basic-iphone-tricks-i-built-with-ios-27s-revamped-shortcuts-app",
+      "title": "7 Basic iPhone Tricks I Built With iOS 27\u2019s Revamped Shortcuts App | WIRED",
+      "content": "## Plane Landing This one isn\u2019t very complicated, but it makes my life just a little bit easier. I often travel without my partner and can be negligent in sending updates. So I asked the Shortcuts app to generate an automation that sends a \u201cjust landed\u201d text to my partner every time I turn off airplane mode. Simple. During setup, the app asked me to select which iPhone contact was my partner. It's an easy automation that solves the issue of me being incredibly distracted when deplaning. ## Sound Recognizing [...] That alone could have been helpful, but I wanted to push the automation a little further. I created another shortcut that, every morning at 9:00 am, finds the plant watering log and sees if it was modified within the last week. If no changes have been added within the last week, it sends me a notification reminder to check on the plants. ## Screenshot Extracting Although this automation is a little more niche, I use it fairly often as someone who\u2019s chronically online and often taking screenshots. Now, whenever I take a screenshot, my phone automatically extracts any text in the images and copies it to my clipboard. This simplifies my previous process of saving screenshots, manually opening the Photos app, then copying the text from the images. ## Plane Landing [...] Called \u201cDescribe a Short,\u201d it lets you say what you want it to do conversationally, then the app generates an automation flow. You can also tweak it by sending a follow-up prompt in the app; the manual scripting option remains available for power users. Since I was testing this app through the iOS 27 beta, I experienced a couple of glitches where the automations didn\u2019t generate perfectly. Even so, this new Shortcuts feature was incredibly fun to tinker with. After a few tries, I generated automations that actually feel useful as part of my daily smartphone habits. Here are a few basic shortcut ideas worth trying once you download and install iOS 27. My examples only scratch the surface of what you can automate with the app, but hopefully it will spark ideas for your needs.",
+      "dimension": "competitive",
+      "query": "Plane vs Shortcut features",
+      "published": "Sun, 23 Au"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "G2 lists four Plane pricing editions ranging from $0 to $499. (price check unavailable) (source text unavailable, not judged)",
+      "source_ids": [
+        "S17"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Plane offers a free tier supporting up to 12 users at $0 per month.",
+      "source_ids": [
+        "S20",
+        "S38",
+        "S39"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "The Pro plan for Plane costs $6 per seat per month.",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S38"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "FindPM lists a Pro plan for Plane at $8 per member per month.",
+      "source_ids": [
+        "S39"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Plane's Business plan is priced at $13 per seat per month.",
+      "source_ids": [
+        "S20",
+        "S38"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "FindPM lists a Business plan for Plane at custom pricing.",
+      "source_ids": [
+        "S39"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Plane provides an Enterprise Grid plan with custom pricing for organizations needing private or managed deployments.",
+      "source_ids": [
+        "S20"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Annual billing offers a 25% discount on Plane's Pro plan and a 13% discount on its Business plan.",
+      "source_ids": [
+        "S20"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "A cost comparison on Plane's pricing page indicates a 10-person team would pay roughly $720 per year for Plane compared with about $2,084 for Jira and Confluence combined.",
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "A 10-user deployment of Plane on cloud or self-hosted costs $2,160 over three years at $6 per seat per month with yearly billing.",
+      "source_ids": [
+        "S38"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Plane operates as an AI-first platform unifying tasks, documents, workflows, and AI assistance.",
+      "source_ids": [
+        "S1",
+        "S46"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Plane includes an AI assistant that lets users ask natural-language questions about project progress, blockers, deadlines, and work items.",
+      "source_ids": [
+        "S20",
+        "S46"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "The platform provides a built-in wiki and documentation pages linked to work items.",
+      "source_ids": [
+        "S20",
+        "S46"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Plane supports time tracking at the work item level, and the feature is included in the Pro tier.",
+      "source_ids": [
+        "S38",
+        "S42",
+        "S39",
+        "S46"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Plane supports SAML and LDAP single sign-on across workspaces.",
+      "source_ids": [
+        "S37",
+        "S41"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "SAML-based single sign-on requires Plane's Business plan at $13 per seat per month.",
+      "source_ids": [
+        "S38"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "The tool offers migration support for moving from Jira, Asana, Trello, Linear, ClickUp, and Confluence.",
+      "source_ids": [
+        "S21",
+        "S45"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Plane integrates with GitHub, GitLab, Slack, Discord, and other third-party tools.",
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Plane can be self-hosted via Docker or Kubernetes, including air-gapped enterprise environments.",
+      "source_ids": [
+        "S20",
+        "S41",
+        "S45"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "A Prime CLI feature enables single-command installation, configuration, backup, and monitoring for self-hosted instances.",
+      "source_ids": [
+        "S41"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Plane holds SOC 2, ISO 27001, GDPR, and CCPA compliance certifications.",
+      "source_ids": [
+        "S41"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "Version 1.4.0 introduced lightweight REST API endpoints for list views alongside improved webhooks and a modular translation architecture.",
+      "source_ids": [
+        "S44"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira is a widely used project management and issue tracking platform developed by Atlassian.",
+      "source_ids": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Atlassian discontinued support for Jira Server in February 2024 and plans to end Jira Data Center by March 2029 while shifting focus to Atlassian Cloud.",
+      "source_ids": [
+        "S7",
+        "S8",
+        "S10"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira Cloud Standard plan pricing starts at approximately $7 to $8 per user per month, and Premium starts at roughly $14 to $16 per user per month, with custom Enterprise pricing.",
+      "source_ids": [
+        "S22",
+        "S24",
+        "S25"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira Data Center pricing starts at $51,000 per year for teams of 500 or more.",
+      "source_ids": [
+        "S22",
+        "S24"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp offers paid project management plans ranging from about $7 to $12 per user per month, plus a custom-priced Enterprise tier.",
+      "source_ids": [
+        "S27",
+        "S29"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp sells separate AI add-ons including ClickUp Brain at $9 per user per month when billed annually.",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Shortcut offers a Team plan at $10 per user per month and a Business plan at $16 per user per month, with discounts up to 25% for annual payment.",
+      "source_ids": [
+        "S32",
+        "S33",
+        "S36"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Shortcut receives user criticism for limited reporting depth, lack of a mobile app, and steep per-user pricing for small teams.",
+      "source_ids": [
+        "S36"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Pivotal Tracker shut down on April 30, 2025.",
+      "source_ids": [
+        "S15"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Some users consider alternatives to Plane because self-hosting demands technical upkeep and its advanced reporting is less mature than Jira's. (source text unavailable, not judged)",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Augment Code notes that Plane's interface feels less polished than Linear's and that its community is smaller than those of Jira, Linear, or Shortcut.",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Plane is positioned as an open-source alternative to Jira, Linear, Monday, and ClickUp.",
+      "source_ids": [
+        "S44",
+        "S45"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Among compared tools, Plane is the only option that supports self-hosting with an open-source codebase.",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "VentureGaps gives Plane an overall rating of 7.5 out of 10. (source text unavailable, not judged)",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "FindPM shows an average user rating of 4.7 out of 5 for Plane based on three reviews.",
+      "source_ids": [
+        "S39"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "PeerSpot states that Plane surpasses competitors through intuitive collaboration, seamless integration capabilities, and robust security.",
+      "source_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "unsupported_claims": [
+    {
+      "dimension": "features",
+      "text": "Plane includes customizable workflows, cycles, modules, dependencies, and multiple views such as board, list, calendar, Gantt, and spreadsheet. (judge: not_stated)",
+      "source_ids": [
+        "S38",
+        "S46"
+      ]
+    }
+  ]
+}

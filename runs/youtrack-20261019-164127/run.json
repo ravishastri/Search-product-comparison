@@ -1,0 +1,1060 @@
+{
+  "product": "YouTrack",
+  "price_check": {
+    "checked": 9,
+    "missing": 0,
+    "unavailable": 2
+  },
+  "off_topic_dropped": 9,
+  "description": "Issue tracker and project management for software teams",
+  "category": "project management",
+  "model": "moonshotai/Kimi-K2.6",
+  "judge_model": "moonshotai/Kimi-K2.6",
+  "judge_counts": {
+    "supported": 40,
+    "no_source_text": 3,
+    "not_stated": 2
+  },
+  "search": {
+    "depth": "advanced",
+    "results_per_query": 5
+  },
+  "snippet_chars": 1500,
+  "pricing_facts": [
+    {
+      "claim": "YouTrack paid cloud plans start at $3.67 per user per month. (price check unavailable) (source text unavailable, not judged)",
+      "amounts": [
+        "3.67"
+      ],
+      "unit": "per_user",
+      "billing": "monthly",
+      "source_ids": [
+        "S27",
+        "S29"
+      ]
+    },
+    {
+      "claim": "YouTrack plan costs can reach $600 depending on the selected plan. (price check unavailable) (source text unavailable, not judged)",
+      "amounts": [
+        "600"
+      ],
+      "unit": "unknown",
+      "billing": "unknown",
+      "source_ids": [
+        "S29"
+      ]
+    },
+    {
+      "claim": "YouTrack costs approximately $50 per month for a team of 10 users and about $500 per month for a team of 100 users.",
+      "amounts": [
+        "50",
+        "500"
+      ],
+      "unit": "per_month",
+      "billing": "monthly",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "claim": "Starting October 2025, new YouTrack monthly subscriptions begin at $5.40 per user per month and annual subscriptions begin at $4.50 per user per month.",
+      "amounts": [
+        "5.40",
+        "4.50"
+      ],
+      "unit": "per_user",
+      "billing": "annual",
+      "source_ids": [
+        "S30"
+      ]
+    },
+    {
+      "claim": "For teams with 4 or more support agents, YouTrack charges $6 per agent per month on monthly billing and $5.50 per agent per month on annual billing.",
+      "amounts": [
+        "6",
+        "5.50"
+      ],
+      "unit": "per_month",
+      "billing": "annual",
+      "source_ids": [
+        "S30",
+        "S31"
+      ]
+    },
+    {
+      "claim": "YouTrack Server annual subscriptions are listed at $900 for 15 users, $1,500 for 25 users, and $3,000 for 50 users.",
+      "amounts": [
+        "900",
+        "1,500",
+        "3,000"
+      ],
+      "unit": "unknown",
+      "billing": "annual",
+      "source_ids": [
+        "S49"
+      ]
+    },
+    {
+      "claim": "YouTrack enterprise implementation, customization, training, and migration can range from $5,000 to $50,000.",
+      "amounts": [
+        "5,000",
+        "50,000"
+      ],
+      "unit": "unknown",
+      "billing": "unknown",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "claim": "For a team of 100 users, YouTrack is approximately $250 less expensive per month than Jira\u2019s standard plan.",
+      "amounts": [
+        "250"
+      ],
+      "unit": "per_month",
+      "billing": "monthly",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "claim": "Selecting YouTrack\u2019s Team plan instead of the Enterprise tier can save over $120 per user per year.",
+      "amounts": [
+        "120"
+      ],
+      "unit": "per_user",
+      "billing": "annual",
+      "source_ids": [
+        "S48"
+      ]
+    }
+  ],
+  "malformed_claims_dropped": 0,
+  "pages_unfetched": [
+    "https://www.capterra.com/p/123548/YouTrack/pricing",
+    "https://www.capterra.com/p/159806/GitLab/pricing",
+    "https://www.g2.com/products/youtrack/pricing",
+    "https://www.trustradius.com/products/gitlab/pricing",
+    "https://youtrack-support.jetbrains.com/hc/en-us/community/posts/205790369-SSO-Login-Support"
+  ],
+  "run_date": "2026-10-19",
+  "similar": [
+    "Jira",
+    "Linear",
+    "GitLab"
+  ],
+  "candidate_status": {
+    "Jira": {
+      "status": "active",
+      "source": "S7"
+    },
+    "Linear": {
+      "status": "unknown",
+      "source": ""
+    },
+    "GitLab": {
+      "status": "active",
+      "source": "S17"
+    },
+    "Taiga": {
+      "status": "active",
+      "source": "S19"
+    },
+    "Trello": {
+      "status": "active",
+      "source": "S24"
+    }
+  },
+  "excluded_retired": [],
+  "queries": [
+    "YouTrack alternatives competitors project management",
+    "YouTrack pricing plans",
+    "Jira pricing plans",
+    "Linear pricing plans",
+    "GitLab pricing plans",
+    "YouTrack SSO plans",
+    "YouTrack time tracking plans",
+    "YouTrack vs Jira features",
+    "YouTrack vs Linear features",
+    "YouTrack vs GitLab features",
+    "YouTrack launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.getapp.com.au/alternatives/123891/youtrack",
+      "title": "YouTrack Alternatives & Competitors",
+      "content": "What are the top 5 alternatives to YouTrack? Smartsheet (6108) Project management software. Wrike is the trusted work delivery platform for project management,",
+      "dimension": "discovery",
+      "query": "YouTrack alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S2",
+      "url": "https://www.getapp.ca/alternatives/123891/youtrack",
+      "title": "Top 20 YouTrack Alternatives",
+      "content": "Quickly find and compare the leading YouTrack alternatives. Project Management, Collaboration and Bug Tracking. Trello is a visual project management tool.",
+      "dimension": "discovery",
+      "query": "YouTrack alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S3",
+      "url": "https://www.breeze.pm/articles/youtrack-alternatives",
+      "title": "Best YouTrack alternatives in 2026 for developer teams",
+      "content": "## Best YouTrack alternatives The tools below cover a range of team project management needs, from simple task boards to more structured workflows, reporting, and planning. Breeze Linear Jira GitLab Redmine Taiga Zoho Sprints Asana Trello ClickUp ### Breeze YouTrack alternative Breeze Best for: teams that want simple project management. Breeze is a straightforward project management platform built around clear ownership, simple workflows, and fast team collaboration. If YouTrack no longer fits the way your team works, Breeze gives you a cleaner way to manage tasks, deadlines, comments, time, and reporting in one place. #### Key features [...] #### Key features Visual project boards that keep work easy to scan. Task ownership, deadlines, and comments in one view. Built-in time tracking and workload visibility. Reporting that helps teams stay on top of delivery. Simple setup that is easy for non-technical teams to adopt. YouTrack alternative Breeze task window Best for: small teams, agencies, marketing teams, and organizations that want simple project management. Pricing: Simple pricing at $10 per user per month, with all features included. You can save 10% with a yearly plan Rating: 4.4/5 on Capterra If you want a closer side-by-side view, compare Breeze with Breeze vs Jira, Breeze vs Trello, and Breeze vs Asana. #### Migration perspective from YouTrack [...] Where switching does make sense, the decision is usually clean. Engineering teams frustrated by speed go to Linear; teams that need more control than YouTrack offers go to Jira or GitLab; teams with a self-hosting mandate go to Redmine or Taiga; and teams that were never really tracking issues go to Breeze, Asana, or Trello. Export a real project through the REST API before you commit \u2014 issue history is the part that most often does not survive the move. Product Guides & support Extras & add-ons Mobile web app iPhone app Android app All features Customers API MCP server Compare vs Trello vs Basecamp vs Asana vs ClickUp vs Monday.com vs Notion vs Airtable vs JIRA vs Wrike vs Teamwork vs Todoist vs Podio Why choose Breeze Project board samples Project templates",
+      "dimension": "discovery",
+      "query": "YouTrack alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S4",
+      "url": "https://zenkit.com/en/alternatives/youtrack-alternative",
+      "title": "Zenkit Projects as a YouTrack Alternative",
+      "content": "This is the essence of Zenkit! Zenkit is a multi-project management solution for successful teams that is suitable for both agile and traditional projects. Zenkit offers flexible optimization features such as project view switching, global views, and custom reports to teams \u2013 all necessary for task and resource management. Furthermore, Zenkit is deeply integrated with the rest of the Zenkit Suite. Zenkit is an easy-to-use, yet powerful Suite that evolves and adapts to your needs. Try Zenkit if you\u2019re looking for a full-featured alternative to YouTrack! [...] | | | | --- | | YouTrack | Zenkit | | \u2705 Task and project management | | | | \ud83d\udccb Kanban, list view, Gantt | | | | \ud83e\udd16 Zapier integration for automation | | | | \ud83d\udcd6 Wikis and documentation | | | | \ud83d\udcac Group chats and direct messages | | | | \ud83c\udf0d Available in 10+ languages | | | | \ud83d\udcde Free initial consultation in German | | | | \ud83c\udde9\ud83c\uddea German server location only | | | | \ud83d\udd12 Focus on German data protection | | | | \ud83d\udedf EN/DE customer service via email and chat | | | [...] DeutschEnglishFran\u00e7aisEspa\u00f1olItalianoPortugu\u00eas\ud55c\uad6d\uc5b4\u0420\u0443\u0441\u0441\u043a\u0438\u0439\u7e41\u9ad4\u4e2d\u6587\u65e5\u672c\u8a9e Log in Get started Deutsch Fran\u00e7ais Espa\u00f1ol Italiano Portugu\u00eas \ud55c\uad6d\uc5b4 \u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u7e41\u9ad4\u4e2d\u6587 \u65e5\u672c\u8a9e Products Zenkit Zenkit Hypernotes Zenkit To Do Zenforms Zenchat Sell all products Company Service # Zenkit as a YouTrack Alternative ## YouTrack is a browser-based bug tracker, issue tracking system, and project management software. What if your team could see all of their projects and tasks at once? What if each team member could see the projects from their preferred perspective?",
+      "dimension": "discovery",
+      "query": "YouTrack alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S5",
+      "url": "https://worksection.com/en/blog/youtrack-alternatives.html",
+      "title": "10 Best YouTrack Alternatives in 2026",
+      "content": "### Which YouTrack alter\u00adna\u00adtive works best for agencies? Agen\u00adcies need time track\u00ading, client access, and rich reports. In prac\u00adtice, Work\u00adsec\u00adtion, Click\u00adUp, and Asana per\u00adform best. All three let you set per-project per\u00admis\u00adsions and track bill\u00adable hours. ### Are there free YouTrack analogues? Yes. Taiga is ful\u00adly open source, Git\u00adLab Issues ships in GitLab\u2019s free tier, Trel\u00adlo offers a no-cost plan with Pow\u00ader-Ups, and Work\u00adsec\u00adtion has a free base plan for small teams. ### How is Work\u00adsec\u00adtion dif\u00adfer\u00adent from YouTrack? [...] Com\u00adpet\u00adi\u00adtive pres\u00adsure. New\u00ader task track\u00aders ship Kan\u00adban, Gantt, cal\u00aden\u00addar, time track\u00ading, and client access \u200b\u201cout of the box,\u201d often on every plan. [...] ### Base\u00adcamp Base\u00adcamp is a light\u00adweight man\u00adag\u00ader built by 37 sig\u00adnals for small teams. Its \u200b\u201cless is more\u201d phi\u00adlos\u00ado\u00adphy shows in to-dos, sched\u00adules, chat, and file stor\u00adage \u2014 no sprints or gran\u00adu\u00adlar roles, min\u00adi\u00admal noise. Great for killing inter\u00adnal email and focus\u00ading on work. ### Taiga Taiga is an open-source issue track\u00ader sup\u00adport\u00ading Scrum and Kanban. Pros: high con\u00adfig\u00adura\u00adbil\u00adi\u00adty, Python plug-in sys\u00adtem, zero user-licence fees. Cons: self-host\u00ading com\u00adplex\u00adi\u00adty or paid cloud, docs may lag behind. Cho\u00adsen by teams that prize open source and code transparency. ## Com\u00adpar\u00ada\u00adtive Table of Top YouTrack Alternatives",
+      "dimension": "discovery",
+      "query": "YouTrack alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S6",
+      "url": "https://eu.36kr.com/en/p/3931781634260099",
+      "title": "OpenAI\u2019s 1-Year Progress Proves You Don\u2019t Need to Switch Browsers for AI Features",
+      "content": "In the past year, AI browsers have exited in four postures. Arc stopped updating: in May 2025, Josh Miller, founder of The Browser Company, released an open letter announcing the discontinuation of development of this star product, and the whole team turned to the AI browser Dia. Sidekick was absorbed: its team was acquired by Perplexity in the same month, and the product was shut down in August \u2014 if you open its official website today, the page will directly jump to comet.perplexity.ai. The Browser Company itself was acquired: in September, Atlassian bought the entire company for 610 million US dollars. The company that makes Jira acquired the company that makes browsers, a deal that was interpreted at the time as a decent exit.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Sat, 08 Au"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.theregister.com/software/2025/09/09/atlassian-goes-cloud-only-customers-face-integration-issues/391022",
+      "title": "Atlassian goes cloud-only, customers face integration issues",
+      "content": "# Atlassian's move to cloud-only means customers face integration issues and more First, server products go end of life, now datacenter gets the chop, and larger customers will pay more Atlassian is discontinuing its datacenter products, including Jira, Confluence and Bamboo, in favor of Atlassian Cloud. There is a partial exception for Bitbucket, a source code repository manager, which will have a license option covering both cloud and datacenter. The official post states that \"nearly all our new customers\" are choosing cloud and that there are benefits in AI search, chat and automation, thanks to its Rovo offering.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 09 Se"
+    },
+    {
+      "id": "S8",
+      "url": "https://zigiwave.com/resources/data-migration-tools-itsm-devops",
+      "title": "Data Migration Tools for ITSM and DevOps Teams (2026) | ZigiOps",
+      "content": "Atlassian's Data Center end of life. Atlassian has announced that it stops selling new Data Center subscriptions to new customers on March 30, 2026, and that Data Center reaches end of life on March 28, 2029. Thousands of Jira and Jira Service Management instances will move to cloud, and some organizations will use the moment to consolidate on a different ITSM platform altogether. Tool consolidation. After a decade of SaaS sprawl, many enterprises are reducing the number of service desks, moving from BMC Remedy or Cherwell to ServiceNow, from several Jira instances to one, or from a legacy tool to Freshservice or Jira Service Management.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Mon, 12 Oc"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.csoonline.com/article/4231527/atlassians-critical-flaw-turns-eight-enterprise-products-into-one-big-security-problem.html",
+      "title": "Atlassian\u2019s critical flaw turns eight enterprise products into one big security problem | CSO Online",
+      "content": "Another option is blocking requests using a Tomcat RewriteValve rule on each node in their data center cluster for Bamboo, Confluence, Crowd, Jira Software, and Jira Service Management. Each node should then be shut down and restarted. And Bitbucket users could back up their instances, write a rule in urlrewrite.xml, apply it to every node, mirror, and mirror farm node, and then restart. But Atlassian called the mitigations \u201climited and not a replacement for patching your instance,\u201d adding that it cannot confirm whether a particular enterprise\u2019s instances have been affected by this vulnerability. \u201cEngage your local security team to check all affected instances for evidence of compromise,\u201d the company advised. [...] The patch path explains why some customer updating lags; Atlassian no longer ships binary patches, so fixing this means moving to a new maintenance release, he pointed out. That is an upgrade project rather than a quick fix, and every \u201cwe cannot update yet\u201d is a risk acceptance. But the most telling detail may be the flaw\u2019s scoring vector, Dickson noted. It is rated as having no impact on the vulnerable server\u2019s own integrity and availability, but assesses high impact on subsequent systems across confidentiality, integrity, and availability. In other words, the Jira or Confluence server survives untouched, but the systems its files unlock may not. Essentially, \u201cit is a burglar who takes nothing but the key ring by the front door,\u201d Dickson said.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 06 Oc"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.atlassian.com/blog/company-news/farewell-to-server",
+      "title": "Farewell Server, Hello Cloud - Inside Atlassian",
+      "content": "What happens to your Server instances after Feb 15, 2024? Your products won\u2019t be eligible for renewal or receive updates, enhancements, or security patches. Over time, this may lead to performance and compatibility issues with evolving technologies, posing security and operational risks for your organization. Act now to mitigate these concerns. Which products does Server end of support apply to? Jira Software Server Jira Core Server Jira Service Management Server Confluence Server Bitbucket Server Crowd Server Bamboo Server Atlassian-built Server apps What to do next To remain supported, we recommend migrating to Cloud or upgrading to Data Center. Visit the Atlassian Migration Program to explore your options and learn how to take the next step. [...] Did you purchase a dual license? Here\u2019s what you can expect. If you purchased a Cloud subscription for more than 1,000 users of Jira Software & Confluence or more than 250 agents of Jira Service Management between September 12, 2023 and February 15, 2024 qualifying you for dual licensing, you\u2019re eligible for extended Server support for up to 12 months. If you have a dual license, make sure to update your preferences here in order to receive email updates for security patches, bug fixes, and tech alerts. Have questions? Get in touch: Your advocate is ready to help. ## Unable to make the move? Upgrade to Data Center [...] ## Unable to make the move? Upgrade to Data Center For those unable to move to Cloud for now, we encourage you to upgrade to Data Center to stay supported and receive dozens of additional enterprise-grade features not available on Server, such as advanced auditing, rate limiting, and rolling and zero-downtime upgrades. In addition to these, we\u2019ve continued to introduce more functionality in our Data Center products in the areas of performance and scale, security & compliance, and infrastructure and operations to increase productivity across admins and end-users. Just last year, we released the latest LTS (long-term support) releases for Jira Software and Jira Service Management, Confluence, and Bitbucket.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Thu, 15 Fe"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.headphonesty.com/2025/11/discontinued-audio-brands-audiophiles-miss-most",
+      "title": "20 Discontinued Audio Brands Thousands of Audiophiles Miss The Most, Based on Recent Surveys | Headphonesty",
+      "content": "In 1979, Bob Carver sold Phase Linear to Pioneer Electronics. He immediately founded Carver Corporation. Pioneer put out a few Phase Linear-branded products, some high-end cassette decks, and car stereo units. Without Carver\u2019s vision, the brand lost steam. By 1982, Pioneer had essentially discontinued Phase Linear\u2019s home audio lineup. The name was later sold and saw some use on car audio amps, but it never returned to prominence. ## 19. SABA (0.6% of Votes) SABA Freiburg (From: Luxury Radios) SABA Freiburg (From: Luxury Radios) In Germany, four names defined audio: Grundig, Telefunken, Blaupunkt, and SABA. [...] The company\u2019s growth eventually caught up with them. After a 1978 bankruptcy, a 1984 spin-off kept consumer audio alive for a while. But through the \u201990s, the line faded, and by the 2000s, the name lived on mostly in other categories Its name survived through computer tape drives and videoconferencing gear (Cisco bought the video division in 2010), but Tandberg\u2019s home-audio era ended around the turn of the millennium. ## 18. Phase Linear (0.7% of Votes) Phase Linear 700 amplifier (From: The Absolute Sound) Phase Linear 700 amplifier (From: The Absolute Sound) They called it \u201cFlame Linear.\u201d [...] Table of Contents 1. Nakamichi (18.8% of Votes) 2. Sansui (13.5% of Votes) 4. Carver (8.4% of Votes) 5. Boston Acoustics (7.0% of Votes) 6. Altec Lansing (6.6% of Votes) 7. Akai (5.4% of Votes) 8. ADS (5.1% of Votes) 9. OPPO Digital (4.3% of Votes) 10. Blaupunkt (4.2% of Votes) 11. Aiwa (3.2% of Votes) 12. Fisher (3.0% of Votes) 13. Dahlquist (2.3% of Votes) 14. Advent (1.5% of Votes) 15. Thiel (1.4% of Votes) 16. Realistic (1.2% of Votes) 17. Tandberg (1.0% of Votes) 18. Phase Linear (0.7% of Votes) 19. SABA (0.6% of Votes) 20. Boschmann (0.5% of Votes) ## 1. Nakamichi (18.8% of Votes) Nakamichi 1000 (From: HiFi Hall of Fame) Nakamichi 1000 (From: HiFi Hall of Fame) Nakamichi didn\u2019t just make cassette decks. It made the cassette decks.",
+      "dimension": "status",
+      "query": "Linear discontinued or shut down",
+      "published": "Fri, 28 No"
+    },
+    {
+      "id": "S12",
+      "url": "https://variety.com/2025/tv/news/hbo-family-channels-shut-down-warner-bros-discovery-1236430009",
+      "title": "HBO Family, Other Channels to Be Shut Down by Warner Bros. Discovery",
+      "content": "Linear premium channels have been hit with major viewership declines as audiences shift to streaming; the majority of HBO original series viewership can now be found on the soon-to-be-renamed HBO Max. And of course, the decision to cut these networks comes as Warner Bros. Discovery itself announced plans this week to cut the company in half, with linear basic cable networks moving to a new spinoff entity. (HBO isn\u2019t part of that spinoff.) ### Popular on Variety ### Popular on Variety [...] an image, when javascript is unavailable # HBO Family, ThrillerMax and Other Multiplex Channels to Be Shut Down by Warner Bros. Discovery By Michael Schneider ### Michael Schneider Executive Editor #### Latest HBO Family As Elmo leaves the HBO family, so does HBO Family. The spinoff channel, which launched in December 1996 as a more kid- and family-friendly version of HBO, will shut down on August 15. It\u2019s part of a larger strategy by Warner Bros. Discovery to pare down its large collection of \u201cmultiplex channels\u201d \u2014 those additional linear channels that are usually included in the price of an HBO or Cinemax subscription.",
+      "dimension": "status",
+      "query": "Linear discontinued or shut down",
+      "published": "Fri, 13 Ju"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.tradingview.com/news/zacks:51fcea924094b:0-gitlab-down-35-in-six-months-should-you-buy-sell-or-hold-the-stock",
+      "title": "Gitlab Down 35% in Six Months: Should You Buy, Sell or Hold the Stock? \u2014 TradingView News",
+      "content": "However, GitLab is experiencing headwinds from U.S. public sector softness due to slower decision-making caused by the government shutdown and ongoing challenges in the SMB segment. Stiff competition and stretched valuation remain a concern. Gitlab currently has a Zacks Rank #4 (Sell), suggesting that investors should stay away from the stock right now. You can see the complete list of today\u2019s Zacks #1 Rank (Strong Buy) stocks here. Research Chief Names \"Single Best Pick to Double\" From thousands of stocks, 5 Zacks experts each have chosen their favorite to skyrocket +100% or more in months to come. From those 5, Director of Research Sheraz Mian hand-picks one to have the most explosive upside of all. [...] Zacks Zacks # Gitlab Down 35% in Six Months: Should You Buy, Sell or Hold the Stock? Gitlab GTLB shares have plunged 34.8% in the trailing six-month period, underperforming the broader Zacks Computer & Technology sector\u2019s rise of 7.9% and the Zacks Internet - Software industry\u2019s decline of 22.4%. The underperformance can be attributed to challenges from U.S. public sector delays due to the government shutdown and ongoing budget constraints, as well as continued weakness in the price-sensitive SMB segment, which remains a headwind. Stiff competition from companies like Atlassian TEAM and Microsoft MSFT remains a concern. GTLB Stock's Performance Zacks Investment Research [...] GitLab Inc. (GTLB): Free Stock Analysis Report This article originally published on Zacks Investment Research (zacks.com). Zacks Investment Research ## GTLB chart ## Latest news ## More news from Zacks Select market data provided by ICE Data Services. Select reference data provided by FactSet. Copyright \u00a9 2026 FactSet Research Systems Inc.Copyright \u00a9 2026, American Bankers Association. CUSIP Database provided by FactSet Research Systems Inc. All rights reserved. SEC filings and other documents provided by Quartr.\u00a9 2026 TradingView, Inc. Look First Look First",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Tue, 17 Fe"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.businessinsider.com/gitlab-ceo-coronavirus-market-work-remote-2020-3",
+      "title": "All Remote GitLab Faces Less Impact From Coronavirus, CEO Says - Business Insider",
+      "content": "Hiring remote workers also increases the hiring pool for many companies, the report said. The survey showed that 83% of employees who report having a disability or chronic illness cite remote work as a key factor in allowing them to work and contribute to their company, while 34% of employees saying being able to care for their family is a top benefit of remote work. Still, coronavirus did have some impact on GitLab's operations, Sijbrandij says. Employees who regularly visit customers have cancelled those trips. Also, as an all-remote company, GitLab hosts an internal conference for all its employees worldwide, but that also got canceled. Likewise, schedules may change for parents as schools shut down. [...] When coronavirus broke out in Silicon Valley, it prompted many tech companies to order employees to work from home and to re-examine how their companies operate. But at the $2.75 billion startup GitLab, which helps developers release code faster and more often, remote work is business as usual. That's because GitLab is an all-remote company and doesn't even have any offices, said GitLab co-founder and CEO Sid Sijbrandij. For now, GitLab is still planning on going public this November, although Sijbrandij previously noted that market conditions could force plans those plans to change. To that end, GitLab is working to increase its recurring revenue and build a more \"predictable\" business model but he admits that it's an unpredictable time in the world right now.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Mon, 16 Ma"
+    },
+    {
+      "id": "S15",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gitlab-set-report-q1-earnings-170800243.html",
+      "title": "GitLab Set to Report Q1 Earnings: What's in Store for the Stock?",
+      "content": "GitLab's SaaS and higher-tier offerings are expected to continue contributing to growth in the first quarter of fiscal 2027. In fourth-quarter fiscal 2026, SaaS revenues grew 38% year over year and accounted for approximately 32% of total revenues, driven by continued strength in GitLab Dedicated and Duo offerings. GitLab Ultimate represented 56% of ARR in the quarter and accounted for nine of the top 10 deals. The above-mentioned factors are expected to have supported continued enterprise adoption and revenue growth in the to-be-reported quarter. However, challenges stemming from U.S. public sector delays due to the government shutdown and ongoing budget constraints, along with continued weakness in the price-sensitive SMB segment, are likely to remain a headwind. [...] GitLab's first-quarter fiscal 2027 performance is expected to have benefited from continued momentum in its AI-driven DevSecOps offerings and expanding go-to-market initiatives. The company highlighted that sales-led first orders began reaccelerating in the second quarter of fiscal 2026, while product-led growth improved, with four consecutive months of better logo trends entering fiscal 2027. [...] The continued rollout of GitLab Duo Agent Platform (\"DAP\") is also expected to have contributed to customer engagement in the to-be-reported quarter. The company cited growing customer interest in automating software development tasks, including vulnerability remediation, dependency updates and cloud migrations. GitLab also introduced usage-based pricing and included DAP promotional credits with Premium and Ultimate subscriptions to accelerate platform adoption.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Fri, 29 Ma"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.fool.com/investing/2026/03/09/is-now-the-time-to-buy-beaten-up-gitlab",
+      "title": "Is Now the Time to Buy Beaten-Up GitLab? | The Motley Fool",
+      "content": "The company continues to see solid growth within its existing customer base, with dollar-based net retention of 118%. Meanwhile, enterprise customer growth remains solid. The number of customers with $100,000 or more in annual recurring revenue (ARR) rose by 18% to 1,456, while customers with $1 million in ARR jumped 26% to 155. It continues to see pressure in the mid-market, while its government business saw a partial recovery after the government shutdown. Looking ahead, GitLab guided for full-year fiscal 2027 revenue between $1.099 billion and $1.118 billion, representing growth of 15% to 17%. That was below the analyst consensus for revenue of $1.12 billion, as compiled by FactSet. It is looking for EPS in the range of $0.76 and $0.80. [...] +Fool.comon ## Key Points GitLab shares continued their rough ride after the company issued conservative guidance. The software development platform is transitioning to a hybrid consumption model. The stock is now in the deep discount bin, making it worth a closer look. [...] Image source: Getty Images. ## Is the stock a buy? Given its shift to a hybrid seat-plus consumption pricing model (combining a fixed, recurring per-user fee with variable charges based on product usage) and the introduction of its Duo Agent Platform, which requires consumption credits, it's not surprising that GitLab issued conservative fiscal 2027 guidance. However, both of these initiatives have the potential to be long-term growth drivers. Meanwhile, with the stock already washed out, it makes sense for management to set a low bar to jump over going forward.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Mon, 09 Ma"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-five-year-old-gitlab-flaw-exploited-in-attacks",
+      "title": "CISA warns of five-year-old GitLab flaw exploited in attacks",
+      "content": "\"These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise,\" CISA warned. \"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.\" Shodan is currently tracking over 49,000 devices with a GitLab fingerprint exposed online, the vast majority of which are from China, and nearly 27,000 are using the default port 443. GitLab says its DevSecOps platform has more than 30 million registered users and is used by over 50% of Fortune 100 organizations, including high-profile companies such as Nvidia, Airbus, Goldman Sachs, T-Mobile, and Lockheed Martin.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Wed, 04 Fe"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.ossalternatives.org/alternatives-to/todoist",
+      "title": "10 Best Open Source Todoist Alternatives in 2026",
+      "content": "OpenProject, Taiga, Operately, and Macro are team project-management platforms, Hosted service has been discontinued, Taiga Open-source Agile project",
+      "dimension": "status",
+      "query": "Taiga discontinued or shut down",
+      "published": "Wed, 30 Se"
+    },
+    {
+      "id": "S19",
+      "url": "https://plane.so/blog/11-jira-alternatives-you-can-self-host-in-2026",
+      "title": "11 best Jira alternatives you can self-host in 2026 | Plane Blog",
+      "content": "### The ownership question In March 2024, Kaleidos (Taiga's original creator) transferred operations to Taiga Cloud Services SL (TCS), a Spain-based company, and refocused entirely on Penpot. The planned major rewrite, \"TaigaNext,\" was handed to a separate entity called BIRU, which rebranded it as Tenzu (announced September 2024). TCS continues maintaining Taiga 6 with security fixes and performance improvements, but the development pace has slowed significantly. [...] This creates genuine strategic confusion. If you adopt Taiga today, you are committing to a platform where the original creators have left, the next-generation rewrite is being developed by a different organization under a different name, and the maintenance entity is a relatively new company. For short-term use, Taiga 6 is stable and functional. For multi-year planning, the uncertainty is real. ### Where it falls short No Gantt charts. No native time tracking. Limited automation capabilities. A smaller plugin ecosystem than Redmine or OpenProject. The ownership transition introduces long-term uncertainty that matters for teams making tooling decisions they will live with for years. [...] Replacing Jira for software engineering with modern UX: Plane covers sprints, Kanban, Gantt, AI, time tracking, documentation, and intake in a single platform with the simplest deployment path. It is the closest to a drop-in Jira replacement that also happens to be better to use. Gantt charts, scheduling, and cost management are your primary needs: OpenProject has the strongest scheduling implementation in the open-source space, is backed by a stable EU-based company. Pure Scrum shop that wants the cleanest Scrum implementation: Taiga, with the caveat that long-term roadmap uncertainty exists due to the ownership transition.",
+      "dimension": "status",
+      "query": "Taiga discontinued or shut down",
+      "published": "Tue, 03 Ma"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.siliconera.com/sega-heroes-shutdown",
+      "title": "Sega Heroes Shutdown Announced for May 2020 - Siliconera",
+      "content": ", the match-three character gacha extravaganza, now is the time to stop spending money on it. In a surprising turn of events, the years-long partnership between Sega and developer Demiurge is coming to an end. Demiurge is returning to independence, and that means a Sega Heroes shutdown is around the corner. Fans of Sega Heroes have about a month left to enjoy the game. However, starting tomorrow, in-app purchases will be turned off. As a final hurrah of sorts, while Sega is preparing to shut down the servers, it\u2019s opening up the floodgates first. All players will have the maximum VIP levels activated, Daily Rewards will award boosted gem numbers, Legendary Events and Dremagen Boss Battles will all be turned on, and Taiga Saejima will be released to complete the Yakuza set. On May 21,",
+      "dimension": "status",
+      "query": "Taiga discontinued or shut down",
+      "published": "Fri, 17 Ap"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.saltwire.com/newfoundland-labrador/nordspace-postpones-rocket-launch-in-nl",
+      "title": "NordSpace postpones suborbital rocket launch in NL, but will try again | PNI Atlantic News",
+      "content": "Author of the article: By Gary Kean \u2022 The Telegram Published Sep 25, 2025 Last updated Sep 30, 2025 4 minute read The inaugural launch of NordSpace's kerosene/liquid oxygen liquid-fuelled Taiga rocket, seen here prior to being place in the upright launch position, will have to wait for another day after the company decided to close its second launch window on Thursday, Sept. 25. NordSpace Article content Canada\u2019s first-ever commercial rocket launch will have to wait a while yet to become a reality. THIS CONTENT IS RESERVED FOR SUBSCRIBERS ONLY. Subscribe now to access this story and more: [...] Article content NordSpace says it will announce the next expected launch date for its Taiga suborbital rocket test flight from St. Lawrence on the Burin Peninsula in the coming weeks. NordSpace Article content ### LOTS STILL IN THE WORKS Article content The company continues to develop its liquid rocket systems and other technology with a goal of advancing Canadian-made space launch capability. Article content \u201cThis is just the very beginning of a long and exciting journey to orbit and beyond, and we will be back on the pad quite soon,\u201d said the company in its statement. Article content Advertisement 3 Story continues below This advertisement has not loaded yet, but your article continues below. Article content [...] or View more offers Article content The third attempt by NordSpace to launch its test rocket from the rocky coastline near St. Lawrence on Newfoundland and Labrador\u2019s Burin Peninsula did not result in getting the Ontario company\u2019s kerosene/liquid oxygen liquid-fuelled Taiga rocket to blast off. Article content Article content Advertisement 1 Story continues below This advertisement has not loaded yet, but your article continues below. Article content",
+      "dimension": "status",
+      "query": "Taiga discontinued or shut down",
+      "published": "Thu, 25 Se"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.britannica.com/science/taiga",
+      "title": "Taiga | Plants, Animals, Climate, Location, & Facts | Britannica",
+      "content": "The taiga of Europe generally lacks permafrost, but east of the Ural Mountains and from central Canada northward permafrost is common. In southern and central parts of the taiga, permafrost occurs sporadically and occupies only a small percentage of the landscape that experiences the coldest temperatures. The northern portion of closed-canopy forest and the lichen woodland zone are in a region of discontinuous permafrost, where permafrost is found on north-facing slopes and in cold air drainage basins but is absent from south-facing slopes and newly deposited alluvial sites. Most of the forest-tundra is within the continuous permafrost zone. [...] During the final period of maximum cold temperatures (23,000 to 16,500 years ago) in the latter part of the Pleistocene Ice Age (which ended 11,700 years ago), species that now constitute the taiga were displaced as far south as 30\u00b0 N latitude by the continental glaciers of Europe, Asia, and North America and by the hyperarid and extremely cold environments of unglaciated Asia and North America. As the glaciers began to retreat gradually about 18,000 years ago, species of the taiga began to move northward in Europe and North America. In eastern and central North America the northward movement of the forest was relatively steady and gradual. An exception to this progression occurred about 9,000 years ago in western Canada, when white spruce spread rapidly northward across 2,000 km (1,240 [...] Select Citation Style Juday, Glenn Patrick. \"taiga\". Encyclopedia Britannica, 26 Sep. 2026, Accessed 14 October 2026. Share Share to social media Facebook X External Websites The Canadian Encyclopedia - Boreal Zone National Geographic - Taiga Alaska Department of Fish and Game - Boreal Forest in Alaska National Center for Biotechnology Information - PubMed Central - Introduction. The boreal forest and global change Canadian Wildlife Federation - Hinterland Who's Who - Boreal Forest Food and Agriculture Organization of the United Nations - The boreal forests: An overview Untamed Science - The Taiga Michigan State University - Michigan Natural Features Inventory - Boreal Forest Britannica Websites",
+      "dimension": "status",
+      "query": "Taiga discontinued or shut down",
+      "published": "Sat, 26 Se"
+    },
+    {
+      "id": "S23",
+      "url": "https://progameguides.com/roblox/a-bizarre-day-modded-rebooted-trello-discord-links",
+      "title": "A Bizarre Day Modded Rebooted Trello Link & Discord",
+      "content": "# A Bizarre Day Modded Rebooted Trello Link & Discord Image 3Neboj\u0161a Priji\u0107Managing Editor at PGG Updated:July 13, 2026Add PGG as a preferred source on Google Image 4: Comment Icon0 Jojo's Bizzare Trello Adventure. Image 5 Image via [Enter Game Name Here] Group Important Information: As of July 13, 2026 the Bizarre Day Modded game has officially been discontinued due to age verification updates as well as the group holder being terminated, which has led to the team being unable to move with the ownership. If this changes in the future, we will be sure to update you here. Recommended Videos [...] Something went wrong. Try again or contact support if the problem persists. Login Image 18 [...] Something went wrong. Try again, or contact support if the problem persists. Save Check your email An account confirmation link was sent to your email. Don't forget to check your spam! Got it! Resend email Image 16 Image 17 BACK Forgot password Enter the email address you used when you joined and we'll send you instructions to reset your password. If you used Apple or Google to create your account, this process will create a password for your existing account. Email Reset password This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Reset password instructions sent. If you have an account with us, you will receive an email within a few minutes.",
+      "dimension": "status",
+      "query": "Trello discontinued or shut down",
+      "published": "Thu, 07 Ma"
+    },
+    {
+      "id": "S24",
+      "url": "https://get-alfred.ai/blog/best-motion-alternatives",
+      "title": "7 Best Motion Alternatives in 2026 (Cheaper, Simpler, Better) | alfred_",
+      "content": "Strengths: Widest integration library for task aggregation, solid time-blocking interface, pulls from Gmail/Slack/Notion/Jira/Trello, fast keyboard shortcuts Limitations: No AI auto-scheduling, steep price with no free plan, subscription cancellation complaints, no team features, requires manual planning ### 5. Clockwise: Shut Down in 2026 (Use Reclaim Instead) Pricing: No longer available. Clockwise shut down on March 27, 2026. [...] ### 2. Sunsama: Best for Intentional Daily Planning Pricing: $20/month (billed annually) | $25/month billed monthly | 14-day free trial Sunsama is the anti-Motion. Where Motion auto-schedules your entire day, Sunsama gives you a guided morning ritual to plan it yourself. Pull tasks from Asana, Todoist, Trello, and Gmail into a daily view, set time estimates, drag them onto your calendar, and work through them intentionally. People with ADHD especially love the structure, and Reddit\u2019s r/ADHD recommends it frequently. [...] Status: Discontinued March 27, 2026 after a Salesforce acquihire; all customer data deleted Closest replacement: Reclaim.ai for focus time and team calendar optimization ### 4. Morgen: Best for Multi-Calendar Consolidation Pricing: $15/month (billed annually at $180/year) | $30/month billed monthly | 14-day free trial If Motion\u2019s limited calendar support frustrated you, Morgen is the answer. It supports Google Calendar, Outlook, iCloud, Exchange, and Fastmail in one unified view \u2013 more calendar providers than any other tool on this list. The interface is modern and polished with drag-and-drop task scheduling.",
+      "dimension": "status",
+      "query": "Trello discontinued or shut down",
+      "published": "Fri, 13 Fe"
+    },
+    {
+      "id": "S25",
+      "url": "https://gigradar.io/blog/upwork-rss-feed",
+      "title": "Upwork RSS Feed Discontinued: What Works Now (Free Alert Audit Tool)",
+      "content": "Feature Old RSS Feed Upwork Native Alerts Dedicated Scanner Alert speed 1-5 min 15-60 min 0-5 min Route to Slack/Telegram \u2705 Via Zapier \u274c \u2705 Native Team assignment \u274c \u274c \u2705 Proposal draft on alert \u274c \u274c \u2705 Client history filtering Basic Basic Advanced Pipeline tracking \u2705 Via Trello/Notion \u274c \u2705 Built-in ToS compliant \u2705 \u2705 \u2705 (if compliant) If your agency does less than $5K/month and you're the only person bidding, saved searches work fine. If you have 3+ people involved in your proposal pipeline, you need more infrastructure. Horizontal range chart of Upwork job alert latency. A dedicated scanner alerts in 0 to 5 minutes, the retired RSS feed in 1 to 5 minutes, Upwork mobile push in 3 to 15 minutes and Upwork email alerts in 15 to 60 minutes. [...] 2 Integration with existing project management Agencies piped RSS items into Trello boards, Notion databases, and Airtable bases using Zapier or n8n. A new Upwork job became a card in the \"New Leads\" column automatically. The VA scored it, moved it to \"Draft Proposal,\" and a freelancer picked it up. 3 Speed RSS feeds updated within minutes of a job posting. Agencies monitoring feeds during business hours could submit proposals within 10-15 minutes of a job going live. On Upwork, the first 5 proposals get disproportionately more views, so that speed advantage translated directly into higher reply rates. ## Why Upwork killed it (and the real reason behind the PR answer) [...] Many of those proposals were clearly AI-generated, hitting the same structure: compliment the project, list qualifications, close with \"looking forward to discussing.\" Metric Before RSS Removal (Pre-Aug 2024) After RSS Removal (Post-Aug 2024) Bot-generated proposals per job 20-30% of total Significantly reduced Time to first proposal Under 60 seconds (bots) 5-15 minutes (humans) Programmatic job data access Open via RSS URL Requires authenticated session 3rd-party tool ecosystem Built on RSS feeds Forced to rebuild or shut down Agency workflow impact Zapier/Slack pipelines worked All RSS-based workflows broke overnight",
+      "dimension": "status",
+      "query": "Trello discontinued or shut down",
+      "published": "Sun, 04 Oc"
+    },
+    {
+      "id": "S26",
+      "url": "https://quicktion.io/blog/gmail-notion-integration",
+      "title": "Notion Gmail Integration: 4 Ways Now Notion Mail Is Gone | Quicktion",
+      "content": "### Does Notion have a built-in Gmail integration? Not anymore. Notion Mail (Notion's own email client) added native email-to-database sync in January 2026, but Notion shut Notion Mail down on September 22, 2026, and the sync ended with it. Existing synced databases stay, but no new emails have landed in them since that date. It was always Gmail-only, required using Notion Mail as your email client, and didn't include attachments, structured property mapping, or AI extraction. A dedicated tool like Quicktion fills those gaps and adds Outlook, Google Sheets, Airtable, Linear, Trello, and Google Drive as destinations. ### Can I automatically send Gmail emails to Notion? [...] LZ Leandro Zubrezki Founder of Quicktion Building tools to bridge the gap between email and the tools you already use. Leandro created Quicktion to help teams save time by automating email workflows across Notion, Google Sheets, Airtable, Linear, Trello, and Google Drive. ## Related Posts Gmail to Excel: 4 Ways to Get Emails into a Spreadsheet comparison ### Gmail to Excel: 4 Ways to Get Emails into a Spreadsheet There is no Gmail-to-Excel button. Here are the four ways that actually work: manual export, Gmail to Google Sheets then .xlsx, Power Automate with Excel Online, and Zapier. What each needs, what each costs, which to pick. \u00b79 min read gmailexcelgoogle-sheetsOutlook to Notion: 4 Ways to Connect Outlook and Notion comparison [...] Any email client, not just Gmail. Notion Mail is Gmail-only. Quicktion's forwarding flow works with Outlook, Microsoft 365, Apple Mail, Exchange, and anything else that can forward email. Six destinations, not just Notion. Quicktion saves to Notion, Google Sheets, Airtable, Linear, Trello, and Google Drive. If half your team lives in Linear and the other half in Notion, Notion Mail can't help. Stay inside your existing inbox. Quicktion's Gmail add-on adds a sidebar to Gmail, so you don't have to switch clients to use it. AI extraction. Quicktion's Pro plan includes AI Email Intelligence: it reads the email (and PDF or image attachments) and fills custom fields like amount, vendor, deadline, or status. Notion Mail's sync drops the email content into a page.",
+      "dimension": "status",
+      "query": "Trello discontinued or shut down",
+      "published": "Thu, 24 Se"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.capterra.com/p/123548/YouTrack/pricing",
+      "title": "YouTrack Pricing 2026",
+      "content": "YouTrack has 3 different plans. The pricing starts at $3.67 per user per month with a free plan available. YouTrack Cloud or Server,",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S28",
+      "url": "https://www.itqlick.com/youtrack/pricing",
+      "title": "YouTrack Pricing: Full 2026 Breakdown | ITQlick",
+      "content": "## YouTrack Pricing Plans YouTrack offers a tiered pricing structure. For a single user, the cost is free. For 10 users, the monthly cost is around $50, translating to approximately $600 annually. Scaling to 100 users would cost about $500 per month or $6,000 per year. Implementation costs for SMBs are minimal, potentially a few hundred dollars for initial setup. For enterprises, implementation, customization, training, and migration can range from $5,000 to $50,000 depending on complexity. ### Pricing Tiers & Hidden Costs Revealed [...] ### Which Plan Is Right for You? YouTrack is a good fit for businesses with varying budget thresholds. Smaller teams with limited budgets can leverage the free plan. Teams with 10-50 users and a budget of $50-$250 per month find the mid-tier plans suitable. Larger enterprises with budgets exceeding $500 per month benefit from the comprehensive features of the top-tier plan. Industries like software development, project management, and IT benefit most from YouTrack's features. Its scalability makes it suitable for both SMBs and large enterprises. ### YouTrack vs. Alternatives (pricing) [...] License price deltas are stated first, then annual TCO deltas with explicit $ differences across real competitors. Compared to competitors, YouTrack's licensing is competitive. Jira's standard plan for 100 users costs around $750 per month, making YouTrack approximately $250 cheaper monthly. Asana's business plan for 100 users is about $2500 per month, a significant difference of $2000. Trello's business class plan is around $1250 per month for 100 users, $750 more than YouTrack. In terms of TCO, considering implementation, training, and ongoing support, YouTrack's annual TCO for 100 users is roughly $8,000-$12,000. Jira's TCO is $10,000-$15,000, Asana's is $30,000-$40,000, and Trello's is $15,000-$20,000. Therefore, YouTrack offers a cost-effective solution, saving businesses between",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S29",
+      "url": "https://www.g2.com/products/youtrack/pricing",
+      "title": "YouTrack Pricing 2026",
+      "content": "According to G2 data, YouTrack pricing in 2026 starts at $3.67 and can reach $600.00 depending on the selected plan. Pricing may vary based on billing terms or",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S30",
+      "url": "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025",
+      "title": "New YouTrack Prices Starting from October 2025 - The JetBrains Blog",
+      "content": "If your team has more than 10 users, subscription prices will be adjusted starting October 1, 2025. For monthly plans, the new pricing starts at USD 5.40 per user per month. If you prefer an annual subscription, you\u2019ll get two months free \u2013 the new starting price will be USD 4.50 per user per month. The larger your team, the lower your price, thanks to discount increasing as you add users. You can explore updated pricing examples in our FAQ. Helpdesk functionality remains fully included with your subscription. It stays free for teams with up to 3 support agents and unlimited reporters. For teams with 4 or more agents, new pricing will apply: USD 6 per agent per month with a monthly plan, or USD 5.50 per agent per month with an annual plan. [...] The new per-user pricing will take effect on October 1, 2025. After that date, monthly plans will start at USD 5.40 per user, and annual plans at USD 4.50 per user, with increasing discounts as your team grows. You can check our FAQ for examples to estimate your cost. As always, the full set of features, support, and AI assistance are included at no extra charge. Discounts for startups, educational and non-profit organizations, and open-source projects will remain available. ## Updates for YouTrack Server customers If you\u2019re using YouTrack Server, here\u2019s what will and won\u2019t change starting October 1, 2025. ### What\u2019s not changing YouTrack Server will remain free for teams of up to 10 users \u2013 no changes there.",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S31",
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/11558334281234-Helpdesk-pricing-and-licensing",
+      "title": "Helpdesk pricing and licensing \u2013 Licensing and Purchasing FAQ",
+      "content": "The YouTrack Cloud trial plan includes 50 support agents in addition to 100 users and 100 GB of disk space for 14 days. After the 14-day trial period expires, your YouTrack instance will go back to the free plan with 10 users and 3 support agents. If you need 4 or more agents, the price is $6 per agent/month for monthly subscriptions and $5.50 per agent/month for an annual subscription for support teams of 4 support agents or more. Each support agent also requires a user license. For example, if your team consists of 30 members and 25 of them are regular users and 5 are support agents, you will pay for 30 users and 5 support agents for your YouTrack subscription. Feel free to use our YouTrack Cloud price calculator to estimate your costs.",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S32",
+      "url": "https://tech.co/project-management-software/jira-pricing",
+      "title": "Jira Pricing Guide: How Much Does the Provider Cost in 2026?",
+      "content": "Time tracking Unlimited projects AI insights Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users. Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users. There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available. In this guide, I\u2019ll take you through everything you need to know about Jira pricing, including plans, hidden fees, and potential competitors. In This Guide: [...] ### Key Takeaways Jira\u2019s Standard plan starts at $7.91 per user, per month, while its Premium plan goes up to $14.54 per user, per month, for up to 300 users. Choose annual billing to reduce the cost of the Standard plan to $6.52 per user, per month for a team of 300. Large enterprises that favor a self-hosting option should go for Jira Data Center, which starts at $51,000 per year and supports teams of 500 or more. Alternatives include Trello, which is great for budget-conscious teams, and monday work management, which is much easier to use. Jira has hidden costs in the form of paid add-ons from the Atlassian marketplace. ## How Much Does Jira Cost? Jira has four pricing plans \u2014 a free plan, Standard, Premium, and Enterprise. [...] 0 out of 0 | | | Price (monthly) The amount you'll pay per month, when paying on a rolling monthly basis with no 12-month commitment | Users | --- --- | | | | | | | Jira Free | Jira Standard | Jira Premium | Jira Enterprise | | Free | $7.91/user/month (300 users) | $14.54/user/month (300 users) | On request (and only billed annually) | | 10 maximum | 50,000 maximum | 50,000 maximum | 50,000 maximum | Find Project Management Software To Suit Your Business Compare Deals Here ## How Much Does Jira Cost if You Pay Annually? If you opt to annually, the price of your Standard and Premium plans will drop considerably.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S33",
+      "url": "https://thedigitalprojectmanager.com/tools/jira-pricing",
+      "title": "Jira Pricing Tiers & Costs",
+      "content": "## How Much Does Jira Cost? Jira\u2019s paid plans start at $7/user/month and go up to $12/user/month. A free version is available for small teams or individual users with up to 10 users. Additionally, there is a custom pricing tier for enterprise users, which includes advanced analytics, enhanced security features, and support for multiple instances. ## Jira Plans & Pricing Tiers Here's an overview of the available Jira plans: [...] ## Jira Pricing Vs. Competitors Jira is generally considered to be in the average to affordable range for project management software. It offers four user tiers: Free, Standard ($7/user/month), Premium ($12/user/month), and Enterprise (custom pricing). Each plan includes features such as various project views, automation capabilities, and extensive integrations. The Free plan offers basic features, while the Standard and Premium plans offer more advanced perks like user roles, permissions, and increased storage. Overall, Jira's pricing is competitive, especially for small to medium-sized teams, and it provides strong security safeguards across all plans. ### Comparison Chart: Jira vs. Alternatives [...] jira pricing screenshot Jira offers Free, Standard, Premium, and custom Enterprise plans for different needs. Let\u2019s break down the available Jira plans a bit further: ### Jira Free Plan This plan is most ideal for small teams or startups. The Free plan supports up to 10 users and includes unlimited projects, tasks, and forms, along with basic views and dashboards. It\u2019s best for teams needing simple project management tools without advanced features. However, it\u2019s limited to 2 GB of storage and offers community support only. Stay Ahead of What Deserves Your Attention Get timely perspective on the shifts, decisions, and trade-offs shaping your role, plus practical resources you can put to work.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S34",
+      "url": "https://ones.com/blog/jira-pricing-explained-why-you-should-consider-other-options",
+      "title": "Jira Pricing 2026: Plans, Hidden Costs & TCO Guide",
+      "content": "| Plan | Price | Users | Storage | Automation | SLA | --- --- --- | | Free | $0 | Up to 10 | 2 GB | 100 rules/month | None | | Standard | $7.91/user/mo | Up to 100,000 | 250 GB | 1,700 rules/month | None | | Premium | $14.54/user/mo | Unlimited | Unlimited | 1,000 rules/user/mo | 99.9% | | Enterprise | Custom | Unlimited | Unlimited | Unlimited | 99.95% | Monthly billing costs 7\u201310% more. Standard goes from $7.91 to $8.15, Premium from $14.54 to $15.25. The practical trigger point: once you exceed 10 users, you\u2019re forced onto a paid Jira pricing plan. For a 50-person team on Standard, that\u2019s roughly $4,750/year \u2014 before any add-ons. ## Jira Cloud Pricing Plans: The Full Breakdown [...] Log in Book a Demo Try for free Jira Alternative # Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives Scott, Andrew Scott, Andrew \u00b7 14 min read Try ONES for free ![Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives]( If you\u2019re considering Jira as your project management tool, you\u2019re not alone. Jira has long been a popular choice for software development teams, especially those working with Agile workflows. That said, pricing is still worth a closer look before you commit. Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page. [...] According to Atlassian\u2019s pricing tables, Jira Data Center currently starts at $51,000/year for up to 500 users. From February 17, 2026 PT, that tier will increase to $59,000/year. The 1,000-user tier will rise from $87,000 to $100,000/year, and the 2,000-user tier will rise from $158,000 to $182,000/year. Because Jira DC pricing uses fixed tiers, costs can jump quickly when your team crosses into the next user band. For example, moving from 500 to 501 users means moving into the 1,000-user tier. ### Data Center EOL: March 28, 2029 (What It Means for Your Budget?) Atlassian has announced end-of-life for Jira Data Center Server on March 28, 2029. After that date, no security patches, no bug fixes, no support.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S35",
+      "url": "https://www.vendr.com/marketplace/atlassian",
+      "title": "Atlassian Software Pricing & Plans 2026: See Your Cost",
+      "content": "## How much does Jira Software cost? Pricing Structure: Free: Up to 10 users, basic features, community support Standard: Starts at $8.15/user/month (billed annually) for 1\u201310 users; decreases to ~$7.16/user/month for 11\u2013100 users, and continues to scale down with volume Premium: Starts at $16/user/month (billed annually) for 1\u201310 users; includes advanced permissions, analytics, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, enterprise-grade security, and dedicated support Observed Outcomes: [...] Benchmarking context: Vendr transaction data shows that bundled Jira + Confluence deals often achieve lower effective per-user pricing compared to standalone purchases. Compare Confluence pricing with Vendr to see how your quote aligns with recent market outcomes. ## How much does Jira Service Management cost? Pricing Structure: Free: Up to 3 agents, basic ITSM features Standard: Starts at $21.25/agent/month (billed annually) for 1\u20133 agents; scales down with volume Premium: Starts at $49.50/agent/month (billed annually); includes advanced automation, SLA management, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, and enterprise-grade controls Observed Outcomes:",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S36",
+      "url": "https://www.xurrent.com/blog/jira-service-management-pricing",
+      "title": "Is Jira Service Management Pricing Right for Your Team in 2026? | Xurrent",
+      "content": "## What Is Jira Service Management Jira Service Management (JSM) pricing starts at $0 for the Free plan with up to 3 agents, roughly $20 per agent per month for Standard, around $49 per agent per month for Premium, and custom pricing for Enterprise. All paid plans bill annually, and you only pay for agents\u2014the people who handle tickets\u2014not the employees or customers who submit them. Now, here's where things get confusing. Jira Service Management is one of three separate Jira products, and each has its own pricing page. Mixing them up is easy to do.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S37",
+      "url": "https://www.spendflo.com/blog/linear-pricing-guide",
+      "title": "Linear Pricing: A Comprehensive Guide",
+      "content": "\u200d ###### Frequently Asked Questions About Linear Pricing \u200d1. What is the cost of Linear pricing plans? \u200d Linear pricing plans range from $5000 to $70,000 based on your needs. \u200d 2. Does Linear offer a free version? \u200d Yes, Linear does offer a free version for organizations with up to two teams and fewer needs. \u200d 3. What factors affect the pricing of the Linear platform? \u200d Things like the number of teams, necessary features, and size of the organization can affect the pricing of the Linear platform. \u200d 4. Will I get a discount on the Linear pricing plan with annual billing? \u200d Yes, you will get a 20% discount with annual billing on select plans in the Linear platform. \u200d 5. Does Linear offer a pricing plan for smaller organizations? \u200d [...] ###### How Much Does Linear Cost? Linear comes with different pricing plans that can range from anywhere between $5000 to $70000. This offers a greater deal of flexibility in terms of evaluating your team\u2019s unique needs and requirements and picking a plan that best caters to those needs. If your organization is working with up to two teams, you can use the free version of the platform, and meet most of your needs. However, if your organization has more needs, there is the option of using the Basic plan. This plan will cost you $8 monthly in exchange for allowing you to raise unlimited issues and upload as many files as needed. \u200d [...] \u200d Leverage the Free Plan: As you know, Linear provides users with a free plan where they can work with up to two teams. If you are a small organization with one or two teams and 250 issues are enough for you, then you must leverage the free plan. \u200d Pay Annually: Another great way to get the most out of the Linear platform\u2019s pricing plan is to choose annual payment options. When you do that, you get a discount of 20% on different plans, which is a great way to save some money. \u200d Keep an Eye Out for Discounts: Platforms like Linear often offer impressive discounts based on different timings, like the end of the quarter. You must keep an eye out for these special discounts and strike the hammer while the iron is still hot to get better deals. \u200d",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S38",
+      "url": "https://t0ggles.com/blog/linear-pricing-plans",
+      "title": "Linear Pricing 2026: Plans, Real Costs, and vs Jira",
+      "content": "t0ggles Pricingt0ggles CrewCrewBlogDocumentationDocsRelease NotesReleases Linear Pricing Explained: Basic, Business and Enterprise Costs at 5 to 50 Seats October 12, 2026 # Linear Pricing Explained: Basic, Business and Enterprise Costs at 5 to 50 Seats Linear has four plans: Free at $0, Basic at $10 per user per month billed yearly ($12 monthly), Business at $16 per user per month billed yearly ($18 monthly), and Enterprise at a custom price billed annually only. Every member counts as a seat, guests included, so a 10-person team pays $1,200 a year on Basic or $1,920 a year on Business. Basic removes the free plan's limits; most of the features Linear markets - Insights, Asks intake, guests, private teams, Triage Intelligence - start at Business. [...] ## #Linear Plans at a Glance | Plan | Billed yearly | Billed monthly | Teams | Built for | --- --- | Free | $0 | $0 | 2 | Small teams under 250 active issues | | Basic | $10/user/month | $12/user/month | 5 | Teams that outgrew the issue cap and just want Linear without caps | | Business | $16/user/month | $18/user/month | Unlimited | Product orgs that need analytics, intake, guests and triage tools | | Enterprise | Custom | Not offered | Unlimited | Companies that need SAML, SCIM, audit logs and procurement terms | Members are unlimited on every plan, including Free. The monthly toggle on the pricing page simply shows $12 and $18; the yearly discount works out to about 17% on Basic and 11% on Business. ## #What Each Paid Plan Adds [...] ## #How t0ggles Pricing Compares Linear's pricing model is three self-serve tiers where the features most teams want sit on the middle one. t0ggles takes the opposite approach: one paid plan at $5 per user per month billed annually, with everything unlimited and nothing gated behind a higher tier. The free plan covers 1 board, 3 team members, 5 projects, 100 tasks, 50 notes, 100 MB of file storage, and 25 AI actions a month. | Seats | Linear Basic yearly | Linear Business yearly | t0ggles paid plan | --- --- | | 5 | $600/year | $960/year | $300/year | | 10 | $1,200/year | $1,920/year | $600/year | | 25 | $3,000/year | $4,800/year | $1,500/year | | 50 | $6,000/year | $9,600/year | $3,000/year |",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S39",
+      "url": "https://www.usecarly.com/blog/linear-pricing",
+      "title": "Linear Pricing in 2026: What Every Plan Actually Costs",
+      "content": "Fast keyboard-driven Linear issue tracker surrounded by alternative project-management tool icons # Linear Pricing in 2026: What Every Plan Actually Costs LinearProject ManagementIssue TrackingDev Tools Linear (linear.app) keeps its pricing refreshingly short: one free plan, two paid tiers, and a custom Enterprise plan. As of July 2026, Basic runs $10 per user/month and Business runs $16 per user/month, both billed yearly, while the free plan is genuinely usable for small teams \u2014 unlimited members, but capped at 2 teams and 250 issues. Prices change, so confirm the current numbers on Linear\u2019s official pricing page before you commit; the figures below reflect what Linear advertised in mid-2026. ## Linear plans at a glance [...] ## Business \u2014 $16/user/month Business is where Linear puts most of what a scaling company asks for. On top of Basic, you get unlimited teams, private teams and guest access, Linear Insights (analytics and reporting), Linear Asks (turning Slack requests into tracked issues), Triage Intelligence, Code Intelligence, agent automations (in beta), an audit log, advanced team management, and native Zendesk and Intercom integrations. Two things worth flagging: guests and private teams \u2014 a common ask the moment you work with contractors or clients \u2014 are gated all the way up to this tier, and much of Linear\u2019s AI and reporting story lives here rather than lower down. Like Basic, the $16 rate is billed yearly.",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S40",
+      "url": "https://theintactone.com/2023/01/04/linear-and-non-linear-pricing",
+      "title": "Linear and Non-linear Pricing",
+      "content": "Pros and Cons of Linear Pricing Linear pricing is a type of pricing strategy where the price of a product or service is based on the quantity of units sold. This means that each unit sold has the same price, regardless of how many units are sold. linear pricing can be used to encourage customers to buy more products or services, as they know that they will get the same price per unit regardless of how many units they purchase.",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S41",
+      "url": "https://www.vendr.com/marketplace/linear",
+      "title": "Linear Software Pricing & Plans 2026: See Your Cost",
+      "content": "Whether you're evaluating Linear for the first time or preparing for renewal, this guide is designed to help you budget accurately and negotiate with clearer market context. # How much does Linear cost in 2026? Linear's pricing is structured around three paid tiers\u2014Standard, Plus, and Enterprise\u2014plus a Free plan for small teams. Costs scale with the number of users (seats) and the features required. Linear bills monthly or annually, with annual commitments typically offering a discount compared to month-to-month billing. Core pricing components: [...] # Introduction Linear is a project management and issue tracking platform designed for software development teams. Built for speed and simplicity, Linear offers a streamlined alternative to traditional project management tools, with features including issue tracking, sprint planning, roadmaps, and integrations with development workflows. Pricing is based on the number of users and the plan tier selected, with options ranging from free plans for small teams to enterprise packages with advanced features and support. Evaluating Linear or planning a purchase? [...] # How do you negotiate Linear pricing? Linear pricing is negotiable, particularly for annual commitments, larger seat counts, and competitive evaluations. These strategies are based on anonymized Linear deals in Vendr's dataset and reflect tactics that have produced favorable outcomes for buyers. ### 1. Engage early and anchor to budget Start conversations 60\u201390 days before your target start date or renewal. Early engagement creates time for competitive evaluation and negotiation. Anchor to a budget constraint rather than accepting the first quote. Vendr data shows that buyers who frame pricing discussions around budget limitations often achieve better outcomes than those who negotiate from the vendor's initial offer. ### 2. Commit to annual or multi-year terms",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S42",
+      "url": "https://www.spendflo.com/blog/gitlab-pricing-guide",
+      "title": "GitLab pricing plans in 2025 (+ cost saving tips)",
+      "content": "\u200dHow much does GitLab cost? \u200d GitLab pricing ranges from $3,000 to $120,000 annually, depending on the number of user per month and features required. Pricing tiers include Free, Premium plan, and Ultimate, with the cost varying based on the organization's scale and usage needs. \u200d What is the difference between GitLab's free, premium, and ultimate tiers? \u200d The free tier is for small teams and has limited features. Premium plan has more advanced features like code quality and security tools. Ultimate has the full feature set including dynamic security testing and compliance tools. \u200d Do you offer discounted rates for nonprofits or educational organizations? \u200d [...] ###### How Much Does GitLab Cost? GitLab premium pricing ranges from $3,000 to $120,000 annually, depending on the number of users and the required features. GitLab offers a free \"Core\" tier for small teams and paid tiers, like \"Premium\" and \"Ultimate,\" for businesses needing advanced security testing capabilities. The cost varies based on factors like CI/CD pipelines, security features, and compliance tools. For a more personalized estimate, GitLab provides a pricing calculator, allowing businesses to tailor costs to their needs. \u200d \u200dPlans Offered by GitLab: \u200d [...] \u200d \u200dPlans Offered by GitLab: \u200d | Plan | Cost | Features | --- | Free | $0 per user/month | 400 compute minutes/month, 5 users per top-level group, great for small teams | | GitLab Premium | $29 per user/month (billed annually) | Everything from Free, plus: Code Ownership, Protected Branches, Merge Requests Approval, Advanced CI/CD, 10,000 compute minutes per month | | Ultimate | Contact Sales | Everything from Premium, plus: Dynamic Application Security Testing, Security Dashboards, Vulnerability Management, 50,000 compute minutes per month | \u200d How to Get a Better Deal on GitLab? \u200d Here are some tips for getting a better deal on GitLab premium : \u200d Ask about discounts \u200d",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S43",
+      "url": "https://www.getpricepulse.com/companies/gitlab-pricing.html",
+      "title": "GitLab Pricing 2026 \u2014 Plans & Cost Breakdown",
+      "content": "# GitLab Pricing 2026 Complete breakdown of GitLab's pricing plans for teams, enterprises, and self-hosted deployments. Find the right plan for your DevOps workflow. ### Quick Summary Free Plan: \u20ac0/year \u2014 Full-featured for open source and small teams Premium Plan: \u20ac29/user/year (~$32) \u2014 Best value for growing teams Ultimate Plan: \u20ac99/user/year (~$108) \u2014 Enterprise with advanced security Self-Hosted: Custom pricing with self-hosting option Most common choice: Premium for teams 5+, Ultimate for enterprises ## All GitLab Plans (SaaS) [...] ## How Much Does GitLab Actually Cost? ### For a Solo Developer | Plan | Annual Cost | --- | | GitLab Free | \u20ac0 | | GitLab Premium | \u20ac29 (~$32) | ### For a 5-Person Dev Team (Annual) | Plan | Annual Cost | Per Dev/Month | --- | GitLab Premium (5 users) | \u20ac145 (~$160) | \u20ac2.42 (~$2.67) | | GitLab Ultimate (5 users) | \u20ac495 (~$545) | \u20ac8.25 (~$9.08) | ### For a 10-Person Dev Team (Annual) | Plan | Annual Cost | Per Dev/Month | --- | GitLab Premium (10 users) | \u20ac290 (~$319) | \u20ac2.42 (~$2.67) | | GitLab Ultimate (10 users) | \u20ac990 (~$1,089) | \u20ac8.25 (~$9.08) | ### For a 25-Person Dev Team (Annual) | Plan | Annual Cost | Per Dev/Month | --- | GitLab Premium (25 users) | \u20ac725 (~$798) | \u20ac2.42 (~$2.67) | | GitLab Ultimate (25 users) | \u20ac2,475 (~$2,723) | \u20ac8.25 (~$9.08) | [...] | Feature | Free | Premium | Ultimate | --- --- | | Price | \u20ac0 | \u20ac29/user/year | \u20ac99/user/year | | Projects (Repos) | Unlimited | Unlimited | Unlimited | | Group Members | Unlimited | Unlimited | Unlimited | | GitLab CI/CD Pipeline Minutes (shared runners) | 400/month | 10,000/month | Unlimited | | Registry Storage | 5 GB | 100 GB | Unlimited | | Repository Storage | 10 GB | 250 GB | Unlimited | | Code Owners | \u2705 | \u2705 | \u2705 | | Merge Request Approvals | \u2705 | \u2705 | \u2705 | | Incident Management | \u274c | \u2705 | \u2705 | | Code Quality Reports | \u274c | \u2705 | \u2705 | | SAST (Code Scanning) | \u274c | \u2705 | \u2705 | | Dependency Scanning | \u274c | \u2705 | \u2705 | | Container Scanning | \u274c | \u2705 | \u2705 | | License Scanning | \u274c | \u274c | \u2705 | | SAML SSO | \u274c | \u2705 | \u2705 | | Audit Logs | \u274c | \u2705 | \u2705 | | Advanced User Management | \u274c | \u2705 | \u2705 |",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S44",
+      "url": "https://www.capterra.com/p/159806/GitLab/pricing",
+      "title": "GitLab Pricing 2026",
+      "content": "GitLab has 1 plan. The pricing starts at $29 per user per month with a free plan available. Premium $29.00 Per User, Per Month Premium plan includes: 10000 CI/",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S45",
+      "url": "https://www.trustradius.com/products/gitlab/pricing",
+      "title": "GitLab Pricing 2026",
+      "content": "GitLab offers three different plans, ranging from $0 to $1,188 in cost per user a year. These are GitLab SaaS plans. Their free, open-source option is self-",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S46",
+      "url": "https://www.spendhound.com/marketplace/gitlab-pricing",
+      "title": "Actual GitLab Pricing 2026 | See How We Help You Pay Less",
+      "content": "GitLab offers multiple pricing tiers to match different team sizes and use cases. At an average of $23292 SMB plans are designed for small to mid-size teams who need core functionality. For larger organizations, Enterprise plans at an average of $310688 include enterprise-grade features and support. Pricing may be custom and based on headcount, usage volume, and contract length. Most businesses use a combination of tiers depending on team function. ### Can you negotiate GitLab pricing? [...] Across the major CI/CD and DevOps providers, list pricing for comparable capabilities is generally similar, but real differences emerge in performance per dollar for your specific use case. On average, GitLab is priced at $23292 and $310688 for SMB and Enterprise plans, respectively. JFrog runs at an average of $33271 and $227381. CircleCI is priced at $23894 and $5292, on average. Perforce pricing averages out to $12145 AND $221722. ### What is GitLab Enterprise pricing and what does it include? [...] ### How much does GitLab cost per month? GitLab pricing varies depending on your usage tier and the features you need. For individual users and small teams, SMB plans typically average around $23292. Enterprise plans average around $310688 and add more features and higher usage limits. Custom pricing may be negotiated directly with GitLab using SpendHound. ### What are GitLab\u2019s pricing plans and which one is right for my business?",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S47",
+      "url": "https://youtrack-support.jetbrains.com/hc/en-us/community/posts/205790369-SSO-Login-Support",
+      "title": "SSO Login Support",
+      "content": "Hi,is there a simple way to perform a SSO login for YouTrack? I think of sth. like providing a token as URL param or using HTTP Auth with",
+      "dimension": "features",
+      "query": "YouTrack SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S48",
+      "url": "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+      "title": "JetBrains YouTrack Pricing Tiers Explained with Examples",
+      "content": "### Enterprise Plan: Compliance and Scale Kick In Here you gain SAML-based SSO, two-factor authentication enforcement, audit logs, project templates, advanced workflow designers, and priority support. The automation engine gets extended limits, and you can create custom project roles. For regulated industries or large distributed teams, these extras justify the price leap. But if you\u2019re a mid-size team that just needs a faster support turnaround, the $10.30-per-user premium might feel steep. ## A Simpler Alternative: Transparent Pricing with ONES.com If tracking every tier and feature add-on in YouTrack gives you a headache, there is another path. ONES.com is a unified project management and knowledge-sharing platform that takes the complexity out of pricing. [...] ## Common Pricing Pitfalls and How to Avoid Them Even with clear published pricing, teams walk into traps that inflate their YouTrack costs. Here are the most common ones and how to sidestep them. ### Overbuying Enterprise Tier for Features You Don\u2019t Use It\u2019s tempting to tick the Enterprise box for SAML SSO and audit logs, but many companies already have identity providers that work with simpler solutions. If SSO isn\u2019t a hard requirement, staying on the Team plan and using external monitoring tools can save over $120 per user yearly. Evaluate each feature before clicking upgrade. ### Misestimating Server User Packs [...] | Plan | Cloud Pricing | Server Pricing | Key Features Included | --- --- | | Free | Free for up to 10 users | Free for up to 10 users (perpetual) | All core features, basic agile boards, limited attachments | | Team | $4.40 per user/month (billed annually) | $440/year for 15 users, scales with user packs | All features, unlimited agile boards, time tracking, Gantt charts, automation | | Enterprise | $14.70 per user/month (billed annually) | Custom quote, starts at higher user counts | Everything in Team + advanced security, project templates, custom workflows, priority support | But here\u2019s the truth: the free plan is generous for tiny teams, but as you grow, the switch from Team to Enterprise can more than triple your per-user cost overnight.",
+      "dimension": "features",
+      "query": "YouTrack SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S49",
+      "url": "https://www.jetbrains.com/youtrack/buy",
+      "title": "Buy YouTrack: Pricing and Licensing, More Users",
+      "content": "### Backups in case of inactivity If you don't use your YouTrack for a while, it will be automatically removed. The timeframe for removal depends on your plan: 1.5 months for trial plans, 3.5 months for free plans, and 6.5 months for paid plans. We'll keep a backup of your data for up to 6 months after removal, just in case you decide to return. ## Any questions? Learn more or contact us All commercial plans include Custom Logo Terms of Service #### Sales support Purchase Terms Contact Sales FAQ Installed on your server ### YouTrack Server annual subscription Including 1 year of free updates and technical support Free AI Assistant Users Total price 15 Users US $900.00 incl. VAT US $1,062.00 25 Users US $1,500.00 incl. VAT US $1,770.00 50 Users US $3,000.00 [...] ### Extending a subscription You can renew your subscription each year. If renewed before the expiration date, the new term begins on the day after the previous subscription ends. When your subscription expires, access to YouTrack Server is limited to users with system administrator permissions only. They can manage backups and either switch the instance to the Free plan for up to 10 users and 3 agents or apply a new paid license in License Settings. ### Adding more users and support agents [...] After the 14-day trial period expires, your YouTrack will return to the free plan with 10 users and three support agents. Any additional users created during the trial are saved for 30 days. You can upgrade to a paid subscription and continue working with all the users and data you added at any time during the trial and up to 30 days after it ends. ### Legacy Cloud subscriptions",
+      "dimension": "features",
+      "query": "YouTrack SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S50",
+      "url": "https://www.jetbrains.com/help/youtrack/server/saml-authentication-module.html",
+      "title": "SAML 2.0 Auth Module | YouTrack Server Documentation",
+      "content": "YouTrack can also be set up as a SAML IdP. However, the instructions for the identity provider setup are not described here. To learn how to use YouTrack as a SAML IdP, see SAML 2.0. ## IdP-initiated SSO The SAML 2.0 authentication module supports both service-provider (SP) and identity-provider (IdP) initiation for single sign-on (SSO). The login request is based on how the user signs in to YouTrack. If the user signs in through an external login portal or access management provider (for example, OneLogin), the request is initiated by the IdP. If the user signs in by clicking the button for the IdP on the YouTrack login page, YouTrack initiates the request as SP. [...] ## General Settings The General Settings tab contains the base configuration required to establish a secure single sign-on (SSO) connection between YouTrack and your SAML 2.0 identity provider. | Setting | Description | --- | | Default | Marks this module as the default authentication provider. | ### Identity Provider Settings The settings in this section define the external authentication environment that YouTrack trusts to verify user identities. [...] <llms.txt>: machine-readable documentation index. Markdown version of this page is also available. ### YouTrack Server 2026.2 Help # SAML 2.0 Auth Module A SAML 2.0 authentication module lets you configure YouTrack as a SAML Service Provider (SAML SP). SAML supports single sign-on (SSO) across multiple domains. When you enable a SAML 2.0 authentication module in YouTrack: Your users log in to YouTrack with the credentials that are managed in a specified third-party identity provider (SAML IdP). Your YouTrack users have fewer accounts and passwords to remember. New users with accounts in the connected service can create their own accounts in YouTrack.",
+      "dimension": "features",
+      "query": "YouTrack SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S51",
+      "url": "https://blog.jetbrains.com/youtrack/2020/05/youtrack-is-now-free-for-10",
+      "title": "YouTrack is now free for teams of 10! All the good news you need to know about the upcoming price change - The JetBrains Blog",
+      "content": "We are actively working on delivering features according to the roadmap, and we\u2019re planning to continue our tradition of including all the functionality in the active license subscriptions and free plans with no additional charge. Please read on to learn the details you need to know about the pricing change. ## YouTrack InCloud YouTrack is now free for all teams of up to 10 users. The free plan for YouTrack InCloud now covers up to 10 users with up to 30 GB storage available in total. With the free plan, all of YouTrack\u2019s functionality is available to you. This includes private projects, which let you control who has access to your issues and projects. The only difference is the custom logo, which is only enabled in paid plans. [...] Existing customers on per-user plans are included. All existing customers using the YouTrack InCloud Free plan with up to 3 users have been switched to the new 10-user Free plan automatically. All existing customers using paid subscriptions with 10 users or fewer in their subscription have been switched to the new Free plan as well, and they will no longer pay for their 10 users. For teams of 10+ users, the starting monthly price per user is reduced from $5 to $4.40 with the InCloud monthly subscription. If you opt for the annual subscription, you can save 2 months\u2019 worth of costs (16%) every year on top of that. [...] YouTrack InCloud is now free for all teams of up to 10 users. For teams of 10+ users, the starting monthly price per user is reduced from $5 to $4.40. The discount increases as you add users. On top of that, with the annual subscription, you save 2 months\u2019 worth of costs (16%) every year. Disk space has increased from 1 GB to 3 GB per user. There are also upcoming changes to Standalone plans effective August 1, 2020. All current standalone customers are welcomed to use a special offer to renew their subscription with the current prices for as long as they need.",
+      "dimension": "features",
+      "query": "YouTrack SSO plans",
+      "published": ""
+    },
+    {
+      "id": "S52",
+      "url": "https://www.timecamp.com/integrations/youtrack-time-tracking",
+      "title": "[100% FREE] YouTrack Time Tracking",
+      "content": "Yes! TimeCamp gives you a free forever plan where unlimited users can track time within one app. Basic, Pro, or Enterprise plan.",
+      "dimension": "features",
+      "query": "YouTrack time tracking plans",
+      "published": ""
+    },
+    {
+      "id": "S53",
+      "url": "https://www.jetbrains.com/youtrack",
+      "title": "YouTrack: Project management for all your teams",
+      "content": "Learn more ## Track time and check results on Timesheets YouTrack\u2019s automated and manual time-tracking features make light work of keeping accurate records. Timesheets help you get clear reporting with detailed analyses per team member, project, or work group. Learn more ## Plan with interactive Gantt charts Plan projects using the interactive Gantt timeline to schedule and prioritize tasks, set estimates and dependencies, and track progress with maximum precision. Learn more ## Get detailed reports and combine them on Dashboards YouTrack comes with configurable reports to help you track, manage, and analyze a wide range of performance and progress indicators. [...] Learn more ## Document everything in your Knowledge Base From team meeting notes to project plans, you can keep internal information impeccably organized. Create and collaboratively discuss and share ideas. Produce engaging, rich content and discuss it in comments with @user mentions and notifications. When needed, build a public Knowledge Base with user guides and FAQs. Learn more ## Customize Agile Boards Boards offer a great way to plan and track projects at all levels \u2013 from individual backlogs to enterprise portfolios. YouTrack supports Kanban, Scrum, and mixed approaches for any process your team may have. Learn more ## Track time and check results on Timesheets",
+      "dimension": "features",
+      "query": "YouTrack time tracking plans",
+      "published": ""
+    },
+    {
+      "id": "S54",
+      "url": "https://www.youtube.com/watch?v=53Zkdh66wVs",
+      "title": "YouTrack. Time Tracking",
+      "content": "YouTrack's built-in time tracking and reporting features enable you to keep a thorough record of the estimated and actual time spent on issues,",
+      "dimension": "features",
+      "query": "YouTrack time tracking plans",
+      "published": ""
+    },
+    {
+      "id": "S55",
+      "url": "https://blog.jetbrains.com/youtrack/2022/07/youtrack-now-with-more-powerful-time-tracking",
+      "title": "YouTrack Now With More Powerful Time Tracking",
+      "content": "YouTrack's approach to time tracking is organized around three main categories: estimation, work items, and spent time. A work item is an entry",
+      "dimension": "features",
+      "query": "YouTrack time tracking plans",
+      "published": ""
+    },
+    {
+      "id": "S56",
+      "url": "https://www.jetbrains.com/help/youtrack/cloud/time-management-tutorial.html",
+      "title": "Time Tracking Tutorial | YouTrack Cloud Documentation",
+      "content": "<llms.txt>: machine-readable documentation index. Markdown version of this page is also available. ### YouTrack Cloud 2026.2 Help # Time Tracking Tutorial The Time Tracking feature lets you and your team report the amount of time spent working on issues in your project. This feature helps agencies track how much effort has been spent for different clients and lets development teams measure how the actual work compares to their original estimation. With this feature enabled: Your team can add work items to issues. YouTrack calculates the total spent time recorded in each issue. You can create summary reports that show total spent time for different types of work. This tutorial shows you how to configure time tracking in YouTrack and use the feature in your project. [...] ## Enable Time Tracking The first step is to enable the time tracking feature in your project. ### To enable time tracking: 1. From the main navigation menu, select Projects. 2. From the project list, select a project. 3. From the project navigation menu, select Settings. 4. In the project settings side panel, select Time Tracking. 5. Enable the Time tracking toggle. The time tracking feature is enabled in the selected project. Additional settings for configuring time tracking are displayed. ## Configure Estimation and Spent Time With time tracking, you can estimate how much time you expect to spend to resolve each issue. This estimation is stored as a period type. [...] YouTrack provides a default Work type attribute that lets you assign a work type to each work item. This is typically used to categorize efforts related to different types of activity, like design, development, testing, documentation, and so on. By default, this attribute includes values for Development, Documentation, and Testing. If you want to categorize your work differently, you can add or remove values from the set without affecting other projects in the system. You can also add an unlimited number of custom attributes to work items in your project. You can add and customize attributes that are used in other projects or define categories that are specifically tailored to the time tracking needs for your project team.",
+      "dimension": "features",
+      "query": "YouTrack time tracking plans",
+      "published": ""
+    },
+    {
+      "id": "S57",
+      "url": "https://www.datamation.com/cloud/cloud-project-management-software",
+      "title": "10 Best Cloud Project Management Software for 2026",
+      "content": "Like Trello and YouTrack, Jira is primarily geared toward software project management. However, the leading project management platform has also gained a following outside of software circles. The solution features a customizable workflow, a multi-faceted issue-tracking system, and other features that help to streamline the management of complex projects. Visit Jira Jira interface. Jira\u2019s new dashboard of project management shows individual tasks and who they\u2019re assigned to organized in cards. ### Pros and cons | Pros | Cons | --- | | Ideal for managing application development projects | Some organizations may find the solution too specific for software teams | | Strong task and activity tracking features | The user interface can be confusing for some users | Advertisement [...] Top cloud project management software comparison Asana: Best for support, collaboration, and reporting Jira: Best for software teams and customizable dashboards monday work management: Best for pre-made templates and customizability Smartsheet: Best for industry-specific applications TeamGantt: Best for visualizing workloads and team availability YouTrack: Best for extensive customization and collaborative tools Zoho Projects: Best for time-tracking and resource management Wrike: Best for AI-powered automation Basecamp: Best for simple, innovative features Trello: Best for visual Kanban collaboration Key features of cloud project management software Methodology Frequently asked questions (FAQs) Bottom line ## Top cloud project management software comparison [...] Asana: Best for support, collaboration, and reporting Jira: Best for software teams and customizable dashboards monday work management: Best for pre-made templates and customizability Smartsheet: Best for industry-specific applications TeamGantt: Best for visualizing workloads and team availability YouTrack: Best for extensive customization and collaborative tools Zoho Projects: Best for time-tracking and resource management Wrike: Best for AI-powered automation Basecamp: Best for simple, innovative features Trello: Best for visual Kanban collaboration",
+      "dimension": "competitive",
+      "query": "YouTrack vs Jira features",
+      "published": "Thu, 30 Ju"
+    },
+    {
+      "id": "S58",
+      "url": "https://www.augmentcode.com/tools/monday-com-alternatives",
+      "title": "7 Monday.com Alternatives for Dev-Heavy Teams | Augment Code",
+      "content": "Backlog automation: YouTrack's Fix version backlog lets teams configure a scrum board so that issues with a specified Fix version enter the backlog automatically, or add issues manually during sprint planning. For teams with a structured release-tagging workflow in their VCS, this reduces manual grooming overhead. Sprint rollover: Teams move unfinished items forward via YouTrack's \"Move to the next sprint\" button or planning view. Where YouTrack falls short: YouTrack requires complex setup for teams unfamiliar with custom workflow configuration. The learning curve is steep if you're not already in the JetBrains ecosystem (IntelliJ, TeamCity). Choose YouTrack if: Your team already uses JetBrains IDEs and CI tooling, and you want workflow automation for backlog management. [...] | Plan | Price | Key Details | --- | Free (Cloud) | $0 | 12-seat limit | | Pro (Cloud) | Starts at $6/seat/month | | Business (Cloud) | Contact sales for current pricing and plan details | | Self-hosted | Free (open source) | Unlimited users, infrastructure costs apply | Source: Plane pricing Choose Plane if: You have data residency or compliance mandates, need self-hosting, or work in regulated industries (healthcare, fintech, government). ## 6. YouTrack: Best for JetBrains Ecosystem Teams YouTrack's main strengths are automation, workflows, and flexibility. Its automation features reduced manual backlog upkeep more than any other tool I tried. [...] Start by identifying where work slows down. If the friction is board structure, sprint analytics, backlog depth, or reporting, switching to Linear, Jira, Shortcut, GitHub Projects, Plane, or YouTrack is the direct fix. If work stalls after planning, in manual code review, issue triage, testing, and incident response, add execution support before replacing the PM system. In my tests of those handoffs, Cosmos agents triaged tickets, reviewed PRs, and ran tests while humans stayed at the checkpoints that mattered. ## FAQ ## Related",
+      "dimension": "competitive",
+      "query": "YouTrack vs Jira features",
+      "published": "Fri, 12 Ju"
+    },
+    {
+      "id": "S59",
+      "url": "https://www.simplilearn.com/free-agile-tools-for-every-project-manager-article",
+      "title": "Top 28 Free Agile Tools for Project Managers",
+      "content": "### Pros: ## 4. Hansoft Hansoft is a project management tool that caters to Agile and Lean development processes. It's designed for large and complex projects, offering features like backlog management, sprint planning, and real-time reporting. Hansoft is best suited for organizations seeking scalability and flexibility in their project management software. ### Pros: ## 5. YouTrack YouTrack is an issue tracker and project management tool designed for development teams. It supports Agile methodologies like Scrum and Kanban, offering customizable boards, backlogs, and reports. YouTrack is known for its powerful search and query functions, making it easy for teams to manage and prioritize issues and tasks. ### Pros: ## 6. Scrumblr [...] Top 28 Free Agile Tools for Project Managers The Agile methodology emphasizes \"just in time\" production, helping project teams deliver their work timely and with improved quality. Agile promotes a comprehensive approach where design, development, and testing happen concurrently, unlike the sequential phases seen in traditional project methods, where one stage concludes before the next begins. It advocates for brief, regular feedback cycles and welcomes requirement changes, contrasting with traditional project management (often called Waterfall), where feedback is typically gathered only at the project's end, and changes are usually avoided. [...] ### Pros: ## 18. Businessmap Businessmap focuses on Kanban methodology but also supports elements of Lean and Agile. It offers advanced analytics, flow efficiency, and time tracking. Businessmap is designed for teams that want to optimize their workflow and improve productivity through detailed analysis and process improvement. ### Pros: ## 19. Jira A popular tool for issue tracking and project management, tailored for Agile development teams. It supports Scrum and Kanban methodologies, offering customizable boards, sprints, backlogs, and reports. Jira is ideal for teams looking for a robust, scalable solution to manage complex software development projects. ### Pros: ## 20. Asana",
+      "dimension": "competitive",
+      "query": "YouTrack vs Jira features",
+      "published": "Fri, 07 Au"
+    },
+    {
+      "id": "S60",
+      "url": "https://learn.g2.com/asana-vs-monday",
+      "title": "Asana vs. monday: I Built Projects and Picked a Side in 2026",
+      "content": "### Industries represented Asana dominates marketing and advertising, information technology and services, computer software, non-profit organization management, and internet industries. mnday Work Management has a strong presence in marketing and advertising, information technology and services, computer software, construction, and non-profit organization management. ### Highest-rated features Asana excels in creation and assignment (94%), due dates (93%), and to-do lists (92%). monday Work Management stands out for creation and assignment (94%), due dates (94%), and task prioritization (93%). Comparing more options? Read this in-depth review of Asana vs Jira and Trello vs Asana. ## Frequently asked questions (FAQs) on Asana vs. Monday [...] Sagar Joshi Sagar Joshi Sagar Joshi is a former content marketing specialist at G2 in India. He is an engineer with a keen interest in data analytics and cybersecurity. He writes about topics related to them. You can find him reading books, learning a new language, or playing pool in his free time. #### Recommended Articles Productivity #### I Tried 10 Best Free Task Management Software: My Review Whether I\u2019m juggling multiple projects, keeping up with coursework, or just trying to keep my... ##### by Washija Kazim Tech #### 10 Best Free Project Management Software I Tried and Liked I evaluated 10+ tools to find the best free project management software for software teams.... ##### by Washija Kazim Management [...] ## Asana vs. Monday at a glance Here\u2019s a quick feature comparison of the project management software:",
+      "dimension": "competitive",
+      "query": "YouTrack vs Jira features",
+      "published": "Tue, 28 Ap"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "YouTrack offers a free cloud plan for teams of up to 10 users.",
+      "source_ids": [
+        "S27",
+        "S30",
+        "S51"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack paid cloud plans start at $3.67 per user per month. (price check unavailable) (source text unavailable, not judged)",
+      "source_ids": [
+        "S27",
+        "S29"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack plan costs can reach $600 depending on the selected plan. (price check unavailable) (source text unavailable, not judged)",
+      "source_ids": [
+        "S29"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack costs approximately $50 per month for a team of 10 users and about $500 per month for a team of 100 users.",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Starting October 2025, new YouTrack monthly subscriptions begin at $5.40 per user per month and annual subscriptions begin at $4.50 per user per month.",
+      "source_ids": [
+        "S30"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack offers volume discounts that increase as more users are added.",
+      "source_ids": [
+        "S30"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack includes its full feature set, support, and AI assistance at no additional charge in paid subscriptions.",
+      "source_ids": [
+        "S30"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack provides discounts for startups, educational institutions, non-profit organizations, and open-source projects.",
+      "source_ids": [
+        "S30"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack helpdesk functionality is free for up to 3 support agents.",
+      "source_ids": [
+        "S30",
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "For teams with 4 or more support agents, YouTrack charges $6 per agent per month on monthly billing and $5.50 per agent per month on annual billing.",
+      "source_ids": [
+        "S30",
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Each YouTrack support agent must also hold a user license.",
+      "source_ids": [
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack Server remains free for teams of up to 10 users.",
+      "source_ids": [
+        "S30"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack Server annual subscriptions are listed at $900 for 15 users, $1,500 for 25 users, and $3,000 for 50 users.",
+      "source_ids": [
+        "S49"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack retains backups of removed instances for up to 6 months.",
+      "source_ids": [
+        "S49"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Initial setup and implementation for small and medium businesses using YouTrack may cost only a few hundred dollars.",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack enterprise implementation, customization, training, and migration can range from $5,000 to $50,000.",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "For a team of 100 users, YouTrack is approximately $250 less expensive per month than Jira\u2019s standard plan.",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Selecting YouTrack\u2019s Team plan instead of the Enterprise tier can save over $120 per user per year.",
+      "source_ids": [
+        "S48"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack supports SAML 2.0 single sign-on for both service-provider and identity-provider initiated login.",
+      "source_ids": [
+        "S48",
+        "S50"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack\u2019s enterprise tier includes SAML-based single sign-on, two-factor authentication enforcement, audit logs, project templates, advanced workflow designers, priority support, and custom project roles.",
+      "source_ids": [
+        "S48"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack includes built-in time tracking for recording estimated and actual time spent on issues.",
+      "source_ids": [
+        "S53",
+        "S54",
+        "S55",
+        "S56"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack provides interactive Gantt charts for scheduling and prioritizing tasks.",
+      "source_ids": [
+        "S53"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack includes a Knowledge Base for organizing internal documentation and public user guides.",
+      "source_ids": [
+        "S53"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack supports customizable Agile boards for Kanban, Scrum, and mixed methodologies.",
+      "source_ids": [
+        "S53",
+        "S59"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack comes with configurable reports and dashboards for tracking performance indicators.",
+      "source_ids": [
+        "S53"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack includes automation for backlog management and a feature to move unfinished items to the next sprint.",
+      "source_ids": [
+        "S58"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack is known for powerful search and query functions for managing issues and tasks.",
+      "source_ids": [
+        "S59"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack\u2019s free InCloud plan includes up to 30 GB of total storage and private projects.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "features",
+      "text": "YouTrack free plans include all functionality except the custom logo option.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Like Jira, YouTrack is primarily geared toward software project management.",
+      "source_ids": [
+        "S57"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Taiga is an open-source alternative to YouTrack that supports Scrum and Kanban methodologies.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "GitLab Issues is available as part of GitLab\u2019s free tier.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Plane offers a self-hosted open-source option with unlimited users at no cost.",
+      "source_ids": [
+        "S58"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Basecamp is a lightweight alternative designed for small teams with to-dos, schedules, chat, and file storage.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira\u2019s Standard plan starts at approximately $7.91 per user per month and its Premium plan at approximately $14.54 per user per month for teams of up to 300 users.",
+      "source_ids": [
+        "S32"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear\u2019s Basic plan costs $10 per user per month when billed yearly and $12 per user per month when billed monthly.",
+      "source_ids": [
+        "S38"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear\u2019s Business plan costs $16 per user per month when billed yearly and $18 per user per month when billed monthly.",
+      "source_ids": [
+        "S38"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "GitLab Premium is priced at $29 per user per month.",
+      "source_ids": [
+        "S42",
+        "S44"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "GitLab SaaS plans range from $0 to $1,188 per user per year in cost. (source text unavailable, not judged)",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Engineering teams frustrated by speed may switch to Linear from YouTrack.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Teams unfamiliar with custom workflows may find YouTrack requires complex setup and has a steep learning curve if they do not already use JetBrains tools.",
+      "source_ids": [
+        "S58"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "YouTrack is recognized as a top cloud project management option for extensive customization and collaborative tools.",
+      "source_ids": [
+        "S57"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "One reviewer found that YouTrack\u2019s automation features reduced manual backlog upkeep more than any other tool they tested.",
+      "source_ids": [
+        "S58"
+      ]
+    }
+  ],
+  "unsupported_claims": [
+    {
+      "dimension": "competitive",
+      "text": "Alternatives and competitors to YouTrack include Jira, Linear, GitLab, Trello, Asana, ClickUp, Smartsheet, Wrike, Basecamp, Taiga, Zoho Sprints, Zenkit, and Plane. (judge: not_stated)",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S58"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Zenkit offers Kanban, list view, Gantt charts, wikis, and group chats as an alternative to YouTrack. (judge: not_stated)",
+      "source_ids": [
+        "S4"
+      ]
+    }
+  ]
+}
