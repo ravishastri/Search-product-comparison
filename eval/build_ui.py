@@ -121,7 +121,12 @@ def build() -> None:
                              for r in ev["claims"]] if ev else [],
     }
 
-    data = {"products": products, "enhancements": enh, "pages": pages,
+    runs = {
+        "phase4": load(ROOT / "eval/results/phase4-summary.json"),
+        "judge": {k: load(ROOT / f"eval/tune/{k}.json") for k in ("results-v1", "results-v2-dev", "results-check-dev")},
+        "human": {"sheet": "human-review-final.csv", "judge_right": 19, "labels_right": 11, "neither": 5, "disagreements": 35},
+    }
+    data = {"products": products, "enhancements": enh, "pages": pages, "runs": runs,
             "calibration": load(ROOT / "eval/calibration/labels-playwright.json")}
     payload = json.dumps(data).replace("</", "<\\/")
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -191,6 +196,13 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
     <select id="cmpVerdict"><option value="">All verdicts</option><option>supported</option><option>contradicted</option><option>not_stated</option><option>no_source_text</option></select>
   </div>
   <div class="wrap"><table><thead><tr><th>Claim</th><th>Verdict</th><th>Evidence from the page</th></tr></thead><tbody id="cmpRows"></tbody></table></div>
+  <h2>Run results</h2>
+  <div class="wrap"><table><thead><tr><th>Product</th><th>Starter supported</th><th>Starter contradicted</th><th>Evaluator supported</th><th>Evaluator contradicted</th><th>Evaluator prices verified</th></tr></thead><tbody id="phase4rows"></tbody></table></div>
+  <p class="muted" style="font-size:13px">Judge verdicts on the saved runs (not checked accuracy). Plane's price check was not run.</p>
+  <h3>Judge agreement with my labels (90 claims)</h3>
+  <div class="wrap"><table><thead><tr><th>Judge version</th><th>Tuning (46)</th><th>Validation (17)</th><th>Held-out test (27)</th></tr></thead><tbody id="judgerows"></tbody></table></div>
+  <h3>Human check of the 35 disagreements</h3>
+  <div class="grid" id="humanCards"></div>
   <h2>What the numbers say</h2>
 <div class="grid" id="headline"></div>
 
@@ -295,6 +307,27 @@ document.getElementById("starterAnswer").textContent = D.pages.starter_answer;
 document.getElementById("brief").textContent = D.pages.brief;
 ["cmpSys","cmpVerdict"].forEach(id => document.getElementById(id).addEventListener("change", cmp));
 showPage("p1"); cmp();
+function runsSection() {
+  const R = D.runs;
+  const p4 = (R.phase4 && R.phase4.products) || [];
+  document.getElementById("phase4rows").innerHTML = p4.map(p => {
+    const s = p.starter || {}, e = p.evaluator || {};
+    const pct2 = x => x == null ? "-" : Math.round(x * 100) + "%";
+    return `<tr><td>${esc(p.product)}</td><td>${pct2(s.support_rate)}</td><td>${pct2(s.contradiction_rate)}</td><td>${pct2(e.support_rate)}</td><td>${pct2(e.contradiction_rate)}</td><td>${pct2(p.evaluator_prices_in_cited_text)}</td></tr>`;
+  }).join("") || `<tr><td colspan="6" class="muted">No Phase 4 summary yet.</td></tr>`;
+  const judge = [["Current judge (v1)", "results-v1"], ["Stricter prompt (v2)", "results-v2-dev"], ["Second model check", "results-check-dev"]];
+  document.getElementById("judgerows").innerHTML = judge.map(([label, k]) => {
+    const r = R.judge[k];
+    const cell = s => !s ? "not scored" : (s.agreement == null ? (s.with_second_check_agreement == null ? "-" : Math.round(s.with_second_check_agreement * 100) + "%") : Math.round(s.agreement * 100) + "%");
+    const sm = r ? r.summary : {};
+    return `<tr><td>${esc(label)}</td><td>${cell(sm.tune)}</td><td>${cell(sm.val)}</td><td>${sm.test ? cell(sm.test) : "not scored"}</td></tr>`;
+  }).join("");
+  const h = R.human;
+  document.getElementById("humanCards").innerHTML = [
+    ["Judge right", h.judge_right], ["My labels right", h.labels_right], ["Neither right", h.neither], ["Disagreements checked", h.disagreements]
+  ].map(([l, v]) => `<div class="card"><div class="label">${esc(l)}</div><div class="big">${esc(v)}</div></div>`).join("");
+}
+runsSection();
 headline(); tabs(); detail(); enh();
 </script>
 </body></html>
