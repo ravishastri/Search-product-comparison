@@ -307,7 +307,12 @@ def render_brief(
     dated = {s.id: bool(s.published) for s in sources}
     text_by_id = {s.id: s.content for s in sources}
     for dimension, title in DIMENSION_TITLES.items():
-        lines += [f"## {title}", ""]
+        # Pricing is the verified part. Other dimensions are cited but not checked against a reference yet.
+        verified = dimension == "pricing"
+        heading = title if verified else f"{title} (not yet verified)"
+        lines += [f"## {heading}", ""]
+        if not verified:
+            lines += ["These claims cite sources but have not been checked against a reference. Treat them as leads.", ""]
         items = [c for c in supported if c.dimension == dimension]
         if not items:
             lines += ["No sourced claims for this dimension.", ""]
@@ -316,6 +321,8 @@ def render_brief(
             cites = "".join(f"[{i}]" for i in claim.source_ids)
             undated = not any(dated.get(i, False) for i in claim.source_ids)
             note = " (date unknown)" if undated else ""
+            if not verified:
+                note += " (unverified)"
             # A price in the claim must appear in the text of a cited source; otherwise flag it.
             cited_text = " ".join(text_by_id.get(i, "") for i in claim.source_ids)
             if any(p not in cited_text for p in re.findall(r"\$\d[\d,]*(?:\.\d+)?", claim.text)):

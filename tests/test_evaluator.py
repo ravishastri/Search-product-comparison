@@ -199,8 +199,8 @@ class RenderTests(unittest.TestCase):
             Claim("reception", "Undated claim.", ["S2"]),
         ]
         brief = render_brief("Acme", [], supported, [], sources, "2026-10-18")
-        self.assertIn("- Dated claim. [S1]\n", brief)
-        self.assertIn("- Undated claim. [S2] (date unknown)", brief)
+        self.assertIn("- Dated claim. [S1] (unverified)\n", brief)
+        self.assertIn("- Undated claim. [S2] (date unknown) (unverified)", brief)
         self.assertIn("- [S1] Dated (2026-03-01): https://a.com", brief)
         self.assertIn("- [S2] Undated (date unknown): https://b.com", brief)
 
@@ -283,3 +283,17 @@ class RelevanceTests(unittest.TestCase):
         kept, dropped = filter_relevant(results, [])
         self.assertEqual(kept, results)
         self.assertEqual(dropped, 0)
+
+
+class VerifiedSectionTests(unittest.TestCase):
+    def test_non_pricing_sections_are_marked_unverified(self):
+        sources = [Source("S1", "https://a.com", "A", "Basic is $10 per user per month.", "pricing", "q")]
+        claims = [
+            Claim("pricing", "Basic costs $10 per user per month.", ["S1"]),
+            Claim("competitive", "Rival X is faster.", ["S1"]),
+        ]
+        brief = render_brief("Acme", [], claims, [], sources, "2026-10-18")
+        self.assertIn("## Pricing and plans\n", brief)
+        self.assertIn("## Competitive landscape (not yet verified)", brief)
+        self.assertIn("Rival X is faster. [S1] (date unknown) (unverified)", brief)
+        self.assertNotIn("Basic costs $10 per user per month. [S1] (date unknown) (unverified)", brief)

@@ -119,6 +119,12 @@ Caveats, to state in the interview:
 | Linear, Jira, and ClickUp briefs predate the price check and the source filter. | Rerun those three evaluator briefs when the user asks. | **Open** |
 | The judge is Kimi at 20,000 characters per page, with the calibration result of 24/26 on Linear's starter sample only. | Blind human labeling on a sample from every product. | **Open** |
 
+### Step 3: show less (verified pricing only)
+
+| Problem | Fix | Status |
+|---|---|---|
+| Competitive and reception claims read as facts in the brief, but nothing checks them against a reference. | Those sections are headed "(not yet verified)", carry a note that they are leads, and tag each claim "(unverified)". Pricing is unchanged. | **Done.** Competitive and reception claims still need a reference to be verified. |
+
 ## Decisions and trade-offs
 
 Each decision lists what we chose, the cost, and what we would change next.
