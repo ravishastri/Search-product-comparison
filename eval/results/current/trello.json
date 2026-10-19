@@ -1,0 +1,150 @@
+{
+  "run": "trello-20261019-163806",
+  "claims": [
+    {
+      "text": "Trello Standard costs $6/user/month and Premium costs $12.50/user/month when billed monthly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Annual billing reduces costs by roughly 20% compared to monthly billing on Standard and Premium.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello Enterprise requires a minimum of 50 users and an annual billing commitment.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Nonprofit and educational organizations qualify for a 50% discount on Trello Enterprise.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Organizations on lower-tier Trello plans can add advanced security features for $4 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Free plan limits file attachments to 10MB, while paid plans allow attachments up to 250MB.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello does not include native time tracking.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello Premium supports six board views: Board, Timeline, Calendar, Dashboard, Map, and Table.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello includes automation through Butler and hosts over 200 Power-Up integrations such as calendar views, card repeating, voting, and time tracking.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello Free plans allow one Power-Up per board, while paid plans allow unlimited Power-Ups.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello Enterprise includes SAML SSO, SCIM provisioning via Atlassian Guard Standard, the Observer role, and an Enterprise Admin Dashboard.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello Standard and Premium plans lack centralized user deactivation and SCIM provisioning.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "All Trello plans include two-factor authentication and unlimited activity logs.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "MeisterTask is regarded as the most direct Trello competitor because it also focuses on Kanban, though it offers fewer functions and views.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana is priced higher than Trello and targets scaling teams that need flexible project views and robust templates.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp offers a free plan with unlimited users and tasks, which reviewers consider more generous than Trello\u2019s limited free tier.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Wrike provides more features and views than Trello but is less customizable than ClickUp, and Wrike paid plans are not intended for individual users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Compared to Jira, Trello lacks built-in development analytics such as velocity tracking and lead/cycle time.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "OpenProject, Focalboard, and Taiga are open-source, self-hostable alternatives to Trello.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello has more than 50 million users worldwide.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Expert reviewers describe Trello as inexpensive and easy to use but note that teams may outgrow it and that Power-Up add-ons can multiply costs.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "TechRepublic assigns Trello an overall rating of 4.26 out of 5.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello is commonly recommended for simple projects, small teams, and visual Kanban collaboration.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello offers four plans: Free at $0, Standard at $5/user/month, Premium at $10/user/month, and Enterprise from $17.50/user/month when billed annually. (price $0, not found on the cited page)",
+      "verdict": "unsupported",
+      "evidence": ""
+    },
+    {
+      "text": "Academic institutions receive a 75% discount on Trello Standard and Premium plans and a 50% discount on Enterprise. (judge: contradicted)",
+      "verdict": "contradicted",
+      "evidence": ""
+    },
+    {
+      "text": "Trello users can track time through third-party Power-Up integrations including TMetric, TrackingTime, Everhour, and Jibble. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Trello holds a 0.47% market share in the project-management software category as of January 2026. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "G2 reviewers rate Trello\u2019s drag-and-drop capability at 94%, its to-do list at 92%, and its task creation and assignment at 92%. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "G2 reviewers rate Trello\u2019s AI text generation at 74%, AI text summarization at 75%, and dependencies at 85% among its lowest-scoring features. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}

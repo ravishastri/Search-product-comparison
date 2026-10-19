@@ -291,7 +291,8 @@ def fetch_page_text(tavily: TavilyClient, urls: list[str]) -> dict[str, str]:
 
 
 def judge_claims(
-    claims: list[Claim], sources_by_id: dict[str, Source], texts: dict[str, str], judge: Any
+    claims: list[Claim], sources_by_id: dict[str, Source], texts: dict[str, str], judge: Any,
+    evidence_out: dict[str, str] | None = None,
 ) -> tuple[list[Claim], list[Claim], dict[str, int]]:
     """Judge each claim against the full text of the pages it cites.
 
@@ -316,8 +317,10 @@ def judge_claims(
     kept: list[Claim] = []
     rejected: list[Claim] = []
     counts: dict[str, int] = {}
-    for claim, verdict, _evidence in results:
+    for claim, verdict, evidence in results:
         counts[verdict] = counts.get(verdict, 0) + 1
+        if evidence_out is not None and evidence:
+            evidence_out[claim.text] = evidence
         if verdict == "supported":
             kept.append(claim)
         elif verdict in ("no_source_text", "judge_error"):
@@ -605,9 +608,10 @@ def main(
 
     # Every supported claim is judged against the full text of its cited pages (a second model family).
     judge_counts: dict[str, int] = {}
+    judge_evidence: dict[str, str] = {}
     if supported:
         judge = ChatNebius(model=PIPELINE_JUDGE_MODEL, max_tokens=32768, timeout=300, max_retries=2, temperature=0)
-        supported, judged_out, judge_counts = judge_claims(supported, sources_by_id, texts, judge)
+        supported, judged_out, judge_counts = judge_claims(supported, sources_by_id, texts, judge, judge_evidence)
         unsupported = unsupported + judged_out
 
     # 4. Write the brief and the run record.
@@ -624,6 +628,7 @@ def main(
         "model": model,
         "judge_model": PIPELINE_JUDGE_MODEL,
         "judge_counts": judge_counts,
+        "judge_evidence": judge_evidence,
         "search": {"depth": "advanced", "results_per_query": RESULTS_PER_QUERY},
         "snippet_chars": SNIPPET_CHARS,
         "pricing_facts": structure_prices(supported),

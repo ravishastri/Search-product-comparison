@@ -1,0 +1,205 @@
+{
+  "run": "jira-20261019-155631",
+  "claims": [
+    {
+      "text": "Jira offers a free plan for up to 10 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira's Standard plan costs $7.91 per user per month and Premium costs $14.54 per user per month for up to 300 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira's paid Standard plan is $7 per user per month and Premium is $12 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Annual billing reduces Jira's Standard plan to $6.52 per user per month for a 300-user team.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Data Center pricing starts at $51,000 per year for 500 or more users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Enterprise is available at custom pricing with advanced analytics, enhanced security, and support for multiple instances.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monthly billing raises Jira's Standard plan to $8.15 per user per month and Premium to $15.25 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Software Standard starts at $8.15 per user per month billed annually for 1 to 10 users, dropping to roughly $7.16 per user per month for 11 to 100 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Software Premium starts at $16 per user per month billed annually for 1 to 10 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Enterprise is sold only through sales on annual billing and supports up to 100,000 users per site.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira pricing includes hidden costs from paid add-ons in the Atlassian marketplace.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Single sign-on, SCIM, and Active Directory sync require a separate Atlassian Guard Standard subscription for the Free, Standard, and Premium plans, but are included in the Enterprise plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira provides native time tracking for logging, estimating, and reporting time spent on issues and projects.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira's default Time Tracking Report displays time estimates, time spent, and remaining time.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Time entries in Jira can be tracked in minutes, hours, days, or weeks.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Enterprise plan includes unlimited automation rules and advanced analytics through Atlassian Analytics.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Work item-level security is available to restrict visibility and editing to specific users or groups.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Support for multiple identity providers is available for SAML SSO and SCIM user provisioning.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira AI (Atlassian Intelligence) can summarize epics, auto-generate acceptance criteria, suggest issue estimates, and translate natural language into Jira Query Language.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian announced Jira Data Center will reach end of life on March 28, 2029, new license sales ended on March 30, 2026, and renewals are allowed until March 30, 2028.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is perceived as having a steep learning curve and higher costs, leading some teams to seek alternatives.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello is identified as a strong Jira alternative for budget-conscious teams, and monday work management is viewed as easier to use.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear is viewed as winning on speed, simplicity, and developer experience, while Jira is viewed as winning on breadth, enterprise readiness, and customization.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear provides core agent features on every plan and automatic GitHub issue linking, whereas Jira's sprint automation depends more on deployment type and Marketplace apps.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is recommended for organizations with over 50 engineers that run formal Scrum ceremonies, need stakeholder reporting, and are already in the Atlassian ecosystem.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com handles cross-functional work well, though sprint-driven teams encounter manual limitations.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira offers a Linked Issues feature with explicit relationships such as blocks, is blocked by, and clone of, compared with simpler dependency fields in Asana.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian launched new Jira features for agentic software engineering workflows in September 2026, introducing an Agent Usage Dashboard.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Jira Summer 2026 release added 15 new capabilities, including a merged List and All Work view, rebuilt software boards, and AI-assisted planning.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "GitHub Copilot for Jira became generally available in June 2026 with features such as streaming agent progress, model selection, and Confluence context.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira's free plan was rated among the best free project management software plans available.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira received an overall rating of 4 out of 5, with product design rated 5 out of 5 and integrations rated 5 out of 5.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Reviewers of Confluence highlighted native Jira integration as a factor that elevates the tool above a plain wiki and reduces new developer onboarding time.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira's Standard plan costs $9.05 per user per month for up to 100,000 users, while Premium costs $18.30 per user per month, both on monthly billing for 1 to 100 users. (judge: contradicted)",
+      "verdict": "contradicted",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp is viewed as offering more advanced project management features and higher customization than Jira, including real-time chat, document creation, whiteboards, and mind maps that Jira does not match in extent. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Fireship stated that Jira is widely disliked yet difficult to replace in large organizations, and that Linear represents a fresh start using modern UX principles. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is rated highly for structured work management, creation and assignment, issue tracking, and task prioritization. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Jira received its lowest feature ratings for newer AI-driven capabilities. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is most widely adopted in IT services and computer software industries. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Zeen Rachidi published a positive review of Cursor's Jira integration, describing it as five stars with no notes. (judge: contradicted)",
+      "verdict": "contradicted",
+      "evidence": ""
+    }
+  ]
+}

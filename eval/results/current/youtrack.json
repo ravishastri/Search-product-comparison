@@ -1,0 +1,230 @@
+{
+  "run": "youtrack-20261019-164127",
+  "claims": [
+    {
+      "text": "YouTrack offers a free cloud plan for teams of up to 10 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack paid cloud plans start at $3.67 per user per month. (price check unavailable) (source text unavailable, not judged)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack plan costs can reach $600 depending on the selected plan. (price check unavailable) (source text unavailable, not judged)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack costs approximately $50 per month for a team of 10 users and about $500 per month for a team of 100 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Starting October 2025, new YouTrack monthly subscriptions begin at $5.40 per user per month and annual subscriptions begin at $4.50 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack offers volume discounts that increase as more users are added.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack includes its full feature set, support, and AI assistance at no additional charge in paid subscriptions.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack provides discounts for startups, educational institutions, non-profit organizations, and open-source projects.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack helpdesk functionality is free for up to 3 support agents.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "For teams with 4 or more support agents, YouTrack charges $6 per agent per month on monthly billing and $5.50 per agent per month on annual billing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Each YouTrack support agent must also hold a user license.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack Server remains free for teams of up to 10 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack Server annual subscriptions are listed at $900 for 15 users, $1,500 for 25 users, and $3,000 for 50 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack retains backups of removed instances for up to 6 months.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Initial setup and implementation for small and medium businesses using YouTrack may cost only a few hundred dollars.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack enterprise implementation, customization, training, and migration can range from $5,000 to $50,000.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "For a team of 100 users, YouTrack is approximately $250 less expensive per month than Jira\u2019s standard plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Selecting YouTrack\u2019s Team plan instead of the Enterprise tier can save over $120 per user per year.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack supports SAML 2.0 single sign-on for both service-provider and identity-provider initiated login.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack\u2019s enterprise tier includes SAML-based single sign-on, two-factor authentication enforcement, audit logs, project templates, advanced workflow designers, priority support, and custom project roles.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack includes built-in time tracking for recording estimated and actual time spent on issues.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack provides interactive Gantt charts for scheduling and prioritizing tasks.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack includes a Knowledge Base for organizing internal documentation and public user guides.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack supports customizable Agile boards for Kanban, Scrum, and mixed methodologies.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack comes with configurable reports and dashboards for tracking performance indicators.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack includes automation for backlog management and a feature to move unfinished items to the next sprint.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack is known for powerful search and query functions for managing issues and tasks.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack\u2019s free InCloud plan includes up to 30 GB of total storage and private projects.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack free plans include all functionality except the custom logo option.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Like Jira, YouTrack is primarily geared toward software project management.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Taiga is an open-source alternative to YouTrack that supports Scrum and Kanban methodologies.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "GitLab Issues is available as part of GitLab\u2019s free tier.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane offers a self-hosted open-source option with unlimited users at no cost.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Basecamp is a lightweight alternative designed for small teams with to-dos, schedules, chat, and file storage.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira\u2019s Standard plan starts at approximately $7.91 per user per month and its Premium plan at approximately $14.54 per user per month for teams of up to 300 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear\u2019s Basic plan costs $10 per user per month when billed yearly and $12 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear\u2019s Business plan costs $16 per user per month when billed yearly and $18 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "GitLab Premium is priced at $29 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "GitLab SaaS plans range from $0 to $1,188 per user per year in cost. (source text unavailable, not judged)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Engineering teams frustrated by speed may switch to Linear from YouTrack.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Teams unfamiliar with custom workflows may find YouTrack requires complex setup and has a steep learning curve if they do not already use JetBrains tools.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack is recognized as a top cloud project management option for extensive customization and collaborative tools.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One reviewer found that YouTrack\u2019s automation features reduced manual backlog upkeep more than any other tool they tested.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Alternatives and competitors to YouTrack include Jira, Linear, GitLab, Trello, Asana, ClickUp, Smartsheet, Wrike, Basecamp, Taiga, Zoho Sprints, Zenkit, and Plane. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Zenkit offers Kanban, list view, Gantt charts, wikis, and group chats as an alternative to YouTrack. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}

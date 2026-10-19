@@ -1,0 +1,165 @@
+{
+  "run": "linear-20261019-154834",
+  "claims": [
+    {
+      "text": "Linear's free plan costs $0 and allows unlimited members, but limits workspaces to 2 teams, 250 issues, and 10MB file uploads per file.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "As of mid-2026, Linear Basic is listed at $10 per user per month when billed yearly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "As of mid-2026, Linear Business is listed at $16 per user per month when billed yearly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monthly billing costs more than yearly rates, with Basic listed at $12 per user per month and Business at $18 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear's Basic plan was increased from $8 to $10 per user per month and Business from $14 to $16 per user per month between October 7 and November 12, 2025, both on annual billing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "A 20% discount is available on select plans when choosing annual billing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear's free plan includes core issue tracking, projects, cycles, initiatives, customer requests, and the Linear Agent platform.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "SAML single sign-on is available starting on the Business plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "SCIM automated user provisioning is available on the Enterprise plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Enterprise adds audit logs, custom dashboards, sub-initiatives, HIPAA compliance with a BAA, and a dedicated account manager.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Business plan adds private teams, guest access, and advanced AI features including Triage Intelligence and a CI/CD Releases integration.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear offers automatic issue linking from GitHub branches and pull request status updates back to issues, plus an MCP server for integrating with code and design environments.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear replaces traditional sprint ceremonies with Cycles and a continuous planning model.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian discontinued Jira Data Center products in favor of Atlassian Cloud, with Data Center support ending and cloud migration recommended.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Data Center has been reported to start at $51,000 per year.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Height was described as a direct Linear competitor with a similar keyboard-first, opinionated workflow and AI features, offering paid plans from $6.99 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Height is reported to have shut down on September 24, 2025.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp is identified as a leading alternative, offering a free plan and paid tiers ranging from $7 to $12 per user per month annually, plus an Enterprise plan with custom pricing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian, the maker of Jira, acquired The Browser Company for $610 million.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear is considered best for software teams that value speed and modern AI features that come at no extra cost.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear is viewed as less customizable and too rigid for non-technical teams in sales, marketing, or HR.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Compared to Jira, Linear wins on speed, simplicity, and developer experience, while Jira wins on breadth, enterprise readiness, and customization.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear includes core AI agent features across all plans, whereas Jira's sprint automation depends more heavily on deployment type and Marketplace apps.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear offers tight GitHub integration with automatic issue linking from branches and PR status updates.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Across reviews, Linear was frequently described as fast, with users citing almost instant page loads and a keyboard-driven interface that stays out of the way.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear is praised for its speed, clean interface, and modern AI features included at no extra cost.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One pricing guide lists overall Linear plan costs ranging from $5,000 to $70,000 depending on organizational needs. (price $5,000 not found on the cited page)",
+      "verdict": "unsupported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear Enterprise uses custom annual pricing negotiated based on seat count and requirements. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Linear integrates with third-party time tracking tools such as TrackingTime, Timely, and TMetric to add timers and timesheets inside the app. (judge: contradicted)",
+      "verdict": "contradicted",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is a primary competitor, with Cloud plans starting at $7.91 per user per month for Standard and $14.54 per user per month for Premium, plus an Enterprise tier with custom pricing. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Fireship characterized Linear as the result of rebuilding issue tracking with modern UX principles, contrasting it with Jira's entrenched position in large organizations. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ThePrimeagen stated that development teams should use tools like Linear or ClickUp, noting ClickUp is the closest option to Linear for teams that need project management beyond engineering. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}

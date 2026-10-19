@@ -1,0 +1,200 @@
+{
+  "run": "plane-20261019-164603",
+  "claims": [
+    {
+      "text": "G2 lists four Plane pricing editions ranging from $0 to $499. (price check unavailable) (source text unavailable, not judged)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Plane offers a free tier supporting up to 12 users at $0 per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Pro plan for Plane costs $6 per seat per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "FindPM lists a Pro plan for Plane at $8 per member per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane's Business plan is priced at $13 per seat per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "FindPM lists a Business plan for Plane at custom pricing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane provides an Enterprise Grid plan with custom pricing for organizations needing private or managed deployments.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Annual billing offers a 25% discount on Plane's Pro plan and a 13% discount on its Business plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "A cost comparison on Plane's pricing page indicates a 10-person team would pay roughly $720 per year for Plane compared with about $2,084 for Jira and Confluence combined.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "A 10-user deployment of Plane on cloud or self-hosted costs $2,160 over three years at $6 per seat per month with yearly billing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane operates as an AI-first platform unifying tasks, documents, workflows, and AI assistance.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane includes an AI assistant that lets users ask natural-language questions about project progress, blockers, deadlines, and work items.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The platform provides a built-in wiki and documentation pages linked to work items.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane supports time tracking at the work item level, and the feature is included in the Pro tier.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane supports SAML and LDAP single sign-on across workspaces.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "SAML-based single sign-on requires Plane's Business plan at $13 per seat per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The tool offers migration support for moving from Jira, Asana, Trello, Linear, ClickUp, and Confluence.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane integrates with GitHub, GitLab, Slack, Discord, and other third-party tools.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane can be self-hosted via Docker or Kubernetes, including air-gapped enterprise environments.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "A Prime CLI feature enables single-command installation, configuration, backup, and monitoring for self-hosted instances.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane holds SOC 2, ISO 27001, GDPR, and CCPA compliance certifications.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Version 1.4.0 introduced lightweight REST API endpoints for list views alongside improved webhooks and a modular translation architecture.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is a widely used project management and issue tracking platform developed by Atlassian.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian discontinued support for Jira Server in February 2024 and plans to end Jira Data Center by March 2029 while shifting focus to Atlassian Cloud.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Cloud Standard plan pricing starts at approximately $7 to $8 per user per month, and Premium starts at roughly $14 to $16 per user per month, with custom Enterprise pricing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Data Center pricing starts at $51,000 per year for teams of 500 or more.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp offers paid project management plans ranging from about $7 to $12 per user per month, plus a custom-priced Enterprise tier.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp sells separate AI add-ons including ClickUp Brain at $9 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut offers a Team plan at $10 per user per month and a Business plan at $16 per user per month, with discounts up to 25% for annual payment.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut receives user criticism for limited reporting depth, lack of a mobile app, and steep per-user pricing for small teams.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Pivotal Tracker shut down on April 30, 2025.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Some users consider alternatives to Plane because self-hosting demands technical upkeep and its advanced reporting is less mature than Jira's. (source text unavailable, not judged)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Augment Code notes that Plane's interface feels less polished than Linear's and that its community is smaller than those of Jira, Linear, or Shortcut.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane is positioned as an open-source alternative to Jira, Linear, Monday, and ClickUp.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Among compared tools, Plane is the only option that supports self-hosting with an open-source codebase.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "VentureGaps gives Plane an overall rating of 7.5 out of 10. (source text unavailable, not judged)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "FindPM shows an average user rating of 4.7 out of 5 for Plane based on three reviews.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "PeerSpot states that Plane surpasses competitors through intuitive collaboration, seamless integration capabilities, and robust security.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Plane includes customizable workflows, cycles, modules, dependencies, and multiple views such as board, list, calendar, Gantt, and spreadsheet. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}

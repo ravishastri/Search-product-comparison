@@ -1,0 +1,275 @@
+{
+  "run": "clickup-20261019-162809",
+  "claims": [
+    {
+      "text": "ClickUp offers a free forever plan that supports an unlimited number of users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp charges $7 per user per month for its Unlimited plan when billed annually, and $10 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp charges $12 per user per month for its Business plan when billed annually, and $19 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp charges $19 per user per month for its Business Plus plan when billed annually, and $29 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp Enterprise plan pricing is custom and not published online.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp offers an optional AI add-on called ClickUp Brain for $9 per user per month billed annually.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp offers a higher-tier AI add-on called Everything AI for $28 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's paid plans are more affordable than monday work management and Smartsheet, according to a 2026 pricing analysis.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira's Standard plan starts at $7.91 per user per month, and its Premium plan is $14.54 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira offers a free plan for up to 10 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira Data Center pricing starts at $51,000 per year.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello's Standard plan costs $5 per user per month, its Premium plan costs $10 per user per month, and its Enterprise plan costs $17.50 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello's annual billing saves roughly 20% over monthly pricing on Standard and Premium plans.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Backlog by Nulab offers a free plan for up to 10 users.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Backlog by Nulab paid plans start at $35 per month for the Starter plan, with Standard at $100 per month and Premium at $175 per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp includes native time tracking on all plans, including the free plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's Business plan includes Google single sign-on and required two-factor authentication.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's Enterprise plan includes SAML single sign-on, SCIM provisioning, audit logs, session management, and advanced permissions.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's Enterprise plan is the only plan that is HIPAA-compliant.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's Enterprise plan provides access to a dedicated customer success manager and live onboarding training.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's Business plan includes 5,000 automations per month, while the Enterprise plan includes 250,000 automations per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp organizes work into spaces, folders, lists, and tasks, and offers List, Board, Calendar, and Gantt chart views.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's free plan includes unlimited tasks, unlimited members, collaborative documents, and 60MB of storage.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's Business plan includes unlimited whiteboards, mind mapping, sprint points and reporting, and portfolio workload management.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "According to an integration guide, marking hours as billable and using time entry approvals are available only in ClickUp's Business Plus and Enterprise plans.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp Brain is an AI tool that can analyze trends, automate subtasks, draft replies, generate tables, and convert voice or text into transcriptions.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Backlog by Nulab is positioned as a top alternative for developer teams.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Trello is pivoting to a personal tasks app aimed at individual users rather than teams, with changes rolling out around April.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian is discontinuing new Jira Data Center subscriptions on March 30, 2026, with end of life scheduled for March 28, 2029.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian Server products for Jira reached end of support in February 2024 and no longer receive updates or security patches.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Backlog by Nulab is described as less expensive than Jira, with built-in Git support and bug tracking included in its pricing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Backlog by Nulab merges task tracking, bug reporting, documentation, and code management via built-in Git and SVN repositories.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com offers over 200 native integrations, while ClickUp claims more than 1,000 native integrations.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com's integrations with Salesforce, HubSpot, Slack, and Jira provide deeper bidirectional syncing than ClickUp's equivalents, according to a 2026 comparison.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One 2026 reviewer ranked ClickUp's free plan above Trello's free tier.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One reviewer found Backlog by Nulab's interface looks dated and its advanced reporting and customization options less flexible than competing tools.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "A 2026 reviewer noted that ClickUp offers an extensive library of custom fields that lets users build a mini-database inside projects.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Some G2 users highlight ClickUp's inbox for centralizing notifications from multiple channels and allowing updates to be grouped by date or project.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One analysis identified ClickUp's biggest downsides as a steep learning curve for advanced features such as mind maps and a user interface that can be tricky to navigate.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Teams sometimes look for ClickUp alternatives because the platform can feel overly complex, slows down in larger workspaces, and requires significant setup and training.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Another source notes that ClickUp's advanced tools have a steep learning curve and its mobile apps lack some views available on desktop.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's entry-level paid plan at $7 per user per month undercuts Asana's Premium plan at $10.99 per user per month and Asana's Business plan at $24.99 per user per month. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp's entry-level paid plan at $7 per user per month undercuts Notion's Plus plan at $10 per user per month and Notion's Business plan at $18 per user per month. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Zoho Projects offers paid plans starting at $5 per user per month for Premium. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp supports native task dependencies, critical path analysis, workload management, milestone tracking, and sprint velocity reporting. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is considered superior for software development and agile tracking. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Trello is viewed as a cost-effective substitute for ClickUp but offers more basic project management features. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Trello lacks native time tracking, while ClickUp includes native time tracking functionality. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "A tested review from 2026 concluded that ClickUp provides better overall value than Monday.com for most teams based on pricing and feature density. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp holds a 4.6 out of 5 rating on G2 based on more than 11,800 reviews. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "99% of ClickUp reviewers on G2 rate the product four or five stars. (judge: contradicted)",
+      "verdict": "contradicted",
+      "evidence": ""
+    },
+    {
+      "text": "95% of ClickUp users on G2 say they would recommend the product. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "G2 reviewers frequently praise ClickUp for bringing tasks, documentation, dashboards, and team communication into a single workspace. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "run": "shortcut-20261019-162424",
+  "claims": [
+    {
+      "text": "Shortcut offers a free plan for up to 10 users, a Team plan billed at $10 per user per month or $8.50 per user per month annually, a Business plan billed at $16 per user per month or $12 per user per month annually, and an Enterprise plan with custom pricing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Annual billing for Shortcut plans includes a discount of up to 25%.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One source describes Shortcut\u2019s annual Team rate of $8.50 per user per month as competitive but not the cheapest option for growing teams.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana\u2019s Starter plan costs $10.99 per user per month when billed annually and its Advanced plan costs $24.99 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp\u2019s Unlimited plan costs $7 per user per month when billed annually and its Business plan costs $12 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira\u2019s Standard plan starts at $7 per user per month and its Premium plan starts at $12 per user per month according to one pricing guide.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut provides tools for issue tracking, sprint planning, roadmaps, and aligning work with company goals.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The platform\u2019s data model is built around Stories, Epics, Milestones, and Iterations.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut serves industries including finance, information technology, e-learning, entertainment, retail, and media production.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The free tier supports up to 10 users and includes Kanban boards, roadmaps, basic reports, sprints, Docs, and integrations with GitHub, Slack, and Figma.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Team plan adds advanced reporting, work-in-progress limits, multiple custom workflows, automations, and access to all integrations.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Business plan adds unlimited workspaces, strategic Objectives and Key Results, advanced custom fields, and extended reporting.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Enterprise plan includes premier support SLAs, single sign-on and SCIM, custom terms, a dedicated Slack channel, and onboarding support.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Single sign-on is available as an add-on for paid plans and is included with Enterprise plans.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut integrates with third-party applications including Slack, Figma, Clockify, Zendesk, Zapier, and Miro.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The platform connects to AI coding tools including Cursor and Claude Code through an MCP Server.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Users can track time on stories via a Clockify integration.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Qualifying startups can receive the Business plan with SAML SSO included at no cost for 12 months.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut was formerly known as Clubhouse Software.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp, Jira, and Asana are identified as top alternatives to Shortcut. (source text unavailable, not judged)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut competes in the project management space alongside Atlassian Jira, Asana, monday.com, Notion, and Smartsheet.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One source suggests that for teams between 15 and 100 people, Shortcut, Jira, or Asana are strong choices, whereas teams over 100 typically favor Jira for customization and scale.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Another source recommends Jira for organizations with more than 50 engineers running formal Scrum ceremonies, and suggests Shortcut for teams of 10 to 50 engineers seeking sprint analytics without Jira\u2019s complexity.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Linear is noted for sub-100-millisecond UI response times and a keyboard-first design philosophy.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One comparison notes that Shortcut has fewer integrations than Jira\u2019s Marketplace ecosystem and that its AI features are still rolling out.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Atlassian will stop selling new Jira Data Center subscriptions on March 30, 2026, with Data Center support ending on March 28, 2029.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Users broadly praise Shortcut for a clean, intuitive interface and an agile-friendly workflow that balances simplicity and power.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Praised elements include the Stories and Epics hierarchy, GitHub integration quality, fast search, and responsive customer support.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Recurring criticisms include limited reporting depth, absence of a mobile app, steep per-user pricing for small teams, onboarding complexity around naming conventions, gaps in the Productboard integration, and occasional UI load time issues.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut holds an average rating of 4.6 out of 5 across 363 verified reviews on Capterra.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One source states that Shortcut\u2019s interface feels slower than newer competitors and that its reporting capabilities lag behind Jira\u2019s depth.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Brand confusion from the company\u2019s rename from Clubhouse to Shortcut still causes friction for some teams.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira offers a marketplace with over 6,000 apps. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Jira is noted for deeper customization and more mature reporting for large or complex organizations. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp offers native task dependencies, critical path analysis, workload management, milestone tracking, sprint velocity reporting, and time tracking. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}

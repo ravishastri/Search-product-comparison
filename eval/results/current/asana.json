@@ -1,0 +1,230 @@
+{
+  "run": "asana-20261019-163356",
+  "claims": [
+    {
+      "text": "Asana offers a free Personal plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Starter plan costs $10.99 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "When billed monthly, the Starter plan costs $13.49 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Advanced plan costs $24.99 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "When billed monthly, the Advanced plan costs $30.49 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Enterprise and Enterprise Plus plans use custom pricing.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Native time tracking is available on Advanced, Enterprise, and Enterprise Plus plans.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Timesheets and Budgets add-on is licensed on a per-user basis.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "SAML-based SSO requires an Enterprise or Enterprise Plus plan.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Paid plans include Asana AI features such as AI Teammates, Asana Dash, and AI Studio.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Native time tracking allows users to record time via an embedded timer or by manually logging hours for each task.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "The Timesheets and Budgets add-on lets teams log time directly on tasks, separate billable and non-billable hours, submit timesheets for approval, and view real-time updates in dashboards.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "A single task can be added to multiple projects simultaneously, with any changes syncing automatically across all projects.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana does not support assigning multiple users directly to a single task, though subtasks can each have different owners.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana is positioned to focus on internal task management and team collaboration rather than client work.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana sees its strongest adoption in marketing and advertising, information technology services, computer software, and non-profit organization management.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com holds a strong presence in marketing and advertising, information technology services, computer software, construction, and non-profit management.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com's mobile app holds a 4.7-star rating on the Apple App Store, compared to Asana's 4.5-star rating as of the first quarter of 2026.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp offers more than 1,000 native integrations, compared with over 200 each for Asana and Monday.com.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One review positions Asana as a stronger fit for structured workflows and granular control across multiple projects.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com is positioned as stronger for visual project tracking and layout flexibility.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One review gives Jira an overall rating of 4 out of 5 and names it best for software teams and customizable dashboards.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Jira supports explicit issue relationships such as blocks and is blocked by, whereas Asana handles simpler task dependencies.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "On G2, 94% of reviewers rate Asana's creation and assignment features positively.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "On G2, 93% of reviewers rate Asana's due dates features positively.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "On G2, 92% of reviewers commend Asana's project and task list organization.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "On G2, Monday.com receives ratings of 94% for creation and assignment, 94% for due dates, and 93% for task prioritization.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One comparison lists Asana at $13.49 per user per month versus Jira at $7.91 per user per month.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana holds a 4.4 out of 5 overall rating from more than 13,000 verified G2 reviews as of May 2026.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Ninety-four percent of G2 reviewers rate Asana's task creation and assignment features positively.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Ninety-two percent of G2 users commend Asana's project and task list organization.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana reported $216.4 million in revenue for the second quarter of fiscal 2027, a 10% increase year over year.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Asana's dollar-based net retention rate reached 97% in the second quarter of fiscal 2027.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "One review describes Asana as a solid and user-friendly project management tool with an interface that serves as a major selling point, though it notes the tool is not as powerful as some competitors.",
+      "verdict": "supported",
+      "evidence": ""
+    },
+    {
+      "text": "Microsoft SSO lets teams sign in with existing Microsoft credentials, and administrators on paid plans can require it as the organization-wide login method. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "An audit log API built to support SIEM is included in the platform. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Enterprise and Enterprise Plus plans include user provisioning through SCIM and universal resource management. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Integrations with Salesforce, HubSpot, Adobe Creative Cloud, Tableau, Gmail, and Jira Cloud are available in the Advanced tier and above. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Jira sees its highest adoption in IT services and computer software industries. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "On G2 as of the first quarter of 2026, Monday.com holds an overall score of 4.7 out of 5 from over 12,000 reviews, while Asana scores 4.4 out of 5 from over 10,000 reviews. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "On Capterra, Monday.com holds a 4.6 out of 5 rating from over 5,200 reviews, compared to Asana's 4.5 out of 5 from over 13,000 reviews. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Asana scores higher than Monday.com on G2 for workflow customization, with a rating of 4.5 out of 5 versus 4.3 out of 5. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Asana scores higher than Monday.com on G2 for enterprise administration, with a rating of 4.5 out of 5 versus 4.2 out of 5. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "On G2, Jira receives ratings of 94% for creation and assignment, 93% for issue tracking, and 92% for task prioritization. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Some G2 users note that reporting features are limited on basic plans and that automation capabilities are less robust than those of some competing tools. (judge: not_stated)",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}
