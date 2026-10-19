@@ -62,12 +62,56 @@ SEED = [
 ]
 
 
+FACTS_SCHEMA = """
+CREATE TABLE IF NOT EXISTS verified_facts (
+    id INTEGER PRIMARY KEY,
+    vendor TEXT NOT NULL,
+    plan TEXT NOT NULL,
+    feature TEXT NOT NULL,
+    included INTEGER NOT NULL,
+    via_add_on TEXT,
+    quote TEXT NOT NULL,
+    source_url TEXT NOT NULL,
+    checked_on TEXT NOT NULL
+);
+"""
+
+# Facts checked against a source page. Each has the quote the check relied on.
+FACTS = [
+    dict(vendor="Trello", plan="Enterprise", feature="SSO", included=1,
+         via_add_on="Atlassian Guard (separate subscription, from $4/month per user)",
+         quote="Free SSO and user provisioning with Atlassian Guard",
+         source_url="https://trello.com/pricing", checked_on="2026-10-19"),
+]
+
+
 def connect(path: Path = DB) -> sqlite3.Connection:
     path.parent.mkdir(parents=True, exist_ok=True)
     db = sqlite3.connect(path)
     db.row_factory = sqlite3.Row
     db.executescript(SCHEMA)
+    db.executescript(FACTS_SCHEMA)
     return db
+
+
+def seed_facts(db: sqlite3.Connection) -> int:
+    added = 0
+    for f in FACTS:
+        exists = db.execute("SELECT 1 FROM verified_facts WHERE vendor=? AND plan=? AND feature=?",
+                            (f["vendor"], f["plan"], f["feature"])).fetchone()
+        if exists:
+            continue
+        db.execute("INSERT INTO verified_facts (vendor, plan, feature, included, via_add_on, quote, source_url, checked_on)"
+                   " VALUES (:vendor, :plan, :feature, :included, :via_add_on, :quote, :source_url, :checked_on)", f)
+        added += 1
+    db.commit()
+    return added
+
+
+def facts_for(db: sqlite3.Connection, vendor: str, plan: str) -> list[dict]:
+    return [dict(r) for r in db.execute(
+        "SELECT * FROM verified_facts WHERE lower(vendor)=lower(?) AND lower(plan)=lower(?) AND included=1",
+        (vendor, plan))]
 
 
 def seed(db: sqlite3.Connection) -> int:

@@ -77,6 +77,9 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
     db.close()
     last = past[0] if past else None
     cur = current_price(vendor, plan)
+    fdb = purchases_db.connect()
+    facts = purchases_db.facts_for(fdb, vendor, plan)
+    fdb.close()
     bullets = load_bullets(slug)
     supported = [b for b in bullets if b["verdict"] == "supported"]
     support_rate = len(supported) / len(bullets) if bullets else 0.0
@@ -89,7 +92,7 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
     if cur is None:
         factors["current_price"] = 0.3
         reasons.append("No verified current price for this plan. Only verified prices are stored.")
-        return finish("insufficient_data", reasons, factors, confidence, last, cur, memory, bullets)
+        return finish("insufficient_data", reasons, factors, confidence, last, cur, memory, bullets, facts)
     factors["current_price"] = 1.0
 
     # 2. Compare with the last purchase.
@@ -121,7 +124,9 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
         budget_ok = False
         reasons.append(f"Current price {cur['amount']} is above the budget of {max_price} per seat.")
     must = memory.get("must_have", [])
-    missing = [m for m in must if not any(m.lower() in b["text"].lower() for b in supported)]
+    missing = [m for m in must
+               if not any(m.lower() in b["text"].lower() for b in supported)
+               and not any(m.lower() == f["feature"].lower() for f in facts)]
     for m in missing:
         reasons.append(f"Must-have '{m}' is not in any supported claim.")
     memory_penalty = 0.0
@@ -142,10 +147,10 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
         if change is not None:
             reasons.append(f"Price change since the last purchase: {change:+.1f}%, within the tolerance.")
 
-    return finish(rec, reasons, factors, confidence, last, cur, memory, bullets)
+    return finish(rec, reasons, factors, confidence, last, cur, memory, bullets, facts)
 
 
-def build_evidence(last, cur, memory, bullets) -> dict:
+def build_evidence(last, cur, memory, bullets, facts=()) -> dict:
     """The evidence behind the recommendation: sources, memory checks, and the supported claims used."""
     supported = [b for b in bullets if b["verdict"] == "supported"]
     checks = []
@@ -156,9 +161,15 @@ def build_evidence(last, cur, memory, bullets) -> dict:
                        "evidence": f"current verified price {cur['amount']:g} {cur['unit']} (source: {cur.get('source_url')})"})
     for m in memory.get("must_have", []):
         hit = next((b for b in supported if m.lower() in b["text"].lower()), None)
-        checks.append({"rule": f"must_have: {m}", "result": "pass" if hit else "fail",
-                       "evidence": (f"{hit['text']} | page says: \"{hit.get('evidence', '')[:160]}\"" if hit
-                                    else "no supported claim mentions it")})
+        fact = next((f for f in facts if m.lower() == f["feature"].lower()), None)
+        if hit:
+            ev = f"{hit['text']} | page says: \"{hit.get('evidence', '')[:160]}\""
+        elif fact:
+            ev = (f"verified: {fact['feature']} in {fact['plan']} via {fact['via_add_on'] or 'plan'} | "
+                  f"page says: \"{fact['quote']}\" ({fact['source_url']})")
+        else:
+            ev = "no supported claim or verified fact for this plan"
+        checks.append({"rule": f"must_have: {m}", "result": "pass" if (hit or fact) else "fail", "evidence": ev})
     terms = [m.lower() for m in memory.get("must_have", [])] + ["$", "per user", "per seat", "per month", "annual", "monthly"]
     used = [b for b in supported if any(t in b["text"].lower() for t in terms)][:6]
     return {
@@ -172,13 +183,13 @@ def build_evidence(last, cur, memory, bullets) -> dict:
     }
 
 
-def finish(rec, reasons, factors, confidence, last, cur, memory, bullets) -> dict:
+def finish(rec, reasons, factors, confidence, last, cur, memory, bullets, facts=()) -> dict:
     value = 1.0
     for f in factors.values():
         value *= f
     confidence = round(max(0.0, min(1.0, value)), 2)
     return {
-        "evidence": build_evidence(last, cur, memory, bullets),
+        "evidence": build_evidence(last, cur, memory, bullets, facts),
         "recommendation": rec,
         "confidence": confidence,
         "reasons": reasons,
