@@ -137,4 +137,8 @@ The assignment asks for a record of how the project was built: chat history, ses
 
 ## Open questions
 
-None for Phase 2. Phase 3 will refine the queries once the first run shows what Tavily returns.
+- Should Jira's Atlassian Guard add-on count as SSO? The answer decides Jira and part of the Trello result.
+- Does YouTrack include SSO? The JetBrains buy, product, features, download, and trust pages checked do not mention it. Sales or the help docs may settle it.
+- ClickUp Business's 2024 price is not confirmed. The Plane price check has not been run.
+- Judge accuracy: 55 claims where the judge and labels agreed have not been checked by a person.
+- Which of the Asana, Trello, and YouTrack contradictions are judge errors? They have not been read one by one.
