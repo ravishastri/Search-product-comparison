@@ -1,0 +1,184 @@
+{
+  "summary": {
+    "claims": 34,
+    "supported": 30,
+    "contradicted": 0,
+    "not_stated": 3,
+    "unverified_evidence": 0,
+    "no_source_text": 1,
+    "support_rate": 0.882,
+    "contradiction_rate": 0.0
+  },
+  "claims": [
+    {
+      "text": "Linear offers a free plan that supports unlimited members but limits organizations to two teams and up to 250 active issues.",
+      "verdict": "supported",
+      "evidence": "It\u2019s free forever for unlimited members, capped at 2 teams, 250 issues, and 10MB file uploads."
+    },
+    {
+      "text": "Linear\u2019s Basic plan is priced at $10 per user per month and removes the 250-issue limit while allowing up to five teams.",
+      "verdict": "supported",
+      "evidence": "Basic at $10 removes the issue limit and allows five teams; Business at $16 adds unlimited teams, private teams and guests, Triage Intelligence, Insights, Linear Asks and support-desk integrations."
+    },
+    {
+      "text": "Linear\u2019s Business plan is priced at $16 per user per month and adds support for unlimited teams, private teams, and guest access.",
+      "verdict": "supported",
+      "evidence": "Basic at $10 removes the issue limit and allows five teams; Business at $16 adds unlimited teams, private teams and guests, Triage Intelligence, Insights, Linear Asks and support-desk integrations."
+    },
+    {
+      "text": "Linear\u2019s Enterprise plan uses custom pricing and requires annual billing.",
+      "verdict": "supported",
+      "evidence": "Enterprise is quote-based and annual-only."
+    },
+    {
+      "text": "Overall Linear pricing plans can reportedly range from $5,000 to $70,000 depending on specific organizational needs.",
+      "verdict": "supported",
+      "evidence": "Linear pricing plans range from $5000 to $70,000 based on your needs."
+    },
+    {
+      "text": "The cost of Linear is influenced by the number of teams, required features, and organization size.",
+      "verdict": "supported",
+      "evidence": "Things like the number of teams, necessary features, and size of the organization can affect the pricing of the Linear platform."
+    },
+    {
+      "text": "Linear provides a discount for annual billing.",
+      "verdict": "supported",
+      "evidence": "Yes, you will get a 20% discount with annual billing on select plans in the Linear platform."
+    },
+    {
+      "text": "Jira, YouTrack, and GitHub Issues are among the tools listed as alternatives to Linear.",
+      "verdict": "supported",
+      "evidence": "5. 5. Jira \u2014 Best with advanced agile boards"
+    },
+    {
+      "text": "Zoye, ClickUp, and Asana are cited as alternatives for teams that have outgrown pure issue tracking.",
+      "verdict": "supported",
+      "evidence": "For those teams, Zoye, ClickUp, and Asana are the strongest alternatives because they handle general project work rather than engineering issues."
+    },
+    {
+      "text": "Plane is noted as an open-source Linear alternative.",
+      "verdict": "supported",
+      "evidence": "Best for: Teams wanting an open-source, self-hosted Linear alternative"
+    },
+    {
+      "text": "Linear is recognized for a keyboard-driven interface, automatic sprint management, and a clean design aimed at small-to-mid-sized product and engineering teams.",
+      "verdict": "supported",
+      "evidence": "Its keyboard-first interface, automatic sprint management, and clean design make it a favorite among small-to-mid product and engineering teams."
+    },
+    {
+      "text": "Linear is viewed as a fast, clean tool with a keyboard-friendly workflow that resembles Git.",
+      "verdict": "supported",
+      "evidence": "Its clean, keyboard-friendly interface and Git-like workflow make it particularly appealing to engineering teams who value efficiency and minimal friction in their daily workflows."
+    },
+    {
+      "text": "Tech Insider reports that Jira suits teams wanting deep agile structure and a large ecosystem, while Linear suits teams prioritizing speed, a clean interface, and modern AI features included at no extra cost.",
+      "verdict": "supported",
+      "evidence": "Jira suits teams that want deep agile structure, sprint management and a large ecosystem of integrations."
+    },
+    {
+      "text": "Fireship describes Jira as difficult to replace in large organizations despite widespread frustration, and views Linear as a modern UX-focused approach to issue tracking.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Linear\u2019s Enterprise plan includes single sign-on via SAML and SCIM provisioning for user management.",
+      "verdict": "not_stated",
+      "evidence": "| Enterprise | Custom (SSO, SCIM, dedicated support) | Custom (99.95% SLA, Atlassian Access, Data Center option) |"
+    },
+    {
+      "text": "Linear\u2019s GitHub integration automatically links issues from branches and updates issue status based on pull requests.",
+      "verdict": "supported",
+      "evidence": "When I compared Linear's GitHub integration with Jira's key-based flow, Linear documented automatic issue linking from branches and PR status updates back to Linear issues."
+    },
+    {
+      "text": "Linear includes core agent features across all plans, whereas Jira\u2019s comparable sprint automation depends more on deployment type and Marketplace apps.",
+      "verdict": "supported",
+      "evidence": "Compared with Linear's agent-first model, Jira's sprint automation depends more heavily on deployment type and Marketplace apps."
+    },
+    {
+      "text": "Linear allows AI agents to be assigned issues, added to teams, and mentioned in comments.",
+      "verdict": "supported",
+      "evidence": "Linear describes agents as first-class users that can be assigned issues, added to teams, and mentioned in comments."
+    },
+    {
+      "text": "Advanced agent skills and automations in Linear require a Business or Enterprise plan.",
+      "verdict": "supported",
+      "evidence": "The agent also supports skills and automations, which require a business ($16 per user/month) or enterprise plan."
+    },
+    {
+      "text": "Linear intends to move some AI automations and coding features to usage-based pricing after the beta period.",
+      "verdict": "supported",
+      "evidence": "Pricing is unchanged during the beta, but the post suggests that automations and coding features will move to usage-based pricing \"beyond a certain threshold.\""
+    },
+    {
+      "text": "Grok can integrate with Linear workspaces to search backlogs, summarize sprint progress, draft updates, and create issues.",
+      "verdict": "supported",
+      "evidence": "Grok can search through your backlog, summarize sprint progress, draft updates, and create new issues."
+    },
+    {
+      "text": "YouTrack bundles Scrum and Kanban boards, sprint planning with dependencies, time tracking, Gantt charts, and helpdesk projects that Linear typically leaves to separate tools.",
+      "verdict": "not_stated",
+      "evidence": "YouTrack bundles a helpdesk and a knowledge base into the same licence, so support teams and engineers can share a tool rather than integrating two."
+    },
+    {
+      "text": "YouTrack is described as a low-cost, Europe-based alternative to Linear.",
+      "verdict": "supported",
+      "evidence": "4. YouTrack, the low-cost and European option"
+    },
+    {
+      "text": "Plane is an open-source Linear alternative that can be self-hosted; its hosted version is free for up to 12 users, then costs $6 per user per month billed annually.",
+      "verdict": "supported",
+      "evidence": "The hosted version is free for up to 12 users, then $6 per user per month billed annually."
+    },
+    {
+      "text": "Jira\u2019s cloud pricing is reported to start at roughly $7.91 per user per month for the Standard plan and $14.54 per user per month for the Premium plan, alongside a free plan for small teams.",
+      "verdict": "supported",
+      "evidence": "Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page."
+    },
+    {
+      "text": "GitHub\u2019s Team plan is priced at $4 per user per month, and its Enterprise plan starts at $21 per user per month.",
+      "verdict": "supported",
+      "evidence": "| Price | $0 | $4/user/month | Starts at $21/user/month |"
+    },
+    {
+      "text": "YouTrack offers a free plan for up to 10 users, with paid cloud plans starting at approximately $3.67 per user per month.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack cloud pricing was updated in October 2025, with monthly subscriptions starting at $5.40 per user and annual subscriptions averaging $4.50 per user per month.",
+      "verdict": "supported",
+      "evidence": "The Standard YouTrack Cloud subscription starts at $5.40 per user per month, with an annual subscription averaging $4.50 per user per month."
+    },
+    {
+      "text": "Atlassian is discontinuing its datacenter products, including Jira, and shifting to a cloud-only model.",
+      "verdict": "supported",
+      "evidence": "Atlassian is discontinuing its datacenter products, including Jira, Confluence and Bamboo, in favor of Atlassian Cloud."
+    },
+    {
+      "text": "Atlassian ended support for Jira Software Server in February 2024, after which products receive no updates, enhancements, or security patches.",
+      "verdict": "supported",
+      "evidence": "Your products won\u2019t be eligible for renewal or receive updates, enhancements, or security patches."
+    },
+    {
+      "text": "More than three-quarters of Atlassian customers now use cloud products.",
+      "verdict": "supported",
+      "evidence": "More than three-quarters of Atlassian customers now use cloud products, according to presenters at this week's Team '24 conference."
+    },
+    {
+      "text": "Linear has a reputation for being a fast and opinionated issue tracker, and its design is favored by small-to-mid-sized product and engineering teams.",
+      "verdict": "supported",
+      "evidence": "Linear earned its reputation by being the fastest, most opinionated issue tracker available."
+    },
+    {
+      "text": "Linear is regarded as delivering strong performance and user experience for engineering teams seeking efficiency and minimal workflow friction.",
+      "verdict": "supported",
+      "evidence": "If you're looking for a project management tool specifically designed with developers in mind, Linear delivers exceptional performance and user experience."
+    },
+    {
+      "text": "Users have remarked that Linear is designed to be navigated primarily without a mouse and offers a notably responsive interface.",
+      "verdict": "supported",
+      "evidence": "The command palette, instant search and near-total keyboard navigation are the product, and its reviewers describe a snappiness that other trackers do not have."
+    }
+  ]
+}

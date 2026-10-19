@@ -1,0 +1,239 @@
+{
+  "summary": {
+    "claims": 45,
+    "supported": 40,
+    "contradicted": 3,
+    "not_stated": 2,
+    "unverified_evidence": 0,
+    "no_source_text": 0,
+    "support_rate": 0.889,
+    "contradiction_rate": 0.067
+  },
+  "claims": [
+    {
+      "text": "Trello offers a free plan at $0 per user per month.",
+      "verdict": "supported",
+      "evidence": "Trello pricing has four tiers: Free ($0), Standard ($5/user/month), Trello Premium ($10/user/month), and Enterprise (from $17.50/user/month)."
+    },
+    {
+      "text": "Trello's Standard plan costs $5 per user per month with annual billing and $6 per user per month with monthly billing.",
+      "verdict": "supported",
+      "evidence": "$5/user/month (annual) or $6 (monthly):"
+    },
+    {
+      "text": "Trello's Premium plan costs $10 per user per month with annual billing and $12.50 per user per month with monthly billing.",
+      "verdict": "supported",
+      "evidence": "Trello\u2019s Premium Plan costs $10 per user per month when billed annually, which is way cheaper than the $12.50 per user per month you\u2019d pay with monthly billing."
+    },
+    {
+      "text": "Trello's Enterprise plan costs $17.50 per user per month and requires annual billing.",
+      "verdict": "supported",
+      "evidence": "The minimum is 50 Enterprise users for $17.50 per user, per month, billed annually."
+    },
+    {
+      "text": "Annual billing for Trello's paid plans saves approximately 20% compared to monthly billing.",
+      "verdict": "supported",
+      "evidence": "Annual billing gives you roughly 20% savings over monthly across the paid tiers."
+    },
+    {
+      "text": "Trello offers discounts of 75% on Standard and Premium plans and 50% on Enterprise plans for non-profit organizations, students, and teachers.",
+      "verdict": "supported",
+      "evidence": "As far as discounts go, Trello offers a discount for non-profit organizations, as well as students and teachers \u2014 75% off Trello\u2019s Standard and Premium plans."
+    },
+    {
+      "text": "Trello's free plan allows up to 10 team boards.",
+      "verdict": "supported",
+      "evidence": "While the absence of the voting feature and an inability to create more than 10 team boards are limiting, there\u2019s a far bigger restriction in play."
+    },
+    {
+      "text": "Trello's free plan supports unlimited project members.",
+      "verdict": "not_stated",
+      "evidence": "It\u2019s worth noting that all of Trello\u2019s plans include unlimited personal boards, cards, lists, and 2FA, so teams can start small and scale without missing any core features."
+    },
+    {
+      "text": "Trello's free plan includes a maximum file size of 10 MB, while paid plans allow 250 MB.",
+      "verdict": "supported",
+      "evidence": "Free plans limit file uploads to 10MB per attachment, while Standard, Premium, and Enterprise allow 250MB."
+    },
+    {
+      "text": "Trello's Premium plan requires a minimum of 20 users, and its Enterprise plan requires a minimum of 25 users.",
+      "verdict": "supported",
+      "evidence": "| Minimum Users | 1 | 1 | 20 | 25 |"
+    },
+    {
+      "text": "MeisterTask is described as the most direct Trello competitor because it also focuses on Kanban boards.",
+      "verdict": "supported",
+      "evidence": "Meistertask\\ is probably the most direct Trello competitor, as this German platform also focuses on Kanban."
+    },
+    {
+      "text": "MeisterTask supports managing tasks and organizing projects for teams and student groups.",
+      "verdict": "supported",
+      "evidence": "MeisterTask can be used to manage tasks and organize projects. Various functions support teams and student working groups in collaboration and communication."
+    },
+    {
+      "text": "Kanban Tool is identified as a Trello alternative best for visual project management.",
+      "verdict": "supported",
+      "evidence": "5. 5. Kanban Tool \u2014 Best for visual project management"
+    },
+    {
+      "text": "ClickUp is identified as offering the best free plan among Trello alternatives.",
+      "verdict": "supported",
+      "evidence": "7. 7.  ClickUp  \u2014 Best free plan for a Trello alternative"
+    },
+    {
+      "text": "ClickUp provides automation on its free plan, unlike competitors that reserve automation for paid tiers.",
+      "verdict": "supported",
+      "evidence": "Automation is available from the free plan\u2014a differentiator compared to competitors that lock automation behind paid tiers."
+    },
+    {
+      "text": "ClickUp combines project management, documentation, goals, and an AI assistant in a unified workspace.",
+      "verdict": "supported",
+      "evidence": "ClickUp provides a unified workspace combining project management, documentation, goals, and an AI assistant."
+    },
+    {
+      "text": "Capterra data indicates that 55% of negative ClickUp reviews cite pricing concerns, with key features locked behind higher tiers.",
+      "verdict": "contradicted",
+      "evidence": "Watch out for: Capterra specifically documents 55% of negative reviews citing pricing concerns, with key features locked behind higher tiers."
+    },
+    {
+      "text": "Trustpilot reviews document ClickUp support response times stretching to weeks for critical issues including billing disputes.",
+      "verdict": "contradicted",
+      "evidence": "Trustpilot reviews document support response times stretching to weeks for critical issues including billing disputes."
+    },
+    {
+      "text": "Compared to Trello, ClickUp is considered far more powerful, although its initial setup can feel overwhelming.",
+      "verdict": "supported",
+      "evidence": "Compared to Trello, ClickUp is far more powerful; compared to Asana, it\u2019s more flexible but sometimes less polished."
+    },
+    {
+      "text": "ClickUp competes with Trello alongside Asana, Monday.com, Smartsheet, Jira, and Notion.",
+      "verdict": "contradicted",
+      "evidence": "ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet."
+    },
+    {
+      "text": "Trello is considered better suited than Jira for small teams, freelancers, and non-technical project management.",
+      "verdict": "supported",
+      "evidence": "Trello wins for small teams, freelancers, and non-technical project management."
+    },
+    {
+      "text": "Jira was built as an issue tracker for software development, while Trello was built as a Kanban board.",
+      "verdict": "supported",
+      "evidence": "Jira was built as an issue tracker for software development and has expanded outward from that core into general project management."
+    },
+    {
+      "text": "Trello has a simple and visual user interface centered on Kanban boards where users drag and drop cards.",
+      "verdict": "supported",
+      "evidence": "Trello\u2019s UI is simple and visual; everything happens on Kanban boards, where you drag and drop cards."
+    },
+    {
+      "text": "Trello offers a lightweight reporting system and uses power-ups for custom fields, dashboard views, and integrations.",
+      "verdict": "supported",
+      "evidence": "Users can use power-ups to add custom fields, get a detailed dashboard view, and use integrations for automation and get detailed insights via sheets and Power BI."
+    },
+    {
+      "text": "Trello is considered to have limited native reporting and automation compared with other tools.",
+      "verdict": "supported",
+      "evidence": "Sales teams often use it for lightweight deal tracking or personal to-do lists, though it offers limited native reporting and automation compared with other tools on this list."
+    },
+    {
+      "text": "Trello is best suited for small teams or individuals who need a quick, visual way to track work without a steep learning curve.",
+      "verdict": "supported",
+      "evidence": "It\u2019s best suited for small teams or individual reps who need a quick, visual way to track their work without a steep learning curve or lengthy setup."
+    },
+    {
+      "text": "Notion does not include chat or private messaging features and lacks advanced project management features such as time tracking and comprehensive reporting.",
+      "verdict": "supported",
+      "evidence": "Some advanced project management features like time tracking and comprehensive reporting tools aren't included in Notion's basic toolkit."
+    },
+    {
+      "text": "Kanban Tool's free plan does not include file attachments, time tracking and reporting, the My work widget, process automation, or user groups.",
+      "verdict": "supported",
+      "evidence": "Please note the Free plan does not include:\n File attachments,\n Time tracking & reporting,\n The My work widget,\n Process automation,\n User groups."
+    },
+    {
+      "text": "Kanban Tool offers an Enterprise plan at $11 per user per month.",
+      "verdict": "supported",
+      "evidence": "Enterprise\n$11 per user / month"
+    },
+    {
+      "text": "MeisterTask's paid plans range from $13 per user per month to $25 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": "MeisterTask\u2019s paid plans start at $13/user/month and go up to $25/user/month, paid yearly."
+    },
+    {
+      "text": "ClickUp's paid plans range from $7 to $19 per user per month with annual billing.",
+      "verdict": "supported",
+      "evidence": "A free plan is available, while paid plans cost $7\u2013$19 per user/month (annual billing) and $10\u2013$29 per user/month (monthly billing)."
+    },
+    {
+      "text": "Users can begin using Trello immediately because of its simple design and usability.",
+      "verdict": "supported",
+      "evidence": "Anyone may start using Trello immediately due to its simple design and usability."
+    },
+    {
+      "text": "Trello's visual management of projects and tasks with boards, lists, and cards is regarded as simple and effective.",
+      "verdict": "supported",
+      "evidence": "Visual project and task management with boards, lists, and cards is simple and effective."
+    },
+    {
+      "text": "Trello supports teamwork through comments, attachments, and deadlines.",
+      "verdict": "supported",
+      "evidence": "It supports teamwork with comments, attachments, and deadlines."
+    },
+    {
+      "text": "Trello integrates with third-party apps and services to extend functionality.",
+      "verdict": "supported",
+      "evidence": "Trello integrates with third-party apps and services to improve functionality."
+    },
+    {
+      "text": "Large projects with many tasks can overwhelm Trello's card-based architecture.",
+      "verdict": "supported",
+      "evidence": "Larger projects with many tasks can overwhelm Trello\u2019s card-based architecture."
+    },
+    {
+      "text": "Trello's searching and reporting capabilities may not meet commercial objectives.",
+      "verdict": "supported",
+      "evidence": "Its searching and reporting capabilities may not meet commercial objectives."
+    },
+    {
+      "text": "Trello offers a generous free plan for solo developers.",
+      "verdict": "supported",
+      "evidence": "\u2705Generous free plan for solo devs"
+    },
+    {
+      "text": "Trello is easy to use for task tracking and managing basic workflows.",
+      "verdict": "supported",
+      "evidence": "\u2705Easy to use for task tracking and managing basic workflows"
+    },
+    {
+      "text": "Trello provides an AI summary of sprint performance.",
+      "verdict": "supported",
+      "evidence": "\u2705Offers an AI summary of sprint performance"
+    },
+    {
+      "text": "Trello does not include a built-in documentation tool.",
+      "verdict": "supported",
+      "evidence": "\u274cNo built-in documentation tool"
+    },
+    {
+      "text": "Trello lacks native advanced analytics such as velocity or lead/cycle time.",
+      "verdict": "supported",
+      "evidence": "\u274cLacks native advanced analytics like velocity or lead/cycle time"
+    },
+    {
+      "text": "Core features like dependencies in Trello require paid upgrades or Power-Ups.",
+      "verdict": "not_stated",
+      "evidence": "\u274c Core features like dependencies are not built-in and may require add-ons from third-parties"
+    },
+    {
+      "text": "Trello is considered inexpensive and easy to use, distinguishing it from complex, high-end competitors.",
+      "verdict": "supported",
+      "evidence": "Trello is inexpensive and easy to use, setting it apart from complex, high-end competitors like monday work management."
+    },
+    {
+      "text": "Expert testers ranked Trello among the best simple project management providers for customer support options.",
+      "verdict": "supported",
+      "evidence": "Our expert testers ranked it among the best simple project management providers for customer support options."
+    }
+  ]
+}

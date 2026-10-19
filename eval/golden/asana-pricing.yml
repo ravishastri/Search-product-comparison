@@ -1,0 +1,783 @@
+- generic [active] [ref=f3048e1]:
+  - generic [ref=f3048e3]:
+    - banner [ref=f3048e4]:
+      - navigation [ref=f3048e5]:
+        - generic [ref=f3048e6]:
+          - link "Asana Home" [ref=f3048e7] [cursor=pointer]:
+            - /url: /
+            - img "Asana Home" [ref=f3048e8]
+          - tablist [ref=f3048e11]:
+            - button "Products" [ref=f3048e12] [cursor=pointer]
+            - button "Solutions" [ref=f3048e15] [cursor=pointer]
+            - button "Learning & support" [ref=f3048e18] [cursor=pointer]
+          - link "Pricing" [ref=f3048e21] [cursor=pointer]:
+            - /url: /pricing
+          - generic [ref=f3048e23]:
+            - generic [ref=f3048e24]:
+              - generic "Choose your preferred language" [ref=f3048e25]:
+                - combobox "Choose your preferred language" [ref=f3048e26] [cursor=pointer]
+              - textbox [aria-hidden] [ref=f3048e27]: en
+            - link "Contact sales" [ref=f3048e28] [cursor=pointer]:
+              - /url: /sales
+            - link "Get started" [ref=f3048e29] [cursor=pointer]:
+              - /url: /create-account
+      - generic:
+        - generic:
+          - list:
+            - listitem:
+              - link "Contact sales":
+                - /url: /sales
+            - listitem:
+              - link "View demo":
+                - /url: /demo/main
+            - listitem:
+              - link "Download app":
+                - /url: /download
+    - generic [ref=f3048e30]:
+      - generic [ref=f3048e34]:
+        - heading "Agentic Work Management" [level=1] [ref=f3048e39]
+        - heading "Power every team with AI" [level=2] [ref=f3048e40]
+      - generic [ref=f3048e44]:
+        - generic [ref=f3048e46]:
+          - generic [ref=f3048e47]:
+            - button "Monthly" [ref=f3048e48] [cursor=pointer]
+            - switch "Toggle between monthly and yearly billing" [checked] [ref=f3048e49] [cursor=pointer]
+            - checkbox [checked] [aria-hidden] [ref=f3048e51]
+          - generic [ref=f3048e52]:
+            - button "Yearly" [ref=f3048e53] [cursor=pointer]
+            - generic [ref=f3048e54]: Save up to 18%
+        - generic [ref=f3048e56]:
+          - generic [ref=f3048e57]:
+            - generic [ref=f3048e58]:
+              - heading "Personal" [level=3] [ref=f3048e59]
+              - paragraph [ref=f3048e60]: For one or two people managing personal projects.
+            - generic [ref=f3048e61]:
+              - generic [ref=f3048e62]: $0
+              - paragraph [ref=f3048e63]: Free forever
+            - link "Sign up" [ref=f3048e65] [cursor=pointer]:
+              - /url: /create-account?pricing_tier=personal
+            - generic [ref=f3048e66]:
+              - paragraph [ref=f3048e67]: "Manage tasks and personal to-dos:"
+              - list [ref=f3048e68]:
+                - listitem [ref=f3048e69]:
+                  - paragraph [ref=f3048e72]: 2 users
+                - listitem [ref=f3048e73]:
+                  - generic [ref=f3048e76]:
+                    - paragraph [ref=f3048e77]: Unlimited tasks and projects
+                    - paragraph
+                    - generic: Never run out of space for work. Create as many tasks and projects as you need to track to‑dos and tie them to higher‑level goals.
+                - listitem [ref=f3048e78]:
+                  - generic [ref=f3048e81]:
+                    - paragraph [ref=f3048e82]: List, board, and calendar views
+                    - paragraph
+                    - generic: See work the way you need – flip between lists for details, boards for flow, or calendars for deadlines without losing context.
+                - listitem [ref=f3048e83]:
+                  - generic [ref=f3048e86]:
+                    - paragraph [ref=f3048e87]: Unlimited storage, 100MB max per file
+                    - paragraph
+                    - generic: Keep all your documents in one place. Upload as many files as you need (up to 100 MB each) so your team never has to hunt for content.
+                - listitem [ref=f3048e88]:
+                  - generic [ref=f3048e91]:
+                    - paragraph [ref=f3048e92]: Status updates
+                    - paragraph
+                    - generic: Keep everyone aligned. Post concise updates on what’s been accomplished and what’s ahead so teams stay focused.
+                - listitem [ref=f3048e93]:
+                  - generic [ref=f3048e96]:
+                    - paragraph [ref=f3048e97]: Time tracking with integrations
+                    - paragraph
+                    - generic: Know how long work really takes. By syncing with your time‑tracking tools, Asana shows actual effort so you can plan budgets and schedules confidently.
+                - listitem [ref=f3048e98]:
+                  - generic [ref=f3048e101]:
+                    - paragraph [ref=f3048e102]: 100+ free integrations
+                    - generic: Use your favorite tools without friction. Integrate Asana with Slack, Google Drive, Zoom and 100+ apps to centralize conversations and files.
+          - generic [ref=f3048e103]:
+            - generic [ref=f3048e104]:
+              - heading "Starter" [level=3] [ref=f3048e105]
+              - paragraph [ref=f3048e106]: For small teams and professionals that need to track their projects progress and hit deadlines.
+            - generic [ref=f3048e107]:
+              - generic [ref=f3048e108]: $10.99
+              - paragraph [ref=f3048e109]: Per user, per month billed annually
+            - generic [ref=f3048e110]:
+              - link "Sign up" [ref=f3048e111] [cursor=pointer]:
+                - /url: /create-account?pricing_tier=starter
+              - link "Purchase now" [ref=f3048e112] [cursor=pointer]:
+                - /url: https://asana.com/pricing#buy-starter
+            - generic [ref=f3048e116]:
+              - paragraph [ref=f3048e117]: "Asana AI included:"
+              - list [ref=f3048e118]:
+                - listitem [ref=f3048e119]:
+                  - generic [ref=f3048e122]:
+                    - paragraph [ref=f3048e123]: AI Teammates and Asana Dash
+                    - generic: Includes 5 requests per user per month, up to 50 requests per account
+                - listitem [ref=f3048e124]:
+                  - generic [ref=f3048e127]:
+                    - paragraph [ref=f3048e128]: AI Studio
+                    - generic: Includes 50K credits per billing account per month
+                - listitem [ref=f3048e129]:
+                  - paragraph [ref=f3048e130]: "Everything in Personal, plus:"
+                - listitem [ref=f3048e131]:
+                  - paragraph [ref=f3048e134]: No user seat limits
+                - listitem [ref=f3048e135]:
+                  - generic [ref=f3048e138]:
+                    - paragraph [ref=f3048e139]: Timeline and Gantt views
+                    - paragraph
+                    - generic: Plan projects with confidence. Visualize schedules on a timeline and dive into task dependencies and progress with interactive Gantt charts.
+                - listitem [ref=f3048e140]:
+                  - generic [ref=f3048e143]:
+                    - paragraph [ref=f3048e144]: Reporting dashboards
+                    - generic: See the big picture at a glance. Dashboards turn project data into charts and metrics so you instantly know if you’re on track.
+                - listitem [ref=f3048e145]:
+                  - generic [ref=f3048e148]:
+                    - paragraph [ref=f3048e149]: Unlimited automations
+                    - generic: Let routine work run itself as many times as you need to. Create automations to assign work, send alerts and keep statuses current.
+                - listitem [ref=f3048e150]:
+                  - generic [ref=f3048e153]:
+                    - paragraph [ref=f3048e154]: Forms
+                    - paragraph
+                    - generic: Get all the info you need. Intake forms capture requests and details and automatically create tasks, so nothing gets lost.
+                - listitem [ref=f3048e155]:
+                  - generic [ref=f3048e158]:
+                    - paragraph [ref=f3048e159]: Custom templates
+                    - generic: Standardize how work starts. Create templates that mirror your best practices so every new project kicks off quickly and consistently.
+                - listitem [ref=f3048e160]:
+                  - generic [ref=f3048e163]:
+                    - paragraph [ref=f3048e164]: Custom fields
+                    - paragraph
+                    - generic: Capture the data your team needs. Custom fields let you tag tasks with priorities, budgets and statuses so reporting reflects reality.
+                - listitem [ref=f3048e165]:
+                  - generic [ref=f3048e168]:
+                    - paragraph [ref=f3048e169]: Unlimited free guests
+                    - paragraph
+                    - generic: Bring partners into the loop. Unlimited free guest seats let clients and contractors collaborate without increasing your license count.
+          - generic [ref=f3048e170]:
+            - generic [ref=f3048e171]:
+              - heading "Advanced" [level=3] [ref=f3048e172]
+              - paragraph [ref=f3048e173]: For growing teams that turn goals into actionable projects, plan team capacity, and keep decisions moving.
+            - generic [ref=f3048e174]:
+              - generic [ref=f3048e175]: $24.99
+              - paragraph [ref=f3048e176]: Per user, per month billed annually
+            - generic [ref=f3048e177]:
+              - link "Sign up" [ref=f3048e178] [cursor=pointer]:
+                - /url: /create-account?pricing_tier=advanced
+              - link "Purchase now" [ref=f3048e179] [cursor=pointer]:
+                - /url: https://asana.com/pricing#buy-advanced
+            - generic [ref=f3048e183]:
+              - paragraph [ref=f3048e184]: "Asana AI included:"
+              - list [ref=f3048e185]:
+                - listitem [ref=f3048e186]:
+                  - generic [ref=f3048e189]:
+                    - paragraph [ref=f3048e190]: AI Teammates and Asana Dash
+                    - generic: Includes 5 requests per user per month, up to 50 requests per account
+                - listitem [ref=f3048e191]:
+                  - generic [ref=f3048e194]:
+                    - paragraph [ref=f3048e195]: AI Studio
+                    - generic: Includes 75K credits ber billing account per month
+                - listitem [ref=f3048e196]:
+                  - paragraph [ref=f3048e197]: "Everything in Starter, plus:"
+                - listitem [ref=f3048e198]:
+                  - generic [ref=f3048e201]:
+                    - paragraph [ref=f3048e202]: Unlimited portfolios
+                    - paragraph
+                    - generic: See the forest, not just the trees. Portfolios let you organize related projects and track overall health from one place.
+                - listitem [ref=f3048e203]:
+                  - generic [ref=f3048e206]:
+                    - paragraph [ref=f3048e207]: Goals
+                    - paragraph
+                    - generic: Make strategy tangible. Goals connect your team’s daily tasks to higher‑level objectives so everyone sees progress toward what matters most.
+                - listitem [ref=f3048e208]:
+                  - generic [ref=f3048e211]:
+                    - paragraph [ref=f3048e212]: Resource management
+                    - generic: Identify who's overloaded, who has capacity, and rebalance work instantly, within one portfolio
+                - listitem [ref=f3048e213]:
+                  - generic [ref=f3048e216]:
+                    - paragraph [ref=f3048e217]: Approvals and proofing
+                    - generic: Keep work moving. Annotate PDFs and images, request approvals, and know exactly when a deliverable is ready to launch.
+                - listitem [ref=f3048e218]:
+                  - generic [ref=f3048e221]:
+                    - paragraph [ref=f3048e222]: Forms branching & customization
+                    - generic: Capture only what matters. Dynamic forms adjust questions based on answers, ensuring you gather complete details without overwhelming your submitters.
+                - listitem [ref=f3048e223]:
+                  - generic [ref=f3048e226]:
+                    - paragraph [ref=f3048e227]: Time tracking
+                    - generic: Stop guessing. Compare estimated and actual time spent so you can forecast staffing and budgets more accurately.
+                - listitem [ref=f3048e228]:
+                  - generic [ref=f3048e231]:
+                    - paragraph [ref=f3048e232]: Scaled security
+                    - paragraph
+                    - generic: Trust that your data is safe. Asana’s security controls protect sensitive information and provide granular access policies across teams and contractors.
+                - listitem [ref=f3048e233]:
+                  - generic [ref=f3048e236]:
+                    - paragraph [ref=f3048e237]: Connect Salesforce, Tableau, PowerBI Support
+                    - generic: Stop switching between tools to piece together the full picture. Connect Salesforce, Tableau, and Power BI to your project data and get unified reporting across every workstream.
+          - generic [ref=f3048e238]:
+            - generic [ref=f3048e239]:
+              - heading "Enterprise" [level=3] [ref=f3048e240]
+              - paragraph [ref=f3048e241]: For organizations that scale work across departments with security built in.
+            - paragraph [ref=f3048e243]: Contact sales for pricing
+            - link "Contact sales" [ref=f3048e245] [cursor=pointer]:
+              - /url: /sales
+            - generic [ref=f3048e246]:
+              - paragraph [ref=f3048e247]: "Asana AI included:"
+              - list [ref=f3048e248]:
+                - listitem [ref=f3048e249]:
+                  - generic [ref=f3048e252]:
+                    - paragraph [ref=f3048e253]: AI Teammates and Asana Dash
+                    - generic: Includes 5 requests per user per month, up to 250 requests per account
+                - listitem [ref=f3048e254]:
+                  - generic [ref=f3048e257]:
+                    - paragraph [ref=f3048e258]: AI Studio
+                    - generic: Includes 200K credits ber billing account per month
+                - listitem [ref=f3048e259]:
+                  - paragraph [ref=f3048e260]: "Everything in Advanced, plus:"
+                - listitem [ref=f3048e261]:
+                  - generic [ref=f3048e264]:
+                    - paragraph [ref=f3048e265]: SAML authentication
+                    - generic: One set of credentials for everything. Use SAML‑based SSO so employees sign in through your identity provider and IT stays in control.
+                - listitem [ref=f3048e266]:
+                  - generic [ref=f3048e269]:
+                    - paragraph [ref=f3048e270]: User provisioning (SCIM)
+                    - generic: Make onboarding and off‑boarding effortless. SCIM automatically creates accounts for new hires and revokes access when they leave, protecting data without manual work.
+                - listitem [ref=f3048e271]:
+                  - generic [ref=f3048e274]:
+                    - paragraph [ref=f3048e275]: Universal resource management
+                    - generic: Get a bird’s‑eye view of capacity. Organization‑wide workload reveals who’s overbooked or free across all work so you can reassign tasks and prevent burnout.
+                - listitem [ref=f3048e276]:
+                  - generic [ref=f3048e279]:
+                    - paragraph [ref=f3048e280]: Capacity planning
+                    - paragraph
+                    - generic: Protect your people and your timelines. Capacity planning highlights when teams are at risk of overload so you can shift work and keep projects on schedule.
+                - listitem [ref=f3048e281]:
+                  - generic [ref=f3048e284]:
+                    - paragraph [ref=f3048e285]: Service accounts
+                    - generic: Automate safely. Service accounts give integrations their own credentials for bulk data access, keeping personal accounts secure.
+                - listitem [ref=f3048e286]:
+                  - generic [ref=f3048e289]:
+                    - paragraph [ref=f3048e290]: View-only licenses
+                    - generic: Include everyone who needs to know. View‑only licenses let stakeholders see progress without increasing seat costs or risking unwanted edits.
+                - listitem [ref=f3048e291]:
+                  - generic [ref=f3048e294]:
+                    - paragraph [ref=f3048e295]: Guest invitation permissions
+                    - generic: Protect your workspace’s boundaries. Decide who’s allowed to invite outside collaborators so only trusted members extend access.
+                - listitem [ref=f3048e296]:
+                  - generic [ref=f3048e299]:
+                    - paragraph [ref=f3048e300]: Project admin controls
+                    - generic: Empower without losing control. Delegated project administration lets team leads manage settings on their own projects while central settings stay locked down.
+                - listitem [ref=f3048e301]:
+                  - generic [ref=f3048e302]:
+                    - paragraph [ref=f3048e303]: Enterprise+ available for advanced security and compliance
+                    - generic: For the highest security and compliance needs, Enterprise+ adds SIEM integration, data residency, audit logs and dedicated workspaces.
+      - button "Compare all features +" [ref=f3048e309] [cursor=pointer]:
+        - generic [ref=f3048e310]: Compare all features
+        - text: +
+      - img "Abstract workflow line showing a user avatar connected to a second path with another user avatar collaborating alongside a blue AI teammate icon in image" [ref=f3048e319]
+      - generic [ref=f3048e323]:
+        - heading "AI for every workflow" [level=2] [ref=f3048e325]
+        - generic [ref=f3048e327]:
+          - tablist "Feature tabs" [ref=f3048e328]:
+            - tab "AI Teammates" [selected] [ref=f3048e329] [cursor=pointer]
+            - tab "Asana Dash" [ref=f3048e330] [cursor=pointer]
+          - generic [ref=f3048e331]:
+            - img "Asana UI showing the AI teammate gallery. A grid displays pre-built AI agents categorized by function like Marketing and IT. Example cards include a Competitive Market Researcher, Campaign Brief Writer, and Content Localization Manager." [ref=f3048e337]
+            - generic [ref=f3048e338]:
+              - tabpanel "AI Teammates" [ref=f3048e339]:
+                - heading "Ready-to-go AI Teammates supercharge your team" [level=3] [ref=f3048e340]
+                - generic [ref=f3048e341]:
+                  - list [ref=f3048e342]:
+                    - listitem [ref=f3048e343]:
+                      - paragraph [ref=f3048e344]: 30+ ready-to-go AI Teammates
+                    - listitem [ref=f3048e345]:
+                      - paragraph [ref=f3048e346]: AI that shows up where work happens
+                    - listitem [ref=f3048e347]:
+                      - paragraph [ref=f3048e348]: AI that gets smarter with every workflow
+                    - listitem [ref=f3048e349]:
+                      - paragraph [ref=f3048e350]: Enterprise-grade governance built in
+                  - paragraph
+                - link "Get started" [ref=f3048e352] [cursor=pointer]:
+                  - /url: /create-account
+              - tabpanel [aria-hidden]:
+                - heading [level=3]: Stay a step ahead with Asana Dash
+                - generic:
+                  - paragraph: Introducing Asana Dash - it summarizes your meetings, emails, and tasks so you're always a step ahead
+                  - list:
+                    - listitem:
+                      - paragraph: Access everything through one interface
+                    - listitem:
+                      - paragraph: Never lose a decision or next step again
+                    - listitem:
+                      - paragraph: Always know what to do next, before you even have to ask
+                - generic:
+                  - link:
+                    - /url: /create-account
+                    - text: Get started
+      - generic [ref=f3048e357]:
+        - generic [ref=f3048e358]:
+          - heading "One flat rate for every AI request" [level=3] [ref=f3048e359]
+          - paragraph [ref=f3048e361]: Pre-paid AI requests are $0.50 per request
+        - generic [ref=f3048e362]:
+          - generic [ref=f3048e366]:
+            - heading "No rate cards, no surprises" [level=4] [ref=f3048e367]
+            - paragraph [ref=f3048e368]: Every AI request is charged at the published rate—no credit tables to decode.
+          - generic [ref=f3048e372]:
+            - heading "Administrative tasks are included" [level=4] [ref=f3048e373]
+            - paragraph [ref=f3048e374]: Administrative tasks with Asana Dash, like prioritizing your day or analyzing data in your Work Graph®, are included at no extra cost.
+          - generic [ref=f3048e378]:
+            - heading "Flexible AI usage" [level=4] [ref=f3048e379]
+            - paragraph [ref=f3048e380]: Annual customers can use AI requests anytime during their contract term. Pay as you go for exact usage, or prepay upfront for a discount.
+      - generic [ref=f3048e384]:
+        - heading "Buy AI usage packs or pay as you go" [level=3] [ref=f3048e386]
+        - generic [ref=f3048e387]:
+          - generic [ref=f3048e388]:
+            - generic [ref=f3048e389]:
+              - generic [ref=f3048e390]: PREPAID
+              - heading "Usage packs" [level=3] [ref=f3048e391]
+              - generic [ref=f3048e392]:
+                - paragraph [ref=f3048e393]: Give your team the capacity they need to accomplish more. Prepaid AI requests are yours for your full contract terms with no monthly resets.
+                - paragraph [ref=f3048e394]: Available on Starter, Advanced, Enterprise, and Enterprise+ plans
+            - separator [ref=f3048e395]
+            - list [ref=f3048e396]:
+              - listitem [ref=f3048e397]:
+                - paragraph [ref=f3048e403]: $0.50 per AI request, billed upfront
+              - listitem [ref=f3048e404]:
+                - paragraph [ref=f3048e410]: Buy as many packs as your team needs
+              - listitem [ref=f3048e411]:
+                - paragraph [ref=f3048e417]: Live usage dashboard for visibility and control
+              - listitem [ref=f3048e418]:
+                - paragraph [ref=f3048e424]: Yours for your full contract team, no monthly resets
+            - link "Get started" [ref=f3048e426] [cursor=pointer]:
+              - /url: /create-account
+          - generic [ref=f3048e427]:
+            - generic [ref=f3048e428]:
+              - generic [ref=f3048e429]: ON DEMAND
+              - heading "Pay as you go" [level=3] [ref=f3048e430]
+              - generic [ref=f3048e431]:
+                - paragraph [ref=f3048e432]: Pay as you go for exact usage with on demand billing. No upfront commitment required, billed monthly.
+                - paragraph [ref=f3048e433]: $5.99 per user, per month billed annually. Available on Starter, Advanced, Enterprise, and Enterprise+ plans
+            - separator [ref=f3048e434]
+            - list [ref=f3048e435]:
+              - listitem [ref=f3048e436]:
+                - paragraph [ref=f3048e442]: $0.60 per AI request, billed monthly
+              - listitem [ref=f3048e443]:
+                - paragraph [ref=f3048e449]: Set a monthly spend cap
+              - listitem [ref=f3048e450]:
+                - paragraph [ref=f3048e456]: Manage on demand billing directly in-product
+              - listitem [ref=f3048e457]:
+                - paragraph [ref=f3048e463]: Live usage dashboard for visibility and control
+            - link "Get started" [ref=f3048e465] [cursor=pointer]:
+              - /url: /create-account
+      - generic [ref=f3048e469]:
+        - generic [ref=f3048e470]:
+          - heading "ADD-ONS" [level=1] [ref=f3048e472]
+          - heading "Extend Asana with optional modules" [level=3] [ref=f3048e473]
+          - paragraph [ref=f3048e475]: Add only what your team needs - billed separately on eligible plans
+        - generic [ref=f3048e476]:
+          - generic [ref=f3048e477]:
+            - generic [ref=f3048e478]:
+              - generic [ref=f3048e479]: ADD-ON
+              - heading "Timesheets and Budgets" [level=3] [ref=f3048e480]
+              - generic [ref=f3048e481]:
+                - paragraph [ref=f3048e482]: Improve project outcomes with real-time visibility into budgets, time, and costs—all in one place.
+                - paragraph [ref=f3048e483]: Available as an add-on to Starter, Advanced or Enterprise plans.
+            - separator [ref=f3048e484]
+            - list [ref=f3048e485]:
+              - listitem [ref=f3048e486]:
+                - paragraph [ref=f3048e492]: Track progress with accurate timesheet data
+              - listitem [ref=f3048e493]:
+                - paragraph [ref=f3048e499]: Monitor project health with budget tracking
+              - listitem [ref=f3048e500]:
+                - paragraph [ref=f3048e506]: Manage resources with flexible rate cards
+            - generic [ref=f3048e507]:
+              - link "Purchase now" [ref=f3048e508] [cursor=pointer]:
+                - /url: https://go.asana.com/buy-tbao
+              - link "Learn more" [ref=f3048e509] [cursor=pointer]:
+                - /url: /features/resource-management/timesheets-budgets
+          - generic [ref=f3048e510]:
+            - generic [ref=f3048e511]:
+              - generic [ref=f3048e512]: ADD-ON
+              - heading "Compliance management" [level=3] [ref=f3048e513]
+              - generic [ref=f3048e514]:
+                - paragraph [ref=f3048e515]: Give your legal, IT, and security teams the tools they need to stay compliant and reduce risk.
+                - paragraph [ref=f3048e516]: Available as an add-on to Enterprise plan.
+            - separator [ref=f3048e517]
+            - list [ref=f3048e518]:
+              - listitem [ref=f3048e519]:
+                - paragraph [ref=f3048e525]: Track activity with detailed audit logs
+              - listitem [ref=f3048e526]:
+                - paragraph [ref=f3048e532]: Enforce security policies at the network level
+              - listitem [ref=f3048e533]:
+                - paragraph [ref=f3048e539]: Preserve and export data for compliance needs
+            - generic [ref=f3048e540]:
+              - link "Contact sales" [ref=f3048e541] [cursor=pointer]:
+                - /url: /sales
+              - link "Learn more" [ref=f3048e542] [cursor=pointer]:
+                - /url: https://help.asana.com/s/article/compliance-management-add-on
+          - generic [ref=f3048e543]:
+            - generic [ref=f3048e544]:
+              - generic [ref=f3048e545]: ADD-ON
+              - heading "Permissions management" [level=3] [ref=f3048e546]
+              - generic [ref=f3048e547]:
+                - paragraph [ref=f3048e548]: Let admins and IT easily manage user permissions, app usage, and mobile and guest access all in one secure place.
+                - paragraph [ref=f3048e549]: Available as an add-on to Enterprise plan.
+            - separator [ref=f3048e550]
+            - list [ref=f3048e551]:
+              - listitem [ref=f3048e552]:
+                - paragraph [ref=f3048e558]: Define roles that match your org structure
+              - listitem [ref=f3048e559]:
+                - paragraph [ref=f3048e565]: Control access across apps, guests, and devices
+              - listitem [ref=f3048e566]:
+                - paragraph [ref=f3048e572]: Enforce content-sharing policies with precision
+            - generic [ref=f3048e573]:
+              - link "Contact sales" [ref=f3048e574] [cursor=pointer]:
+                - /url: /sales
+              - link "Learn more" [ref=f3048e575] [cursor=pointer]:
+                - /url: https://help.asana.com/s/article/permissions-management-add-on
+      - generic [ref=f3048e580]:
+        - heading "Loved by 100,000+ organizations across the globe" [level=4] [ref=f3048e583]
+        - list [ref=f3048e585]:
+          - listitem [ref=f3048e586]:
+            - img "Danone Logo" [ref=f3048e590]
+          - listitem [ref=f3048e591]:
+            - img "USAid Logo" [ref=f3048e595]
+          - listitem [ref=f3048e596]:
+            - img "Deloitte logo" [ref=f3048e600]
+          - listitem [ref=f3048e601]:
+            - img "The New York Times logo" [ref=f3048e605]
+          - listitem [ref=f3048e606]:
+            - img "NASA logo" [ref=f3048e610]
+          - listitem [ref=f3048e611]:
+            - img "Spotify" [ref=f3048e615]
+          - listitem [ref=f3048e616]:
+            - img "logo-united-way-salt-lake" [ref=f3048e620]
+          - listitem [ref=f3048e621]:
+            - img "General Electric Logo" [ref=f3048e625]
+      - generic [ref=f3048e630]:
+        - generic [ref=f3048e631]:
+          - heading "Deliver real productivity for every team" [level=3] [ref=f3048e632]
+          - paragraph [ref=f3048e634]: Learn more about the pricing details of Asana's products
+        - generic [ref=f3048e635]:
+          - generic [ref=f3048e643]:
+            - generic [ref=f3048e644]:
+              - heading "Asana Client Management" [level=4] [ref=f3048e645]
+              - paragraph [ref=f3048e646]: Build lasting client relationships on an AI-Native platform built for agency work
+            - link "Learn more" [ref=f3048e647] [cursor=pointer]:
+              - /url: /pricing/client-management
+          - generic [ref=f3048e655]:
+            - generic [ref=f3048e656]:
+              - heading "Asana Service Management" [level=4] [ref=f3048e657]
+              - paragraph [ref=f3048e658]: One AI-native enterprise service level management platform for IT, HR, facilities, and legal.
+            - link "Learn more" [ref=f3048e659] [cursor=pointer]:
+              - /url: /product/service-management#pricing
+      - generic [ref=f3048e663]:
+        - heading "Frequently asked questions about task management tools" [level=3] [ref=f3048e666]
+        - generic [ref=f3048e670]:
+          - generic [ref=f3048e671]:
+            - heading [level=5] [ref=f3048e672]:
+              - button "What is an AI request? Accordion item" [ref=f3048e673] [cursor=pointer]: What is an AI request?
+            - region "What is an AI request? Accordion item"
+          - generic [ref=f3048e677]:
+            - heading [level=5] [ref=f3048e678]:
+              - button "What is the contract term for my paid AI requests? Accordion item" [ref=f3048e679] [cursor=pointer]: What is the contract term for my paid AI requests?
+            - region "What is the contract term for my paid AI requests? Accordion item"
+          - generic [ref=f3048e683]:
+            - heading [level=5] [ref=f3048e684]:
+              - button "How do I purchase additional AI requests? Accordion item" [ref=f3048e685] [cursor=pointer]: How do I purchase additional AI requests?
+            - region "How do I purchase additional AI requests? Accordion item"
+          - generic [ref=f3048e689]:
+            - heading [level=5] [ref=f3048e690]:
+              - button "How do I monitor and control my costs? Accordion item" [ref=f3048e691] [cursor=pointer]: How do I monitor and control my costs?
+            - region "How do I monitor and control my costs? Accordion item"
+          - generic [ref=f3048e695]:
+            - heading [level=5] [ref=f3048e696]:
+              - button "Can I change or cancel my plan? Accordion item" [ref=f3048e697] [cursor=pointer]: Can I change or cancel my plan?
+            - region "Can I change or cancel my plan? Accordion item"
+          - generic [ref=f3048e701]:
+            - heading [level=5] [ref=f3048e702]:
+              - button "How many users are included in my plan? Accordion item" [ref=f3048e703] [cursor=pointer]: How many users are included in my plan?
+            - region "How many users are included in my plan? Accordion item"
+          - generic [ref=f3048e707]:
+            - heading [level=5] [ref=f3048e708]:
+              - button "How is AI Studio priced? Accordion item" [ref=f3048e709] [cursor=pointer]: How is AI Studio priced?
+            - region "How is AI Studio priced? Accordion item"
+          - generic [ref=f3048e713]:
+            - heading [level=5] [ref=f3048e714]:
+              - button "How can I add people to my plan? Accordion item" [ref=f3048e715] [cursor=pointer]: How can I add people to my plan?
+            - region "How can I add people to my plan? Accordion item"
+          - generic [ref=f3048e719]:
+            - heading [level=5] [ref=f3048e720]:
+              - button "How secure is Asana? Accordion item" [ref=f3048e721] [cursor=pointer]: How secure is Asana?
+            - region "How secure is Asana? Accordion item"
+          - generic [ref=f3048e725]:
+            - heading [level=5] [ref=f3048e726]:
+              - button "Do you offer academic pricing? Accordion item" [ref=f3048e727] [cursor=pointer]: Do you offer academic pricing?
+            - region "Do you offer academic pricing? Accordion item"
+          - generic [ref=f3048e731]:
+            - heading [level=5] [ref=f3048e732]:
+              - button "Should I upgrade my organization or my team? Accordion item" [ref=f3048e733] [cursor=pointer]: Should I upgrade my organization or my team?
+            - region "Should I upgrade my organization or my team? Accordion item"
+          - generic [ref=f3048e737]:
+            - heading [level=5] [ref=f3048e738]:
+              - button "Will I be charged sales tax? Accordion item" [ref=f3048e739] [cursor=pointer]: Will I be charged sales tax?
+            - region "Will I be charged sales tax? Accordion item"
+          - generic [ref=f3048e743]:
+            - heading [level=5] [ref=f3048e744]:
+              - button "Is there an on-premises version of Asana? Accordion item" [ref=f3048e745] [cursor=pointer]: Is there an on-premises version of Asana?
+            - region "Is there an on-premises version of Asana? Accordion item"
+          - generic [ref=f3048e749]:
+            - heading [level=5] [ref=f3048e750]:
+              - button "How does Asana protect my data? Accordion item" [ref=f3048e751] [cursor=pointer]: How does Asana protect my data?
+            - region "How does Asana protect my data? Accordion item"
+          - generic [ref=f3048e755]:
+            - heading [level=5] [ref=f3048e756]:
+              - button "How does Asana store my data? Accordion item" [ref=f3048e757] [cursor=pointer]: How does Asana store my data?
+            - region "How does Asana store my data? Accordion item"
+          - generic [ref=f3048e761]:
+            - heading [level=5] [ref=f3048e762]:
+              - button "Will I be charged VAT/GST? Accordion item" [ref=f3048e763] [cursor=pointer]: Will I be charged VAT/GST?
+            - region "Will I be charged VAT/GST? Accordion item"
+          - generic [ref=f3048e767]:
+            - heading [level=5] [ref=f3048e768]:
+              - button "Does Asana offer a discount for nonprofits? Accordion item" [ref=f3048e769] [cursor=pointer]: Does Asana offer a discount for nonprofits?
+            - region "Does Asana offer a discount for nonprofits? Accordion item"
+          - generic [ref=f3048e773]:
+            - heading [level=5] [ref=f3048e774]:
+              - button "What is your refund policy? Accordion item" [ref=f3048e775] [cursor=pointer]: What is your refund policy?
+            - region "What is your refund policy? Accordion item"
+      - generic [ref=f3048e783]:
+        - heading "Get your team and your agents working together" [level=2] [ref=f3048e784]
+        - generic [ref=f3048e787]:
+          - link "Get started" [ref=f3048e788] [cursor=pointer]:
+            - /url: /create-account
+          - link "Contact sales" [ref=f3048e789] [cursor=pointer]:
+            - /url: /sales?utm_source=web_cta&utm_medium=website&utm_campaign=awm_pricing_contact_sales
+    - contentinfo [ref=f3048e791]:
+      - generic [ref=f3048e794]:
+        - link "Asana Home" [ref=f3048e796] [cursor=pointer]:
+          - /url: /?noredirect
+        - list [ref=f3048e800]:
+          - listitem [ref=f3048e801]: New to Asana?
+          - listitem [ref=f3048e802]:
+            - link "Product overview" [ref=f3048e803] [cursor=pointer]:
+              - /url: /product
+          - listitem [ref=f3048e804]:
+            - link "All features" [ref=f3048e805] [cursor=pointer]:
+              - /url: /features
+          - listitem [ref=f3048e806]:
+            - link "Latest feature release" [ref=f3048e807] [cursor=pointer]:
+              - /url: /whats-new
+          - listitem [ref=f3048e808]:
+            - link "Pricing" [ref=f3048e809] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=f3048e810]:
+            - link "Starter plan" [ref=f3048e811] [cursor=pointer]:
+              - /url: /plan/starter
+          - listitem [ref=f3048e812]:
+            - link "Advanced plan" [ref=f3048e813] [cursor=pointer]:
+              - /url: /plan/advanced
+          - listitem [ref=f3048e814]:
+            - link "Enterprise" [ref=f3048e815] [cursor=pointer]:
+              - /url: /enterprise
+          - listitem [ref=f3048e816]:
+            - link "App integrations" [ref=f3048e817] [cursor=pointer]:
+              - /url: /apps
+          - listitem [ref=f3048e818]:
+            - link "AI work management" [ref=f3048e819] [cursor=pointer]:
+              - /url: /product/ai
+          - listitem [ref=f3048e820]:
+            - link "Project management" [ref=f3048e821] [cursor=pointer]:
+              - /url: /resources/benefits-project-management
+          - listitem [ref=f3048e822]:
+            - link "Resource management" [ref=f3048e823] [cursor=pointer]:
+              - /url: /resources/resource-management-plan
+        - list [ref=f3048e824]:
+          - listitem [ref=f3048e825]: Use cases
+          - listitem [ref=f3048e826]:
+            - link "Campaign management" [ref=f3048e827] [cursor=pointer]:
+              - /url: /uses/campaign-management
+          - listitem [ref=f3048e828]:
+            - link "Content calendar" [ref=f3048e829] [cursor=pointer]:
+              - /url: /uses/content-calendar
+          - listitem [ref=f3048e830]:
+            - link "Creative production" [ref=f3048e831] [cursor=pointer]:
+              - /url: /uses/creative-production
+          - listitem [ref=f3048e832]:
+            - link "Goal management" [ref=f3048e833] [cursor=pointer]:
+              - /url: /uses/goal-management
+          - listitem [ref=f3048e834]:
+            - link "New hire onboarding" [ref=f3048e835] [cursor=pointer]:
+              - /url: /uses/employee-onboarding
+          - listitem [ref=f3048e836]:
+            - link "Organizational planning" [ref=f3048e837] [cursor=pointer]:
+              - /url: /uses/organizational-planning
+          - listitem [ref=f3048e838]:
+            - link "Product launches" [ref=f3048e839] [cursor=pointer]:
+              - /url: /uses/product-launch
+          - listitem [ref=f3048e840]:
+            - link "Resource planning" [ref=f3048e841] [cursor=pointer]:
+              - /url: /uses/resource-planning
+          - listitem [ref=f3048e842]:
+            - link "Strategic planning" [ref=f3048e843] [cursor=pointer]:
+              - /url: /uses/marketing-strategic-planning
+          - listitem [ref=f3048e844]:
+            - link "Project intake" [ref=f3048e845] [cursor=pointer]:
+              - /url: /uses/project-intake
+          - listitem [ref=f3048e846]:
+            - link "Task Management" [ref=f3048e847] [cursor=pointer]:
+              - /url: /uses/task-management
+          - listitem [ref=f3048e848]:
+            - link "All use cases" [ref=f3048e849] [cursor=pointer]:
+              - /url: /uses
+        - list [ref=f3048e850]:
+          - listitem [ref=f3048e851]: Solutions
+          - listitem [ref=f3048e852]:
+            - link "Small business" [ref=f3048e853] [cursor=pointer]:
+              - /url: /small-business
+          - listitem [ref=f3048e854]:
+            - link "Marketing" [ref=f3048e855] [cursor=pointer]:
+              - /url: /teams/marketing
+          - listitem [ref=f3048e856]:
+            - link "Operations" [ref=f3048e857] [cursor=pointer]:
+              - /url: /teams/operations
+          - listitem [ref=f3048e858]:
+            - link "IT" [ref=f3048e859] [cursor=pointer]:
+              - /url: /teams/it
+          - listitem [ref=f3048e860]:
+            - link "Product" [ref=f3048e861] [cursor=pointer]:
+              - /url: /teams/product-managers
+          - listitem [ref=f3048e862]:
+            - link "Sales" [ref=f3048e863] [cursor=pointer]:
+              - /url: /teams/sales
+          - listitem [ref=f3048e864]:
+            - link "Healthcare" [ref=f3048e865] [cursor=pointer]:
+              - /url: /industry/healthcare
+          - listitem [ref=f3048e866]:
+            - link "Retail" [ref=f3048e867] [cursor=pointer]:
+              - /url: /industry/retail
+          - listitem [ref=f3048e868]:
+            - link "Government" [ref=f3048e869] [cursor=pointer]:
+              - /url: /industry/government-solutions
+          - listitem [ref=f3048e870]:
+            - link "Education" [ref=f3048e871] [cursor=pointer]:
+              - /url: /education
+          - listitem [ref=f3048e872]:
+            - link "Manufacturing" [ref=f3048e873] [cursor=pointer]:
+              - /url: /industry/manufacturing
+          - listitem [ref=f3048e874]:
+            - link "Nonprofits" [ref=f3048e875] [cursor=pointer]:
+              - /url: /industry/nonprofit
+          - listitem [ref=f3048e876]:
+            - link "Agencies" [ref=f3048e877] [cursor=pointer]:
+              - /url: /agencies
+          - listitem [ref=f3048e878]:
+            - link "All teams" [ref=f3048e879] [cursor=pointer]:
+              - /url: /teams
+        - list [ref=f3048e880]:
+          - listitem [ref=f3048e881]: Resources
+          - listitem [ref=f3048e882]:
+            - link "Help Center" [ref=f3048e883] [cursor=pointer]:
+              - /url: https://help.asana.com/s/
+          - listitem [ref=f3048e884]:
+            - link "Get support" [ref=f3048e885] [cursor=pointer]:
+              - /url: https://help.asana.com/s/#chat
+          - listitem [ref=f3048e886]:
+            - link "Asana Academy" [ref=f3048e887] [cursor=pointer]:
+              - /url: https://academy.asana.com/
+          - listitem [ref=f3048e888]:
+            - link "Certifications" [ref=f3048e889] [cursor=pointer]:
+              - /url: http://asana.com/certifications
+          - listitem [ref=f3048e890]:
+            - link "Forum" [ref=f3048e891] [cursor=pointer]:
+              - /url: https://forum.asana.com/
+          - listitem [ref=f3048e892]:
+            - link "Resource center" [ref=f3048e893] [cursor=pointer]:
+              - /url: /resources/category/all
+          - listitem [ref=f3048e894]:
+            - link "Events and webinars" [ref=f3048e895] [cursor=pointer]:
+              - /url: https://asana.com/events
+          - listitem [ref=f3048e896]:
+            - link "Project templates" [ref=f3048e897] [cursor=pointer]:
+              - /url: /templates
+          - listitem [ref=f3048e898]:
+            - link "Customer Success" [ref=f3048e899] [cursor=pointer]:
+              - /url: /customer-success
+          - listitem [ref=f3048e900]:
+            - link "Developers and API" [ref=f3048e901] [cursor=pointer]:
+              - /url: https://developers.asana.com/docs/
+          - listitem [ref=f3048e902]:
+            - link "Partners" [ref=f3048e903] [cursor=pointer]:
+              - /url: /partners
+          - listitem [ref=f3048e904]:
+            - link "Sitemap" [ref=f3048e905] [cursor=pointer]:
+              - /url: /site-map
+        - list [ref=f3048e906]:
+          - listitem [ref=f3048e907]: Company
+          - listitem [ref=f3048e908]:
+            - link "About us" [ref=f3048e909] [cursor=pointer]:
+              - /url: /company
+          - listitem [ref=f3048e910]:
+            - link "Leadership" [ref=f3048e911] [cursor=pointer]:
+              - /url: /leadership
+          - listitem [ref=f3048e912]:
+            - link "Customers" [ref=f3048e913] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=f3048e914]:
+            - link "Careers" [ref=f3048e915] [cursor=pointer]:
+              - /url: /jobs
+          - listitem [ref=f3048e916]:
+            - link "Inside Asana" [ref=f3048e917] [cursor=pointer]:
+              - /url: /inside-asana
+          - listitem [ref=f3048e918]:
+            - link "Culture" [ref=f3048e919] [cursor=pointer]:
+              - /url: /culture-and-belonging
+          - listitem [ref=f3048e920]:
+            - link "Press" [ref=f3048e921] [cursor=pointer]:
+              - /url: /press
+          - listitem [ref=f3048e922]:
+            - link "Investor relations" [ref=f3048e923] [cursor=pointer]:
+              - /url: https://investors.asana.com/
+          - listitem [ref=f3048e924]:
+            - link "Trust and security" [ref=f3048e925] [cursor=pointer]:
+              - /url: /trust
+          - listitem [ref=f3048e926]:
+            - link "Privacy" [ref=f3048e927] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f3048e928]:
+            - link "Supplier responsibility" [ref=f3048e929] [cursor=pointer]:
+              - /url: /terms/modern-slavery-statement
+          - listitem [ref=f3048e930]:
+            - link "Sustainability and ESG" [ref=f3048e931] [cursor=pointer]:
+              - /url: https://investors.asana.com/sustainability
+      - generic [ref=f3048e935]:
+        - generic [ref=f3048e936]: © 2026 Asana, Inc.
+        - link "English" [ref=f3048e944] [cursor=pointer]:
+          - /url: "#i18n"
+        - generic [ref=f3048e945]:
+          - link "X" [ref=f3048e946] [cursor=pointer]:
+            - /url: https://x.com/intent/follow?screen_name=asana
+          - link "Linkedin" [ref=f3048e949] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/asana
+          - link "Instagram" [ref=f3048e952] [cursor=pointer]:
+            - /url: https://www.instagram.com/asana/
+          - link "Facebook" [ref=f3048e955] [cursor=pointer]:
+            - /url: https://www.facebook.com/asana
+          - link "Youtube" [ref=f3048e958] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UC2BoogM0AqwOJyoSp1S4ClQ
+        - generic [ref=f3048e962]:
+          - generic "Terms" [ref=f3048e963]:
+            - link "Terms" [ref=f3048e964] [cursor=pointer]:
+              - /url: /terms
+          - generic [ref=f3048e965]: "&"
+          - generic "Privacy" [ref=f3048e966]:
+            - link "Privacy" [ref=f3048e967] [cursor=pointer]:
+              - /url: /terms/privacy-statement
+        - generic [ref=f3048e968]:
+          - generic "Download the Asana iOS app" [ref=f3048e969]:
+            - link "Download the Asana iOS app" [ref=f3048e970] [cursor=pointer]:
+              - /url: https://itunes.apple.com/us/app/asana-mobile/id489969512?mt=8
+              - img "Download the Asana iOS app" [ref=f3048e974]
+          - generic "Download the Asana Android app" [ref=f3048e975]:
+            - link "Download the Asana Android app" [ref=f3048e976] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.asana.app
+              - img "Download app from Google Play" [ref=f3048e980]
+  - alert [ref=f3048e981]
+  - generic [ref=f3048e982]:
+    - note "AI assistant" [ref=f3048e983]
+    - note "After AI assistant" [ref=f3048e984]

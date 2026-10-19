@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "run": "shortcut-20261018-203642",
+    "claims": 18,
+    "cited_ids_valid": 1.0,
+    "price_claims": 4,
+    "prices_in_cited_text": 1.0,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.167,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": null,
+    "ground_truth_facts": 0,
+    "ground_truth_found_in_brief": [],
+    "ground_truth_missing_from_brief": []
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "Shortcut offers a free plan for teams of up to 10 users.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "A free trial of Shortcut is available.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "The Team plan costs $10 per user per month when billed monthly.",
+      "all_ids_valid": true,
+      "prices": [
+        "$10"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "The Team plan costs $8.50 per user per month when pre-paid annually.",
+      "all_ids_valid": true,
+      "prices": [
+        "$8.50"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "The Business plan costs $16 per user per month when billed monthly.",
+      "all_ids_valid": true,
+      "prices": [
+        "$16"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "The Business plan costs $12 per user per month when pre-paid annually.",
+      "all_ids_valid": true,
+      "prices": [
+        "$12"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Shortcut provides an Enterprise plan that requires a custom quote.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Asana focuses on a wide variety of project types and offers customizable views and workload management, but lacks some s",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "ClickUp, Jira, and Asana are listed as top alternatives to Shortcut.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Shortcut integrates product and engineering work through issue tracking, sprint planning, and roadmaps that align with c",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "For teams with 15 to 100 members, Shortcut, Jira, and Asana are considered strong choices.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "For organizations with more than 100 members, Jira is typically viewed as the stronger option due to customization and s",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "GitHub Issues is regarded as the strongest free alternative for teams already using GitHub.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Shortcut and YouTrack earned overall scores of 74 and 75 out of 100 respectively across 11 criteria, with portability re",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Shortcut is available as a project tracking integration in the GitHub Marketplace alongside Linear and Jira.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Efficient App describes Shortcut as an alternative suited for teams seeking a long-standing project management platform ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Efficient App notes that Jira's complexity and user experience may frustrate smaller teams and non-engineering departmen",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Shortcut holds a score of 8.4 out of 10 based on 10 reviews and ratings on TrustRadius.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    }
+  ]
+}

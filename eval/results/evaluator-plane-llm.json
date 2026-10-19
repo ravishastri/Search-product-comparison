@@ -1,0 +1,84 @@
+{
+  "summary": {
+    "claims": 14,
+    "supported": 11,
+    "contradicted": 0,
+    "not_stated": 1,
+    "unverified_evidence": 0,
+    "no_source_text": 2,
+    "support_rate": 0.786,
+    "contradiction_rate": 0.0
+  },
+  "claims": [
+    {
+      "text": "Plane provides four pricing editions that range from zero to 499 dollars, built for different usage levels and team sizes.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "A review states Plane uses a freemium per-seat model with a free tier for up to twelve users, a Pro tier at six dollars per seat per month, a Business tier at thirteen dollars per seat per month, and custom-priced Enterprise Grid plans.",
+      "verdict": "supported",
+      "evidence": "Plane follows a freemium, per-seat model: the Free tier supports up to 12 users, Pro is $6/seat/month, and Business is $13/seat/month, each with an increasing allocation of AI credits per seat."
+    },
+    {
+      "text": "Plane advertises a free tier with core features alongside paid plans that unlock advanced features, enterprise needs, and priority support.",
+      "verdict": "supported",
+      "evidence": "Yes, Plane offers a generous free tier with core features. We also have paid plans for advanced features, enterprise needs, and priority support."
+    },
+    {
+      "text": "G2 identifies ClickUp, monday AI Work Platform, and Jira as top alternatives to Plane.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "The Plane blog contrasts its platform with ClickUp by describing Plane as a tighter, self-hostable workspace for engineering-led teams versus ClickUp\u2019s broader all-in-one cloud approach.",
+      "verdict": "supported",
+      "evidence": "Plane took a tighter approach: connect work items, documentation, sprints, intake, and AI in a single workspace that engineering-led teams can self-host, extend, and audit."
+    },
+    {
+      "text": "The Plane blog notes that Plane embeds cycles, epics, and releases in one model, offers native agent features without requiring an additional artificial intelligence purchase, and supports self-hosted deployments, unlike ClickUp.",
+      "verdict": "supported",
+      "evidence": "Plane runs every team in one workspace, with cycles, epics, and releases built into one model."
+    },
+    {
+      "text": "A customer case study on the Plane website describes how MinimalArt migrated from ClickUp to Plane to automate monthly reporting and gain real-time visibility into workloads.",
+      "verdict": "supported",
+      "evidence": "Monthly client reporting, once a manual and hours-long process, is now automated through a combination of Plane\u2019s exports, APIs, and a third-party reporting tool."
+    },
+    {
+      "text": "Heise Online reports that Plane is open-source project management software aimed at software developers and positioned as an alternative to Jira, Linear, Monday, and ClickUp.",
+      "verdict": "supported",
+      "evidence": "Plane is open-source project management software aimed at software developers as an alternative to Jira, Linear, Monday, and ClickUp."
+    },
+    {
+      "text": "An analysis of ClickUp alternatives characterizes Plane as free and self-hostable with a modern interface covering issues, cycles, modules, and roadmaps, but cautions that its documentation and goals features are lighter than ClickUp\u2019s and its ecosystem is newer.",
+      "verdict": "supported",
+      "evidence": "Docs and goals features are lighter than ClickUp's"
+    },
+    {
+      "text": "The Plane blog claims full feature parity with Jira Standard and eighty percent parity with Jira Professional, along with more than fifty thousand self-hosting teams, over one hundred thousand Docker deploys, and forty-four thousand Kubernetes deploys.",
+      "verdict": "supported",
+      "evidence": "It claims full parity with Jira Standard and 80% parity with Jira Professional, and unlike most tools on this list, it ships AI, documentation, intake, and time tracking as native capabilities rather than plugin afterthoughts."
+    },
+    {
+      "text": "The Plane blog also says Plane includes artificial intelligence, documentation, intake, and time tracking as native built-in features rather than afterthought plugins.",
+      "verdict": "supported",
+      "evidence": "It claims full parity with Jira Standard and 80% parity with Jira Professional, and unlike most tools on this list, it ships AI, documentation, intake, and time tracking as native capabilities rather than plugin afterthoughts."
+    },
+    {
+      "text": "A review of open-source project management tools calls Plane the nearest open-source equivalent to Linear and Jira Software, citing fifty-nine thousand one hundred sixteen GitHub stars and near-weekly releases.",
+      "verdict": "supported",
+      "evidence": "Plane is the closest open source answer to Linear and Jira Software, and it has the most GitHub stars of the six, 59,116."
+    },
+    {
+      "text": "Heise Online notes that Plane markets itself as an open-source alternative to Jira, Linear, Monday, and Asana.",
+      "verdict": "supported",
+      "evidence": "Plane positions itself as an open-source alternative to Jira, Linear, Monday, and Asana."
+    },
+    {
+      "text": "An INNOQ review states Plane offers a clean, organized user experience that the reviewer would choose first for self-hosted agile project management, though the reviewer considers it a relatively young project compared with more mature Jira replacements.",
+      "verdict": "not_stated",
+      "evidence": "OpenProject: A Real Alternative to Jira?"
+    }
+  ]
+}

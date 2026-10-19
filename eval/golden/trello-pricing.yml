@@ -1,0 +1,900 @@
+- generic [ref=f3058e2]:
+  - link "Skip to main content" [ref=f3058e3] [cursor=pointer]:
+    - /url: "#skip-target"
+  - banner:
+    - generic [ref=f3058e5]:
+      - link [ref=f3058e6] [cursor=pointer]:
+        - /url: /home
+        - img "Atlassian Trello" [ref=f3058e7]
+      - generic [ref=f3058e26]:
+        - button "Features" [ref=f3058e27] [cursor=pointer]
+        - button "Solutions" [ref=f3058e30] [cursor=pointer]
+        - button "Plans" [ref=f3058e33] [cursor=pointer]
+        - link "Pricing" [ref=f3058e36] [cursor=pointer]:
+          - /url: /pricing
+        - button "Resources" [ref=f3058e37] [cursor=pointer]
+      - generic [ref=f3058e40]:
+        - link "Log in" [ref=f3058e41] [cursor=pointer]:
+          - /url: https://id.atlassian.com/login?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback&anonId=6dc8715b-a225-4a44-9e5b-a26d31e47048
+        - link "Get Trello for free" [ref=f3058e42] [cursor=pointer]:
+          - /url: https://id.atlassian.com/signup?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FcreateMember%3Dtrue&anonId=6dc8715b-a225-4a44-9e5b-a26d31e47048
+  - main [ref=f3058e43]:
+    - paragraph [ref=f3058e50]:
+      - text: Keep the boards, lists, and cards you love, and let AI do the busywork. Upgrade to unlock our new AI features, starting at
+      - strong [ref=f3058e51]: $5 a month
+      - text: .
+      - link "Upgrade now" [ref=f3058e52] [cursor=pointer]:
+        - /url: https://trello.com/select-team-to-upgrade
+    - generic [ref=f3058e57]:
+      - heading "Trello your way." [level=1] [ref=f3058e58]
+      - paragraph [ref=f3058e59]: Trusted by millions.
+      - paragraph [ref=f3058e60]: Explore which option is right for you.
+    - generic [ref=f3058e65]:
+      - generic [ref=f3058e66]:
+        - heading "Free" [level=2] [ref=f3058e68]
+        - generic [ref=f3058e69]:
+          - generic [ref=f3058e70]: $0USD
+          - paragraph [ref=f3058e71]: Free for up to 10 collaborators per Workspace
+        - paragraph [ref=f3058e73]: Capture your to-dos, get organized, and get sh*t done.
+        - link "Get started with a Free plan" [ref=f3058e76] [cursor=pointer]:
+          - /url: https://id.atlassian.com/signup?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FcreateMember%3Dtrue
+          - generic [ref=f3058e77]: Get started
+        - generic [ref=f3058e79]:
+          - text: +
+          - generic [ref=f3058e80]:
+            - heading "Included in Free:" [level=3] [ref=f3058e81]
+            - list [ref=f3058e82]:
+              - listitem [ref=f3058e83]: Unlimited cards
+              - listitem [ref=f3058e84]: Up to 10 boards per Workspace
+              - listitem [ref=f3058e85]: Quickly capture to-dos from email, Slack, and Teams
+              - listitem [ref=f3058e86]: Inbox
+              - listitem [ref=f3058e87]: Unlimited Power-Ups per board
+              - listitem [ref=f3058e88]: Unlimited storage (10MB/file)
+              - listitem [ref=f3058e89]: 250 Workspace command runs per month
+              - listitem [ref=f3058e90]: Custom backgrounds & stickers
+              - listitem [ref=f3058e91]: Unlimited activity log
+              - listitem [ref=f3058e92]: Assignee and due dates
+              - listitem [ref=f3058e93]: iOS and Android mobile apps
+              - listitem [ref=f3058e94]: 2-factor authentication
+      - generic [ref=f3058e96]:
+        - heading "Standard" [level=2] [ref=f3058e98]
+        - generic [ref=f3058e99]:
+          - generic [ref=f3058e100]: $5USD
+          - paragraph [ref=f3058e101]: Per user/month if billed annually ($6 billed monthly)
+        - paragraph [ref=f3058e103]: Get more stuff done with AI features, unlimited boards, card mirroring, and more automation.
+        - link "Sign up for a Standard plan now" [ref=f3058e106] [cursor=pointer]:
+          - /url: https://id.atlassian.com/signup?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FcreateMember%3Dtrue
+          - generic [ref=f3058e107]: Sign up now
+        - generic [ref=f3058e109]:
+          - text: +
+          - generic [ref=f3058e110]:
+            - heading "Everything in Free, plus:" [level=3] [ref=f3058e111]
+            - list [ref=f3058e112]:
+              - listitem [ref=f3058e113]: AI
+              - listitem [ref=f3058e114]: Unlimited boards
+              - listitem [ref=f3058e115]: Quickly capture to-dos from email, Slack, and Teams — powered by AI
+              - listitem [ref=f3058e116]: Planner
+              - listitem [ref=f3058e117]: Advanced checklists
+              - listitem [ref=f3058e118]: Card mirroring
+              - listitem [ref=f3058e119]: Custom Fields
+              - listitem [ref=f3058e120]: List colors
+              - listitem [ref=f3058e121]: Collapsible lists
+              - listitem [ref=f3058e122]: Unlimited storage (250MB/file)
+              - listitem [ref=f3058e123]: 1,000 Workspace command runs per month
+              - listitem [ref=f3058e124]: Single board guests
+              - listitem [ref=f3058e125]: Saved searches
+        - link "Learn more about Standard" [ref=f3058e128] [cursor=pointer]:
+          - /url: /standard
+      - generic [ref=f3058e130]:
+        - heading "Premium" [level=2] [ref=f3058e132]
+        - generic [ref=f3058e133]:
+          - generic [ref=f3058e134]: $10USD
+          - paragraph [ref=f3058e135]: Per user/month if billed annually ($12.50 billed monthly)
+        - paragraph [ref=f3058e137]: Add AI to your boards and admin controls to your toolkit. Plus, get more perspective with views.
+        - link "Try Premium for free" [ref=f3058e140] [cursor=pointer]:
+          - /url: https://id.atlassian.com/signup?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FcreateMember%3Dtrue
+          - generic [ref=f3058e141]: Try for free
+        - generic [ref=f3058e143]:
+          - text: +
+          - generic [ref=f3058e144]:
+            - heading "Everything in Standard, plus:" [level=3] [ref=f3058e145]
+            - list [ref=f3058e146]:
+              - listitem [ref=f3058e147]: AI
+              - listitem [ref=f3058e148]: "Views: Calendar, Timeline, Table, Dashboard, and Map"
+              - listitem [ref=f3058e149]: "Workspace views: Table and Calendar"
+              - listitem [ref=f3058e150]: Unlimited Workspace command runs
+              - listitem [ref=f3058e151]: Admin and security features
+              - listitem [ref=f3058e152]: Workspace-level templates
+              - listitem [ref=f3058e153]: Collections
+              - listitem [ref=f3058e154]: Observers
+              - listitem [ref=f3058e155]: Simple data export
+        - link "Learn more about Premium" [ref=f3058e158] [cursor=pointer]:
+          - /url: /premium
+      - generic [ref=f3058e160]:
+        - heading "Enterprise" [level=2] [ref=f3058e162]
+        - generic [ref=f3058e163]:
+          - generic [ref=f3058e164]: $17.50USD
+          - paragraph [ref=f3058e165]: Per user/month - billed annually ($210.00 annual price per user)
+        - generic [ref=f3058e166]:
+          - paragraph [ref=f3058e167]: Add enterprise-grade security and controls. This plan includes Atlassian Guard Standard and 24/7 Enterprise Admin support.
+          - generic [ref=f3058e168]:
+            - generic [ref=f3058e169]:
+              - text: Est. cost for
+              - spinbutton "Users" [ref=f3058e170]: "50"
+              - text: users
+            - slider "Users" [ref=f3058e171]: "50"
+        - link "Contact sales about Trello Enterprise" [ref=f3058e174] [cursor=pointer]:
+          - /url: /enterprise#contact
+          - generic [ref=f3058e175]: Contact sales
+        - generic [ref=f3058e177]:
+          - text: +
+          - generic [ref=f3058e178]:
+            - heading "Everything in Premium, plus:" [level=3] [ref=f3058e179]
+            - list [ref=f3058e180]:
+              - listitem [ref=f3058e181]: Unlimited Workspaces
+              - listitem [ref=f3058e182]: Organization-wide permissions
+              - listitem [ref=f3058e183]: Organization-visible boards
+              - listitem [ref=f3058e184]: Public board management
+              - listitem [ref=f3058e185]: Multi-board guests
+              - listitem [ref=f3058e186]: Attachment permissions
+              - listitem [ref=f3058e187]: Power-Up administration
+              - listitem [ref=f3058e188]: Free SSO and user provisioning with Atlassian Guard
+        - link "Learn more about Enterprise" [ref=f3058e191] [cursor=pointer]:
+          - /url: /enterprise
+    - generic [ref=f3058e196]:
+      - heading "Compare our plans" [level=2] [ref=f3058e198]
+      - generic [ref=f3058e199]:
+        - searchbox "Search" [ref=f3058e200]
+        - table "Compare our plans" [ref=f3058e201]:
+          - rowgroup [ref=f3058e202]:
+            - row [ref=f3058e203]:
+              - columnheader "Features" [ref=f3058e204]
+              - columnheader "Free" [ref=f3058e205]
+              - columnheader "Standard" [ref=f3058e206]
+              - columnheader "Premium" [ref=f3058e207]
+              - columnheader "Enterprise" [ref=f3058e208]
+          - rowgroup [ref=f3058e209]:
+            - row [ref=f3058e210]:
+              - rowheader [ref=f3058e211]:
+                - paragraph [ref=f3058e212]: Unlimited cards
+              - cell [ref=f3058e213]:
+                - paragraph [ref=f3058e215]: "True"
+              - cell [ref=f3058e216]:
+                - paragraph [ref=f3058e218]: "True"
+              - cell [ref=f3058e219]:
+                - paragraph [ref=f3058e221]: "True"
+              - cell [ref=f3058e222]:
+                - paragraph [ref=f3058e224]: "True"
+            - row [ref=f3058e225]:
+              - rowheader [ref=f3058e226]:
+                - paragraph [ref=f3058e227]: Quick capture
+                - paragraph [ref=f3058e228]: Instantly capture to-dos, notes, and messages, from email, Slack, and Microsoft Teams.
+              - cell [ref=f3058e229]:
+                - paragraph [ref=f3058e231]: "True"
+              - cell [ref=f3058e232]:
+                - paragraph [ref=f3058e234]: "True"
+              - cell [ref=f3058e235]:
+                - paragraph [ref=f3058e237]: "True"
+              - cell [ref=f3058e238]:
+                - paragraph [ref=f3058e240]: "True"
+            - row [ref=f3058e241]:
+              - rowheader [ref=f3058e242]:
+                - paragraph [ref=f3058e243]: Quick Capture powered by AI
+                - paragraph [ref=f3058e244]: Instantly capture to-dos, notes, and messages from email, Slack, and Microsoft Teams using AI.
+              - cell [ref=f3058e245]:
+                - paragraph [ref=f3058e247]: "False"
+              - cell [ref=f3058e248]:
+                - paragraph [ref=f3058e250]: "True"
+              - cell [ref=f3058e251]:
+                - paragraph [ref=f3058e253]: "True"
+              - cell [ref=f3058e254]:
+                - paragraph [ref=f3058e256]: "True"
+            - row [ref=f3058e257]:
+              - rowheader [ref=f3058e258]:
+                - paragraph [ref=f3058e259]: Inbox
+                - paragraph [ref=f3058e260]: Gather messages and to-dos in this personal space before organizing them into your boards.
+              - cell [ref=f3058e261]:
+                - paragraph [ref=f3058e263]: "True"
+              - cell [ref=f3058e264]:
+                - paragraph [ref=f3058e266]: "True"
+              - cell [ref=f3058e267]:
+                - paragraph [ref=f3058e269]: "True"
+              - cell [ref=f3058e270]:
+                - paragraph [ref=f3058e272]: "True"
+            - row [ref=f3058e273]:
+              - rowheader [ref=f3058e274]:
+                - paragraph [ref=f3058e275]: Planner (view-only)
+                - paragraph [ref=f3058e276]: View your scheduled cards on a calendar and synchronize events from your favorite tools.
+              - cell [ref=f3058e277]:
+                - paragraph [ref=f3058e279]: "True"
+              - cell [ref=f3058e280]:
+                - paragraph [ref=f3058e282]: "True"
+              - cell [ref=f3058e283]:
+                - paragraph [ref=f3058e285]: "True"
+              - cell [ref=f3058e286]:
+                - paragraph [ref=f3058e288]: "True"
+            - row [ref=f3058e289]:
+              - rowheader [ref=f3058e290]:
+                - paragraph [ref=f3058e291]: Planner (full access)
+                - paragraph [ref=f3058e292]: Drag and drop cards on a calendar to block any available time. Sync with more events in your favorite tools.
+              - cell [ref=f3058e293]:
+                - paragraph [ref=f3058e295]: "False"
+              - cell [ref=f3058e296]:
+                - paragraph [ref=f3058e298]: "True"
+              - cell [ref=f3058e299]:
+                - paragraph [ref=f3058e301]: "True"
+              - cell [ref=f3058e302]:
+                - paragraph [ref=f3058e304]: "True"
+            - row [ref=f3058e305]:
+              - rowheader [ref=f3058e306]:
+                - paragraph [ref=f3058e307]: AI Summarization
+                - paragraph [ref=f3058e308]: Enhance Trello card descriptions and comments effortlessly with AI-driven content generation, grammar correction, and brainstorming.
+              - cell [ref=f3058e309]:
+                - paragraph [ref=f3058e311]: "False"
+              - cell [ref=f3058e312]:
+                - paragraph [ref=f3058e314]: "True"
+              - cell [ref=f3058e315]:
+                - paragraph [ref=f3058e317]: "True"
+              - cell [ref=f3058e318]:
+                - paragraph [ref=f3058e320]: "True"
+            - row [ref=f3058e321]:
+              - rowheader [ref=f3058e322]:
+                - paragraph [ref=f3058e323]: AI organization
+                - paragraph [ref=f3058e324]: Spend less time organizing your board and more time doing. AI features in Trello generate checklists and images, add due dates, merge cards, and schedule focus blocks.
+                - paragraph [ref=f3058e325]:
+                  - link "Learn more" [ref=f3058e326] [cursor=pointer]:
+                    - /url: https://support.atlassian.com/organization-administration/docs/atlassian-intelligence-features-in-trello/
+              - cell [ref=f3058e327]:
+                - paragraph [ref=f3058e329]: "False"
+              - cell [ref=f3058e330]:
+                - paragraph [ref=f3058e332]: "True"
+              - cell [ref=f3058e333]:
+                - paragraph [ref=f3058e335]: "True"
+              - cell [ref=f3058e336]:
+                - paragraph [ref=f3058e338]: "True"
+            - row [ref=f3058e339]:
+              - rowheader [ref=f3058e340]:
+                - paragraph [ref=f3058e341]: AI-GENERATED BOARDS
+                - paragraph [ref=f3058e342]: Describe your goal and instantly get a personalized, ready-to-use board to help you get started, complete with lists and cards.
+                - paragraph [ref=f3058e343]:
+                  - link "Learn more" [ref=f3058e344] [cursor=pointer]:
+                    - /url: "https://support.atlassian.com/trello/docs/ai-generated-boards/ "
+              - cell [ref=f3058e345]:
+                - paragraph [ref=f3058e347]: "False"
+              - cell [ref=f3058e348]:
+                - paragraph [ref=f3058e350]: "True"
+              - cell [ref=f3058e351]:
+                - paragraph [ref=f3058e353]: "True"
+              - cell [ref=f3058e354]:
+                - paragraph [ref=f3058e356]: "True"
+            - row [ref=f3058e357]:
+              - rowheader [ref=f3058e358]:
+                - paragraph [ref=f3058e359]: Card mirroring
+                - paragraph [ref=f3058e360]: Keep your to-dos aligned across boards. Mirror a single card to multiple boards to view and edit it from anywhere.
+              - cell [ref=f3058e361]:
+                - paragraph [ref=f3058e363]: "False"
+              - cell [ref=f3058e364]:
+                - paragraph [ref=f3058e366]: "True"
+              - cell [ref=f3058e367]:
+                - paragraph [ref=f3058e369]: "True"
+              - cell [ref=f3058e370]:
+                - paragraph [ref=f3058e372]: "True"
+            - row [ref=f3058e373]:
+              - rowheader [ref=f3058e374]:
+                - paragraph [ref=f3058e375]: Built-in automation
+                - paragraph [ref=f3058e376]: Powerful no-code automation is built into every Trello board.
+                - paragraph [ref=f3058e377]:
+                  - link "Start automating" [ref=f3058e378] [cursor=pointer]:
+                    - /url: /butler-automation
+              - cell [ref=f3058e379]:
+                - paragraph [ref=f3058e381]: "True"
+              - cell [ref=f3058e382]:
+                - paragraph [ref=f3058e384]: "True"
+              - cell [ref=f3058e385]:
+                - paragraph [ref=f3058e387]: "True"
+              - cell [ref=f3058e388]:
+                - paragraph [ref=f3058e390]: "True"
+            - row [ref=f3058e391]:
+              - rowheader [ref=f3058e392]:
+                - paragraph [ref=f3058e393]: Assignee and due dates
+              - cell [ref=f3058e394]:
+                - paragraph [ref=f3058e396]: "True"
+              - cell [ref=f3058e397]:
+                - paragraph [ref=f3058e399]: "True"
+              - cell [ref=f3058e400]:
+                - paragraph [ref=f3058e402]: "True"
+              - cell [ref=f3058e403]:
+                - paragraph [ref=f3058e405]: "True"
+            - row [ref=f3058e406]:
+              - rowheader [ref=f3058e407]:
+                - paragraph [ref=f3058e408]: iOS and Android mobile apps
+                - paragraph [ref=f3058e409]:
+                  - link "Download mobile apps" [ref=f3058e410] [cursor=pointer]:
+                    - /url: /platforms
+              - cell [ref=f3058e411]:
+                - paragraph [ref=f3058e413]: "True"
+              - cell [ref=f3058e414]:
+                - paragraph [ref=f3058e416]: "True"
+              - cell [ref=f3058e417]:
+                - paragraph [ref=f3058e419]: "True"
+              - cell [ref=f3058e420]:
+                - paragraph [ref=f3058e422]: "True"
+            - row [ref=f3058e423]:
+              - rowheader [ref=f3058e424]:
+                - paragraph [ref=f3058e425]: Desktop app
+                - paragraph [ref=f3058e426]:
+                  - link "Download desktop app" [ref=f3058e427] [cursor=pointer]:
+                    - /url: /platforms
+              - cell [ref=f3058e428]:
+                - paragraph [ref=f3058e430]: "True"
+              - cell [ref=f3058e431]:
+                - paragraph [ref=f3058e433]: "True"
+              - cell [ref=f3058e434]:
+                - paragraph [ref=f3058e436]: "True"
+              - cell [ref=f3058e437]:
+                - paragraph [ref=f3058e439]: "True"
+            - row [ref=f3058e440]:
+              - rowheader [ref=f3058e441]:
+                - paragraph [ref=f3058e442]: Unlimited activity logs
+              - cell [ref=f3058e443]:
+                - paragraph [ref=f3058e445]: "True"
+              - cell [ref=f3058e446]:
+                - paragraph [ref=f3058e448]: "True"
+              - cell [ref=f3058e449]:
+                - paragraph [ref=f3058e451]: "True"
+              - cell [ref=f3058e452]:
+                - paragraph [ref=f3058e454]: "True"
+            - row [ref=f3058e455]:
+              - rowheader [ref=f3058e456]:
+                - paragraph [ref=f3058e457]: Trello templates
+                - paragraph [ref=f3058e458]: Give your team a blueprint for success with tried-and-true templates from the Trello community.
+                - paragraph [ref=f3058e459]:
+                  - link "Try a template" [ref=f3058e460] [cursor=pointer]:
+                    - /url: /templates
+              - cell [ref=f3058e461]:
+                - paragraph [ref=f3058e463]: "True"
+              - cell [ref=f3058e464]:
+                - paragraph [ref=f3058e466]: "True"
+              - cell [ref=f3058e467]:
+                - paragraph [ref=f3058e469]: "True"
+              - cell [ref=f3058e470]:
+                - paragraph [ref=f3058e472]: "True"
+            - row [ref=f3058e473]:
+              - rowheader [ref=f3058e474]:
+                - paragraph [ref=f3058e475]: 2-factor authentication
+              - cell [ref=f3058e476]:
+                - paragraph [ref=f3058e478]: "True"
+              - cell [ref=f3058e479]:
+                - paragraph [ref=f3058e481]: "True"
+              - cell [ref=f3058e482]:
+                - paragraph [ref=f3058e484]: "True"
+              - cell [ref=f3058e485]:
+                - paragraph [ref=f3058e487]: "True"
+            - row [ref=f3058e488]:
+              - rowheader [ref=f3058e489]:
+                - paragraph [ref=f3058e490]: Mobile device management
+                - paragraph [ref=f3058e491]: Enforce security controls on mobile app usage through built-in mobile device management (MDM) support for iOS and Android.
+              - cell [ref=f3058e492]:
+                - paragraph [ref=f3058e494]: "True"
+              - cell [ref=f3058e495]:
+                - paragraph [ref=f3058e497]: "True"
+              - cell [ref=f3058e498]:
+                - paragraph [ref=f3058e500]: "True"
+              - cell [ref=f3058e501]:
+                - paragraph [ref=f3058e503]: "True"
+            - row [ref=f3058e504]:
+              - rowheader [ref=f3058e505]:
+                - paragraph [ref=f3058e506]: Unlimited power-ups
+                - paragraph [ref=f3058e507]: "Integrate with more than 200+ apps and tools your team depends on like Slack, Google Drive, Salesforce, and more directly into your Trello boards. (Note: Some Power-Ups by our partners require an additional subscription fee.)"
+                - paragraph [ref=f3058e508]:
+                  - link "Learn more about Power-ups" [ref=f3058e509] [cursor=pointer]:
+                    - /url: /power-ups
+                    - text: Learn more
+              - cell [ref=f3058e510]:
+                - paragraph [ref=f3058e512]: "True"
+              - cell [ref=f3058e513]:
+                - paragraph [ref=f3058e515]: "True"
+              - cell [ref=f3058e516]:
+                - paragraph [ref=f3058e518]: "True"
+              - cell [ref=f3058e519]:
+                - paragraph [ref=f3058e521]: "True"
+            - row [ref=f3058e522]:
+              - rowheader [ref=f3058e523]:
+                - paragraph [ref=f3058e524]: Unlimited Workspace collaborators
+              - cell [ref=f3058e525]:
+                - paragraph [ref=f3058e527]: Up to 10 collaborators
+              - cell [ref=f3058e528]:
+                - paragraph [ref=f3058e530]: "True"
+              - cell [ref=f3058e531]:
+                - paragraph [ref=f3058e533]: "True"
+              - cell [ref=f3058e534]:
+                - paragraph [ref=f3058e536]: "True"
+            - row [ref=f3058e537]:
+              - rowheader [ref=f3058e538]:
+                - paragraph [ref=f3058e539]: Unlimited boards
+                - paragraph [ref=f3058e540]: Create as many Trello boards as your team sees fit; from onboarding new hires, to sprint planning, and every team meeting agenda in between.
+              - cell [ref=f3058e541]:
+                - paragraph [ref=f3058e543]: "False"
+              - cell [ref=f3058e544]:
+                - paragraph [ref=f3058e546]: "True"
+              - cell [ref=f3058e547]:
+                - paragraph [ref=f3058e549]: "True"
+              - cell [ref=f3058e550]:
+                - paragraph [ref=f3058e552]: "True"
+            - row [ref=f3058e553]:
+              - rowheader [ref=f3058e554]:
+                - paragraph [ref=f3058e555]: Advanced checklists
+                - paragraph [ref=f3058e556]: Break down projects into byte-sized tasks and get granular by assigning members and due dates to individual tasks.
+              - cell [ref=f3058e557]:
+                - paragraph [ref=f3058e559]: "False"
+              - cell [ref=f3058e560]:
+                - paragraph [ref=f3058e562]: "True"
+              - cell [ref=f3058e563]:
+                - paragraph [ref=f3058e565]: "True"
+              - cell [ref=f3058e566]:
+                - paragraph [ref=f3058e568]: "True"
+            - row [ref=f3058e569]:
+              - rowheader [ref=f3058e570]:
+                - paragraph [ref=f3058e571]: Custom fields
+                - paragraph [ref=f3058e572]: Bring process and formality to your workflow by structuring information on Trello cards to the task at hand with Custom Fields.
+              - cell [ref=f3058e573]:
+                - paragraph [ref=f3058e575]: "False"
+              - cell [ref=f3058e576]:
+                - paragraph [ref=f3058e578]: "True"
+              - cell [ref=f3058e579]:
+                - paragraph [ref=f3058e581]: "True"
+              - cell [ref=f3058e582]:
+                - paragraph [ref=f3058e584]: "True"
+            - row [ref=f3058e585]:
+              - rowheader [ref=f3058e586]:
+                - paragraph [ref=f3058e587]: Collapsible lists
+                - paragraph [ref=f3058e588]: Keep your Trello boards tidy and focus on what matters by easily hiding and revealing list details.
+                - paragraph [ref=f3058e589]:
+                  - link "Learn more about Collapsible lists" [ref=f3058e590] [cursor=pointer]:
+                    - /url: https://www.atlassian.com/blog/trello/new-list-features
+                    - text: Learn more
+              - cell [ref=f3058e591]:
+                - paragraph [ref=f3058e593]: "False"
+              - cell [ref=f3058e594]:
+                - paragraph [ref=f3058e596]: "True"
+              - cell [ref=f3058e597]:
+                - paragraph [ref=f3058e599]: "True"
+              - cell [ref=f3058e600]:
+                - paragraph [ref=f3058e602]: "True"
+            - row [ref=f3058e603]:
+              - rowheader [ref=f3058e604]:
+                - paragraph [ref=f3058e605]: List colors
+                - paragraph [ref=f3058e606]: Brighten up your boards by using list colors to easily spot priorities and keep your to-dos organized and on track.
+                - paragraph [ref=f3058e607]:
+                  - link "Learn more about List colors" [ref=f3058e608] [cursor=pointer]:
+                    - /url: https://www.atlassian.com/blog/trello/new-list-features
+                    - text: Learn more
+              - cell [ref=f3058e609]:
+                - paragraph [ref=f3058e611]: "False"
+              - cell [ref=f3058e612]:
+                - paragraph [ref=f3058e614]: "True"
+              - cell [ref=f3058e615]:
+                - paragraph [ref=f3058e617]: "True"
+              - cell [ref=f3058e618]:
+                - paragraph [ref=f3058e620]: "True"
+            - row [ref=f3058e621]:
+              - rowheader [ref=f3058e622]:
+                - paragraph [ref=f3058e623]: Dashboard view
+                - paragraph [ref=f3058e624]: Trello’s reporting tool lets you access real-time insights and communicate your team’s progress in a visual and meaningful way.
+                - paragraph [ref=f3058e625]:
+                  - link "Learn more about Dashboard view" [ref=f3058e626] [cursor=pointer]:
+                    - /url: /views/dashboard
+                    - text: Learn more
+              - cell [ref=f3058e627]:
+                - paragraph [ref=f3058e629]: "False"
+              - cell [ref=f3058e630]:
+                - paragraph [ref=f3058e632]: "False"
+              - cell [ref=f3058e633]:
+                - paragraph [ref=f3058e635]: "True"
+              - cell [ref=f3058e636]:
+                - paragraph [ref=f3058e638]: "True"
+            - row [ref=f3058e639]:
+              - rowheader [ref=f3058e640]:
+                - paragraph [ref=f3058e641]: Map view
+                - paragraph [ref=f3058e642]: Plan an offsite, scout new office locations, or manage product distribution points by adding locations to your cards and visualizing them geographically on a map.
+                - paragraph [ref=f3058e643]:
+                  - link "Learn more about Map view" [ref=f3058e644] [cursor=pointer]:
+                    - /url: /views/map
+                    - text: Learn more
+              - cell [ref=f3058e645]:
+                - paragraph [ref=f3058e647]: "False"
+              - cell [ref=f3058e648]:
+                - paragraph [ref=f3058e650]: "False"
+              - cell [ref=f3058e651]:
+                - paragraph [ref=f3058e653]: "True"
+              - cell [ref=f3058e654]:
+                - paragraph [ref=f3058e656]: "True"
+            - row [ref=f3058e657]:
+              - rowheader [ref=f3058e658]:
+                - paragraph [ref=f3058e659]: Timeline view
+                - paragraph [ref=f3058e660]: Plan your project, stay on top of every sprint, and see how all of the moving parts fit together over time with Timeline.
+                - paragraph [ref=f3058e661]:
+                  - link "Learn more about Timeline view" [ref=f3058e662] [cursor=pointer]:
+                    - /url: /views/timeline
+                    - text: Learn more
+              - cell [ref=f3058e663]:
+                - paragraph [ref=f3058e665]: "False"
+              - cell [ref=f3058e666]:
+                - paragraph [ref=f3058e668]: "False"
+              - cell [ref=f3058e669]:
+                - paragraph [ref=f3058e671]: "True"
+              - cell [ref=f3058e672]:
+                - paragraph [ref=f3058e674]: "True"
+            - row [ref=f3058e675]:
+              - rowheader [ref=f3058e676]:
+                - paragraph [ref=f3058e677]: Table View
+                - paragraph [ref=f3058e678]: Bring a clearer perspective to all the work happening across a single board in a list format where you can create and edit cards in just a few clicks.
+                - paragraph [ref=f3058e679]:
+                  - link "Learn more about Table view" [ref=f3058e680] [cursor=pointer]:
+                    - /url: /views/table
+                    - text: Learn more
+              - cell [ref=f3058e681]:
+                - paragraph [ref=f3058e683]: "False"
+              - cell [ref=f3058e684]:
+                - paragraph [ref=f3058e686]: "False"
+              - cell [ref=f3058e687]:
+                - paragraph [ref=f3058e689]: "True"
+              - cell [ref=f3058e690]:
+                - paragraph [ref=f3058e692]: "True"
+            - row [ref=f3058e693]:
+              - rowheader [ref=f3058e694]:
+                - paragraph [ref=f3058e695]: Calendar view
+                - paragraph [ref=f3058e696]: Calendar displays start dates, due dates, and advanced checklist items so you can see what lies ahead for your project and stay on top of today’s to-dos.
+                - paragraph [ref=f3058e697]:
+                  - link "Learn more about Calendar view" [ref=f3058e698] [cursor=pointer]:
+                    - /url: /views/calendar
+                    - text: Learn more
+              - cell [ref=f3058e699]:
+                - paragraph [ref=f3058e701]: "False"
+              - cell [ref=f3058e702]:
+                - paragraph [ref=f3058e704]: "False"
+              - cell [ref=f3058e705]:
+                - paragraph [ref=f3058e707]: "True"
+              - cell [ref=f3058e708]:
+                - paragraph [ref=f3058e710]: "True"
+            - row [ref=f3058e711]:
+              - rowheader [ref=f3058e712]:
+                - paragraph [ref=f3058e713]: Workspace table view
+                - paragraph [ref=f3058e714]: See your projects and tasks across Workspaces and boards in a spreadsheet-style list that can be sorted and filtered to drill down to exactly the cards you need to see.
+                - paragraph [ref=f3058e715]:
+                  - link "Learn more about Workspace views" [ref=f3058e716] [cursor=pointer]:
+                    - /url: /views/workspace
+                    - text: Learn more
+              - cell [ref=f3058e717]:
+                - paragraph [ref=f3058e719]: "False"
+              - cell [ref=f3058e720]:
+                - paragraph [ref=f3058e722]: "False"
+              - cell [ref=f3058e723]:
+                - paragraph [ref=f3058e725]: "True"
+              - cell [ref=f3058e726]:
+                - paragraph [ref=f3058e728]: "True"
+            - row [ref=f3058e729]:
+              - rowheader [ref=f3058e730]:
+                - paragraph [ref=f3058e731]: Workspace calendar view
+                - paragraph [ref=f3058e732]: Workspace calendar displays items with start dates and due dates across your projects and boards, so you can see what lies ahead for all your teamwork.
+                - paragraph [ref=f3058e733]:
+                  - link "Learn more about Workspace views" [ref=f3058e734] [cursor=pointer]:
+                    - /url: /views/workspace
+                    - text: Learn more
+              - cell [ref=f3058e735]:
+                - paragraph [ref=f3058e737]: "False"
+              - cell [ref=f3058e738]:
+                - paragraph [ref=f3058e740]: "False"
+              - cell [ref=f3058e741]:
+                - paragraph [ref=f3058e743]: "True"
+              - cell [ref=f3058e744]:
+                - paragraph [ref=f3058e746]: "True"
+            - row [ref=f3058e747]:
+              - rowheader [ref=f3058e748]:
+                - paragraph [ref=f3058e749]: Workspace-level templates
+              - cell [ref=f3058e750]:
+                - paragraph [ref=f3058e752]: "False"
+              - cell [ref=f3058e753]:
+                - paragraph [ref=f3058e755]: "False"
+              - cell [ref=f3058e756]:
+                - paragraph [ref=f3058e758]: "True"
+              - cell [ref=f3058e759]:
+                - paragraph [ref=f3058e761]: "True"
+            - row [ref=f3058e762]:
+              - rowheader [ref=f3058e763]:
+                - paragraph [ref=f3058e764]: Command run administration
+                - paragraph [ref=f3058e765]: Premium or Enterprise administrators can disable commands on behalf of other users, and perform other command maintenance.
+              - cell [ref=f3058e766]:
+                - paragraph [ref=f3058e768]: "False"
+              - cell [ref=f3058e769]:
+                - paragraph [ref=f3058e771]: "False"
+              - cell [ref=f3058e772]:
+                - paragraph [ref=f3058e774]: "True"
+              - cell [ref=f3058e775]:
+                - paragraph [ref=f3058e777]: "True"
+            - row [ref=f3058e778]:
+              - rowheader [ref=f3058e779]:
+                - paragraph [ref=f3058e780]: Board collections
+                - paragraph [ref=f3058e781]: Premium and Enterprise teams can use Board Collections to easily group boards together whether by Workspace, department, or major project.
+              - cell [ref=f3058e782]:
+                - paragraph [ref=f3058e784]: "False"
+              - cell [ref=f3058e785]:
+                - paragraph [ref=f3058e787]: "False"
+              - cell [ref=f3058e788]:
+                - paragraph [ref=f3058e790]: "True"
+              - cell [ref=f3058e791]:
+                - paragraph [ref=f3058e793]: "True"
+            - row [ref=f3058e794]:
+              - rowheader [ref=f3058e795]:
+                - paragraph [ref=f3058e796]: Observers
+                - paragraph [ref=f3058e797]: Observers are a Premium security setting that limit a user’s actions within a board.
+              - cell [ref=f3058e798]:
+                - paragraph [ref=f3058e800]: "False"
+              - cell [ref=f3058e801]:
+                - paragraph [ref=f3058e803]: "False"
+              - cell [ref=f3058e804]:
+                - paragraph [ref=f3058e806]: "True"
+              - cell [ref=f3058e807]:
+                - paragraph [ref=f3058e809]: "True"
+            - row [ref=f3058e810]:
+              - rowheader [ref=f3058e811]:
+                - paragraph [ref=f3058e812]: Domain-restricted invites
+              - cell [ref=f3058e813]:
+                - paragraph [ref=f3058e815]: "False"
+              - cell [ref=f3058e816]:
+                - paragraph [ref=f3058e818]: "False"
+              - cell [ref=f3058e819]:
+                - paragraph [ref=f3058e821]: "True"
+              - cell [ref=f3058e822]:
+                - paragraph [ref=f3058e824]: "True"
+            - row [ref=f3058e825]:
+              - rowheader [ref=f3058e826]:
+                - paragraph [ref=f3058e827]: Deactivate members
+              - cell [ref=f3058e828]:
+                - paragraph [ref=f3058e830]: "False"
+              - cell [ref=f3058e831]:
+                - paragraph [ref=f3058e833]: "False"
+              - cell [ref=f3058e834]:
+                - paragraph [ref=f3058e836]: "True"
+              - cell [ref=f3058e837]:
+                - paragraph [ref=f3058e839]: "True"
+            - row [ref=f3058e840]:
+              - rowheader [ref=f3058e841]:
+                - paragraph [ref=f3058e842]: Simple data export
+              - cell [ref=f3058e843]:
+                - paragraph [ref=f3058e845]: "False"
+              - cell [ref=f3058e846]:
+                - paragraph [ref=f3058e848]: "False"
+              - cell [ref=f3058e849]:
+                - paragraph [ref=f3058e851]: "True"
+              - cell [ref=f3058e852]:
+                - paragraph [ref=f3058e854]: "True"
+            - row [ref=f3058e855]:
+              - rowheader [ref=f3058e856]:
+                - paragraph [ref=f3058e857]: Unlimited command runs
+              - cell [ref=f3058e858]:
+                - paragraph [ref=f3058e860]: "False"
+              - cell [ref=f3058e861]:
+                - paragraph [ref=f3058e863]: "False"
+              - cell [ref=f3058e864]:
+                - paragraph [ref=f3058e866]: "True"
+              - cell [ref=f3058e867]:
+                - paragraph [ref=f3058e869]: "True"
+            - row [ref=f3058e870]:
+              - rowheader [ref=f3058e871]:
+                - paragraph [ref=f3058e872]: SAML SSO via Atlassian Guard
+                - paragraph [ref=f3058e873]: Atlassian Guard is a separate subscription that your company can enable across all your Atlassian products and starts at $4/month/user.
+                - paragraph [ref=f3058e874]:
+                  - link "Learn more about SAML SSO" [ref=f3058e875] [cursor=pointer]:
+                    - /url: https://www.atlassian.com/software/access
+                    - text: Learn more
+              - cell [ref=f3058e876]:
+                - paragraph [ref=f3058e878]: Available
+              - cell [ref=f3058e879]:
+                - paragraph [ref=f3058e881]: Available
+              - cell [ref=f3058e882]:
+                - paragraph [ref=f3058e884]: Available
+              - cell [ref=f3058e885]:
+                - paragraph [ref=f3058e887]: "True"
+            - row [ref=f3058e888]:
+              - rowheader [ref=f3058e889]:
+                - paragraph [ref=f3058e890]: Unlimited workspaces
+              - cell [ref=f3058e891]:
+                - paragraph [ref=f3058e893]: "False"
+              - cell [ref=f3058e894]:
+                - paragraph [ref=f3058e896]: "False"
+              - cell [ref=f3058e897]:
+                - paragraph [ref=f3058e899]: "False"
+              - cell [ref=f3058e900]:
+                - paragraph [ref=f3058e902]: "True"
+            - row [ref=f3058e903]:
+              - rowheader [ref=f3058e904]:
+                - paragraph [ref=f3058e905]: Power-up administration
+              - cell [ref=f3058e906]:
+                - paragraph [ref=f3058e908]: "False"
+              - cell [ref=f3058e909]:
+                - paragraph [ref=f3058e911]: "False"
+              - cell [ref=f3058e912]:
+                - paragraph [ref=f3058e914]: "False"
+              - cell [ref=f3058e915]:
+                - paragraph [ref=f3058e917]: "True"
+            - row [ref=f3058e918]:
+              - rowheader [ref=f3058e919]:
+                - paragraph [ref=f3058e920]: Attachment restrictions
+              - cell [ref=f3058e921]:
+                - paragraph [ref=f3058e923]: "False"
+              - cell [ref=f3058e924]:
+                - paragraph [ref=f3058e926]: "False"
+              - cell [ref=f3058e927]:
+                - paragraph [ref=f3058e929]: "False"
+              - cell [ref=f3058e930]:
+                - paragraph [ref=f3058e932]: "True"
+            - row [ref=f3058e933]:
+              - rowheader [ref=f3058e934]:
+                - paragraph [ref=f3058e935]: Organization wide permissions
+              - cell [ref=f3058e936]:
+                - paragraph [ref=f3058e938]: "False"
+              - cell [ref=f3058e939]:
+                - paragraph [ref=f3058e941]: "False"
+              - cell [ref=f3058e942]:
+                - paragraph [ref=f3058e944]: "False"
+              - cell [ref=f3058e945]:
+                - paragraph [ref=f3058e947]: "True"
+            - row [ref=f3058e948]:
+              - rowheader [ref=f3058e949]:
+                - paragraph [ref=f3058e950]: Organization visible boards
+              - cell [ref=f3058e951]:
+                - paragraph [ref=f3058e953]: "False"
+              - cell [ref=f3058e954]:
+                - paragraph [ref=f3058e956]: "False"
+              - cell [ref=f3058e957]:
+                - paragraph [ref=f3058e959]: "False"
+              - cell [ref=f3058e960]:
+                - paragraph [ref=f3058e962]: "True"
+            - row [ref=f3058e963]:
+              - rowheader [ref=f3058e964]:
+                - paragraph [ref=f3058e965]: Public board management
+              - cell [ref=f3058e966]:
+                - paragraph [ref=f3058e968]: "False"
+              - cell [ref=f3058e969]:
+                - paragraph [ref=f3058e971]: "False"
+              - cell [ref=f3058e972]:
+                - paragraph [ref=f3058e974]: "False"
+              - cell [ref=f3058e975]:
+                - paragraph [ref=f3058e977]: "True"
+            - row [ref=f3058e978]:
+              - rowheader [ref=f3058e979]:
+                - paragraph [ref=f3058e980]: Support
+                - paragraph [ref=f3058e981]:
+                  - link "Learn more about Support" [ref=f3058e982] [cursor=pointer]:
+                    - /url: https://confluence.atlassian.com/support/atlassian-support-offerings-193299636.html
+                    - text: Learn more
+              - cell [ref=f3058e983]:
+                - paragraph [ref=f3058e985]: Community Support
+              - cell [ref=f3058e986]:
+                - paragraph [ref=f3058e988]: Local Business Hours
+              - cell [ref=f3058e989]:
+                - paragraph [ref=f3058e991]: 24/5 Premium Support
+              - cell [ref=f3058e992]:
+                - paragraph [ref=f3058e994]: 24/7 Enterprise Admin Support
+      - heading "Didn’t find what you were looking for?" [level=3] [ref=f3058e997]
+      - link "Make a suggestion" [ref=f3058e999] [cursor=pointer]:
+        - /url: https://help.trello.com/article/724-submitting-feature-requests-for-trello
+    - generic [ref=f3058e1004]:
+      - heading "Frequently asked questions" [level=2] [ref=f3058e1006]
+      - generic [ref=f3058e1007]:
+        - heading [level=3] [ref=f3058e1009]:
+          - button "Does Trello offer a Premium free trial?" [ref=f3058e1010] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1011]: +
+            - text: Does Trello offer a Premium free trial?
+        - heading [level=3] [ref=f3058e1013]:
+          - button "Do you offer any discounted plans?" [ref=f3058e1014] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1015]: +
+            - text: Do you offer any discounted plans?
+        - heading [level=3] [ref=f3058e1017]:
+          - button "What payment methods do you accept?" [ref=f3058e1018] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1019]: +
+            - text: What payment methods do you accept?
+        - heading [level=3] [ref=f3058e1021]:
+          - button "How do I cancel my Trello Standard or Premium subscription?" [ref=f3058e1022] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1023]: +
+            - text: How do I cancel my Trello Standard or Premium subscription?
+        - heading [level=3] [ref=f3058e1025]:
+          - button "How are users counted towards billing?" [ref=f3058e1026] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1027]: +
+            - text: How are users counted towards billing?
+        - heading [level=3] [ref=f3058e1029]:
+          - button "Is there an on-premises version of Trello?" [ref=f3058e1030] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1031]: +
+            - text: Is there an on-premises version of Trello?
+        - heading [level=3] [ref=f3058e1033]:
+          - button "Can I have Trello Standard or Premium just for my own account?" [ref=f3058e1034] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1035]: +
+            - text: Can I have Trello Standard or Premium just for my own account?
+        - heading [level=3] [ref=f3058e1037]:
+          - button "How secure is Trello?" [ref=f3058e1038] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3058e1039]: +
+            - text: How secure is Trello?
+    - generic [ref=f3058e1045]:
+      - generic [ref=f3058e1046]:
+        - heading "Best-in-class security and centralized administration with Atlassian Guard" [level=3] [ref=f3058e1047]
+        - list [ref=f3058e1048]:
+          - listitem [ref=f3058e1049]: SAML single sign-on
+          - listitem [ref=f3058e1050]: Enforced 2FA
+        - paragraph [ref=f3058e1051]: Atlassian Guard is a separate subscription that your company can enable across all your Atlassian products and starts at $4/month/user. Trello is an Atlassian product.
+      - link "Learn more about Atlassian Guard" [ref=f3058e1053] [cursor=pointer]:
+        - /url: https://www.atlassian.com/software/guard
+        - generic [ref=f3058e1054]: Learn more
+  - contentinfo [ref=f3058e1055]:
+    - generic [ref=f3058e1058]:
+      - generic [ref=f3058e1060]:
+        - img "Atlassian Trello" [ref=f3058e1061]
+        - link "Log In" [ref=f3058e1080] [cursor=pointer]:
+          - /url: https://id.atlassian.com/login?application=trello--direct-signup&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback&anonId=6dc8715b-a225-4a44-9e5b-a26d31e47048
+      - list [ref=f3058e1083]:
+        - listitem [ref=f3058e1084]:
+          - link [ref=f3058e1085] [cursor=pointer]:
+            - /url: /about
+            - paragraph [ref=f3058e1087]: About Trello
+            - paragraph [ref=f3058e1089]: What’s behind the boards.
+        - listitem [ref=f3058e1090]:
+          - link [ref=f3058e1091] [cursor=pointer]:
+            - /url: https://www.atlassian.com/company/careers/trello
+            - paragraph [ref=f3058e1093]: Jobs
+            - paragraph [ref=f3058e1095]: Learn about open roles on the Trello team.
+        - listitem [ref=f3058e1096]:
+          - link [ref=f3058e1097] [cursor=pointer]:
+            - /url: /platforms
+            - paragraph [ref=f3058e1099]: Apps
+            - paragraph [ref=f3058e1101]: Download the Trello App for your Desktop or Mobile devices.
+        - listitem [ref=f3058e1102]:
+          - link [ref=f3058e1103] [cursor=pointer]:
+            - /url: /contact
+            - paragraph [ref=f3058e1105]: Contact us
+            - paragraph [ref=f3058e1107]: Need anything? Get in touch and we can help.
+    - generic [ref=f3058e1111]:
+      - combobox "Select a language" [ref=f3058e1115] [cursor=pointer]:
+        - option "Čeština"
+        - option "Deutsch"
+        - option "English" [selected]
+        - option "Español"
+        - option "Français"
+        - option "Italiano"
+        - option "Magyar"
+        - option "Nederlands"
+        - option "Norsk (bokmål)"
+        - option "Polski"
+        - option "Português (Brasil)"
+        - option "Suomi"
+        - option "Svenska"
+        - option "Tiếng Việt"
+        - option "Türkçe"
+        - option "Русский"
+        - option "Українська"
+        - option "ภาษาไทย"
+        - option "中文 (简体)"
+        - option "中文 (繁體)"
+        - option "日本語"
+      - navigation [ref=f3058e1117]:
+        - list [ref=f3058e1118]:
+          - listitem [ref=f3058e1119]:
+            - link "Notice at Collection" [ref=f3058e1120] [cursor=pointer]:
+              - /url: http://
+          - listitem [ref=f3058e1121]:
+            - link "Privacy Policy" [ref=f3058e1122] [cursor=pointer]:
+              - /url: https://www.atlassian.com/legal/privacy-policy
+          - listitem [ref=f3058e1123]:
+            - link "Terms" [ref=f3058e1124] [cursor=pointer]:
+              - /url: https://www.atlassian.com/legal/cloud-terms-of-service
+          - listitem [ref=f3058e1125]: Copyright © 2026 Atlassian
+      - generic [ref=f3058e1127]:
+        - link "Instagram" [ref=f3058e1128] [cursor=pointer]:
+          - /url: https://www.instagram.com/trelloapp/
+        - link "Facebook" [ref=f3058e1131] [cursor=pointer]:
+          - /url: https://www.facebook.com/trelloapp/
+        - link "LinkedIn" [ref=f3058e1134] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/atlassian/
+        - link "Twitter" [ref=f3058e1140] [cursor=pointer]:
+          - /url: https://twitter.com/trello
+        - link "Youtube" [ref=f3058e1143] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCRcOkXoOrU6sN1yCz20VmQw

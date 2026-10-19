@@ -1,0 +1,809 @@
+{
+  "claims": [
+    {
+      "text": "Linear offers one free tier and three paid tiers billed annually.",
+      "urls": []
+    },
+    {
+      "text": "The Linear Free plan is $0.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Free plan includes unlimited members.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Free plan includes 2 teams.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Free plan includes 250 active issues.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Free plan includes 10MB file uploads.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Free plan includes Agent platform.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Basic plan is $10/user/month.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Basic plan includes 5 teams.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Basic plan includes unlimited issues.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Basic plan includes unlimited file uploads.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Basic plan includes admin roles.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan is $16/user/month.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan includes unlimited teams.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan includes private teams.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan includes guest access.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan includes Linear Insights.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan includes Linear Asks.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan includes Triage Intelligence.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Business plan includes Zendesk/Intercom integrations.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Enterprise plan is Custom (annual only).",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Enterprise plan includes SAML/SCIM.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Enterprise plan includes enterprise security.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Enterprise plan includes migration support.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "The Linear Enterprise plan includes priority support.",
+      "urls": [
+        "https://linear.app/pricing"
+      ]
+    },
+    {
+      "text": "Linear raised prices in 2025.",
+      "urls": [
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "Linear previously charged $8 for Basic.",
+      "urls": [
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "Linear previously charged $14 for Plus.",
+      "urls": [
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "Linear expanded the free tier to unlimited members with the 250-issue cap.",
+      "urls": [
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "The Jira Free plan is $0.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "The Jira Free plan is up to 10 users.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "The Jira Free plan includes 2GB storage.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "The Jira Free plan includes community support.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "The Jira Standard plan is ~$7.53\u2013$8.60/user/month.",
+      "urls": [
+        "https://ones.com/blog/ones-solutions/jira-pricing-2024-vs-2025-plans-costs-and-changes",
+        "https://www.youtube.com/watch?v=sdkmryIckGs"
+      ]
+    },
+    {
+      "text": "The Jira Standard plan includes project roles.",
+      "urls": [
+        "https://ones.com/blog/ones-solutions/jira-pricing-2024-vs-2025-plans-costs-and-changes",
+        "https://www.youtube.com/watch?v=sdkmryIckGs"
+      ]
+    },
+    {
+      "text": "The Jira Standard plan includes audit logs.",
+      "urls": [
+        "https://ones.com/blog/ones-solutions/jira-pricing-2024-vs-2025-plans-costs-and-changes",
+        "https://www.youtube.com/watch?v=sdkmryIckGs"
+      ]
+    },
+    {
+      "text": "The Jira Standard plan price varies by tier size.",
+      "urls": [
+        "https://ones.com/blog/ones-solutions/jira-pricing-2024-vs-2025-plans-costs-and-changes",
+        "https://www.youtube.com/watch?v=sdkmryIckGs"
+      ]
+    },
+    {
+      "text": "The Jira Premium plan is ~$12\u2013$16/user/month.",
+      "urls": [
+        "https://thedigitalprojectmanager.com/tools/jira-pricing"
+      ]
+    },
+    {
+      "text": "The Jira Premium plan includes Advanced roadmaps.",
+      "urls": [
+        "https://thedigitalprojectmanager.com/tools/jira-pricing"
+      ]
+    },
+    {
+      "text": "The Jira Premium plan includes global automation.",
+      "urls": [
+        "https://thedigitalprojectmanager.com/tools/jira-pricing"
+      ]
+    },
+    {
+      "text": "The Jira Premium plan includes 24/7 support.",
+      "urls": [
+        "https://thedigitalprojectmanager.com/tools/jira-pricing"
+      ]
+    },
+    {
+      "text": "The Jira Enterprise plan is Custom.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "The Jira Enterprise plan includes unlimited sites.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "The Jira Enterprise plan includes cross-product analytics.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "The Jira Enterprise plan includes advanced security.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "Atlassian raised cloud pricing 5\u201320% in October 2024.",
+      "urls": [
+        "https://corptec.com.au/blog/atlassian/atlassian-jira-pricing-updates-2025-action-plan",
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "Jira Data Center pricing jumped 15% in February 2026.",
+      "urls": [
+        "https://corptec.com.au/blog/atlassian/atlassian-jira-pricing-updates-2025-action-plan",
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "GitHub Issues is free with every repository (public or private).",
+      "urls": []
+    },
+    {
+      "text": "The GitHub Free plan is $0/month.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Free plan includes unlimited repos.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Free plan includes 2,000 CI/CD minutes/month.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Free plan includes basic Issues & Projects.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Team plan is $4/user/month.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Team plan includes protected branches.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Team plan includes required reviewers.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Team plan includes 3,000 CI/CD minutes.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Enterprise plan is from $21/user/month.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Enterprise plan includes SAML SSO.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Enterprise plan includes audit logs.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Enterprise plan includes 50,000 CI/CD minutes.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "The GitHub Enterprise plan includes advanced security.",
+      "urls": [
+        "https://www.spendflo.com/blog/github-pricing-guide"
+      ]
+    },
+    {
+      "text": "There is no separate charge for issue tracking itself.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "Issue tracking is included in all GitHub plans.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "YouTrack changed to per-user pricing effective October 1, 2025.",
+      "urls": []
+    },
+    {
+      "text": "It was YouTrack's first increase since launching in 2020.",
+      "urls": []
+    },
+    {
+      "text": "The YouTrack Free plan is $0.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack Free plan is up to 10 users (unchanged).",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack Cloud Monthly plan is from $5.40/user/month.",
+      "urls": [
+        "https://securityonline.info/jetbrains-youtrack-price-hike-new-plans-features-arrive-october-1-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack Cloud Monthly rate decreases as user count rises.",
+      "urls": [
+        "https://securityonline.info/jetbrains-youtrack-price-hike-new-plans-features-arrive-october-1-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack Cloud Monthly plan includes all features.",
+      "urls": [
+        "https://securityonline.info/jetbrains-youtrack-price-hike-new-plans-features-arrive-october-1-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack Cloud Annual plan is from $4.50/user/month.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack Cloud Annual plan includes 2 months free.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack Cloud Annual per-user rate decreases with scale.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The YouTrack HelpDesk add-on is $6/user/month (monthly).",
+      "urls": [
+        "https://youtrack.jetbrains.com/articles/SUPPORT-A-2169/YouTrack-Cloud-per-user-subscriptions"
+      ]
+    },
+    {
+      "text": "The YouTrack HelpDesk add-on is $5.50/user/month (annual).",
+      "urls": [
+        "https://youtrack.jetbrains.com/articles/SUPPORT-A-2169/YouTrack-Cloud-per-user-subscriptions"
+      ]
+    },
+    {
+      "text": "The YouTrack HelpDesk add-on is free for first 3 agents.",
+      "urls": [
+        "https://youtrack.jetbrains.com/articles/SUPPORT-A-2169/YouTrack-Cloud-per-user-subscriptions"
+      ]
+    },
+    {
+      "text": "The YouTrack HelpDesk add-on includes unlimited reporters.",
+      "urls": [
+        "https://youtrack.jetbrains.com/articles/SUPPORT-A-2169/YouTrack-Cloud-per-user-subscriptions"
+      ]
+    },
+    {
+      "text": "The YouTrack Server plan is custom/per-pack.",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "YouTrack Server is an on-premise option.",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "Perpetual licenses are valid for pre-June 2026 buyers.",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "YouTrack includes all features at no extra charge regardless of plan.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "YouTrack includes AI assistance at no extra charge regardless of plan.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "Linear has ~40 core dev integrations (GitHub, Slack, Figma, Notion).",
+      "urls": []
+    },
+    {
+      "text": "Jira has 3,000+ integrations across all departments.",
+      "urls": []
+    },
+    {
+      "text": "Linear Agent includes triage.",
+      "urls": []
+    },
+    {
+      "text": "Linear Agent includes issue creation from Slack.",
+      "urls": []
+    },
+    {
+      "text": "Linear Agent includes duplicate detection.",
+      "urls": []
+    },
+    {
+      "text": "Atlassian Intelligence includes summaries.",
+      "urls": []
+    },
+    {
+      "text": "Atlassian Intelligence includes search.",
+      "urls": []
+    },
+    {
+      "text": "Copilot is sold separately for GitHub.",
+      "urls": []
+    },
+    {
+      "text": "YouTrack AI Features are included at no extra cost.",
+      "urls": []
+    },
+    {
+      "text": "Linear raised a $52M Series B at a $400M valuation in 2022.",
+      "urls": [
+        "https://linear.app/pricing",
+        "https://www.youtube.com/watch?v=mtSlmZmTm-s"
+      ]
+    },
+    {
+      "text": "Linear reached 40,000+ companies by 2025.",
+      "urls": [
+        "https://linear.app/pricing",
+        "https://www.youtube.com/watch?v=mtSlmZmTm-s"
+      ]
+    },
+    {
+      "text": "Linear reached companies including Vercel and Ramp.",
+      "urls": [
+        "https://linear.app/pricing",
+        "https://www.youtube.com/watch?v=mtSlmZmTm-s"
+      ]
+    },
+    {
+      "text": "Jira launched simplified \"Team-managed\" projects.",
+      "urls": [
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "Jira has continued tightening GitHub integrations.",
+      "urls": [
+        "https://tech-insider.org/linear-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "Many teams outgrow GitHub Issues around 500 tickets.",
+      "urls": [
+        "https://cotera.co/articles/linear-vs-github-issues-comparison"
+      ]
+    },
+    {
+      "text": "Many teams migrate to Linear or Jira for structured workflows.",
+      "urls": [
+        "https://cotera.co/articles/linear-vs-github-issues-comparison"
+      ]
+    },
+    {
+      "text": "YouTrack is particularly strong in Eastern Europe.",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "YouTrack is particularly strong in Russia.",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "YouTrack is particularly strong among JetBrains IDE users.",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "YouTrack offers a full feature set (including AI).",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "YouTrack offers features at roughly half the per-seat cost of competitors.",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "YouTrack offers cloud options.",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "YouTrack offers self-hosted options.",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "YouTrack offers cloud and self-hosted options without enterprise-only gates.",
+      "urls": [
+        "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "One 2024 developer survey scored Linear 4.6/5 for UX.",
+      "urls": [
+        "https://onehorizon.ai/blog/linear-app-review"
+      ]
+    },
+    {
+      "text": "One 2024 developer survey scored Jira 3.2/5 for UX.",
+      "urls": [
+        "https://onehorizon.ai/blog/linear-app-review"
+      ]
+    },
+    {
+      "text": "Linear's G2 Rating is ~4.5/5.",
+      "urls": [
+        "https://www.youtube.com/watch?v=vsO3W15YjK0"
+      ]
+    },
+    {
+      "text": "Linear's Trustpilot rating is 2.7/5.",
+      "urls": [
+        "https://www.trustpilot.com/review/linear.app"
+      ]
+    },
+    {
+      "text": "Linear has only 10 reviews on Trustpilot.",
+      "urls": [
+        "https://www.trustpilot.com/review/linear.app"
+      ]
+    },
+    {
+      "text": "Many Trustpilot reviews appear conflated with an unrelated energy company.",
+      "urls": [
+        "https://www.trustpilot.com/review/linear.app"
+      ]
+    },
+    {
+      "text": "Linear launched Linear Agent in 2025.",
+      "urls": [
+        "https://departmentofproduct.substack.com/p/linear-says-issue-tracking-is-dead"
+      ]
+    },
+    {
+      "text": "Linear Agent is a built-in AI agent.",
+      "urls": [
+        "https://departmentofproduct.substack.com/p/linear-says-issue-tracking-is-dead"
+      ]
+    },
+    {
+      "text": "Linear Agent uses workspace context (threads, backlog, customer requests).",
+      "urls": [
+        "https://departmentofproduct.substack.com/p/linear-says-issue-tracking-is-dead"
+      ]
+    },
+    {
+      "text": "Linear Agent synthesizes recommendations.",
+      "urls": [
+        "https://departmentofproduct.substack.com/p/linear-says-issue-tracking-is-dead"
+      ]
+    },
+    {
+      "text": "Linear Agent takes action.",
+      "urls": [
+        "https://departmentofproduct.substack.com/p/linear-says-issue-tracking-is-dead"
+      ]
+    },
+    {
+      "text": "\"Everyone hated Jira\" is a common trope.",
+      "urls": [
+        "https://www.reddit.com/r/UXDesign/comments/1cbcziw/linear_app_built_400m_issue_tracker_with_next_to"
+      ]
+    },
+    {
+      "text": "Negative sentiment toward Jira was part of Linear's founding insight.",
+      "urls": [
+        "https://www.reddit.com/r/UXDesign/comments/1cbcziw/linear_app_built_400m_issue_tracker_with_next_to"
+      ]
+    },
+    {
+      "text": "Jira's G2 Rating is ~4.3/5.",
+      "urls": [
+        "https://www.youtube.com/watch?v=vsO3W15YjK0"
+      ]
+    },
+    {
+      "text": "Jira Enterprise Capabilities are rated 4.4/5 for enterprise features.",
+      "urls": [
+        "https://onehorizon.ai/blog/linear-app-review"
+      ]
+    },
+    {
+      "text": "Linear Enterprise Capabilities are rated 3.6/5 for enterprise features.",
+      "urls": [
+        "https://onehorizon.ai/blog/linear-app-review"
+      ]
+    },
+    {
+      "text": "Atlassian had rising prices (5\u201320% in 2024/2025).",
+      "urls": [
+        "https://corptec.com.au/blog/atlassian/atlassian-jira-pricing-updates-2025-action-plan",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "Jira requires paid add-ons for roadmaps.",
+      "urls": [
+        "https://corptec.com.au/blog/atlassian/atlassian-jira-pricing-updates-2025-action-plan",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "Jira requires paid add-ons for Gantt.",
+      "urls": [
+        "https://corptec.com.au/blog/atlassian/atlassian-jira-pricing-updates-2025-action-plan",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "Jira requires paid add-ons for time tracking.",
+      "urls": [
+        "https://corptec.com.au/blog/atlassian/atlassian-jira-pricing-updates-2025-action-plan",
+        "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+      ]
+    },
+    {
+      "text": "GitHub Projects v2 includes boards, custom fields, and roadmaps.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "GitHub Projects v2 narrowed the gap with Jira/Linear.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "GitHub added sub-issues in 2024\u20132025.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "GitHub added dependencies in 2024\u20132025.",
+      "urls": [
+        "https://www.ideaplan.io/compare/github-issues-vs-jira"
+      ]
+    },
+    {
+      "text": "Teams commonly start with GitHub Issues.",
+      "urls": [
+        "https://cotera.co/articles/linear-vs-github-issues-comparison"
+      ]
+    },
+    {
+      "text": "Teams move to Linear or Jira at ~500 tickets.",
+      "urls": [
+        "https://cotera.co/articles/linear-vs-github-issues-comparison"
+      ]
+    },
+    {
+      "text": "Teams move to Linear or Jira for multi-repo complexity.",
+      "urls": [
+        "https://cotera.co/articles/linear-vs-github-issues-comparison"
+      ]
+    },
+    {
+      "text": "AI assistance is included free with all YouTrack subscriptions.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "Competitors gate or upsell AI.",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    }
+  ]
+}

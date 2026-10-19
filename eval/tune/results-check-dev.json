@@ -1,0 +1,555 @@
+{
+  "first_judge": "moonshotai/Kimi-K2.6 (v1)",
+  "second_model": "deepseek-ai/DeepSeek-V4-Pro",
+  "run_at": "2026-10-19 07:04",
+  "summary": {
+    "tune": {
+      "n": 46,
+      "first_judge_agreement": 0.587,
+      "with_second_check_agreement": 0.565,
+      "changed": 11,
+      "mismatches_final": {
+        "no_source->supported": 1,
+        "no_source->contradicted": 1,
+        "not_stated->supported": 5,
+        "supported->not_stated": 9,
+        "contradicted->not_stated": 1,
+        "not_stated->contradicted": 2,
+        "supported->contradicted": 1
+      }
+    },
+    "val": {
+      "n": 17,
+      "first_judge_agreement": 0.706,
+      "with_second_check_agreement": 0.647,
+      "changed": 1,
+      "mismatches_final": {
+        "supported->not_stated": 3,
+        "not_stated->supported": 1,
+        "not_stated->contradicted": 1,
+        "supported->contradicted": 1
+      }
+    },
+    "all": {
+      "n": 63,
+      "first_judge_agreement": 0.619,
+      "with_second_check_agreement": 0.587,
+      "changed": 12,
+      "mismatches_final": {
+        "no_source->supported": 1,
+        "supported->not_stated": 12,
+        "no_source->contradicted": 1,
+        "not_stated->supported": 6,
+        "contradicted->not_stated": 1,
+        "not_stated->contradicted": 3,
+        "supported->contradicted": 2
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "T001",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T003",
+      "split": "tune",
+      "label": "no_source",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T004",
+      "split": "val",
+      "label": "supported",
+      "first": "supported",
+      "second": "not_stated",
+      "final": "not_stated"
+    },
+    {
+      "id": "T005",
+      "split": "val",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T007",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T009",
+      "split": "val",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T010",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T011",
+      "split": "tune",
+      "label": "no_source",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T013",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T017",
+      "split": "val",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T018",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T019",
+      "split": "tune",
+      "label": "supported",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T020",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T021",
+      "split": "val",
+      "label": "supported",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T022",
+      "split": "val",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T024",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T025",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "unverified_evidence",
+      "final": "not_stated"
+    },
+    {
+      "id": "T026",
+      "split": "val",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T027",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "not_stated",
+      "final": "not_stated"
+    },
+    {
+      "id": "T028",
+      "split": "val",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T029",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T030",
+      "split": "tune",
+      "label": "contradicted",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T031",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T033",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T035",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "not_stated",
+      "final": "not_stated"
+    },
+    {
+      "id": "T037",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T038",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T041",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T042",
+      "split": "val",
+      "label": "supported",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T043",
+      "split": "val",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T045",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T046",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T048",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T049",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T050",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "not_stated",
+      "final": "not_stated"
+    },
+    {
+      "id": "T054",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T055",
+      "split": "val",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T057",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "not_stated",
+      "final": "not_stated"
+    },
+    {
+      "id": "T058",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T060",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T061",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T063",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T064",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T066",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T067",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T068",
+      "split": "tune",
+      "label": "supported",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T069",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T070",
+      "split": "val",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T071",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T073",
+      "split": "val",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T074",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T075",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T077",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T081",
+      "split": "val",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T085",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T086",
+      "split": "val",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T087",
+      "split": "tune",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T088",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T089",
+      "split": "tune",
+      "label": "supported",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T090",
+      "split": "tune",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T091",
+      "split": "val",
+      "label": "not_stated",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T092",
+      "split": "tune",
+      "label": "supported",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T094",
+      "split": "val",
+      "label": "supported",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    }
+  ]
+}

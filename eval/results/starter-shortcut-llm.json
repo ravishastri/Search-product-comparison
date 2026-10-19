@@ -1,0 +1,419 @@
+{
+  "summary": {
+    "claims": 81,
+    "supported": 62,
+    "contradicted": 1,
+    "not_stated": 11,
+    "unverified_evidence": 4,
+    "no_source_text": 3,
+    "support_rate": 0.765,
+    "contradiction_rate": 0.012
+  },
+  "claims": [
+    {
+      "text": "Shortcut offers four subscription tiers.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut offers a Free tier.",
+      "verdict": "supported",
+      "evidence": "If you have 10 or fewer users when the trial ends, you can simply use Shortcut for free or manually choose one of our paid plans to get access to the features included within it."
+    },
+    {
+      "text": "The Free tier costs $0 per user/month.",
+      "verdict": "supported",
+      "evidence": "Free Plan\nBest for teams getting started.\n$  0\nPer user/month"
+    },
+    {
+      "text": "The Free tier is for teams of up to 10 people.",
+      "verdict": "supported",
+      "evidence": "If you have 10 or fewer users when the trial ends, you can simply use Shortcut for free or manually choose one of our paid plans to get access to the features included within it."
+    },
+    {
+      "text": "The Free tier includes Kanban boards.",
+      "verdict": "supported",
+      "evidence": " Plan work with Kanban views"
+    },
+    {
+      "text": "The Free tier includes roadmaps.",
+      "verdict": "supported",
+      "evidence": " See progress on a Roadmap"
+    },
+    {
+      "text": "The Free tier includes reports.",
+      "verdict": "supported",
+      "evidence": " Get quick insights with Reports"
+    },
+    {
+      "text": "The Free tier includes sprints.",
+      "verdict": "supported",
+      "evidence": " Plan sprints using Iterations"
+    },
+    {
+      "text": "The Free tier includes docs.",
+      "verdict": "supported",
+      "evidence": " Work together with Docs"
+    },
+    {
+      "text": "The Free tier includes integrations with GitHub.",
+      "verdict": "supported",
+      "evidence": "GitHub, Slack & Figma integrations"
+    },
+    {
+      "text": "The Free tier includes integrations with Slack.",
+      "verdict": "supported",
+      "evidence": "GitHub, Slack & Figma integrations"
+    },
+    {
+      "text": "The Free tier includes integrations with Figma.",
+      "verdict": "supported",
+      "evidence": "GitHub, Slack & Figma integrations"
+    },
+    {
+      "text": "Shortcut offers a Team tier.",
+      "verdict": "supported",
+      "evidence": "The Team Plan is an excellent option for customers with multiple teams or squads who need to execute efficiently and collaboratively."
+    },
+    {
+      "text": "The Team tier costs $8.50 per user/month when billed annually.",
+      "verdict": "supported",
+      "evidence": "The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Team tier costs $10 monthly.",
+      "verdict": "supported",
+      "evidence": "The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Team tier adds unlimited users.",
+      "verdict": "not_stated",
+      "evidence": "The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Team tier adds multiple customizable workflows (up to five).",
+      "verdict": "not_stated",
+      "evidence": "The Team Plan is an excellent option for customers with multiple teams or squads who need to execute efficiently and collaboratively."
+    },
+    {
+      "text": "The Team tier adds work-in-progress limits.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "The Team tier adds automations.",
+      "verdict": "not_stated",
+      "evidence": "The Team Plan is an excellent option for customers with multiple teams or squads who need to execute efficiently and collaboratively."
+    },
+    {
+      "text": "The Team tier adds access to all integrations.",
+      "verdict": "not_stated",
+      "evidence": "The Team Plan is an excellent option for customers with multiple teams or squads who need to execute efficiently and collaboratively."
+    },
+    {
+      "text": "Shortcut offers a Business tier.",
+      "verdict": "supported",
+      "evidence": "The Business Plan bills at $16/user per month on the monthly subscription, or $12/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Business tier costs $12 per user/month when billed annually.",
+      "verdict": "supported",
+      "evidence": "The Business Plan bills at $16/user per month on the monthly subscription, or $12/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Business tier costs $16 monthly.",
+      "verdict": "supported",
+      "evidence": "The Business Plan bills at $16/user per month on the monthly subscription, or $12/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Business tier includes unlimited everything.",
+      "verdict": "contradicted",
+      "evidence": "Observers are included in the Team, Business, and Enterprise plans, accessible across all Workspaces. Each paid seat comes with up to 5 Observer seats."
+    },
+    {
+      "text": "The Business tier includes objectives/OKR tracking.",
+      "verdict": "not_stated",
+      "evidence": "For customers that require better visibility across the entire organization, the Business Plan is a better-suited offering to help them plan, execute, and measure their work."
+    },
+    {
+      "text": "The Business tier includes advanced custom fields.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "The Business tier includes advanced reporting.",
+      "verdict": "not_stated",
+      "evidence": "For customers that require better visibility across the entire organization, the Business Plan is a better-suited offering to help them plan, execute, and measure their work."
+    },
+    {
+      "text": "The Business tier includes multiple workspaces.",
+      "verdict": "supported",
+      "evidence": "Regardless of what plan you are on, you have unlimited Workspaces with no additional charge!"
+    },
+    {
+      "text": "Shortcut offers an Enterprise tier.",
+      "verdict": "supported",
+      "evidence": "| Billing Period: | Free Plan  $  0  Sign up for FREE | Team Plan  $  8.50  Sign up for FREE | Business Plan  $  12  Sign up for FREE | Enterprise Plan  Custom Pricing  Contact Sales |"
+    },
+    {
+      "text": "The Enterprise tier has custom pricing.",
+      "verdict": "supported",
+      "evidence": "Enterprise Plan\nFor mature software companies.\nCustom Pricing\nContact Sales"
+    },
+    {
+      "text": "The Enterprise tier adds single sign-on (SSO).",
+      "verdict": "supported",
+      "evidence": "| Single sign-on (SSO)    Contact our Support Team for details | \u2014 | \u2014 | Add-on | Included |"
+    },
+    {
+      "text": "The Enterprise tier adds enterprise-grade support.",
+      "verdict": "supported",
+      "evidence": "Premier support SLAs"
+    },
+    {
+      "text": "Shortcut positions itself as a middle ground between the minimalism of Linear and the heavy configurability of Jira.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut is explicitly built for software product and engineering teams rather than general cross-functional work.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut has a Free Tier of Up to 10 users.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for up to 10 users; Team $8.50 per user/month; Business $12 per user/month; Enterprise custom."
+    },
+    {
+      "text": "Shortcut's paid plans start at $8.50/user/mo.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for up to 10 users; Team $8.50 per user/month; Business $12 per user/month; Enterprise custom."
+    },
+    {
+      "text": "Linear has a Free Tier of Up to 10 users.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for up to 10 users; paid plans start at $10 per user/month."
+    },
+    {
+      "text": "Linear's paid plans start at $10/user/mo.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for up to 10 users; paid plans start at $10 per user/month."
+    },
+    {
+      "text": "Asana has a Free Tier of Small teams.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for small teams; paid plans start at $10.99 per user/month."
+    },
+    {
+      "text": "Asana's paid plans start at $10.99/user/mo.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for small teams; paid plans start at $10.99 per user/month."
+    },
+    {
+      "text": "Jira has a Free Tier Available.",
+      "verdict": "not_stated",
+      "evidence": "| Jira | $7.75/user/month (Standard), $15.25/user/month (Pr | Project and issue tracking... | \u2014 |"
+    },
+    {
+      "text": "Jira's paid plans start at $7.75/user/mo (Standard).",
+      "verdict": "supported",
+      "evidence": "| Jira | $7.75/user/month (Standard), $15.25/user/month (Pr | Project and issue tracking... | \u2014 |"
+    },
+    {
+      "text": "ClickUp has a Free Tier Available.",
+      "verdict": "supported",
+      "evidence": "| ClickUp | All-in-one workspace combining tasks, docs, and goals | Free plan available | $7 per user/month |"
+    },
+    {
+      "text": "ClickUp's paid plans start at $7/user/mo.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free plan available; paid plans start at $7 per user/month."
+    },
+    {
+      "text": "Monday.com has a Free Tier of Up to 2 seats.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for up to two seats; paid plans start at $9 per seat/month."
+    },
+    {
+      "text": "Monday.com's paid plans start at $9/seat/mo.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for up to two seats; paid plans start at $9 per seat/month."
+    },
+    {
+      "text": "Notion has a Free Tier of Individuals.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for individuals; paid plans start at $10 per user/month."
+    },
+    {
+      "text": "Notion's paid plans start at $10/user/mo.",
+      "verdict": "supported",
+      "evidence": "Pricing: Free for individuals; paid plans start at $10 per user/month."
+    },
+    {
+      "text": "Jira remains the enterprise standard for 50+ engineers.",
+      "verdict": "supported",
+      "evidence": "Jira is the enterprise standard with maximum configurability."
+    },
+    {
+      "text": "Jira offers custom fields.",
+      "verdict": "supported",
+      "evidence": "Jira is built for large engineering organizations that need maximum configurability: custom fields, complex workflows, and cross-team dependency mapping."
+    },
+    {
+      "text": "Jira offers complex workflow transitions.",
+      "verdict": "supported",
+      "evidence": "If you need a 12-status workflow with conditional transitions and field-level permissions, Jira handles it"
+    },
+    {
+      "text": "Jira offers JQL reporting.",
+      "verdict": "supported",
+      "evidence": "Dozens of built-in reports plus JQL (Jira Query Language) for custom queries."
+    },
+    {
+      "text": "Jira offers deep auditability.",
+      "verdict": "supported",
+      "evidence": "You need JQL-level reporting for audits, compliance, or executive dashboards"
+    },
+    {
+      "text": "Linear is more opinionated and keyboard-driven.",
+      "verdict": "supported",
+      "evidence": "This is because Linear was built for engineering teams and is highly opinionated, it makes adoption easier, as there's not much you can really modify or mess with."
+    },
+    {
+      "text": "Reviewers note Linear \u201cstops there\u201d.",
+      "verdict": "supported",
+      "evidence": "That said, Linear is very clearly built for engineering, product, and design teams, and stops there."
+    },
+    {
+      "text": "Linear does not serve marketing or sales well.",
+      "verdict": "supported",
+      "evidence": "Marketing and sales teams will feel totally limited by Linear, which usually means introducing another project management tool like Motion, Monday, or Asana."
+    },
+    {
+      "text": "Linear not serving marketing or sales well can force companies to run separate tools.",
+      "verdict": "supported",
+      "evidence": "Marketing and sales teams will feel totally limited by Linear, which usually means introducing another project management tool like Motion, Monday, or Asana."
+    },
+    {
+      "text": "Asana lacks native sprint/cycle support.",
+      "verdict": "supported",
+      "evidence": "Asana doesn't have native sprint or cycle support."
+    },
+    {
+      "text": "Asana lacks deep Git integration.",
+      "verdict": "supported",
+      "evidence": "Asana lacks native sprint/cycle support, has fewer keyboard shortcuts, no built-in triage workflow, and its Git integration is through third-party connectors rather than native."
+    },
+    {
+      "text": "Asana lacks agile metrics.",
+      "verdict": "not_stated",
+      "evidence": "You can approximate sprints using sections within a project or by creating time-based projects, but it requires manual setup and doesn't provide automatic rollover or velocity tracking."
+    },
+    {
+      "text": "Teams pushed from a dev-centric tool into Asana often report feeling slower.",
+      "verdict": "supported",
+      "evidence": "Engineering teams that switch from Linear to Asana typically report feeling slower."
+    },
+    {
+      "text": "ClickUp is praised for breadth.",
+      "verdict": "unverified_evidence",
+      "evidence": "Choose ClickUp if you want maximum feature breadth in one tool."
+    },
+    {
+      "text": "ClickUp is praised for customization.",
+      "verdict": "supported",
+      "evidence": "| ClickUp | Companies wanting all-in-one tool | $7/user/month | Feature breadth, customization | Performance at scale, simple onboarding |"
+    },
+    {
+      "text": "Monday.com is visual.",
+      "verdict": "supported",
+      "evidence": "Visual-first approach: Everything is color-coded boards and timelines."
+    },
+    {
+      "text": "Monday.com is cross-functional.",
+      "verdict": "supported",
+      "evidence": "Bottom line: Choose Monday.com if cross-departmental visibility matters more than developer velocity and you're okay with developers maintaining parallel tools for technical work."
+    },
+    {
+      "text": "Shortcut holds a 4.4/5 on G2 (from 177+ reviews).",
+      "verdict": "supported",
+      "evidence": "\u2605\u2605\u2605\u2605\u2605 4.4/5 on G2 from 177 reviews  \u00b7 Reviews on Capterra"
+    },
+    {
+      "text": "Shortcut holds a 4.6/5 on Software Advice/Capterra (from 363 reviews).",
+      "verdict": "supported",
+      "evidence": "Shortcut\nShortcut\n4.6\n(363)"
+    },
+    {
+      "text": "One Principal Software Engineer rated it 3.0/5.",
+      "verdict": "supported",
+      "evidence": "Principal Software Engineer <50M USD, Media CRITICAL \u201cSolid, customizable, cost-effective choice if you don't rely on third-party integrations\u201d 3.0 Feb 20, 2026"
+    },
+    {
+      "text": "One Principal Software Engineer called it a \u201csolid, customizable, cost-effective choice\u201d.",
+      "verdict": "supported",
+      "evidence": "Principal Software Engineer <50M USD Media Review Source #### Solid, customizable, cost-effective choice if you don't rely on third-party integrations"
+    },
+    {
+      "text": "The Principal Software Engineer noted weaker third-party integrations (e.g., Datadog) compared to larger platforms.",
+      "verdict": "supported",
+      "evidence": "Unfortunately, this doesn't work both ways: other third-party systems (e.g. Datadog) do not integrate with Shortcut as much as we would like, so you end up with some toil if you want consistent views across all your tools."
+    },
+    {
+      "text": "Weaker third-party integrations create \u201ctoil\u201d when trying to build consistent views across tools.",
+      "verdict": "supported",
+      "evidence": "Unfortunately, this doesn't work both ways: other third-party systems (e.g. Datadog) do not integrate with Shortcut as much as we would like, so you end up with some toil if you want consistent views across all your tools."
+    },
+    {
+      "text": "After six months of use, a reviewer praised Shortcut for balancing \u201ccomplexity with simplicity\u201d.",
+      "verdict": "unverified_evidence",
+      "evidence": "The biggest strength [music] of Shortcut is its balance between simplicity and functionality."
+    },
+    {
+      "text": "A reviewer said Shortcut has an intuitive interface.",
+      "verdict": "unverified_evidence",
+      "evidence": "The workflow is intuitive, so my team was able to start using it without spending days on setup or training."
+    },
+    {
+      "text": "A reviewer said Shortcut's interface gets teams started without days of training.",
+      "verdict": "unverified_evidence",
+      "evidence": "The workflow is intuitive, so my team was able to start using it without [music] spending days on setup or training."
+    },
+    {
+      "text": "Criticisms include reporting that is \u201csolid but not especially detailed\u201d.",
+      "verdict": "supported",
+      "evidence": "Second, reporting is solid but not especially detailed."
+    },
+    {
+      "text": "Criticisms include fewer advanced customization options than Jira.",
+      "verdict": "supported",
+      "evidence": "First, while Shortcut covers most project management needs for software teams, [music] it doesn't offer as many advanced customization options as [1:20] platforms like Jira."
+    },
+    {
+      "text": "Positive themes include speed/simplicity versus \u201cheavyweight agile suites\u201d.",
+      "verdict": "supported",
+      "evidence": "+Users often praise speed and simplicity versus heavyweight agile suites."
+    },
+    {
+      "text": "Positive themes include strong Git and Slack integrations.",
+      "verdict": "supported",
+      "evidence": "+Integrations with Git providers and Slack are recurring positives in reviews."
+    },
+    {
+      "text": "Positive themes include dependable story/epic workflows.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Recurring negatives include limited cross-project portfolio views.",
+      "verdict": "supported",
+      "evidence": "-Some teams want richer cross-project portfolio views"
+    },
+    {
+      "text": "Recurring negatives include lighter dependency modeling compared to top enterprise suites.",
+      "verdict": "supported",
+      "evidence": "-Advanced dependency modeling is lighter than top enterprise suites"
+    }
+  ]
+}

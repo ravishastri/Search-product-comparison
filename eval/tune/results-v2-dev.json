@@ -1,0 +1,559 @@
+{
+  "variant": "v2",
+  "splits": [
+    "tune",
+    "val"
+  ],
+  "judge": "moonshotai/Kimi-K2.6",
+  "max_chars_per_url": 20000,
+  "run_at": "2026-10-18 22:38",
+  "summary": {
+    "tune": {
+      "n": 46,
+      "agreement": 0.543,
+      "confusion": {
+        "supported->supported": 16,
+        "not_stated->supported": 10,
+        "not_stated->not_stated": 9,
+        "supported->contradicted": 3,
+        "supported->not_stated": 3,
+        "not_stated->contradicted": 2,
+        "no_source->supported": 1,
+        "no_source->not_stated": 1,
+        "contradicted->not_stated": 1
+      }
+    },
+    "val": {
+      "n": 17,
+      "agreement": 0.765,
+      "confusion": {
+        "supported->supported": 7,
+        "not_stated->not_stated": 6,
+        "supported->not_stated": 2,
+        "not_stated->supported": 1,
+        "supported->contradicted": 1
+      }
+    },
+    "all": {
+      "n": 63,
+      "agreement": 0.603,
+      "confusion": {
+        "supported->supported": 23,
+        "not_stated->not_stated": 15,
+        "not_stated->supported": 11,
+        "supported->not_stated": 5,
+        "supported->contradicted": 4,
+        "not_stated->contradicted": 2,
+        "no_source->supported": 1,
+        "no_source->not_stated": 1,
+        "contradicted->not_stated": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "T001",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "After that date, monthly plans will start at USD 5.40 per user, and annual plans at USD 4.50 per user, with increasing discounts as your team grows."
+    },
+    {
+      "id": "T003",
+      "split": "tune",
+      "label": "no_source",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Helpdesk projects will remain free for 3 agents and unlimited reporters."
+    },
+    {
+      "id": "T004",
+      "split": "val",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "YouTrack is JetBrains' issue tracker, and if you're already paying for IntelliJ, WebStorm, or PyCharm, it's worth a serious look."
+    },
+    {
+      "id": "T005",
+      "split": "val",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "The company\u2019s major release to bring this vision to life is Linear Agent - a new built-in agent that has access to the context already living in your workspace (things threads, backlog, customer requests) without having to manually piece it all together."
+    },
+    {
+      "id": "T007",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Enterprise: custom pricing, unlimited sites, Atlassian Access included"
+    },
+    {
+      "id": "T009",
+      "split": "val",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "YouTrack is JetBrains' issue tracker and project management tool designed for developer teams."
+    },
+    {
+      "id": "T010",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "This plan gives you access to more flexibility and features than legacy plans could offer:"
+    },
+    {
+      "id": "T011",
+      "split": "tune",
+      "label": "no_source",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "For teams with 4 or more agents, new pricing will apply: USD 6.00 per agent per month with a monthly plan, or USD 5.50 per agent per month with an annual plan."
+    },
+    {
+      "id": "T013",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Premium: Distributed teams of 50-500+ needing advanced roadmaps and 24/7 support"
+    },
+    {
+      "id": "T017",
+      "split": "val",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Automation increases to 1,700 rules/user/month."
+    },
+    {
+      "id": "T018",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Standard: $8.15/user/month (annual) as of October 2025 price increase. Previously $7.75."
+    },
+    {
+      "id": "T019",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": ""
+    },
+    {
+      "id": "T020",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "In this comprehensive guide, we\u2019ll explore the best alternatives that can help your team work smarter, not harder."
+    },
+    {
+      "id": "T021",
+      "split": "val",
+      "label": "supported",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "| Standard | Starting at $9.05/user/month | Growing teams that need project tracking and collaboration |"
+    },
+    {
+      "id": "T022",
+      "split": "val",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": " Standard: $8.15/user/month (annual) as of October 2025 price increase. Previously $7.75."
+    },
+    {
+      "id": "T024",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Business plan at $39,000+/year for 250 seats."
+    },
+    {
+      "id": "T025",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Most growing teams land on the Business plan at $16 per user per month."
+    },
+    {
+      "id": "T026",
+      "split": "val",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Plane ships a free Community Edition under AGPL-3.0 that teams self-host on Docker or Kubernetes."
+    },
+    {
+      "id": "T027",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "The first hit came with primetime Reddit engagement\u2014a hundred upvotes on one post\u2014for our Github Sync feature."
+    },
+    {
+      "id": "T028",
+      "split": "val",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Docker Compose, Kubernetes with Helm, Podman, or one-click platforms like Coolify and Portainer."
+    },
+    {
+      "id": "T029",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Unlimited projects, work items, cycles, modules, pages, five layout views, intake, dashboards, estimates, REST API, and webhooks. No user limits."
+    },
+    {
+      "id": "T030",
+      "split": "tune",
+      "label": "contradicted",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Business plan at $39,000+/year for 250 seats."
+    },
+    {
+      "id": "T031",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Jira's pricing starts with a free tier for up to 10 users and scales up to enterprise-level pricing."
+    },
+    {
+      "id": "T033",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "Plane \u2013 modern developer teams and startups that want a contemporary issue-tracking experience."
+    },
+    {
+      "id": "T035",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "ClickUp offers the most generous free plan by far, unlimited users on Free Forever, which makes it an easy first choice for a cash-strapped team, though storage caps push most teams toward a paid tier eventually."
+    },
+    {
+      "id": "T037",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "If you need a 12-status workflow with conditional transitions and field-level permissions, Jira handles it"
+    },
+    {
+      "id": "T038",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Principal Software Engineer\n<50M USD, Media\nCRITICAL\n\u201cSolid, customizable, cost-effective choice if you don't rely on third-party integrations\u201d"
+    },
+    {
+      "id": "T041",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "For customers that require better visibility across the entire organization, the Business Plan is a better-suited offering to help them plan, execute, and measure their work."
+    },
+    {
+      "id": "T042",
+      "split": "val",
+      "label": "supported",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "+Clear Kanban and sprint views with dependable backlog workflows"
+    },
+    {
+      "id": "T043",
+      "split": "val",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "The Team Plan is an excellent option for customers with multiple teams or squads who need to execute efficiently and collaboratively."
+    },
+    {
+      "id": "T045",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": " For customers that require better visibility across the entire organization, the Business Plan is a better-suited offering to help them plan, execute, and measure their work."
+    },
+    {
+      "id": "T046",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Marketing and sales teams will feel totally limited by Linear, which usually means introducing another project management tool like Motion, Monday, or Asana."
+    },
+    {
+      "id": "T048",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "ClickUp holds a 4.7/5 rating on G2 from over 11,500 reviews, yet drops to 3.6/5 on Trustpilot."
+    },
+    {
+      "id": "T049",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "It offers more project views, native chat, and other tools that Monday.com doesn\u2019t match."
+    },
+    {
+      "id": "T050",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Enterprise: Custom pricing. Advanced security, HIPAA compliance, SSO, and dedicated support."
+    },
+    {
+      "id": "T054",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Pricing 2026: Starter from $10.99/user/month | Advanced from $24.99/user/month"
+    },
+    {
+      "id": "T055",
+      "split": "val",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Enterprise: Custom pricing. Advanced security, HIPAA compliance, SSO, and dedicated support."
+    },
+    {
+      "id": "T057",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "ClickUp\u2019s AI features are not included in any plan."
+    },
+    {
+      "id": "T058",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": " Unlimited: $7/user/month (annual) or $10/user/month (monthly)."
+    },
+    {
+      "id": "T060",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "There are conflicting reviews of Asana\u2019s customer support \u2013 but what stood out to me is that customer success is a paid add-on, and 24/7 support is only available for Enterprise customers when some competitors like SmartSuite offer it in free plans."
+    },
+    {
+      "id": "T061",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "This tier costs $24.99 per user, per month when billed annually, while for a month-to-month charge, you\u2019re looking at $30.49 per user."
+    },
+    {
+      "id": "T063",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "In fiscal 2024, which ended January 31, 2024, Asana generated $652.5 million in revenue."
+    },
+    {
+      "id": "T064",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "monday.com's AI Work Platform scores higher on G2 across ease of use (9.1 vs 8.6), quality of support (8.9 vs 8.5), and project management (8.3 vs 8.2), and it includes AI features on all plans that Asana reserves for Enterprise."
+    },
+    {
+      "id": "T066",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "For teams under 15 people on a budget, Asana\u2019s free plan is unbeatable."
+    },
+    {
+      "id": "T067",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Asana Starter pricing starts at $10.99 per user per month billed annually, or $13.49 per user billed monthly."
+    },
+    {
+      "id": "T068",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "| Advanced | $24.99/user/mo | Portfolios, goals, time tracking, critical path, approvals, proofing, Salesforce/Tableau/Power BI | Timesheets (add-on), capacity planning, universal workload |"
+    },
+    {
+      "id": "T069",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "AI Studio Access: Only available on annual Advanced, Enterprise, and Enterprise+ plans."
+    },
+    {
+      "id": "T070",
+      "split": "val",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "AI features including task generation, summary writing, goal drafting, and anomaly detection are offered as an add-on: $10 to $15/user/month."
+    },
+    {
+      "id": "T071",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "The Enterprise plan comes with additional features that the lower-tier Trello plans don\u2019t offer, including:\n Dedicated 24/7 admin support,\n Unlimited Workspaces,\n Organization-wide permissions,\n Organization-visible boards,\n Public board management,\n Multi-board guests,\n Attachment restrictions,\n Po"
+    },
+    {
+      "id": "T073",
+      "split": "val",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": " Software Advice \u2013 4.5 out of 5 stars (13,872 user Trello reviews)"
+    },
+    {
+      "id": "T074",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Docs, whiteboards, time tracking, goals, mind maps, and form views are all native."
+    },
+    {
+      "id": "T075",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Performance can slow with large, complex workspaces"
+    },
+    {
+      "id": "T077",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "The Trello Free plan allows up to 10 boards, 2 power-ups per board, and 250MB of file attachments per board."
+    },
+    {
+      "id": "T081",
+      "split": "val",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Choose Asana if you need advanced project management features like task dependencies, milestones, and multiple views (List, Kanban, Calendar, Timeline)."
+    },
+    {
+      "id": "T085",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Issue types, fields, states and transitions are yours to define; saved searches are expressions in a query language; automation is JavaScript rules you write."
+    },
+    {
+      "id": "T086",
+      "split": "val",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "YouTrack's answer to the same problem is a query language and JavaScript workflow rules."
+    },
+    {
+      "id": "T087",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "All YouTrack Cloud customers, including small teams using YouTrack for free and YouTrack Server customers with active subscriptions, have access to free credits for AI-powered features."
+    },
+    {
+      "id": "T088",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Teams that need required fields, custom states, or stakeholder-specific views usually graduate to Linear or Jira."
+    },
+    {
+      "id": "T089",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "For monthly plans, the pricing starts at USD 5.40 per user per month."
+    },
+    {
+      "id": "T090",
+      "split": "tune",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "The larger your team, the lower your effective per-user price, as the discount increases with additional users."
+    },
+    {
+      "id": "T091",
+      "split": "val",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "| 15 users | $900 | $450 |"
+    },
+    {
+      "id": "T092",
+      "split": "tune",
+      "label": "supported",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "| Team | $4.40 per user/month (billed annually) | $440/year for 15 users, scales with user packs | All features, unlimited agile boards, time tracking, Gantt charts, automation |"
+    },
+    {
+      "id": "T094",
+      "split": "val",
+      "label": "supported",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "On the cloud side, no \u2014 it\u2019s a flat $4.40/Tean and $14.70/Enterprise per user, regardless of volume."
+    }
+  ]
+}

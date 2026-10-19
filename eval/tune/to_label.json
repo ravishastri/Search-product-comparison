@@ -1,0 +1,885 @@
+[
+ {
+  "id": "T001",
+  "product": "linear",
+  "claim": "The YouTrack Cloud Annual per-user rate decreases with scale.",
+  "urls": [
+   "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T002",
+  "product": "linear",
+  "claim": "Linear's G2 Rating is ~4.5/5.",
+  "urls": [
+   "https://www.youtube.com/watch?v=vsO3W15YjK0"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T003",
+  "product": "linear",
+  "claim": "The YouTrack HelpDesk add-on is free for first 3 agents.",
+  "urls": [
+   "https://youtrack.jetbrains.com/articles/SUPPORT-A-2169/YouTrack-Cloud-per-user-subscriptions"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T004",
+  "product": "linear",
+  "claim": "YouTrack is particularly strong among JetBrains IDE users.",
+  "urls": [
+   "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+   "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T005",
+  "product": "linear",
+  "claim": "Linear Agent uses workspace context (threads, backlog, customer requests).",
+  "urls": [
+   "https://departmentofproduct.substack.com/p/linear-says-issue-tracking-is-dead"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T006",
+  "product": "linear",
+  "claim": "Linear previously charged $14 for Plus.",
+  "urls": [
+   "https://tech-insider.org/linear-vs-jira-2026"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T007",
+  "product": "linear",
+  "claim": "The Jira Enterprise plan includes advanced security.",
+  "urls": [
+   "https://www.ideaplan.io/compare/github-issues-vs-jira"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T008",
+  "product": "linear",
+  "claim": "GitHub added dependencies in 2024\u20132025.",
+  "urls": [
+   "https://www.ideaplan.io/compare/github-issues-vs-jira"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T009",
+  "product": "linear",
+  "claim": "YouTrack is particularly strong in Eastern Europe.",
+  "urls": [
+   "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+   "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T010",
+  "product": "linear",
+  "claim": "YouTrack includes all features at no extra charge regardless of plan.",
+  "urls": [
+   "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T011",
+  "product": "linear",
+  "claim": "The YouTrack HelpDesk add-on is $5.50/user/month (annual).",
+  "urls": [
+   "https://youtrack.jetbrains.com/articles/SUPPORT-A-2169/YouTrack-Cloud-per-user-subscriptions"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T012",
+  "product": "linear",
+  "claim": "Jira's G2 Rating is ~4.3/5.",
+  "urls": [
+   "https://www.youtube.com/watch?v=vsO3W15YjK0"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T013",
+  "product": "jira",
+  "claim": "Jira\u2019s 2025 Premium Cloud Tier includes advanced roadmaps.",
+  "urls": [
+   "https://ones.com/blog/jira-work-management-and-jira-software-merged-into-jira-cloud",
+   "https://checkthat.ai/brands/atlassian/pricing"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T014",
+  "product": "jira",
+  "claim": "Jira\u2019s 2025 Standard Cloud Tier removes the 10-user cap.",
+  "urls": [
+   "https://ones.com/blog/jira-work-management-and-jira-software-merged-into-jira-cloud",
+   "https://softwarepricingguide.com/atlassian-jira-pricing-2025-every-plan-the-data-center-vs-cloud-cost-decision-and-the-price-increases-nobody-warned-you-about"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T015",
+  "product": "jira",
+  "claim": "ClickUp performance can degrade at scale.",
+  "urls": [
+   "https://atono.io/blog/most-popular-jira-alternatives-compared"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T016",
+  "product": "jira",
+  "claim": "Representative annual list prices for Jira Software Data Center include up to ~$300,000/year for unlimited users.",
+  "urls": [
+   "https://softwarepricingguide.com/atlassian-jira-pricing-2025-every-plan-the-data-center-vs-cloud-cost-decision-and-the-price-increases-nobody-warned-you-about"
+  ],
+  "split": "tune",
+  "excluded": "Jira Data Center pricing (out of scope)"
+ },
+ {
+  "id": "T017",
+  "product": "jira",
+  "claim": "Jira\u2019s 2025 Standard Cloud Tier increases automation limits.",
+  "urls": [
+   "https://ones.com/blog/jira-work-management-and-jira-software-merged-into-jira-cloud",
+   "https://softwarepricingguide.com/atlassian-jira-pricing-2025-every-plan-the-data-center-vs-cloud-cost-decision-and-the-price-increases-nobody-warned-you-about"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T018",
+  "product": "jira",
+  "claim": "Jira\u2019s 2025 Standard Cloud Tier pricing depends on timing and team size.",
+  "urls": [
+   "https://ones.com/blog/jira-work-management-and-jira-software-merged-into-jira-cloud",
+   "https://softwarepricingguide.com/atlassian-jira-pricing-2025-every-plan-the-data-center-vs-cloud-cost-decision-and-the-price-increases-nobody-warned-you-about"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T019",
+  "product": "jira",
+  "claim": "Self-service resources include the knowledge base.",
+  "urls": [
+   "https://project-management.com/jira-software-review"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T020",
+  "product": "jira",
+  "claim": "Competitors like Linear, Zenhub, and Shortcut are capturing dissatisfied users who prioritize speed and developer experience over configurability.",
+  "urls": [
+   "https://www.zenhub.com/blog-posts/top-jira-alternatives-for-software-teams-in-2025"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T021",
+  "product": "jira",
+  "claim": "Standard plan customers lack 24/7 dedicated support.",
+  "urls": [
+   "https://project-management.com/jira-software-review"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T022",
+  "product": "jira",
+  "claim": "Jira\u2019s 2025 Standard Cloud Tier is commonly listed between ~$7.53\u2013$8.15 per user/month with annual billing.",
+  "urls": [
+   "https://ones.com/blog/jira-work-management-and-jira-software-merged-into-jira-cloud",
+   "https://softwarepricingguide.com/atlassian-jira-pricing-2025-every-plan-the-data-center-vs-cloud-cost-decision-and-the-price-increases-nobody-warned-you-about"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T023",
+  "product": "jira",
+  "claim": "Jira\u2019s 2025 Enterprise Cloud Tier uses custom annual quotes.",
+  "urls": [
+   "https://us.seibert.group/blog/jira-cloud-premium-vs-standard-vs-enterprise",
+   "https://checkthat.ai/brands/atlassian/pricing"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T024",
+  "product": "plane",
+  "claim": "Business is cited by a third party as costing ~$39k+/yr for 250 seats.",
+  "urls": [
+   "https://worklenz.com/open-source-project-management-tools"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T025",
+  "product": "plane",
+  "claim": "Linear's Business tier is at $16/user/mo.",
+  "urls": [
+   "https://plane.so/blog/best-linear-alternatives-in-2026",
+   "https://www.eesel.ai/blog/linear-vs-clickup"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T026",
+  "product": "plane",
+  "claim": "The Community Edition (Self-hosted) is free.",
+  "urls": [
+   "https://plane.so/open-source"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T027",
+  "product": "plane",
+  "claim": "Early growth of Plane was driven by Reddit engagement.",
+  "urls": [
+   "https://plane.so/blog/how-we-got-to-20k-github-stars"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T028",
+  "product": "plane",
+  "claim": "Plane can be deployed via Portainer.",
+  "urls": [
+   "https://plane.so/open-source"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T029",
+  "product": "plane",
+  "claim": "The Community Edition (Self-hosted) includes work items.",
+  "urls": [
+   "https://plane.so/open-source"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T030",
+  "product": "plane",
+  "claim": "Business has custom pricing.",
+  "urls": [
+   "https://worklenz.com/open-source-project-management-tools"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T031",
+  "product": "plane",
+  "claim": "Jira has higher effective cost once add-ons (SSO, roadmaps, time tracking) are included.",
+  "urls": [
+   "https://www.hatica.io/blog/plane-the-open-source-project-management-tool",
+   "https://plane.so/blog/best-linear-alternatives-in-2026"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T032",
+  "product": "plane",
+  "claim": "Linear is cloud-only.",
+  "urls": [
+   "https://plane.so/blog/best-linear-alternatives-in-2026",
+   "https://www.eesel.ai/blog/linear-vs-clickup"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T033",
+  "product": "plane",
+  "claim": "Plane targets broader product teams wanting Linear/Jira-like experience with open-source freedom.",
+  "urls": [
+   "https://uibakery.io/blog/self-hosted-project-management-software"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T034",
+  "product": "plane",
+  "claim": "As of May 2024, the team reported 100K+ Docker deploys.",
+  "urls": [
+   "https://news.ycombinator.com/item?id=40372686",
+   "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T035",
+  "product": "plane",
+  "claim": "ClickUp offers generous free unlimited users.",
+  "urls": [
+   "https://www.visioneerit.com/blog/monday-com-vs-asana-vs-clickup-vs-jira-2026"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T036",
+  "product": "shortcut",
+  "claim": "Jira's paid plans start at $7.75/user/mo (Standard).",
+  "urls": [
+   "https://www.saaspricepulse.com/tools/shortcut"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T037",
+  "product": "shortcut",
+  "claim": "Jira offers complex workflow transitions.",
+  "urls": [
+   "https://www.ideaplan.io/compare/jira-vs-linear-vs-asana",
+   "https://atono.io/blog/most-popular-jira-alternatives-compared"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T038",
+  "product": "shortcut",
+  "claim": "One Principal Software Engineer called it a \u201csolid, customizable, cost-effective choice\u201d.",
+  "urls": [
+   "https://www.gartner.com/reviews/product/shortcut"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T039",
+  "product": "shortcut",
+  "claim": "The Team tier costs $8.50 per user/month when billed annually.",
+  "urls": [
+   "https://www.shortcut.com/faq"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T040",
+  "product": "shortcut",
+  "claim": "Notion has a Free Tier of Individuals.",
+  "urls": [
+   "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+  ],
+  "split": "val",
+  "excluded": "Notion is not a PM tool (out of scope)"
+ },
+ {
+  "id": "T041",
+  "product": "shortcut",
+  "claim": "Shortcut offers a Business tier.",
+  "urls": [
+   "https://www.shortcut.com/faq"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T042",
+  "product": "shortcut",
+  "claim": "Positive themes include dependable story/epic workflows.",
+  "urls": [
+   "https://www.rfp.wiki/project-management/collaborative-work-management/shortcut-software/linear"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T043",
+  "product": "shortcut",
+  "claim": "The Team tier adds access to all integrations.",
+  "urls": [
+   "https://www.shortcut.com/faq"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T044",
+  "product": "shortcut",
+  "claim": "The Business tier includes advanced reporting.",
+  "urls": [
+   "https://www.shortcut.com/faq"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T045",
+  "product": "shortcut",
+  "claim": "The Business tier includes unlimited everything.",
+  "urls": [
+   "https://www.shortcut.com/faq"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T046",
+  "product": "shortcut",
+  "claim": "Linear does not serve marketing or sales well.",
+  "urls": [
+   "https://efficient.app/compare/linear-vs-shortcut",
+   "https://cotera.co/articles/linear-vs-asana-comparison"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T047",
+  "product": "clickup",
+  "claim": "A semi-hidden Business Plus tier at $19 per user per month annually still exists through partners.",
+  "urls": [
+   "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T048",
+  "product": "clickup",
+  "claim": "ClickUp holds a 3.6/5 on Trustpilot.",
+  "urls": [
+   "https://checkthat.ai/brands/clickup/reviews"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T049",
+  "product": "clickup",
+  "claim": "ClickUp offers built-in chat.",
+  "urls": [
+   "https://www.wrike.com/blog/clickup-vs-monday",
+   "https://till-freitag.com/en/blog/best-project-management-tools"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T050",
+  "product": "clickup",
+  "claim": "Enterprise adds HIPAA compliance.",
+  "urls": [
+   "https://get-alfred.ai/blog/is-clickup-worth-it"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T051",
+  "product": "clickup",
+  "claim": "Monday.com paid plans start around $19\u2013$24 per seat per month (Pro).",
+  "urls": [
+   "https://www.rock.so/blog/clickup-vs-monday",
+   "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup",
+   "https://clickup.com/blog/monday-vs-asana-vs-clickup-small-business-pricing"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T052",
+  "product": "clickup",
+  "claim": "Notion Business is $20 per user per month.",
+  "urls": [
+   "https://www.rock.so/blog/notion-vs-clickup"
+  ],
+  "split": "val",
+  "excluded": "Notion is not a PM tool (out of scope)"
+ },
+ {
+  "id": "T053",
+  "product": "clickup",
+  "claim": "Business includes workload management.",
+  "urls": [
+   "https://www.zenpilot.com/blog/clickup-vs-monday"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T054",
+  "product": "clickup",
+  "claim": "Asana\u2019s Advanced tier runs $24.99 to $30.49 per user per month.",
+  "urls": [
+   "https://till-freitag.com/en/blog/best-project-management-tools",
+   "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T055",
+  "product": "clickup",
+  "claim": "Enterprise adds SAML SSO.",
+  "urls": [
+   "https://get-alfred.ai/blog/is-clickup-worth-it"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T056",
+  "product": "clickup",
+  "claim": "Unlimited adds native time tracking.",
+  "urls": [
+   "https://get-alfred.ai/blog/is-clickup-worth-it",
+   "https://www.zenpilot.com/blog/clickup-vs-monday"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T057",
+  "product": "clickup",
+  "claim": "AI is not included.",
+  "urls": [
+   "https://get-alfred.ai/blog/is-clickup-worth-it",
+   "https://clickup.com/learn/topic/project-management/tools/clickup/news"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T058",
+  "product": "clickup",
+  "claim": "Unlimited is $10 monthly.",
+  "urls": [
+   "https://get-alfred.ai/blog/is-clickup-worth-it",
+   "https://www.zenpilot.com/blog/clickup-vs-monday"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T059",
+  "product": "asana",
+  "claim": "Asana Starter plan adds Timeline/Gantt.",
+  "urls": [
+   "https://tech.co/project-management-software/asana-pricing",
+   "https://www.saasworthy.com/blog/asana-pricing-plans"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T060",
+  "product": "asana",
+  "claim": "Some competitors include 24/7 support earlier than Asana.",
+  "urls": [
+   "https://www.smartsuite.com/blog/asana-review"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T061",
+  "product": "asana",
+  "claim": "Asana Advanced plan is priced at $30.49 monthly.",
+  "urls": [
+   "https://tech.co/project-management-software/asana-pricing",
+   "https://www.proofhub.com/articles/asana-project-management"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T062",
+  "product": "asana",
+  "claim": "Notion acts primarily as a connected wiki/workspace rather than a dedicated PM tool.",
+  "urls": [
+   "https://till-freitag.com/en/blog/best-project-management-tools"
+  ],
+  "split": "tune",
+  "excluded": "Notion is not a PM tool (out of scope)"
+ },
+ {
+  "id": "T063",
+  "product": "asana",
+  "claim": "Asana generated $652.5 million in FY2024 (ended Jan 31, 2024).",
+  "urls": [
+   "https://umbrex.com/resources/company-profiles/asana",
+   "https://tech-insider.org/asana-vs-monday-2026"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T064",
+  "product": "asana",
+  "claim": "On G2, monday.com currently scores higher than Asana on quality of support (8.9 vs. 8.5).",
+  "urls": [
+   "https://monday.com/blog/project-management/asana-vs-monday-com-which-to-choose"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T065",
+  "product": "asana",
+  "claim": "Users praise strong goal alignment.",
+  "urls": [
+   "https://www.proofhub.com/articles/asana-project-management"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T066",
+  "product": "asana",
+  "claim": "Asana previously offered up to 15 users on older plans.",
+  "urls": [
+   "https://tech-insider.org/asana-vs-monday-2026"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T067",
+  "product": "asana",
+  "claim": "Some reviewers note practical minimums apply to Asana Starter.",
+  "urls": [
+   "https://tech.co/project-management-software/asana-pricing",
+   "https://www.saasworthy.com/blog/asana-pricing-plans"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T068",
+  "product": "asana",
+  "claim": "Features that differentiate Asana\u2014portfolios, workload management, advanced proofing\u2014are locked behind the $24.99 Advanced plan.",
+  "urls": [
+   "https://www.proofhub.com/articles/asana-project-management"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T069",
+  "product": "asana",
+  "claim": "Asana Starter plan adds AI Studio.",
+  "urls": [
+   "https://tech.co/project-management-software/asana-pricing",
+   "https://www.saasworthy.com/blog/asana-pricing-plans"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T070",
+  "product": "asana",
+  "claim": "Asana AI includes anomaly detection.",
+  "urls": [
+   "https://vendorbenchmark.com/vendors/asana-pricing"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T071",
+  "product": "trello",
+  "claim": "Trello's Enterprise plan includes SSO, Atlassian Guard, and org-wide permissions.",
+  "urls": [
+   "https://plaky.com/learn/plaky/trello-pricing"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T072",
+  "product": "trello",
+  "claim": "The monthly price of Trello's Standard plan is $5/user with annual billing.",
+  "urls": [
+   "https://www.chanty.com/blog/trello-pricing"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T073",
+  "product": "trello",
+  "claim": "Trello has a Software Advice rating of 4.5/5 based on 13,872 reviews.",
+  "urls": [
+   "https://www.ocmsolution.com/trello-review"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T074",
+  "product": "trello",
+  "claim": "ClickUp has integrated time tracking.",
+  "urls": [
+   "https://blogverdict.com/blog/trello-vs-asana-vs-clickup-best-project-tool-compared"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T075",
+  "product": "trello",
+  "claim": "ClickUp can suffer from performance issues.",
+  "urls": [
+   "https://blogverdict.com/blog/trello-vs-asana-vs-clickup-best-project-tool-compared"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T076",
+  "product": "trello",
+  "claim": "ClickUp can suffer from feature clutter.",
+  "urls": [
+   "https://blogverdict.com/blog/trello-vs-asana-vs-clickup-best-project-tool-compared"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T077",
+  "product": "trello",
+  "claim": "Trello's Free plan includes unlimited cards.",
+  "urls": [
+   "https://www.spendflo.com/blog/trello-pricing-plans-costs-and-getting-the-best-deal"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T078",
+  "product": "trello",
+  "claim": "Trello's Premium plan adds Atlassian Intelligence (AI).",
+  "urls": [
+   "https://www.forbes.com/advisor/business/software/trello-pricing"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T079",
+  "product": "trello",
+  "claim": "Monday.com has a 3-user minimum.",
+  "urls": [
+   "https://plaky.com/learn/plaky/trello-pricing"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T080",
+  "product": "trello",
+  "claim": "Asana starts at $10.99/user/month.",
+  "urls": [
+   "https://blogverdict.com/blog/trello-vs-asana-vs-clickup-best-project-tool-compared"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T081",
+  "product": "trello",
+  "claim": "Asana offers task dependencies, milestones, and multiple views (List, Board, Timeline, Calendar, Gantt).",
+  "urls": [
+   "https://hevodata.com/learn/asana-vs-trello-vs-monday"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T082",
+  "product": "trello",
+  "claim": "Asana has a free plan available.",
+  "urls": [
+   "https://blogverdict.com/blog/trello-vs-asana-vs-clickup-best-project-tool-compared"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T083",
+  "product": "youtrack",
+  "claim": "YouTrack offers a query language",
+  "urls": [
+   "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T084",
+  "product": "youtrack",
+  "claim": "The Team plan adds automation rules",
+  "urls": [
+   "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+   "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T085",
+  "product": "youtrack",
+  "claim": "YouTrack offers custom issue types",
+  "urls": [
+   "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T086",
+  "product": "youtrack",
+  "claim": "YouTrack offers JavaScript workflow rules",
+  "urls": [
+   "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T087",
+  "product": "youtrack",
+  "claim": "The Free plan is Free for Cloud",
+  "urls": [
+   "https://www.jetbrains.com/youtrack/buy"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T088",
+  "product": "youtrack",
+  "claim": "GitHub Issues is thin on custom states compared to dedicated trackers",
+  "urls": [
+   "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024",
+   "https://klavity.in/blog/jira-vs-linear-vs-github-issues-bug-tracker"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T089",
+  "product": "youtrack",
+  "claim": "The Team plan Cloud Price is $5.40 if billed monthly",
+  "urls": [
+   "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+   "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T090",
+  "product": "youtrack",
+  "claim": "The Team plan Cloud price is ~$2.81 at 1,000 users",
+  "urls": [
+   "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+   "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T091",
+  "product": "youtrack",
+  "claim": "The annual entry point moved to $4.50/user/month (from a previous lower rate)",
+  "urls": [
+   "https://sales.jetbrains.com/hc/en-gb/articles/28382529526162-Changes-to-YouTrack-Server-subscriptions-prices"
+  ],
+  "split": "val"
+ },
+ {
+  "id": "T092",
+  "product": "youtrack",
+  "claim": "The Team plan Cloud Price is $4.50/user/month billed annually",
+  "urls": [
+   "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+   "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+  ],
+  "split": "tune"
+ },
+ {
+  "id": "T093",
+  "product": "youtrack",
+  "claim": "Jira starts at roughly $7.00\u2013$7.91/user/month for the Standard cloud plan",
+  "urls": [
+   "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024",
+   "https://automaiva.com/linear-vs-jira-vs-github-issues-saas-2026"
+  ],
+  "split": "test"
+ },
+ {
+  "id": "T094",
+  "product": "youtrack",
+  "claim": "The Team plan Cloud price drops with volume",
+  "urls": [
+   "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+   "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+  ],
+  "split": "val"
+ }
+]

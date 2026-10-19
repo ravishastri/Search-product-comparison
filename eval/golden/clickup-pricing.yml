@@ -1,0 +1,644 @@
+- generic [active] [ref=f3043e1]:
+  - generic [ref=f3043e5]:
+    - navigation [ref=f3043e6]:
+      - generic [ref=f3043e8]:
+        - generic [ref=f3043e9]:
+          - link "ClickUp Home" [ref=f3043e10] [cursor=pointer]:
+            - /url: /
+            - img "ClickUp" [ref=f3043e11]
+          - generic [ref=f3043e15]:
+            - button "Brain AI" [ref=f3043e16] [cursor=pointer]
+            - button "Product" [ref=f3043e21] [cursor=pointer]
+            - button "Solutions" [ref=f3043e26] [cursor=pointer]
+            - button "Learn" [ref=f3043e31] [cursor=pointer]
+            - link "Pricing" [ref=f3043e36] [cursor=pointer]:
+              - /url: /pricing
+            - link "Enterprise" [ref=f3043e37] [cursor=pointer]:
+              - /url: /plans/enterprise
+        - generic [ref=f3043e38]:
+          - button "Get a Demo" [ref=f3043e39] [cursor=pointer]
+          - link "Login" [ref=f3043e41] [cursor=pointer]:
+            - /url: https://app.clickup.com/login
+          - button "Sign Up" [ref=f3043e42] [cursor=pointer]
+    - main [ref=f3043e44]:
+      - generic [ref=f3043e45]:
+        - generic [ref=f3043e46]:
+          - heading "The best work solution, for the best price." [level=1] [ref=f3043e51]
+          - generic [ref=f3043e54]:
+            - paragraph [ref=f3043e58]: 100% Money-back Guarantee
+            - generic [ref=f3043e59]:
+              - paragraph [ref=f3043e60]: Save up to 33% with yearly
+              - generic [ref=f3043e61]:
+                - button "Monthly" [ref=f3043e62] [cursor=pointer]
+                - button "Yearly" [ref=f3043e63] [cursor=pointer]
+          - generic [ref=f3043e66]:
+            - generic [ref=f3043e67]:
+              - generic [ref=f3043e68]:
+                - generic [ref=f3043e69]:
+                  - heading "free forever" [level=3] [ref=f3043e71]
+                  - generic [ref=f3043e72]:
+                    - generic:
+                      - generic [aria-hidden] [ref=f3043e73]:
+                        - generic [ref=f3043e74]: "free forever yearly price:"
+                        - text: Free
+                        - generic [ref=f3043e75]: Per user/month, billed yearly
+                      - generic [aria-hidden] [ref=f3043e76]:
+                        - generic [ref=f3043e77]: "free forever monthly price:"
+                        - text: Free
+                        - generic [ref=f3043e78]: Per user/month, billed monthly
+                - button "Get Started" [ref=f3043e81]
+              - generic [ref=f3043e83]:
+                - paragraph [ref=f3043e85]: "Key Features:"
+                - generic [ref=f3043e86]:
+                  - generic [ref=f3043e87]: 60MB Storage
+                  - generic [ref=f3043e91]: Unlimited Tasks
+                  - generic [ref=f3043e95]: Unlimited Free Plan Members
+                  - generic [ref=f3043e99]: Two-Factor Authentication
+                  - generic [ref=f3043e103]: Collaborative Docs
+                  - generic [ref=f3043e107]: Kanban Boards
+                  - generic [ref=f3043e111]: Sprint Management
+                  - generic [ref=f3043e115]: Calendar View
+                  - generic [ref=f3043e119]: Basic Custom Field Manager
+                  - generic [ref=f3043e123]: In-App Video Recording
+                  - generic [ref=f3043e127]: 24/7 Support
+                  - generic [ref=f3043e131]: 1 Form
+            - generic [ref=f3043e135]:
+              - generic [ref=f3043e136]:
+                - generic [ref=f3043e137]:
+                  - heading "unlimited" [level=3] [ref=f3043e139]
+                  - generic [ref=f3043e141]:
+                    - generic [ref=f3043e142]:
+                      - generic [ref=f3043e143]: "unlimited yearly price:"
+                      - text: $7
+                      - generic [ref=f3043e144]: Per user/month, billed yearly
+                    - generic [aria-hidden] [ref=f3043e145]:
+                      - generic [ref=f3043e146]: "unlimited monthly price:"
+                      - text: $10
+                      - generic [ref=f3043e147]: Per user/month, billed monthly
+                - button "Get started" [ref=f3043e150]
+              - generic [ref=f3043e152]:
+                - paragraph [ref=f3043e154]: "Everything in Free Forever, plus:"
+                - generic [ref=f3043e155]:
+                  - generic [ref=f3043e156]: Unlimited Spaces, Folders, and Forms
+                  - generic [ref=f3043e160]: Unlimited Gantt Charts
+                  - generic [ref=f3043e164]: Unlimited Integrations
+                  - generic [ref=f3043e168]: Unlimited Storage
+                  - generic [ref=f3043e172]: Unlimited Custom Fields
+                  - generic [ref=f3043e176]: Native Time Tracking
+                  - generic [ref=f3043e180]: Goals & Portfolio Management
+                  - generic [ref=f3043e184]: Guests With Permission Control
+                  - generic [ref=f3043e188]: Resource Management
+                  - generic [ref=f3043e192]: ClickUp Chat
+                  - generic [ref=f3043e196]: Email in ClickUp
+                  - generic [ref=f3043e200]: Integrations like Slack, Hubspot, Google Drive, and more
+                  - generic [ref=f3043e204]: and much more...
+            - generic [ref=f3043e205]:
+              - generic [ref=f3043e206]:
+                - generic [ref=f3043e207]:
+                  - generic [ref=f3043e208]:
+                    - heading "business" [level=3] [ref=f3043e209]
+                    - generic [ref=f3043e210]: Popular
+                  - generic [ref=f3043e213]:
+                    - generic [ref=f3043e214]:
+                      - generic [ref=f3043e215]: "business yearly price:"
+                      - text: $12
+                      - generic [ref=f3043e216]: Per user/month, billed yearly
+                    - generic [aria-hidden] [ref=f3043e217]:
+                      - generic [ref=f3043e218]: "business monthly price:"
+                      - text: $19
+                      - generic [ref=f3043e219]: Per user/month, billed monthly
+                - button "Get started" [ref=f3043e222]
+              - generic [ref=f3043e224]:
+                - paragraph [ref=f3043e226]: "Everything in Unlimited, plus:"
+                - generic [ref=f3043e227]:
+                  - generic [ref=f3043e228]: Unlimited Dashboards with Advanced Cards
+                  - generic [ref=f3043e233]: Unlimited Message History
+                  - generic [ref=f3043e238]: Unlimited Activity Views
+                  - generic [ref=f3043e243]: Unlimited Timeline Views
+                  - generic [ref=f3043e248]: Webhooks & Automation Integrations
+                  - generic [ref=f3043e257]:
+                    - text: 5K Automations Per Month
+                    - generic [ref=f3043e258]: $100 in value
+                  - generic [ref=f3043e259]: Mind Mapping
+                  - generic [ref=f3043e264]: Private Whiteboards
+                  - generic [ref=f3043e269]: Custom Exporting
+                  - generic [ref=f3043e274]: Sprint Points & Reporting
+                  - generic [ref=f3043e279]: Portfolio Workload Management
+                  - generic [ref=f3043e284]: Google SSO
+                  - generic [ref=f3043e289]: SMS 2-Factor Authentication
+                  - generic [ref=f3043e294]: Unlimited Proofing
+                  - generic [ref=f3043e299]: and much more...
+            - generic [ref=f3043e300]:
+              - generic [ref=f3043e301]:
+                - generic [ref=f3043e302]:
+                  - heading "enterprise" [level=3] [ref=f3043e304]
+                  - paragraph [ref=f3043e308]: Get a custom demo
+                - button "Contact sales" [ref=f3043e311]
+              - generic [ref=f3043e313]:
+                - paragraph [ref=f3043e315]: "Everything in Business, plus:"
+                - generic [ref=f3043e316]:
+                  - generic [ref=f3043e317]: Enterprise Permissions and Governance
+                  - generic [ref=f3043e321]: Unlimited Custom Roles
+                  - generic [ref=f3043e325]: SAML SSO & SCIM Provisioning
+                  - generic [ref=f3043e329]: Audit Log
+                  - generic [ref=f3043e333]: Session Management
+                  - generic [ref=f3043e337]: Enterprise API
+                  - generic [ref=f3043e344]:
+                    - text: 250K Automations Per Month
+                    - generic [ref=f3043e345]: $750 in value
+                  - generic [ref=f3043e346]: Custom Branding
+                  - generic [ref=f3043e350]: Default Personal Views
+                  - generic [ref=f3043e354]: MSA & HIPAA Available
+                  - generic [ref=f3043e358]: Data Residency
+                  - generic [ref=f3043e362]: Enterprise-Scale Automations & Integrations
+                  - generic [ref=f3043e366]: Enterprise-Scale API Usage
+                  - generic [ref=f3043e370]: Live Onboarding Training
+                  - generic [ref=f3043e374]: Customer Success Manager
+                  - generic [ref=f3043e378]: Access to Managed Services
+                  - generic [ref=f3043e382]: and much more...
+          - generic [ref=f3043e385]:
+            - generic [ref=f3043e386]: TRUSTED BY THE BEST
+            - list [ref=f3043e387]:
+              - listitem [ref=f3043e388]
+              - listitem [ref=f3043e411]
+              - listitem [ref=f3043e424]
+              - listitem [ref=f3043e452]
+              - listitem [ref=f3043e463]
+              - listitem [ref=f3043e488]
+        - generic [ref=f3043e510]:
+          - button "Complete feature list" [ref=f3043e513] [cursor=pointer]
+          - generic [ref=f3043e518]:
+            - generic [ref=f3043e520]:
+              - generic [ref=f3043e521]: "["
+              - generic [ref=f3043e522]: AI PRICING
+              - generic [ref=f3043e523]: "]"
+            - heading "The world's most advanced AI for work" [level=2] [ref=f3043e526]
+            - generic [ref=f3043e527]:
+              - paragraph [ref=f3043e528]: Save up to 20% with yearly
+              - generic [ref=f3043e530]:
+                - button "Monthly" [ref=f3043e531] [cursor=pointer]
+                - button "Yearly" [ref=f3043e532] [cursor=pointer]
+            - generic [ref=f3043e533]:
+              - generic [ref=f3043e534]:
+                - generic [ref=f3043e535]:
+                  - generic [ref=f3043e536]:
+                    - generic [ref=f3043e537]:
+                      - heading "Free Forever" [level=3] [ref=f3043e539]
+                      - generic [ref=f3043e540]: Free
+                      - paragraph [ref=f3043e542]: Per user/month
+                    - button "Get started" [ref=f3043e544] [cursor=pointer]
+                  - generic [ref=f3043e547]:
+                    - heading "START USING AI" [level=4] [ref=f3043e548]
+                    - list [ref=f3043e549]:
+                      - listitem [ref=f3043e550]:
+                        - generic [ref=f3043e554]: Try AI across chat, tasks and docs
+                      - listitem [ref=f3043e556]:
+                        - generic [ref=f3043e560]: Trial access to advanced AI features
+                      - listitem [ref=f3043e562]:
+                        - generic [ref=f3043e566]: Upgrade at any time
+                - generic [ref=f3043e568]:
+                  - generic [ref=f3043e569]:
+                    - generic [ref=f3043e570]:
+                      - heading "Brain AI" [level=3] [ref=f3043e572]
+                      - generic [ref=f3043e573]: $9
+                      - paragraph [ref=f3043e575]: Per user/month
+                    - button "Get started" [ref=f3043e577] [cursor=pointer]
+                    - button "Why Brain AI" [ref=f3043e580] [cursor=pointer]
+                  - generic [ref=f3043e585]:
+                    - heading "HIGHLIGHTS" [level=4] [ref=f3043e586]
+                    - list [ref=f3043e587]:
+                      - listitem [ref=f3043e588]:
+                        - generic [ref=f3043e592]: Unlimited Brain Assistant
+                      - listitem [ref=f3043e594]:
+                        - generic [ref=f3043e598]: Unlimited @Brain Agent
+                      - listitem [ref=f3043e600]:
+                        - generic [ref=f3043e604]:
+                          - generic [ref=f3043e605]: Unlimited AI chat
+                          - generic [ref=f3043e606]: Claude, ChatGPT, Gemini
+                      - listitem [ref=f3043e607]:
+                        - generic [ref=f3043e611]: Expanded use of Premium AI Models
+                      - listitem [ref=f3043e613]:
+                        - generic [ref=f3043e617]: Unlimited AI writing
+                      - listitem [ref=f3043e619]:
+                        - generic [ref=f3043e623]:
+                          - generic [ref=f3043e624]: Enterprise Search
+                          - generic [ref=f3043e625]: Workspace
+                  - generic [ref=f3043e627]:
+                    - paragraph [ref=f3043e628]: +1,500 AI Super Credits
+                    - paragraph [ref=f3043e629]: user / mo for Agents, Automations, & more
+                - generic [ref=f3043e630]:
+                  - generic [ref=f3043e631]:
+                    - generic [ref=f3043e632]:
+                      - generic [ref=f3043e633]:
+                        - heading "Everything AI" [level=3] [ref=f3043e634]
+                        - generic [ref=f3043e635]: RECOMMENDED
+                      - generic [ref=f3043e636]: $28
+                      - paragraph [ref=f3043e638]: Per user/month
+                    - button "Get started" [ref=f3043e640] [cursor=pointer]
+                    - button "Why Everything AI" [ref=f3043e643] [cursor=pointer]
+                  - generic [ref=f3043e648]:
+                    - heading "BEST FOR FULL AGENTIC SUITE" [level=4] [ref=f3043e649]
+                    - list [ref=f3043e650]:
+                      - listitem [ref=f3043e651]:
+                        - generic [ref=f3043e655]: Unlimited Ambient Answers
+                      - listitem [ref=f3043e657]:
+                        - generic [ref=f3043e661]: Unlimited AI Notetaker
+                      - listitem [ref=f3043e663]:
+                        - generic [ref=f3043e667]: Unlimited Image Generation *
+                      - listitem [ref=f3043e669]:
+                        - generic [ref=f3043e673]: Unlimited AI Fields
+                      - listitem [ref=f3043e675]:
+                        - generic [ref=f3043e679]: Unlimited AI Automations & Dashboards
+                      - listitem [ref=f3043e681]:
+                        - generic [ref=f3043e685]: Unlimited AI Assign & Prioritize
+                      - listitem [ref=f3043e687]:
+                        - generic [ref=f3043e691]: 3X more usage of Super Agents
+                      - listitem [ref=f3043e693]:
+                        - generic [ref=f3043e697]:
+                          - generic [ref=f3043e698]: Enterprise Search
+                          - generic [ref=f3043e699]: Private & Workspace
+                  - generic [ref=f3043e701]:
+                    - paragraph [ref=f3043e702]: +5,000 AI Super Credits
+                    - paragraph [ref=f3043e703]: user / mo for Super Agents
+              - generic [ref=f3043e704]:
+                - generic [ref=f3043e705]:
+                  - generic [ref=f3043e706]:
+                    - generic [ref=f3043e707]:
+                      - heading "AI Super Credits" [level=3] [ref=f3043e708]
+                      - generic [ref=f3043e709]:
+                        - generic [ref=f3043e710]: $0.001
+                        - generic [ref=f3043e711]: $10 per 10,000 credits
+                    - paragraph [ref=f3043e712]: Every AI plan includes a monthly credit allowance shared across your Workspace. Credits fuel Super Agents, AI Fields, Automations, Image Generation, and more. Usage varies by complexity. Add more anytime.
+                  - button "Get AI Super Credits" [ref=f3043e715] [cursor=pointer]
+                - generic [ref=f3043e719]:
+                  - generic [ref=f3043e720]:
+                    - heading "ClickUp Certified Agents" [level=3] [ref=f3043e721]
+                    - paragraph [ref=f3043e722]: Built, tested, and verified by ClickUp's AI experts. The only agents that power complex workflows, with complete context across your tools and teams.
+                  - button "Book a demo" [ref=f3043e725] [cursor=pointer]
+            - paragraph [ref=f3043e729]:
+              - text: "* Usage subject to our"
+              - link "fair use policy" [ref=f3043e730] [cursor=pointer]:
+                - /url: /terms/ai?_gl=1*1qaftp5*_gcl_au*NTgwNDI2MzMyLjE3Nzg1OTg2MTY.
+          - generic [ref=f3043e732]:
+            - generic [ref=f3043e733]:
+              - generic [ref=f3043e734]: Super Fair Billing policy
+              - heading "When we optimize, you save $" [level=2] [ref=f3043e735]
+              - paragraph [ref=f3043e736]: When our teams save on AI costs, we pass them on to you. When sudden increases in AI costs occur, we subsidize the cost. If AI providers raise rates, we'll adjust pricing gradually and transparently, while continuing to optimize wherever possible.
+            - img "SuperAgent price per credit - $0.01" [ref=f3043e738]
+          - generic [ref=f3043e742]:
+            - generic [ref=f3043e743]:
+              - generic [ref=f3043e744]:
+                - generic [ref=f3043e745]: CLICKUP ASSIST
+                - generic [ref=f3043e747]:
+                  - heading "Live training and support for AI" [level=2] [ref=f3043e748]
+                  - paragraph [ref=f3043e749]: Personalized expert guidance for setup and success.
+              - list [ref=f3043e751]:
+                - listitem [ref=f3043e752]:
+                  - generic [ref=f3043e756]: 2 hours of 1:1 expert time/month
+                - listitem [ref=f3043e757]:
+                  - generic [ref=f3043e761]: Guidance on setting up AI agents
+              - generic [ref=f3043e762]:
+                - link "Get started" [ref=f3043e764] [cursor=pointer]:
+                  - /url: https://app.clickup.com/settings/billing?offer=ca
+                - link "Learn more" [ref=f3043e767] [cursor=pointer]:
+                  - /url: /professional-services#2W6ETwhoAgTSBSlNROdkce
+            - img "ClickUp Assist - Live training session" [ref=f3043e770]
+          - article [ref=f3043e772]:
+            - generic [ref=f3043e775]:
+              - generic [ref=f3043e778]:
+                - generic [ref=f3043e780]:
+                  - generic [ref=f3043e781]: "["
+                  - generic [ref=f3043e782]: Save with ClickUp
+                  - generic [ref=f3043e783]: "]"
+                - heading "Save time. Save money. Kill busy work." [level=2] [ref=f3043e787]
+              - generic [ref=f3043e788]:
+                - generic [ref=f3043e791]:
+                  - generic [ref=f3043e792]:
+                    - heading "Select the apps you use today" [level=4] [ref=f3043e794]
+                    - generic [ref=f3043e795]:
+                      - button "Slack @ $15 / user" [pressed] [ref=f3043e796] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Slack · $15 / user
+                      - button "Microsoft Teams @ $4 / user" [ref=f3043e803] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Microsoft Teams · $4 / user
+                      - button "Notion @ $20 / user" [pressed] [ref=f3043e810] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Notion · $20 / user
+                      - button "Atlassian (Jira + Confluence) @ $13.33 / user" [pressed] [ref=f3043e817] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Atlassian (Jira + Confluence) · $13.33 / user
+                      - button "Loom @ $19.92 / user" [ref=f3043e827] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Loom · $19.92 / user
+                      - button "Asana @ $10.99 / user" [ref=f3043e834] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Asana · $10.99 / user
+                      - button "monday.com @ $9 / user" [ref=f3043e841] [cursor=pointer]:
+                        - tooltip [aria-hidden]: monday.com · $9 / user
+                      - button "Trello @ $10 / user" [ref=f3043e848] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Trello · $10 / user
+                      - button "Smartsheet @ $9 / user" [ref=f3043e855] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Smartsheet · $9 / user
+                      - button "Airtable @ $20 / user" [ref=f3043e862] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Airtable · $20 / user
+                      - button "Linear @ $10 / user" [ref=f3043e869] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Linear · $10 / user
+                      - button "Miro @ $8 / user" [ref=f3043e876] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Miro · $8 / user
+                      - button "Clockify @ $3.99 / user" [ref=f3043e883] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Clockify · $3.99 / user
+                      - button "ChatGPT @ $20 / user" [pressed] [ref=f3043e890] [cursor=pointer]:
+                        - tooltip [aria-hidden]: ChatGPT · $20 / user
+                      - button "Claude @ $20 / user" [ref=f3043e897] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Claude · $20 / user
+                      - button "Salesforce @ $25 / user" [ref=f3043e907] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Salesforce · $25 / user
+                      - button "HubSpot @ $20 / user" [ref=f3043e914] [cursor=pointer]:
+                        - tooltip [aria-hidden]: HubSpot · $20 / user
+                      - button "Productboard @ $19 / user" [ref=f3043e921] [cursor=pointer]:
+                        - tooltip [aria-hidden]: Productboard · $19 / user
+                  - generic [ref=f3043e930]:
+                    - generic [ref=f3043e931]:
+                      - generic [ref=f3043e932]: People at your company
+                      - generic [ref=f3043e933]: 500 people
+                    - slider "Users" [ref=f3043e934] [cursor=pointer]: "730"
+                    - generic [ref=f3043e935]:
+                      - generic [ref=f3043e936]: Compare with
+                      - radiogroup "ClickUp plan to compare with" [ref=f3043e937]:
+                        - radio "Core $8" [ref=f3043e938] [cursor=pointer]
+                        - radio "Business $17" [checked] [ref=f3043e939] [cursor=pointer]
+                - generic [ref=f3043e943]:
+                  - generic [ref=f3043e945]:
+                    - heading "Apps to replace" [level=4] [ref=f3043e947]
+                    - list [ref=f3043e949]:
+                      - listitem [ref=f3043e950]:
+                        - generic [ref=f3043e951]: Slack
+                        - generic [ref=f3043e952]: $15 / user
+                      - listitem [ref=f3043e953]:
+                        - generic [ref=f3043e954]: Notion
+                        - generic [ref=f3043e955]: $20 / user
+                      - listitem [ref=f3043e956]:
+                        - generic [ref=f3043e957]: ChatGPT
+                        - generic [ref=f3043e958]: $20 / user
+                      - listitem [ref=f3043e959]:
+                        - generic [ref=f3043e960]: Atlassian (Jira + Confluence)
+                        - generic [ref=f3043e961]: $13.33 / user
+                    - generic [ref=f3043e962]:
+                      - generic [ref=f3043e963]: Total
+                      - generic [ref=f3043e964]: $409,980 /year
+                    - paragraph [ref=f3043e1225]: ClickUp Business for 500 users = $102,000 / year
+                  - generic [ref=f3043e968]:
+                    - generic [ref=f3043e970]:
+                      - heading "Cost savings $307,980" [level=3] [ref=f3043e971]:
+                        - generic [ref=f3043e972]: Cost savings
+                        - generic [ref=f3043e973]: $307,980
+                      - paragraph [ref=f3043e1226]: ClickUp can save a 500 person company $307,980 per year compared to the non-enterprise price of your apps.
+                    - generic [ref=f3043e977]:
+                      - button "Get a quote" [ref=f3043e979] [cursor=pointer]
+                      - button "Start for free today" [ref=f3043e983] [cursor=pointer]
+          - generic [ref=f3043e986]:
+            - generic [ref=f3043e987]:
+              - generic [ref=f3043e989]:
+                - heading "Frequently asked questions" [level=2] [ref=f3043e990]
+                - paragraph [ref=f3043e991]:
+                  - text: Find answers to your questions right here, and don't hesitate to
+                  - link "Contact us" [ref=f3043e992] [cursor=pointer]:
+                    - /url: https://help.clickup.com/hc/en-us
+                  - text: if you couldn't find what you're looking for.
+              - button "Contact us" [ref=f3043e994]:
+                - strong [ref=f3043e995]:
+                  - generic [ref=f3043e996]: Contact us
+            - generic [ref=f3043e999]:
+              - generic [ref=f3043e1000]:
+                - generic [ref=f3043e1001]:
+                  - button "Can I upgrade myself or do I have to upgrade my entire Workspace?" [expanded] [ref=f3043e1002] [cursor=pointer]
+                  - paragraph [ref=f3043e1008]: To upgrade ClickUp, you'll need to upgrade your entire Workspace, which means all members in your Workspace.
+                - button "What payment methods do you accept?" [ref=f3043e1010] [cursor=pointer]
+                - button "What is your refund policy?" [ref=f3043e1015] [cursor=pointer]
+                - button "How am I billed when I add paid users to a Workspace?" [ref=f3043e1020] [cursor=pointer]
+                - button "What if I have multiple Workspaces?" [ref=f3043e1025] [cursor=pointer]
+                - button "What happens if I cancel?" [ref=f3043e1030] [cursor=pointer]
+              - button "Load more FAQs" [ref=f3043e1034]:
+                - strong [ref=f3043e1035]:
+                  - generic [ref=f3043e1036]: Load more
+    - generic [ref=f3043e1040]:
+      - generic [ref=f3043e1041]:
+        - link "ClickUp Home" [ref=f3043e1043] [cursor=pointer]:
+          - /url: /
+          - img "ClickUp" [ref=f3043e1044]
+        - list [ref=f3043e1048]:
+          - listitem [ref=f3043e1049]:
+            - button "Download" [ref=f3043e1050]
+            - list [ref=f3043e1051]:
+              - listitem [ref=f3043e1052]:
+                - link "iOS & Android" [ref=f3043e1053] [cursor=pointer]:
+                  - /url: /download
+              - listitem [ref=f3043e1054]:
+                - link "Mac & Windows" [ref=f3043e1055] [cursor=pointer]:
+                  - /url: /download
+              - listitem [ref=f3043e1056]:
+                - link "Brain MAX" [ref=f3043e1057] [cursor=pointer]:
+                  - /url: /brain/max
+          - listitem [ref=f3043e1058]:
+            - button "AI" [expanded] [ref=f3043e1059]
+            - list [ref=f3043e1060]:
+              - listitem [ref=f3043e1061]:
+                - link "Brain" [ref=f3043e1062] [cursor=pointer]:
+                  - /url: /brain
+              - listitem [ref=f3043e1063]:
+                - link "Super Agents" [ref=f3043e1064] [cursor=pointer]:
+                  - /url: /brain/agents
+              - listitem [ref=f3043e1065]:
+                - link "Ambient Agents" [ref=f3043e1066] [cursor=pointer]:
+                  - /url: /brain/ambient-agents
+              - listitem [ref=f3043e1067]:
+                - link "Notetaker" [ref=f3043e1068] [cursor=pointer]:
+                  - /url: /brain/ai-notetaker
+              - listitem [ref=f3043e1069]:
+                - link "Enterprise Search" [ref=f3043e1070] [cursor=pointer]:
+                  - /url: /brain/enterprise-search
+              - listitem [ref=f3043e1071]:
+                - link "Talk to Text" [ref=f3043e1072] [cursor=pointer]:
+                  - /url: /brain/talk-to-text
+          - listitem [ref=f3043e1073]:
+            - button [ref=f3043e1074]:
+              - link "Product" [ref=f3043e1075] [cursor=pointer]:
+                - /url: /features
+            - list [ref=f3043e1076]:
+              - listitem [ref=f3043e1077]:
+                - link "Chat" [ref=f3043e1078] [cursor=pointer]:
+                  - /url: /features/chat
+              - listitem [ref=f3043e1079]:
+                - link "Projects" [ref=f3043e1080] [cursor=pointer]:
+                  - /url: /features/tasks
+              - listitem [ref=f3043e1081]:
+                - link "Docs & Wikis" [ref=f3043e1082] [cursor=pointer]:
+                  - /url: /features/docs
+              - listitem [ref=f3043e1083]:
+                - link "Calendar" [ref=f3043e1084] [cursor=pointer]:
+                  - /url: /features/calendar
+              - listitem [ref=f3043e1085]:
+                - link "Dashboards" [ref=f3043e1086] [cursor=pointer]:
+                  - /url: /features/dashboards
+              - listitem [ref=f3043e1087]:
+                - link "Time Tracking" [ref=f3043e1088] [cursor=pointer]:
+                  - /url: /features/project-time-tracking
+              - listitem [ref=f3043e1089]:
+                - link "Gantt Charts" [ref=f3043e1090] [cursor=pointer]:
+                  - /url: /features/gantt-chart-view
+              - listitem [ref=f3043e1091]:
+                - link "Automations" [ref=f3043e1092] [cursor=pointer]:
+                  - /url: /features/automations
+              - listitem [ref=f3043e1093]:
+                - link "Whiteboards" [ref=f3043e1094] [cursor=pointer]:
+                  - /url: /features/whiteboards
+              - listitem [ref=f3043e1095]:
+                - link "API" [ref=f3043e1096] [cursor=pointer]:
+                  - /url: /api/
+              - listitem [ref=f3043e1097]:
+                - link "Integrations" [ref=f3043e1098] [cursor=pointer]:
+                  - /url: /integrations/
+          - listitem [ref=f3043e1099]:
+            - button [ref=f3043e1100]:
+              - link "Compare" [ref=f3043e1101] [cursor=pointer]:
+                - /url: /compare
+            - list [ref=f3043e1102]:
+              - listitem [ref=f3043e1103]:
+                - link "vs Atlassian" [ref=f3043e1104] [cursor=pointer]:
+                  - /url: /compare/jira-vs-clickup
+              - listitem [ref=f3043e1105]:
+                - link "vs Microsoft Teams" [ref=f3043e1106] [cursor=pointer]:
+                  - /url: /compare/microsoft-teams-vs-clickup
+              - listitem [ref=f3043e1107]:
+                - link "vs Asana" [ref=f3043e1108] [cursor=pointer]:
+                  - /url: /compare/asana-vs-clickup
+              - listitem [ref=f3043e1109]:
+                - link "vs ServiceNow" [ref=f3043e1110] [cursor=pointer]:
+                  - /url: /compare/vs/servicenow-customer-service-management
+              - listitem [ref=f3043e1111]:
+                - link "vs Monday" [ref=f3043e1112] [cursor=pointer]:
+                  - /url: /compare/monday-vs-clickup
+              - listitem [ref=f3043e1113]:
+                - link "vs Slack" [ref=f3043e1114] [cursor=pointer]:
+                  - /url: /compare/slack-vs-clickup
+              - listitem [ref=f3043e1115]:
+                - link "vs Smartsheet" [ref=f3043e1116] [cursor=pointer]:
+                  - /url: /compare/smartsheet-vs-clickup
+              - listitem [ref=f3043e1117]:
+                - link "vs Wrike" [ref=f3043e1118] [cursor=pointer]:
+                  - /url: /compare/wrike-vs-clickup
+              - listitem [ref=f3043e1119]:
+                - link "vs Salesforce" [ref=f3043e1120] [cursor=pointer]:
+                  - /url: /compare/vs/salesforce-sales-cloud
+              - listitem [ref=f3043e1121]:
+                - link "vs Notion" [ref=f3043e1122] [cursor=pointer]:
+                  - /url: /compare/notion-vs-clickup
+              - listitem [ref=f3043e1123]:
+                - link "vs Airtable" [ref=f3043e1124] [cursor=pointer]:
+                  - /url: /compare/airtable-vs-clickup
+          - listitem [ref=f3043e1125]:
+            - button "Company" [ref=f3043e1126]
+            - list [ref=f3043e1127]:
+              - listitem [ref=f3043e1128]:
+                - link "About Us" [ref=f3043e1129] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f3043e1130]:
+                - link "Careers" [ref=f3043e1131] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=f3043e1132]:
+                - link "Customers" [ref=f3043e1133] [cursor=pointer]:
+                  - /url: /customers
+              - listitem [ref=f3043e1134]:
+                - link "Affiliates" [ref=f3043e1135] [cursor=pointer]:
+                  - /url: /partners/affiliates
+              - listitem [ref=f3043e1136]:
+                - link "Events" [ref=f3043e1137] [cursor=pointer]:
+                  - /url: /events
+              - listitem [ref=f3043e1138]:
+                - link "Partners" [ref=f3043e1139] [cursor=pointer]:
+                  - /url: /partners
+              - listitem [ref=f3043e1140]:
+                - link "Consultants" [ref=f3043e1141] [cursor=pointer]:
+                  - /url: /consultants
+              - listitem [ref=f3043e1142]:
+                - link "Reviews" [ref=f3043e1143] [cursor=pointer]:
+                  - /url: /reviews
+              - listitem [ref=f3043e1144]:
+                - link "Press" [ref=f3043e1145] [cursor=pointer]:
+                  - /url: /press
+              - listitem [ref=f3043e1146]:
+                - link "Brand" [ref=f3043e1147] [cursor=pointer]:
+                  - /url: /brand
+              - listitem [ref=f3043e1148]:
+                - link "Roadmap" [ref=f3043e1149] [cursor=pointer]:
+                  - /url: https://dev-doc.clickup.com/p/ad-3021/click-up-roadmap/ad-3021/%F0%9F%9A%80-click-up-roadmap
+          - listitem [ref=f3043e1152]:
+            - button "Help" [ref=f3043e1153]
+            - list [ref=f3043e1154]:
+              - listitem [ref=f3043e1155]:
+                - link "24/7 Support" [ref=f3043e1156] [cursor=pointer]:
+                  - /url: https://help.clickup.com/hc/en-us
+              - listitem [ref=f3043e1159]:
+                - link "Contact Us" [ref=f3043e1160] [cursor=pointer]:
+                  - /url: https://help.clickup.com/
+              - listitem [ref=f3043e1163]:
+                - link "Get a Demo" [ref=f3043e1164] [cursor=pointer]:
+                  - /url: /on-demand-demo
+              - listitem [ref=f3043e1165]:
+                - link "Import" [ref=f3043e1166] [cursor=pointer]:
+                  - /url: /import
+              - listitem [ref=f3043e1167]:
+                - link "Community" [ref=f3043e1168] [cursor=pointer]:
+                  - /url: /community
+              - listitem [ref=f3043e1169]:
+                - link "ClickUp University" [ref=f3043e1170] [cursor=pointer]:
+                  - /url: https://university.clickup.com/?_ga=2.213779543.2106551441.1662583868-989641782.1662077755
+              - listitem [ref=f3043e1173]:
+                - link "Webinars" [ref=f3043e1174] [cursor=pointer]:
+                  - /url: /webinars
+              - listitem [ref=f3043e1175]:
+                - link "Blog" [ref=f3043e1176] [cursor=pointer]:
+                  - /url: /blog/
+              - listitem [ref=f3043e1177]:
+                - link "Research" [ref=f3043e1178] [cursor=pointer]:
+                  - /url: /research
+        - generic [ref=f3043e1179]:
+          - generic [ref=f3043e1181]:
+            - link "Follow ClickUp on LinkedIn" [ref=f3043e1182] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/12949663
+            - link "Follow ClickUp on Facebook" [ref=f3043e1183] [cursor=pointer]:
+              - /url: https://www.facebook.com/clickupprojectmanagement/
+            - link "Follow ClickUp on Instagram" [ref=f3043e1184] [cursor=pointer]:
+              - /url: https://www.instagram.com/clickup/
+            - link "Follow ClickUp on X" [ref=f3043e1185] [cursor=pointer]:
+              - /url: https://twitter.com/clickup
+          - generic [ref=f3043e1187]:
+            - generic [ref=f3043e1189]:
+              - img "SOC 2 Certification" [ref=f3043e1190]
+              - generic [ref=f3043e1191]:
+                - generic [ref=f3043e1192]: SOC 2
+                - generic [ref=f3043e1193]: CERTIFIED
+            - generic [ref=f3043e1195]:
+              - img "ISO Certification" [ref=f3043e1196]
+              - generic [ref=f3043e1197]:
+                - generic [ref=f3043e1198]: ISO 27001
+                - generic [ref=f3043e1199]: CERTIFIED
+            - generic [ref=f3043e1201]:
+              - img "GDPR Compliance Certification" [ref=f3043e1202]
+              - generic [ref=f3043e1203]:
+                - generic [ref=f3043e1204]: GDPR
+                - generic [ref=f3043e1205]: COMPLIANT
+            - generic [ref=f3043e1207]:
+              - img "HIPAA Compliance Certification" [ref=f3043e1208]
+              - generic [ref=f3043e1209]:
+                - generic [ref=f3043e1210]: HIPAA
+                - generic [ref=f3043e1211]: COMPLIANT
+      - contentinfo [ref=f3043e1212]:
+        - generic [ref=f3043e1213]:
+          - generic [ref=f3043e1214]: © 2026 ClickUp
+          - generic [ref=f3043e1216]:
+            - link "Status" [ref=f3043e1217] [cursor=pointer]:
+              - /url: https://status.clickup.com/
+            - link "Security" [ref=f3043e1218] [cursor=pointer]:
+              - /url: /terms/security-policy
+            - link "Privacy" [ref=f3043e1219] [cursor=pointer]:
+              - /url: /terms/privacy
+            - link "Terms" [ref=f3043e1220] [cursor=pointer]:
+              - /url: /terms
+            - button "Cookie Preferences" [ref=f3043e1221] [cursor=pointer]
+  - alert [ref=f3043e1223]

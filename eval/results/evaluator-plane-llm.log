@@ -1,0 +1,25 @@
+[1/14] no_source_text: Plane provides four pricing editions that range from zero to 499 dolla
+[2/14] supported: A review states Plane uses a freemium per-seat model with a free tier 
+[3/14] supported: Plane advertises a free tier with core features alongside paid plans t
+[4/14] no_source_text: G2 identifies ClickUp, monday AI Work Platform, and Jira as top altern
+[5/14] supported: The Plane blog contrasts its platform with ClickUp by describing Plane
+[6/14] supported: The Plane blog notes that Plane embeds cycles, epics, and releases in 
+[7/14] supported: A customer case study on the Plane website describes how MinimalArt mi
+[8/14] supported: Heise Online reports that Plane is open-source project management soft
+[9/14] supported: An analysis of ClickUp alternatives characterizes Plane as free and se
+[10/14] supported: The Plane blog claims full feature parity with Jira Standard and eight
+[11/14] supported: The Plane blog also says Plane includes artificial intelligence, docum
+[12/14] supported: A review of open-source project management tools calls Plane the neare
+[13/14] supported: Heise Online notes that Plane markets itself as an open-source alterna
+[14/14] not_stated: An INNOQ review states Plane offers a clean, organized user experience
+{
+  "claims": 14,
+  "supported": 11,
+  "contradicted": 0,
+  "not_stated": 1,
+  "unverified_evidence": 0,
+  "no_source_text": 2,
+  "support_rate": 0.786,
+  "contradiction_rate": 0.0
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-plane-llm.json

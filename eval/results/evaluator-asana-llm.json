@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "claims": 19,
+    "supported": 16,
+    "contradicted": 1,
+    "not_stated": 1,
+    "unverified_evidence": 1,
+    "no_source_text": 0,
+    "support_rate": 0.842,
+    "contradiction_rate": 0.053
+  },
+  "claims": [
+    {
+      "text": "Asana offers a free Personal plan for individuals and small teams, with paid plans starting at $10.99 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": " Asana offers five pricing tiers: Personal (Free), Starter ($10.99/user/month), Advanced ($24.99/user/month), Enterprise (custom pricing), and Enterprise+ (custom pricing)."
+    },
+    {
+      "text": "Asana's Advanced plan costs $24.99 per user per month under annual billing.",
+      "verdict": "supported",
+      "evidence": "Advanced: $24.99 per user per month (billed annually)"
+    },
+    {
+      "text": "Asana paid plans can reach $30.49 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": "Asana\u2019s paid plans start from $10.99 per user per month (billed annually) and can go up to $30.49 per user per month (billed monthly)."
+    },
+    {
+      "text": "Asana provides custom pricing for its Enterprise and Enterprise+ tiers and does not publicly list those rates.",
+      "verdict": "supported",
+      "evidence": "Asana offers five pricing tiers: Personal (Free), Starter ($10.99/user/month), Advanced ($24.99/user/month), Enterprise (custom pricing), and Enterprise+ (custom pricing)."
+    },
+    {
+      "text": "Competitor Trello offers paid plans ranging from $5 to $17.50 per user per month depending on the tier.",
+      "verdict": "supported",
+      "evidence": "Trello pricing runs from $0 on the Free plan to $17.50 per user, per month on Enterprise, with Standard at $5/user/month and Trello Premium at $10/user/month (billed annually)."
+    },
+    {
+      "text": "Competitor monday.com's paid work management plans range from roughly $9 to $19 per seat per month billed annually before custom Enterprise pricing.",
+      "verdict": "supported",
+      "evidence": "monday.com pricing plans start from $9 per seat per month and go up to $19 per seat per month."
+    },
+    {
+      "text": "Competitor ClickUp's paid plans range from $7 to $19 per user per month depending on tier and billing frequency.",
+      "verdict": "contradicted",
+      "evidence": "A free plan is available, while paid plans cost $7\u2013$19 per user/month (annual billing) and $10\u2013$29 per user/month (monthly billing)."
+    },
+    {
+      "text": "Asana's pricing is generally viewed as average compared to other project management platforms.",
+      "verdict": "supported",
+      "evidence": "Asana's pricing is generally considered to be average compared to other project management platforms."
+    },
+    {
+      "text": "Asana competes with project management platforms including Trello, monday.com, ClickUp, Wrike, and Jira.",
+      "verdict": "supported",
+      "evidence": " The best Asana alternatives in 2026 are: Teamwork.com, ClickUp, monday.com, Trello, Jira, Basecamp, Wrike, Smartsheet, and ProofHub, each suited to different team sizes and project types."
+    },
+    {
+      "text": "Trello manages work on boards with cards representing tasks, while Asana organizes work into projects containing subtasks, custom fields, and status tracking.",
+      "verdict": "supported",
+      "evidence": "In Trello, work is typically managed on boards (often used as projects), with cards representing tasks that move through workflow stages. In Asana, work is organized into projects, with tasks that can include subtasks, custom fields, and status tracking from start to finish."
+    },
+    {
+      "text": "Trello is frequently positioned as best for simple projects and small teams, whereas Asana is frequently positioned as best for enterprise teams with complex needs.",
+      "verdict": "unverified_evidence",
+      "evidence": "Best for: Simple projects, small teams\nBest for: Enterprise teams with complex needs"
+    },
+    {
+      "text": "Asana and monday.com both have a strong presence in the marketing and advertising, IT services, computer software, and non-profit organization management sectors.",
+      "verdict": "supported",
+      "evidence": "mnday Work Management has a strong presence in marketing and advertising, information technology and services, computer software, construction, and non-profit organization management."
+    },
+    {
+      "text": "monday.com offers native document collaboration and digital whiteboards, while Asana provides document collaboration and whiteboarding through integrations.",
+      "verdict": "supported",
+      "evidence": "| Document collaboration | Workdocs (Native) | Integration-based (Google/MS) |\n| Digital whiteboard | WorkCanvas (Native) | Integration-based (Miro/FigJam) |"
+    },
+    {
+      "text": "Asana introduced a 2026 redesign focused on AI-first navigation with embedded AI Teammates, following monday.com's 2025 interface update that included claims of faster load times.",
+      "verdict": "supported",
+      "evidence": "Asana responded with its own 2026 redesign focused on AI-first navigation, embedding Asana AI Teammates directly into the project sidebar for contextual suggestions."
+    },
+    {
+      "text": "ClickUp offers more than 1,000 native integrations, compared with over 200 native integrations each for Asana and monday.com.",
+      "verdict": "supported",
+      "evidence": "For Asana vs. Monday vs. ClickUp integrations and automation, ClickUp leads with 1,000+ native integrations vs 200+ each for Asana and Monday."
+    },
+    {
+      "text": "Asana focuses on internal task management and team collaboration, while some competitors specialize in client work with built-in time tracking and budgeting.",
+      "verdict": "supported",
+      "evidence": "Where Asana stops at task management and collaboration, Teamwork.com tracks billable hours, compares actual spend against budget in real time, and surfaces profitability at the project level before it's too late to course-correct."
+    },
+    {
+      "text": "Asana's dollar-based net retention rate was 97% in the second quarter of fiscal 2027.",
+      "verdict": "supported",
+      "evidence": "Overall dollar-based net retention rate was 97%."
+    },
+    {
+      "text": "A 2026 review described Asana as a solid, user-friendly project management tool, highlighting its interface as a major selling point for people new to such software.",
+      "verdict": "supported",
+      "evidence": "While not quite as powerful as some competitors, its interface is a massive selling point for people new to using this type of software."
+    },
+    {
+      "text": "A G2 user review cited in a 2026 analysis indicated that Asana's reporting feature has room for improvement.",
+      "verdict": "not_stated",
+      "evidence": ""
+    }
+  ]
+}

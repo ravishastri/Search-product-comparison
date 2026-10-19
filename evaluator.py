@@ -66,6 +66,7 @@ Rules:
 - Use only facts stated in the evidence. Do not add outside knowledge.
 - Each claim must list the IDs (for example "S1") of the sources that support it.
 - Write short, specific claims. Do not predict sales or make causal claims.
+- Write every price as digits with a dollar sign, for example $10 or $5,000, never as words like "ten dollars".
 - Paraphrase every claim in your own words. Do not copy sentences from the evidence. Use no quotation marks.
 - Never combine quotes or statements from different people into one claim. Attribute each opinion to its source.
 - Dimensions: "pricing", "competitive", "reception". Skip a dimension if the evidence does not cover it.
@@ -78,6 +79,8 @@ class PlannedSearch:
     query: str
     time_range: str | None = None
     start_date: str | None = None  # YYYY-MM-DD; results dated before this are dropped
+    topic: str | None = None  # "news" returns published_date; general results often have none
+    require_date: bool = False  # drop results with no published date (for time-sensitive claims)
 
 
 @dataclass
@@ -108,9 +111,24 @@ def plan_searches(product: str, similar: list[str], today: date) -> list[Planned
     """Fixed query plan for the three dimensions. Reception covers the last 365 days only."""
     cutoff = (today - timedelta(days=365)).isoformat()
     plan = [PlannedSearch("pricing", f"{name} pricing plans") for name in [product, *similar]]
-    plan += [PlannedSearch("competitive", f"{product} vs {name} features", start_date=cutoff) for name in similar]
-    plan.append(PlannedSearch("reception", f"{product} launch reviews {today.year}", start_date=cutoff))
+    dated = {"start_date": cutoff, "topic": "news", "require_date": True}
+    plan += [PlannedSearch("competitive", f"{product} vs {name} features", **dated) for name in similar]
+    plan.append(PlannedSearch("reception", f"{product} launch reviews {today.year}", **dated))
     return plan
+
+
+def mentions_any(result: dict[str, Any], names: list[str]) -> bool:
+    """True if the result names one of the products: whole word, as capitalized (e.g. "Plane", not "plane")."""
+    text = f"{result.get('title') or ''} {result.get('content') or ''}"
+    return any(re.search(rf"(?<![A-Za-z]){re.escape(n)}(?![A-Za-z])", text) for n in names if n)
+
+
+def filter_relevant(results: list[dict[str, Any]], names: list[str]) -> tuple[list[dict[str, Any]], int]:
+    """Keep only results that name a product in scope. Returns (kept, number dropped)."""
+    if not names:
+        return results, 0
+    kept = [r for r in results if mentions_any(r, names)]
+    return kept, len(results) - len(kept)
 
 
 def add_sources(registry: list[Source], planned: PlannedSearch, results: list[dict[str, Any]]) -> list[Source]:
@@ -122,8 +140,10 @@ def add_sources(registry: list[Source], planned: PlannedSearch, results: list[di
         if not url or url in known:
             continue
         published = (result.get("published_date") or "")[:10]
+        if planned.require_date and not published:
+            continue  # time-sensitive claims need a date to check
         if planned.start_date and published and published < planned.start_date:
-            continue  # dated before the search window; undated results are kept
+            continue  # dated before the search window; undated results are kept unless require_date
         known.add(url)
         source = Source(
             id=f"S{len(registry) + 1}",
@@ -222,6 +242,53 @@ def check_claims(claims: list[Claim], valid_ids: set[str]) -> tuple[list[Claim],
     return supported, unsupported
 
 
+PRICE_RE = re.compile(r"\$\d[\d,]*(?:\.\d+)?")
+
+
+def fetch_page_text(tavily: TavilyClient, urls: list[str]) -> dict[str, str]:
+    """Full text of each URL via Tavily extract. A URL that cannot be fetched maps to ''."""
+    texts = {url: "" for url in urls}
+    for i in range(0, len(urls), 20):
+        res = tavily.extract(urls=urls[i:i + 20], extract_depth="basic", format="text")
+        for r in res.get("results", []):
+            texts[r["url"]] = r.get("raw_content") or ""
+    return texts
+
+
+def verify_prices(
+    supported: list[Claim], sources_by_id: dict[str, Source], texts: dict[str, str]
+) -> tuple[list[Claim], list[Claim], dict[str, int]]:
+    """Check each price in a pricing claim against the full text of its cited pages.
+
+    A price that is not on any cited page moves the claim to rejected. A claim whose pages
+    could not be fetched is kept and labeled, so nothing disappears without a reason.
+    """
+    kept: list[Claim] = []
+    rejected: list[Claim] = []
+    counts = {"checked": 0, "missing": 0, "unavailable": 0}
+    for claim in supported:
+        figures = [m[1:] for m in PRICE_RE.findall(claim.text)]  # drop the leading "$"
+        if claim.dimension != "pricing" or not figures:
+            kept.append(claim)
+            continue
+        counts["checked"] += 1
+        pages = [texts.get(sources_by_id[i].url, "") for i in claim.source_ids if i in sources_by_id]
+        if not any(pages):
+            counts["unavailable"] += 1
+            kept.append(Claim(claim.dimension, f"{claim.text} (price check unavailable)", claim.source_ids))
+            continue
+        combined = " ".join(pages)
+        missing = [f for f in figures if not re.search(r"(?<!\d)" + re.escape(f) + r"(?!\d)", combined)]
+        if missing:
+            counts["missing"] += 1
+            shown = ", ".join("$" + m for m in missing)
+            rejected.append(Claim(claim.dimension, f"{claim.text} (price {shown} not found on the cited page)",
+                                  claim.source_ids))
+        else:
+            kept.append(claim)
+    return kept, rejected, counts
+
+
 def render_brief(
     product: str,
     similar: list[str],
@@ -238,8 +305,14 @@ def render_brief(
         "",
     ]
     dated = {s.id: bool(s.published) for s in sources}
+    text_by_id = {s.id: s.content for s in sources}
     for dimension, title in DIMENSION_TITLES.items():
-        lines += [f"## {title}", ""]
+        # Pricing is the verified part. Other dimensions are cited but not checked against a reference yet.
+        verified = dimension == "pricing"
+        heading = title if verified else f"{title} (not yet verified)"
+        lines += [f"## {heading}", ""]
+        if not verified:
+            lines += ["These claims cite sources but have not been checked against a reference. Treat them as leads.", ""]
         items = [c for c in supported if c.dimension == dimension]
         if not items:
             lines += ["No sourced claims for this dimension.", ""]
@@ -248,6 +321,12 @@ def render_brief(
             cites = "".join(f"[{i}]" for i in claim.source_ids)
             undated = not any(dated.get(i, False) for i in claim.source_ids)
             note = " (date unknown)" if undated else ""
+            if not verified:
+                note += " (unverified)"
+            # A price in the claim must appear in the text of a cited source; otherwise flag it.
+            cited_text = " ".join(text_by_id.get(i, "") for i in claim.source_ids)
+            if any(p not in cited_text for p in re.findall(r"\$\d[\d,]*(?:\.\d+)?", claim.text)):
+                note += " (price not in cited text)"
             lines.append(f"- {claim.text} {cites}{note}")
         lines.append("")
 
@@ -290,12 +369,15 @@ def search(tavily: TavilyClient, planned: PlannedSearch) -> list[dict[str, Any]]
         kwargs["time_range"] = planned.time_range
     if planned.start_date:
         kwargs["start_date"] = planned.start_date
+    if planned.topic:
+        kwargs["topic"] = planned.topic
     get_client().update_current_span(
         name=f"tavily_search:{planned.dimension}",
         input={
             "query": planned.query,
             "time_range": planned.time_range,
             "start_date": planned.start_date,
+            "topic": planned.topic,
             "search_depth": "advanced",
         },
     )
@@ -328,6 +410,7 @@ def main(
     llm = ChatNebius(model=model, max_tokens=32768)
     sources: list[Source] = []
     errors: list[str] = []
+    off_topic = 0  # results dropped because they name none of the products in scope
 
     console.rule(f"[bold blue]Evaluating {product}")
 
@@ -335,7 +418,9 @@ def main(
     discovery = plan_discovery(product, category)
     console.print(f"Discovery: {discovery.query}")
     try:
-        add_sources(sources, discovery, search(tavily, discovery))
+        kept, dropped = filter_relevant(search(tavily, discovery), [product])
+        off_topic += dropped
+        add_sources(sources, discovery, kept)
     except Exception as exc:
         errors.append(f"discovery: {exc}")
     similar: list[str] = []
@@ -352,9 +437,11 @@ def main(
             # The discovery results often say nothing about a shutdown, so the judge needs evidence
             # about the candidate itself.
             for name in candidates:
-                status_search = PlannedSearch("status", f"{name} discontinued or shut down")
+                status_search = PlannedSearch("status", f"{name} discontinued or shut down", topic="news", require_date=True)
                 try:
-                    add_sources(sources, status_search, search(tavily, status_search))
+                    kept, dropped = filter_relevant(search(tavily, status_search), [name])
+                    off_topic += dropped
+                    add_sources(sources, status_search, kept)
                 except Exception as exc:
                     errors.append(f"status search '{name}': {exc}")
             for name in candidates:
@@ -379,7 +466,9 @@ def main(
     for planned in plan:
         console.print(f"Search [{planned.dimension}]: {planned.query}")
         try:
-            added = add_sources(sources, planned, search(tavily, planned))
+            kept, dropped = filter_relevant(search(tavily, planned), [product, *similar])
+            off_topic += dropped
+            added = add_sources(sources, planned, kept)
             console.print(f"  {len(added)} new sources")
         except Exception as exc:
             errors.append(f"{planned.dimension} '{planned.query}': {exc}")
@@ -397,6 +486,20 @@ def main(
                 errors.append(f"brief attempt {attempt + 1}: {exc}")
     supported, unsupported = check_claims(claims, {s.id for s in sources})
 
+    # Pricing claims are checked against the full text of their cited pages before the brief is written.
+    sources_by_id = {s.id: s for s in sources}
+    price_counts: dict[str, int] = {}
+    priced = [c for c in supported if c.dimension == "pricing" and PRICE_RE.search(c.text)]
+    if priced:
+        urls = list({sources_by_id[i].url for c in priced for i in c.source_ids if i in sources_by_id})
+        try:
+            texts = fetch_page_text(tavily, urls)
+        except Exception as exc:  # the brief still gets written, with the checks marked unavailable
+            errors.append(f"price check fetch: {exc}")
+            texts = {}
+        supported, rejected, price_counts = verify_prices(supported, sources_by_id, texts)
+        unsupported = unsupported + rejected
+
     # 4. Write the brief and the run record.
     run_dir = out_dir / f"{re.sub(r'[^a-z0-9]+', '-', product.lower()).strip('-')}-{now.strftime('%Y%m%d-%H%M%S')}"
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -404,6 +507,8 @@ def main(
     (run_dir / "brief.md").write_text(brief)
     record = {
         "product": product,
+        "price_check": price_counts,
+        "off_topic_dropped": off_topic,
         "description": description,
         "category": category,
         "model": model,

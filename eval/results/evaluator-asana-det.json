@@ -1,0 +1,249 @@
+{
+  "summary": {
+    "run": "asana-20261018-181608",
+    "claims": 19,
+    "cited_ids_valid": 1.0,
+    "price_claims": 6,
+    "prices_in_cited_text": 1.0,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.526,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": 0.667,
+    "ground_truth_facts": 3,
+    "ground_truth_found_in_brief": [
+      "$10.99",
+      "$24.99"
+    ],
+    "ground_truth_missing_from_brief": [
+      "$5.99 per user per month billed annually"
+    ]
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "Asana offers a free Personal plan for individuals and small teams, with paid plans starting at $10.99 per user per month",
+      "all_ids_valid": true,
+      "prices": [
+        "$10.99"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Asana's Advanced plan costs $24.99 per user per month under annual billing.",
+      "all_ids_valid": true,
+      "prices": [
+        "$24.99"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Asana paid plans can reach $30.49 per user per month when billed monthly.",
+      "all_ids_valid": true,
+      "prices": [
+        "$30.49"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Asana provides custom pricing for its Enterprise and Enterprise+ tiers and does not publicly list those rates.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Competitor Trello offers paid plans ranging from $5 to $17.50 per user per month depending on the tier.",
+      "all_ids_valid": true,
+      "prices": [
+        "$5",
+        "$17.50"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Competitor monday.com's paid work management plans range from roughly $9 to $19 per seat per month billed annually befor",
+      "all_ids_valid": true,
+      "prices": [
+        "$9",
+        "$19"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Competitor ClickUp's paid plans range from $7 to $19 per user per month depending on tier and billing frequency.",
+      "all_ids_valid": true,
+      "prices": [
+        "$7",
+        "$19"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Asana's pricing is generally viewed as average compared to other project management platforms.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Asana competes with project management platforms including Trello, monday.com, ClickUp, Wrike, and Jira.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Trello manages work on boards with cards representing tasks, while Asana organizes work into projects containing subtask",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Trello is frequently positioned as best for simple projects and small teams, whereas Asana is frequently positioned as b",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Asana and monday.com both have a strong presence in the marketing and advertising, IT services, computer software, and n",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "monday.com offers native document collaboration and digital whiteboards, while Asana provides document collaboration and",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Asana introduced a 2026 redesign focused on AI-first navigation with embedded AI Teammates, following monday.com's 2025 ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "ClickUp offers more than 1,000 native integrations, compared with over 200 native integrations each for Asana and monday",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Asana focuses on internal task management and team collaboration, while some competitors specialize in client work with ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Asana's dollar-based net retention rate was 97% in the second quarter of fiscal 2027.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "A 2026 review described Asana as a solid, user-friendly project management tool, highlighting its interface as a major s",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "A G2 user review cited in a 2026 analysis indicated that Asana's reporting feature has room for improvement.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    }
+  ]
+}

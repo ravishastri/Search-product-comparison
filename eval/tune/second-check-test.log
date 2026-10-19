@@ -1,0 +1,53 @@
+T002 first=supported second=supported final=supported
+T006 first=supported second=supported final=supported
+T008 first=not_stated second=None final=not_stated
+T012 first=supported second=supported final=supported
+T014 first=supported second=supported final=supported
+T015 first=supported second=contradicted final=not_stated
+T023 first=supported second=not_stated final=not_stated
+T032 first=not_stated second=None final=not_stated
+T034 first=contradicted second=None final=contradicted
+T036 first=supported second=supported final=supported
+T039 first=supported second=supported final=supported
+T044 first=not_stated second=None final=not_stated
+T047 first=not_stated second=None final=not_stated
+T051 first=not_stated second=None final=not_stated
+T053 first=not_stated second=None final=not_stated
+T056 first=contradicted second=None final=contradicted
+T059 first=supported second=supported final=supported
+T065 first=not_stated second=None final=not_stated
+T072 first=supported second=contradicted final=not_stated
+T076 first=supported second=supported final=supported
+T078 first=not_stated second=None final=not_stated
+T079 first=not_stated second=None final=not_stated
+T080 first=contradicted second=None final=contradicted
+T082 first=supported second=supported final=supported
+T083 first=supported second=supported final=supported
+T084 first=supported second=not_stated final=not_stated
+T093 first=not_stated second=None final=not_stated
+{
+  "test": {
+    "n": 27,
+    "first_judge_agreement": 0.593,
+    "with_second_check_agreement": 0.593,
+    "changed": 4,
+    "mismatches_final": {
+      "not_stated->supported": 4,
+      "supported->not_stated": 4,
+      "supported->contradicted": 1,
+      "not_stated->contradicted": 2
+    }
+  },
+  "all": {
+    "n": 27,
+    "first_judge_agreement": 0.593,
+    "with_second_check_agreement": 0.593,
+    "changed": 4,
+    "mismatches_final": {
+      "not_stated->supported": 4,
+      "supported->not_stated": 4,
+      "supported->contradicted": 1,
+      "not_stated->contradicted": 2
+    }
+  }
+}

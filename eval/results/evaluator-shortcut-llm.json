@@ -1,0 +1,104 @@
+{
+  "summary": {
+    "claims": 18,
+    "supported": 16,
+    "contradicted": 0,
+    "not_stated": 0,
+    "unverified_evidence": 0,
+    "no_source_text": 2,
+    "support_rate": 0.889,
+    "contradiction_rate": 0.0
+  },
+  "claims": [
+    {
+      "text": "Shortcut offers a free plan for teams of up to 10 users.",
+      "verdict": "supported",
+      "evidence": "The free version of Shortcut is available for teams of up to 10 people."
+    },
+    {
+      "text": "A free trial of Shortcut is available.",
+      "verdict": "supported",
+      "evidence": "A free version and a free trial are available for Shortcut."
+    },
+    {
+      "text": "The Team plan costs $10 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": "The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Team plan costs $8.50 per user per month when pre-paid annually.",
+      "verdict": "supported",
+      "evidence": "The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Business plan costs $16 per user per month when billed monthly.",
+      "verdict": "supported",
+      "evidence": "The Business Plan bills at $16/user per month on the monthly subscription, or $12/user per month if pre-paid annually."
+    },
+    {
+      "text": "The Business plan costs $12 per user per month when pre-paid annually.",
+      "verdict": "supported",
+      "evidence": "The Business Plan bills at $16/user per month on the monthly subscription, or $12/user per month if pre-paid annually."
+    },
+    {
+      "text": "Shortcut provides an Enterprise plan that requires a custom quote.",
+      "verdict": "supported",
+      "evidence": "In addition to a free version, the software offers three pricing plans: Team ($10.00/user/month), Business ($16.00/user/month), and Enterprise (custom quote)."
+    },
+    {
+      "text": "Asana focuses on a wide variety of project types and offers customizable views and workload management, but lacks some specialized software development features found in Shortcut, such as detailed issue tracking and sprint planning.",
+      "verdict": "supported",
+      "evidence": "Lacks some of the specialized project management features for software development teams (e.g., detailed issue tracking, sprint planning) that Shortcut offers."
+    },
+    {
+      "text": "ClickUp, Jira, and Asana are listed as top alternatives to Shortcut.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut integrates product and engineering work through issue tracking, sprint planning, and roadmaps that align with company goals in the software development sector.",
+      "verdict": "supported",
+      "evidence": "Shortcut is a project management platform that integrates product and engineering efforts within the software development sector."
+    },
+    {
+      "text": "For teams with 15 to 100 members, Shortcut, Jira, and Asana are considered strong choices.",
+      "verdict": "supported",
+      "evidence": "Between 15 and 100, Shortcut itself, Jira, or Asana are strong choices."
+    },
+    {
+      "text": "For organizations with more than 100 members, Jira is typically viewed as the stronger option due to customization and scalability.",
+      "verdict": "supported",
+      "evidence": "Over 100, Jira's customization and scale typically win."
+    },
+    {
+      "text": "GitHub Issues is regarded as the strongest free alternative for teams already using GitHub.",
+      "verdict": "supported",
+      "evidence": "GitHub Issues is the strongest free option for teams already on GitHub."
+    },
+    {
+      "text": "Shortcut and YouTrack earned overall scores of 74 and 75 out of 100 respectively across 11 criteria, with portability representing the widest gap.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Shortcut is available as a project tracking integration in the GitHub Marketplace alongside Linear and Jira.",
+      "verdict": "supported",
+      "evidence": "GitHub Marketplace lists more than 20,000 apps and Actions, spanning observability (Datadog, Grafana Cloud), security (Snyk, Aqua, Wiz), project tracking (Linear, Jira, Shortcut), deployment (Vercel, Netlify, Render), and container tooling."
+    },
+    {
+      "text": "Efficient App describes Shortcut as an alternative suited for teams seeking a long-standing project management platform built on a legacy technology stack.",
+      "verdict": "supported",
+      "evidence": "Shortcut is an alternative for those who want a project management tool that has been around for years and are comfortable working with a platform built on a legacy tech stack."
+    },
+    {
+      "text": "Efficient App notes that Jira's complexity and user experience may frustrate smaller teams and non-engineering departments without dedicated ongoing support.",
+      "verdict": "supported",
+      "evidence": "If you're a smaller team, want an easy setup, or need a tool for non-engineering departments, Jira's complexity and user experience will likely get in the way."
+    },
+    {
+      "text": "Shortcut holds a score of 8.4 out of 10 based on 10 reviews and ratings on TrustRadius.",
+      "verdict": "supported",
+      "evidence": "Score 8.4 out of 10\n10 Reviews and Ratings"
+    }
+  ]
+}

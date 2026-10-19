@@ -1,0 +1,90 @@
+{"id": "T001", "label": "supported", "how": "live page", "note": "JetBrains blog: discount increases as users are added; annual rate lower than monthly."}
+{"id": "T002", "label": "not_stated", "how": "live page", "note": "YouTube page text shows no G2 rating (page may not have fully loaded)."}
+{"id": "T003", "label": "no_source", "how": "live page", "note": "Cited support article did not render. The JetBrains blog (different URL) says Helpdesk is free for up to 3 agents."}
+{"id": "T004", "label": "supported", "how": "live page", "note": "Rework lists YouTrack as best for JetBrains shops; judgement on 'particularly strong' is loose."}
+{"id": "T005", "label": "supported", "how": "live page", "note": "Substack: Linear Agent has access to context in the workspace (threads, backlog, customer requests)."}
+{"id": "T006", "label": "supported", "how": "live page", "note": "Tech Insider: Plus $16, up from $14 previously (Comparedge data, March 2026)."}
+{"id": "T007", "label": "not_stated", "how": "live page", "note": "'Advanced security' is listed under GitHub Enterprise, not Jira Enterprise. Jira Enterprise pricing is custom."}
+{"id": "T008", "label": "not_stated", "how": "live page", "note": "Page mentions a 2024 parent-child issue feature and Dependabot alerts, not added dependencies in 2024-2025."}
+{"id": "T009", "label": "not_stated", "how": "live page", "note": "Rework says YouTrack is popular in Eastern European and Russian teams. 'Particularly strong' overstates it."}
+{"id": "T010", "label": "supported", "how": "live page", "note": "JetBrains blog: all features, including AI Assistance and support, are part of the subscription at no extra cost. 'Regardless of plan' is an inference. The page changed since the earlier calibration check, so label 4 there may need revisiting."}
+{"id": "T011", "label": "no_source", "how": "live page", "note": "Cited support article did not render. The cached copy says $5.50 per agent, not per user."}
+{"id": "T012", "label": "not_stated", "how": "live page", "note": "YouTube page shows no Jira G2 rating."}
+{"id": "T013", "label": "not_stated", "how": "live page", "note": "Cited ONES page is a 404; CheckThat has no mention. Softwarepricingguide supports it but is not cited."}
+{"id": "T014", "label": "supported", "how": "live page", "note": "Softwarepricingguide: Standard removes the 10-user cap."}
+{"id": "T015", "label": "supported", "how": "live page", "note": "Atono: ClickUp users report slow loading with large workspaces."}
+{"id": "T017", "label": "supported", "how": "live page", "note": "Softwarepricingguide: Standard raises automation to 1,700 rules per user per month."}
+{"id": "T018", "label": "not_stated", "how": "live page", "note": "Timing (October 2025 increase) is stated; team-size dependence is not."}
+{"id": "T019", "label": "supported", "how": "live page", "note": "Project-Management.com: positive experiences with the knowledge base."}
+{"id": "T020", "label": "not_stated", "how": "live page", "note": "Zenhub describes Linear as fast and Jira as configurable. No claim about competitors capturing dissatisfied users."}
+{"id": "T021", "label": "supported", "how": "live page", "note": "Project-Management.com: Standard has community support; Premium gets 24/7."}
+{"id": "T022", "label": "not_stated", "how": "live page", "note": "Softwarepricingguide: Standard $8.15 (previously $7.75). The $7.53 lower bound is not on the page."}
+{"id": "T023", "label": "not_stated", "how": "live page", "note": "Seibert page mentions Enterprise but says nothing about custom quotes."}
+{"id": "T024", "label": "supported", "how": "live page", "note": "Worklenz: Plane Business at $39,000+/year for 250 seats."}
+{"id": "T025", "label": "not_stated", "how": "live page", "note": "Cited Plane blog gives Plane Business as $13/seat and no Linear $16 figure. The eesel page was not checked."}
+{"id": "T026", "label": "not_stated", "how": "live page", "note": "Page says cloud trials are free; it never says the Community Edition is free."}
+{"id": "T027", "label": "not_stated", "how": "live page", "note": "Reddit is one of several growth tactics. 'Driven by' overstates it."}
+{"id": "T028", "label": "supported", "how": "live page", "note": "Open-source page: Docker Compose, Kubernetes, Podman, or Portainer."}
+{"id": "T029", "label": "supported", "how": "live page", "note": "Open-source page lists work items among Plane's features."}
+{"id": "T030", "label": "contradicted", "how": "live page", "note": "Worklenz gives Plane Business as $39,000+/year for 250 seats; the Plane blog gives $13/seat. Neither says custom."}
+{"id": "T031", "label": "not_stated", "how": "live page", "note": "Hatica discusses Jira licensing costs; no add-on cost comparison on either cited page."}
+{"id": "T032", "label": "not_stated", "how": "live page", "note": "Plane blog says Plane supports cloud, self-hosted, and air-gapped. It does not say Linear is cloud-only."}
+{"id": "T033", "label": "not_stated", "how": "live page", "note": "UI Bakery supports Linear/Jira-alternative and self-hostable. 'Broader product teams' is not stated."}
+{"id": "T034", "label": "supported", "how": "live page", "note": "HN title: got to 100K+ Docker deploys, May 15, 2024."}
+{"id": "T035", "label": "supported", "how": "live page", "note": "Visioneer: unlimited users on ClickUp's Free Forever plan."}
+{"id": "T036", "label": "supported", "how": "live page", "note": "Cited page lists Jira Standard at $7.75, but it is stale: Softwarepricingguide shows $8.15 after the October 2025 increase."}
+{"id": "T037", "label": "supported", "how": "live page", "note": "Ideaplan: Jira handles a 12-status workflow with conditional transitions; 'complex workflows' is stated for Jira."}
+{"id": "T038", "label": "supported", "how": "live page", "note": "Gartner review quotes 'Solid, customizable, cost-effective choice', but the full line adds 'if you don't rely on third-party integrations' (rated 3.0). The caveat is omitted."}
+{"id": "T039", "label": "not_stated", "how": "live page", "note": "Shortcut FAQ does not give $8.50. A different page (SaaS Price Pulse) shows $8.5 as the Team plan price."}
+{"id": "T041", "label": "not_stated", "how": "live page", "note": "FAQ does not name a Business tier; 'Business' only appears as 'Small Business' in navigation."}
+{"id": "T042", "label": "supported", "how": "live page", "note": "Rfp.wiki: strong story/epic/iteration model; dependable day-to-day tracking."}
+{"id": "T043", "label": "not_stated", "how": "live page", "note": "FAQ does not describe the Team tier or its integrations."}
+{"id": "T044", "label": "not_stated", "how": "live page", "note": "FAQ does not describe the Business tier or advanced reporting."}
+{"id": "T045", "label": "not_stated", "how": "live page", "note": "FAQ does not describe the Business tier or unlimited usage."}
+{"id": "T046", "label": "not_stated", "how": "live page", "note": "Efficient's Linear vs Shortcut page makes no claim about Linear and marketing or sales."}
+{"id": "T047", "label": "supported", "how": "live page", "note": "ZenPilot: Business Plus at $19, no longer on the public page, available through partners."}
+{"id": "T048", "label": "supported", "how": "live page", "note": "CheckThat: ClickUp drops to 3.6/5 on Trustpilot (4.7 on G2)."}
+{"id": "T049", "label": "supported", "how": "live page", "note": "Wrike: ClickUp offers native and integrated chat."}
+{"id": "T050", "label": "supported", "how": "live page", "note": "Get-Alfred: Enterprise includes HIPAA compliance, SSO, and advanced security."}
+{"id": "T051", "label": "not_stated", "how": "live page", "note": "Rock: Monday Pro at $19 per seat matches. The $24 upper bound is not on the page."}
+{"id": "T053", "label": "not_stated", "how": "live page", "note": "Cited ZenPilot page does not say Business includes workload management. Get-Alfred (not cited) does."}
+{"id": "T054", "label": "not_stated", "how": "live page", "note": "Till Freitag: Asana Advanced from $24.99. The $30.49 upper bound is not on the page."}
+{"id": "T055", "label": "not_stated", "how": "live page", "note": "Get-Alfred mentions SSO for Enterprise. It does not say SAML."}
+{"id": "T056", "label": "not_stated", "how": "live page", "note": "ZenPilot pricing table is truncated at the Unlimited highlights; time tracking cannot be confirmed."}
+{"id": "T057", "label": "supported", "how": "live page", "note": "Get-Alfred: ClickUp Brain is an add-on at $9/user/month, so AI is not in the base plans."}
+{"id": "T058", "label": "not_stated", "how": "live page", "note": "Cited ZenPilot page shows Unlimited at $7 annual, not $10 monthly."}
+{"id": "T059", "label": "not_stated", "how": "live page", "note": "Tech.co feature table does not come through as text; Starter Timeline/Gantt cannot be confirmed."}
+{"id": "T060", "label": "supported", "how": "live page", "note": "SmartSuite: 24/7 support is Enterprise-only at Asana; some competitors include support on every plan."}
+{"id": "T061", "label": "supported", "how": "live page", "note": "Tech.co: Advanced is $30.49 per user per month on a month-to-month basis."}
+{"id": "T063", "label": "supported", "how": "live page", "note": "Umbrex: Asana FY2024 (ended Jan 31, 2024) revenue $652.5 million."}
+{"id": "T064", "label": "not_stated", "how": "live page", "note": "Monday's page says higher support marks but gives no 8.9 vs 8.5 G2 figures."}
+{"id": "T065", "label": "supported", "how": "live page", "note": "ProofHub: reviewers cite connecting individual work to company-level goals as a strength."}
+{"id": "T066", "label": "not_stated", "how": "live page", "note": "Tech Insider shows Free at up to 15 users as a current plan. 'Previously' is not stated."}
+{"id": "T067", "label": "not_stated", "how": "live page", "note": "SaaSWorthy gives no minimum seat requirement for Starter."}
+{"id": "T068", "label": "supported", "how": "live page", "note": "ProofHub: Advanced adds portfolios, goals, and proofing; most differentiating features are Advanced-only."}
+{"id": "T069", "label": "not_stated", "how": "live page", "note": "SaaSWorthy: AI Studio on annual plans. Starter is not named."}
+{"id": "T070", "label": "supported", "how": "live page", "note": "VendorBenchmark: AI features including anomaly detection, sold as an add-on."}
+{"id": "T071", "label": "not_stated", "how": "live page", "note": "Plaky lists Enterprise's Atlassian Guard and org-wide permissions. SSO is not listed."}
+{"id": "T072", "label": "supported", "how": "live page", "note": "Chanty: Standard $5/user/month, billed annually."}
+{"id": "T073", "label": "supported", "how": "live page", "note": "OCM Solution: Software Advice 4.5/5 (13,872 reviews)."}
+{"id": "T074", "label": "supported", "how": "live page", "note": "Blogverdict table: ClickUp time tracking built in; Trello needs a Power-Up."}
+{"id": "T075", "label": "supported", "how": "live page", "note": "Blogverdict: performance can slow with large, complex workspaces."}
+{"id": "T076", "label": "supported", "how": "live page", "note": "Blogverdict: feature density leads to a cluttered interface."}
+{"id": "T077", "label": "not_stated", "how": "live page", "note": "Spendflo: Free is 10 boards and command limits. Unlimited cards is not stated."}
+{"id": "T078", "label": "not_stated", "how": "live page", "note": "Forbes lists Premium's price. Atlassian Intelligence is not on the cited page."}
+{"id": "T079", "label": "not_stated", "how": "live page", "note": "Cited Plaky page is about Trello pricing; it says nothing about Monday.com minimums."}
+{"id": "T080", "label": "not_stated", "how": "live page", "note": "Cited blogverdict page does not show Asana's $10.99 price."}
+{"id": "T081", "label": "not_stated", "how": "live page", "note": "Hevo: Asana has dependencies, milestones, and List/Kanban/Calendar/Timeline views. Gantt is not stated for Asana."}
+{"id": "T082", "label": "supported", "how": "live page", "note": "Blogverdict table: Asana free plan up to 15 users."}
+{"id": "T083", "label": "supported", "how": "live page", "note": "Breeze: YouTrack is for teams that need a query language."}
+{"id": "T084", "label": "not_stated", "how": "live page", "note": "ONES mentions automation rules, but the tier that includes them is not clear."}
+{"id": "T085", "label": "supported", "how": "live page", "note": "Breeze: issue types, fields, and states are yours to define."}
+{"id": "T086", "label": "supported", "how": "live page", "note": "Breeze: YouTrack's answer is a query language and JavaScript workflow rules."}
+{"id": "T087", "label": "supported", "how": "live page", "note": "JetBrains: Free for 1-10 users on the cloud edition."}
+{"id": "T088", "label": "not_stated", "how": "live page", "note": "BugBrain is cited but does not discuss GitHub Issues' custom states."}
+{"id": "T089", "label": "supported", "how": "live page", "note": "JetBrains sales FAQ: monthly $5.40 per user/month for teams of 11+. ONES says $4.40, which conflicts with JetBrains."}
+{"id": "T090", "label": "not_stated", "how": "live page", "note": "$2.81 is not on either cited page. ONES says prices are flat regardless of volume."}
+{"id": "T091", "label": "not_stated", "how": "live page", "note": "Cited page is about Server pricing. It does not mention a previous lower rate for the cloud annual plan."}
+{"id": "T092", "label": "supported", "how": "live page", "note": "JetBrains sales FAQ: new annual subscription USD 4.50 per user/month."}
+{"id": "T093", "label": "not_stated", "how": "live page", "note": "Automaiva gives Jira Standard at $7.91, which matches. The $7.00 lower bound is not on the page."}
+{"id": "T094", "label": "supported", "how": "live page", "note": "JetBrains sales FAQ: per-user rate decreases as more users are added. ONES says the price is flat, so the sources conflict."}

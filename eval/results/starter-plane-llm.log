@@ -1,0 +1,156 @@
+[1/145] supported: The Community Edition (Self-hosted) is free.
+[2/145] supported: The Community Edition (Self-hosted) is licensed under AGPL-3.0.
+[3/145] supported: The Community Edition (Self-hosted) includes unlimited users.
+[4/145] supported: The Community Edition (Self-hosted) includes unlimited projects.
+[5/145] supported: The Community Edition (Self-hosted) includes work items.
+[6/145] supported: The Community Edition (Self-hosted) includes cycles.
+[7/145] supported: The Community Edition (Self-hosted) includes modules.
+[8/145] supported: The Community Edition (Self-hosted) includes pages.
+[9/145] supported: The Community Edition (Self-hosted) includes five layout views.
+[10/145] supported: The Community Edition (Self-hosted) includes intake.
+[11/145] supported: The Community Edition (Self-hosted) includes dashboards.
+[12/145] supported: The Community Edition (Self-hosted) includes estimates.
+[13/145] supported: The Community Edition (Self-hosted) includes REST API.
+[14/145] supported: The Community Edition (Self-hosted) includes webhooks.
+[15/145] supported: Cloud Free costs $0.
+[16/145] supported: Cloud Free supports up to 12 users.
+[17/145] not_stated: Cloud Free is no-frills project management for startups and small team
+[18/145] supported: Pro costs $6/seat/month (annual).
+[19/145] supported: Pro includes RBAC.
+[20/145] unverified_evidence: Pro includes custom roles.
+[21/145] supported: Pro includes 5 guests per paid member.
+[22/145] supported: Pro is designed for mature teams.
+[23/145] not_stated: Business has custom pricing.
+[24/145] supported: Business is cited by a third party as costing ~$39k+/yr for 250 seats.
+[25/145] not_stated: Business includes advanced governance features.
+[26/145] supported: Enterprise / Airgapped has custom pricing.
+[27/145] supported: Enterprise / Airgapped includes SAML.
+[28/145] supported: Enterprise / Airgapped includes OIDC.
+[29/145] supported: Enterprise / Airgapped includes audit trails.
+[30/145] supported: Enterprise / Airgapped is for fully disconnected networks for Defense,
+[31/145] supported: Self-hosting requirements are 2 CPU cores.
+[32/145] supported: Self-hosting requirements are 4GB RAM.
+[33/145] supported: Self-hosting requirements are under 2GB image.
+[34/145] supported: Plane can be deployed via Docker Compose.
+[35/145] supported: Plane can be deployed via Kubernetes with Helm.
+[36/145] supported: Plane can be deployed via Podman.
+[37/145] supported: Plane can be deployed via Coolify.
+[38/145] supported: Plane can be deployed via Portainer.
+[39/145] supported: Most teams deploy Plane in under 10 minutes.
+[40/145] no_source_text: Plane's starting price (paid) is $6/seat/mo.
+[41/145] no_source_text: Plane's free tier supports up to 12 users (cloud).
+[42/145] no_source_text: Plane's free tier supports unlimited self-hosted users.
+[43/145] no_source_text: Plane supports Cloud deployment.
+[44/145] no_source_text: Plane supports Self-hosted deployment.
+[45/145] no_source_text: Jira's starting price (paid) is ~$8.15–9.05/user/mo.
+[46/145] no_source_text: Jira's free tier supports up to 10 users.
+[47/145] no_source_text: Jira is Cloud only.
+[48/145] no_source_text: Linear's starting price (paid) is $8–10/user/mo.
+[49/145] no_source_text: Linear's free tier supports up to 250 issues.
+[50/145] no_source_text: Linear is Cloud only.
+[51/145] no_source_text: ClickUp's starting price (paid) is $7/user/mo.
+[52/145] no_source_text: ClickUp's free tier supports unlimited users.
+[53/145] no_source_text: ClickUp is Cloud only.
+[54/145] no_source_text: Monday.com's starting price (paid) is $9–12/user/mo.
+[55/145] no_source_text: Monday.com's free tier supports 2 seats.
+[56/145] no_source_text: Monday.com is Cloud only.
+[57/145] no_source_text: Asana's starting price (paid) is $10.99/user/mo.
+[58/145] no_source_text: Asana's free tier supports 1–2 users.
+[59/145] no_source_text: Asana is Cloud only.
+[60/145] not_stated: Plane positions itself as a simpler alternative with a modern UI.
+[61/145] not_stated: Plane positions itself as a faster alternative with a modern UI.
+[62/145] not_stated: Jira offers more configuration depth (workflows, permission schemes, 3
+[63/145] not_stated: Jira has higher effective cost once add-ons (SSO, roadmaps, time track
+[64/145] supported: Plane offers self-hosting.
+[65/145] supported: Plane offers open-source flexibility.
+[66/145] not_stated: Linear is cloud-only.
+[67/145] supported: Linear is praised for a lightning-fast interface.
+[68/145] not_stated: Linear is praised for minimalism.
+[69/145] supported: Plane's Pro tier is at $6/seat/mo.
+[70/145] supported: Linear's Business tier is at $16/user/mo.
+[71/145] supported: ClickUp offers more raw features.
+[72/145] supported: ClickUp offers generous free unlimited users.
+[73/145] not_stated: Monday.com is a broader work-management platform.
+[74/145] supported: Asana is a broader work-management platform.
+[75/145] not_stated: Plane is explicitly built for software teams with issue-centric workfl
+[76/145] not_stated: Plane is explicitly built for software teams with sprints.
+[77/145] not_stated: Plane is explicitly built for software teams with Git integration.
+[78/145] not_stated: Monday targets cross-functional use.
+[79/145] supported: Asana targets cross-functional use.
+[80/145] no_source_text: Plane uses the AGPL-3.0 license.
+[81/145] no_source_text: Plane self-hosted cost is Free.
+[82/145] no_source_text: Plane has a modern UI/UX.
+[83/145] no_source_text: Plane has built-in AI.
+[84/145] no_source_text: Plane has no scheduling engine/Gantt.
+[85/145] no_source_text: OpenProject uses the GPL v3 license.
+[86/145] no_source_text: OpenProject self-hosted cost is Free.
+[87/145] no_source_text: OpenProject is mature.
+[88/145] no_source_text: OpenProject has strong Gantt/classical PM.
+[89/145] no_source_text: OpenProject requires a 25-user minimum for paid tiers.
+[90/145] no_source_text: Taiga uses the AGPL-3.0 license.
+[91/145] no_source_text: Taiga self-hosted cost is Free.
+[92/145] no_source_text: Taiga is a Scrum/Kanban purist.
+[93/145] no_source_text: Taiga has flat cloud pricing.
+[94/145] no_source_text: Taiga has less frequent releases.
+[95/145] no_source_text: Taiga has no native time tracking.
+[96/145] no_source_text: Redmine uses the GPL v2 license.
+[97/145] no_source_text: Redmine self-hosted cost is Free.
+[98/145] no_source_text: Redmine has a highly mature plugin ecosystem.
+[99/145] no_source_text: Redmine is PHP-based.
+[100/145] no_source_text: Leantime uses the MIT license.
+[101/145] no_source_text: Leantime self-hosted cost is Free.
+[102/145] no_source_text: Leantime has a strategy-to-task focus.
+[103/145] no_source_text: Leantime is neurodivergent-friendly.
+[104/145] no_source_text: Worklenz uses the AGPL-3.0 license.
+[105/145] no_source_text: Worklenz self-hosted cost is Free.
+[106/145] no_source_text: Worklenz is built for agencies (time tracking, resource mgmt, client p
+[107/145] not_stated: OpenProject is the closest to Jira in scope for classical PM (Gantt, w
+[108/145] not_stated: OpenProject's interface has changed little since 2020.
+[109/145] contradicted: Plane targets broader product teams wanting Linear/Jira-like experienc
+[110/145] supported: Plane lacks native time tracking.
+[111/145] supported: Plane lacks resource management.
+[112/145] not_stated: OpenProject includes time tracking.
+[113/145] not_stated: OpenProject includes resource management.
+[114/145] supported: Worklenz includes time tracking.
+[115/145] supported: Worklenz includes resource management.
+[116/145] supported: Plane reached #1 in the project management category in under a year.
+[117/145] contradicted: As of May 2024, the team reported 100K+ Docker deploys.
+[118/145] supported: As of May 2024, the team reported 44K+ Kubernetes deploys.
+[119/145] supported: By late 2025, Plane had shipped 467 features to the Community Edition.
+[120/145] supported: Plane had multiple front-page posts on Hacker News.
+[121/145] not_stated: A May 2024 Hacker News submission by Plane hit significant traction.
+[122/145] supported: Plane is active on Reddit in r/selfhosted and related communities.
+[123/145] supported: Early growth of Plane was driven by Reddit engagement.
+[124/145] not_stated: Reddit posts drove 300+ GitHub stars for Plane in a single day.
+[125/145] supported: Reviewers consistently highlight that Plane avoids the "clunky open-so
+[126/145] supported: Plane is built with React and Django.
+[127/145] not_stated: Plane is called out as "single-click" Docker setup.
+[128/145] not_stated: Self-hosting Plane is positioned as 60–80% cheaper at scale than per-s
+[129/145] supported: A 10-user Jira + Confluence setup (~$2,084/yr) is compared to Plane at
+[130/145] not_stated: SSO (SAML/OIDC) is locked behind the paid Commercial/Enterprise editio
+[131/145] not_stated: As of mid-2025, Plane has limited native integrations.
+[132/145] not_stated: As of mid-2025, Plane's native integrations are largely limited to Sla
+[133/145] supported: An MCP Server plugin is available for Plane for AI connectivity.
+[134/145] not_stated: Plane's integration ecosystem is thinner than Jira's.
+[135/145] contradicted: Plane's built-in Pages/Wiki feature is noted to "lag modern knowledge 
+[136/145] contradicted: Plane's built-in Pages/Wiki feature is noted to "lag modern knowledge 
+[137/145] supported: Unlike OpenProject, Plane Community Edition lacks Gantt charts.
+[138/145] supported: Plane Community Edition lacks critical path.
+[139/145] supported: Plane Community Edition lacks resource pool scheduling.
+[140/145] not_stated: Plane maintains a strict open-core model.
+[141/145] supported: Plane's Community Edition has "zero borrowed code" from paid editions.
+[142/145] supported: The Plane team responds to community support requests in under 3 hours
+[143/145] supported: The Plane project has survived "the scrutiny of the harshest open-sour
+[144/145] unverified_evidence: Plane maintains active community engagement through Discord.
+[145/145] not_stated: Plane maintains active community engagement through GitHub discussions
+{
+  "claims": 145,
+  "supported": 64,
+  "contradicted": 4,
+  "not_stated": 28,
+  "unverified_evidence": 2,
+  "no_source_text": 47,
+  "support_rate": 0.441,
+  "contradiction_rate": 0.028
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/starter-plane-llm.json

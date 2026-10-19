@@ -1,0 +1,249 @@
+{
+  "first_judge": "moonshotai/Kimi-K2.6 (v1)",
+  "second_model": "deepseek-ai/DeepSeek-V4-Pro",
+  "run_at": "2026-10-19 09:17",
+  "summary": {
+    "test": {
+      "n": 27,
+      "first_judge_agreement": 0.593,
+      "with_second_check_agreement": 0.593,
+      "changed": 4,
+      "mismatches_final": {
+        "not_stated->supported": 4,
+        "supported->not_stated": 4,
+        "supported->contradicted": 1,
+        "not_stated->contradicted": 2
+      }
+    },
+    "all": {
+      "n": 27,
+      "first_judge_agreement": 0.593,
+      "with_second_check_agreement": 0.593,
+      "changed": 4,
+      "mismatches_final": {
+        "not_stated->supported": 4,
+        "supported->not_stated": 4,
+        "supported->contradicted": 1,
+        "not_stated->contradicted": 2
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "T002",
+      "split": "test",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T006",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T008",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T012",
+      "split": "test",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T014",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T015",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T023",
+      "split": "test",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "not_stated",
+      "final": "not_stated"
+    },
+    {
+      "id": "T032",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T034",
+      "split": "test",
+      "label": "supported",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T036",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T039",
+      "split": "test",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T044",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T047",
+      "split": "test",
+      "label": "supported",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T051",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T053",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T056",
+      "split": "test",
+      "label": "not_stated",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T059",
+      "split": "test",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T065",
+      "split": "test",
+      "label": "supported",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T072",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "contradicted",
+      "final": "not_stated"
+    },
+    {
+      "id": "T076",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T078",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T079",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    },
+    {
+      "id": "T080",
+      "split": "test",
+      "label": "not_stated",
+      "first": "contradicted",
+      "second": null,
+      "final": "contradicted"
+    },
+    {
+      "id": "T082",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T083",
+      "split": "test",
+      "label": "supported",
+      "first": "supported",
+      "second": "supported",
+      "final": "supported"
+    },
+    {
+      "id": "T084",
+      "split": "test",
+      "label": "not_stated",
+      "first": "supported",
+      "second": "not_stated",
+      "final": "not_stated"
+    },
+    {
+      "id": "T093",
+      "split": "test",
+      "label": "not_stated",
+      "first": "not_stated",
+      "second": null,
+      "final": "not_stated"
+    }
+  ]
+}

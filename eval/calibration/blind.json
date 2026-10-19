@@ -1,0 +1,187 @@
+[
+ {
+  "id": 1,
+  "claim": "Linear raised prices in 2025.",
+  "urls": [
+   "https://tech-insider.org/linear-vs-jira-2026"
+  ]
+ },
+ {
+  "id": 2,
+  "claim": "The Jira Premium plan is ~$12\u2013$16/user/month.",
+  "urls": [
+   "https://thedigitalprojectmanager.com/tools/jira-pricing"
+  ]
+ },
+ {
+  "id": 3,
+  "claim": "The YouTrack HelpDesk add-on is $5.50/user/month (annual).",
+  "urls": [
+   "https://youtrack.jetbrains.com/articles/SUPPORT-A-2169/YouTrack-Cloud-per-user-subscriptions"
+  ]
+ },
+ {
+  "id": 4,
+  "claim": "YouTrack includes all features at no extra charge regardless of plan.",
+  "urls": [
+   "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+  ]
+ },
+ {
+  "id": 5,
+  "claim": "The GitHub Team plan is $4/user/month.",
+  "urls": [
+   "https://www.spendflo.com/blog/github-pricing-guide"
+  ]
+ },
+ {
+  "id": 6,
+  "claim": "The Linear Enterprise plan includes SAML/SCIM.",
+  "urls": [
+   "https://linear.app/pricing"
+  ]
+ },
+ {
+  "id": 7,
+  "claim": "Issue tracking is included in all GitHub plans.",
+  "urls": [
+   "https://www.ideaplan.io/compare/github-issues-vs-jira"
+  ]
+ },
+ {
+  "id": 8,
+  "claim": "Jira requires paid add-ons for Gantt.",
+  "urls": [
+   "https://corptec.com.au/blog/atlassian/atlassian-jira-pricing-updates-2025-action-plan",
+   "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+  ]
+ },
+ {
+  "id": 9,
+  "claim": "The Linear Basic plan is $10/user/month.",
+  "urls": [
+   "https://linear.app/pricing"
+  ]
+ },
+ {
+  "id": 10,
+  "claim": "The Linear Basic plan includes unlimited file uploads.",
+  "urls": [
+   "https://linear.app/pricing"
+  ]
+ },
+ {
+  "id": 11,
+  "claim": "YouTrack offers cloud and self-hosted options without enterprise-only gates.",
+  "urls": [
+   "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+   "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+  ]
+ },
+ {
+  "id": 12,
+  "claim": "The Linear Business plan includes unlimited teams.",
+  "urls": [
+   "https://linear.app/pricing"
+  ]
+ },
+ {
+  "id": 13,
+  "claim": "The GitHub Enterprise plan includes audit logs.",
+  "urls": [
+   "https://www.spendflo.com/blog/github-pricing-guide"
+  ]
+ },
+ {
+  "id": 14,
+  "claim": "Linear Agent is a built-in AI agent.",
+  "urls": [
+   "https://departmentofproduct.substack.com/p/linear-says-issue-tracking-is-dead"
+  ]
+ },
+ {
+  "id": 15,
+  "claim": "The Linear Basic plan includes 5 teams.",
+  "urls": [
+   "https://linear.app/pricing"
+  ]
+ },
+ {
+  "id": 16,
+  "claim": "YouTrack includes AI assistance at no extra charge regardless of plan.",
+  "urls": [
+   "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+  ]
+ },
+ {
+  "id": 17,
+  "claim": "The Jira Free plan is up to 10 users.",
+  "urls": [
+   "https://www.ideaplan.io/compare/github-issues-vs-jira"
+  ]
+ },
+ {
+  "id": 18,
+  "claim": "The Linear Free plan includes 10MB file uploads.",
+  "urls": [
+   "https://linear.app/pricing"
+  ]
+ },
+ {
+  "id": 19,
+  "claim": "The Jira Premium plan includes Advanced roadmaps.",
+  "urls": [
+   "https://thedigitalprojectmanager.com/tools/jira-pricing"
+  ]
+ },
+ {
+  "id": 20,
+  "claim": "Jira has continued tightening GitHub integrations.",
+  "urls": [
+   "https://tech-insider.org/linear-vs-jira-2026"
+  ]
+ },
+ {
+  "id": 21,
+  "claim": "Teams move to Linear or Jira for multi-repo complexity.",
+  "urls": [
+   "https://cotera.co/articles/linear-vs-github-issues-comparison"
+  ]
+ },
+ {
+  "id": 22,
+  "claim": "Competitors gate or upsell AI.",
+  "urls": [
+   "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+  ]
+ },
+ {
+  "id": 23,
+  "claim": "The GitHub Team plan includes required reviewers.",
+  "urls": [
+   "https://www.spendflo.com/blog/github-pricing-guide"
+  ]
+ },
+ {
+  "id": 24,
+  "claim": "Teams commonly start with GitHub Issues.",
+  "urls": [
+   "https://cotera.co/articles/linear-vs-github-issues-comparison"
+  ]
+ },
+ {
+  "id": 25,
+  "claim": "YouTrack is particularly strong in Russia.",
+  "urls": [
+   "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+   "https://ones.com/blog/youtrack-vs-jira-pricing-7-point-cost-comparison-for-2026"
+  ]
+ },
+ {
+  "id": 26,
+  "claim": "Teams move to Linear or Jira at ~500 tickets.",
+  "urls": [
+   "https://cotera.co/articles/linear-vs-github-issues-comparison"
+  ]
+ }
+]

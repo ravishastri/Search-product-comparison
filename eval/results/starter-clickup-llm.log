@@ -1,0 +1,66 @@
+[1/55] contradicted: ClickUp offers a Free Forever plan with unlimited tasks and members bu
+[2/55] supported: Paid annual tiers start with Unlimited at $7 per user per month.
+[3/55] supported: Unlimited is $10 monthly.
+[4/55] supported: Unlimited adds unlimited storage.
+[5/55] supported: Unlimited adds custom fields.
+[6/55] supported: Unlimited adds Gantt charts.
+[7/55] contradicted: Unlimited adds native time tracking.
+[8/55] not_stated: Business runs $12 per user per month annually.
+[9/55] not_stated: Business runs $19 monthly.
+[10/55] not_stated: Business includes workload management.
+[11/55] not_stated: Business includes advanced dashboards.
+[12/55] not_stated: Business includes Google SSO.
+[13/55] supported: A semi-hidden Business Plus tier at $19 per user per month annually st
+[14/55] supported: Business Plus was removed from the public pricing page in late 2024.
+[15/55] supported: Enterprise is custom-priced.
+[16/55] not_stated: Enterprise adds SAML SSO.
+[17/55] not_stated: Enterprise adds SCIM.
+[18/55] supported: Enterprise adds HIPAA compliance.
+[19/55] supported: Enterprise adds dedicated support.
+[20/55] contradicted: AI is not included.
+[21/55] supported: ClickUp Brain costs $9 per user per month on top of any paid plan.
+[22/55] supported: Everything AI tier is $28 per user per month.
+[23/55] supported: Monday.com paid plans start around $12–$14 per seat per month (Standar
+[24/55] supported: Monday.com paid plans start around $19–$24 per seat per month (Pro).
+[25/55] supported: Monday.com has a mandatory three-seat minimum.
+[26/55] supported: Monday.com has incremental “bucket” pricing that often forces teams to
+[27/55] not_stated: Asana’s Starter plan ranges from roughly $11 to $13.49 per user per mo
+[28/55] not_stated: Asana’s Advanced tier runs $24.99 to $30.49 per user per month.
+[29/55] not_stated: Asana’s Advanced tier unlocks portfolios.
+[30/55] not_stated: Asana’s Advanced tier unlocks workload management.
+[31/55] supported: Notion begins at $10 per user per month for Plus.
+[32/55] supported: Notion Business is $20 per user per month.
+[33/55] supported: Notion Business includes Notion AI at no extra cost since May 2025.
+[34/55] supported: ClickUp markets itself as the “everything app.”
+[35/55] not_stated: ClickUp offers deep hierarchy (Workspaces > Spaces > Folders > Lists >
+[36/55] supported: ClickUp offers built-in chat.
+[37/55] supported: ClickUp offers docs.
+[38/55] supported: ClickUp offers whiteboards.
+[39/55] supported: ClickUp offers goals.
+[40/55] contradicted: ClickUp offers 1,000+ integrations.
+[41/55] supported: Monday.com locks Gantt behind higher tiers.
+[42/55] supported: Monday.com locks workload views behind higher tiers.
+[43/55] not_stated: Monday.com locks SSO behind higher tiers.
+[44/55] supported: For development-focused teams, Jira and Linear are frequent alternativ
+[45/55] supported: ClickUp holds a 4.7/5 on G2.
+[46/55] supported: ClickUp holds a 4.6/5 on Capterra.
+[47/55] supported: ClickUp holds a 3.6/5 on Trustpilot.
+[48/55] not_stated: Capterra reviewers cite “highly adaptable” workflows.
+[49/55] not_stated: Capterra reviewers cite replacing multiple subscriptions.
+[50/55] supported: Critics commonly flag slow loading.
+[51/55] supported: Critics commonly flag lag.
+[52/55] not_stated: Critics commonly flag freezing with large workspaces.
+[53/55] not_stated: Critics commonly flag a mobile app that lacks desktop parity.
+[54/55] contradicted: Since 2024–2025, ClickUp reclassified guests with edit access as paid 
+[55/55] supported: One verified Capterra review documented a 733% annual cost jump after 
+{
+  "claims": 55,
+  "supported": 33,
+  "contradicted": 5,
+  "not_stated": 17,
+  "unverified_evidence": 0,
+  "no_source_text": 0,
+  "support_rate": 0.6,
+  "contradiction_rate": 0.091
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/starter-clickup-llm.json

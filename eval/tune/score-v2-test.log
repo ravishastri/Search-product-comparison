@@ -1,0 +1,37 @@
+[1/27] T002 label=not_stated judge=supported
+[2/27] T006 label=supported judge=supported
+[3/27] T008 label=not_stated judge=not_stated
+[4/27] T012 label=not_stated judge=supported
+[5/27] T014 label=supported judge=supported
+[6/27] T015 label=supported judge=supported
+[7/27] T023 label=not_stated judge=supported
+[8/27] T032 label=not_stated judge=not_stated
+[9/27] T034 label=supported judge=not_stated
+[10/27] T036 label=supported judge=supported
+[11/27] T039 label=not_stated judge=supported
+[12/27] T044 label=not_stated judge=not_stated
+[13/27] T047 label=supported judge=disagreement
+[14/27] T051 label=not_stated judge=disagreement
+[15/27] T053 label=not_stated judge=not_stated
+[16/27] T056 label=not_stated judge=contradicted
+[17/27] T059 label=not_stated judge=supported
+[18/27] T065 label=supported judge=not_stated
+[19/27] T072 label=supported judge=supported
+[20/27] T076 label=supported judge=supported
+[21/27] T078 label=not_stated judge=not_stated
+[22/27] T079 label=not_stated judge=not_stated
+[23/27] T080 label=not_stated judge=contradicted
+[24/27] T082 label=supported judge=supported
+[25/27] T083 label=supported judge=supported
+[26/27] T084 label=not_stated judge=supported
+[27/27] T093 label=not_stated judge=not_stated
+{
+  "test": {
+    "n": 27,
+    "agreement": 0.593
+  },
+  "all": {
+    "n": 27,
+    "agreement": 0.593
+  }
+}

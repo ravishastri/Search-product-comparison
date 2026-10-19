@@ -1,0 +1,174 @@
+{
+  "summary": {
+    "claims": 32,
+    "supported": 27,
+    "contradicted": 0,
+    "not_stated": 2,
+    "unverified_evidence": 0,
+    "no_source_text": 1,
+    "support_rate": 0.844,
+    "contradiction_rate": 0.0
+  },
+  "claims": [
+    {
+      "text": "Jira offers a free plan that supports up to 10 users.",
+      "verdict": "supported",
+      "evidence": "The Free plan supports up to 10 users and includes unlimited projects, tasks, and forms, along with basic views and dashboards."
+    },
+    {
+      "text": "Jira Standard plan is priced at $7.91 per user per month.",
+      "verdict": "judge_error",
+      "evidence": "no JSON object in model reply"
+    },
+    {
+      "text": "Jira Premium plan is priced at $14.54 per user per month.",
+      "verdict": "supported",
+      "evidence": "Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users."
+    },
+    {
+      "text": "Jira Enterprise plan uses custom pricing.",
+      "verdict": "supported",
+      "evidence": "There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available."
+    },
+    {
+      "text": "Jira offers volume discounts, with per-user costs decreasing as more users are added.",
+      "verdict": "supported",
+      "evidence": "Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users."
+    },
+    {
+      "text": "Jira Data Center is available with annual billing and requires a minimum of 500 users.",
+      "verdict": "supported",
+      "evidence": "There are no monthly options, only tiers starting at 500 users."
+    },
+    {
+      "text": "YouTrack pricing starts at $3.67 per user per month.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack offers a free plan for teams with up to 10 users.",
+      "verdict": "supported",
+      "evidence": "YouTrack remains free for teams of up to 10 users."
+    },
+    {
+      "text": "YouTrack monthly paid plans start at $5.40 per user per month, while annual paid plans start at $4.50 per user per month as of October 2025.",
+      "verdict": "supported",
+      "evidence": "After that date, monthly plans will start at USD 5.40 per user, and annual plans at USD 4.50 per user, with increasing discounts as your team grows."
+    },
+    {
+      "text": "GitLab Premium plan is priced at $29 per user per month.",
+      "verdict": "supported",
+      "evidence": "$29 per user per month is the cost of this transition, so organizations must re-evaluate their total headcount expenses before committing to the upgrade."
+    },
+    {
+      "text": "GitLab offers a free tier with limited features.",
+      "verdict": "supported",
+      "evidence": "The free tier is for small teams and has limited features."
+    },
+    {
+      "text": "Azure DevOps offers the first five Basic users at no cost, with each additional Basic user costing $6 per month.",
+      "verdict": "supported",
+      "evidence": "Azure DevOps Basic includes the first five users at no charge, then costs $6 per user per month."
+    },
+    {
+      "text": "Azure DevOps Basic plus Test Plans costs $52 per user per month.",
+      "verdict": "supported",
+      "evidence": "A Basic+Test Plans user costs $52/month."
+    },
+    {
+      "text": "Jira Data Center is scheduled to reach end of life on March 28, 2029, and Atlassian stopped selling new Data Center licenses on March 30, 2026.",
+      "verdict": "supported",
+      "evidence": "In September 2025, Atlassian announced that Jira Data Center would reach end of life on March 28, 2029."
+    },
+    {
+      "text": "Existing Jira Data Center customers may renew licenses until March 30, 2028, after which environments switch to read-only mode.",
+      "verdict": "supported",
+      "evidence": "Teams already on Data Center can renew until March 30, 2028 \u2013 after which all DC environments switch to read-only mode."
+    },
+    {
+      "text": "Jira ended support for self-hosted deployments in spring 2024 and shifted focus to its cloud edition.",
+      "verdict": "supported",
+      "evidence": "Jira users who self-host their software had been requested to make plans to move to the cloud or data center, as support for self-hosted Jira is no longer available since spring 2024."
+    },
+    {
+      "text": "Jira is primarily geared toward software project management and features customizable workflows and issue tracking.",
+      "verdict": "supported",
+      "evidence": "Like Trello and YouTrack, Jira is primarily geared toward software project management."
+    },
+    {
+      "text": "Jira connects to over 3,000 apps through the Atlassian Marketplace.",
+      "verdict": "supported",
+      "evidence": "Jira connects to over 3,000 apps through the Atlassian Marketplace."
+    },
+    {
+      "text": "Jira integrates natively with development tools including GitHub, GitLab, Bitbucket, and CI/CD platforms.",
+      "verdict": "not_stated",
+      "evidence": "Deep integrations with developer tools and CI/CD pipelines"
+    },
+    {
+      "text": "YouTrack, GitLab, and Azure DevOps Boards are among the alternatives recommended for engineering teams replacing Jira's issue tracking or DevOps capabilities.",
+      "verdict": "supported",
+      "evidence": "Choose YouTrack, GitLab, or Azure DevOps Boards when the priority is a closer engineering or DevOps replacement."
+    },
+    {
+      "text": "Some alternatives to Jira are positioned as offering simpler user experiences, better AI, or tighter integration with customer-facing teams.",
+      "verdict": "supported",
+      "evidence": "A Jira alternative is any project management or dev-ops platform that replaces Atlassian Jira's issue tracking, sprint planning, and workflow capabilities \u2013 typically with simpler UX, better AI, or tighter integration with customer-facing teams."
+    },
+    {
+      "text": "One source states that Jira remains a strong choice for software development teams, though its relevance has narrowed outside of engineering.",
+      "verdict": "supported",
+      "evidence": "The tool that powers sprint boards brilliantly can make a simple client status update feel like configuring a space shuttle."
+    },
+    {
+      "text": "Jira's GitHub integration is described as historically less responsive and less smoothly bidirectional than Linear's implementation.",
+      "verdict": "not_stated",
+      "evidence": "For teams whose stack aligns with Linear\u2019s integration list, this focused approach means less configuration and more reliable connections."
+    },
+    {
+      "text": "Azure DevOps is described as having best-in-class Agile planning tools and robust enterprise governance features.",
+      "verdict": "supported",
+      "evidence": "Strengths: Best-in-class Agile planning tools (Azure Boards), tight integration with the broader Azure and Visual Studio ecosystem, and robust enterprise governance features that GitHub\u2019s project-management tools still don\u2019t fully match."
+    },
+    {
+      "text": "Some users find Azure DevOps UI and Boards features clunky or unintuitive.",
+      "verdict": "supported",
+      "evidence": "Some users find the UI and Boards features clunky or unintuitive"
+    },
+    {
+      "text": "GitLab provides a built-in CI/CD automation layer and is available both as a hosted service and as a free self-managed Community Edition.",
+      "verdict": "supported",
+      "evidence": "It is available both as a hosted service and as a free, self-managed Community Edition."
+    },
+    {
+      "text": "Users rely on Jira's issue hierarchy to connect epics, stories, and tasks, which helps manage large backlogs and plan releases.",
+      "verdict": "supported",
+      "evidence": "One feature I rely on is the issue hierarchy. It connects epics, stories, and tasks, which helps me understand how day-to-day development work contributes to larger product initiatives. This becomes especially useful when managing large backlogs or planning future releases."
+    },
+    {
+      "text": "Jira provides roadmaps for tracking dependencies between teams and projects.",
+      "verdict": "supported",
+      "evidence": "Jira also helps me track dependencies between teams and projects."
+    },
+    {
+      "text": "Atlassian launched new Jira features for agentic software engineering workflows, including an Agent Usage Dashboard.",
+      "verdict": "supported",
+      "evidence": "For team leaders using Jira, the new Agent Usage Dashboard is intended to show which agents are appearing in workflows and how those sessions relate to Jira work items."
+    },
+    {
+      "text": "Jira's Summer 2026 release introduced 15 new capabilities focused on AI-native work, agent infrastructure, and MCP capabilities for coding agents.",
+      "verdict": "judge_error",
+      "evidence": "no JSON object in model reply"
+    },
+    {
+      "text": "A reviewer who tested Cursor's new Jira integration rated it five stars.",
+      "verdict": "supported",
+      "evidence": "I tested Cursor's new Jira integration and it's 5 stars, no notes."
+    },
+    {
+      "text": "GitHub Copilot for Jira became generally available in June 2026 with enhancements including model selection and Confluence context via MCP.",
+      "verdict": "supported",
+      "evidence": "Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection, Confluence context via MCP, custom agents, custom fields, space-level guidance, and review request notifications in Jira."
+    }
+  ]
+}

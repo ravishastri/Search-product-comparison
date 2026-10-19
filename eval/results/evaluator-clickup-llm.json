@@ -1,0 +1,169 @@
+{
+  "summary": {
+    "claims": 31,
+    "supported": 24,
+    "contradicted": 0,
+    "not_stated": 7,
+    "unverified_evidence": 0,
+    "no_source_text": 0,
+    "support_rate": 0.774,
+    "contradiction_rate": 0.0
+  },
+  "claims": [
+    {
+      "text": "ClickUp offers five pricing tiers, including a free plan and paid plans ranging from $7 to $12 per user per month, while the Enterprise plan has no public pricing.",
+      "verdict": "supported",
+      "evidence": "ClickUp offers five pricing tiers, including a free plan. Its four paid plans range from $7 to $12, while the Enterprise plan has no public pricing."
+    },
+    {
+      "text": "ClickUp\u2019s entry-level Unlimited plan costs $7 per user per month with annual billing, and its Business plan costs $12 per user per month with annual billing.",
+      "verdict": "supported",
+      "evidence": "The Unlimited plan ($7 per user, per month), is ideal for small teams, while the Business plan ($12 per user, per month) is better suited for mid-sized businesses."
+    },
+    {
+      "text": "ClickUp\u2019s Business Plus plan costs $19 per user per month when billed annually.",
+      "verdict": "supported",
+      "evidence": "ClickUp Business Plus is listed at $19 per user per month (billed annually) or $29 per user per month (billed monthly)."
+    },
+    {
+      "text": "Annual billing saves 30% on ClickUp\u2019s Unlimited plan compared to month-to-month pricing.",
+      "verdict": "supported",
+      "evidence": "Annual billing saves 30% versus month-to-month on the Unlimited plan."
+    },
+    {
+      "text": "ClickUp\u2019s Free Forever plan includes 100 MB of storage and 100 automation runs per month.",
+      "verdict": "supported",
+      "evidence": "The constraints are real but specific: 100MB of total storage, 100 automation runs per month, and limited integrations."
+    },
+    {
+      "text": "Asana\u2019s Starter plan costs $10.99 per user per month billed annually, and its Advanced plan costs $24.99 per user per month billed annually.",
+      "verdict": "supported",
+      "evidence": "Published list pricing (annual billing):\n Personal: Free for up to 10 users\n Starter: $10.99 per user per month (billed annually)\n Advanced: $24.99 per user per month (billed annually)\n Enterprise: Custom pricing (contact sales)"
+    },
+    {
+      "text": "Monday.com\u2019s work management paid plans start at approximately $9 per seat per month billed annually for Basic and reach $19 per seat per month for Pro.",
+      "verdict": "supported",
+      "evidence": "As of early 2026, published monthly pricing (billed annually) starts at approximately $9 per seat per month for Basic, $12 per seat per month for Standard, and $19 per seat per month for Pro."
+    },
+    {
+      "text": "Monthly billing without an annual commitment costs roughly 20\u201330% more on Monday.com.",
+      "verdict": "supported",
+      "evidence": "Monthly billing (without annual commitment) carries a premium of roughly 20\u201330% over annual rates."
+    },
+    {
+      "text": "Notion\u2019s Plus plan costs $10 per seat per month with annual billing, and its Business plan costs $20 per seat per month with annual billing.",
+      "verdict": "supported",
+      "evidence": "Notion's pricing in 2026 is: Free ($0), Plus ($10/member/month billed annually), Business ($20/member/month billed annually), and Enterprise (custom pricing)."
+    },
+    {
+      "text": "ClickUp is rated more affordable than monday work management and Smartsheet, with a pricing score of 4.4 out of 5.",
+      "verdict": "supported",
+      "evidence": "ClickUp offers great value for money, with a pricing score of 4.4/5, making it more affordable than competitors like monday work management and Smartsheet."
+    },
+    {
+      "text": "ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet.",
+      "verdict": "supported",
+      "evidence": "ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet."
+    },
+    {
+      "text": "ClickUp, Asana, and monday.com are among the leading options for AI-powered project management.",
+      "verdict": "supported",
+      "evidence": " ClickUp is the overall best project management software: It earned the highest rating for its combination of task management, customizable workflows, and AI capabilities. Asana is a leading option for task coordination, while monday.com excels at visual project tracking."
+    },
+    {
+      "text": "Asana is preparing to launch its Agentic Work Management platform.",
+      "verdict": "supported",
+      "evidence": "Asana NYSE: ASAN is preparing to launch its Agentic Work Management platform, a product and packaging shift that Chief Financial Officer Aziz Megji said is intended to combine the company\u2019s collaborative work-management tools with artificial intelligence capabilities and create new consumption-based"
+    },
+    {
+      "text": "Monday.com was downgraded by Zacks Research from a strong-buy rating to a hold rating.",
+      "verdict": "supported",
+      "evidence": "monday.com (NASDAQ:MNDY - Get Free Report) was downgraded by Zacks Research from a \"strong-buy\" rating to a \"hold\" rating in a report issued on Thursday, Zacks reports."
+    },
+    {
+      "text": "Notion is discontinuing its email client, Notion Mail, on September 22, 2026, to shift focus toward AI agent-driven email management.",
+      "verdict": "supported",
+      "evidence": "Notion is discontinuing its email client Notion Mail on September 22, 2026."
+    },
+    {
+      "text": "Notion\u2019s project management features are considered less developed than those of dedicated tools like ClickUp and Asana, and the platform lacks native time tracking.",
+      "verdict": "supported",
+      "evidence": "This architectural difference means Notion excels at knowledge management and flexible documentation, while ClickUp dominates in structured project execution and team accountability."
+    },
+    {
+      "text": "ClickUp is 22% cheaper than Monday.com at the entry-level paid tier and includes unlimited storage on all paid plans.",
+      "verdict": "supported",
+      "evidence": "At the entry tier, ClickUp is 22% cheaper than Monday.com for a 10-person team: $840 versus $1,080 annually, a gap confirmed by Tech Insider\u2019s own April 2026 pricing audit."
+    },
+    {
+      "text": "Monday.com loads 25% faster than ClickUp and offers deeper enterprise security features.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Teams that focus on structured work tend to gravitate toward Asana, whereas teams seeking visual flexibility often prefer monday.com.",
+      "verdict": "supported",
+      "evidence": "Teams that focus on structure gravitate to Asana, whereas teams that want visual flexibility tend to head to Monday, and those optimizing for features per dollar end up at ClickUp."
+    },
+    {
+      "text": "In comparative evaluations, ClickUp ranks highest for most features per dollar, monday.com for visual work and easy adoption, and Asana for structured enterprise work.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp loses to Asana and Trello on ease of use and to Notion as a docs and wiki tool, according to one review.",
+      "verdict": "supported",
+      "evidence": "\\ClickUp wins on raw feature count and price-to-feature ratio, but it loses to Asana and Trello on ease of use, and it loses to Notion specifically as a docs/wiki tool, and to Jira for teams that live and die by engineering sprint workflows."
+    },
+    {
+      "text": "ClickUp introduced an AI assistant and SyncUp video calls to compete more directly with Slack and Notion.",
+      "verdict": "supported",
+      "evidence": "ClickUp has been trying to better compete with the likes of Notion, Slack, and Microsoft Teams by providing calendar, communication, documents, enterprise search, and task tracking under one product."
+    },
+    {
+      "text": "G2 data gathered by April 28, 2026 placed ClickUp in the Leader tier based on satisfaction and market presence.",
+      "verdict": "not_stated",
+      "evidence": "5. ClickUp: Best for all-in-one work management and customization"
+    },
+    {
+      "text": "Reviewers praise ClickUp\u2019s integrations with Google Workspace and Slack for keeping teams and external clients synchronized.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Reviewers highlight ClickUp\u2019s integrated search, Brain assistant, and Super Agents as growing strengths.",
+      "verdict": "not_stated",
+      "evidence": "5. ClickUp: Best for unified work management and team collaboration   For centralizing tasks, docs, SOPs, and communication in one customizable workspace. ($7 /month)"
+    },
+    {
+      "text": "Managers and agencies appreciate real-time visibility into progress, workload, and time tracking within ClickUp.",
+      "verdict": "supported",
+      "evidence": "Strong reporting and dashboards \u2013 Managers and agencies appreciate real-time visibility into progress, workload, and time tracking."
+    },
+    {
+      "text": "Users frequently praise ClickUp\u2019s nested subtasks, dependencies, and task relationships for handling complex work.",
+      "verdict": "supported",
+      "evidence": "Advanced task management \u2013 Nested subtasks, dependencies, and task relationships are often praised for handling complex work."
+    },
+    {
+      "text": "Some ClickUp users report that the interface can feel overwhelming until it is tailored to specific needs.",
+      "verdict": "supported",
+      "evidence": "Interface offers many options \u2013 The platform provides a lot of controls, which can feel like \u201ctoo much\u201d until you tailor it to your needs."
+    },
+    {
+      "text": "G2 data indicates ClickUp has 77% adoption among small businesses and 20% among mid-market firms.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Reviewers note that ClickUp\u2019s interface can sometimes feel crowded.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Reviewers value that ClickUp places documentation and wikis directly alongside tasks and projects.",
+      "verdict": "supported",
+      "evidence": "Docs and wikis sit right next to tasks and projects, so knowledge stays connected to the work it describes."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+[1/37] not_stated: YouTrack offers a free plan for up to 10 users on both Cloud and Serve
+[2/37] supported: YouTrack paid monthly plans start at $5.40 per user.
+[3/37] supported: YouTrack paid annual plans start at $4.50 per user per month.
+[4/37] supported: One source lists YouTrack pricing starting at $3.67 per user per month
+[5/37] supported: A team of 10 users pays roughly $50 per month, or about $600 per year.
+[6/37] supported: A team of 100 users pays roughly $500 per month, or about $6,000 per y
+[7/37] supported: YouTrack implementation for small and midsize businesses can cost a fe
+[8/37] supported: YouTrack HelpDesk includes three support agent seats at no extra charg
+[9/37] supported: For self-hosted YouTrack Server, additional HelpDesk agents beyond the
+[10/37] supported: YouTrack uses volume pricing where the per-user cost decreases as more
+[11/37] supported: Jira Standard plan pricing starts at $7.91 per user per month and Prem
+[12/37] supported: Jira offers a free plan for up to 10 users.
+[13/37] supported: Linear Basic costs $10 per user per month and Business costs $16 per u
+[14/37] supported: Linear offers a free plan capped at two teams and 250 issues.
+[15/37] no_source_text: GitLab Premium is listed at $29 per user per month by one source. (pri
+[16/37] supported: Another source lists GitLab Premium at roughly $32 per user per year.
+[17/37] supported: GitLab Ultimate is listed at roughly $108 per user per year.
+[18/37] supported: YouTrack is a developer-focused issue tracker built by the same compan
+[19/37] supported: One reviewer describes YouTrack as feeling like it was designed by dev
+[20/37] supported: YouTrack bundles Scrum and Kanban boards, sprint planning with depende
+[21/37] supported: YouTrack includes JetBrains AI for writing assistance, summaries, and 
+[22/37] supported: YouTrack Cloud is free with all features for up to 10 users, and a sel
+[23/37] supported: YouTrack is denser and more configurable than Linear, which can demand
+[24/37] supported: One reviewer selected YouTrack because its AI features are deeper than
+[25/37] supported: YouTrack is positioned as best for mid-size and large development team
+[26/37] supported: YouTrack supports backlog automation that automatically brings issues 
+[27/37] supported: YouTrack offers a sprint rollover feature via a Move to the next sprin
+[28/37] supported: YouTrack can require complex setup and has a steep learning curve for 
+[29/37] supported: YouTrack provides agile boards with sprints and burndown charts, a que
+[30/37] supported: YouTrack includes predefined import scripts for migrating data from Re
+[31/37] supported: Linear is considered faster than YouTrack and offers defaults that red
+[32/37] supported: Jira is an enterprise agile project management platform with customiza
+[33/37] supported: GitLab’s issue tracker is less configurable than YouTrack but integrat
+[34/37] contradicted: Atlassian is discontinuing Jira Server and datacenter products in favo
+[35/37] supported: A user review calls YouTrack a very complete product and notes appreci
+[36/37] supported: A reviewer chose YouTrack because its AI features are more extensive t
+[37/37] supported: One review indicates YouTrack can require complex setup and has a stee
+{
+  "claims": 37,
+  "supported": 34,
+  "contradicted": 1,
+  "not_stated": 1,
+  "unverified_evidence": 0,
+  "no_source_text": 1,
+  "support_rate": 0.919,
+  "contradiction_rate": 0.027
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-youtrack-llm.json

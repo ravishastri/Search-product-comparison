@@ -28,8 +28,8 @@ Working log for the take-home. Update the checkboxes and the log as we go. Produ
 ### Phase 0: Repo setup
 - [x] Initialize git repo (branch `main`, no commits yet)
 - [x] `.gitignore` excludes `.env`, `.venv/`, `__pycache__/`, `starter_agent.py`, and the assignment doc
-- [ ] First commit (waiting on your go-ahead)
-- [ ] Create a GitHub remote and push (waiting on your go-ahead)
+- [x] First commit (`4eda3e2`, plus `b1e693b` and `7516234` on branch `evaluator-brief-fixes`)
+- [x] Create a GitHub remote and push (`origin`, branch `evaluator-brief-fixes` pushed; not merged to `main`)
 
 ### Phase 1: Understand the starter
 - [x] Read the rest of `starter_agent.py` (streaming and output logic)
@@ -50,10 +50,18 @@ Working log for the take-home. Update the checkboxes and the log as we go. Produ
 - [x] Live run with real keys (run `linear-20261018-110358`: 44 sources, 20 cited claims, 0 errors)
 
 ### Phase 4: Verify
-- [ ] Build a test set of 5–10 launches with known reception or outcomes
-- [ ] Run the evaluator on each and record results
-- [ ] Score: are findings supported by their cited sources? (before and after any change)
-- [ ] Record what the tool gets wrong, too
+Decided: SaaS is the main eval domain (pricing has ground truth; matches the target user). Car run (`bmw-i4-20261018-130527`) is a secondary generalization case. The starter baseline is included, so improvement is measured on the same products and judge.
+
+- [x] 4a. Golden set: 8 SaaS products in the issue-tracker category. Captured 2026-10-18 with Playwright (accessibility snapshots in `eval/golden/`): Linear, Jira, Plane, Shortcut, ClickUp, Asana, Trello, YouTrack. These pages are the ground truth.
+- [~] 4b. Ground-truth sheet: `eval/golden/ground_truth.json`. Partial and extracted, not hand-written: I pulled price lines from the captured snapshots, and each fact quotes its line. Plan names are inferred for most rows and marked `context_verified: false`. Shortcut has no prices (not captured). A human needs to review it before scoring.
+- [ ] 4c. Starter baseline: run `starter_agent.py` on the same 8 products. Save raw outputs to `eval/runs/starter/`. Needs the API keys in the terminal.
+- [ ] 4d. Evaluator run: run `evaluator.py` on the same 8 products. Save to `eval/runs/evaluator/`.
+- [~] 4e. Judge. Deterministic part built: `eval/judge.py` checks cited IDs exist, prices in a claim appear in its cited text, quotes are verbatim, and sources are dated and not stale. It needs no API keys. Not built yet: the LLM judge (claim vs full cited text, verdict plus evidence quote, different model from the generator, temperature 0). Framework choice: no RAGAS yet. RAGAS faithfulness needs an LLM key and its own dataset format, and the deterministic checks cover the pricing failures we have seen. Add RAGAS as a cross-check once the LLM judge exists.
+- [ ] 4f. Judge calibration: hand-label about 50 claims. Measure agreement with the judge. Report it with the scores. Seed: the claims already hand-checked this session.
+- [ ] 4g. Metrics for starter and evaluator, under the same judge: claim support rate, contradiction rate, citation precision, staleness rate, and recall of ground-truth prices.
+- [ ] 4h. Ablation: turn off one enhancement at a time (date rule, status judge, paraphrase rule) and record the change in each metric.
+- [ ] 4i. Car case: run the evaluator on `bmw-i4` and report what fails, without tuning it to pass.
+- [ ] 4j. Record what the tool gets wrong, too.
 
 ### Phase 4b: Observability (bonus)
 - [x] Add tracing for each run: query plan, each Tavily call, each extraction, and the aggregation step (Langfuse: one root trace `launch_evaluation`, a span per Tavily search, a generation per model call)
@@ -115,6 +123,18 @@ Working log for the take-home. Update the checkboxes and the log as we go. Produ
   - Option 1 applied: undated sources are flagged in the brief. Each source line shows its date or "date unknown", and any claim whose cited sources are all undated gets a "(date unknown)" note. `published` is saved per source in `run.json`. 25 unit tests pass. Replaying run `linear-20261018-112014` through the new renderer shows the flags. Live re-run not done yet.
   - Run `linear-20261018-112447`: similar products Jira, GitHub Issues, YouTrack; Height retired. 68 sources, none dated, so every claim is flagged "date unknown," as intended. 0 unsupported claims. Two problems: (1) the brief is mostly long quotes, a side effect of the earlier "one quote per claim" rule. The prompt now asks for paraphrase, with quotes of at most 10 words. (2) The first brief attempt hit the 16,384-token output limit with an empty reply, and the second attempt worked. The model spends most of its output budget on reasoning. Live re-run not done yet.
   - Takeaway: these tools simulate consumers. Our differentiator is sourced, checkable evidence from Tavily, plus an eval that measures whether claims are supported. Avoid claiming causal predictions. A 2025 arXiv paper found persona simulations can fail on causal questions.
+  - Brief fixes (session 2026-10-18, later). The first brief attempt still hit the output limit on run `linear-20261018-112447`. Raised `max_tokens` from 16384 to 32768. The brief prompt now requires paraphrase with no quotation marks, which replaces the one-quote-per-claim rule. 25 unit tests pass.
+  - Live run `linear-20261018-113305` (run by the user in their terminal): 0 errors, so the first attempt finished. 69 sources. The brief has 0 quotation marks, down from 17 in the previous run. Claims still cite source IDs. All sources are undated, so every claim carries "(date unknown)". Not yet checked: claim support against the cited text, and the Plane "roughly 40% less than Linear's Basic tier" comparison, and the Huly "discontinued" line.
+  - Git: fix committed as `b1e693b` (evaluator, tests, run `linear-20261018-113305`). Remaining project files committed as `7516234`, excluding `starter_agent.py`, which is gitignored. Branch `evaluator-brief-fixes` pushed to `origin`. The commit includes `.playwright-mcp/`, which holds Langfuse dashboard snapshots from the Playwright session. Not yet removed.
+  - Observability: Playwright MCP is connected to Claude Code, and the Langfuse project home is readable. The ERROR-level trace view loaded, but which observations carry the errors is not yet confirmed.
+  - Phase 4 source check, run `linear-20261018-113305` (Playwright, all 27 sources cited in claims). Checks were keyword-level: each page was searched for the figures or terms in its claims, so these results show that the terms appear, not that each claim is fully confirmed.
+    - Supported: S2 ("fastest, most opinionated"), S11 (hosted Huly shut down), S31 ($5,000–$70,000 range), S32 and S35 (Basic $10, Business $16, 250 issues, 2 teams), S40 (Plane $6), S46, S49, S50 (GitHub Team $4, Enterprise $21), S57 and S59 and S60 (Huly Docker, AGPL, EPL), S61 (100 ms), S63 and S65 (GitHub integration), S66 and S67 (Linear Agent, Shared Skills, Coding Sessions dates), S68 (4.7 rating), S69 (G2 4.6 from 122 reviews, Capterra 4.4 from 5).
+    - Wrong or unsupported: S5 says Linear has an official MCP server. The page calls Agiflow "the MCP-native alternative to Linear," which is the competitor's own marketing. Remove the claim.
+    - Conflict not shown in the brief: S69 lists Linear Basic at $50 a month for a team, while the brief gives $10 per user per month (S32, S35). Both are from real sources. The brief should report the conflict.
+    - Weak or unchecked: S55 (brand names only), S52, S54 (MIT matched), S62, S66's triage wording, the S57 "syntax highlighting" claim, and the S65 "sleek interface" and "activity stream" wording, which the Commonwealth page does not contain.
+    - Earlier run `bmw-i4-20261018-130527`, six spot checks: S5 supports the $13,000 gap but its prices are for 2024 model years. S9 is a November 2020 article presented as current. S12 supports the US EQE production pause (September 2025). S41 gives $64,950 "as of this writing" in a pre-pause article. S24 (Reddit) returned 403 and was not checked. S26 is a rumor thread, but the status judge marked EV6 "active."
+    - Takeaway: the pipeline finds real sources, but a fraction of claims carry stale figures, a wrong attribution, or an unshown conflict. Phase 4 needs claim-level scoring against the full cited text, not keyword checks.
+  - Golden set and deterministic judge (session 2026-10-18). Golden set: 8 pricing pages captured (`eval/golden/`). Shortcut prices were not captured. `ground_truth.json` was extracted from the captures and needs review. Judge (`eval/judge.py`) on run `linear-20261018-113305`: 45 claims, all cited IDs valid, 6 price claims, 1 with a price not in its cited text, 0 quoted claims, 0 dated claims, 0 stale claims. Ground-truth price recall 2 of 3, missing the $0 free plan. The judge's flagged claim is "Spendflo ... range from $5,000 to $70,000". The $70,000 is on the page; $5,000 is not in the snippet, and my earlier full-page check did not find it either, so the lower bound looks unsupported. The LLM judge is not built, and the starter baseline cannot run without API keys.
 
 ## Build record
 

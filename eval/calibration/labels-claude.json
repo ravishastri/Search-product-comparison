@@ -1,0 +1,189 @@
+{
+ "labeler": "Claude (Haiku 5.5), from cached page text, not blind to the judge verdict",
+ "agreement": 0.923,
+ "n": 26,
+ "rows": [
+  {
+   "id": 1,
+   "claim": "Linear raised prices in 2025.",
+   "judge": "contradicted",
+   "label": "not_stated",
+   "note": "Source gives price points rising from $8/$14 to $10/$16, but no 2025 date. Close call."
+  },
+  {
+   "id": 2,
+   "claim": "The Jira Premium plan is ~$12\u2013$16/user/month.",
+   "judge": "contradicted",
+   "label": "contradicted",
+   "note": "Source gives Premium as $12/user/month only. $16 upper bound unsupported."
+  },
+  {
+   "id": 3,
+   "claim": "The YouTrack HelpDesk add-on is $5.50/user/month (annual).",
+   "judge": "contradicted",
+   "label": "contradicted",
+   "note": "Source gives $5.50 per AGENT per month (4+ agents). Claim says per user. Close call."
+  },
+  {
+   "id": 4,
+   "claim": "YouTrack includes all features at no extra charge regardless of plan.",
+   "judge": "contradicted",
+   "label": "not_stated",
+   "note": "Source says AI and features are included, not that all features are free. Not stated; judge said contradicted."
+  },
+  {
+   "id": 5,
+   "claim": "The GitHub Team plan is $4/user/month.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 6,
+   "claim": "The Linear Enterprise plan includes SAML/SCIM.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 7,
+   "claim": "Issue tracking is included in all GitHub plans.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 8,
+   "claim": "Jira requires paid add-ons for Gantt.",
+   "judge": "supported",
+   "label": "supported",
+   "note": "Source says Jira 'often requires' add-ons for Gantt. Claim says 'requires'."
+  },
+  {
+   "id": 9,
+   "claim": "The Linear Basic plan is $10/user/month.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 10,
+   "claim": "The Linear Basic plan includes unlimited file uploads.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 11,
+   "claim": "YouTrack offers cloud and self-hosted options without enterprise-only gates.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 12,
+   "claim": "The Linear Business plan includes unlimited teams.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 13,
+   "claim": "The GitHub Enterprise plan includes audit logs.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 14,
+   "claim": "Linear Agent is a built-in AI agent.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 15,
+   "claim": "The Linear Basic plan includes 5 teams.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 16,
+   "claim": "YouTrack includes AI assistance at no extra charge regardless of plan.",
+   "judge": "supported",
+   "label": "supported",
+   "note": "Source says AI Assistance is included with YouTrack subscriptions. 'Regardless of plan' is a stretch."
+  },
+  {
+   "id": 17,
+   "claim": "The Jira Free plan is up to 10 users.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 18,
+   "claim": "The Linear Free plan includes 10MB file uploads.",
+   "judge": "supported",
+   "label": "supported",
+   "note": ""
+  },
+  {
+   "id": 19,
+   "claim": "The Jira Premium plan includes Advanced roadmaps.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": "Cited page does not list Advanced roadmaps. Another cached page does, so the cited source alone does not support it."
+  },
+  {
+   "id": 20,
+   "claim": "Jira has continued tightening GitHub integrations.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": ""
+  },
+  {
+   "id": 21,
+   "claim": "Teams move to Linear or Jira for multi-repo complexity.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": ""
+  },
+  {
+   "id": 22,
+   "claim": "Competitors gate or upsell AI.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": ""
+  },
+  {
+   "id": 23,
+   "claim": "The GitHub Team plan includes required reviewers.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": ""
+  },
+  {
+   "id": 24,
+   "claim": "Teams commonly start with GitHub Issues.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": ""
+  },
+  {
+   "id": 25,
+   "claim": "YouTrack is particularly strong in Russia.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": ""
+  },
+  {
+   "id": 26,
+   "claim": "Teams move to Linear or Jira at ~500 tickets.",
+   "judge": "not_stated",
+   "label": "not_stated",
+   "note": "Single Cotera story about Linear at 500 tickets. Nothing about Jira or a general pattern."
+  }
+ ]
+}

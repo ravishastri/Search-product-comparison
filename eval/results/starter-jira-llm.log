@@ -1,0 +1,87 @@
+Installed 41 packages in 64ms
+[1/75] supported: Jira’s 2025 Free Cloud Tier includes up to 10 users.
+[2/75] supported: Jira’s 2025 Free Cloud Tier includes Scrum/Kanban boards.
+[3/75] supported: Jira’s 2025 Free Cloud Tier includes basic backlog management.
+[4/75] supported: Jira’s 2025 Free Cloud Tier includes 2 GB storage.
+[5/75] supported: Jira’s 2025 Free Cloud Tier includes community-only support.
+[6/75] contradicted: Jira’s 2025 Standard Cloud Tier is commonly listed between ~$7.53–$8.1
+[7/75] supported: Jira’s 2025 Standard Cloud Tier pricing depends on timing and team siz
+[8/75] supported: Jira’s 2025 Standard Cloud Tier removes the 10-user cap.
+[9/75] supported: Jira’s 2025 Standard Cloud Tier adds audit logs.
+[10/75] supported: Jira’s 2025 Standard Cloud Tier includes 250 GB storage.
+[11/75] supported: Jira’s 2025 Standard Cloud Tier increases automation limits.
+[12/75] not_stated: Jira’s 2025 Premium Cloud Tier is commonly listed between ~$13.53–$14.
+[13/75] not_stated: Jira’s 2025 Premium Cloud Tier adds a 99.9% uptime SLA.
+[14/75] supported: Jira’s 2025 Premium Cloud Tier adds 24/7 support.
+[15/75] supported: Jira’s 2025 Premium Cloud Tier includes advanced roadmaps.
+[16/75] supported: Jira’s 2025 Premium Cloud Tier includes unlimited storage.
+[17/75] supported: Jira’s 2025 Premium Cloud Tier includes higher automation limits.
+[18/75] contradicted: Jira’s 2025 Enterprise Cloud Tier uses custom annual quotes.
+[19/75] not_stated: Jira’s 2025 Enterprise Cloud Tier provides a 99.95% SLA.
+[20/75] supported: Jira’s 2025 Enterprise Cloud Tier provides advanced analytics/security
+[21/75] supported: Organizations with 801+ users on Jira’s Enterprise Cloud Tier may see 
+[22/75] supported: Atlassian raised Data Center list prices effective February 11, 2025.
+[23/75] supported: Atlassian increased Advantage Plan (discount) pricing by 30% across ti
+[24/75] supported: Representative annual list prices for Jira Software Data Center includ
+[25/75] supported: Representative annual list prices for Jira Software Data Center includ
+[26/75] supported: Marketplace apps and add-ons are billed per-user.
+[27/75] not_stated: Marketplace apps and add-ons can exceed Jira’s base subscription cost 
+[28/75] supported: Linear Basic is at $10/user/month (annual).
+[29/75] supported: Linear Business is at $16.
+[30/75] supported: Asana Starter is at $10.99/user/month (annual).
+[31/75] not_stated: Asana Advanced is at $24.99.
+[32/75] not_stated: Monday.com Basic is from $9/user/month.
+[33/75] not_stated: Monday.com Pro is around $19.
+[34/75] supported: ClickUp paid plans are from $7/user/month.
+[35/75] not_stated: Azure DevOps uses plan-based pricing.
+[36/75] not_stated: Azure DevOps has no direct per-user equivalent.
+[37/75] not_stated: Azure DevOps is competitive for existing Microsoft shops.
+[38/75] no_source_text: Jira offers 3,000+ integrations.
+[39/75] supported: Linear is keyboard-driven.
+[40/75] not_stated: Asana has no native Git integration.
+[41/75] supported: Asana has timeline/calendar views.
+[42/75] not_stated: Monday.com has flexible templates.
+[43/75] supported: ClickUp is highly customizable.
+[44/75] supported: ClickUp performance can degrade at scale.
+[45/75] not_stated: Azure DevOps has deep CI/CD and repo integration.
+[46/75] supported: Azure DevOps has tight Microsoft stack alignment.
+[47/75] supported: Zenhub has native GitHub integration.
+[48/75] supported: Atlassian has actively guided customers from Data Center to Cloud via 
+[49/75] supported: Atlassian merged Jira Software and Jira Work Management into a single 
+[50/75] supported: The unified “Jira” platform serves both technical and business teams.
+[51/75] supported: On SoftwareReviews, Jira holds a composite score of 8.8/10.
+[52/75] supported: On SoftwareReviews, Jira holds a CX Score of 9.1/10.
+[53/75] supported: Recent validated reviews praise Jira's automation rules.
+[54/75] not_stated: Recent validated reviews praise Jira's sandbox environment.
+[55/75] not_stated: Recent validated reviews praise Jira's roadmap tracking.
+[56/75] no_source_text: A meta-analysis of Reddit review data showed that 64.5% of users gave 
+[57/75] no_source_text: A meta-analysis of Reddit review data showed that 34.8% of users gave 
+[58/75] not_stated: Jira’s 2024–2025 unified rebranding merged Jira Software and Work Mana
+[59/75] supported: Jira’s 2024–2025 unified rebranding renamed “issues” to “work items”.
+[60/75] supported: Jira’s 2024–2025 unified rebranding renamed “projects” to “spaces”.
+[61/75] supported: Jira’s 2024–2025 unified rebranding generated significant backlash in 
+[62/75] supported: Users reported degraded user experience.
+[63/75] supported: Users reported distrust of the brand.
+[64/75] supported: Users reported confusion around forced terminology changes.
+[65/75] supported: Some administrators criticized a new Preview Panel feature as “a compl
+[66/75] supported: Others noted that non-technical users appreciated the updated navigati
+[67/75] supported: Others noted that non-technical users appreciated inline editing in li
+[68/75] not_stated: Users find self-service resources effective.
+[69/75] not_stated: Self-service resources include the knowledge base.
+[70/75] not_stated: Self-service resources include community forums.
+[71/75] not_stated: Complex issue resolution is often slow for Standard plan customers.
+[72/75] not_stated: Standard plan customers lack 24/7 dedicated support.
+[73/75] supported: Atlassian continues adding AI capabilities (Atlassian Intelligence/Rov
+[74/75] not_stated: A beta feature, an AI-assisted JQL error fixer, has become the most-us
+[75/75] not_stated: Competitors like Linear, Zenhub, and Shortcut are capturing dissatisfi
+{
+  "claims": 75,
+  "supported": 47,
+  "contradicted": 2,
+  "not_stated": 23,
+  "unverified_evidence": 0,
+  "no_source_text": 3,
+  "support_rate": 0.627,
+  "contradiction_rate": 0.027
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/starter-jira-llm.json

@@ -1,0 +1,92 @@
+[1/81] no_source_text: Shortcut offers four subscription tiers.
+[2/81] supported: Shortcut offers a Free tier.
+[3/81] supported: The Free tier costs $0 per user/month.
+[4/81] supported: The Free tier is for teams of up to 10 people.
+[5/81] supported: The Free tier includes Kanban boards.
+[6/81] supported: The Free tier includes roadmaps.
+[7/81] supported: The Free tier includes reports.
+[8/81] supported: The Free tier includes sprints.
+[9/81] supported: The Free tier includes docs.
+[10/81] supported: The Free tier includes integrations with GitHub.
+[11/81] supported: The Free tier includes integrations with Slack.
+[12/81] supported: The Free tier includes integrations with Figma.
+[13/81] supported: Shortcut offers a Team tier.
+[14/81] supported: The Team tier costs $8.50 per user/month when billed annually.
+[15/81] supported: The Team tier costs $10 monthly.
+[16/81] not_stated: The Team tier adds unlimited users.
+[17/81] not_stated: The Team tier adds multiple customizable workflows (up to five).
+[18/81] not_stated: The Team tier adds work-in-progress limits.
+[19/81] not_stated: The Team tier adds automations.
+[20/81] not_stated: The Team tier adds access to all integrations.
+[21/81] supported: Shortcut offers a Business tier.
+[22/81] supported: The Business tier costs $12 per user/month when billed annually.
+[23/81] supported: The Business tier costs $16 monthly.
+[24/81] contradicted: The Business tier includes unlimited everything.
+[25/81] not_stated: The Business tier includes objectives/OKR tracking.
+[26/81] not_stated: The Business tier includes advanced custom fields.
+[27/81] not_stated: The Business tier includes advanced reporting.
+[28/81] supported: The Business tier includes multiple workspaces.
+[29/81] supported: Shortcut offers an Enterprise tier.
+[30/81] supported: The Enterprise tier has custom pricing.
+[31/81] supported: The Enterprise tier adds single sign-on (SSO).
+[32/81] supported: The Enterprise tier adds enterprise-grade support.
+[33/81] no_source_text: Shortcut positions itself as a middle ground between the minimalism of
+[34/81] no_source_text: Shortcut is explicitly built for software product and engineering team
+[35/81] supported: Shortcut has a Free Tier of Up to 10 users.
+[36/81] supported: Shortcut's paid plans start at $8.50/user/mo.
+[37/81] supported: Linear has a Free Tier of Up to 10 users.
+[38/81] supported: Linear's paid plans start at $10/user/mo.
+[39/81] supported: Asana has a Free Tier of Small teams.
+[40/81] supported: Asana's paid plans start at $10.99/user/mo.
+[41/81] not_stated: Jira has a Free Tier Available.
+[42/81] supported: Jira's paid plans start at $7.75/user/mo (Standard).
+[43/81] supported: ClickUp has a Free Tier Available.
+[44/81] supported: ClickUp's paid plans start at $7/user/mo.
+[45/81] supported: Monday.com has a Free Tier of Up to 2 seats.
+[46/81] supported: Monday.com's paid plans start at $9/seat/mo.
+[47/81] supported: Notion has a Free Tier of Individuals.
+[48/81] supported: Notion's paid plans start at $10/user/mo.
+[49/81] supported: Jira remains the enterprise standard for 50+ engineers.
+[50/81] supported: Jira offers custom fields.
+[51/81] supported: Jira offers complex workflow transitions.
+[52/81] supported: Jira offers JQL reporting.
+[53/81] supported: Jira offers deep auditability.
+[54/81] supported: Linear is more opinionated and keyboard-driven.
+[55/81] supported: Reviewers note Linear “stops there”.
+[56/81] supported: Linear does not serve marketing or sales well.
+[57/81] supported: Linear not serving marketing or sales well can force companies to run 
+[58/81] supported: Asana lacks native sprint/cycle support.
+[59/81] supported: Asana lacks deep Git integration.
+[60/81] not_stated: Asana lacks agile metrics.
+[61/81] supported: Teams pushed from a dev-centric tool into Asana often report feeling s
+[62/81] unverified_evidence: ClickUp is praised for breadth.
+[63/81] supported: ClickUp is praised for customization.
+[64/81] supported: Monday.com is visual.
+[65/81] supported: Monday.com is cross-functional.
+[66/81] supported: Shortcut holds a 4.4/5 on G2 (from 177+ reviews).
+[67/81] supported: Shortcut holds a 4.6/5 on Software Advice/Capterra (from 363 reviews).
+[68/81] supported: One Principal Software Engineer rated it 3.0/5.
+[69/81] supported: One Principal Software Engineer called it a “solid, customizable, cost
+[70/81] supported: The Principal Software Engineer noted weaker third-party integrations 
+[71/81] supported: Weaker third-party integrations create “toil” when trying to build con
+[72/81] unverified_evidence: After six months of use, a reviewer praised Shortcut for balancing “co
+[73/81] unverified_evidence: A reviewer said Shortcut has an intuitive interface.
+[74/81] unverified_evidence: A reviewer said Shortcut's interface gets teams started without days o
+[75/81] supported: Criticisms include reporting that is “solid but not especially detaile
+[76/81] supported: Criticisms include fewer advanced customization options than Jira.
+[77/81] supported: Positive themes include speed/simplicity versus “heavyweight agile sui
+[78/81] supported: Positive themes include strong Git and Slack integrations.
+[79/81] not_stated: Positive themes include dependable story/epic workflows.
+[80/81] supported: Recurring negatives include limited cross-project portfolio views.
+[81/81] supported: Recurring negatives include lighter dependency modeling compared to to
+{
+  "claims": 81,
+  "supported": 62,
+  "contradicted": 1,
+  "not_stated": 11,
+  "unverified_evidence": 4,
+  "no_source_text": 3,
+  "support_rate": 0.765,
+  "contradiction_rate": 0.012
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/starter-shortcut-llm.json

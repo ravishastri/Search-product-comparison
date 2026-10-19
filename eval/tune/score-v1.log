@@ -1,0 +1,108 @@
+[1/90] T001 label=supported judge=supported
+[2/90] T002 label=not_stated judge=supported
+[3/90] T003 label=no_source judge=supported
+[4/90] T004 label=supported judge=supported
+[5/90] T005 label=supported judge=supported
+[6/90] T006 label=supported judge=supported
+[7/90] T007 label=not_stated judge=not_stated
+[8/90] T008 label=not_stated judge=not_stated
+[9/90] T009 label=not_stated judge=not_stated
+[10/90] T010 label=supported judge=supported
+[11/90] T011 label=no_source judge=contradicted
+[12/90] T012 label=not_stated judge=supported
+[13/90] T013 label=not_stated judge=supported
+[14/90] T014 label=supported judge=supported
+[15/90] T015 label=supported judge=supported
+[16/90] T017 label=supported judge=supported
+[17/90] T018 label=not_stated judge=supported
+[18/90] T019 label=supported judge=not_stated
+[19/90] T020 label=not_stated judge=not_stated
+[20/90] T021 label=supported judge=not_stated
+[21/90] T022 label=not_stated judge=not_stated
+[22/90] T023 label=not_stated judge=supported
+[23/90] T024 label=supported judge=supported
+[24/90] T025 label=not_stated judge=supported
+[25/90] T026 label=not_stated judge=supported
+[26/90] T027 label=not_stated judge=supported
+[27/90] T028 label=supported judge=supported
+[28/90] T029 label=supported judge=supported
+[29/90] T030 label=contradicted judge=not_stated
+[30/90] T031 label=not_stated judge=not_stated
+[31/90] T032 label=not_stated judge=not_stated
+[32/90] T033 label=not_stated judge=contradicted
+[33/90] T034 label=supported judge=contradicted
+[34/90] T035 label=supported judge=supported
+[35/90] T036 label=supported judge=supported
+[36/90] T037 label=supported judge=supported
+[37/90] T038 label=supported judge=supported
+[38/90] T039 label=not_stated judge=supported
+[39/90] T041 label=not_stated judge=supported
+[40/90] T042 label=supported judge=not_stated
+[41/90] T043 label=not_stated judge=not_stated
+[42/90] T044 label=not_stated judge=not_stated
+[43/90] T045 label=not_stated judge=not_stated
+[44/90] T046 label=not_stated judge=supported
+[45/90] T047 label=supported judge=disagreement
+[46/90] T048 label=supported judge=supported
+[47/90] T049 label=supported judge=supported
+[48/90] T050 label=supported judge=supported
+[49/90] T051 label=not_stated judge=disagreement
+[50/90] T053 label=not_stated judge=not_stated
+[51/90] T054 label=not_stated judge=disagreement
+[52/90] T055 label=not_stated judge=not_stated
+[53/90] T056 label=not_stated judge=contradicted
+[54/90] T057 label=supported judge=supported
+[55/90] T058 label=not_stated judge=supported
+[56/90] T059 label=not_stated judge=supported
+[57/90] T060 label=supported judge=supported
+[58/90] T061 label=supported judge=supported
+[59/90] T063 label=supported judge=supported
+[60/90] T064 label=not_stated judge=supported
+[61/90] T065 label=supported judge=not_stated
+[62/90] T066 label=not_stated judge=not_stated
+[63/90] T067 label=not_stated judge=not_stated
+[64/90] T068 label=supported judge=contradicted
+[65/90] T069 label=not_stated judge=contradicted
+[66/90] T070 label=supported judge=supported
+[67/90] T071 label=not_stated judge=supported
+[68/90] T072 label=supported judge=supported
+[69/90] T073 label=supported judge=supported
+[70/90] T074 label=supported judge=supported
+[71/90] T075 label=supported judge=supported
+[72/90] T076 label=supported judge=supported
+[73/90] T077 label=not_stated judge=not_stated
+[74/90] T078 label=not_stated judge=not_stated
+[75/90] T079 label=not_stated judge=not_stated
+[76/90] T080 label=not_stated judge=contradicted
+[77/90] T081 label=not_stated judge=not_stated
+[78/90] T082 label=supported judge=supported
+[79/90] T083 label=supported judge=supported
+[80/90] T084 label=not_stated judge=supported
+[81/90] T085 label=supported judge=supported
+[82/90] T086 label=supported judge=supported
+[83/90] T087 label=supported judge=supported
+[84/90] T088 label=not_stated judge=supported
+[85/90] T089 label=supported judge=not_stated
+[86/90] T090 label=not_stated judge=not_stated
+[87/90] T091 label=not_stated judge=contradicted
+[88/90] T092 label=supported judge=disagreement
+[89/90] T093 label=not_stated judge=disagreement
+[90/90] T094 label=supported judge=contradicted
+{
+  "tune": {
+    "n": 46,
+    "agreement": 0.587
+  },
+  "val": {
+    "n": 17,
+    "agreement": 0.706
+  },
+  "test": {
+    "n": 27,
+    "agreement": 0.593
+  },
+  "all": {
+    "n": 90,
+    "agreement": 0.611
+  }
+}

@@ -1,0 +1,1725 @@
+- generic [active] [ref=f3034e1]:
+  - banner [ref=f3034e4]:
+    - navigation [ref=f3034e7]:
+      - link [ref=f3034e10] [cursor=pointer]:
+        - /url: /
+        - img "Plane" [ref=f3034e11]
+      - generic [ref=f3034e13]:
+        - generic [ref=f3034e14]:
+          - button "Product" [ref=f3034e16] [cursor=pointer]
+          - button "Solutions" [ref=f3034e20] [cursor=pointer]
+          - button "Resources" [ref=f3034e24] [cursor=pointer]
+        - link "Pricing" [ref=f3034e28] [cursor=pointer]:
+          - /url: /pricing
+        - link "Self-host" [ref=f3034e30] [cursor=pointer]:
+          - /url: /self-hosted
+      - generic [ref=f3034e31]:
+        - link "View demo" [ref=f3034e32] [cursor=pointer]:
+          - /url: /view-demo
+        - link "Sales" [ref=f3034e33] [cursor=pointer]:
+          - /url: /talk-to-sales
+        - link "Login" [ref=f3034e34] [cursor=pointer]:
+          - /url: https://app.plane.so/
+        - link "Get started free" [ref=f3034e35] [cursor=pointer]:
+          - /url: https://app.plane.so/sign-up
+  - generic [ref=f3034e38]:
+    - generic [ref=f3034e39]:
+      - generic [ref=f3034e43]:
+        - heading "Start free, upgrade comfortably" [level=1] [ref=f3034e44]
+        - generic [ref=f3034e45]:
+          - text: Packaged for modern project management teams, each of our plans unlocks way more than available alternatives.
+          - link "See for yourself" [ref=f3034e46] [cursor=pointer]:
+            - /url: /pricing#features
+      - generic [ref=f3034e50]:
+        - tablist "Pricing options" [ref=f3034e51]:
+          - tab "Cloud" [selected] [ref=f3034e52] [cursor=pointer]
+          - tab "Self-hosted" [ref=f3034e57] [cursor=pointer]
+        - generic [ref=f3034e62]:
+          - generic [ref=f3034e63]: Monthly
+          - switch "Annually" [checked] [ref=f3034e64]
+          - generic [ref=f3034e67]: Yearly
+      - generic [ref=f3034e70]:
+        - generic [ref=f3034e71]:
+          - generic [ref=f3034e72]:
+            - generic [ref=f3034e73]:
+              - generic [ref=f3034e74]:
+                - generic [ref=f3034e75]: Free
+                - generic [ref=f3034e78]:
+                  - heading "$ 0" [level=5] [ref=f3034e79]:
+                    - text: $
+                    - generic [ref=f3034e80]: "0"
+                  - generic [ref=f3034e85]: per seat per month
+              - generic [ref=f3034e86]: No-frills project management for startups, passion projects and more.
+            - link "Get started free" [ref=f3034e89] [cursor=pointer]:
+              - /url: https://app.plane.so/sign-up
+          - generic [ref=f3034e93]:
+            - generic [ref=f3034e94]: Get started free with
+            - generic [ref=f3034e95]:
+              - generic [ref=f3034e97]:
+                - button "Projects and Work Items" [ref=f3034e99] [cursor=pointer]
+                - generic: Deliver projects fast with feature-rich and easy work items.
+              - generic [ref=f3034e101]:
+                - button "Cycles and Modules" [ref=f3034e103] [cursor=pointer]
+                - generic: Timebox work and break it down into repeatable blocks in clicks.
+              - generic [ref=f3034e105]:
+                - button "Layouts and Views" [ref=f3034e107] [cursor=pointer]
+                - generic: Five layouts, unlimited views, flexibility for everyone
+              - generic [ref=f3034e109]:
+                - button "Work Item Intake" [ref=f3034e111] [cursor=pointer]
+                - generic: Capture all feedback, choose which ones to turn into work items.
+              - generic [ref=f3034e113]:
+                - button "Estimates" [ref=f3034e115] [cursor=pointer]
+                - generic: Take the guesswork out of effort and deadlines.
+              - generic [ref=f3034e117]:
+                - button "Project Pages" [ref=f3034e119] [cursor=pointer]
+                - generic: Document everything about your work without switching to a different interface.
+              - link "12 users" [ref=f3034e120] [cursor=pointer]:
+                - /url: https://docs.plane.so/workspaces-and-users/billing-and-plans#how-the-per-seat-model-and-billing-work
+        - generic [ref=f3034e124]:
+          - generic [ref=f3034e125]:
+            - generic [ref=f3034e126]:
+              - generic [ref=f3034e127]:
+                - generic [ref=f3034e128]:
+                  - generic [ref=f3034e129]: Pro
+                  - generic [ref=f3034e130]: Save 25%
+                - generic [ref=f3034e133]:
+                  - heading "$ 6" [level=5] [ref=f3034e134]:
+                    - text: $
+                    - generic [ref=f3034e135]: "6"
+                  - generic [ref=f3034e140]: per seat per month
+              - generic [ref=f3034e141]: Designed and built for mature teams that need more
+            - generic [ref=f3034e143]:
+              - link "Get Pro at this price" [ref=f3034e144] [cursor=pointer]:
+                - /url: https://app.plane.so/upgrade/pro/
+              - link "Start two-week free trial" [ref=f3034e146] [cursor=pointer]:
+                - /url: https://app.plane.so/sign-up
+          - generic [ref=f3034e151]:
+            - generic [ref=f3034e152]: Everything in Free +
+            - generic [ref=f3034e153]:
+              - generic [ref=f3034e155]:
+                - button "500 AI credits / seat" [ref=f3034e157] [cursor=pointer]
+                - generic: Credits are issued monthly per seat. Agents draw from a separate workspace pool.
+              - generic [ref=f3034e159]:
+                - button "Work Items Types and Properties" [ref=f3034e161] [cursor=pointer]
+                - generic: Customize how you work in teams with unique looks and properties.
+              - generic [ref=f3034e163]:
+                - button "Workspace Wiki" [ref=f3034e165] [cursor=pointer]
+                - generic: Topic- and team-specific knowledge for the whole company
+              - generic [ref=f3034e167]:
+                - button "Time Tracking and Work Logs" [ref=f3034e169] [cursor=pointer]
+                - generic: Track time per work item, download reports, edit as you see fit.
+              - generic [ref=f3034e171]:
+                - button "Work Item and Page Templates" [ref=f3034e173] [cursor=pointer]
+                - generic: Replicate your standard work items without headaches.
+              - generic [ref=f3034e175]:
+                - button "Dashboards" [ref=f3034e177] [cursor=pointer]
+                - generic: Visualize your work data, zoom in and out quickly.
+              - generic [ref=f3034e179]:
+                - button "Initiatives" [ref=f3034e181] [cursor=pointer]
+                - generic: Codify your mission and objectives easily.
+              - generic [ref=f3034e183]:
+                - button "Teamspaces" [ref=f3034e185] [cursor=pointer]
+                - generic: A noise-free, customizable space for your teams to collaborate.
+              - generic [ref=f3034e187]:
+                - button "Integrations + Marketplace" [ref=f3034e189] [cursor=pointer]
+                - generic: Connect your existing tool stack.
+              - link "1:5 Guests" [ref=f3034e190] [cursor=pointer]:
+                - /url: https://docs.plane.so/workspaces-and-users/billing-and-plans#how-the-per-seat-model-and-billing-work
+        - generic [ref=f3034e194]:
+          - generic [ref=f3034e195]:
+            - generic [ref=f3034e196]:
+              - generic [ref=f3034e197]:
+                - generic [ref=f3034e198]:
+                  - generic [ref=f3034e199]: Business
+                  - generic [ref=f3034e200]: Save 13%
+                - generic [ref=f3034e203]:
+                  - heading "$ 1 3" [level=5] [ref=f3034e3215]:
+                    - text: $
+                    - generic [ref=f3034e3218]:
+                      - generic [ref=f3034e3219]: "1"
+                      - generic [ref=f3034e3221]: "3"
+                  - generic [ref=f3034e211]: per seat per month
+              - generic [ref=f3034e212]: Best for group PMs, larger teams, and greater workflow controls
+            - generic [ref=f3034e214]:
+              - link "Get Business at this price" [ref=f3034e215] [cursor=pointer]:
+                - /url: https://app.plane.so/upgrade/business/
+              - link "Start two-week free trial" [ref=f3034e217] [cursor=pointer]:
+                - /url: https://app.plane.so/sign-up
+          - generic [ref=f3034e222]:
+            - generic [ref=f3034e223]: Everything in Pro +
+            - generic [ref=f3034e224]:
+              - generic [ref=f3034e226]:
+                - button "1000 AI credits / seat" [ref=f3034e228] [cursor=pointer]
+                - generic: Credits are issued monthly per seat, with per-agent limits and usage reports.
+              - generic [ref=f3034e230]:
+                - button "Project Templates" [ref=f3034e232] [cursor=pointer]
+                - generic: Scale proven workflows across teams.
+              - generic [ref=f3034e234]:
+                - button "Recurring Work Items" [ref=f3034e236] [cursor=pointer]
+                - generic: Automate the cyclical work so that your team never misses, duplicates or mismanages
+              - generic [ref=f3034e238]:
+                - button "Intake Email and Forms" [ref=f3034e240] [cursor=pointer]
+                - generic: Turn external emails and form submissions into triageable work items.
+              - generic [ref=f3034e242]:
+                - button "Nested Pages and Embeds" [ref=f3034e244] [cursor=pointer]
+                - generic: Record knowledge progressively and offer rich context from other sources.
+              - generic [ref=f3034e246]:
+                - button "Single Workflow" [ref=f3034e248] [cursor=pointer]
+                - generic: Control how work items move between states within each project.
+              - generic [ref=f3034e250]:
+                - button "Customers" [ref=f3034e252] [cursor=pointer]
+                - generic: Dedicated profiles of your customers with their requests linked to work items
+              - generic [ref=f3034e254]:
+                - button "Dashboards with Advanced Widgets" [ref=f3034e256] [cursor=pointer]
+                - generic: Advanced visualizations, deeper dives, flexible pivots
+        - generic [ref=f3034e257]:
+          - generic [ref=f3034e258]:
+            - generic [ref=f3034e259]:
+              - generic [ref=f3034e260]:
+                - generic [ref=f3034e261]: Enterprise Grid
+                - heading "Quote on request" [level=5] [ref=f3034e265]
+              - generic [ref=f3034e266]: Custom plans that include wishlist bells and whistles for your company
+            - link "Talk to us" [ref=f3034e269] [cursor=pointer]:
+              - /url: /talk-to-sales
+          - generic [ref=f3034e273]:
+            - generic [ref=f3034e274]: Everything in Business +
+            - generic [ref=f3034e275]:
+              - generic [ref=f3034e277]:
+                - button "Flexible AI credits" [ref=f3034e279] [cursor=pointer]
+                - generic: Custom credit allocations, usage controls, and priority support.
+              - generic [ref=f3034e281]:
+                - button "Private + managed deployments" [ref=f3034e283] [cursor=pointer]
+                - generic: Plane as a tailored, fully managed service
+              - generic [ref=f3034e285]:
+                - button "Granular Access Control" [ref=f3034e287] [cursor=pointer]
+                - generic: Control who sees what and when at the smallest level.
+              - generic [ref=f3034e289]:
+                - button "Multiple Workflows + Approvals" [ref=f3034e291] [cursor=pointer]
+                - generic: Run workflows by work item type with designated approvers per transition.
+              - generic [ref=f3034e293]:
+                - button "LDAP support" [ref=f3034e295] [cursor=pointer]
+                - generic: Authenticate from, authorize by, and sync groups with your LDAP directory.
+              - generic [ref=f3034e297]:
+                - button "API-enabled Audit Logs" [ref=f3034e299] [cursor=pointer]
+                - generic: Programmatically trace who did what when.
+              - generic [ref=f3034e301]:
+                - button "Migration and Implementation Services" [ref=f3034e303] [cursor=pointer]
+                - generic: White-glove switch to Plane from any project management software
+      - generic [ref=f3034e306]:
+        - generic [ref=f3034e312]:
+          - generic [ref=f3034e313]: Run Plane your way on your infrastructure.
+          - generic [ref=f3034e314]: Deploy Plane on your own servers with complete control and flexibility.
+        - generic [ref=f3034e321]:
+          - generic [ref=f3034e322]: Full data ownership
+          - generic [ref=f3034e323]: Keep all your data, source code, and configurations entirely within your environment.
+        - generic [ref=f3034e328]:
+          - generic [ref=f3034e329]: Built for compliance and custom infra
+          - generic [ref=f3034e330]: Ideal for teams with security, compliance, or infrastructure requirements.
+      - generic [ref=f3034e333]:
+        - link "Complete feature list" [ref=f3034e334] [cursor=pointer]:
+          - /url: /pricing#features
+        - link "Savings calculator" [ref=f3034e335] [cursor=pointer]:
+          - /url: /pricing#calculator
+    - generic [ref=f3034e336]:
+      - generic [ref=f3034e339]:
+        - heading "Slash your bills by more than 70%" [level=4] [ref=f3034e340]
+        - generic [ref=f3034e341]: Choose one from both sets of tools below and we will automatically set their comparable plans.
+      - generic [ref=f3034e344]:
+        - generic [ref=f3034e345]:
+          - generic [ref=f3034e346]:
+            - generic [ref=f3034e347]:
+              - generic [ref=f3034e348]:
+                - generic [ref=f3034e349]: Number of members
+                - textbox "Number of members" [ref=f3034e350]: "10"
+              - generic [ref=f3034e351]:
+                - generic [aria-hidden] [ref=f3034e354] [cursor=pointer]
+                - generic [ref=f3034e355]:
+                  - generic: "10"
+                  - generic: "100"
+                  - generic: "1000"
+                  - generic: "5000"
+            - generic [ref=f3034e356]:
+              - generic [ref=f3034e357]: Project management software
+              - generic [ref=f3034e358]:
+                - button [ref=f3034e359] [cursor=pointer]:
+                  - img "Jira" [ref=f3034e360]
+                - button [ref=f3034e361] [cursor=pointer]:
+                  - img "Linear" [ref=f3034e362]
+                - button [ref=f3034e363] [cursor=pointer]:
+                  - img "ClickUp" [ref=f3034e364]
+                - button [ref=f3034e365] [cursor=pointer]:
+                  - img "Asana" [ref=f3034e366]
+                - button [ref=f3034e367] [cursor=pointer]:
+                  - img "Monday" [ref=f3034e368]
+                - button [ref=f3034e369] [cursor=pointer]:
+                  - img "GitHub" [ref=f3034e370]
+                - button [ref=f3034e371] [cursor=pointer]:
+                  - img "Trello" [ref=f3034e372]
+                - button [ref=f3034e373] [cursor=pointer]:
+                  - img "Wrike" [ref=f3034e374]
+            - generic [ref=f3034e375]:
+              - generic [ref=f3034e376]: Knowledge management software
+              - generic [ref=f3034e377]:
+                - button [ref=f3034e378] [cursor=pointer]:
+                  - img "Confluence" [ref=f3034e379]
+                - button [ref=f3034e380] [cursor=pointer]:
+                  - img "Microsoft Word" [ref=f3034e381]
+                - button [ref=f3034e382] [cursor=pointer]:
+                  - img "Obsidian" [ref=f3034e383]
+                - button [ref=f3034e384] [cursor=pointer]:
+                  - img "Notion" [ref=f3034e385]
+                - button [ref=f3034e386] [cursor=pointer]:
+                  - img "Google Docs" [ref=f3034e387]
+                - button [ref=f3034e388] [cursor=pointer]:
+                  - img "Outline" [ref=f3034e389]
+                - button [ref=f3034e390] [cursor=pointer]:
+                  - img "Coda" [ref=f3034e391]
+          - generic [ref=f3034e392]:
+            - generic [ref=f3034e393]:
+              - generic [ref=f3034e394]: Plan
+              - button "Pro" [ref=f3034e396]
+            - generic [ref=f3034e397]:
+              - generic [ref=f3034e398]: Price
+              - generic [ref=f3034e399]: $6 seat per month
+            - generic [ref=f3034e400]:
+              - generic [ref=f3034e402]:
+                - text: Annual cost with Jira for
+                - generic [ref=f3034e3225]:
+                  - generic [ref=f3034e3226]: "1"
+                  - generic [ref=f3034e3228]: "0"
+                - text: users
+              - generic [ref=f3034e409]:
+                - text: $
+                - generic [ref=f3034e3231]:
+                  - generic [ref=f3034e3232]:
+                    - generic [ref=f3034e3233]: "1"
+                    - generic [ref=f3034e3235]: ","
+                    - generic [ref=f3034e3237]: "4"
+                    - generic [ref=f3034e3239]: "9"
+                    - generic [ref=f3034e3241]: "7"
+                  - generic [ref=f3034e3243]:
+                    - generic [ref=f3034e3244]: .
+                    - generic [ref=f3034e3246]: "6"
+                - text: per year
+            - generic [ref=f3034e422]:
+              - generic [ref=f3034e424]:
+                - text: Annual cost with Confluence for
+                - generic [ref=f3034e3250]:
+                  - generic [ref=f3034e3251]: "1"
+                  - generic [ref=f3034e3253]: "0"
+                - text: users
+              - generic [ref=f3034e431]:
+                - text: $
+                - generic [ref=f3034e3256]:
+                  - generic [ref=f3034e3257]:
+                    - generic [ref=f3034e3258]: "5"
+                    - generic [ref=f3034e3260]: "8"
+                    - generic [ref=f3034e3262]: "6"
+                  - generic [ref=f3034e3264]:
+                    - generic [ref=f3034e3265]: .
+                    - generic [ref=f3034e3267]: "8"
+                - text: per year
+        - generic [ref=f3034e442]:
+          - heading "We did the math for you." [level=5] [ref=f3034e443]
+          - generic [ref=f3034e444]:
+            - generic [ref=f3034e445]:
+              - generic [ref=f3034e446]: Your tools of choice today
+              - heading "$ 2 , 0 8 4 . 4" [level=5] [ref=f3034e3269]:
+                - generic [ref=f3034e448]:
+                  - generic [ref=f3034e3270]: $
+                  - generic [ref=f3034e3274]:
+                    - generic [ref=f3034e3275]:
+                      - generic [ref=f3034e3276]: "2"
+                      - generic [ref=f3034e3278]: ","
+                      - generic [ref=f3034e3280]: "0"
+                      - generic [ref=f3034e3282]: "8"
+                      - generic [ref=f3034e3284]: "4"
+                    - generic [ref=f3034e3286]:
+                      - generic [ref=f3034e3287]: .
+                      - generic [ref=f3034e3289]: "4"
+            - generic [ref=f3034e462]:
+              - generic [ref=f3034e463]: Price with Plane
+              - heading "$ 7 2 0" [level=5] [ref=f3034e3291]:
+                - generic [ref=f3034e465]:
+                  - generic [ref=f3034e3292]: $
+                  - generic [ref=f3034e3297]:
+                    - generic [ref=f3034e3298]: "7"
+                    - generic [ref=f3034e3300]: "2"
+                    - generic [ref=f3034e3302]: "0"
+            - generic [ref=f3034e474]:
+              - generic [ref=f3034e475]: Savings with Plane
+              - heading "$ 1 , 3 6 4 . 4" [level=5] [ref=f3034e3304]:
+                - generic [ref=f3034e477]:
+                  - generic [ref=f3034e3305]: $
+                  - generic [ref=f3034e3309]:
+                    - generic [ref=f3034e3310]:
+                      - generic [ref=f3034e3311]: "1"
+                      - generic [ref=f3034e3313]: ","
+                      - generic [ref=f3034e3315]: "3"
+                      - generic [ref=f3034e3317]: "6"
+                      - generic [ref=f3034e3319]: "4"
+                    - generic [ref=f3034e3321]:
+                      - generic [ref=f3034e3322]: .
+                      - generic [ref=f3034e3324]: "4"
+    - link "View testimonials from 50,000+ teams using Plane" [ref=f3034e496] [cursor=pointer]:
+      - /url: /testimonials
+      - heading "Join 50,000+ teams that actually enjoy their work" [level=6] [ref=f3034e498]
+      - generic [ref=f3034e499]:
+        - generic:
+          - generic:
+            - img "Sony"
+      - generic [ref=f3034e500]:
+        - generic:
+          - generic:
+            - img "Accenture"
+      - generic [ref=f3034e501]:
+        - generic:
+          - generic:
+            - img "SSI"
+      - generic [ref=f3034e502]:
+        - generic:
+          - generic:
+            - img "Texelis"
+    - generic [ref=f3034e503]:
+      - heading "Features that unlock just when you need them" [level=4] [ref=f3034e507]
+      - generic [ref=f3034e509]:
+        - generic [ref=f3034e510]:
+          - heading "Features" [level=6] [ref=f3034e513]
+          - generic [ref=f3034e514]:
+            - generic [ref=f3034e515]:
+              - generic [ref=f3034e516]:
+                - generic [ref=f3034e517]: Free
+                - generic [ref=f3034e519]:
+                  - generic [ref=f3034e520]: $0
+                  - generic [ref=f3034e521]: per seat per month
+              - link "Get started free" [ref=f3034e522] [cursor=pointer]:
+                - /url: https://app.plane.so/sign-up/
+            - generic [ref=f3034e523]:
+              - generic [ref=f3034e524]:
+                - generic [ref=f3034e525]: Pro
+                - generic [ref=f3034e527]:
+                  - generic [ref=f3034e528]: $6
+                  - generic [ref=f3034e529]: per seat per month
+              - link "Get Pro" [ref=f3034e530] [cursor=pointer]:
+                - /url: https://app.plane.so/upgrade/pro
+            - generic [ref=f3034e531]:
+              - generic [ref=f3034e532]:
+                - generic [ref=f3034e533]: Business
+                - generic [ref=f3034e535]:
+                  - generic [ref=f3034e536]: $13
+                  - generic [ref=f3034e537]: per seat per month
+              - link "Get Business" [ref=f3034e538] [cursor=pointer]:
+                - /url: https://app.plane.so/upgrade/business
+            - generic [ref=f3034e539]:
+              - generic [ref=f3034e540]:
+                - generic [ref=f3034e541]: Enterprise Grid
+                - generic [ref=f3034e543]: Quote on request
+              - link "Talk to us" [ref=f3034e545] [cursor=pointer]:
+                - /url: /talk-to-sales
+        - generic [ref=f3034e546]:
+          - link "Core Project Management" [ref=f3034e549] [cursor=pointer]:
+            - /url: "#core-project-management"
+          - table [ref=f3034e551]:
+            - rowgroup [ref=f3034e552]:
+              - row [ref=f3034e553]:
+                - cell [ref=f3034e554]:
+                  - generic [ref=f3034e557] [cursor=pointer]:
+                    - text: Projects
+                    - generic [ref=f3034e558]:
+                      - 'img "Info: Add projects to house work items, cycles, and modules." [ref=f3034e559]'
+                      - tooltip "Add projects to house work items, cycles, and modules."
+                - cell [ref=f3034e561]
+                - cell [ref=f3034e566]
+                - cell [ref=f3034e571]
+                - cell [ref=f3034e576]
+              - row [ref=f3034e581]:
+                - cell [ref=f3034e582]:
+                  - generic [ref=f3034e585] [cursor=pointer]:
+                    - text: Work Items
+                    - generic [ref=f3034e586]:
+                      - 'img "Info: Add work via work items, set properties for tracking, and add to cycles or modules." [ref=f3034e587]'
+                      - tooltip "Add work via work items, set properties for tracking, and add to cycles or modules."
+                - cell [ref=f3034e589]
+                - cell [ref=f3034e594]
+                - cell [ref=f3034e599]
+                - cell [ref=f3034e604]
+              - row [ref=f3034e609]:
+                - cell [ref=f3034e610]:
+                  - generic [ref=f3034e613] [cursor=pointer]:
+                    - text: Comments
+                    - generic [ref=f3034e614]:
+                      - 'img "Info: Respond to work items, @mention members, and brainstorm together without leaving Plane." [ref=f3034e615]'
+                      - tooltip "Respond to work items, @mention members, and brainstorm together without leaving Plane."
+                - cell [ref=f3034e617]
+                - cell [ref=f3034e622]
+                - cell [ref=f3034e627]
+                - cell [ref=f3034e632]
+              - row [ref=f3034e637]:
+                - cell [ref=f3034e638]:
+                  - generic [ref=f3034e641] [cursor=pointer]:
+                    - text: Cycles
+                    - generic [ref=f3034e642]:
+                      - 'img "Info: Track work in timeboxes with differing frequency." [ref=f3034e643]'
+                      - tooltip "Track work in timeboxes with differing frequency."
+                - cell [ref=f3034e645]
+                - cell [ref=f3034e650]
+                - cell [ref=f3034e655]
+                - cell [ref=f3034e660]
+              - row [ref=f3034e665]:
+                - cell [ref=f3034e666]:
+                  - generic [ref=f3034e669] [cursor=pointer]:
+                    - text: Modules
+                    - generic [ref=f3034e670]:
+                      - 'img "Info: Group replicable work in modules with their own leads." [ref=f3034e671]'
+                      - tooltip "Group replicable work in modules with their own leads."
+                - cell [ref=f3034e673]
+                - cell [ref=f3034e678]
+                - cell [ref=f3034e683]
+                - cell [ref=f3034e688]
+              - row [ref=f3034e693]:
+                - cell [ref=f3034e694]:
+                  - generic [ref=f3034e697] [cursor=pointer]:
+                    - text: Pages
+                    - generic [ref=f3034e698]:
+                      - 'img "Info: Build knowledge bases for your teams which are accessible & shareable." [ref=f3034e699]'
+                      - tooltip "Build knowledge bases for your teams which are accessible & shareable."
+                - cell [ref=f3034e701]
+                - cell [ref=f3034e706]
+                - cell [ref=f3034e711]
+                - cell [ref=f3034e716]
+              - row [ref=f3034e721]:
+                - cell [ref=f3034e722]:
+                  - generic [ref=f3034e725] [cursor=pointer]:
+                    - text: Estimates
+                    - generic [ref=f3034e726]:
+                      - 'img "Info: Measure effort in points in a system that works for you." [ref=f3034e727]'
+                      - tooltip "Measure effort in points in a system that works for you."
+                - cell "Basic" [ref=f3034e729]
+                - cell "Advanced" [ref=f3034e732]
+                - cell "Advanced" [ref=f3034e735]
+                - cell "Advanced" [ref=f3034e738]
+              - row [ref=f3034e741]:
+                - cell [ref=f3034e742]:
+                  - generic [ref=f3034e745] [cursor=pointer]:
+                    - text: Layouts
+                    - generic [ref=f3034e746]:
+                      - 'img "Info: Choose from the List, the Board, the Calendar, the Gantt, or the Spreadsheet layout for your work items." [ref=f3034e747]'
+                      - tooltip "Choose from the List, the Board, the Calendar, the Gantt, or the Spreadsheet layout for your work items."
+                - cell [ref=f3034e749]
+                - cell [ref=f3034e754]
+                - cell [ref=f3034e759]
+                - cell [ref=f3034e764]
+              - row [ref=f3034e769]:
+                - cell [ref=f3034e770]:
+                  - generic [ref=f3034e773] [cursor=pointer]:
+                    - text: Views
+                    - generic [ref=f3034e774]:
+                      - 'img "Info: Save sort, filter, and display options on a layout to a view." [ref=f3034e775]'
+                      - tooltip "Save sort, filter, and display options on a layout to a view."
+                - cell "Basic" [ref=f3034e777]
+                - cell "Public + Private" [ref=f3034e780]
+                - cell "Public + Private" [ref=f3034e783]
+                - cell "Public + Private" [ref=f3034e786]
+              - row [ref=f3034e789]:
+                - cell [ref=f3034e790]:
+                  - generic [ref=f3034e793] [cursor=pointer]:
+                    - text: Publish Views
+                    - generic [ref=f3034e794]:
+                      - 'img "Info: Put a view on the Internet and let your customers interact with them." [ref=f3034e795]'
+                      - tooltip "Put a view on the Internet and let your customers interact with them."
+                - cell [ref=f3034e797]
+                - cell [ref=f3034e801]
+                - cell [ref=f3034e806]
+                - cell [ref=f3034e811]
+              - row [ref=f3034e816]:
+                - cell [ref=f3034e817]:
+                  - generic [ref=f3034e820] [cursor=pointer]:
+                    - text: Bulk Ops
+                    - generic [ref=f3034e821]:
+                      - 'img "Info: Add several work items to cycles or modules, transfer them, or edit their properties." [ref=f3034e822]'
+                      - tooltip "Add several work items to cycles or modules, transfer them, or edit their properties."
+                - cell [ref=f3034e824]
+                - cell "All props" [ref=f3034e828]
+                - cell "All props + transfers and conversions" [ref=f3034e831]
+                - cell "All props + transfers and conversions" [ref=f3034e834]
+              - row [ref=f3034e837]:
+                - cell [ref=f3034e838]:
+                  - generic [ref=f3034e841] [cursor=pointer]:
+                    - text: Active Cycles
+                    - generic [ref=f3034e842]:
+                      - 'img "Info: See all running cycles across all projects, or soon, in a single project." [ref=f3034e843]'
+                      - tooltip "See all running cycles across all projects, or soon, in a single project."
+                - cell [ref=f3034e845]
+                - cell [ref=f3034e849]
+                - cell [ref=f3034e854]
+                - cell [ref=f3034e859]
+              - row [ref=f3034e864]:
+                - cell [ref=f3034e865]:
+                  - generic [ref=f3034e868] [cursor=pointer]:
+                    - text: Dependencies in Timeline
+                    - generic [ref=f3034e869]:
+                      - 'img "Info: Adjust timelines for dependent work items visually on the Timeline layout." [ref=f3034e870]'
+                      - tooltip "Adjust timelines for dependent work items visually on the Timeline layout."
+                - cell [ref=f3034e872]
+                - cell [ref=f3034e876]
+                - cell [ref=f3034e881]
+                - cell [ref=f3034e886]
+              - row [ref=f3034e891]:
+                - cell [ref=f3034e892]:
+                  - generic [ref=f3034e895] [cursor=pointer]:
+                    - text: Auto-transfer Cycle Work Items
+                    - generic [ref=f3034e896]:
+                      - 'img "Info: Work items that are unfinished will be moved to the next cycle when cycle auto-creation mode is enabled." [ref=f3034e897]'
+                      - tooltip "Work items that are unfinished will be moved to the next cycle when cycle auto-creation mode is enabled."
+                - cell [ref=f3034e899]
+                - cell [ref=f3034e903]
+                - cell [ref=f3034e907]
+                - cell [ref=f3034e912]
+              - row [ref=f3034e917]:
+                - cell [ref=f3034e918]:
+                  - generic [ref=f3034e921] [cursor=pointer]:
+                    - text: Initiatives
+                    - generic [ref=f3034e922]:
+                      - 'img "Info: Create initiatives to roll up several projects." [ref=f3034e923]'
+                      - tooltip "Create initiatives to roll up several projects."
+                - cell [ref=f3034e925]
+                - cell [ref=f3034e929]
+                - cell [ref=f3034e934]
+                - cell [ref=f3034e939]
+              - row [ref=f3034e944]:
+                - cell [ref=f3034e945]:
+                  - generic [ref=f3034e948] [cursor=pointer]:
+                    - text: Updates
+                    - generic [ref=f3034e949]:
+                      - 'img "Info: Add markers to Projects, and Initiatives to keep your team on track and report on progress." [ref=f3034e950]'
+                      - tooltip "Add markers to Projects, and Initiatives to keep your team on track and report on progress."
+                - cell [ref=f3034e952]
+                - cell [ref=f3034e956]
+                - cell [ref=f3034e961]
+                - cell [ref=f3034e966]
+              - row [ref=f3034e971]:
+                - cell [ref=f3034e972]:
+                  - generic [ref=f3034e975] [cursor=pointer]:
+                    - text: Module Overview
+                    - generic [ref=f3034e976]:
+                      - 'img "Info: Like Cycle Overviews, see relevant details and progress charts for each module." [ref=f3034e977]'
+                      - tooltip "Like Cycle Overviews, see relevant details and progress charts for each module."
+                - cell [ref=f3034e979]
+                - cell [ref=f3034e983]
+                - cell [ref=f3034e988]
+                - cell [ref=f3034e993]
+              - row [ref=f3034e998]:
+                - cell [ref=f3034e999]:
+                  - generic [ref=f3034e1002] [cursor=pointer]:
+                    - text: Project Overview
+                    - generic [ref=f3034e1003]:
+                      - 'img "Info: See just-in-time snapshots of your project with essential metrics." [ref=f3034e1004]'
+                      - tooltip "See just-in-time snapshots of your project with essential metrics."
+                - cell [ref=f3034e1006]
+                - cell [ref=f3034e1010]
+                - cell [ref=f3034e1015]
+                - cell [ref=f3034e1020]
+              - row [ref=f3034e1025]:
+                - cell [ref=f3034e1026]:
+                  - generic [ref=f3034e1029] [cursor=pointer]:
+                    - text: Public, Private, and Secret projects
+                    - generic [ref=f3034e1030]:
+                      - 'img "Info: Public projects are visible and accessible to everyone. Private ones are visible but need approval to join. Secret projects aren''t visible or accessible." [ref=f3034e1031]'
+                      - tooltip "Public projects are visible and accessible to everyone. Private ones are visible but need approval to join. Secret projects aren't visible or accessible."
+                - cell [ref=f3034e1033]
+                - cell [ref=f3034e1037]
+                - cell [ref=f3034e1042]
+                - cell [ref=f3034e1047]
+              - row [ref=f3034e1052]:
+                - cell [ref=f3034e1053]:
+                  - generic [ref=f3034e1056] [cursor=pointer]:
+                    - text: Project States
+                    - generic [ref=f3034e1057]:
+                      - 'img "Info: See all projects laid across states that highlight those that need attention and those on track." [ref=f3034e1058]'
+                      - tooltip "See all projects laid across states that highlight those that need attention and those on track."
+                - cell [ref=f3034e1060]
+                - cell [ref=f3034e1064]
+                - cell [ref=f3034e1069]
+                - cell [ref=f3034e1074]
+              - row [ref=f3034e1079]:
+                - cell [ref=f3034e1080]:
+                  - generic [ref=f3034e1083] [cursor=pointer]:
+                    - text: Progress Overview
+                    - generic [ref=f3034e1084]:
+                      - 'img "Info: Track progress in cycles, modules, and overviews throughout Plane without switching to dashboards or Analytics." [ref=f3034e1085]'
+                      - tooltip "Track progress in cycles, modules, and overviews throughout Plane without switching to dashboards or Analytics."
+                - cell [ref=f3034e1087]
+                - cell [ref=f3034e1092]
+                - cell [ref=f3034e1097]
+                - cell [ref=f3034e1102]
+              - row [ref=f3034e1107]:
+                - cell [ref=f3034e1108]:
+                  - generic [ref=f3034e1111] [cursor=pointer]:
+                    - text: Recurring Work Items
+                    - generic [ref=f3034e1112]:
+                      - 'img "Info: Schedule recurring work items to generate automatically at set intervals." [ref=f3034e1113]'
+                      - tooltip "Schedule recurring work items to generate automatically at set intervals."
+                - cell [ref=f3034e1115]
+                - cell [ref=f3034e1119]
+                - cell [ref=f3034e1123]
+                - cell [ref=f3034e1128]
+              - row [ref=f3034e1133]:
+                - cell [ref=f3034e1134]:
+                  - generic [ref=f3034e1137] [cursor=pointer]:
+                    - text: Milestones
+                    - generic [ref=f3034e1138]:
+                      - 'img "Info: Set key dates and checkpoints within projects to track progress toward goals." [ref=f3034e1139]'
+                      - tooltip "Set key dates and checkpoints within projects to track progress toward goals."
+                - cell [ref=f3034e1141]
+                - cell [ref=f3034e1145]
+                - cell [ref=f3034e1150]
+                - cell [ref=f3034e1155]
+              - row [ref=f3034e1160]:
+                - cell [ref=f3034e1161]:
+                  - generic [ref=f3034e1164] [cursor=pointer]:
+                    - text: Cycle Manual Start and Stop
+                    - generic [ref=f3034e1165]:
+                      - 'img "Info: Start or end cycles on demand instead of waiting for scheduled dates." [ref=f3034e1166]'
+                      - tooltip "Start or end cycles on demand instead of waiting for scheduled dates."
+                - cell [ref=f3034e1168]
+                - cell [ref=f3034e1172]
+                - cell [ref=f3034e1177]
+                - cell [ref=f3034e1182]
+              - row [ref=f3034e1187]:
+                - cell [ref=f3034e1188]:
+                  - generic [ref=f3034e1191] [cursor=pointer]:
+                    - text: Auto-schedule Cycles
+                    - generic [ref=f3034e1192]:
+                      - 'img "Info: Automate cycle creation with configurable duration, cooldown, and auto-rollover of incomplete work." [ref=f3034e1193]'
+                      - tooltip "Automate cycle creation with configurable duration, cooldown, and auto-rollover of incomplete work."
+                - cell [ref=f3034e1195]
+                - cell [ref=f3034e1199]
+                - cell [ref=f3034e1203]
+                - cell [ref=f3034e1208]
+          - link "AI and Credits" [ref=f3034e1215] [cursor=pointer]:
+            - /url: "#ai-and-credits"
+          - table [ref=f3034e1217]:
+            - rowgroup [ref=f3034e1218]:
+              - row [ref=f3034e1219]:
+                - cell [ref=f3034e1220]:
+                  - generic [ref=f3034e1223] [cursor=pointer]:
+                    - text: Monthly AI Credits
+                    - generic [ref=f3034e1224]:
+                      - 'img "Info: Credits are issued monthly per seat. Each person spends only their own, so they are not pooled. They reset on the first of each month (UTC) and do not roll over." [ref=f3034e1225]'
+                      - tooltip "Credits are issued monthly per seat. Each person spends only their own, so they are not pooled. They reset on the first of each month (UTC) and do not roll over."
+                - cell [ref=f3034e1227]
+                - cell "500 credits / seat" [ref=f3034e1231]
+                - cell "1000 credits / seat" [ref=f3034e1234]
+                - cell "Flexible allocation" [ref=f3034e1237]
+              - row [ref=f3034e1240]:
+                - cell [ref=f3034e1241]:
+                  - generic [ref=f3034e1244] [cursor=pointer]:
+                    - text: AI Agents
+                    - generic [ref=f3034e1245]:
+                      - 'img "Info: Agents that run on mentions, assignments, work item events, and schedules. Agent runs draw from a separate workspace pool sized by your plan and paid seats, not from per-seat credits." [ref=f3034e1246]'
+                      - tooltip "Agents that run on mentions, assignments, work item events, and schedules. Agent runs draw from a separate workspace pool sized by your plan and paid seats, not from per-seat credits."
+                - cell [ref=f3034e1248]
+                - cell [ref=f3034e1252]
+                - cell [ref=f3034e1257]
+                - cell [ref=f3034e1262]
+              - row [ref=f3034e1267]:
+                - cell [ref=f3034e1268]:
+                  - generic [ref=f3034e1271] [cursor=pointer]:
+                    - text: Usage Dashboard
+                    - generic [ref=f3034e1272]:
+                      - 'img "Info: Share of your monthly allowance used, a usage trend, and a warning when you reach 80%." [ref=f3034e1273]'
+                      - tooltip "Share of your monthly allowance used, a usage trend, and a warning when you reach 80%."
+                - cell "Available" [ref=f3034e1275]
+                - cell "Available" [ref=f3034e1278]
+                - cell "Available" [ref=f3034e1281]
+                - cell "Advanced" [ref=f3034e1284]
+              - row [ref=f3034e1287]:
+                - cell [ref=f3034e1288]:
+                  - generic [ref=f3034e1291] [cursor=pointer]:
+                    - text: Admin Controls
+                    - generic [ref=f3034e1292]:
+                      - 'img "Info: Workspace-wide usage for admins, broken down by member, agent, model, feature, and project, with CSV export and a monthly cap per agent." [ref=f3034e1293]'
+                      - tooltip "Workspace-wide usage for admins, broken down by member, agent, model, feature, and project, with CSV export and a monthly cap per agent."
+                - cell "—" [ref=f3034e1295]
+                - cell "Basic" [ref=f3034e1298]
+                - cell "Advanced" [ref=f3034e1301]
+                - cell "Advanced" [ref=f3034e1304]
+          - link "Advanced Project Management" [ref=f3034e1309] [cursor=pointer]:
+            - /url: "#advanced-project-management"
+          - table [ref=f3034e1311]:
+            - rowgroup [ref=f3034e1312]:
+              - row [ref=f3034e1313]:
+                - cell [ref=f3034e1314]:
+                  - generic [ref=f3034e1317] [cursor=pointer]:
+                    - text: Work Item Types
+                    - generic [ref=f3034e1318]:
+                      - 'img "Info: Create your own work items types with your own properties." [ref=f3034e1319]'
+                      - tooltip "Create your own work items types with your own properties."
+                - cell [ref=f3034e1321]
+                - cell [ref=f3034e1325]
+                - cell [ref=f3034e1330]
+                - cell [ref=f3034e1335]
+              - row [ref=f3034e1340]:
+                - cell [ref=f3034e1341]:
+                  - generic [ref=f3034e1344] [cursor=pointer]:
+                    - text: Custom Properties
+                    - generic [ref=f3034e1345]:
+                      - 'img "Info: Create your own properties and apply them to your workspace or project." [ref=f3034e1346]'
+                      - tooltip "Create your own properties and apply them to your workspace or project."
+                - cell [ref=f3034e1348]
+                - cell "Project-level custom properties" [ref=f3034e1352]
+                - cell "Project-level custom properties" [ref=f3034e1355]
+                - cell "Workspace-level properties and roll-ups" [ref=f3034e1358]
+              - row [ref=f3034e1361]:
+                - cell [ref=f3034e1362]:
+                  - generic [ref=f3034e1365] [cursor=pointer]:
+                    - text: Work Item Templates
+                    - generic [ref=f3034e1366]:
+                      - 'img "Info: Create project-level work item templates including custom properties to create new work items easily." [ref=f3034e1367]'
+                      - tooltip "Create project-level work item templates including custom properties to create new work items easily."
+                - cell [ref=f3034e1369]
+                - cell [ref=f3034e1373]
+                - cell [ref=f3034e1378]
+                - cell [ref=f3034e1383]
+              - row [ref=f3034e1388]:
+                - cell [ref=f3034e1389]:
+                  - generic [ref=f3034e1392] [cursor=pointer]:
+                    - text: Project Templates
+                    - generic [ref=f3034e1393]:
+                      - 'img "Info: Save states, workflows, automation, and other project settings into templates." [ref=f3034e1394]'
+                      - tooltip "Save states, workflows, automation, and other project settings into templates."
+                - cell [ref=f3034e1396]
+                - cell [ref=f3034e1400]
+                - cell [ref=f3034e1404]
+                - cell [ref=f3034e1409]
+              - row [ref=f3034e1414]:
+                - cell [ref=f3034e1415]:
+                  - generic [ref=f3034e1418] [cursor=pointer]:
+                    - text: Teamspaces
+                    - generic [ref=f3034e1419]:
+                      - 'img "Info: Get and customize dedicated spaces for your teams for noiseless collaboration." [ref=f3034e1420]'
+                      - tooltip "Get and customize dedicated spaces for your teams for noiseless collaboration."
+                - cell [ref=f3034e1422]
+                - cell "Basic" [ref=f3034e1426]
+                - cell "Advanced" [ref=f3034e1429]
+                - cell "Advanced" [ref=f3034e1432]
+              - row [ref=f3034e1435]:
+                - cell [ref=f3034e1436]:
+                  - generic [ref=f3034e1439] [cursor=pointer]:
+                    - text: Releases
+                    - generic [ref=f3034e1440]:
+                      - 'img "Info: Group work items into named, versioned releases with a target date, lead, status and changelog, at workspace or project level." [ref=f3034e1441]'
+                      - tooltip "Group work items into named, versioned releases with a target date, lead, status and changelog, at workspace or project level."
+                - cell [ref=f3034e1443]
+                - cell [ref=f3034e1447]
+                - cell [ref=f3034e1451]
+                - cell [ref=f3034e1456]
+              - row [ref=f3034e1461]:
+                - cell [ref=f3034e1462]:
+                  - generic [ref=f3034e1465] [cursor=pointer]:
+                    - text: Dashboards and Widgets
+                    - generic [ref=f3034e1466]:
+                      - 'img "Info: Create your own dashboards with custom widgets and data types." [ref=f3034e1467]'
+                      - tooltip "Create your own dashboards with custom widgets and data types."
+                - cell [ref=f3034e1469]
+                - cell "Basic" [ref=f3034e1473]
+                - cell "Advanced" [ref=f3034e1476]
+                - cell "Advanced" [ref=f3034e1479]
+              - row [ref=f3034e1482]:
+                - cell [ref=f3034e1483]:
+                  - generic [ref=f3034e1486] [cursor=pointer]:
+                    - text: Custom SLAs
+                    - generic [ref=f3034e1487]:
+                      - 'img "Info: Set SLA matrices for time-sensitive work items." [ref=f3034e1488]'
+                      - tooltip "Set SLA matrices for time-sensitive work items."
+                - cell [ref=f3034e1490]
+                - cell [ref=f3034e1494]
+                - cell [ref=f3034e1498]
+                - cell [ref=f3034e1502]
+              - row [ref=f3034e1507]:
+                - cell [ref=f3034e1508]:
+                  - generic [ref=f3034e1511] [cursor=pointer]:
+                    - text: Cycle Progress Charts
+                    - generic [ref=f3034e1512]:
+                      - 'img "Info: Burn-down, build-up, and scope variation charts for detailed cycle tracking." [ref=f3034e1513]'
+                      - tooltip "Burn-down, build-up, and scope variation charts for detailed cycle tracking."
+                - cell [ref=f3034e1515]
+                - cell [ref=f3034e1519]
+                - cell [ref=f3034e1524]
+                - cell [ref=f3034e1529]
+          - link "Workflows and Automation" [ref=f3034e1536] [cursor=pointer]:
+            - /url: "#workflows-and-automation"
+          - table [ref=f3034e1538]:
+            - rowgroup [ref=f3034e1539]:
+              - row [ref=f3034e1540]:
+                - cell [ref=f3034e1541]:
+                  - generic [ref=f3034e1544] [cursor=pointer]:
+                    - text: Time Tracking + Worklogs
+                    - generic [ref=f3034e1545]:
+                      - 'img "Info: Track time per work items, see aggregated reports, and filter by need." [ref=f3034e1546]'
+                      - tooltip "Track time per work items, see aggregated reports, and filter by need."
+                - cell [ref=f3034e1548]
+                - cell "Historical Worklogs" [ref=f3034e1552]
+                - cell "Historical Worklogs and Approvals" [ref=f3034e1555]
+                - cell "Historical Worklogs and Approvals" [ref=f3034e1558]
+              - row [ref=f3034e1561]:
+                - cell [ref=f3034e1562]:
+                  - generic [ref=f3034e1565] [cursor=pointer]:
+                    - text: Workflows + Approvals
+                    - generic [ref=f3034e1566]:
+                      - 'img "Info: Control how work items move between states and who can approve each transition." [ref=f3034e1567]'
+                      - tooltip "Control how work items move between states and who can approve each transition."
+                - cell [ref=f3034e1569]
+                - cell [ref=f3034e1573]
+                - cell "Single Workflow" [ref=f3034e1577]
+                - cell "Multiple Workflows + Approvals" [ref=f3034e1580]
+              - row [ref=f3034e1583]:
+                - cell [ref=f3034e1584]:
+                  - generic [ref=f3034e1587] [cursor=pointer]:
+                    - text: Trigger And Action
+                    - generic [ref=f3034e1588]:
+                      - 'img "Info: Choose a trigger and a corresponding action per automation flow." [ref=f3034e1589]'
+                      - tooltip "Choose a trigger and a corresponding action per automation flow."
+                - cell [ref=f3034e1591]
+                - cell [ref=f3034e1595]
+                - cell [ref=f3034e1599]
+                - cell [ref=f3034e1604]
+              - row [ref=f3034e1609]:
+                - cell [ref=f3034e1610]:
+                  - generic [ref=f3034e1613] [cursor=pointer]:
+                    - text: Advanced Pages Analytics
+                    - generic [ref=f3034e1614]:
+                      - 'img "Info: See who''s viewing, sharing, and commenting on your pages along with other useful info." [ref=f3034e1615]'
+                      - tooltip "See who's viewing, sharing, and commenting on your pages along with other useful info."
+                - cell [ref=f3034e1617]
+                - cell [ref=f3034e1621]
+                - cell [ref=f3034e1626]
+                - cell [ref=f3034e1631]
+              - row [ref=f3034e1636]:
+                - cell [ref=f3034e1637]:
+                  - generic [ref=f3034e1640] [cursor=pointer]:
+                    - text: Advanced Exports
+                    - generic [ref=f3034e1641]:
+                      - 'img "Info: Export filtered work items, cycles, views, or modules directly from your project in CSV, Excel, or JSON." [ref=f3034e1642]'
+                      - tooltip "Export filtered work items, cycles, views, or modules directly from your project in CSV, Excel, or JSON."
+                - cell [ref=f3034e1644]
+                - cell [ref=f3034e1648]
+                - cell [ref=f3034e1653]
+                - cell [ref=f3034e1658]
+          - link "Knowledge Management" [ref=f3034e1665] [cursor=pointer]:
+            - /url: "#knowledge-management"
+          - table [ref=f3034e1667]:
+            - rowgroup [ref=f3034e1668]:
+              - row [ref=f3034e1669]:
+                - cell [ref=f3034e1670]:
+                  - generic [ref=f3034e1673] [cursor=pointer]:
+                    - text: Wiki
+                    - generic [ref=f3034e1674]:
+                      - 'img "Info: Create company-wide wikis or knowledge bases without creating a project." [ref=f3034e1675]'
+                      - tooltip "Create company-wide wikis or knowledge bases without creating a project."
+                - cell [ref=f3034e1677]
+                - cell [ref=f3034e1681]
+                - cell [ref=f3034e1686]
+                - cell [ref=f3034e1691]
+              - row [ref=f3034e1696]:
+                - cell [ref=f3034e1697]:
+                  - generic [ref=f3034e1700] [cursor=pointer]:
+                    - text: Real-time Collab
+                    - generic [ref=f3034e1701]:
+                      - 'img "Info: Edit a page together with members in your project, team, or workspace." [ref=f3034e1702]'
+                      - tooltip "Edit a page together with members in your project, team, or workspace."
+                - cell [ref=f3034e1704]
+                - cell [ref=f3034e1708]
+                - cell [ref=f3034e1713]
+                - cell [ref=f3034e1718]
+              - row [ref=f3034e1723]:
+                - cell [ref=f3034e1724]:
+                  - generic [ref=f3034e1727] [cursor=pointer]:
+                    - text: Work Item Embeds
+                    - generic [ref=f3034e1728]:
+                      - 'img "Info: Embed work items from any project you are a member of." [ref=f3034e1729]'
+                      - tooltip "Embed work items from any project you are a member of."
+                - cell [ref=f3034e1731]
+                - cell [ref=f3034e1735]
+                - cell [ref=f3034e1740]
+                - cell [ref=f3034e1745]
+              - row [ref=f3034e1750]:
+                - cell [ref=f3034e1751]:
+                  - generic [ref=f3034e1754] [cursor=pointer]:
+                    - text: Link-to-work-items
+                    - generic [ref=f3034e1755]:
+                      - 'img "Info: Link pages in work items in a separate section in work item details." [ref=f3034e1756]'
+                      - tooltip "Link pages in work items in a separate section in work item details."
+                - cell [ref=f3034e1758]
+                - cell [ref=f3034e1762]
+                - cell [ref=f3034e1767]
+                - cell [ref=f3034e1772]
+              - row [ref=f3034e1777]:
+                - cell [ref=f3034e1778]:
+                  - generic [ref=f3034e1781] [cursor=pointer]:
+                    - text: Publish
+                    - generic [ref=f3034e1782]:
+                      - 'img "Info: Put your pages on the web for external users and let them comment without signing into your workspace." [ref=f3034e1783]'
+                      - tooltip "Put your pages on the web for external users and let them comment without signing into your workspace."
+                - cell [ref=f3034e1785]
+                - cell [ref=f3034e1789]
+                - cell [ref=f3034e1794]
+                - cell [ref=f3034e1799]
+              - row [ref=f3034e1804]:
+                - cell [ref=f3034e1805]:
+                  - generic [ref=f3034e1808] [cursor=pointer]:
+                    - text: Templates
+                    - generic [ref=f3034e1809]:
+                      - 'img "Info: Use pages as templates for your project, team, or workspace." [ref=f3034e1810]'
+                      - tooltip "Use pages as templates for your project, team, or workspace."
+                - cell [ref=f3034e1812]
+                - cell [ref=f3034e1816]
+                - cell [ref=f3034e1821]
+                - cell [ref=f3034e1826]
+              - row [ref=f3034e1831]:
+                - cell [ref=f3034e1832]:
+                  - generic [ref=f3034e1835] [cursor=pointer]:
+                    - text: Versions
+                    - generic [ref=f3034e1836]:
+                      - 'img "Info: See restorable versions of edits to your pages." [ref=f3034e1837]'
+                      - tooltip "See restorable versions of edits to your pages."
+                - cell [ref=f3034e1839]
+                - cell "20 versions / 30 days" [ref=f3034e1843]
+                - cell "60 versions / 90 days" [ref=f3034e1846]
+                - cell "Unlimited" [ref=f3034e1849]
+              - row [ref=f3034e1852]:
+                - cell [ref=f3034e1853]:
+                  - generic [ref=f3034e1856] [cursor=pointer]:
+                    - text: Exports
+                    - generic [ref=f3034e1857]:
+                      - 'img "Info: Export page content into PDFs or Word-compatible docs." [ref=f3034e1858]'
+                      - tooltip "Export page content into PDFs or Word-compatible docs."
+                - cell [ref=f3034e1860]
+                - cell "Basic" [ref=f3034e1864]
+                - cell "Queued downloads" [ref=f3034e1867]
+                - cell "Queued downloads" [ref=f3034e1870]
+              - row [ref=f3034e1873]:
+                - cell [ref=f3034e1874]:
+                  - generic [ref=f3034e1877] [cursor=pointer]:
+                    - text: Enhanced Search
+                    - generic [ref=f3034e1878]:
+                      - 'img "Info: AI-powered search across your entire workspace. Find work items, pages, and more in natural language." [ref=f3034e1879]'
+                      - tooltip "AI-powered search across your entire workspace. Find work items, pages, and more in natural language."
+                - cell [ref=f3034e1881]
+                - cell [ref=f3034e1885]
+                - cell [ref=f3034e1890]
+                - cell [ref=f3034e1895]
+              - row [ref=f3034e1900]:
+                - cell [ref=f3034e1901]:
+                  - generic [ref=f3034e1904] [cursor=pointer]:
+                    - text: Nested Pages
+                    - generic [ref=f3034e1905]:
+                      - 'img "Info: Pages inside a page, organize your pages as you see fit for the progressive disclosure." [ref=f3034e1906]'
+                      - tooltip "Pages inside a page, organize your pages as you see fit for the progressive disclosure."
+                - cell [ref=f3034e1908]
+                - cell [ref=f3034e1912]
+                - cell [ref=f3034e1916]
+                - cell [ref=f3034e1921]
+              - row [ref=f3034e1926]:
+                - cell [ref=f3034e1927]:
+                  - generic [ref=f3034e1930] [cursor=pointer]:
+                    - text: Shared Pages
+                    - generic [ref=f3034e1931]:
+                      - 'img "Info: Share pages across projects and teams within your workspace." [ref=f3034e1932]'
+                      - tooltip "Share pages across projects and teams within your workspace."
+                - cell [ref=f3034e1934]
+                - cell [ref=f3034e1938]
+                - cell [ref=f3034e1942]
+                - cell [ref=f3034e1947]
+              - row [ref=f3034e1952]:
+                - cell [ref=f3034e1953]:
+                  - generic [ref=f3034e1956] [cursor=pointer]:
+                    - text: Page Comments
+                    - generic [ref=f3034e1957]:
+                      - 'img "Info: Leave comments on pages for collaborative review and feedback." [ref=f3034e1958]'
+                      - tooltip "Leave comments on pages for collaborative review and feedback."
+                - cell [ref=f3034e1960]
+                - cell [ref=f3034e1964]
+                - cell [ref=f3034e1968]
+                - cell [ref=f3034e1973]
+              - row [ref=f3034e1978]:
+                - cell [ref=f3034e1979]:
+                  - generic [ref=f3034e1982] [cursor=pointer]:
+                    - text: Wiki Collections
+                    - generic [ref=f3034e1983]:
+                      - 'img "Info: Organize pages into curated collections for structured navigation and discovery." [ref=f3034e1984]'
+                      - tooltip "Organize pages into curated collections for structured navigation and discovery."
+                - cell [ref=f3034e1986]
+                - cell [ref=f3034e1990]
+                - cell [ref=f3034e1995]
+                - cell [ref=f3034e2000]
+          - link "Intake and Customers" [ref=f3034e2007] [cursor=pointer]:
+            - /url: "#intake-and-customers"
+          - table [ref=f3034e2009]:
+            - rowgroup [ref=f3034e2010]:
+              - row [ref=f3034e2011]:
+                - cell [ref=f3034e2012]:
+                  - generic [ref=f3034e2015] [cursor=pointer]:
+                    - text: Intake In-app
+                    - generic [ref=f3034e2016]:
+                      - 'img "Info: Allow guests in a project to create work items through Plane for triage by admins and members." [ref=f3034e2017]'
+                      - tooltip "Allow guests in a project to create work items through Plane for triage by admins and members."
+                - cell [ref=f3034e2019]
+                - cell [ref=f3034e2024]
+                - cell [ref=f3034e2029]
+                - cell [ref=f3034e2034]
+              - row [ref=f3034e2039]:
+                - cell [ref=f3034e2040]:
+                  - generic [ref=f3034e2043] [cursor=pointer]:
+                    - text: Intake Forms
+                    - generic [ref=f3034e2044]:
+                      - 'img "Info: Share a public web form where anyone can submit work items without a Plane account." [ref=f3034e2045]'
+                      - tooltip "Share a public web form where anyone can submit work items without a Plane account."
+                - cell [ref=f3034e2047]
+                - cell [ref=f3034e2051]
+                - cell [ref=f3034e2055]
+                - cell [ref=f3034e2060]
+              - row [ref=f3034e2065]:
+                - cell [ref=f3034e2066]:
+                  - generic [ref=f3034e2069] [cursor=pointer]:
+                    - text: Intake Email
+                    - generic [ref=f3034e2070]:
+                      - 'img "Info: Get a dedicated email address that converts incoming messages into triageable work items." [ref=f3034e2071]'
+                      - tooltip "Get a dedicated email address that converts incoming messages into triageable work items."
+                - cell [ref=f3034e2073]
+                - cell [ref=f3034e2077]
+                - cell [ref=f3034e2081]
+                - cell [ref=f3034e2086]
+              - row [ref=f3034e2091]:
+                - cell [ref=f3034e2092]:
+                  - generic [ref=f3034e2095] [cursor=pointer]:
+                    - text: Intake Responsibility
+                    - generic [ref=f3034e2096]:
+                      - 'img "Info: Assign a team member to own incoming requests and get notified on every new intake work item." [ref=f3034e2097]'
+                      - tooltip "Assign a team member to own incoming requests and get notified on every new intake work item."
+                - cell [ref=f3034e2099]
+                - cell [ref=f3034e2103]
+                - cell [ref=f3034e2107]
+                - cell [ref=f3034e2112]
+              - row [ref=f3034e2117]:
+                - cell [ref=f3034e2118]:
+                  - generic [ref=f3034e2121] [cursor=pointer]:
+                    - text: Customers
+                    - generic [ref=f3034e2122]:
+                      - 'img "Info: Dedicated profiles for your customers with their requests linked to work items." [ref=f3034e2123]'
+                      - tooltip "Dedicated profiles for your customers with their requests linked to work items."
+                - cell [ref=f3034e2125]
+                - cell [ref=f3034e2129]
+                - cell [ref=f3034e2133]
+                - cell [ref=f3034e2138]
+          - link "Security, Access, and Support" [ref=f3034e2145] [cursor=pointer]:
+            - /url: "#security,-access,-and-support"
+          - table [ref=f3034e2147]:
+            - rowgroup [ref=f3034e2148]:
+              - row [ref=f3034e2149]:
+                - cell [ref=f3034e2150]:
+                  - generic [ref=f3034e2153] [cursor=pointer]:
+                    - text: Seat limit
+                    - generic [ref=f3034e2154]:
+                      - 'img "Info: Maximum users allowed in your workspace or instance based on your plan" [ref=f3034e2155]'
+                      - tooltip "Maximum users allowed in your workspace or instance based on your plan"
+                - cell "12 users" [ref=f3034e2157]
+                - cell "Unlimited" [ref=f3034e2160]
+                - cell "Unlimited" [ref=f3034e2163]
+                - cell "Unlimited" [ref=f3034e2166]
+              - row [ref=f3034e2169]:
+                - cell [ref=f3034e2170]:
+                  - generic [ref=f3034e2173] [cursor=pointer]:
+                    - text: Roles
+                    - generic [ref=f3034e2174]:
+                      - 'img "Info: Choose from one of four pre-defined roles or create custom ones with RBAC." [ref=f3034e2175]'
+                      - tooltip "Choose from one of four pre-defined roles or create custom ones with RBAC."
+                - cell "Basic" [ref=f3034e2177]
+                - cell "RBAC" [ref=f3034e2180]
+                - cell "RBAC" [ref=f3034e2183]
+                - cell "GAC" [ref=f3034e2186]
+              - row [ref=f3034e2189]:
+                - cell [ref=f3034e2190]:
+                  - generic [ref=f3034e2193] [cursor=pointer]:
+                    - text: Guests
+                    - generic [ref=f3034e2194]:
+                      - 'img "Info: Let some users see everything or just their work items in a project. Enterprise handles this through custom roles with RBAC and GAC." [ref=f3034e2195]'
+                      - tooltip "Let some users see everything or just their work items in a project. Enterprise handles this through custom roles with RBAC and GAC."
+                - cell "Limited" [ref=f3034e2197]
+                - cell "5 per paid member" [ref=f3034e2200]
+                - cell "5 per paid member" [ref=f3034e2203]
+                - cell "Custom roles via RBAC + GAC" [ref=f3034e2206]
+              - row [ref=f3034e2209]:
+                - cell [ref=f3034e2210]:
+                  - generic [ref=f3034e2213] [cursor=pointer]:
+                    - text: Power K
+                    - generic [ref=f3034e2214]:
+                      - 'img "Info: Access a keyboard-first gateway to almost anything in Plane." [ref=f3034e2215]'
+                      - tooltip "Access a keyboard-first gateway to almost anything in Plane."
+                - cell [ref=f3034e2217]
+                - cell [ref=f3034e2222]
+                - cell [ref=f3034e2227]
+                - cell [ref=f3034e2232]
+              - row [ref=f3034e2237]:
+                - cell [ref=f3034e2238]:
+                  - generic [ref=f3034e2241] [cursor=pointer]:
+                    - text: SAML
+                    - generic [ref=f3034e2242]:
+                      - 'img "Info: Get the officially supported SAML implementation and make Plane secure with any IdP." [ref=f3034e2243]'
+                      - tooltip "Get the officially supported SAML implementation and make Plane secure with any IdP."
+                - cell [ref=f3034e2245]
+                - cell [ref=f3034e2249]
+                - cell [ref=f3034e2253]
+                - cell [ref=f3034e2258]
+              - row [ref=f3034e2263]:
+                - cell [ref=f3034e2264]:
+                  - generic [ref=f3034e2267] [cursor=pointer]:
+                    - text: OIDC
+                    - generic [ref=f3034e2268]:
+                      - 'img "Info: Get the officially supported OIDC implementation and make Plane secure with any IdP." [ref=f3034e2269]'
+                      - tooltip "Get the officially supported OIDC implementation and make Plane secure with any IdP."
+                - cell [ref=f3034e2271]
+                - cell [ref=f3034e2275]
+                - cell [ref=f3034e2279]
+                - cell [ref=f3034e2284]
+              - row [ref=f3034e2289]:
+                - cell [ref=f3034e2290]:
+                  - generic [ref=f3034e2293] [cursor=pointer]:
+                    - text: LDAP
+                    - generic [ref=f3034e2294]:
+                      - 'img "Info: Get our official LDAP implementation and secure your Plane workspace with your LDAP server." [ref=f3034e2295]'
+                      - tooltip "Get our official LDAP implementation and secure your Plane workspace with your LDAP server."
+                - cell [ref=f3034e2297]
+                - cell [ref=f3034e2301]
+                - cell [ref=f3034e2305]
+                - cell [ref=f3034e2309]
+              - row [ref=f3034e2314]:
+                - cell [ref=f3034e2315]:
+                  - generic [ref=f3034e2318] [cursor=pointer]:
+                    - text: Group Sync
+                    - generic [ref=f3034e2319]:
+                      - 'img "Info: Sync groups from your identity provider to automatically manage team membership and permissions." [ref=f3034e2320]'
+                      - tooltip "Sync groups from your identity provider to automatically manage team membership and permissions."
+                - cell [ref=f3034e2322]
+                - cell [ref=f3034e2326]
+                - cell [ref=f3034e2330]
+                - cell [ref=f3034e2334]
+              - row [ref=f3034e2339]:
+                - cell [ref=f3034e2340]:
+                  - generic [ref=f3034e2343] [cursor=pointer]:
+                    - text: Channels
+                    - generic [ref=f3034e2344]:
+                      - 'img "Info: Get access to one or more Support channels by your plan." [ref=f3034e2345]'
+                      - tooltip "Get access to one or more Support channels by your plan."
+                - cell "Basic" [ref=f3034e2347]
+                - cell "Basic" [ref=f3034e2350]
+                - cell "Migration and Implementation Services" [ref=f3034e2353]
+                - cell "Migration and Implementation Services" [ref=f3034e2356]
+              - row [ref=f3034e2359]:
+                - cell [ref=f3034e2360]:
+                  - generic [ref=f3034e2363] [cursor=pointer]:
+                    - text: SLA
+                    - generic [ref=f3034e2364]:
+                      - 'img "Info: Get business-friendly SLAs with higher plans. SLAs are by priority of work item and tiers can be requested." [ref=f3034e2365]'
+                      - tooltip "Get business-friendly SLAs with higher plans. SLAs are by priority of work item and tiers can be requested."
+                - cell [ref=f3034e2367]
+                - cell [ref=f3034e2371]
+                - cell [ref=f3034e2376]
+                - cell [ref=f3034e2381]
+          - link "Importers" [ref=f3034e2388] [cursor=pointer]:
+            - /url: "#importers"
+          - table [ref=f3034e2390]:
+            - rowgroup [ref=f3034e2391]:
+              - row [ref=f3034e2392]:
+                - cell [ref=f3034e2393]:
+                  - generic [ref=f3034e2396] [cursor=pointer]:
+                    - text: Jira
+                    - generic [ref=f3034e2397]:
+                      - 'img "Info: Import your work items, users, and associated data from one Jira project at a time." [ref=f3034e2398]'
+                      - tooltip "Import your work items, users, and associated data from one Jira project at a time."
+                - cell [ref=f3034e2400]
+                - cell [ref=f3034e2405]
+                - cell [ref=f3034e2410]
+                - cell [ref=f3034e2415]
+              - row [ref=f3034e2420]:
+                - cell [ref=f3034e2421]:
+                  - generic [ref=f3034e2424] [cursor=pointer]:
+                    - text: Linear
+                    - generic [ref=f3034e2425]:
+                      - 'img "Info: Import teams, projects, work items and cycles, seamlessly mapped to Plane." [ref=f3034e2426]'
+                      - tooltip "Import teams, projects, work items and cycles, seamlessly mapped to Plane."
+                - cell [ref=f3034e2428]
+                - cell [ref=f3034e2433]
+                - cell [ref=f3034e2438]
+                - cell [ref=f3034e2443]
+              - row [ref=f3034e2448]:
+                - cell [ref=f3034e2449]:
+                  - generic [ref=f3034e2452] [cursor=pointer]:
+                    - text: Asana
+                    - generic [ref=f3034e2453]:
+                      - 'img "Info: Import your work items, users, and associated data from one Asana project at a time." [ref=f3034e2454]'
+                      - tooltip "Import your work items, users, and associated data from one Asana project at a time."
+                - cell [ref=f3034e2456]
+                - cell [ref=f3034e2461]
+                - cell [ref=f3034e2466]
+                - cell [ref=f3034e2471]
+              - row [ref=f3034e2476]:
+                - cell [ref=f3034e2477]:
+                  - generic [ref=f3034e2480] [cursor=pointer]:
+                    - text: ClickUp
+                    - generic [ref=f3034e2481]:
+                      - 'img "Info: Import projects, tasks, and associated data from ClickUp." [ref=f3034e2482]'
+                      - tooltip "Import projects, tasks, and associated data from ClickUp."
+                - cell [ref=f3034e2484]
+                - cell [ref=f3034e2489]
+                - cell [ref=f3034e2494]
+                - cell [ref=f3034e2499]
+              - row [ref=f3034e2504]:
+                - cell [ref=f3034e2505]:
+                  - generic [ref=f3034e2508] [cursor=pointer]:
+                    - text: CSV
+                    - generic [ref=f3034e2509]:
+                      - 'img "Info: Import work items from CSV files with column mapping." [ref=f3034e2510]'
+                      - tooltip "Import work items from CSV files with column mapping."
+                - cell [ref=f3034e2512]
+                - cell [ref=f3034e2517]
+                - cell [ref=f3034e2522]
+                - cell [ref=f3034e2527]
+              - row [ref=f3034e2532]:
+                - cell [ref=f3034e2533]:
+                  - generic [ref=f3034e2536] [cursor=pointer]:
+                    - text: Workspace Members Import
+                    - generic [ref=f3034e2537]:
+                      - 'img "Info: Bulk import workspace members via CSV upload." [ref=f3034e2538]'
+                      - tooltip "Bulk import workspace members via CSV upload."
+                - cell [ref=f3034e2540]
+                - cell [ref=f3034e2544]
+                - cell [ref=f3034e2549]
+                - cell [ref=f3034e2554]
+              - row [ref=f3034e2559]:
+                - cell [ref=f3034e2560]:
+                  - generic [ref=f3034e2563] [cursor=pointer]:
+                    - text: Confluence
+                    - generic [ref=f3034e2564]:
+                      - 'img "Info: Import spaces, pages, and content from Confluence into Plane Wiki." [ref=f3034e2565]'
+                      - tooltip "Import spaces, pages, and content from Confluence into Plane Wiki."
+                - cell [ref=f3034e2567]
+                - cell [ref=f3034e2571]
+                - cell [ref=f3034e2575]
+                - cell [ref=f3034e2580]
+              - row [ref=f3034e2585]:
+                - cell [ref=f3034e2586]:
+                  - generic [ref=f3034e2589] [cursor=pointer]:
+                    - text: Notion
+                    - generic [ref=f3034e2590]:
+                      - 'img "Info: Import databases, pages, and content from Notion." [ref=f3034e2591]'
+                      - tooltip "Import databases, pages, and content from Notion."
+                - cell [ref=f3034e2593]
+                - cell [ref=f3034e2597]
+                - cell [ref=f3034e2601]
+                - cell [ref=f3034e2606]
+          - link "Integrations" [ref=f3034e2613] [cursor=pointer]:
+            - /url: "#integrations"
+          - table [ref=f3034e2615]:
+            - rowgroup [ref=f3034e2616]:
+              - row [ref=f3034e2617]:
+                - cell [ref=f3034e2618]:
+                  - generic [ref=f3034e2621] [cursor=pointer]:
+                    - text: GitHub
+                    - generic [ref=f3034e2622]:
+                      - 'img "Info: Sync Plane work items and states to GitHub issues and states. Update GitHub automatically with activity from Plane and vice-versa." [ref=f3034e2623]'
+                      - tooltip "Sync Plane work items and states to GitHub issues and states. Update GitHub automatically with activity from Plane and vice-versa."
+                - cell [ref=f3034e2625]
+                - cell [ref=f3034e2629]
+                - cell [ref=f3034e2634]
+                - cell [ref=f3034e2639]
+              - row [ref=f3034e2644]:
+                - cell [ref=f3034e2645]:
+                  - generic [ref=f3034e2648] [cursor=pointer]:
+                    - text: GitHub Enterprise
+                    - generic [ref=f3034e2649]:
+                      - 'img "Info: Connect to GitHub Enterprise Server instances for on-prem GitHub environments." [ref=f3034e2650]'
+                      - tooltip "Connect to GitHub Enterprise Server instances for on-prem GitHub environments."
+                - cell [ref=f3034e2652]
+                - cell [ref=f3034e2656]
+                - cell [ref=f3034e2661]
+                - cell [ref=f3034e2666]
+              - row [ref=f3034e2671]:
+                - cell [ref=f3034e2672]:
+                  - generic [ref=f3034e2675] [cursor=pointer]:
+                    - text: GitLab
+                    - generic [ref=f3034e2676]:
+                      - 'img "Info: Sync Plane work items and states to GitLab issues and states. Update GitLab automatically with activity from Plane and vice-versa." [ref=f3034e2677]'
+                      - tooltip "Sync Plane work items and states to GitLab issues and states. Update GitLab automatically with activity from Plane and vice-versa."
+                - cell [ref=f3034e2679]
+                - cell [ref=f3034e2683]
+                - cell [ref=f3034e2688]
+                - cell [ref=f3034e2693]
+              - row [ref=f3034e2698]:
+                - cell [ref=f3034e2699]:
+                  - generic [ref=f3034e2702] [cursor=pointer]:
+                    - text: GitLab Enterprise
+                    - generic [ref=f3034e2703]:
+                      - 'img "Info: Connect to self-managed GitLab Enterprise instances." [ref=f3034e2704]'
+                      - tooltip "Connect to self-managed GitLab Enterprise instances."
+                - cell [ref=f3034e2706]
+                - cell [ref=f3034e2710]
+                - cell [ref=f3034e2715]
+                - cell [ref=f3034e2720]
+              - row [ref=f3034e2725]:
+                - cell [ref=f3034e2726]:
+                  - generic [ref=f3034e2729] [cursor=pointer]:
+                    - text: Slack
+                    - generic [ref=f3034e2730]:
+                      - 'img "Info: Create Plane work items from Slack and sync comments to a Slack thread." [ref=f3034e2731]'
+                      - tooltip "Create Plane work items from Slack and sync comments to a Slack thread."
+                - cell [ref=f3034e2733]
+                - cell [ref=f3034e2737]
+                - cell [ref=f3034e2742]
+                - cell [ref=f3034e2747]
+              - row [ref=f3034e2752]:
+                - cell [ref=f3034e2753]:
+                  - generic [ref=f3034e2756] [cursor=pointer]:
+                    - text: Sentry
+                    - generic [ref=f3034e2757]:
+                      - 'img "Info: Link Sentry issues to Plane work items for streamlined error tracking." [ref=f3034e2758]'
+                      - tooltip "Link Sentry issues to Plane work items for streamlined error tracking."
+                - cell [ref=f3034e2760]
+                - cell [ref=f3034e2764]
+                - cell [ref=f3034e2769]
+                - cell [ref=f3034e2774]
+              - row [ref=f3034e2779]:
+                - cell [ref=f3034e2780]:
+                  - generic [ref=f3034e2783] [cursor=pointer]:
+                    - text: Draw.io
+                    - generic [ref=f3034e2784]:
+                      - 'img "Info: Create and embed diagrams, flowcharts, and whiteboards directly inside pages and wiki." [ref=f3034e2785]'
+                      - tooltip "Create and embed diagrams, flowcharts, and whiteboards directly inside pages and wiki."
+                - cell [ref=f3034e2787]
+                - cell [ref=f3034e2791]
+                - cell [ref=f3034e2796]
+                - cell [ref=f3034e2801]
+    - generic [ref=f3034e2808]:
+      - heading "Chosen by at-scale ambitious teams" [level=3] [ref=f3034e2810]
+      - generic [ref=f3034e2812]:
+        - generic [ref=f3034e2813]:
+          - generic [ref=f3034e2814]:
+            - generic [ref=f3034e2818]: Prior to finding Plane, I'd cycled through multiple tools to make them fit my needs. None of them help up except Plane. I finally shut all of them down. Plane is the only workspace that contains all the capabilities I'm looking for or ships them in no time!
+            - generic [ref=f3034e2819]:
+              - generic [ref=f3034e2820]: Devries
+              - generic [ref=f3034e2821]: Capital Land
+          - generic [ref=f3034e2822]:
+            - img "dolby"
+          - generic [ref=f3034e2823]:
+            - generic [ref=f3034e2824]: “I've been using Plane for the past few months and I think its dope!
+            - generic [ref=f3034e2825]: The Ghost Lab
+        - generic [ref=f3034e2827]:
+          - generic [ref=f3034e2828]:
+            - img "sony"
+          - generic [ref=f3034e2829]:
+            - img "accenture"
+          - generic [ref=f3034e2830]:
+            - generic [ref=f3034e2834]: "I'm honestly just running away from Jira and its thousand-plugin circus. What I really want is simple: subtasks that behave like actual children of a task, not thousands of separate issues flooding my board like they do in Jira. I loveeee Plane where subtasks stay neatly under their parent, have their own work logs, and let me choose different subtask types so easily."
+            - generic [ref=f3034e2835]:
+              - generic [ref=f3034e2836]: Lucas
+              - generic [ref=f3034e2837]: Recovering Jira survivor
+    - generic [ref=f3034e2840]:
+      - generic [ref=f3034e2842]:
+        - heading "Plane is independently audited and certified" [level=3] [ref=f3034e2843]
+        - generic [ref=f3034e2844]: across cloud and self-hosted deployments for four popular compliance standards.
+      - 'img "Compliance certifications: GDPR, HIPAA, ISO 27001, and SOC 2" [ref=f3034e2847]'
+    - generic [ref=f3034e2868]:
+      - heading "What can we answer for you today?" [level=2] [ref=f3034e2871]
+      - generic [ref=f3034e2872]:
+        - generic [ref=f3034e2873]:
+          - button "What is Plane?" [ref=f3034e2874] [cursor=pointer]
+          - generic: Plane is an open-source project management tool that helps teams collaborate, track progress, and deliver projects efficiently. It combines project management, wiki, and intake forms in one unified platform.
+        - generic [ref=f3034e2881]:
+          - button "Is Plane free to use?" [ref=f3034e2882] [cursor=pointer]
+          - generic: Yes, Plane offers a generous free tier with core features. We also have paid plans for advanced features, enterprise needs, and priority support.
+        - generic [ref=f3034e2889]:
+          - button "Can I self-host Plane?" [ref=f3034e2890] [cursor=pointer]
+          - generic: Absolutely! Plane is open-source and can be self-hosted on your own infrastructure for complete control and privacy. We provide comprehensive documentation and support for self-hosting.
+        - generic [ref=f3034e2897]:
+          - button "What integrations does Plane support?" [ref=f3034e2898] [cursor=pointer]
+          - generic: Plane integrates with popular tools like GitHub, GitLab, Slack, Discord, and many more to streamline your workflow and keep your team connected.
+        - generic [ref=f3034e2905]:
+          - button "How do I migrate from other project management tools?" [ref=f3034e2906] [cursor=pointer]
+          - generic: We provide migration tools and support to help you move from tools like Jira, Asana, Trello, or Linear to Plane. Our team can assist with the migration process.
+        - generic [ref=f3034e2913]:
+          - button "Is my data secure?" [ref=f3034e2914] [cursor=pointer]
+          - generic: Security is our top priority. We use industry-standard encryption, regular security audits, and follow best practices to protect your data. For self-hosted instances, you have complete control over your data.
+  - generic [ref=f3034e2921]:
+    - generic [ref=f3034e2922]:
+      - generic [ref=f3034e2924]:
+        - img "Plane" [ref=f3034e2925]
+        - 'link "Security compliance: GDPR, HIPAA, ISO 27001, and SOC 2 certified" [ref=f3034e2926] [cursor=pointer]':
+          - /url: https://security.plane.so/
+      - generic [ref=f3034e2929]:
+        - generic [ref=f3034e2930]:
+          - generic [ref=f3034e2931]:
+            - paragraph [ref=f3034e2932]: Product
+            - list [ref=f3034e2933]:
+              - listitem [ref=f3034e2934]:
+                - link "Project Management" [ref=f3034e2936] [cursor=pointer]:
+                  - /url: /project-management
+              - listitem [ref=f3034e2937]:
+                - link "Wiki" [ref=f3034e2939] [cursor=pointer]:
+                  - /url: /wiki
+              - listitem [ref=f3034e2940]:
+                - link "Plane AI" [ref=f3034e2942] [cursor=pointer]:
+                  - /url: /ai
+              - listitem [ref=f3034e2943]:
+                - link "Plane Compose" [ref=f3034e2945] [cursor=pointer]:
+                  - /url: /plane-compose
+          - generic [ref=f3034e2946]:
+            - paragraph [ref=f3034e2947]: Self-hosted
+            - list [ref=f3034e2948]:
+              - listitem [ref=f3034e2949]:
+                - link "Commercial Edition" [ref=f3034e2951] [cursor=pointer]:
+                  - /url: /self-hosted
+              - listitem [ref=f3034e2952]:
+                - link "Airgapped Edition" [ref=f3034e2954] [cursor=pointer]:
+                  - /url: /airgapped
+              - listitem [ref=f3034e2955]:
+                - link "Prime Portal" [ref=f3034e2957] [cursor=pointer]:
+                  - /url: https://prime.plane.so/
+        - generic [ref=f3034e2958]:
+          - generic [ref=f3034e2959]:
+            - paragraph [ref=f3034e2960]: Features
+            - list [ref=f3034e2961]:
+              - listitem [ref=f3034e2962]:
+                - link "Work items" [ref=f3034e2964] [cursor=pointer]:
+                  - /url: /work-items
+              - listitem [ref=f3034e2965]:
+                - link "Work item types" [ref=f3034e2967] [cursor=pointer]:
+                  - /url: /work-item-types
+              - listitem [ref=f3034e2968]:
+                - link "Intake" [ref=f3034e2970] [cursor=pointer]:
+                  - /url: /intake
+              - listitem [ref=f3034e2971]:
+                - link "Cycles" [ref=f3034e2973] [cursor=pointer]:
+                  - /url: /cycles
+              - listitem [ref=f3034e2974]:
+                - link "Workflows and Approvals" [ref=f3034e2976] [cursor=pointer]:
+                  - /url: /workflows-and-approvals
+              - listitem [ref=f3034e2977]:
+                - link "Epics and Initiatives" [ref=f3034e2979] [cursor=pointer]:
+                  - /url: /epics-initiatives
+              - listitem [ref=f3034e2980]:
+                - link "Customers" [ref=f3034e2982] [cursor=pointer]:
+                  - /url: /customer-requests
+              - listitem [ref=f3034e2983]:
+                - link "Dashboards" [ref=f3034e2985] [cursor=pointer]:
+                  - /url: /dashboards
+              - listitem [ref=f3034e2986]:
+                - link "Teamspaces" [ref=f3034e2988] [cursor=pointer]:
+                  - /url: /teamspaces
+              - listitem [ref=f3034e2989]:
+                - link "State of Projects + Updates" [ref=f3034e2991] [cursor=pointer]:
+                  - /url: /state-of-projects-and-updates
+          - generic [ref=f3034e2992]:
+            - paragraph [ref=f3034e2993]: Marketplace
+            - list [ref=f3034e2994]:
+              - listitem [ref=f3034e2995]:
+                - link "Apps and agents" [ref=f3034e2997] [cursor=pointer]:
+                  - /url: /marketplace/categories/agents#list
+              - listitem [ref=f3034e2998]:
+                - link "Importers" [ref=f3034e3000] [cursor=pointer]:
+                  - /url: /marketplace/categories/importers#list
+              - listitem [ref=f3034e3001]:
+                - link "Templates" [ref=f3034e3003] [cursor=pointer]:
+                  - /url: /templates
+        - generic [ref=f3034e3004]:
+          - generic [ref=f3034e3005]:
+            - paragraph [ref=f3034e3006]: Plan and pricing
+            - list [ref=f3034e3007]:
+              - listitem [ref=f3034e3008]:
+                - link "Pro" [ref=f3034e3010] [cursor=pointer]:
+                  - /url: /pro
+              - listitem [ref=f3034e3011]:
+                - link "Business" [ref=f3034e3013] [cursor=pointer]:
+                  - /url: /business
+              - listitem [ref=f3034e3014]:
+                - link "Enterprise-grid" [ref=f3034e3016] [cursor=pointer]:
+                  - /url: /enterprise-grid
+          - generic [ref=f3034e3017]:
+            - paragraph [ref=f3034e3018]: Use cases
+            - list [ref=f3034e3019]:
+              - listitem [ref=f3034e3020]:
+                - link "Product" [ref=f3034e3022] [cursor=pointer]:
+                  - /url: /solutions/product
+              - listitem [ref=f3034e3023]:
+                - link "Operations" [ref=f3034e3025] [cursor=pointer]:
+                  - /url: /solutions/operations
+              - listitem [ref=f3034e3026]:
+                - link "Marketing" [ref=f3034e3028] [cursor=pointer]:
+                  - /url: /solutions/marketing
+              - listitem [ref=f3034e3029]:
+                - link "Agile" [ref=f3034e3031] [cursor=pointer]:
+                  - /url: /solutions/agile
+              - listitem [ref=f3034e3032]:
+                - link "Design" [ref=f3034e3034] [cursor=pointer]:
+                  - /url: /solutions/design
+              - listitem [ref=f3034e3035]:
+                - link "Engineering" [ref=f3034e3037] [cursor=pointer]:
+                  - /url: /solutions/engineering
+          - generic [ref=f3034e3038]:
+            - paragraph [ref=f3034e3039]: Scale
+            - list [ref=f3034e3040]:
+              - listitem [ref=f3034e3041]:
+                - link "Startups" [ref=f3034e3043] [cursor=pointer]:
+                  - /url: /solutions/startups
+              - listitem [ref=f3034e3044]:
+                - link "Growing Teams" [ref=f3034e3046] [cursor=pointer]:
+                  - /url: /solutions/growing-teams
+              - listitem [ref=f3034e3047]:
+                - link "Enterprise Teams" [ref=f3034e3049] [cursor=pointer]:
+                  - /url: /solutions/enterprise-teams
+        - generic [ref=f3034e3050]:
+          - generic [ref=f3034e3051]:
+            - paragraph [ref=f3034e3052]: Industries
+            - list [ref=f3034e3053]:
+              - listitem [ref=f3034e3054]:
+                - link "Aerospace" [ref=f3034e3056] [cursor=pointer]:
+                  - /url: /industries/aerospace
+              - listitem [ref=f3034e3057]:
+                - link "Healthcare" [ref=f3034e3059] [cursor=pointer]:
+                  - /url: /industries/healthcare
+              - listitem [ref=f3034e3060]:
+                - link "Government" [ref=f3034e3062] [cursor=pointer]:
+                  - /url: /industries/government
+              - listitem [ref=f3034e3063]:
+                - link "Retail" [ref=f3034e3065] [cursor=pointer]:
+                  - /url: /industries/retail
+              - listitem [ref=f3034e3066]:
+                - link "Manufacturing" [ref=f3034e3068] [cursor=pointer]:
+                  - /url: /industries/manufacturing
+              - listitem [ref=f3034e3069]:
+                - link "Defense" [ref=f3034e3071] [cursor=pointer]:
+                  - /url: /industries/defense
+              - listitem [ref=f3034e3072]:
+                - link "Finance" [ref=f3034e3074] [cursor=pointer]:
+                  - /url: /industries/finance
+          - generic [ref=f3034e3075]:
+            - paragraph [ref=f3034e3076]: Compare
+            - list [ref=f3034e3077]:
+              - listitem [ref=f3034e3078]:
+                - link "Jira" [ref=f3034e3080] [cursor=pointer]:
+                  - /url: /plane-vs-jira
+              - listitem [ref=f3034e3081]:
+                - link "Asana" [ref=f3034e3083] [cursor=pointer]:
+                  - /url: /plane-vs-asana
+              - listitem [ref=f3034e3084]:
+                - link "Monday.com" [ref=f3034e3086] [cursor=pointer]:
+                  - /url: /plane-vs-monday
+              - listitem [ref=f3034e3087]:
+                - link "Linear" [ref=f3034e3089] [cursor=pointer]:
+                  - /url: /plane-vs-linear
+              - listitem [ref=f3034e3090]:
+                - link "ClickUp" [ref=f3034e3092] [cursor=pointer]:
+                  - /url: /plane-vs-clickup
+              - listitem [ref=f3034e3093]:
+                - link "Shortcut" [ref=f3034e3095] [cursor=pointer]:
+                  - /url: /plane-vs-shortcut
+              - listitem [ref=f3034e3096]:
+                - link "Notion" [ref=f3034e3098] [cursor=pointer]:
+                  - /url: /plane-vs-notion
+        - generic [ref=f3034e3099]:
+          - generic [ref=f3034e3100]:
+            - paragraph [ref=f3034e3101]: Learn
+            - list [ref=f3034e3102]:
+              - listitem [ref=f3034e3103]:
+                - link "The Plane blog" [ref=f3034e3105] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f3034e3106]:
+                - link "What's new (Changelog)" [ref=f3034e3108] [cursor=pointer]:
+                  - /url: /changelog
+              - listitem [ref=f3034e3109]:
+                - link "Download" [ref=f3034e3111] [cursor=pointer]:
+                  - /url: /download
+              - listitem [ref=f3034e3112]:
+                - link "Mobile" [ref=f3034e3114] [cursor=pointer]:
+                  - /url: /mobile
+              - listitem [ref=f3034e3115]:
+                - link "Plane Academy" [ref=f3034e3117] [cursor=pointer]:
+                  - /url: https://academy.plane.so/videos
+          - generic [ref=f3034e3118]:
+            - paragraph [ref=f3034e3119]: Support
+            - list [ref=f3034e3120]:
+              - listitem [ref=f3034e3121]:
+                - link "Docs" [ref=f3034e3123] [cursor=pointer]:
+                  - /url: /docs
+              - listitem [ref=f3034e3124]:
+                - link "Developer Docs" [ref=f3034e3126] [cursor=pointer]:
+                  - /url: /developers
+              - listitem [ref=f3034e3127]:
+                - link "Status" [ref=f3034e3129] [cursor=pointer]:
+                  - /url: https://status.plane.so/
+              - listitem [ref=f3034e3130]:
+                - link "Forum" [ref=f3034e3132] [cursor=pointer]:
+                  - /url: https://forum.plane.so/
+        - generic [ref=f3034e3133]:
+          - generic [ref=f3034e3134]:
+            - paragraph [ref=f3034e3135]: Company
+            - list [ref=f3034e3136]:
+              - listitem [ref=f3034e3137]:
+                - link "Terms" [ref=f3034e3139] [cursor=pointer]:
+                  - /url: /legals/terms-and-conditions
+              - listitem [ref=f3034e3140]:
+                - link "Privacy" [ref=f3034e3142] [cursor=pointer]:
+                  - /url: /legals/privacy-policy
+              - listitem [ref=f3034e3143]:
+                - link "Security" [ref=f3034e3145] [cursor=pointer]:
+                  - /url: /security
+              - listitem [ref=f3034e3146]:
+                - link "Legal" [ref=f3034e3148] [cursor=pointer]:
+                  - /url: /legals
+              - listitem [ref=f3034e3149]:
+                - link "Careers" [ref=f3034e3151] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=f3034e3152]:
+                - link "About" [ref=f3034e3154] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f3034e3155]:
+                - link "Wallpapers" [ref=f3034e3157] [cursor=pointer]:
+                  - /url: /wallpapers
+          - generic [ref=f3034e3158]:
+            - paragraph [ref=f3034e3159]: Plane in action
+            - list [ref=f3034e3160]:
+              - listitem [ref=f3034e3161]:
+                - link "Manifesto" [ref=f3034e3163] [cursor=pointer]:
+                  - /url: /manifesto
+              - listitem [ref=f3034e3164]:
+                - link "Make the switch" [ref=f3034e3166] [cursor=pointer]:
+                  - /url: /switch
+              - listitem [ref=f3034e3167]:
+                - link "Talk to Sales" [ref=f3034e3169] [cursor=pointer]:
+                  - /url: /talk-to-sales
+              - listitem [ref=f3034e3170]:
+                - link "General enquiries" [ref=f3034e3172] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=f3034e3173]:
+                - link "What our customers say" [ref=f3034e3175] [cursor=pointer]:
+                  - /url: /customers
+      - generic [ref=f3034e3178]:
+        - generic [ref=f3034e3181]:
+          - link [ref=f3034e3182] [cursor=pointer]:
+            - /url: https://go.plane.so/macos
+            - img "apple store" [ref=f3034e3183]
+            - text: Download for Mac
+          - link "Download for Windows" [ref=f3034e3184] [cursor=pointer]:
+            - /url: https://go.plane.so/windows
+        - generic [ref=f3034e3187]:
+          - link "LinkedIn" [ref=f3034e3188] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/planepowers/
+          - link "GitHub" [ref=f3034e3192] [cursor=pointer]:
+            - /url: https://github.com/makeplane/plane
+          - link "X (Twitter)" [ref=f3034e3195] [cursor=pointer]:
+            - /url: https://twitter.com/planepowers
+          - link "Discord" [ref=f3034e3198] [cursor=pointer]:
+            - /url: https://discord.com/invite/A92xrEGCge
+          - link "Youtube" [ref=f3034e3201] [cursor=pointer]:
+            - /url: https://www.youtube.com/@planepowers
+    - generic [ref=f3034e3204]:
+      - img "Nacelle"

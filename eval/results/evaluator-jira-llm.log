@@ -1,0 +1,43 @@
+[1/32] supported: Jira offers a free plan that supports up to 10 users.
+[2/32] judge_error: Jira Standard plan is priced at $7.91 per user per month.
+[3/32] supported: Jira Premium plan is priced at $14.54 per user per month.
+[4/32] supported: Jira Enterprise plan uses custom pricing.
+[5/32] supported: Jira offers volume discounts, with per-user costs decreasing as more u
+[6/32] supported: Jira Data Center is available with annual billing and requires a minim
+[7/32] no_source_text: YouTrack pricing starts at $3.67 per user per month.
+[8/32] supported: YouTrack offers a free plan for teams with up to 10 users.
+[9/32] supported: YouTrack monthly paid plans start at $5.40 per user per month, while a
+[10/32] supported: GitLab Premium plan is priced at $29 per user per month.
+[11/32] supported: GitLab offers a free tier with limited features.
+[12/32] supported: Azure DevOps offers the first five Basic users at no cost, with each a
+[13/32] supported: Azure DevOps Basic plus Test Plans costs $52 per user per month.
+[14/32] supported: Jira Data Center is scheduled to reach end of life on March 28, 2029, 
+[15/32] supported: Existing Jira Data Center customers may renew licenses until March 30,
+[16/32] supported: Jira ended support for self-hosted deployments in spring 2024 and shif
+[17/32] supported: Jira is primarily geared toward software project management and featur
+[18/32] supported: Jira connects to over 3,000 apps through the Atlassian Marketplace.
+[19/32] not_stated: Jira integrates natively with development tools including GitHub, GitL
+[20/32] supported: YouTrack, GitLab, and Azure DevOps Boards are among the alternatives r
+[21/32] supported: Some alternatives to Jira are positioned as offering simpler user expe
+[22/32] supported: One source states that Jira remains a strong choice for software devel
+[23/32] not_stated: Jira's GitHub integration is described as historically less responsive
+[24/32] supported: Azure DevOps is described as having best-in-class Agile planning tools
+[25/32] supported: Some users find Azure DevOps UI and Boards features clunky or unintuit
+[26/32] supported: GitLab provides a built-in CI/CD automation layer and is available bot
+[27/32] supported: Users rely on Jira's issue hierarchy to connect epics, stories, and ta
+[28/32] supported: Jira provides roadmaps for tracking dependencies between teams and pro
+[29/32] supported: Atlassian launched new Jira features for agentic software engineering 
+[30/32] judge_error: Jira's Summer 2026 release introduced 15 new capabilities focused on A
+[31/32] supported: A reviewer who tested Cursor's new Jira integration rated it five star
+[32/32] supported: GitHub Copilot for Jira became generally available in June 2026 with e
+{
+  "claims": 32,
+  "supported": 27,
+  "contradicted": 0,
+  "not_stated": 2,
+  "unverified_evidence": 0,
+  "no_source_text": 1,
+  "support_rate": 0.844,
+  "contradiction_rate": 0.0
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-jira-llm.json
