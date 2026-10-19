@@ -56,8 +56,9 @@ DEFAULT_MODEL = "moonshotai/Kimi-K2.6"
 MAX_SIMILAR = 3
 RESULTS_PER_QUERY = 5
 SNIPPET_CHARS = 1500  # what the writer sees per source; claims are judged against the full page text
-# The judge is a different model family from the writer, so it does not grade its own wording.
-PIPELINE_JUDGE_MODEL = os.environ.get("PIPELINE_JUDGE_MODEL", "deepseek-ai/DeepSeek-V4-Pro")
+# Judge choice from the 50-claim blind check: Kimi 43/50, DeepSeek-V4-Pro 38/50, Qwen3-235B-Instruct 37/50.
+# Kimi is the default even though the writer is also Kimi; the self-preference risk is untested.
+PIPELINE_JUDGE_MODEL = os.environ.get("PIPELINE_JUDGE_MODEL", "moonshotai/Kimi-K2.6")
 JUDGE_WORKERS = 4
 SEARCH_ATTEMPTS = 3
 DIMENSION_TITLES = {

@@ -77,7 +77,7 @@ Copy `.env.example` to `.env` and fill in:
 - `TAVILY_API_KEY` (required): search and page extraction.
 - `NEBIUS_API_KEY` (required): model calls for the brief and the judge.
 - `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY`, `LANGFUSE_BASE_URL` (optional): tracing. Leave the keys empty to turn tracing off.
-- `PIPELINE_JUDGE_MODEL` (optional): the model that checks each claim. Defaults to a different model family from the writer.
+- `PIPELINE_JUDGE_MODEL` (optional): the model that checks each claim. Defaults to Kimi, the model that scored best against the 50-claim blind check.
 
 `.env` is git-ignored. Do not commit keys.
 

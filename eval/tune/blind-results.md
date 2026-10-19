@@ -42,3 +42,20 @@ The five corrections above are now in `blind-labels-human.csv`. `your_label_raw`
 
 - Corrected agreement: 43 of 50 (86%). This replaces the 39 of 50 (78%) figure above.
 - Remaining disagreements: the three judge `no_source_text` rows (B25, B37, B43), the `unverified_evidence` row (B02), the `not_stated` vs `supported` rows (B12, B20), and B44 (judge contradicted, corrected label not_stated).
+
+## Judge comparison on the same 50 claims (2026-10-19)
+
+Each judge was run on the 50 claims, with the cited pages fetched in full. The human labels are the corrected set.
+
+| Judge | Agreement with human labels |
+|---|---|
+| Kimi-K2.6 (earlier verdicts, from the key) | 43 of 50 (86%) |
+| DeepSeek-V4-Pro (`blind-rejudge-deepseek.csv`) | 38 of 50 (76%) |
+| Qwen3-235B-Instruct (`blind-rejudge-qwen.csv`) | 37 of 50 (74%) |
+
+- Kimi was the most accurate on this sample, and it's the default again.
+- Combining two judges did not help. Keeping a claim if either judge said supported gave 42 of 50, and rejecting only when both disagreed gave 42 of 50.
+- DeepSeek rejected several claims whose own quoted evidence matched the claim (B35, B41). The quoted evidence doesn't back up its verdict in those rows.
+- Qwen missed every contradiction in the sample.
+- The self-preference risk, a judge favoring its own family's wording, is not tested by this sample. Kimi's agreement here suggests it is not large.
+- The sample is 50 claims, so a 5-point difference is roughly two claims. Treat the ranking as indicative.
