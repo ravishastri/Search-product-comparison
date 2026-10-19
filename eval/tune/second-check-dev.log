@@ -1,0 +1,107 @@
+T001 first=supported second=supported final=supported
+T003 first=supported second=supported final=supported
+T004 first=supported second=not_stated final=not_stated
+T005 first=supported second=supported final=supported
+T007 first=not_stated second=None final=not_stated
+T009 first=not_stated second=None final=not_stated
+T010 first=supported second=supported final=supported
+T011 first=contradicted second=None final=contradicted
+T013 first=supported second=contradicted final=not_stated
+T017 first=supported second=supported final=supported
+T018 first=supported second=supported final=supported
+T019 first=not_stated second=None final=not_stated
+T020 first=not_stated second=None final=not_stated
+T021 first=not_stated second=None final=not_stated
+T022 first=not_stated second=None final=not_stated
+T024 first=supported second=contradicted final=not_stated
+T025 first=supported second=unverified_evidence final=not_stated
+T026 first=supported second=supported final=supported
+T027 first=supported second=not_stated final=not_stated
+T028 first=supported second=supported final=supported
+T029 first=supported second=supported final=supported
+T030 first=not_stated second=None final=not_stated
+T031 first=not_stated second=None final=not_stated
+T033 first=contradicted second=None final=contradicted
+T035 first=supported second=not_stated final=not_stated
+T037 first=supported second=supported final=supported
+T038 first=supported second=contradicted final=not_stated
+T041 first=supported second=supported final=supported
+T042 first=not_stated second=None final=not_stated
+T043 first=not_stated second=None final=not_stated
+T045 first=not_stated second=None final=not_stated
+T046 first=supported second=supported final=supported
+T048 first=supported second=supported final=supported
+T049 first=supported second=supported final=supported
+T050 first=supported second=not_stated final=not_stated
+T054 first=not_stated second=None final=not_stated
+T055 first=not_stated second=None final=not_stated
+T057 first=supported second=not_stated final=not_stated
+T058 first=supported second=contradicted final=not_stated
+T060 first=supported second=supported final=supported
+T061 first=supported second=contradicted final=not_stated
+T063 first=supported second=supported final=supported
+T064 first=supported second=supported final=supported
+T066 first=not_stated second=None final=not_stated
+T067 first=not_stated second=None final=not_stated
+T068 first=contradicted second=None final=contradicted
+T069 first=contradicted second=None final=contradicted
+T070 first=supported second=supported final=supported
+T071 first=supported second=supported final=supported
+T073 first=supported second=supported final=supported
+T074 first=supported second=supported final=supported
+T075 first=supported second=supported final=supported
+T077 first=not_stated second=None final=not_stated
+T081 first=not_stated second=None final=not_stated
+T085 first=supported second=supported final=supported
+T086 first=supported second=supported final=supported
+T087 first=supported second=supported final=supported
+T088 first=supported second=contradicted final=not_stated
+T089 first=not_stated second=None final=not_stated
+T090 first=not_stated second=None final=not_stated
+T091 first=contradicted second=None final=contradicted
+T092 first=not_stated second=None final=not_stated
+T094 first=contradicted second=None final=contradicted
+{
+  "tune": {
+    "n": 46,
+    "first_judge_agreement": 0.587,
+    "with_second_check_agreement": 0.565,
+    "changed": 11,
+    "mismatches_final": {
+      "no_source->supported": 1,
+      "no_source->contradicted": 1,
+      "not_stated->supported": 5,
+      "supported->not_stated": 9,
+      "contradicted->not_stated": 1,
+      "not_stated->contradicted": 2,
+      "supported->contradicted": 1
+    }
+  },
+  "val": {
+    "n": 17,
+    "first_judge_agreement": 0.706,
+    "with_second_check_agreement": 0.647,
+    "changed": 1,
+    "mismatches_final": {
+      "supported->not_stated": 3,
+      "not_stated->supported": 1,
+      "not_stated->contradicted": 1,
+      "supported->contradicted": 1
+    }
+  },
+  "all": {
+    "n": 63,
+    "first_judge_agreement": 0.619,
+    "with_second_check_agreement": 0.587,
+    "changed": 12,
+    "mismatches_final": {
+      "no_source->supported": 1,
+      "supported->not_stated": 12,
+      "no_source->contradicted": 1,
+      "not_stated->supported": 6,
+      "contradicted->not_stated": 1,
+      "not_stated->contradicted": 3,
+      "supported->contradicted": 2
+    }
+  }
+}
