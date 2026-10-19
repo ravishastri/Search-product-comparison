@@ -74,6 +74,15 @@ def summarize(judged) -> dict | None:
                                    "no_source_text", "support_rate")}
 
 
+def _latest_live(slug: str) -> dict:
+    """Counts from the latest run for a product, as the results page shows them."""
+    path = sorted((ROOT / "runs").glob(f"{slug}-2026*/run.json"))[-1]
+    r = json.loads(path.read_text())
+    return {"product": slug, "run": path.parent.name, "supported": len(r["supported_claims"]),
+            "unsupported": len(r["unsupported_claims"]), "errors": len(r["errors"]),
+            "judge": r.get("judge_counts", {})}
+
+
 def build() -> None:
     products = []
     for slug, name in PRODUCTS:
@@ -136,6 +145,7 @@ def build() -> None:
                                 "judge": r["judge_verdict"], "agree": r["agree"] == "yes",
                                 "note": r["note"]} for r in blind_rows]},
             "variance": variance,
+            "live": [_latest_live(slug) for slug in ("linear", "jira", "plane", "shortcut", "clickup", "asana", "trello", "youtrack")],
             "judges": [
                 {"name": "Kimi-K2.6 (earlier verdicts)", "agree": sum(r["agree"] == "yes" for r in blind_rows), "n": len(blind_rows)},
                 {"name": "DeepSeek-V4-Pro", "agree": sum(r["agree"] == "yes" for r in _csv.DictReader(open(ROOT / "eval/tune/blind-rejudge-deepseek.csv"))), "n": len(blind_rows)},
@@ -446,6 +456,8 @@ function maturity() {
     <h3>Which judge to use</h3>
     <p class="muted" style="font-size:13px">The same 50 claims, judged by each model, agreement with the corrected human labels. Kimi is the default.</p>
     <div class="wrap"><table><thead><tr><th>Judge</th><th>Agreement</th></tr></thead><tbody>${M.judges.map(j => `<tr><td>${esc(j.name)}</td><td>${j.agree} of ${j.n} (${pct(j.agree / j.n)})</td></tr>`).join("")}</tbody></table></div>
+    <h3>Latest live runs (2026-10-19), one per product</h3>
+    <div class="wrap"><table><thead><tr><th>Product</th><th>Run</th><th>Supported</th><th>Unsupported</th><th>Errors</th></tr></thead><tbody>${M.live.map(l => `<tr><td>${esc(l.product)}</td><td class="muted">${esc(l.run)}</td><td>${l.supported}</td><td>${l.unsupported}</td><td>${l.errors}</td></tr>`).join("")}</tbody></table></div>
     <h3>Variance: three Linear runs, same settings</h3>
     <p class="muted" style="font-size:13px">Writer: Kimi. Judge: DeepSeek-V4-Pro, a different model family.</p>
     <div class="wrap"><table><thead><tr><th>Run</th><th>Sources</th><th>Supported</th><th>Unsupported</th><th>Judge: supported</th><th>Judge: contradicted</th><th>Judge: not stated</th><th>Judge: no source text</th></tr></thead><tbody>${vrows}</tbody></table></div>`;
