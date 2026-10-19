@@ -26,3 +26,11 @@
 {"id": "T027", "label": "not_stated", "how": "live page", "note": "Reddit is one of several growth tactics. 'Driven by' overstates it."}
 {"id": "T028", "label": "supported", "how": "live page", "note": "Open-source page: Docker Compose, Kubernetes, Podman, or Portainer."}
 {"id": "T029", "label": "supported", "how": "live page", "note": "Open-source page lists work items among Plane's features."}
+{"id": "T030", "label": "contradicted", "how": "live page", "note": "Worklenz gives Plane Business as $39,000+/year for 250 seats; the Plane blog gives $13/seat. Neither says custom."}
+{"id": "T031", "label": "not_stated", "how": "live page", "note": "Hatica discusses Jira licensing costs; no add-on cost comparison on either cited page."}
+{"id": "T032", "label": "not_stated", "how": "live page", "note": "Plane blog says Plane supports cloud, self-hosted, and air-gapped. It does not say Linear is cloud-only."}
+{"id": "T033", "label": "not_stated", "how": "live page", "note": "UI Bakery supports Linear/Jira-alternative and self-hostable. 'Broader product teams' is not stated."}
+{"id": "T034", "label": "supported", "how": "live page", "note": "HN title: got to 100K+ Docker deploys, May 15, 2024."}
+{"id": "T035", "label": "supported", "how": "live page", "note": "Visioneer: unlimited users on ClickUp's Free Forever plan."}
+{"id": "T036", "label": "supported", "how": "live page", "note": "Cited page lists Jira Standard at $7.75, but it is stale: Softwarepricingguide shows $8.15 after the October 2025 increase."}
+{"id": "T037", "label": "supported", "how": "live page", "note": "Ideaplan: Jira handles a 12-status workflow with conditional transitions; 'complex workflows' is stated for Jira."}
