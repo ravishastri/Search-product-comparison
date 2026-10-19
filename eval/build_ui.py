@@ -198,6 +198,13 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 @media (max-width:640px){th,td{font-size:13px}}
 </style></head>
 <body><main>
+<div class="tabs" id="topbar">
+  <button data-top="t1" aria-selected="true">1 · Starter vs ours</button>
+  <button data-top="t2" aria-selected="false">2 · Search outputs</button>
+  <button data-top="t3" aria-selected="false">3 · Evaluation</button>
+  <button data-top="t4" aria-selected="false">4 · Purchase recommendations</button>
+</div>
+<div class="topsec" id="t1">
 <h2>Starter vs our system, in plain terms</h2>
 <div class="wrap"><table><thead><tr><th></th><th>Starter</th><th>Our system</th><th>What it means</th></tr></thead><tbody id="explainRows"></tbody></table></div>
 
@@ -205,6 +212,8 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 <p class="muted" style="font-size:13px">Example: the Linear run. Each search returns results; the starter reads them directly into its answer. We keep only results that name the product or a competitor, label what we cannot date, and check each price against the page it came from.</p>
 <div id="searchBlock"></div>
 
+</div>
+<div class="topsec" id="t2" hidden>
 <label for="question" class="label">Question</label>
 <input id="question" type="search" value="Compare Linear, an issue tracker for software teams, with its similar products Jira, GitHub Issues, and YouTrack. Cover pricing and plans, competitive landscape, and recent reception. Include source URLs for every claim." style="width:100%;font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);margin:4px 0 4px">
 <p class="muted" style="margin:0 0 18px;font-size:13px">Results on this page are for the question above. A different question needs a new run.</p>
@@ -236,7 +245,10 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
     <select id="cmpVerdict"><option value="">All verdicts</option><option>supported</option><option>contradicted</option><option>not_stated</option><option>no_source_text</option></select>
   </div>
   <div class="wrap"><table><thead><tr><th>Claim</th><th>Verdict</th><th>Evidence from the page</th></tr></thead><tbody id="cmpRows"></tbody></table></div>
-  <h2>Run results</h2>
+  </section>
+</div>
+<div class="topsec" id="t3" hidden>
+<h2>Run results</h2>
   <div class="wrap"><table><thead><tr><th>Product</th><th>Starter supported</th><th>Starter contradicted</th><th>Evaluator supported</th><th>Evaluator contradicted</th><th>Evaluator prices verified</th></tr></thead><tbody id="phase4rows"></tbody></table></div>
   <p class="muted" style="font-size:13px">Judge verdicts on the saved runs (not checked accuracy). Plane's price check was not run.</p>
   <h3>Judge accuracy against the final labels (90 claims)</h3>
@@ -256,6 +268,14 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 <h2>What we changed, and what it did</h2>
 <div class="wrap"><table><thead><tr><th>Problem in the basic agent</th><th>What we changed</th><th>Status</th></tr></thead><tbody id="enh"></tbody></table></div>
 
+<h2>How to read this</h2>
+<div class="note">
+<p style="margin:0 0 8px">"Supported" means the cited page states the claim, with a quote the judge had to copy from that page. "Not stated" means the cited page does not say it, which is not the same as false. "Contradicted" means the page says something different.</p>
+<p style="margin:0 0 8px">Calibration: the judge agreed with 24 of 26 hand labels (92%). The labels were made by an AI reviewer, not a person, and that reviewer had seen the judge's verdicts. Before quoting these rates, a blind human pass is still needed.</p>
+<p style="margin:0">Pending: products not yet run show "pending". The starter's answers are much longer than the evaluator's, so compare rates, not counts.</p>
+</div>
+</div>
+<div class="topsec" id="t4" hidden>
 <h2>Purchase recommendations</h2>
 <p class="muted" style="font-size:13px">Compares the current verified price and judged evidence with past purchases and the PM memory (eval/purchases/pm_memory.md). Confidence is the product of the factors shown.</p>
 <div class="tabs" id="purchTabs">
@@ -269,13 +289,7 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 <h3>PM memory</h3>
 <div class="wrap"><table><thead><tr><th>Key</th><th>Value</th></tr></thead><tbody id="memRows"></tbody></table></div>
 
-<h2>How to read this</h2>
-<div class="note">
-<p style="margin:0 0 8px">"Supported" means the cited page states the claim, with a quote the judge had to copy from that page. "Not stated" means the cited page does not say it, which is not the same as false. "Contradicted" means the page says something different.</p>
-<p style="margin:0 0 8px">Calibration: the judge agreed with 24 of 26 hand labels (92%). The labels were made by an AI reviewer, not a person, and that reviewer had seen the judge's verdicts. Before quoting these rates, a blind human pass is still needed.</p>
-<p style="margin:0">Pending: products not yet run show "pending". The starter's answers are much longer than the evaluator's, so compare rates, not counts.</p>
 </div>
-</section>
 </main>
 <script>
 const D = __DATA__;
@@ -363,6 +377,10 @@ document.getElementById("starterAnswer").textContent = D.pages.starter_answer;
 document.getElementById("brief").textContent = D.pages.brief;
 ["cmpSys","cmpVerdict"].forEach(id => document.getElementById(id).addEventListener("change", cmp));
 showPage("p1"); cmp();
+document.querySelectorAll("#topbar button").forEach(b => b.onclick = () => {
+  ["t1","t2","t3","t4"].forEach(id => document.getElementById(id).hidden = (id !== b.dataset.top));
+  document.querySelectorAll("#topbar button").forEach(x => x.setAttribute("aria-selected", x === b));
+});
 function runsSection() {
   const R = D.runs;
   const p4 = (R.phase4 && R.phase4.products) || [];
