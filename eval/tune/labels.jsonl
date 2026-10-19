@@ -50,3 +50,11 @@
 {"id": "T053", "label": "not_stated", "how": "live page", "note": "Cited ZenPilot page does not say Business includes workload management. Get-Alfred (not cited) does."}
 {"id": "T054", "label": "not_stated", "how": "live page", "note": "Till Freitag: Asana Advanced from $24.99. The $30.49 upper bound is not on the page."}
 {"id": "T055", "label": "not_stated", "how": "live page", "note": "Get-Alfred mentions SSO for Enterprise. It does not say SAML."}
+{"id": "T056", "label": "not_stated", "how": "live page", "note": "ZenPilot pricing table is truncated at the Unlimited highlights; time tracking cannot be confirmed."}
+{"id": "T057", "label": "supported", "how": "live page", "note": "Get-Alfred: ClickUp Brain is an add-on at $9/user/month, so AI is not in the base plans."}
+{"id": "T058", "label": "not_stated", "how": "live page", "note": "Cited ZenPilot page shows Unlimited at $7 annual, not $10 monthly."}
+{"id": "T059", "label": "not_stated", "how": "live page", "note": "Tech.co feature table does not come through as text; Starter Timeline/Gantt cannot be confirmed."}
+{"id": "T060", "label": "supported", "how": "live page", "note": "SmartSuite: 24/7 support is Enterprise-only at Asana; some competitors include support on every plan."}
+{"id": "T061", "label": "supported", "how": "live page", "note": "Tech.co: Advanced is $30.49 per user per month on a month-to-month basis."}
+{"id": "T063", "label": "supported", "how": "live page", "note": "Umbrex: Asana FY2024 (ended Jan 31, 2024) revenue $652.5 million."}
+{"id": "T064", "label": "not_stated", "how": "live page", "note": "Monday's page says higher support marks but gives no 8.9 vs 8.5 G2 figures."}
