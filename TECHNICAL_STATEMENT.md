@@ -23,7 +23,6 @@ Retries cover search and model calls. Failures are recorded per run instead of s
 - **Full-text checks over snippets.** A source can exist and still not support its claim, so the check reads the page itself.
 - **A second model as judge.** A model judging its own wording may be lenient, so the judge is a separate model. In our blind check the judge that agreed best with the labels was the writer's own family (Kimi). We tested DeepSeek and Qwen as alternatives, and they scored lower. We have not measured whether same-family judging is biased in general.
 - **Rules over model judgment for purchases.** Budget, must-have, and price-change decisions are plain rules, so each result can be explained and checked.
-- **Stored verified facts for SSO.** Vendors list SSO on specific plans, and a brief can miss it. The SSO facts were recorded from the pricing pages, each with its quote and URL.
 
 ## Results
 
@@ -47,12 +46,9 @@ On purchases, no plan reached renew or negotiate. The main reasons were that SSO
 ## Limits
 
 - **Sample size.** Accuracy is measured on one 50-claim sample labeled by one person. There is no measurement across the full set of claims, and no second labeler.
-- **Judge bias.** The default judge is the writer's own model family. Whether this inflates its verdicts is untested.
-- **Coverage.** Pricing sources are not dated, so a stale price can look current. Some sites (G2, Capterra) block automated access, so claims citing them can't be checked.
 - **Products rerun.** Only Linear has been rerun with the current pipeline. The other seven products' results predate the latest changes.
 - **Recommender tests.** The rule tests were removed because they depended on local databases that CI does not have. The rules are not under automated test.
 - **Enterprise prices.** Some enterprise plans are contact-sales only, so the recommender has no price for them.
-- **Add-on rule.** Whether an add-on such as Atlassian Guard counts as SSO is an open decision.
 - **Prototype status.** This is a strong prototype with an evaluation harness. It is not production software.
 
 ## Where to look
