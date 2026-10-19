@@ -74,3 +74,11 @@
 {"id": "T078", "label": "not_stated", "how": "live page", "note": "Forbes lists Premium's price. Atlassian Intelligence is not on the cited page."}
 {"id": "T079", "label": "not_stated", "how": "live page", "note": "Cited Plaky page is about Trello pricing; it says nothing about Monday.com minimums."}
 {"id": "T080", "label": "not_stated", "how": "live page", "note": "Cited blogverdict page does not show Asana's $10.99 price."}
+{"id": "T081", "label": "not_stated", "how": "live page", "note": "Hevo: Asana has dependencies, milestones, and List/Kanban/Calendar/Timeline views. Gantt is not stated for Asana."}
+{"id": "T082", "label": "supported", "how": "live page", "note": "Blogverdict table: Asana free plan up to 15 users."}
+{"id": "T083", "label": "supported", "how": "live page", "note": "Breeze: YouTrack is for teams that need a query language."}
+{"id": "T084", "label": "not_stated", "how": "live page", "note": "ONES mentions automation rules, but the tier that includes them is not clear."}
+{"id": "T085", "label": "supported", "how": "live page", "note": "Breeze: issue types, fields, and states are yours to define."}
+{"id": "T086", "label": "supported", "how": "live page", "note": "Breeze: YouTrack's answer is a query language and JavaScript workflow rules."}
+{"id": "T087", "label": "supported", "how": "live page", "note": "JetBrains: Free for 1-10 users on the cloud edition."}
+{"id": "T088", "label": "not_stated", "how": "live page", "note": "BugBrain is cited but does not discuss GitHub Issues' custom states."}
