@@ -430,7 +430,9 @@ function whySection() {
   document.getElementById("recsWhy").innerHTML = P.recommendations.map(r => {
     const e = r.evidence || {};
     const cur = e.current_price ? `${esc(e.current_price.amount)} ${esc(e.current_price.unit.replace(/_/g, " "))} / ${esc(e.current_price.billing)}, checked ${esc(e.current_price.checked_at)} · ${link(e.current_price.source_url)}` : "no verified current price";
-    const last = e.last_purchase ? `${esc(e.last_purchase.unit_price)} on ${esc(e.last_purchase.purchased_on)} (${e.last_purchase.price_verified ? "verified" : "<span style='color:var(--warn)'>illustrative</span>"}) · ${link(e.last_purchase.price_source)}` : "no past purchase";
+    const other = P.purchases.filter(p => p.vendor.toLowerCase() === r.vendor.toLowerCase() && !r.plan.toLowerCase().includes(p.plan.toLowerCase()));
+    const otherNote = other.length ? ` (${esc(r.vendor)} ${esc(other[0].plan)} was bought on ${esc(other[0].purchased_on)} at ${esc(other[0].unit_price)} ${esc(other[0].currency)}, a different plan)` : "";
+    const last = e.last_purchase ? `${esc(e.last_purchase.unit_price)} on ${esc(e.last_purchase.purchased_on)} (${e.last_purchase.price_verified ? "verified" : "<span style='color:var(--warn)'>illustrative</span>"}) · ${link(e.last_purchase.price_source)}` : `no past purchase of this plan${otherNote}`;
     const checks = (e.memory_checks || []).map(c => `<tr><td>${esc(c.rule)}</td><td style="color:${c.result === "pass" ? "var(--ok)" : "var(--bad)"}">${esc(c.result)}</td><td class="muted">${esc(c.evidence)}</td></tr>`).join("") || `<tr><td colspan="3" class="muted">No memory rules set.</td></tr>`;
     const claims = (e.supporting_claims || []).map(c => `<li>${esc(c.text)}<div class="muted" style="font-size:12px">quote: “${esc(c.quote)}”</div></li>`).join("") || "<li class='muted'>No supported claims to show.</li>";
     return `<div class="card"><strong>${esc(r.vendor)} ${esc(r.plan)}</strong> — ${esc(r.recommendation.replace(/_/g, " "))} (confidence ${r.confidence.toFixed(2)})
