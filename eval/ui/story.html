@@ -1,0 +1,260 @@
+<title>Launch Brief to Purchase</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one reading column, generous line length, tables and diagram set apart from the prose. */
+:root {
+  --bg: #fbfaf7; --fg: #1d1c19; --muted: #5d5a52; --rule: #dcd8cc;
+  --accent: #1f5f4a; --ok: #1f6b45; --bad: #a33a2b; --card: #ffffff; --soft: #f2efe7;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151614; --fg: #f1f0ec; --muted: #b4b1a6; --rule: #3a3a34;
+    --accent: #8fd4b6; --ok: #8fe0ad; --bad: #f7aa9d; --card: #1d1e1b; --soft: #22231f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151614; --fg: #f1f0ec; --muted: #b4b1a6; --rule: #3a3a34;
+  --accent: #8fd4b6; --ok: #8fe0ad; --bad: #f7aa9d; --card: #1d1e1b; --soft: #22231f;
+  color-scheme: dark;
+}
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 18px/1.7 var(--sans);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 48px 80px;
+}
+main { max-width: 720px; margin: 0 auto; }
+p, li { max-width: 68ch; }
+.eyebrow { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
+h1 { font: 600 40px/1.12 var(--serif); margin: 0 0 18px; text-wrap: balance; }
+.lead { font-size: 20px; line-height: 1.6; color: var(--muted); margin: 0 0 32px; text-wrap: pretty; }
+h2 {
+  font: 600 26px/1.25 var(--serif); margin: 56px 0 16px; padding-top: 22px;
+  border-top: 1px solid var(--rule); text-wrap: balance;
+}
+p { margin: 0 0 16px; }
+ul { margin: 0 0 16px; padding-left: 22px; }
+li { margin-bottom: 10px; }
+strong { font-weight: 600; }
+.lbl { font-size: 15px; font-weight: 600; margin: 22px 0 8px; }
+
+/* Key figures */
+.figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin: 8px 0 8px; }
+.fig { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 18px 18px 16px; }
+.fig .big { font: 600 34px/1.1 var(--serif); color: var(--accent); }
+.fig .cap { font-size: 15px; line-height: 1.45; color: var(--muted); margin-top: 8px; }
+
+/* Steps: what each part does */
+.parts { display: grid; gap: 12px; margin: 8px 0 8px; }
+.part { background: var(--card); border: 1px solid var(--rule); border-left: 4px solid var(--accent); border-radius: 10px; padding: 16px 18px; }
+.part h3 { font: 600 18px/1.3 var(--sans); margin: 0 0 6px; }
+.part p { margin: 0; font-size: 17px; }
+
+/* Tables */
+.wrap { overflow-x: auto; margin: 12px 0 10px; border: 1px solid var(--rule); border-radius: 10px; background: var(--card); }
+table { width: 100%; border-collapse: collapse; font-size: 16px; }
+th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+th { font-size: 13px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; background: var(--soft); }
+td:first-child { font-weight: 600; }
+.bad { color: var(--bad); font-weight: 600; }
+.muted { color: var(--muted); }
+.note { font-size: 16px; color: var(--muted); margin-top: 10px; }
+
+/* Diagram */
+.diagram { margin: 14px 0 8px; padding: 18px 12px; background: var(--card); border: 1px solid var(--rule); border-radius: 10px; overflow-x: auto; }
+.diagram .mermaid { font-size: 16px; }
+
+/* Lists of decisions and business points */
+.points li { margin-bottom: 14px; }
+.foot { font-size: 15px; color: var(--muted); margin-top: 40px; padding-top: 22px; border-top: 1px solid var(--rule); }
+a { color: var(--accent); }
+@media (max-width: 480px) {
+  body { font-size: 17px; }
+  h1 { font-size: 32px; }
+  .lead { font-size: 18px; }
+  h2 { font-size: 23px; }
+  th, td { padding: 10px 11px; font-size: 15px; }
+  .fig .big { font-size: 30px; }
+}
+</style>
+
+<main>
+  <p class="eyebrow">Project story · PM tools purchase evaluation</p>
+  <h1>Launch Brief to Purchase</h1>
+  <p class="lead">A search agent writes a confident brief about PM tool prices. We built a checker, measured it against hand-labelled claims, and used the results to recommend what to buy.</p>
+
+  <div class="figures">
+    <div class="fig"><div class="big">8</div><div class="cap">PM tools checked: Linear, Jira, Plane, Shortcut, ClickUp, Asana, Trello, YouTrack</div></div>
+  </div>
+
+  <h2>The problem</h2>
+  <p>A PM choosing a tool needs facts that are current, cited, and checkable: the price, the billing unit, whether SSO is included, and whether a claim holds up against its source. A search-plus-LLM agent produces a fluent brief quickly, but some of its claims do not match the pages it cites.</p>
+
+  <h2>What we built</h2>
+  <div class="parts">
+    <div class="part">
+      <h3>Evaluator</h3>
+      <p>Plans its searches, drops off-topic results, reads the full text of each page, and checks every price against its source before writing the brief. A claim it cannot verify is labelled "not yet verified."</p>
+    </div>
+    <div class="part">
+      <h3>Purchase recommender</h3>
+      <p>Reads verified prices, verified SSO facts, and a PM memory file (budget and must-have features). It returns renew, negotiate, review alternatives, or insufficient data, with a confidence score and the factors behind it.</p>
+    </div>
+  </div>
+
+  <h2>What the starter code produced, and what ours produced</h2>
+  <p>The starter code answers a question with one search and one model reply. Its answer is free text with links scattered through it. Our code writes a structured brief: each claim carries source IDs, claims without a valid source are separated out, and each price is checked against its cited page before the brief is written.</p>
+  <p class="lbl">Linear, side by side</p>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Measure</th><th>Starter code</th><th>Our code</th></tr></thead>
+      <tbody>
+        <tr><td>Claims judged</td><td>135</td><td>34 (every claim in the brief)</td></tr>
+        <tr><td>Supported by the cited page</td><td>88 of 135 (65%)</td><td>30 of 34 (88%)</td></tr>
+        <tr><td>Contradicted by the cited page</td><td>4</td><td>0</td></tr>
+        <tr><td>Not stated on the cited page</td><td>30</td><td>3</td></tr>
+        <tr><td>No source text to check</td><td>13</td><td>1</td></tr>
+        <tr><td>Output form</td><td>Free text; 36 of 61 lines carry a URL</td><td>Structured claims with source IDs</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="lbl">All eight products</p>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Product</th><th>Starter supported</th><th>Starter contradicted</th><th>Our supported</th><th>Our contradicted</th></tr></thead>
+      <tbody>
+        <tr><td>Linear</td><td>65%</td><td>3%</td><td>88%</td><td>0%</td></tr>
+        <tr><td>Jira</td><td>63%</td><td>3%</td><td>84%</td><td>0%</td></tr>
+        <tr><td>Plane</td><td>44%</td><td>3%</td><td>79%</td><td>0%</td></tr>
+        <tr><td>Shortcut</td><td>76%</td><td>1%</td><td>89%</td><td>0%</td></tr>
+        <tr><td>ClickUp</td><td>60%</td><td>9%</td><td>77%</td><td>0%</td></tr>
+        <tr><td>Asana</td><td>76%</td><td>11%</td><td>84%</td><td>5%</td></tr>
+        <tr><td>Trello</td><td>69%</td><td>6%</td><td>89%</td><td>7%</td></tr>
+        <tr><td>YouTrack</td><td>69%</td><td>4%</td><td>92%</td><td>3%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Our code contradicts some claims for Asana, Trello, and YouTrack. Those contradictions have not been read one by one yet, and some may be judge errors. The starter code produced more claims, so the rates are not counts from the same set of claims.</p>
+
+  <h2>How we measured it</h2>
+  <p>We labelled 90 pricing and feature claims by hand against their pages. The labelling rule: a partial match counts as <em>not stated</em>. We then scored an LLM judge against those labels.</p>
+
+  <h2>Where it stands</h2>
+  <p>No plan reaches renew or negotiate yet.</p>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Plan</th><th>Result</th><th>Confidence</th><th>Main reason</th></tr></thead>
+      <tbody>
+        <tr><td>YouTrack</td><td class="bad">Review alternatives</td><td>0.82</td><td>SSO not found on the JetBrains pages checked</td></tr>
+        <tr><td>Trello Premium</td><td class="bad">Review alternatives</td><td>0.80</td><td>No SSO on Premium; SSO is on Enterprise only</td></tr>
+        <tr><td>Trello Enterprise</td><td class="bad">Review alternatives</td><td>0.53</td><td>SSO passes; $17.50 per user is over the $12 budget</td></tr>
+        <tr><td>Asana, ClickUp, Linear Enterprise</td><td class="muted">Insufficient data</td><td>0.30</td><td>SSO passes; no public price (contact sales)</td></tr>
+        <tr><td>Asana Starter, ClickUp Business, Jira Standard, Linear Plus</td><td class="muted">Insufficient data</td><td>0.30</td><td>No verified current price in the store</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Architecture</h2>
+  <p>Search and checking run in one pipeline. The purchase recommender reads only what the pipeline has verified, plus the PM's memory file.</p>
+  <div class="diagram">
+    <pre class="mermaid">
+flowchart LR
+  subgraph IN[" Inputs "]
+    Q["PM question"]
+    M["PM memory"]
+  end
+  subgraph SEARCH[" Search "]
+    P["Query plan"] --> T["Tavily search"] --> F["Filter off-topic and undated"]
+  end
+  subgraph VERIFY[" Verify "]
+    X["Full page text"] --> C["Price check against cited page"] --> J["LLM judge with verbatim evidence"]
+  end
+  subgraph STORE[" Verified stores "]
+    S[("Price history and gate")]
+    V[("Purchases and SSO facts")]
+  end
+  subgraph OBS[" Observability "]
+    L["Langfuse traces: one per run, span per search, generation per model call"]
+  end
+  subgraph DECIDE[" Decide and show "]
+    R["Purchase recommender"] --> U["Main page and purchase page"]
+  end
+  Q --> P
+  F --> X
+  J --> B["Brief with source IDs"]
+  C --> S
+  S --> R
+  V --> R
+  M --> R
+  P -.-> L
+  J -.-> L
+  classDef inp fill:#eef3ee,stroke:#1f5f4a,color:#1d1c19,stroke-width:2px
+  classDef srch fill:#dce8f7,stroke:#2b5c8a,color:#14273d,stroke-width:2px
+  classDef ver fill:#dff2e6,stroke:#1f6b45,color:#11301f,stroke-width:2px
+  classDef stor fill:#f7e9c6,stroke:#a7770f,color:#3a2a06,stroke-width:2px
+  classDef out fill:#1f5f4a,stroke:#123d2f,color:#ffffff,stroke-width:2px
+  class Q,M inp
+  class P,T,F srch
+  class X,C,J,B ver
+  class S,V stor
+  class R,U out
+  class L stor
+    </pre>
+  </div>
+  <p class="note">Solid arrows carry data. Dashed arrows carry traces. Langfuse records each run and turns itself off when no keys are set, so the tool still runs without it.</p>
+  <p class="lbl">Links</p>
+  <ul>
+    <li>Code: <a href="https://github.com/ravishastri/tavily-product-comparison" target="_blank" rel="noopener">github.com/ravishastri/tavily-product-comparison</a></li>
+    <li>Langfuse dashboard (traces, sign-in required): <a href="https://us.cloud.langfuse.com" target="_blank" rel="noopener">us.cloud.langfuse.com</a></li>
+    <li>Langfuse source code (open source): <a href="https://github.com/langfuse/langfuse" target="_blank" rel="noopener">github.com/langfuse/langfuse</a></li>
+  </ul>
+
+  <h2>Decisions we made</h2>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Decision</th><th>Why</th><th>Cost</th><th>What we would change</th></tr></thead>
+      <tbody>
+        <tr><td>Fixed query plan, not model-written queries</td><td>Runs are comparable and cheap</td><td>The plan does not adapt to each product category</td><td>Category query templates</td></tr>
+        <tr><td>Check that source IDs exist, then check claims against page text</td><td>Cheap and deterministic first step</td><td>A real source can still back the wrong claim</td><td>Blind human check on a sample from each product</td></tr>
+        <tr><td>Store only supported prices with a unit and billing period</td><td>A wrong price should never enter the history</td><td>Some real prices go to review instead</td><td>Review queue in the UI</td></tr>
+        <tr><td>SSO comes from pricing pages we record, not from the brief</td><td>The brief missed SSO and rejected valid plans</td><td>Each fact needs a manual check</td><td>Re-check facts on a schedule</td></tr>
+        <tr><td>A partial match counts as not stated</td><td>Stops generous judgments from inflating scores</td><td>Stricter labels make the judge look worse</td><td>Keep the rule; report both figures</td></tr>
+        <tr><td>Use a different judge model from the writer</td><td>Reduces self-agreement</td><td>More calls per run</td><td>Compare verdicts across two judge models</td></tr>
+        <tr><td>Raise the output limit rather than change the model</td><td>A one-line fix for empty briefs</td><td>Higher token use</td><td>Compare a model without long reasoning</td></tr>
+        <tr><td>Report the stricter prompt and second model in the repo, not the results view</td><td>They lowered agreement and confused the headline</td><td>Less visible work</td><td>Revisit once the labels are blind</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Why the enhancements matter to the business</h2>
+  <ul class="points">
+    <li><strong>Every claim traces to a source.</strong> A buyer or procurement reviewer can click through to the page behind each price or SSO claim, and see its date. This makes a recommendation defensible in a review.</li>
+    <li><strong>Wrong prices stay out of the history.</strong> Only prices with a unit, billing period, and a supporting quote are stored. A bad number cannot quietly drive a renewal decision.</li>
+    <li><strong>Known gaps are visible.</strong> The recommender reports "insufficient data" when a price is missing, instead of guessing. A team can see what to check before it spends money.</li>
+    <li><strong>Judgments are measured, not assumed.</strong> The judge's agreement with hand labels is recorded, including where it is weaker. That tells the business how far to trust the tool before it replaces manual research.</li>
+    <li><strong>Memory sets the rules.</strong> Budget and must-have features live in one editable file, so the recommendation follows the team's policy, not a model's preference.</li>
+    <li><strong>Cost of a wrong call.</strong> Renewing a tool that lacks a required feature, or paying more than the budget, costs more than the time spent on these checks. The roadmap items are priced by that risk.</li>
+  </ul>
+
+  <h2>Roadmap</h2>
+  <p class="lbl">Next</p>
+  <ul>
+    <li>Show judge agreement with hand labels on the evaluation tab, with the sample size beside each figure.</li>
+    <li>Compare plans across vendors in one view, by seat price and included features.</li>
+    <li>Show price-change alerts on the purchase page, with an acknowledge action.</li>
+  </ul>
+  <p class="lbl">Later</p>
+  <ul>
+    <li>Search depth and result count as options, saved with each run.</li>
+    <li>Retry with backoff for failed searches and model calls.</li>
+    <li>Customer demand as an input to the purchase memory, from sales or survey data.</li>
+  </ul>
+
+  <p class="foot">The full results are on the main page. Every price and SSO fact on it links to the page it came from.</p>
+</main>
