@@ -1,0 +1,90 @@
+{"id": "T001", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T002", "split": "test", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T003", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T004", "split": "val", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T005", "split": "val", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T006", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T007", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T008", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T009", "split": "val", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T010", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T011", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T012", "split": "test", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T013", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T014", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T015", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T017", "split": "val", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T018", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T019", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T020", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T021", "split": "val", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T022", "split": "val", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T023", "split": "test", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T024", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T025", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T026", "split": "val", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T027", "split": "tune", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T028", "split": "val", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T029", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T030", "split": "tune", "label": "contradicted", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T031", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T032", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T033", "split": "tune", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T034", "split": "test", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T035", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T036", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T037", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T038", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T039", "split": "test", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T041", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T042", "split": "val", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T043", "split": "val", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T044", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T045", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T046", "split": "tune", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T047", "split": "test", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T048", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T049", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T050", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T051", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T053", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T054", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T055", "split": "val", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T056", "split": "test", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T057", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T058", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T059", "split": "test", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T060", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T061", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T063", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T064", "split": "tune", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T065", "split": "test", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T066", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T067", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T068", "split": "tune", "label": "contradicted", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T069", "split": "tune", "label": "contradicted", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T070", "split": "val", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T071", "split": "tune", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T072", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T073", "split": "val", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T074", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T075", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T076", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T077", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T078", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T079", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T080", "split": "test", "label": "contradicted", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T081", "split": "val", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T082", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T083", "split": "test", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T084", "split": "test", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T085", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T086", "split": "val", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T087", "split": "tune", "label": "supported", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "supported"}
+{"id": "T088", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "supported"}
+{"id": "T089", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T090", "split": "tune", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T091", "split": "val", "label": "not_stated", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
+{"id": "T092", "split": "tune", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "not_stated"}
+{"id": "T093", "split": "test", "label": "not_stated", "source": "AI (agreed with judge; not human-checked)", "judge_v1": "not_stated"}
+{"id": "T094", "split": "val", "label": "supported", "source": "human (disagreement sheet)", "judge_v1": "contradicted"}
