@@ -121,7 +121,22 @@ def build() -> None:
                              for r in ev["claims"]] if ev else [],
     }
 
+    import csv as _csv
+    blind_rows = list(_csv.DictReader(open(ROOT / "eval/tune/blind-labels-human.csv")))
+    variance = []
+    for rid in ("linear-20261019-114755", "linear-20261019-115209", "linear-20261019-115542"):
+        rr = json.loads((ROOT / "runs" / rid / "run.json").read_text())
+        variance.append({"run": rid, "sources": len(rr["sources"]),
+                         "supported": len(rr["supported_claims"]), "unsupported": len(rr["unsupported_claims"]),
+                         "judge": rr.get("judge_counts", {}), "judge_model": rr.get("judge_model")})
     runs = {
+        "maturity": {
+            "blind": {"n": len(blind_rows), "agree": sum(r["agree"] == "yes" for r in blind_rows),
+                      "rows": [{"id": r["id"], "product": r["product"], "human": r["your_label"],
+                                "judge": r["judge_verdict"], "agree": r["agree"] == "yes",
+                                "note": r["note"]} for r in blind_rows]},
+            "variance": variance,
+        },
         "final_scores": load(ROOT / "eval/tune/final-scores.json"),
         "phase4": load(ROOT / "eval/results/phase4-summary.json"),
         "judge": {k: load(ROOT / f"eval/tune/{k}.json") for k in ("results-v1", "results-v2-dev", "results-check-dev")},
@@ -259,6 +274,9 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
   <div class="wrap"><table><thead><tr><th>Judge version</th><th>Tuning (46)</th><th>Validation (17)</th><th>Held-out test (27)</th></tr></thead><tbody id="judgerows"></tbody></table></div>
   <h3>Human check of the 35 disagreements</h3>
   <div class="grid" id="humanCards"></div>
+  <h2>Maturity checks (2026-10-19)</h2>
+  <p class="muted" style="font-size:13px">Checks run after the review. Each is a measurement, not a claim.</p>
+  <div id="maturity"></div>
   <h2>What the numbers say</h2>
 <div class="grid" id="headline"></div>
 
@@ -407,6 +425,23 @@ function runsSection() {
   ].map(([l, v]) => `<div class="card"><div class="label">${esc(l)}</div><div class="big">${esc(v)}</div></div>`).join("");
 }
 runsSection();
+function maturity() {
+  const M = D.runs.maturity;
+  const b = M.blind;
+  const rows = b.rows.filter(r => !r.agree).map(r =>
+    `<tr><td>${esc(r.id)}</td><td>${esc(r.product)}</td><td>${esc(r.human)}</td><td>${esc(r.judge)}</td><td class="muted">${esc(r.note)}</td></tr>`).join("");
+  const vrows = M.variance.map(v =>
+    `<tr><td>${esc(v.run)}</td><td>${v.sources}</td><td>${v.supported}</td><td>${v.unsupported}</td><td>${esc(v.judge.supported ?? 0)}</td><td>${esc(v.judge.contradicted ?? 0)}</td><td>${esc(v.judge.not_stated ?? 0)}</td><td>${esc(v.judge.no_source_text ?? 0)}</td></tr>`).join("");
+  document.getElementById("maturity").innerHTML = `
+    <h3>Blind check: judge vs human labels</h3>
+    <div class="grid"><div class="card"><div class="label">Agreement after corrections</div><div class="big">${b.agree} of ${b.n} (${pct(b.agree / b.n)})</div><div class="label">Before the corrections: 39 of 50 (78%)</div></div></div>
+    <p class="muted" style="font-size:13px">The five contradictions were read against their pages. The judge was right on four; the labels were corrected on those and on one partial match (B44). Remaining disagreements:</p>
+    <div class="wrap"><table><thead><tr><th>Row</th><th>Product</th><th>Human</th><th>Judge</th><th>Note</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <h3>Variance: three Linear runs, same settings</h3>
+    <p class="muted" style="font-size:13px">Writer: Kimi. Judge: DeepSeek-V4-Pro, a different model family.</p>
+    <div class="wrap"><table><thead><tr><th>Run</th><th>Sources</th><th>Supported</th><th>Unsupported</th><th>Judge: supported</th><th>Judge: contradicted</th><th>Judge: not stated</th><th>Judge: no source text</th></tr></thead><tbody>${vrows}</tbody></table></div>`;
+}
+
 function purchaseSection() {
   const P = D.runs.purchases;
   const colour = r => ({renew: "var(--ok)", negotiate: "var(--warn)"}[r] || "var(--bad)");
@@ -479,7 +514,7 @@ function explainSection() {
     <div class="label">Off-topic results removed: ${esc(s.off_topic_dropped ?? "-")} · Prices checked: ${esc(pc.checked ?? "-")} · Failed: ${esc(pc.missing ?? 0)}</div></div>`;
 }
 explainSection();
-headline(); tabs(); detail(); enh();
+headline(); tabs(); detail(); enh(); maturity();
 </script>
 </body></html>
 """
