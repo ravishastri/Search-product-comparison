@@ -411,7 +411,8 @@ function purchaseSection() {
   const P = D.runs.purchases;
   const colour = r => ({renew: "var(--ok)", negotiate: "var(--warn)"}[r] || "var(--bad)");
   document.getElementById("recs").innerHTML = P.recommendations.map(r => {
-    const f = Object.entries(r.factors).map(([k, v]) => `${esc(k.replace(/_/g, " "))} ${v.toFixed(2)}`).join(" · ");
+    const f = "Confidence factors: " + Object.entries(r.factors).map(([k, v]) => k === "current_price" && !r.current_price
+      ? `current price: none verified (${v.toFixed(2)})` : `${esc(k.replace(/_/g, " "))} ${v.toFixed(2)}`).join(" · ");
     return `<div class="card"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
       <div><strong>${esc(r.vendor)} ${esc(r.plan)}</strong><div class="label">${esc(f)}</div></div>
       <div style="text-align:right"><div style="font-weight:650;color:${colour(r.recommendation)}">${esc(r.recommendation.replace(/_/g, " "))}</div>
