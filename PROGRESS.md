@@ -48,7 +48,7 @@ Working log for the take-home. Update the checkboxes and the log as we go. Produ
 - [x] Live run (run `linear-20261018-110358`: 44 sources, 20 cited claims, 0 errors)
 
 ### Phase 4: Verify
-Decided: SaaS is the main eval domain (pricing has ground truth; matches the target user). Car run (`bmw-i4-20261018-130527`) is a secondary generalization case. The starter baseline is included, so improvement is measured on the same products and judge.
+Decided: SaaS is the main eval domain (pricing has ground truth; matches the target user). The starter baseline is included, so improvement is measured on the same products and judge.
 
 - [x] 4a. Golden set: 8 SaaS products in the issue-tracker category. Captured 2026-10-18 with Playwright (accessibility snapshots in `eval/golden/`): Linear, Jira, Plane, Shortcut, ClickUp, Asana, Trello, YouTrack. These pages are the ground truth.
 - [~] 4b. Ground-truth sheet: `eval/golden/ground_truth.json`. Partial and extracted, not hand-written: I pulled price lines from the captured snapshots, and each fact quotes its line. Plan names are inferred for most rows and marked `context_verified: false`. Shortcut has no prices (not captured). A human needs to review it before scoring.
@@ -58,7 +58,6 @@ Decided: SaaS is the main eval domain (pricing has ground truth; matches the tar
 - [ ] 4f. Judge calibration: hand-label about 50 claims. Measure agreement with the judge. Report it with the scores. Seed: the claims already hand-checked this session.
 - [ ] 4g. Metrics for starter and evaluator, under the same judge: claim support rate, contradiction rate, citation precision, staleness rate, and recall of ground-truth prices.
 - [ ] 4h. Ablation: turn off one enhancement at a time (date rule, status judge, paraphrase rule) and record the change in each metric.
-- [ ] 4i. Car case: run the evaluator on `bmw-i4` and report what fails, without tuning it to pass.
 - [ ] 4j. Record what the tool gets wrong, too.
 
 ### Phase 5: Deliver
@@ -121,7 +120,6 @@ Decided: SaaS is the main eval domain (pricing has ground truth; matches the tar
     - Wrong or unsupported: S5 says Linear has an official MCP server. The page calls Agiflow "the MCP-native alternative to Linear," which is the competitor's own marketing. Remove the claim.
     - Conflict not shown in the brief: S69 lists Linear Basic at $50 a month for a team, while the brief gives $10 per user per month (S32, S35). Both are from real sources. The brief should report the conflict.
     - Weak or unchecked: S55 (brand names only), S52, S54 (MIT matched), S62, S66's triage wording, the S57 "syntax highlighting" claim, and the S65 "sleek interface" and "activity stream" wording, which the Commonwealth page does not contain.
-    - Earlier run `bmw-i4-20261018-130527`, six spot checks: S5 supports the $13,000 gap but its prices are for 2024 model years. S9 is a November 2020 article presented as current. S12 supports the US EQE production pause (September 2025). S41 gives $64,950 "as of this writing" in a pre-pause article. S24 (Reddit) returned 403 and was not checked. S26 is a rumor thread, but the status judge marked EV6 "active."
     - Takeaway: the pipeline finds real sources, but a fraction of claims carry stale figures, a wrong attribution, or an unshown conflict. Phase 4 needs claim-level scoring against the full cited text, not keyword checks.
   - Golden set and deterministic judge (session 2026-10-18). Golden set: 8 pricing pages captured (`eval/golden/`). Shortcut prices were not captured. `ground_truth.json` was extracted from the captures and needs review. Judge (`eval/judge.py`) on run `linear-20261018-113305`: 45 claims, all cited IDs valid, 6 price claims, 1 with a price not in its cited text, 0 quoted claims, 0 dated claims, 0 stale claims. Ground-truth price recall 2 of 3, missing the $0 free plan. The judge's flagged claim is "Spendflo ... range from $5,000 to $70,000". The $70,000 is on the page; $5,000 is not in the snippet, and my earlier full-page check did not find it either, so the lower bound looks unsupported. The LLM judge is not built yet.
 

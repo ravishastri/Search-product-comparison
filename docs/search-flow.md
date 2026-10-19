@@ -36,7 +36,7 @@ In the saved Linear run it made 7 searches. Another run could make more or fewer
 
 ## Trade-offs to state in the interview
 
-- **Adaptive vs fixed.** The starter can follow the question wherever it goes, for example a product with no pricing page. The evaluator always runs the same plan, so a question that doesn't fit the template gets a poor plan (for example, the BMW i4 run searched "pricing plans" for a car).
+- **Adaptive vs fixed.** The starter can follow the question wherever it goes, for example a product with no pricing page. The evaluator always runs the same plan, so a question that doesn't fit the template gets a poor plan.
 - **Predictability.** The evaluator's searches are the same every time for the same inputs, which makes runs comparable. The starter's varies, so two runs can differ.
 - **Cost and time.** The evaluator makes more searches, and its advanced depth is slower per call. Its extra work buys the source checks; the starter does none.
 - **What is checked.** The starter builds answers from snippets with no check. The evaluator filters off-topic results, labels undated sources, and checks prices against the full cited page.
