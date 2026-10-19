@@ -125,6 +125,27 @@ Caveats, to state in the interview:
 |---|---|---|
 | Competitive and reception claims read as facts in the brief, but nothing checks them against a reference. | Those sections are headed "(not yet verified)", carry a note that they are leads, and tag each claim "(unverified)". Pricing is unchanged. | **Done.** Competitive and reception claims still need a reference to be verified. |
 
+## Evaluation strategy
+
+### What the 26 calibration claims are for
+
+- **Judge regression test.** The 26 claims (`eval/calibration/labels-playwright.json`) are a fixed regression set. Rerun the judge on them whenever the judge model, prompt, or page limit changes. If agreement with the labels drops, the change made the judge worse, whatever product it was tested on.
+- **Not a test of new products.** The 26 claims come from one product (Linear), mostly pricing, and were used to choose the judge model. They say nothing about other products or about competitive and reception claims.
+
+### Strategy for a new product
+
+1. **Pricing ground truth (automatic, no labels).** Capture the vendor's pricing page with Playwright and record its prices in `eval/golden/ground_truth.json`. The price check and the ground-truth recall then measure pricing accuracy without human labels. This works only where a vendor pricing page exists.
+2. **Per-product blind sample.** Take 10 to 15 claims from the new product's brief, including competitive and reception claims, and label them blind with the rubric in `eval/calibration/blind-labels.xlsx`. This gives the judge's agreement for that product.
+3. **Regression check.** Rerun the judge on the 26 calibration claims, and compare with the stored result (23 of 26 with the two-check rule, 24 of 26 without it).
+4. **Report per product.** Support rate, contradiction rate, price accuracy against ground truth, and judge agreement with the blind sample, each with its sample size.
+
+### Gaps
+
+- Competitive and reception claims have no ground truth, so only the blind sample can test them.
+- The current 26 do not cover those claims, so the judge's reliability on them is unmeasured.
+- Only seven of the eight PM tools have price facts in the ground truth. Shortcut's prices were not captured.
+- All labels so far were made by an AI reviewer, and some after seeing the judge's verdicts. A blind human pass is still needed.
+
 ## Decisions and trade-offs
 
 Each decision lists what we chose, the cost, and what we would change next.
