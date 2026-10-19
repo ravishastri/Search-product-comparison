@@ -10,3 +10,11 @@
 {"id": "T010", "label": "supported", "how": "live page", "note": "JetBrains blog: all features, including AI Assistance and support, are part of the subscription at no extra cost. 'Regardless of plan' is an inference. The page changed since the earlier calibration check, so label 4 there may need revisiting."}
 {"id": "T011", "label": "no_source", "how": "live page", "note": "Cited support article did not render. The cached copy says $5.50 per agent, not per user."}
 {"id": "T012", "label": "not_stated", "how": "live page", "note": "YouTube page shows no Jira G2 rating."}
+{"id": "T013", "label": "not_stated", "how": "live page", "note": "Cited ONES page is a 404; CheckThat has no mention. Softwarepricingguide supports it but is not cited."}
+{"id": "T014", "label": "supported", "how": "live page", "note": "Softwarepricingguide: Standard removes the 10-user cap."}
+{"id": "T015", "label": "supported", "how": "live page", "note": "Atono: ClickUp users report slow loading with large workspaces."}
+{"id": "T017", "label": "supported", "how": "live page", "note": "Softwarepricingguide: Standard raises automation to 1,700 rules per user per month."}
+{"id": "T018", "label": "not_stated", "how": "live page", "note": "Timing (October 2025 increase) is stated; team-size dependence is not."}
+{"id": "T019", "label": "supported", "how": "live page", "note": "Project-Management.com: positive experiences with the knowledge base."}
+{"id": "T020", "label": "not_stated", "how": "live page", "note": "Zenhub describes Linear as fast and Jira as configurable. No claim about competitors capturing dissatisfied users."}
+{"id": "T021", "label": "supported", "how": "live page", "note": "Project-Management.com: Standard has community support; Premium gets 24/7."}
