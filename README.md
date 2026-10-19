@@ -51,6 +51,8 @@ flowchart LR
   class R,U out
 ```
 
+Technical statement: [TECHNICAL_STATEMENT.md](TECHNICAL_STATEMENT.md).
+
 ## Results
 
 These pages are published from this repo. They are private to the account that published them.
