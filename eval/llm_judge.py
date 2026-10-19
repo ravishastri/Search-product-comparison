@@ -67,6 +67,39 @@ def load_claims(path: Path) -> list[dict]:
     return json.loads(path.read_text())["claims"]
 
 
+UNIT_WORDS = {
+    "per_user": ["per user", "/user", "per seat", "/seat"],
+    "per_agent": ["per agent", "/agent"],
+    "per_million_tokens": ["per million", "/1m", "per 1m", "/million", "1m tokens"],
+}
+BILLING_WORDS = {
+    "monthly": ["per month", "/month", "monthly", "a month"],
+    "annual": ["annual", "yearly", "per year", "/year", "annually"],
+}
+
+
+def code_check(claim: str, evidence: str) -> tuple[bool, str]:
+    """Second check, without a model: the evidence must contain the claim's figures, unit, and billing period.
+
+    Only applies to claims that state a price. Returns (ok, reason).
+    """
+    figures = re.findall(r"\$\d[\d,]*(?:\.\d+)?", claim)
+    if not figures:
+        return True, ""
+    ev = norm(evidence).lower()
+    missing = [f for f in figures if f.lower() not in ev]
+    if missing:
+        return False, f"figure {', '.join(missing)} not in the evidence"
+    claim_l = claim.lower()
+    for unit, words in UNIT_WORDS.items():
+        if any(w in claim_l for w in words) and not any(w in ev for w in words):
+            return False, f"unit ({unit}) not in the evidence"
+    for billing, words in BILLING_WORDS.items():
+        if any(w in claim_l for w in words) and not any(w in ev for w in words):
+            return False, f"billing ({billing}) not in the evidence"
+    return True, ""
+
+
 def judge_one(llm: ChatNebius, claim: str, texts: dict[str, str]) -> tuple[str, str]:
     source = "\n\n".join(f"[{u}]\n{t[:MAX_CHARS_PER_URL]}" for u, t in texts.items())
     reply = llm.invoke([
@@ -101,6 +134,11 @@ def main(src: str, out: str) -> None:
                 verdict, evidence = judge_one(llm, c["text"], texts)
             except Exception as exc:  # record the failure and keep going
                 verdict, evidence = "judge_error", str(exc)[:200]
+            if verdict == "supported":
+                ok, reason = code_check(c["text"], evidence)
+                if not ok:
+                    verdict = "disagreement"  # the judge said supported, the code check does not agree
+                    evidence = f"{reason}. judge quote: {evidence}"[:300]
             rows.append({"text": c["text"], "verdict": verdict, "evidence": evidence[:300]})
         print(f"[{n}/{len(claims)}] {rows[-1]['verdict']}: {c['text'][:70]}", file=sys.stderr, flush=True)
 
@@ -108,7 +146,7 @@ def main(src: str, out: str) -> None:
     count = lambda v: sum(r["verdict"] == v for r in rows)  # noqa: E731
     summary = {
         "claims": total,
-        **{v: count(v) for v in ("supported", "contradicted", "not_stated", "unverified_evidence", "no_source_text")},
+        **{v: count(v) for v in ("supported", "contradicted", "not_stated", "unverified_evidence", "no_source_text", "disagreement")},
         "support_rate": round(count("supported") / total, 3) if total else None,
         "contradiction_rate": round(count("contradicted") / total, 3) if total else None,
     }

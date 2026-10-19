@@ -1,0 +1,38 @@
+[1/26] not_stated: Linear raised prices in 2025.
+[2/26] contradicted: The Jira Premium plan is ~$12–$16/user/month.
+[3/26] disagreement: The YouTrack HelpDesk add-on is $5.50/user/month (annual).
+[4/26] supported: YouTrack includes all features at no extra charge regardless of plan.
+[5/26] supported: The GitHub Team plan is $4/user/month.
+[6/26] supported: The Linear Enterprise plan includes SAML/SCIM.
+[7/26] supported: Issue tracking is included in all GitHub plans.
+[8/26] supported: Jira requires paid add-ons for Gantt.
+[9/26] supported: The Linear Basic plan is $10/user/month.
+[10/26] supported: The Linear Basic plan includes unlimited file uploads.
+[11/26] supported: YouTrack offers cloud and self-hosted options without enterprise-only 
+[12/26] supported: The Linear Business plan includes unlimited teams.
+[13/26] supported: The GitHub Enterprise plan includes audit logs.
+[14/26] supported: Linear Agent is a built-in AI agent.
+[15/26] supported: The Linear Basic plan includes 5 teams.
+[16/26] supported: YouTrack includes AI assistance at no extra charge regardless of plan.
+[17/26] supported: The Jira Free plan is up to 10 users.
+[18/26] supported: The Linear Free plan includes 10MB file uploads.
+[19/26] not_stated: The Jira Premium plan includes Advanced roadmaps.
+[20/26] not_stated: Jira has continued tightening GitHub integrations.
+[21/26] not_stated: Teams move to Linear or Jira for multi-repo complexity.
+[22/26] not_stated: Competitors gate or upsell AI.
+[23/26] contradicted: The GitHub Team plan includes required reviewers.
+[24/26] not_stated: Teams commonly start with GitHub Issues.
+[25/26] not_stated: YouTrack is particularly strong in Russia.
+[26/26] not_stated: Teams move to Linear or Jira at ~500 tickets.
+{
+  "claims": 26,
+  "supported": 15,
+  "contradicted": 2,
+  "not_stated": 8,
+  "unverified_evidence": 0,
+  "no_source_text": 0,
+  "disagreement": 1,
+  "support_rate": 0.577,
+  "contradiction_rate": 0.077
+}
+wrote eval/calibration/judge-kimi-2check.json
