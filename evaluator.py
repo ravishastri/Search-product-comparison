@@ -226,20 +226,30 @@ def parse_status(text: str) -> tuple[str, str]:
     return status, str(data.get("source", "") or "")
 
 
-def parse_claims(text: str) -> list[Claim]:
+SOURCE_ID = re.compile(r"^S\d+$")
+
+
+def parse_claims_checked(text: str) -> tuple[list[Claim], int]:
+    """Claims from the model's JSON, with malformed items dropped. Returns (claims, dropped count).
+
+    An item is malformed if it is not an object, has no text, or has a dimension outside the three
+    we ask for. Source IDs that do not look like S<number> are discarded before the citation check.
+    """
     raw = parse_json(text).get("claims", [])
     claims: list[Claim] = []
+    dropped = 0
     for item in raw:
-        if not isinstance(item, dict) or not item.get("text"):
+        if not isinstance(item, dict) or not str(item.get("text", "")).strip() \
+                or str(item.get("dimension", "")) not in DIMENSION_TITLES:
+            dropped += 1
             continue
-        claims.append(
-            Claim(
-                dimension=str(item.get("dimension", "")),
-                text=str(item["text"]).strip(),
-                source_ids=[str(i) for i in item.get("sources", []) if isinstance(i, str)],
-            )
-        )
-    return claims
+        ids = [str(i) for i in item.get("sources", []) if isinstance(i, str) and SOURCE_ID.match(i)]
+        claims.append(Claim(dimension=str(item["dimension"]), text=str(item["text"]).strip(), source_ids=ids))
+    return claims, dropped
+
+
+def parse_claims(text: str) -> list[Claim]:
+    return parse_claims_checked(text)[0]
 
 
 def check_claims(claims: list[Claim], valid_ids: set[str]) -> tuple[list[Claim], list[Claim]]:
@@ -567,11 +577,12 @@ def main(
 
     # 3. Write the brief from the evidence, then check its citations.
     claims: list[Claim] = []
+    malformed_claims = 0
     if sources:
         user_prompt = f"Product: {product}. {description}\nSimilar products: {', '.join(similar) or 'none'}\n\nEvidence:\n\n{evidence_block(sources)}"
         for attempt in range(2):
             try:
-                claims = parse_claims(llm_reply(llm, BRIEF_PROMPT, user_prompt))
+                claims, malformed_claims = parse_claims_checked(llm_reply(llm, BRIEF_PROMPT, user_prompt))
                 break
             except (ValueError, json.JSONDecodeError) as exc:
                 errors.append(f"brief attempt {attempt + 1}: {exc}")
@@ -611,6 +622,8 @@ def main(
         "search": {"depth": "advanced", "results_per_query": RESULTS_PER_QUERY},
         "snippet_chars": SNIPPET_CHARS,
         "pricing_facts": structure_prices(supported),
+        "malformed_claims_dropped": malformed_claims,
+        "pages_unfetched": sorted(u for u, t in texts.items() if not t),
         "run_date": run_date,
         "similar": similar,
         "candidate_status": candidate_status,

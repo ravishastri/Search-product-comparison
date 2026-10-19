@@ -6,7 +6,7 @@ from unittest import mock
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import evaluator  # noqa: E402
-from evaluator import Claim, Source, fetch_page_text, judge_claims, structure_prices  # noqa: E402
+from evaluator import Claim, Source, fetch_page_text, judge_claims, parse_claims_checked, structure_prices  # noqa: E402
 
 
 def src(i: str, url: str) -> Source:
@@ -109,6 +109,24 @@ class FetchRetry(unittest.TestCase):
         tv = FakeTavily({}, fail_basic={"https://c"})
         texts = fetch_page_text(tv, ["https://c"])
         self.assertEqual(texts, {"https://c": ""})
+
+
+class ParseClaims(unittest.TestCase):
+    def test_unknown_dimension_and_empty_text_are_dropped_and_counted(self):
+        text = """{"claims": [
+          {"dimension": "pricing", "text": "Basic is $10.", "sources": ["S1"]},
+          {"dimension": "gossip", "text": "Fans love it.", "sources": ["S2"]},
+          {"dimension": "reception", "text": "  ", "sources": ["S3"]},
+          "not an object"
+        ]}"""
+        claims, dropped = parse_claims_checked(text)
+        self.assertEqual([c.text for c in claims], ["Basic is $10."])
+        self.assertEqual(dropped, 3)
+
+    def test_source_ids_must_look_like_S_numbers(self):
+        text = '{"claims": [{"dimension": "pricing", "text": "x", "sources": ["S1", "http://a", "1"]}]}'
+        claims, _ = parse_claims_checked(text)
+        self.assertEqual(claims[0].source_ids, ["S1"])
 
 
 if __name__ == "__main__":

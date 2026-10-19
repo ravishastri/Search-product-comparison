@@ -128,7 +128,7 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(claims[0].source_ids, ["S1"])
 
     def test_parse_claims_skips_empty_items(self):
-        reply = '{"claims": [{"dimension": "pricing", "text": ""}, "bad", {"text": "ok"}]}'
+        reply = '{"claims": [{"dimension": "pricing", "text": ""}, "bad", {"dimension": "pricing", "text": "ok"}]}'
         self.assertEqual([c.text for c in parse_claims(reply)], ["ok"])
 
     def test_parse_raises_when_no_json(self):
