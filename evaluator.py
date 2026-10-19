@@ -10,7 +10,7 @@
 # ]
 # ///
 """
-Product launch evaluator (Tavily take-home, Option 1).
+Search product comparison: product launch evaluator.
 
 Given a product, it finds similar products, runs a fixed set of Tavily searches
 per dimension, and writes a Markdown brief. Every claim cites source IDs that

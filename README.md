@@ -1,4 +1,4 @@
-# Launch Brief to Purchase
+# Search product comparison
 
 A PM-tools evaluator and purchase recommender. It checks each price and SSO claim against the page it cites, judges the claims with an LLM, and recommends renew, negotiate, review alternatives, or insufficient data.
 
@@ -55,7 +55,7 @@ flowchart LR
 
 These pages are published from this repo. They are private to the account that published them.
 
-- **Story** (the launch brief to purchase decision, with architecture and roadmap): https://claude.ai/artifact/LhBFRmp7YKZUL6LivMdeh3
+- **Story** (search product comparison: the decision, architecture, and roadmap): https://claude.ai/artifact/LhBFRmp7YKZUL6LivMdeh3
 - **Results** (four tabs: starter vs ours, search outputs, evaluation, purchase recommendations): https://claude.ai/artifact/3afXof9TfKhpmUoa7kNXNw
 
 To rebuild them locally:

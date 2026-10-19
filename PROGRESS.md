@@ -1,4 +1,4 @@
-# Progress: Tavily FDE Take-Home
+# Progress: Search product comparison
 
 Working log for the take-home. Update the checkboxes and the log as we go. Product-level shortcomings and their fixes are tracked in `ENHANCEMENTS.md`.
 
