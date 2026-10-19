@@ -6,3 +6,7 @@
 {"id": "T006", "label": "supported", "how": "live page", "note": "Tech Insider: Plus $16, up from $14 previously (Comparedge data, March 2026)."}
 {"id": "T007", "label": "not_stated", "how": "live page", "note": "'Advanced security' is listed under GitHub Enterprise, not Jira Enterprise. Jira Enterprise pricing is custom."}
 {"id": "T008", "label": "not_stated", "how": "live page", "note": "Page mentions a 2024 parent-child issue feature and Dependabot alerts, not added dependencies in 2024-2025."}
+{"id": "T009", "label": "not_stated", "how": "live page", "note": "Rework says YouTrack is popular in Eastern European and Russian teams. 'Particularly strong' overstates it."}
+{"id": "T010", "label": "supported", "how": "live page", "note": "JetBrains blog: all features, including AI Assistance and support, are part of the subscription at no extra cost. 'Regardless of plan' is an inference. The page changed since the earlier calibration check, so label 4 there may need revisiting."}
+{"id": "T011", "label": "no_source", "how": "live page", "note": "Cited support article did not render. The cached copy says $5.50 per agent, not per user."}
+{"id": "T012", "label": "not_stated", "how": "live page", "note": "YouTube page shows no Jira G2 rating."}
