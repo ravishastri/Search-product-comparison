@@ -34,3 +34,11 @@
 {"id": "T035", "label": "supported", "how": "live page", "note": "Visioneer: unlimited users on ClickUp's Free Forever plan."}
 {"id": "T036", "label": "supported", "how": "live page", "note": "Cited page lists Jira Standard at $7.75, but it is stale: Softwarepricingguide shows $8.15 after the October 2025 increase."}
 {"id": "T037", "label": "supported", "how": "live page", "note": "Ideaplan: Jira handles a 12-status workflow with conditional transitions; 'complex workflows' is stated for Jira."}
+{"id": "T038", "label": "supported", "how": "live page", "note": "Gartner review quotes 'Solid, customizable, cost-effective choice', but the full line adds 'if you don't rely on third-party integrations' (rated 3.0). The caveat is omitted."}
+{"id": "T039", "label": "not_stated", "how": "live page", "note": "Shortcut FAQ does not give $8.50. A different page (SaaS Price Pulse) shows $8.5 as the Team plan price."}
+{"id": "T041", "label": "not_stated", "how": "live page", "note": "FAQ does not name a Business tier; 'Business' only appears as 'Small Business' in navigation."}
+{"id": "T042", "label": "supported", "how": "live page", "note": "Rfp.wiki: strong story/epic/iteration model; dependable day-to-day tracking."}
+{"id": "T043", "label": "not_stated", "how": "live page", "note": "FAQ does not describe the Team tier or its integrations."}
+{"id": "T044", "label": "not_stated", "how": "live page", "note": "FAQ does not describe the Business tier or advanced reporting."}
+{"id": "T045", "label": "not_stated", "how": "live page", "note": "FAQ does not describe the Business tier or unlimited usage."}
+{"id": "T046", "label": "not_stated", "how": "live page", "note": "Efficient's Linear vs Shortcut page makes no claim about Linear and marketing or sales."}
