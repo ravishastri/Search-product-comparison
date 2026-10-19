@@ -106,6 +106,4 @@ python3 tests/test_store.py            # unit tests (price store)
 
 ## Status
 
-- No plan reaches renew or negotiate yet. SSO evidence and public prices are the limits.
-- The judge's agreement with hand labels is measured on a sample only. Most agreements have not been checked by a person.
 - Open items are listed in `ENHANCEMENTS.md` and `PROGRESS.md`.
