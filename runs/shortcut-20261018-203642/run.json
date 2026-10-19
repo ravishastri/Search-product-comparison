@@ -1,0 +1,656 @@
+{
+  "product": "Shortcut",
+  "price_check": {
+    "checked": 4,
+    "missing": 0,
+    "unavailable": 0
+  },
+  "off_topic_dropped": 12,
+  "description": "Project management for software product and engineering teams",
+  "category": "issuetracker",
+  "model": "moonshotai/Kimi-K2.6",
+  "run_date": "2026-10-18",
+  "similar": [
+    "Jira",
+    "Asana",
+    "ClickUp"
+  ],
+  "candidate_status": {
+    "Jira": {
+      "status": "active",
+      "source": "S9"
+    },
+    "Asana": {
+      "status": "unknown",
+      "source": ""
+    },
+    "ClickUp": {
+      "status": "active",
+      "source": "S16"
+    },
+    "Linear": {
+      "status": "unknown",
+      "source": ""
+    },
+    "Height": {
+      "status": "unknown",
+      "source": ""
+    }
+  },
+  "excluded_retired": [],
+  "queries": [
+    "Shortcut alternatives competitors issuetracker",
+    "Shortcut pricing plans",
+    "Jira pricing plans",
+    "Asana pricing plans",
+    "ClickUp pricing plans",
+    "Shortcut vs Jira features",
+    "Shortcut vs Asana features",
+    "Shortcut vs ClickUp features",
+    "Shortcut launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.getguru.com/reference/top-alternatives-to-shortcut",
+      "title": "Top Alternatives to Shortcut",
+      "content": "\u200b ### Differences and unique features Asana\u2019s focus extends beyond software development, catering to a variety of project types. Lacks some of the specialized project management features for software development teams (e.g., detailed issue tracking, sprint planning) that Shortcut offers. Places a greater emphasis on customizable views like lists, boards, and timelines. Comprehensive workload management to monitor team capacity. \u200b ## Alternative 3: Trello Trello, also developed by Atlassian, is a visual collaboration tool that uses boards, lists, and cards to organize tasks and projects. \u200b ### Key features [...] Key takeaways ## Introduction Shortcut is a robust project management platform designed for software teams, offering a comprehensive suite of tools to streamline planning and development. With features like integrated Docs, Issue Tracking, Sprint Planning, Objectives, and Roadmap capabilities, Shortcut unites all aspects of the software development lifecycle into a cohesive experience. For organizations looking to optimize their workflow, exploring alternatives can ensure they find the best fit to meet their specific needs and preferences. \u200b ## Alternative 1: Jira Jira, developed by Atlassian, is a widely-used project management tool favored by software development teams for its powerful issue and project tracking capabilities. \u200b ### Key features [...] \u200b ### Key features Issue tracking and project management with a focus on speed and simplicity. Real-time collaboration and notifications. Custom workflows and automation rules. Roadmaps to plan and track project milestones. Integrations with GitHub, Slack, and more. Keyboard shortcuts for quick navigation and task management. \u200b ### Similarities to Shortcut Both are tailored for software development with strong issue tracking and project management features. Emphasize simplicity and efficiency in managing tasks and projects. Integration with key development tools like GitHub and Slack. Support for Agile methodologies, including sprint planning and roadmaps. \u200b ### Differences and unique features",
+      "dimension": "discovery",
+      "query": "Shortcut alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S2",
+      "url": "https://www.g2.com/products/shortcut/competitors/alternatives",
+      "title": "Top 10 Shortcut Alternatives & Competitors in 2026",
+      "content": "The best Shortcut alternatives are ClickUp, Jira, and Asana. Find top-ranking free & paid apps similar to Shortcut for your Product Management Software",
+      "dimension": "discovery",
+      "query": "Shortcut alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S3",
+      "url": "https://www.cbinsights.com/company/blueprint-ai/alternatives-competitors",
+      "title": "Top Blueprint AI Alternatives, Competitors",
+      "content": "Z Zyphra Zyphra focuses on full-stack probabilistic computing for AI and information processing in the technology sector. The company provides a platform for developing and testing AI models using probabilistic computing methods. It was founded in 2021 and is based in Palo Alto, California. Shortcut Logo Shortcut Shortcut is a project management platform that integrates product and engineering efforts within the software development sector. The platform includes tools for issue tracking, sprint planning, and roadmaps, and aligns work with company goals. Shortcut primarily serves the software development industry. Shortcut was formerly known as Clubhouse Software. It was founded in 2014 and is based in New York, New York. A Aramco",
+      "dimension": "discovery",
+      "query": "Shortcut alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S4",
+      "url": "https://www.ideaplan.io/alternatives/shortcut",
+      "title": "8 Best Shortcut Alternatives for Product & Engineering",
+      "content": "Consider your team size as well. Under 15 people, Linear or Height will feel right. Between 15 and 100, Shortcut itself, Jira, or Asana are strong choices. Over 100, Jira's customization and scale typically win. For help evaluating tools against your specific needs, try our PM Tool Picker. You can also explore prioritization frameworks to evaluate which features matter most for your team's workflow. ## FAQ ## Frequently Asked Questions What is the best free alternative to Shortcut?+ GitHub Issues is the strongest free option for teams already on GitHub. It provides issue tracking, project boards, and automation at no cost. Plane is another strong free option as an open-source tool that mirrors Shortcut's design sensibility. Can Linear replace Shortcut?+ [...] ## 3. GitHub Issues Best for: Teams that want issue tracking inside their code repository Pricing: Free with any GitHub plan GitHub Issues eliminates context switching for developer-heavy teams. Issues live alongside pull requests, code reviews, and CI/CD. GitHub Projects (the board/table view layer) adds sprint planning, custom fields, and automation. For teams where every task maps to code changes, keeping everything in GitHub removes an entire tool from the stack. The limitation is product management depth. There is no built-in feedback portal, no customer-facing roadmap, and reporting is basic. But for teams that pair GitHub Issues with a dedicated roadmapping tool, it covers the execution layer well. ## 4. Plane Best for: Teams that want an open-source, self-hosted alternative [...] Jira remains the default for organizations over 50 engineers. Its customization depth is unmatched: custom issue types, workflow engines with conditional transitions, over 3,000 marketplace apps, and advanced JQL querying. The new Jira interface (launched 2024) addressed many of the speed complaints that drove teams to Shortcut in the first place. Where Jira wins over Shortcut is scale. Cross-project dependencies, portfolio views with Advanced Roadmaps, and enterprise features like audit logs, IP allowlisting, and SAML SSO justify the migration for growing organizations. The learning curve is steeper, and initial setup takes more effort, but the ceiling is much higher. Product teams using Jira should also explore our roadmap templates for Jira teams. ## 3. GitHub Issues",
+      "dimension": "discovery",
+      "query": "Shortcut alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S5",
+      "url": "https://faun.dev/toolbox/shortcut-vs-youtrack",
+      "title": "Shortcut vs YouTrack: Issue Trackers Comparison (2026)",
+      "content": "Shortcut (74/100) and YouTrack (75/100) are very close overall. Both tools are rated on the same 11 criteria. The widest gap of the comparison is portability,",
+      "dimension": "discovery",
+      "query": "Shortcut alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S6",
+      "url": "https://www.theregister.com/software/2025/09/09/atlassian-goes-cloud-only-customers-face-integration-issues/391022",
+      "title": "Atlassian goes cloud-only, customers face integration issues",
+      "content": "# Atlassian's move to cloud-only means customers face integration issues and more First, server products go end of life, now datacenter gets the chop, and larger customers will pay more Atlassian is discontinuing its datacenter products, including Jira, Confluence and Bamboo, in favor of Atlassian Cloud. There is a partial exception for Bitbucket, a source code repository manager, which will have a license option covering both cloud and datacenter. The official post states that \"nearly all our new customers\" are choosing cloud and that there are benefits in AI search, chat and automation, thanks to its Rovo offering.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 09 Se"
+    },
+    {
+      "id": "S7",
+      "url": "https://windowsforum.com/news/cisa-kev-cve-2026-21589-exploited-in-atlassian-data-center-patch-jira-confluence-and-bitbucket.448534",
+      "title": "CISA KEV: CVE-2026-21589 Exploited in Atlassian Data Center\u2014Patch Jira, Confluence and Bitbucket",
+      "content": "1. Shut down the node. 2. Locate and back up your Tomcat configuration file: For Confluence, Jira, JSM, and Bamboo: `conf/server.xml` For Crowd: Either `apache-tomcat/conf/Catalina/localhost/crowd.xml` or `apache-tomcat/conf/server.xml` (whichever file contains your application `<Context>` element). [...] ### \u200b For Bitbucket Data Center, apply this change across all cluster nodes, Bitbucket mirrors, and mirror farm nodes after backing up your instance: 1. Open `<installation-directory>/app/WEB-INF/urlrewrite.xml`. 2. Insert the following `<rule>` block at the very top of the file, before any existing `<rule>` entries: Code: ``` <rule> <from>(?is).(?:/|\\\\%(?:25)(?:2f|5c)|(?::|%(?:25)3a){2})(?:\\.|%(?:25)2e){2}(?:/|\\\\%(?:25)(?:2f|5c)|(?::|%(?:25)3a){2}|;|%(?:25)3b|$).</from> <set type=\"status\">404</set> <to>/mvc/error404</to> </rule> ``` 3. Restart Bitbucket Data Center. [...] | Product | Affected Versions | Fixed Versions (Upgrade Target) | Related Jira Ticket | --- --- | | Bitbucket Data Center | All versions prior to fix | `9.4.26`, `10.2.8`, `10.5.1` | BSERV-20604 | | Confluence Data Center | All versions prior to fix | `9.2.26`, `10.2.19` | CONFSERVER-104488 | | Jira Service Management Data Center | All versions prior to fix | `5.12.40`, `10.3.26`, `11.3.12` | JSDSERVER-16809 | | Jira Software Data Center | All versions prior to fix | `9.12.40`, `10.3.26`, `11.3.12` | JRASERVER-79546 | | Bamboo Data Center | All versions prior to fix | `10.2.24`, `12.1.12` | BAM-26567 | | Crowd Data Center | All versions prior to fix | `6.3.7`, `7.0.3`, `7.1.7`, `7.2.4` | CWD-6610 | | Crucible | All versions prior to fix | `4.9.15` | CRUC-8741 |",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Thu, 15 Oc"
+    },
+    {
+      "id": "S8",
+      "url": "https://www.csoonline.com/article/4231527/atlassians-critical-flaw-turns-eight-enterprise-products-into-one-big-security-problem.html",
+      "title": "Atlassian\u2019s critical flaw turns eight enterprise products into one big security problem | CSO Online",
+      "content": "Another option is blocking requests using a Tomcat RewriteValve rule on each node in their data center cluster for Bamboo, Confluence, Crowd, Jira Software, and Jira Service Management. Each node should then be shut down and restarted. And Bitbucket users could back up their instances, write a rule in urlrewrite.xml, apply it to every node, mirror, and mirror farm node, and then restart. But Atlassian called the mitigations \u201climited and not a replacement for patching your instance,\u201d adding that it cannot confirm whether a particular enterprise\u2019s instances have been affected by this vulnerability. \u201cEngage your local security team to check all affected instances for evidence of compromise,\u201d the company advised. [...] The patch path explains why some customer updating lags; Atlassian no longer ships binary patches, so fixing this means moving to a new maintenance release, he pointed out. That is an upgrade project rather than a quick fix, and every \u201cwe cannot update yet\u201d is a risk acceptance. But the most telling detail may be the flaw\u2019s scoring vector, Dickson noted. It is rated as having no impact on the vulnerable server\u2019s own integrity and availability, but assesses high impact on subsequent systems across confidentiality, integrity, and availability. In other words, the Jira or Confluence server survives untouched, but the systems its files unlock may not. Essentially, \u201cit is a burglar who takes nothing but the key ring by the front door,\u201d Dickson said. [...] \u201cOn the surface, arbitrary file access might not sound as serious as remote code execution, but the real issue is what an attacker could potentially get access to,\u201d said Erik Avakian, technical counselor at Info-Tech Research Group. \u201cThe business risk isn\u2019t simply someone reading a file; it\u2019s what that information could potentially allow them to do next.\u201d ## Patch now or isolate exposed instances. The arbitrary file access vulnerability is present in all versions of Bamboo Data Center, Bitbucket Data Center, Confluence Data Center, Crowd Data Center, Crucible, Fisheye, Jira Service Management Data Center, and Jira Software Data Center.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 06 Oc"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.atlassian.com/blog/company-news/farewell-to-server",
+      "title": "Farewell Server, Hello Cloud - Inside Atlassian",
+      "content": "What happens to your Server instances after Feb 15, 2024? Your products won\u2019t be eligible for renewal or receive updates, enhancements, or security patches. Over time, this may lead to performance and compatibility issues with evolving technologies, posing security and operational risks for your organization. Act now to mitigate these concerns. Which products does Server end of support apply to? Jira Software Server Jira Core Server Jira Service Management Server Confluence Server Bitbucket Server Crowd Server Bamboo Server Atlassian-built Server apps What to do next To remain supported, we recommend migrating to Cloud or upgrading to Data Center. Visit the Atlassian Migration Program to explore your options and learn how to take the next step. [...] Did you purchase a dual license? Here\u2019s what you can expect. If you purchased a Cloud subscription for more than 1,000 users of Jira Software & Confluence or more than 250 agents of Jira Service Management between September 12, 2023 and February 15, 2024 qualifying you for dual licensing, you\u2019re eligible for extended Server support for up to 12 months. If you have a dual license, make sure to update your preferences here in order to receive email updates for security patches, bug fixes, and tech alerts. Have questions? Get in touch: Your advocate is ready to help. ## Unable to make the move? Upgrade to Data Center [...] ## Unable to make the move? Upgrade to Data Center For those unable to move to Cloud for now, we encourage you to upgrade to Data Center to stay supported and receive dozens of additional enterprise-grade features not available on Server, such as advanced auditing, rate limiting, and rolling and zero-downtime upgrades. In addition to these, we\u2019ve continued to introduce more functionality in our Data Center products in the areas of performance and scale, security & compliance, and infrastructure and operations to increase productivity across admins and end-users. Just last year, we released the latest LTS (long-term support) releases for Jira Software and Jira Service Management, Confluence, and Bitbucket.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Thu, 15 Fe"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.idahostatesman.com/news/business/article316794354.html",
+      "title": "Boise-area rock climbing gym owner says it will remain open | Idaho Statesman",
+      "content": "Asana has been an indoor climbing spot for the Treasure Valley at 4977 N. Glenwood St. since 2017. In June, the gym\u2019s owner, Jamey Sproull, sent out the dreaded message to its climbers notifying them of the pending closure in November of this year. According to the message, Asana had \u201cnot been offered a new long-term lease agreement.\u201d On Friday, Sproull sent out the good news in a message \u201cI never thought I would be able to write.\u201d According to the message, the property manager expressed a commitment to keeping Asana open at the current location. But there still are kinks to work out, Sproull said. A long-term lease agreement is not finalized yet, but Sproull stated that they have \u201cevery reason to believe\u201d Asana will continue to operate at the location. [...] \u201cWhen I announced that the gym would be closing, I did so because that was the reality we were facing,\u201d Sproull stated in the message. \u201cWe had no long-term lease, no viable path to remain in the building, and no realistic alternative location that could support a climbing gym. It was one of the hardest announcements I have ever had to make.\u201d Sproull said Asana will continue its regular operations and invest in the gym\u2019s programs, youth climbing, competitions and events. He noted that the gym still has work to do as the agreement is finalized and will share updates. The \u201cstrength\u201d of the climbing community helped Asana push through the weeks following the closure announcement, Sproull stated in the message. He thanked the gym\u2019s members, staff, volunteers and the property manager. [...] The property is owned by TPC Glenwood, LLC, an affiliate of a developer and property manager that oversees businesses and housing in the Treasure Valley and across the western U.S. According to the closure message, the gym\u2019s lease was originally set to expire at the end of June, but the property managers granted Asana an extension on the lease through the end of the year. Asana\u2019s new gym opened in January. Asana\u2019s new gym opened in January. Courtesy of Asana When Asana faced with the possibility of an end at the current location, Sproull said he looked for a new location, but niche zoning, the building height needed for a viable climbing gym and the high lease rates made the search nearly impossible.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Thu, 06 Au"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.fox4news.com/news/rodeo-dallas-ownership-2-25m-question-after-lawsuit-dropped",
+      "title": "Rodeo Dallas: Ownership of $2.25M in question after lawsuit dropped | FOX 4 Dallas-Fort Worth",
+      "content": "## $2.25 million up for grabs To shut Rodeo Dallas down, Asana Partners had to put up a $2.25 million cash bond with the court which would protect Rodeo Dallas if the shutdown turned out to be wrongful. Rodeo Dallas believes that money rightfully belongs to them. \"At this point, it's just a matter of trying to recoup the bond money that they had to put up in order to shut us down,\" Ybanez said. Asana Partners wants the money back, but Ybanez says his business deserves it for the revenue they\u2019ve lost. \"If you think about it, who has $2.25 million to shut down a competitor? You know, it's disgusting to me, what they did and what they got away with, because they're a billion dollar firm,\" Ybanez said. According to Ybanez, Rodeo Dallas isn't going anywhere. [...] article ### Dallas County judge still undecided on fate of popular Deep Ellum nightclub The court was told a decision on whether Rodeo Dallas would be allowed to reopen would come sometime Friday, after a seven-hour hearing the day before. Court records show real estate firm Asana Partners has dropped the lawsuit against the bar. Asana says Rodeo Dallas is being forced out of their space anyway because of a separate lawsuit with its landlord, and says the lawsuit no longer serves any purpose. Ybanez says the damage has already been done. \"They killed it. I mean, it's destroyed the business,\" Ybanez said. So now the fight moves to money. ## $2.25 million up for grabs [...] #### The Brief + Rodeo Dallas is no longer court-ordered to stay closed after a lawsuit was dropped. + The dispute now centers on a $2.25M cash bond and who is entitled to the money. + A judge will decide whether the bar or the real estate firm Asana Partners gets the funds. DEEP ELLUM, Texas - Rodeo Dallas's owner is riled up, and the battle now shifts to more than two million dollars and who has the right to it. After months of sitting in the dark in one of Deep Ellum's busiest corridors, Rodeo Dallas is no longer under a court order forcing it to stay closed. ## Rodeo Dallas lawsuit dropped What's new: Asana Partners originally argued that Rodeo Dallas attracted crime to the area.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Wed, 31 De"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.idahostatesman.com/news/business/article316162809.html",
+      "title": "Garden City bouldering gym to close after lease dispute | Idaho Statesman",
+      "content": "A Boise-area rock climbing gym will close its doors later this year after more than a decade, citing leasing disagreements with the property manager and difficulty finding a new space. Asana Climbing Gym, which has operated at 4977 N Glenwood St. in Garden City since 2017, announced the closure to members of its mailing list via email on Tuesday. Owner Jamey Sproull wrote in the message that Asana has \u201cnot been offered a new long-term lease agreement\u201d and will close on Nov. 29. Sproull did not immediately respond to a request for comment through the gym. [...] \u201cAs the owner of Asana Climbing Gym, I am deeply disappointed. Furthermore, as a climber, I am heartbroken,\u201d Sproull said. He clarified that Asana Climbing \u2014 a separate business he operates that makes bouldering equipment \u2014 will stay in business. Asana shared an FAQ document online to address questions about memberships, future operations and other concerns, as well as a timeline for anticipated changes. According to the climbing gym\u2019s website, Asana began as a manufacturing company in 1999 and in 2013 purchased The Front, a bouldering gym on Chinden Boulevard and 33rd Street in Garden City. It moved to its current location a few years later. [...] The property is owned by TPC Glenwood, LLC, which is affiliated with The Pacific Cos., a developer and property manager that oversees businesses and housing across the Treasure Valley and the West. The company did not respond to a request for comment on the leasing agreement with Asana or its future plans for the building. Sproull said he also looked for a new location for the gym during the lease process and came up empty-handed due to the niche zoning and height requirements needed to house the climbing gym or the \u201csignificantly higher lease rates\u201d at plausible locations. He noted that Asana is financially stable and growing and said the closure is \u201cnot the result of any single event, disagreement, or the financial health or performance of the gym.\u201d",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Wed, 17 Ju"
+    },
+    {
+      "id": "S13",
+      "url": "https://1035kissfmboise.com/asana-climbing-gym-boise-closure",
+      "title": "With 'Heavy Heart', Popular Boise Climbing Gym Announces Closure",
+      "content": "Asana Climbing Gym on Glenwood, right near Expo Idaho, has announced that while they still have 'most of the year' to be open--they will indeed be closing their doors for good. The news is heartbreaking, and a memo from ownership was sent out via email blast to members and fans of the gym: [...] > For the past two years, I have worked diligently to find a path forward for the climbing gym. I explored multiple options, evaluated every reasonable avenue available to me, and worked in good faith toward the possibility of entering a new lease agreement. Unfortunately, there are factors outside of my control and property management has made it clear that they intend to lease to another party and/or repurpose the building for something else. Obviously, this is not the outcome I want for the gym. Asana Climbing Gym is financially stable, growing, and deeply loved by its community. Without a viable long-term lease or a realistic path to remain in this building, I have had to make the difficult decision to close gym operations. [...] Skip to site footer TRENDING: Win $25,000! Phone Taps Second Date Update Song of the Week Get Our Newsletter 103.5 KISSFM Boise\u2019s \u2018Asana Climbing Gym\u2019 To Close Permanently This Winter Boise\u2019s \u2018Asana Climbing Gym\u2019 To Close Permanently This Winter # Boise\u2019s \u2018Asana Climbing Gym\u2019 To Close Permanently This Winter Mateo Mateo Credit: Asana Climbing Gym, Facebook Share on Facebook Share on Twitter We're lucky to live in the Treasure Valley, where local business thrives thanks to the support of our neighbors that understand the importance of 'keeping it local'. Unfortunately, circumstances beyond one local business' control has led to the announcement that they will be closing their doors for good.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Wed, 17 Ju"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.idahostatesman.com/news/northwest/idaho/article316178726.html",
+      "title": "Bathroom ban ruling, gym closure, tax debate: Boise news | Idaho Statesman",
+      "content": "A federal judge issued a preliminary injunction blocking Idaho\u2019s bathroom ban from fully taking effect, finding the plaintiffs were likely to succeed on the merits of their claim that the law was unconstitutionally vague. The law, which was set to take effect July 1, would have made it a misdemeanor \u2014 and a felony on a second offense \u2014 to use a restroom that doesn\u2019t align with one\u2019s sex assigned at birth. Asana Climbing Gym in Garden City will close on Nov. 29 after more than a decade, with owner Jamey Sproull citing the property manager\u2019s decision not to offer a new long-term lease. Sproull spent two years trying to find a new location but cited niche zoning requirements and high lease rates as obstacles. [...] Read today's Edition Idaho Statesman Logo Log In | Subscribe Welcome Back! Edit Profile My Subscriptions Sign Out Boise State Words & Deeds Boise Favorites Idaho News # Bathroom ban ruling, gym closure, tax debate \u2014 what you may have missed By Edited by Chadd Cripe. Produced with AI assistance Asana Climbing Gym will be closing later this year. \"Asana Climbing Gym will be closing later this year.\") Asana Climbing Gym will be closing later this year. Sarah A. Miller smiller@idahostatesman.com From a court ruling on Idaho\u2019s transgender bathroom law to a finalist named for Boise State\u2019s presidency, several major stories shaped the news in Idaho this week. Here\u2019s a roundup of top stories from the Idaho Statesman.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Thu, 18 Ju"
+    },
+    {
+      "id": "S15",
+      "url": "https://fluidwave.com/alternatives/clickup",
+      "title": "7 Best ClickUp Alternatives in 2026 (Free and Paid) | Fluidwave: Act Wisely",
+      "content": "| Feature | Fluidwave | Asana | monday.com | Notion | Trello | Motion | Taskade | ClickUp | --- --- --- --- | Built-in email clientRead, reply, archive, label and search your inbox without leaving the app. | Included | Not availableGmail and Outlook add-ons create tasks from email; there is no inbox inside Asana. | Not availableEmail sync is a monday CRM feature; Work Management has no inbox. | Not availableNotion Mail, a Gmail-only client, was discontinued on 22 September 2026. | Not available | Not available | Not availableEmail only enters through automation triggers; you cannot read or reply inside the app. | PartialThe Email ClickApp sends and receives email from inside a task; it is not an inbox you can browse. | [...] Alternatives # The best ClickUp alternatives in 2026 ClickUp can do almost anything, which is exactly why some people leave it. These seven alternatives trade breadth for speed, focus or a lower price. Updated September 22, 2026 ## Why people look for a ClickUp alternative ClickUp\u2019s pitch is that it replaces everything, and the Free Forever plan genuinely includes unlimited tasks and users, Gantt, dependencies and calendar view. People who leave are rarely leaving over missing features. They leave because of what all those features cost in time, attention and add-ons. The constant context switching between ClickUp, your inbox and your calendar is what most people describe when they explain why they left. The Fluidwave vs ClickUp page compares the two directly. ### Fluidwave [...] ### Pricing | Feature | Fluidwave | Asana | monday.com | Notion | Trello | Motion | Taskade | ClickUp | --- --- --- --- | Free planA usable free plan with no credit card required. | Included | Included | PartialTwo seats, three boards and 200 items, with no automations or integrations. | Included | Included | Not available | PartialFree covers tasks and projects, but AI credits are one-time and you get one workspace, one agent and three automations. | Included | ## What to look for in a ClickUp replacement Start by listing what you actually used. Most ClickUp workspaces run on a handful of lists, one or two views and a few automations; the rest is potential you paid for in setup time. Once you know your real footprint, three questions sort the alternatives quickly.",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Tue, 22 Se"
+    },
+    {
+      "id": "S16",
+      "url": "https://get-alfred.ai/blog/best-motion-alternatives",
+      "title": "7 Best Motion Alternatives in 2026 (Cheaper, Simpler, Better) | alfred_",
+      "content": "What's better than Motion for teams? For teams, the long-time pick was Clockwise, but it shut down on March 27, 2026 after Salesforce acquired its team. The closest replacement for team-wide calendar optimization and focus time is Reclaim.ai, which offers similar scheduling automation at $12/mo per seat on its Business plan. For team project management without the scheduling complexity, traditional tools like Asana or ClickUp paired with a simpler calendar tool often work better than Motion's all-in-one approach. Can Motion replace my email inbox? [...] Strengths: Widest integration library for task aggregation, solid time-blocking interface, pulls from Gmail/Slack/Notion/Jira/Trello, fast keyboard shortcuts Limitations: No AI auto-scheduling, steep price with no free plan, subscription cancellation complaints, no team features, requires manual planning ### 5. Clockwise: Shut Down in 2026 (Use Reclaim Instead) Pricing: No longer available. Clockwise shut down on March 27, 2026. [...] The best Motion alternative depends on why you left: Too expensive? Reclaim.ai\u2019s free plan offers AI scheduling at no cost. Todoist also has a free tier. Auto-scheduling too aggressive? Sunsama gives you intentional planning. Reclaim.ai offers a gentler AI. Needed more calendar providers? Morgen supports Google, Outlook, iCloud, Exchange, and Fastmail. Needed email management? alfred\\_ is the one tool connecting calendar, email, and tasks in one AI. Just wanted better task management? Todoist is simplest. Akiflow aggregates tasks from everywhere. Needed team-wide help? Reclaim.ai is the closest option now that Clockwise has shut down.",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Fri, 13 Fe"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.latestly.com/quickly/technology/clickup-ceo-zeb-evans-takes-full-responsibility-for-22-tech-layoffs-7444692.html",
+      "title": "Technology News | ClickUp CEO Zeb Evans Takes Full Responsibility for 22% Tech Layoffs | \ud83d\udcf2 LatestLY",
+      "content": "Read Full Story Related Stories Who Was Jonathan McKinsey? NYT Executive Shot Dead by In-Laws After Alleging Transphobic Abuse Anthropic IPO Filing Carries Stark Warning Over AI; Says Its Models May Resist Shutdown and Mimic Blackmail Silicon Valley Predator List: What It Is and Why Women Are Sharing It Viral Car Video: AI Prompts To Create Cinematic Driving Videos Read All QuickLY [...] ## Technology # \u26a1ClickUp CEO Zeb Evans Takes Full Responsibility for 22% Tech Layoffs By Team Latestly ClickUp CEO Zeb Evans announced a 22 per cent workforce reduction driven by the structural impact of artificial intelligence on corporate productivity. Evans stated the business is performing at its strongest and that savings will be reinvested into remaining staff, including new salary bands worth up to USD 1 million annually for elite AI talent. Read Full Story Related Stories",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Sun, 24 Ma"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.headphonesty.com/2025/11/discontinued-audio-brands-audiophiles-miss-most",
+      "title": "20 Discontinued Audio Brands Thousands of Audiophiles Miss The Most, Based on Recent Surveys | Headphonesty",
+      "content": "In 1979, Bob Carver sold Phase Linear to Pioneer Electronics. He immediately founded Carver Corporation. Pioneer put out a few Phase Linear-branded products, some high-end cassette decks, and car stereo units. Without Carver\u2019s vision, the brand lost steam. By 1982, Pioneer had essentially discontinued Phase Linear\u2019s home audio lineup. The name was later sold and saw some use on car audio amps, but it never returned to prominence. ## 19. SABA (0.6% of Votes) SABA Freiburg (From: Luxury Radios) SABA Freiburg (From: Luxury Radios) In Germany, four names defined audio: Grundig, Telefunken, Blaupunkt, and SABA. [...] The company\u2019s growth eventually caught up with them. After a 1978 bankruptcy, a 1984 spin-off kept consumer audio alive for a while. But through the \u201990s, the line faded, and by the 2000s, the name lived on mostly in other categories Its name survived through computer tape drives and videoconferencing gear (Cisco bought the video division in 2010), but Tandberg\u2019s home-audio era ended around the turn of the millennium. ## 18. Phase Linear (0.7% of Votes) Phase Linear 700 amplifier (From: The Absolute Sound) Phase Linear 700 amplifier (From: The Absolute Sound) They called it \u201cFlame Linear.\u201d [...] Table of Contents 1. Nakamichi (18.8% of Votes) 2. Sansui (13.5% of Votes) 4. Carver (8.4% of Votes) 5. Boston Acoustics (7.0% of Votes) 6. Altec Lansing (6.6% of Votes) 7. Akai (5.4% of Votes) 8. ADS (5.1% of Votes) 9. OPPO Digital (4.3% of Votes) 10. Blaupunkt (4.2% of Votes) 11. Aiwa (3.2% of Votes) 12. Fisher (3.0% of Votes) 13. Dahlquist (2.3% of Votes) 14. Advent (1.5% of Votes) 15. Thiel (1.4% of Votes) 16. Realistic (1.2% of Votes) 17. Tandberg (1.0% of Votes) 18. Phase Linear (0.7% of Votes) 19. SABA (0.6% of Votes) 20. Boschmann (0.5% of Votes) ## 1. Nakamichi (18.8% of Votes) Nakamichi 1000 (From: HiFi Hall of Fame) Nakamichi 1000 (From: HiFi Hall of Fame) Nakamichi didn\u2019t just make cassette decks. It made the cassette decks.",
+      "dimension": "status",
+      "query": "Linear discontinued or shut down",
+      "published": "Fri, 28 No"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.prnewswire.com/news-releases/linear-systems-announces-paul-norton-as-director-of-customer-and-distributor-engagement-301348565.html",
+      "title": "Linear Systems Announces Paul Norton as Director of Customer and Distributor Engagement",
+      "content": "Linear Integrated Systems Introduces LSBF862: Superior Lower Noise N-Channel JFET Replacement for Discontinued NXP BF862 ### Linear Integrated Systems Introduces LSBF862: Superior Lower Noise N-Channel JFET Replacement for Discontinued NXP BF862 Linear Integrated Systems, Inc., a designer and manufacturer of precision discrete semiconductors, announces the release of the LSBF862, a low noise... ## Explore Computer & Electronics Computer & Electronics Semiconductors Semiconductors Personnel Announcements Personnel Announcements ## Contact PR Newswire ## Products ## About ## My Services Do not sell or share my personal information: ## Contact PR Newswire ## Products ## About [...] \"Paul's been a key team member at Linear Systems for over 30 years, and this new position provides an important new focus on engaging with our customers and distributors to ensure we provide the greatest possible support and value to them,\" Company President Timothy McCune said. \"Providing world-class parts to companies making world-class products is our mission, and this new role is a key part of that work. Paul knows our product line, our distributors and our customers intimately and is the right person for this role.\" \"Providing world-class parts to companies making world-class products is our mission, and this new role is key to that.\" [...] \"Paul's been a key team member at Linear Systems for over 30 years, and this new position provides an important new focus on engaging with our customers and distributors to ensure we provide the greatest possible support and value to them,\" Company President Timothy McCune said. \"Providing world-class parts to companies making world-class products is our mission, and this new role is a key part of that work. Paul knows our product line, our distributors and our customers intimately and is the right person for this role.\"",
+      "dimension": "status",
+      "query": "Linear discontinued or shut down",
+      "published": "Wed, 04 Au"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.trustradius.com/products/shortcut/pricing",
+      "title": "Shortcut Pricing 2026",
+      "content": "Image 1: TrustRadius: an HG Insights company Search Categories Vendor solutions Write a review Research Boards Log in Sign up 1. Home 2. Task Management 3. Shortcut 4. Pricing Image 2: Shortcut logo # Shortcut Score 8.4 out of 10 10 Reviews and Ratings OverviewReviewsPricingDetailsAlternatives Image 3: Shortcut logo Shortcut Pricing ## Shortcut Pricing Plan Options Shortcut has 3 pricing plans(s), starting at $10.Available deployment types include saas. Review pricing options and learn more about the product to determine which plan is right for you.A free version and a free trial are available for Shortcut. ## Plans ### Team $10 per month / per user Cloud ### Business $16 per month / per user Cloud ### Enterprise Custom Pricing [...] Cloud ### Enterprise Custom Pricing Cloud ### Additional Pricing Information Up to a 25% discount for annual pricing. For the latest information on pricing, visitthe Shortcut official pricing page ## Alternatives for Shortcut Comparing pricing options side-by-side gives you clearer context on total cost so you can confidently choose the product that best fits your needs and budget. Compare Shortcut pricing to the most common alternatives, backed by TrustRadius buyer data. ### Linear Rating: 9.2 out of 10 Paid plans starting at:$12 _Free version available_ View pricing details Image 4: Atlassian Jira logo ### Atlassian Jira Rating: 8.4 out of 10 Paid plans starting at:$9 _Free version available_ View pricing details Image 5: Ekso logo ### Ekso Rating: 10 out of 10 [...] Image 5: Ekso logo ### Ekso Rating: 10 out of 10 Starting at:$10.00 View pricing details See all alternatives ## Support Options for Shortcut Support options are essential to consider when selecting a product because they directly affect issue resolution, team adoption, time-to-value, and lower downtime. Learn more about the support options that Shortcut offers for its pricing tiers below. | Feature | Free | Paid | --- | Forum/Community | Available | Available | | Chat | Available | Available | | Email | Available | Available | | 24/7 Live Representative | Available | Available | Image 6: TrustRadius: an HG Insights Company TrustRadius About Us Team Careers News Contact Us For Buyers Categories Buyer Blog For Vendors",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S21",
+      "url": "https://www.shortcut.com/faq",
+      "title": "Frequently Asked Questions \u2014 Shortcut",
+      "content": "Is there a free version of Shortcut? The free version of Shortcut is available for teams of up to 10 people. The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually. The Business Plan bills at $16/user per month on the monthly subscription, or $12/user per month if pre-paid annually. You can purchase Shortcut with any major credit card. What are the Shortcut pricing plans? Shortcut currently offers four subscription plans: [...] Shortcut currently offers four subscription plans: The Free Plan includes a majority of the features in our Team Plan and all the features a small team needs to build great software. The Team Plan is an excellent option for customers with multiple teams or squads who need to execute efficiently and collaboratively. For customers that require better visibility across the entire organization, the Business Plan is a better-suited offering to help them plan, execute, and measure their work. For customers with large teams with advanced processes that need a fast and easy way to scale, the Enterprise Plan will continue to serve their needs well. Learn more about our plans on our Pricing Page. Does Shortcut offer a plan for nonprofits? [...] Does Shortcut offer a plan for nonprofits? Yes! Shortcut is free for qualifying nonprofits. Click here for more information and to apply for our non-profit program. What is Korey? Korey, the AI agent for product teams, turns rough notes into dev-ready specs and tickets and keeps them current while people and coding agents build. Try Korey free today. What can I do in Shortcut during the 14-day trial period? Anything! The Shortcut Trial gives you an opportunity to truly test Shortcut\u2019s Business Plan features and build processes that work for your team. Is Shortcut SOC2 Compliant? Yes. Shortcut has completed a SOC 2 Type 2 Audit. For a copy of our SOC 2 report please email security@shortcut.com. How do I import data from another project management tool to Shortcut?",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S22",
+      "url": "https://www.g2.com/products/shortcut/pricing",
+      "title": "Shortcut Pricing 2026",
+      "content": "Shortcut offers 4 pricing editions, starting at $0. Team $8.50 per user, per month. Business $12.00 per user, per month. The Team plan at $8.50 adds org-wide.",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S23",
+      "url": "https://softwarefinder.com/project-management-software/clubhouse",
+      "title": "Shortcut Software Reviews, Pricing & Free Demo | Software Finder - 2026",
+      "content": "Yes, Shortcut provides an API. ### What language does Shortcut support? The software supports the English language. ### What other apps does Shortcut integrate with? Shortcut integrates with several third-party applications, including Slack Software, Figma, Loom, Slab, Miro Software, Zendesk, Zapier, and Clockify. ### What types of pricing plans does Shortcut offer? In addition to a free version, the software offers three pricing plans: Team ($10.00/user/month), Business ($16.00/user/month), and Enterprise (custom quote). You can request a customized Shortcut cost today! ### Who are the typical users of Shortcut? Shortcut serves several industries, including finance, information technology (IT), e-learning, entertainment, retail, and media production.",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S24",
+      "url": "https://www.capterra.com/p/160498/Shortcut/pricing",
+      "title": "Shortcut Pricing 2026",
+      "content": "How much does Shortcut cost? Shortcut has 4 different plans. The pricing starts at $8.50 per user per year with a free plan available.",
+      "dimension": "pricing",
+      "query": "Shortcut pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S25",
+      "url": "https://tech.co/project-management-software/jira-pricing",
+      "title": "Jira Pricing Guide: How Much Does the Provider Cost in 2026?",
+      "content": "Time tracking Unlimited projects AI insights Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users. Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users. There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available. In this guide, I\u2019ll take you through everything you need to know about Jira pricing, including plans, hidden fees, and potential competitors. In This Guide: [...] ### Key Takeaways Jira\u2019s Standard plan starts at $7.91 per user, per month, while its Premium plan goes up to $14.54 per user, per month, for up to 300 users. Choose annual billing to reduce the cost of the Standard plan to $6.52 per user, per month for a team of 300. Large enterprises that favor a self-hosting option should go for Jira Data Center, which starts at $51,000 per year and supports teams of 500 or more. Alternatives include Trello, which is great for budget-conscious teams, and monday work management, which is much easier to use. Jira has hidden costs in the form of paid add-ons from the Atlassian marketplace. ## How Much Does Jira Cost? Jira has four pricing plans \u2014 a free plan, Standard, Premium, and Enterprise. [...] Free \u2013 Free (up to 10 users) Standard \u2013 $7.91 per user, per month (300 users) Premium \u2013 $14.54 per user, per month (300 users) Enterprise \u2013 Custom pricing Jira is favored by tech and IT teams for its deep level of customizability, scrum and kanban boards, and integration with developer tools, such as GitHub. As a result of this, some of the terminology used in the app might be unfamiliar, and it\u2019s not very easy to use. Screenshot of Jira The \u201cimpact vs effort\u201d graph is a great way of measuring ROI. Source: Tech.co testing 0 out of 0",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S26",
+      "url": "https://thedigitalprojectmanager.com/tools/jira-pricing",
+      "title": "Jira Pricing Tiers & Costs",
+      "content": "## How Much Does Jira Cost? Jira\u2019s paid plans start at $7/user/month and go up to $12/user/month. A free version is available for small teams or individual users with up to 10 users. Additionally, there is a custom pricing tier for enterprise users, which includes advanced analytics, enhanced security features, and support for multiple instances. ## Jira Plans & Pricing Tiers Here's an overview of the available Jira plans: [...] ### Jira Premium Plan Aimed at larger teams, the Premium plan costs $12/user/month. It offers AI-powered features, collaborative teamwork, customizable approval processes, and unlimited storage. This plan is ideal for organizations requiring advanced project management and automation. Limitations include a 1-hour response time from Jira service management for critical issues. ### Jira Enterprise Plan Tailored for large enterprises, the Enterprise plan includes advanced analytics, security, and multiple instances. It\u2019s best for organizations needing extensive customization, data isolation, and administrative autonomy. This plan offers unlimited automations and 24/7 premium support with a 30-minute response time for critical issues. Limitations are based on annual billing only. [...] ## Jira Pricing Vs. Competitors Jira is generally considered to be in the average to affordable range for project management software. It offers four user tiers: Free, Standard ($7/user/month), Premium ($12/user/month), and Enterprise (custom pricing). Each plan includes features such as various project views, automation capabilities, and extensive integrations. The Free plan offers basic features, while the Standard and Premium plans offer more advanced perks like user roles, permissions, and increased storage. Overall, Jira's pricing is competitive, especially for small to medium-sized teams, and it provides strong security safeguards across all plans. ### Comparison Chart: Jira vs. Alternatives",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S27",
+      "url": "https://ones.com/blog/jira-pricing-explained-why-you-should-consider-other-options",
+      "title": "Jira Pricing 2026: Plans, Hidden Costs & TCO Guide",
+      "content": "| Plan | Price | Users | Storage | Automation | SLA | --- --- --- | | Free | $0 | Up to 10 | 2 GB | 100 rules/month | None | | Standard | $7.91/user/mo | Up to 100,000 | 250 GB | 1,700 rules/month | None | | Premium | $14.54/user/mo | Unlimited | Unlimited | 1,000 rules/user/mo | 99.9% | | Enterprise | Custom | Unlimited | Unlimited | Unlimited | 99.95% | Monthly billing costs 7\u201310% more. Standard goes from $7.91 to $8.15, Premium from $14.54 to $15.25. The practical trigger point: once you exceed 10 users, you\u2019re forced onto a paid Jira pricing plan. For a 50-person team on Standard, that\u2019s roughly $4,750/year \u2014 before any add-ons. ## Jira Cloud Pricing Plans: The Full Breakdown [...] Log in Book a Demo Try for free Jira Alternative # Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives Scott, Andrew Scott, Andrew \u00b7 14 min read Try ONES for free ![Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives]( If you\u2019re considering Jira as your project management tool, you\u2019re not alone. Jira has long been a popular choice for software development teams, especially those working with Agile workflows. That said, pricing is still worth a closer look before you commit. Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page. [...] According to Atlassian\u2019s pricing tables, Jira Data Center currently starts at $51,000/year for up to 500 users. From February 17, 2026 PT, that tier will increase to $59,000/year. The 1,000-user tier will rise from $87,000 to $100,000/year, and the 2,000-user tier will rise from $158,000 to $182,000/year. Because Jira DC pricing uses fixed tiers, costs can jump quickly when your team crosses into the next user band. For example, moving from 500 to 501 users means moving into the 1,000-user tier. ### Data Center EOL: March 28, 2029 (What It Means for Your Budget?) Atlassian has announced end-of-life for Jira Data Center Server on March 28, 2029. After that date, no security patches, no bug fixes, no support.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S28",
+      "url": "https://www.vendr.com/marketplace/atlassian",
+      "title": "Atlassian Software Pricing & Plans 2026: See Your Cost",
+      "content": "## How much does Jira Software cost? Pricing Structure: Free: Up to 10 users, basic features, community support Standard: Starts at $8.15/user/month (billed annually) for 1\u201310 users; decreases to ~$7.16/user/month for 11\u2013100 users, and continues to scale down with volume Premium: Starts at $16/user/month (billed annually) for 1\u201310 users; includes advanced permissions, analytics, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, enterprise-grade security, and dedicated support Observed Outcomes: [...] Benchmarking context: Vendr transaction data shows that bundled Jira + Confluence deals often achieve lower effective per-user pricing compared to standalone purchases. Compare Confluence pricing with Vendr to see how your quote aligns with recent market outcomes. ## How much does Jira Service Management cost? Pricing Structure: Free: Up to 3 agents, basic ITSM features Standard: Starts at $21.25/agent/month (billed annually) for 1\u20133 agents; scales down with volume Premium: Starts at $49.50/agent/month (billed annually); includes advanced automation, SLA management, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, and enterprise-grade controls Observed Outcomes: [...] Small teams (10\u201350 users) Small teams typically purchase Standard or Premium tiers at or near list pricing, with limited negotiation leverage. Total annual cost for Jira Software + Confluence (Standard tier) for 25 users is approximately $4,000\u2013$5,000 at list rates. In Vendr's dataset, buyers in this range often achieve modest discounts through annual prepayment or bundling. Mid-market teams (50\u2013200 users)",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S29",
+      "url": "https://www.salto.io/blog-posts/jira-pricing-plans-guide",
+      "title": "Jira Pricing: A Comprehensive Guide to All Plans",
+      "content": "## Summary Jira's pricing depends on several parameters. If you choose on-premise hosting with a Data Center version, you may only pay annually with a minimum of 500 users. On the other hand, if you choose the cloud option, you have more flexibility with monthly or annual payments and four different plans - Free, Standard, Premium, and Enterprise, each with its limitations, pricing list, and unique features. When planning your budget, keep in mind the cost of apps. If you plan to add more users, you will also have to pay more for the apps. Check the Atlassian Pricing formal page to explore the updated pricing, a simulator to get the exact payment for your number of users, and the Atlassian Marketplace to check the apps' cost. WRITTEN BY OUR EXPERT Gal Fatal",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S30",
+      "url": "https://www.cloudeagle.ai/blogs/asana-pricing-guide",
+      "title": "Asana Pricing Guide: Finding the Best Plan for Your Team | CloudEagle.ai",
+      "content": "Asana offers five pricing tiers: Personal (Free), Starter ($10.99/user/month), Advanced ($24.99/user/month), Enterprise (custom pricing), and Enterprise+ (custom pricing). Each plan caters to different team sizes and project complexities. Asana paid plans unlock automation, advanced reporting, team permissions, and workflow customization. Personal is best for individuals, Starter suits small teams, Advanced benefits mid-sized companies, and Enterprise plans offer high security and compliance features for large enterprises. Leverage price benchmarking, negotiate beyond the first quote, and opt for long-term contracts to secure the best Asana deal. [...] Asana offers five pricing tiers: Personal (Free), Starter ($10.99/user/month), Advanced ($24.99/user/month), Enterprise (custom pricing), and Enterprise+ (custom pricing). Each plan caters to different team sizes and project complexities. Asana paid plans unlock automation, advanced reporting, team permissions, and workflow customization. Personal is best for individuals, Starter suits small teams, Advanced benefits mid-sized companies, and Enterprise plans offer high security and compliance features for large enterprises. Leverage price benchmarking, negotiate beyond the first quote, and opt for long-term contracts to secure the best Asana deal.",
+      "dimension": "pricing",
+      "query": "Asana pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S31",
+      "url": "https://thedigitalprojectmanager.com/tools/asana-pricing",
+      "title": "Asana Pricing Tiers & Costs",
+      "content": "## How Much Does Asana Cost? Asana\u2019s paid plans start from $10.99 per user per month (billed annually) and can go up to $30.49 per user per month (billed monthly). A free version of Asana, best suited for individuals and small teams looking to manage their tasks, is also available. Additionally, Asana offers custom pricing tiers for enterprise or other specific business types with pricing upon request. ## Asana Plans & Pricing Tiers Here's an overview of the available Asana pricing plans: [...] ## Asana Pricing Vs. Competitors Asana's pricing is generally considered to be average compared to other project management platforms. It offers five pricing tiers: Personal (free), Starter ($10.99/user/month billed annually), Advanced ($24.99/user/month billed annually), and Enterprise and Enterprise+ (custom pricing for both). Each plan includes a range of features, from basic task management in the free Personal plan to advanced reporting and security in the higher tiers. Integrations with popular apps are available across all plans, but more advanced integrations and security features are reserved for higher tiers. This tiered approach aligns Asana with industry standards and helps balance cost with functionality. ## How To Choose The Right Asana Plan [...] Screenshot of Asana's pricing page, showing the Personal, Starter, and Advanced Plans. Asana offers pricing tiers: Personal, Starter, and Advanced. Let\u2019s break down the available Asana plans a bit further: ### Asana Personal Plan Ideal for individuals and small businesses, this free plan supports task management and collaboration for up to 15 teammates. It includes unlimited tasks, projects, messages, various project views, and file storage (100MB per file). Overall, it is best suited for basic project management needs, as it lacks advanced features like timeline views and custom fields. Stay Ahead of What Deserves Your Attention Get timely perspective on the shifts, decisions, and trade-offs shaping your role, plus practical resources you can put to work.",
+      "dimension": "pricing",
+      "query": "Asana pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S32",
+      "url": "https://tech.co/project-management-software/asana-pricing",
+      "title": "Asana Pricing (2026): Plans, Features, Costs & Alternatives",
+      "content": "In terms of pricing, Asana offers four plans that start at $0 per user, per month for the Personal plan and go up to $24.99 per user, per month for the Advanced plan. The company does not publicly list pricing for either of the Enterprise plans. This pricing flexibility is great for scalable companies, as it can be dialed up or down to suit your needs. In this guide: Asana Pricing Plan Breakdown Which Asana Pricing Plan Should I Choose? Asana Cost Per User Asana Features Asana Hidden Costs and Discounts What\u2019s New in Asana? Can I Switch From Other Software to Asana? Alternatives to Asana Verdict: Should You Pay for Asana? Asana Pricing FAQs 0 out of 0 [...] ## Asana Pricing Plan Breakdown Read on to see how the project management costs you\u2019ll incur with different Asana plans compare, and to find out which teams they\u2019re best for. Here\u2019s a whistlestop tour of the four pricing plans on offer from Asana: Asana Personal: ($0 \u2013 and no hidden fees) Asana Starter: $10.99/user/month when billed annually ($131.88/user/year) Asana Advanced: $24.99/user/month when billed annually, ($299.98/user/year) Asana Enterprise: No public pricing Asana Enterprise+: No public pricing ### Asana Personal pricing [...] 0 out of 0 | | | Price (annually) The amount you'll pay per month, when billed annually | | Projects/boards | Automations | Gantt chart | Resource management | Time tracking | --- --- --- --- | TRY IT FOR FREE | | | | | | Asana Personal | Asana Starter | Asana Advanced | Asana Enterprise | Asana Enterprise+ | | Free | $10.99/user/month | $24.99/user/month | Custom | Custom | | 2 | Unlimited | Unlimited | Unlimited | Unlimited | | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited | | N/A | Unlimited | Unlimited | Unlimited | Unlimited | | | | | | | | | | | | | | | | | | | Get the Best Project Management Deals Compare Deals ## Asana Pricing Plan Breakdown",
+      "dimension": "pricing",
+      "query": "Asana pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S33",
+      "url": "https://www.gend.co/blog/asana-pricing",
+      "title": "Asana Pricing Explained (2026): Plans, Features and Costs",
+      "content": "## Quick view: Asana plans & prices Personal (Free): \u00a30 / $0 for 1\u20132 users (basic lists/boards, calendar). Starter: $10.99 per user/month billed annually ($13.49 monthly billing). Adds Asana AI, Timeline/Gantt, Workflow Builder, dashboards, custom fields, forms, unlimited automations. Advanced: $24.99 per user/month billed annually ($30.49 monthly). Adds Goals, unlimited portfolios, Portfolio Workload, Salesforce/Tableau/Power BI integrations, approvals, proofing, native time tracking, scaled security. Enterprise / Enterprise+: contact sales; adds SSO/SCIM, data residency, EKM, HIPAA (where applicable), advanced permissions, sandboxes, audit log API and more. [...] \u2794 Download the Playbook How much does Asana cost? Asana offers a free Personal plan, then paid tiers: Starter at $10.99 per user/month billed annually ($13.49 monthly) and Advanced at $24.99 ($30.49 monthly). Enterprise pricing is custom. Starter adds AI, Timeline and automation; Advanced adds portfolios, Goals and analytics integrations. Choosing the right Asana plan comes down to team size, governance needs, and how much value you\u2019ll get from AI-driven automation and portfolio reporting. Below you\u2019ll find up-to-date pricing, what\u2019s included at each tier, and credible ROI signals for modern work management. Last updated: 28 January 2026 (London). ## Quick view: Asana plans & prices",
+      "dimension": "pricing",
+      "query": "Asana pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S34",
+      "url": "https://www.vendr.com/marketplace/asana",
+      "title": "Asana Software Pricing & Plans 2026: See Your Cost",
+      "content": "# How much does Asana cost in 2026? Asana's pricing is structured around four primary tiers: Personal, Starter, Advanced, and Enterprise. Each tier unlocks progressively more features, automation capabilities, administrative controls, and support options. Pricing is per user per month, billed annually or monthly, with discounts typically available for annual commitments and larger seat counts. Published list pricing (annual billing): Personal: Free for up to 10 users Starter: $10.99 per user per month (billed annually) Advanced: $24.99 per user per month (billed annually) Enterprise: Custom pricing (contact sales) Published list pricing (monthly billing): Starter: $13.49 per user per month Advanced: $30.49 per user per month",
+      "dimension": "pricing",
+      "query": "Asana pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S35",
+      "url": "https://tech.co/project-management-software/clickup-pricing",
+      "title": "ClickUp Pricing 2026: Everything You Need to Know",
+      "content": "### Key Takeaways ClickUp offers five pricing tiers, including a free plan. Its four paid plans range from $7 to $12, while the Enterprise plan has no public pricing. The Unlimited plan ($7 per user, per month), is ideal for small teams, while the Business plan ($12 per user, per month) is better suited for mid-sized businesses. ClickUp offers great value for money, with a pricing score of 4.4/5, making it more affordable than competitors like monday work management and Smartsheet. ClickUp\u2019s free plan is one of the best on the market, offering features like unlimited tasks and two-factor authentication, which are often paid features in other tools. In this guide: [...] Unlimited posts Live onboarding training White labeling ClickUp pricing starts at just $7 per user, per month (when billed annually), for the Unlimited plan. If your company or team is growing and needs advanced features, then you can opt for the Business tier, which costs just $12 per user, per month, when paid annually. ClickUp also offers an Enterprise plan, but it has no public pricing. And there\u2019s a free plan with no user limit, which our testers found to be the best free project management software, overall. ClickUp\u2019s pricing undercuts a lot of the big names on the market \u2014 you\u2019ll pay more for paid plans from Wrike, Asana, and Teamwork \u2014 making it a great option if you\u2019re concerned about project management costs. [...] It\u2019s important to note that not all of these criteria hold equal weight in our testing methodology. This is best practice and based on what businesses have told us is essential, compared with what\u2019s simply \u201cnice to have\u201d. Because of their central importance to project management, how easy each tool is to use, how much it costs, features for project and workflow creation, and task management had more of an impact overall than other criteria. ### Is ClickUp Worth The Cost? ClickUp\u2019s pricing plans start at $7 per user, per month, for the Unlimited plan and, all in all, it\u2019s definitely worth the cost, making it an ideal choice for small businesses and teams. Medium-sized teams will find the $12 per user, per month, Business plan good value for money, too.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S36",
+      "url": "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency",
+      "title": "ClickUp Pricing Plans Compared (2026): Free vs Business vs Enterprise | ZenPilot",
+      "content": "One thing has changed since this article was first written: you can now buy ClickUp licenses through ZenPilot at ClickUp\u2019s official rates. Same plans, same prices, plus a team that has implemented ClickUp 3,100+ times helping you pick. More on that at the end. ## ClickUp Pricing Plans: Key Feature Differences As of 2026, ClickUp\u2019s pricing page shows four plans. A fifth is still available even though it no longer appears there. The five ClickUp pricing plans are: 1. Free Forever 2. Unlimited 3. Business 4. Business Plus (no longer on the public pricing page, but still available as an upgrade and through partners like ZenPilot) 5. Enterprise On top of any paid plan, ClickUp sells AI as separate per-seat add-ons: ClickUp Brain and Everything AI. We\u2019ll cover those after the core plans. [...] ClickUp Brain at $9 per user per month (billed annually). Unlimited Brain assistant, @Brain agent, and AI chat, plus a monthly pool of AI Super Credits. Everything AI at $28 per user per month. Everything in Brain plus unlimited Ambient Answers, the AI Notetaker, image generation, and a much larger credit pool for Super Agents. AI Super Credits can be added on top of either tier when your agents, AI fields, and automations burn through the included pool. [...] #### Buy ClickUp Licenses Through ZenPilot Same plans, same official ClickUp rates. The difference is a Diamond Solutions Partner picking the plan with you, one invoice for licenses and services, and a human to call before the help desk. See How It Works \u2192 ## The Business Plus Plan This plan costs $19 per member per month billed annually. ClickUp removed Business Plus from its public pricing page in late 2024, but it\u2019s still available as an upgrade, and we can quote it for you. For some teams that might feel steep. But the payoff of the additional features can definitely be worth it. At ZenPilot, we highlight three key features of Business Plus: Subtasks in Multiple Lists Conditional Logic in Forms Custom Capacity in Workload Allow me to break these three down.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S37",
+      "url": "https://www.vendr.com/marketplace/clickup",
+      "title": "ClickUp Software Pricing & Plans 2026: See Your Cost",
+      "content": "# How much does ClickUp cost in 2026? ClickUp uses a per-seat, per-month pricing model with five main tiers: Free, Unlimited, Business, Business Plus, and Enterprise. Published pricing ranges from $0 for the Free plan to $19 per user per month for Business Plus when billed annually. Enterprise pricing is custom and negotiated directly with ClickUp's sales team. The total cost depends on several factors beyond the base subscription: [...] ## ClickUp vs. Notion ### Pricing comparison | Pricing component | ClickUp | Notion | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10/user/month (Plus) | | Mid-tier (annual) | $12/user/month (Business) | $18/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $15,000\u2013$21,600 | ### Pricing notes [...] ## ClickUp vs. Asana ### Pricing comparison | Pricing component | ClickUp | Asana | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10.99/user/month (Premium) | | Mid-tier (annual) | $12/user/month (Business) | $24.99/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $20,000\u2013$30,000 | ### Pricing notes",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S38",
+      "url": "https://www.larksuite.com/en_us/blog/clickup-pricing-plans-guide",
+      "title": "ClickUp Pricing 2026: Plans, Features + Hidden Costs",
+      "content": "Log in Download # ClickUp pricing for 2026 ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. A free plan is available, while paid plans cost $7\u2013$19 per user/month (annual billing) and $10\u2013$29 per user/month (monthly billing). Enterprise pricing is custom. A free trial is available for the paid tiers. ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. ## What's included in each ClickUp plan Tasks, Docs, Whiteboards, Chat, Dashboards, Goals, Forms, Calendar, and 17 other products are included. [...] | See other plans | Free Forever Best for testing, solo use, and very light workflows. $0/ user / month | Unlimited Best for small teams that need unlimited storage and day-to-day flexibility. $7/ user / monthAnnual$10/ user / monthMonthly | Business Best for cross-functional teams that need reporting, workload, and tighter controls. $12/ user / monthAnnual$19/ user / monthMonthly | Business Plus Best for multiple teams that need higher automation limits, custom roles, and team sharing. $19/ user / monthAnnual$29/ user / monthMonthly | Enterprise Best for large organizations with security, procurement, and rollout requirements. Custom pricing | --- --- --- | | Max users | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S39",
+      "url": "https://tinycommand.com/blogs/clickup-pricing-2026",
+      "title": "ClickUp Pricing (2026): All Plans Explained With Real Team Costs \u00b7 TinyCommand",
+      "content": "## ClickUp pricing tiers at a glance (2026) | Plan | Annual price | Monthly price | Storage | Automation runs/month | --- --- | Free Forever | $0 | $0 | 100MB | 100 | | Unlimited | $7/user/mo | $10/user/mo | Unlimited | 1,000 | | Business | $12/user/mo | $19/user/mo | Unlimited | 10,000 | | Enterprise | Custom | Custom | Unlimited | Unlimited | Prices verified at clickup.com/pricing, August 2026. Annual billing saves 30% versus month-to-month on the Unlimited plan. ## What ClickUp Free Forever actually includes [...] ### How much does ClickUp cost per month in 2026? Free Forever is $0 for unlimited users. Unlimited is $7 per user per month billed annually ($10 monthly). Business is $12 per user per month annually ($19 monthly). Enterprise is custom. All plans include unlimited tasks and unlimited users. ### Is ClickUp really free with unlimited users? Yes. ClickUp Free Forever has no user cap \u2014 unlimited people can use the workspace. The constraints are storage (100MB total), automation runs (100/month), and integration limits. For task tracking without heavy file management, Free Forever functions as a full product, not a limited trial. ### What is the difference between ClickUp Unlimited and Business? [...] Log inStart free \u2192 All it takes is aTinyCommand.From $19/mo \u00b7 one platform, every job Log inStart free \u2192 Free forever plan \u00b7 no credit card Comparisons # ClickUp Pricing (2026): Free, Unlimited, and Business Plan Breakdown Ankit Solanki \u00b7 6 min read\u00b7 > TL;DR: ClickUp Free gives unlimited tasks and unlimited users \u2014 a genuinely rare offer in the project management market. Unlimited runs $7 per user per month (annual) and adds unlimited storage, integrations, and dashboards. Business hits $12 and adds advanced automation, workload management, and Google SSO. For teams moving off spreadsheets or basic tools, ClickUp Free covers the majority of daily project work. The question is whether you need what is above the free tier, not whether you need to pay.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S40",
+      "url": "https://tech-insider.org/linear-vs-jira-2026",
+      "title": "Linear vs Jira: Why 30% of Teams Switched [2026]",
+      "content": "Exceptional speed: Sub-100-millisecond UI response times thanks to local-first architecture make Linear the fastest project management tool available. Modern, intuitive UI: Clean design with keyboard-first interaction reduces friction and keeps developers in flow state. Developer-focused experience: Built by developers for developers, with native Git integrations that feel smooth. Transparent pricing: All features included at each tier with no hidden costs from add-ons or marketplace apps. AI Triage: Automated issue categorization and priority assignment reduces manual grooming overhead significantly. Keyboard shortcuts: Every action accessible via keyboard, with a powerful command palette that eliminates mouse dependency. [...] ### Linear\u2019s Keyboard-First Design Philosophy Linear was built by designers and engineers who were frustrated with existing project management tools. The result is an interface that feels more like a well-crafted code editor than a traditional web application. Every action has a keyboard shortcut. Press `C` to create an issue. Press `S` to set the status. Press `Cmd+K` to open the command palette, which lets you navigate anywhere in your workspace without touching the mouse. The entire interface responds in real-time thanks to a local-first architecture that syncs changes across all connected clients with minimal latency. [...] ### Jira: Strengths Massive ecosystem: Over 6,000 Marketplace apps ensure connectivity to virtually any tool in your stack. Enterprise-grade features: Advanced Roadmaps, granular permissions, Data Center deployment, and extensive compliance certifications. Deep Scrum and Kanban support: Mature agile implementation with velocity charts, burndown reports, and customizable boards. Extensive customization: Workflow engine with conditions, validators, and post-functions supports complex business processes. Proven at scale: Battle-tested with deployments of 100,000-plus users across global organizations. Atlassian ecosystem: Tight integration with Confluence, Bitbucket, Trello, and other Atlassian products creates a unified work platform. ### Jira: Weaknesses",
+      "dimension": "competitive",
+      "query": "Shortcut vs Jira features",
+      "published": "Sat, 04 Ap"
+    },
+    {
+      "id": "S41",
+      "url": "https://tech-insider.org/bitbucket-vs-github-2026",
+      "title": "Bitbucket vs GitHub [2026]: GitHub Wins at $4/User",
+      "content": "GitHub Marketplace lists more than 20,000 apps and Actions, spanning observability (Datadog, Grafana Cloud), security (Snyk, Aqua, Wiz), project tracking (Linear, Jira, Shortcut), deployment (Vercel, Netlify, Render), and container tooling. Third-party install is a one-click OAuth step, and Actions can be pinned to SHA for supply-chain safety. [...] Bitbucket\u2019s marketplace is narrower \u2013 roughly a couple thousand apps \u2013 but the mean integration quality is higher because most are built by Atlassian or Marketplace Gold partners. Crucially, Bitbucket Cloud ships two-way native Jira integration: a commit message like `PROJ-123 fix panic on empty payload` automatically transitions the ticket, embeds the PR in the issue view, and surfaces deployment status next to the ticket. GitHub offers the Jira for GitHub app via Atlassian, but the experience sits one OAuth hop removed. For teams that have standardized on Jira \u2013 and Jira has over 300,000 customer companies according to Atlassian\u2019s fiscal 2025 disclosures \u2013 Bitbucket\u2019s integration depth is hard to beat. For teams that have not, GitHub\u2019s marketplace breadth is the better pick. [...] A minimal GitHub Actions workflow looks like this: ``` name: CI on: [push, pull_request] jobs: test: runs-on: ubuntu-latest steps: - uses: actions/checkout@v4 - uses: actions/setup-node@v4 with: node-version: '22' - run: npm ci - run: npm test ``` The same build in Bitbucket Pipelines: ``` image: node:22 pipelines: default: - step: name: Build and Test caches: - node script: - npm ci - npm test ``` Both are readable, but Actions wins on expressiveness and reusable actions while Pipelines wins on simplicity for single-team workflows. In a tested side-by-side at a typical Node.js monorepo, the two produced equivalent wall-clock times \u2013 the gap that matters is ecosystem, not execution speed. ## AI Features: Copilot vs Atlassian Intelligence and Rovo",
+      "dimension": "competitive",
+      "query": "Shortcut vs Jira features",
+      "published": "Wed, 22 Ap"
+    },
+    {
+      "id": "S42",
+      "url": "https://tech-insider.org/notion-vs-obsidian-2026",
+      "title": "Notion vs Obsidian: 1 Clear Winner in 7 Tests [2026]",
+      "content": "Winner: Notion. A 10-person product team needs shared databases for sprint planning, real-time editing for PRDs (product requirements documents), and permission controls to separate engineering specs from executive summaries. Notion\u2019s native databases, Jira integration, and real-time collaboration make this workflow smooth. The same workspace can hold sprint boards, meeting notes, product roadmaps, and team wikis \u2013 all searchable and interconnected through Notion\u2019s relational database features. ### Use Case 3: Software Developer Managing Personal Knowledge [...] Notion excels for team-facing developer workflows. Engineering teams using Notion benefit from its database-driven project tracking, real-time collaborative documentation, and deep integrations with developer tools. Notion\u2019s GitHub integration surfaces pull request status, issue counts, and deployment metrics directly inside project pages. The Figma embed lets design handoff happen inside the same workspace where engineering specs live. For engineering managers and tech leads who spend significant time on planning, documentation, and cross-team communication, Notion\u2019s collaborative features justify the subscription cost \u2013 particularly when the entire company already uses Notion as its knowledge base. [...] ## Collaboration and Team Features: Where Notion Dominates If you work in a team, the Notion vs Obsidian decision becomes considerably simpler. Notion was built from the ground up as a collaborative workspace, and it shows in every aspect of the platform. Real-time multi-user editing, @mentions, inline comments, permission controls, team spaces, and shared databases are all native features that work reliably across the web, desktop, and mobile apps.",
+      "dimension": "competitive",
+      "query": "Shortcut vs Jira features",
+      "published": "Sat, 21 Ma"
+    },
+    {
+      "id": "S43",
+      "url": "https://aimultiple.com/it-documentation-software",
+      "title": "IT Documentation Benchmark & Review",
+      "content": "Platform architecture Confluence organizes content into Spaces (discrete documentation areas) with hierarchical page trees. The platform integrates deeply with other Atlassian products (Jira, Trello) but lacks IT-specific features like password vaults or asset tracking. Knowledge base interface The space-based organization provides a clear information architecture. Each space contains page trees with drag-and-drop reorganization capabilities. Document creation workflow Creating a new document requires six clicks: 1. Click the \u201cCreate\u201d button (visible on homepage) 2. Select space 3. Enter title 4. Add content 5. Click \u201cPublish\u201d 6. Confirm publish [...] 1. IT/MSP specialization: Prioritizing tools purpose-built for IT workflows over general knowledge bases. 2. Reviews: Requiring a minimum of 30 authenticated, recent user reviews across major B2B platforms (G2, Capterra) to ensure widespread, current usage. 3. Average rating: Above 4/5 across all software review platforms. 4. Core feature set: The tool had to offer the common features as a baseline. Get our team to automate one of your business processes with AI agents, free of charge. Automate a process ## IT documentation software feature comparison See definitions for the common and differentiating features. ### NinjaOne [...] Workload Automation Cloud Workload AutomationData Center Automation ToolsOpCon AutomationSAP Workload AutomationProcess Orchestration ToolHybrid Cloud Job SchedulerJAMS Scheduler AlternativesSee All Process Improvement SAP BTP AutomationSAP Process OrchestrationProcess KPIsProcess Mining Use Cases RMM Remote Control SoftwareNinjaOne ReviewRMM PricingRMM SoftwarePatch Management SoftwareMobile Device Management SoftwareMobile Device Management PricingSee All Observability Network Monitoring SoftwareNetwork Monitoring Tools In WindowsMongoDB MonitoringMySQL MonitoringObservability SoftwareOpen Source Database Monitoring ToolsDatabase Monitoring ToolsSee All Managed File Transfer",
+      "dimension": "competitive",
+      "query": "Shortcut vs Jira features",
+      "published": "Fri, 14 Au"
+    },
+    {
+      "id": "S44",
+      "url": "https://www.cloudwards.net/trello-jira-integration",
+      "title": "How to Setup Trello-Jira Integration in 2026: A Family Reunion",
+      "content": "Most project management tools can be made to play nice with each other, but none make it easier than Trello and Jira. In this article, we'll go over the",
+      "dimension": "competitive",
+      "query": "Shortcut vs Jira features",
+      "published": "Fri, 22 Ma"
+    },
+    {
+      "id": "S45",
+      "url": "https://www.techrepublic.com/article/asana-vs-monday",
+      "title": "Asana vs Monday: The Ultimate Project Management Showdown",
+      "content": "Asana, on the other hand, takes a more standardized approach by treating the individual task as its primary unit. It uses Sections to divide lists and boards, giving it a more traditional project management structure compared to Monday\u2019s group-based layout. One of Asana\u2019s standout features is the ability for a single task to live in multiple projects. Any changes made to that task, whether a comment or due date, sync across all projects automatically. This eliminates duplication and allows different teams to track the same work within their own workflows. Asana also supports custom fields for tagging and filtering, though its interface is more rigid to maintain consistency across projects and teams. [...] On the Asana side, what stood out to me most is its clean and user-friendly interface. I particularly liked the My Tasks feature, a one-stop shop for managing individual work, so I can prioritize specific items without getting lost in the project view. monday, on the other hand, draws users in with its visually appealing design. I found that features like the Battery widget and color-coded status columns offer strong at-a-glance visibility. That said, I noticed that performing mass updates can feel tedious when working with large datasets, which is worth keeping in mind for larger teams. [...] ## monday vs Asana compared | | monday work management | Asana | --- | My rating | 4.92 out of 5 | 4.70 out of 5 | | Monthly starting price | $9 per user | $10.99 per user | | Standout features | Grid-style boards Time tracking No-code automations | Advanced reporting Goal tracking Workflow builder | | AI capabilities | Risk detection Custom AI prompt Sentiment detection | AI agents Workflow gallery Smart summaries | | Integrations | 850+ third-party apps | 200+ third-party apps | | Support | 24/7 live chatbot | Support ticket | | Ease of use | Highly customizable with a slight learning curve | Clean and user-friendly | | | Visit monday.com | Visit Asana | ## Affordability Winner: monday.com",
+      "dimension": "competitive",
+      "query": "Shortcut vs Asana features",
+      "published": "Mon, 27 Ap"
+    },
+    {
+      "id": "S46",
+      "url": "https://learn.g2.com/asana-vs-monday",
+      "title": "Asana vs. monday: I Built Projects and Picked a Side in 2026",
+      "content": "Asana excels in task management while offering detailed control with sub-tasks and dependencies. It\u2019s easy to use and has a large number of integrations. I see Asana as a great fit in use cases where teams work on different projects and need more granular control to keep all projects running smoothly toward their goals. Monday is suitable for teams that need more flexibility and customization. It\u2019s visually appealing and power-packed with features like time tracking, colorful boards, and robust data visualization tools. However, its integrations are limited and locked behind higher-tier plans. [...] Both tools offer customization, but in different ways. Monday is generally more visually customizable, with flexible boards, column types, color coding, and templates that let teams design workflows around their unique needs. Asana provides customization through structured features like subtasks, dependencies, custom fields, and portfolio management \u2014 better suited for teams that need process consistency across projects. ### Q6. Is Monday more user-friendly than Asana? [...] Asana is built around structured task management, with strong support for subtasks, dependencies, and cross-project visibility. Monday takes a more flexible, visual approach, using customizable boards and column types to adapt to almost any workflow. Asana suits teams that need process structure and accountability, while Monday suits teams that prioritize visual clarity and adaptability. ### Q9. How do Asana and Monday.com compare in pricing and features?",
+      "dimension": "competitive",
+      "query": "Shortcut vs Asana features",
+      "published": "Tue, 28 Ap"
+    },
+    {
+      "id": "S47",
+      "url": "https://www.techrepublic.com/article/asana-vs-planner",
+      "title": "Microsoft Planner vs Asana: Which PM Tool Wins in 2026?",
+      "content": "General features (25%): I evaluated the core tools teams rely on to plan and manage projects, including task management, scheduling, and project views. I also reviewed collaboration capabilities and time tracking where available. Advanced & niche features (20%): I assessed capabilities designed for more complex project requirements, with particular attention to portfolio management and resource planning. AI functionality and workflow automation also contributed to this score. Ease of use (10%):I considered how quickly a new user could navigate each platform and create a project. I also evaluated the amount of configuration required before teams could begin managing work.",
+      "dimension": "competitive",
+      "query": "Shortcut vs Asana features",
+      "published": "Fri, 04 Se"
+    },
+    {
+      "id": "S48",
+      "url": "https://tech-insider.org/notion-vs-clickup-2026",
+      "title": "Notion vs ClickUp 2026: 30% Price Gap and 10x Template Divide [Tested]",
+      "content": "ClickUp\u2019s project management is more thorough. Native features include task dependencies (finish-to-start, start-to-start, finish-to-finish, start-to-finish), critical path analysis, workload management across team members, milestone tracking, and sprint velocity reporting. These features are built into the core platform, not layered on top of a document system, which means they perform better at scale and offer more configuration options. [...] Use Case 2: Marketing Agency (25 to 100 people) Agencies managing multiple client projects need time tracking, deadline management, resource allocation, and client-facing dashboards. ClickUp dominates this scenario with native time tracking that logs billable hours per task, workload views that prevent team burnout, and guest access that lets clients view project progress without a full license. ClickUp\u2019s automation capabilities also allow agencies to create standardized onboarding workflows that trigger automatically when new client projects are created. Winner: ClickUp, with its time tracking and client management features saving agencies $150 to $300 per month in third-party tool costs. Use Case 3: Remote Engineering Team (15 to 50 people) [...] ClickUp Pros: ClickUp\u2019s project management depth is unmatched at its price point, with 15+ views, task dependencies, time tracking, and workload management all built in. The pricing is 30% to 33% lower than Notion at comparable tiers. AI-powered project management features like automated standups and velocity-based predictions provide real operational value. The integration ecosystem with 1,000+ native connections covers virtually every business tool. Automation capabilities with 10,000 runs per month on the Business plan enable sophisticated workflow orchestration. Unlimited storage on all paid plans eliminates file management friction. The API is more thorough with 85 methods versus Notion\u2019s 34. ClickUp Cons:",
+      "dimension": "competitive",
+      "query": "Shortcut vs ClickUp features",
+      "published": "Fri, 10 Ap"
+    },
+    {
+      "id": "S49",
+      "url": "https://efficient.app/alternatives/clickup",
+      "title": "ClickUp Alternatives: 9 Better Options for 2026 | Efficient App",
+      "content": "If you're a smaller team, want an easy setup, or need a tool for non-engineering departments, Jira's complexity and user experience will likely get in the way. Expect low adoption and frustration unless you have the budget and commitment for ongoing support. Shortcut ## Shortcut Best alternative for for teams already locked into Shortcut for other use-cases. Shortcut is an alternative for those who want a project management tool that has been around for years and are comfortable working with a platform built on a legacy tech stack. If your workflow depends on stability and you don't need the latest design or features, Shortcut fits. [...] Pro tip: type / to use shortcuts. Use shortcuts like /review, /compare, or /best to access content in 1-click. ClickUp Motion Linear Asana Monday Wrike Trello Jira Shortcut Notion Motion Linear Asana Monday Wrike Trello Jira Shortcut Notion ClickUp # Best ClickUp Alternatives in 2026 9 efficient alternative apps curated by our editors. Chosen for User Interface, Usability, Support, Pricing, and Features. ## Summary Motion Best AI project management for small-mid-size teams Linear Best for engineering teams Asana Best for enterprise teams Monday Highly customizable, for complex projects and large teams Wrike For enterprises who want deep reporting and analytics Trello For extremely basic task management and very small teams (<3) Jira",
+      "dimension": "competitive",
+      "query": "Shortcut vs ClickUp features",
+      "published": "Fri, 02 Oc"
+    },
+    {
+      "id": "S50",
+      "url": "https://www.rock.so/blog/clickup-vs-trello",
+      "title": "ClickUp vs Trello (2026): Simplicity or Depth?",
+      "content": "ClickUp Brain AI is a paid add-on at $9 per user per month, layered on top of your base plan, and Everything AI is $28. It handles task creation from meeting notes, automated status updates, document summaries, and now supports external AI models via MCP. ClickUp also rolled out AI Notetaker and Autopilot Agents for routing work between teams. Trello uses Atlassian Intelligence, which is included on all paid Trello plans at no extra cost. It focuses on practical features: summarize long card descriptions, draft new cards, parse forwarded emails or Slack messages into actionable cards, and the New Year AI Board Builder that generates a full board from a prompt.",
+      "dimension": "competitive",
+      "query": "Shortcut vs ClickUp features",
+      "published": "Wed, 22 Ap"
+    },
+    {
+      "id": "S51",
+      "url": "https://tech-insider.org/clickup-vs-monday-2026",
+      "title": "ClickUp vs Monday.com 2026: 22% Price Gap [Tested]",
+      "content": "ClickUp maintains SOC 2 Type II certification and GDPR compliance. The platform added HIPAA compliance in 2025 for Enterprise customers. ClickUp\u2019s security features include two-factor authentication on all plans, SSO on Business plans and above, custom permissions with granular role definitions, and data encryption at rest and in transit. ClickUp\u2019s private cloud deployment option, available on Enterprise plans, allows organizations to run ClickUp on dedicated infrastructure.",
+      "dimension": "competitive",
+      "query": "Shortcut vs ClickUp features",
+      "published": "Wed, 08 Ap"
+    },
+    {
+      "id": "S52",
+      "url": "https://www.theshortcut.com/p/zelda-40th-anniversary-switch-2-restock-best-buy-offering-units-at-midnight-launch",
+      "title": "Zelda 40th Anniversary Switch 2 restock: Best Buy offering units at midnight launch",
+      "content": "The Legend of Zelda 40th Anniversary Switch 2 and Pro Controller have proven to be incredibly popular and sold out fast. Nintendo has promised that more stock will arrive, though it\u2019s bound to sell out again. The Legend of Zelda: Ocarina of Time remake releases on November 5, 2026, exclusively for the Nintendo Switch 2. Up next: ModRetro Chromatic Transparent review: a gorgeous new look at a more attractive price Adam Vjestica is The Shortcut\u2019s Senior Editor. Formerly TechRadar\u2019s Gaming Hardware Editor, Adam has also worked at Nintendo of Europe as a Content Marketing Editor, where he helped launch the Nintendo Switch. He also runs a retro gaming YouTube channel called Game on, boy! Follow him on X @ItsMrProducts. #### Discussion about this post No posts ### Ready for more? [...] \ud83d\udea8 Want an alert when the Zelda 40th anniversary edition is in stock? Subscribe to The Shortcut today as a FREE or paid member to receive restock alerts, our weekly newsletter, and access exclusive content \u2935\ufe0f\ud83d\ude0c The retailer has announced that select stores will hold a midnight launch for the game, which will include limited numbers of The Legend of Zelda 40th Anniversary Nintendo Switch 2 and Switch 2 Pro Controller. If you\u2019ve already pre-ordered the game and hardware but want to pick it up at a late-night store opening event, you can also adjust your order to do so. You can check whether your state and location\u2019s store is holding a late-night store opening on Best Buy\u2019s website. [...] No posts ### Ready for more? \u00a9 2026 Matt Swider \u00b7 Privacy \u2219 Terms \u2219 Collection notice Start your SubstackGet the app Substack is the home for great culture",
+      "dimension": "reception",
+      "query": "Shortcut launch reviews 2026",
+      "published": "Mon, 12 Oc"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "Shortcut offers a free plan for teams of up to 10 users.",
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "A free trial of Shortcut is available.",
+      "source_ids": [
+        "S20"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "The Team plan costs $10 per user per month when billed monthly.",
+      "source_ids": [
+        "S21",
+        "S23"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "The Team plan costs $8.50 per user per month when pre-paid annually.",
+      "source_ids": [
+        "S21",
+        "S22"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "The Business plan costs $16 per user per month when billed monthly.",
+      "source_ids": [
+        "S21",
+        "S23"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "The Business plan costs $12 per user per month when pre-paid annually.",
+      "source_ids": [
+        "S21",
+        "S22"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Shortcut provides an Enterprise plan that requires a custom quote.",
+      "source_ids": [
+        "S23"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Asana focuses on a wide variety of project types and offers customizable views and workload management, but lacks some specialized software development features found in Shortcut, such as detailed issue tracking and sprint planning.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp, Jira, and Asana are listed as top alternatives to Shortcut.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Shortcut integrates product and engineering work through issue tracking, sprint planning, and roadmaps that align with company goals in the software development sector.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "For teams with 15 to 100 members, Shortcut, Jira, and Asana are considered strong choices.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "For organizations with more than 100 members, Jira is typically viewed as the stronger option due to customization and scalability.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "GitHub Issues is regarded as the strongest free alternative for teams already using GitHub.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Shortcut and YouTrack earned overall scores of 74 and 75 out of 100 respectively across 11 criteria, with portability representing the widest gap.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Shortcut is available as a project tracking integration in the GitHub Marketplace alongside Linear and Jira.",
+      "source_ids": [
+        "S41"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Efficient App describes Shortcut as an alternative suited for teams seeking a long-standing project management platform built on a legacy technology stack.",
+      "source_ids": [
+        "S49"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Efficient App notes that Jira's complexity and user experience may frustrate smaller teams and non-engineering departments without dedicated ongoing support.",
+      "source_ids": [
+        "S49"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Shortcut holds a score of 8.4 out of 10 based on 10 reviews and ratings on TrustRadius.",
+      "source_ids": [
+        "S20"
+      ]
+    }
+  ],
+  "unsupported_claims": []
+}

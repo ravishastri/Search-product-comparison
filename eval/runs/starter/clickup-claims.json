@@ -1,0 +1,373 @@
+{
+  "claims": [
+    {
+      "text": "ClickUp offers a Free Forever plan with unlimited tasks and members but only 60 MB of storage and limited automations.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it"
+      ]
+    },
+    {
+      "text": "Paid annual tiers start with Unlimited at $7 per user per month.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Unlimited is $10 monthly.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Unlimited adds unlimited storage.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Unlimited adds custom fields.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Unlimited adds Gantt charts.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Unlimited adds native time tracking.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Business runs $12 per user per month annually.",
+      "urls": [
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Business runs $19 monthly.",
+      "urls": [
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Business includes workload management.",
+      "urls": [
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Business includes advanced dashboards.",
+      "urls": [
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "Business includes Google SSO.",
+      "urls": [
+        "https://www.zenpilot.com/blog/clickup-vs-monday"
+      ]
+    },
+    {
+      "text": "A semi-hidden Business Plus tier at $19 per user per month annually still exists through partners.",
+      "urls": [
+        "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency"
+      ]
+    },
+    {
+      "text": "Business Plus was removed from the public pricing page in late 2024.",
+      "urls": [
+        "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency"
+      ]
+    },
+    {
+      "text": "Enterprise is custom-priced.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it"
+      ]
+    },
+    {
+      "text": "Enterprise adds SAML SSO.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it"
+      ]
+    },
+    {
+      "text": "Enterprise adds SCIM.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it"
+      ]
+    },
+    {
+      "text": "Enterprise adds HIPAA compliance.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it"
+      ]
+    },
+    {
+      "text": "Enterprise adds dedicated support.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it"
+      ]
+    },
+    {
+      "text": "AI is not included.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://clickup.com/learn/topic/project-management/tools/clickup/news"
+      ]
+    },
+    {
+      "text": "ClickUp Brain costs $9 per user per month on top of any paid plan.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://clickup.com/learn/topic/project-management/tools/clickup/news"
+      ]
+    },
+    {
+      "text": "Everything AI tier is $28 per user per month.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://clickup.com/learn/topic/project-management/tools/clickup/news"
+      ]
+    },
+    {
+      "text": "Monday.com paid plans start around $12\u2013$14 per seat per month (Standard).",
+      "urls": [
+        "https://www.rock.so/blog/clickup-vs-monday",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup",
+        "https://clickup.com/blog/monday-vs-asana-vs-clickup-small-business-pricing"
+      ]
+    },
+    {
+      "text": "Monday.com paid plans start around $19\u2013$24 per seat per month (Pro).",
+      "urls": [
+        "https://www.rock.so/blog/clickup-vs-monday",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup",
+        "https://clickup.com/blog/monday-vs-asana-vs-clickup-small-business-pricing"
+      ]
+    },
+    {
+      "text": "Monday.com has a mandatory three-seat minimum.",
+      "urls": [
+        "https://www.rock.so/blog/clickup-vs-monday",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup",
+        "https://clickup.com/blog/monday-vs-asana-vs-clickup-small-business-pricing"
+      ]
+    },
+    {
+      "text": "Monday.com has incremental \u201cbucket\u201d pricing that often forces teams to buy more seats than needed.",
+      "urls": [
+        "https://www.rock.so/blog/clickup-vs-monday",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup",
+        "https://clickup.com/blog/monday-vs-asana-vs-clickup-small-business-pricing"
+      ]
+    },
+    {
+      "text": "Asana\u2019s Starter plan ranges from roughly $11 to $13.49 per user per month.",
+      "urls": [
+        "https://till-freitag.com/en/blog/best-project-management-tools",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup"
+      ]
+    },
+    {
+      "text": "Asana\u2019s Advanced tier runs $24.99 to $30.49 per user per month.",
+      "urls": [
+        "https://till-freitag.com/en/blog/best-project-management-tools",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup"
+      ]
+    },
+    {
+      "text": "Asana\u2019s Advanced tier unlocks portfolios.",
+      "urls": [
+        "https://till-freitag.com/en/blog/best-project-management-tools",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup"
+      ]
+    },
+    {
+      "text": "Asana\u2019s Advanced tier unlocks workload management.",
+      "urls": [
+        "https://till-freitag.com/en/blog/best-project-management-tools",
+        "https://softwarefinder.com/resources/trello-vs-asana-vs-monday-vs-clickup"
+      ]
+    },
+    {
+      "text": "Notion begins at $10 per user per month for Plus.",
+      "urls": [
+        "https://www.rock.so/blog/notion-vs-clickup"
+      ]
+    },
+    {
+      "text": "Notion Business is $20 per user per month.",
+      "urls": [
+        "https://www.rock.so/blog/notion-vs-clickup"
+      ]
+    },
+    {
+      "text": "Notion Business includes Notion AI at no extra cost since May 2025.",
+      "urls": [
+        "https://www.rock.so/blog/notion-vs-clickup"
+      ]
+    },
+    {
+      "text": "ClickUp markets itself as the \u201ceverything app.\u201d",
+      "urls": [
+        "https://www.wrike.com/blog/clickup-vs-monday",
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "ClickUp offers deep hierarchy (Workspaces > Spaces > Folders > Lists > Tasks).",
+      "urls": [
+        "https://www.wrike.com/blog/clickup-vs-monday",
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "ClickUp offers built-in chat.",
+      "urls": [
+        "https://www.wrike.com/blog/clickup-vs-monday",
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "ClickUp offers docs.",
+      "urls": [
+        "https://www.wrike.com/blog/clickup-vs-monday",
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "ClickUp offers whiteboards.",
+      "urls": [
+        "https://www.wrike.com/blog/clickup-vs-monday",
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "ClickUp offers goals.",
+      "urls": [
+        "https://www.wrike.com/blog/clickup-vs-monday",
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "ClickUp offers 1,000+ integrations.",
+      "urls": [
+        "https://www.wrike.com/blog/clickup-vs-monday",
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "Monday.com locks Gantt behind higher tiers.",
+      "urls": [
+        "https://www.rock.so/blog/clickup-vs-monday",
+        "https://monday.com/blog/project-management/monday-com-vs-clickup"
+      ]
+    },
+    {
+      "text": "Monday.com locks workload views behind higher tiers.",
+      "urls": [
+        "https://www.rock.so/blog/clickup-vs-monday",
+        "https://monday.com/blog/project-management/monday-com-vs-clickup"
+      ]
+    },
+    {
+      "text": "Monday.com locks SSO behind higher tiers.",
+      "urls": [
+        "https://www.rock.so/blog/clickup-vs-monday",
+        "https://monday.com/blog/project-management/monday-com-vs-clickup"
+      ]
+    },
+    {
+      "text": "For development-focused teams, Jira and Linear are frequent alternatives.",
+      "urls": [
+        "https://till-freitag.com/en/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "ClickUp holds a 4.7/5 on G2.",
+      "urls": [
+        "https://checkthat.ai/brands/clickup/reviews"
+      ]
+    },
+    {
+      "text": "ClickUp holds a 4.6/5 on Capterra.",
+      "urls": [
+        "https://checkthat.ai/brands/clickup/reviews"
+      ]
+    },
+    {
+      "text": "ClickUp holds a 3.6/5 on Trustpilot.",
+      "urls": [
+        "https://checkthat.ai/brands/clickup/reviews"
+      ]
+    },
+    {
+      "text": "Capterra reviewers cite \u201chighly adaptable\u201d workflows.",
+      "urls": [
+        "https://www.capterra.com/p/158833/ClickUp/reviews/6220789",
+        "https://www.capterra.com/p/158833/ClickUp"
+      ]
+    },
+    {
+      "text": "Capterra reviewers cite replacing multiple subscriptions.",
+      "urls": [
+        "https://www.capterra.com/p/158833/ClickUp/reviews/6220789",
+        "https://www.capterra.com/p/158833/ClickUp"
+      ]
+    },
+    {
+      "text": "Critics commonly flag slow loading.",
+      "urls": [
+        "https://www.capterra.com/p/158833/ClickUp",
+        "https://checkthat.ai/brands/clickup/reviews"
+      ]
+    },
+    {
+      "text": "Critics commonly flag lag.",
+      "urls": [
+        "https://www.capterra.com/p/158833/ClickUp",
+        "https://checkthat.ai/brands/clickup/reviews"
+      ]
+    },
+    {
+      "text": "Critics commonly flag freezing with large workspaces.",
+      "urls": [
+        "https://www.capterra.com/p/158833/ClickUp",
+        "https://checkthat.ai/brands/clickup/reviews"
+      ]
+    },
+    {
+      "text": "Critics commonly flag a mobile app that lacks desktop parity.",
+      "urls": [
+        "https://www.capterra.com/p/158833/ClickUp",
+        "https://checkthat.ai/brands/clickup/reviews"
+      ]
+    },
+    {
+      "text": "Since 2024\u20132025, ClickUp reclassified guests with edit access as paid \u201climited members.\u201d",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://checkthat.ai/brands/clickup/pricing"
+      ]
+    },
+    {
+      "text": "One verified Capterra review documented a 733% annual cost jump after automatic guest-to-member conversion.",
+      "urls": [
+        "https://get-alfred.ai/blog/is-clickup-worth-it",
+        "https://checkthat.ai/brands/clickup/pricing"
+      ]
+    }
+  ]
+}

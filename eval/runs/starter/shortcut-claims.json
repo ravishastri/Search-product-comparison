@@ -1,0 +1,501 @@
+{
+  "claims": [
+    {
+      "text": "Shortcut offers four subscription tiers.",
+      "urls": []
+    },
+    {
+      "text": "Shortcut offers a Free tier.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier costs $0 per user/month.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier is for teams of up to 10 people.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes Kanban boards.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes roadmaps.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes reports.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes sprints.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes docs.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes integrations with GitHub.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes integrations with Slack.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Free tier includes integrations with Figma.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "Shortcut offers a Team tier.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Team tier costs $8.50 per user/month when billed annually.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Team tier costs $10 monthly.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Team tier adds unlimited users.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Team tier adds multiple customizable workflows (up to five).",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Team tier adds work-in-progress limits.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Team tier adds automations.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Team tier adds access to all integrations.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "Shortcut offers a Business tier.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Business tier costs $12 per user/month when billed annually.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Business tier costs $16 monthly.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Business tier includes unlimited everything.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Business tier includes objectives/OKR tracking.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Business tier includes advanced custom fields.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Business tier includes advanced reporting.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "The Business tier includes multiple workspaces.",
+      "urls": [
+        "https://www.shortcut.com/faq"
+      ]
+    },
+    {
+      "text": "Shortcut offers an Enterprise tier.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Enterprise tier has custom pricing.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Enterprise tier adds single sign-on (SSO).",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "The Enterprise tier adds enterprise-grade support.",
+      "urls": [
+        "https://www.shortcut.com/pricing"
+      ]
+    },
+    {
+      "text": "Shortcut positions itself as a middle ground between the minimalism of Linear and the heavy configurability of Jira.",
+      "urls": []
+    },
+    {
+      "text": "Shortcut is explicitly built for software product and engineering teams rather than general cross-functional work.",
+      "urls": []
+    },
+    {
+      "text": "Shortcut has a Free Tier of Up to 10 users.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Shortcut's paid plans start at $8.50/user/mo.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Linear has a Free Tier of Up to 10 users.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Linear's paid plans start at $10/user/mo.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Asana has a Free Tier of Small teams.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Asana's paid plans start at $10.99/user/mo.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Jira has a Free Tier Available.",
+      "urls": [
+        "https://www.saaspricepulse.com/tools/shortcut"
+      ]
+    },
+    {
+      "text": "Jira's paid plans start at $7.75/user/mo (Standard).",
+      "urls": [
+        "https://www.saaspricepulse.com/tools/shortcut"
+      ]
+    },
+    {
+      "text": "ClickUp has a Free Tier Available.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "ClickUp's paid plans start at $7/user/mo.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Monday.com has a Free Tier of Up to 2 seats.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Monday.com's paid plans start at $9/seat/mo.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Notion has a Free Tier of Individuals.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Notion's paid plans start at $10/user/mo.",
+      "urls": [
+        "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
+      ]
+    },
+    {
+      "text": "Jira remains the enterprise standard for 50+ engineers.",
+      "urls": [
+        "https://www.ideaplan.io/compare/jira-vs-linear-vs-asana",
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Jira offers custom fields.",
+      "urls": [
+        "https://www.ideaplan.io/compare/jira-vs-linear-vs-asana",
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Jira offers complex workflow transitions.",
+      "urls": [
+        "https://www.ideaplan.io/compare/jira-vs-linear-vs-asana",
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Jira offers JQL reporting.",
+      "urls": [
+        "https://www.ideaplan.io/compare/jira-vs-linear-vs-asana",
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Jira offers deep auditability.",
+      "urls": [
+        "https://www.ideaplan.io/compare/jira-vs-linear-vs-asana",
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Linear is more opinionated and keyboard-driven.",
+      "urls": [
+        "https://efficient.app/compare/linear-vs-shortcut",
+        "https://cotera.co/articles/linear-vs-asana-comparison"
+      ]
+    },
+    {
+      "text": "Reviewers note Linear \u201cstops there\u201d.",
+      "urls": [
+        "https://efficient.app/compare/linear-vs-shortcut",
+        "https://cotera.co/articles/linear-vs-asana-comparison"
+      ]
+    },
+    {
+      "text": "Linear does not serve marketing or sales well.",
+      "urls": [
+        "https://efficient.app/compare/linear-vs-shortcut",
+        "https://cotera.co/articles/linear-vs-asana-comparison"
+      ]
+    },
+    {
+      "text": "Linear not serving marketing or sales well can force companies to run separate tools.",
+      "urls": [
+        "https://efficient.app/compare/linear-vs-shortcut",
+        "https://cotera.co/articles/linear-vs-asana-comparison"
+      ]
+    },
+    {
+      "text": "Asana lacks native sprint/cycle support.",
+      "urls": [
+        "https://get-alfred.ai/compare/linear-vs-asana",
+        "https://www.rock.so/blog/asana-vs-jira"
+      ]
+    },
+    {
+      "text": "Asana lacks deep Git integration.",
+      "urls": [
+        "https://get-alfred.ai/compare/linear-vs-asana",
+        "https://www.rock.so/blog/asana-vs-jira"
+      ]
+    },
+    {
+      "text": "Asana lacks agile metrics.",
+      "urls": [
+        "https://get-alfred.ai/compare/linear-vs-asana",
+        "https://www.rock.so/blog/asana-vs-jira"
+      ]
+    },
+    {
+      "text": "Teams pushed from a dev-centric tool into Asana often report feeling slower.",
+      "urls": [
+        "https://get-alfred.ai/compare/linear-vs-asana",
+        "https://www.rock.so/blog/asana-vs-jira"
+      ]
+    },
+    {
+      "text": "ClickUp is praised for breadth.",
+      "urls": [
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "ClickUp is praised for customization.",
+      "urls": [
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Monday.com is visual.",
+      "urls": [
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Monday.com is cross-functional.",
+      "urls": [
+        "https://atono.io/blog/most-popular-jira-alternatives-compared"
+      ]
+    },
+    {
+      "text": "Shortcut holds a 4.4/5 on G2 (from 177+ reviews).",
+      "urls": [
+        "https://www.shortcut.com/pricing",
+        "https://www.softwareadvice.com/project-management/clubhouse-profile",
+        "https://www.capterra.com/p/160498/Shortcut"
+      ]
+    },
+    {
+      "text": "Shortcut holds a 4.6/5 on Software Advice/Capterra (from 363 reviews).",
+      "urls": [
+        "https://www.shortcut.com/pricing",
+        "https://www.softwareadvice.com/project-management/clubhouse-profile",
+        "https://www.capterra.com/p/160498/Shortcut"
+      ]
+    },
+    {
+      "text": "One Principal Software Engineer rated it 3.0/5.",
+      "urls": [
+        "https://www.gartner.com/reviews/product/shortcut"
+      ]
+    },
+    {
+      "text": "One Principal Software Engineer called it a \u201csolid, customizable, cost-effective choice\u201d.",
+      "urls": [
+        "https://www.gartner.com/reviews/product/shortcut"
+      ]
+    },
+    {
+      "text": "The Principal Software Engineer noted weaker third-party integrations (e.g., Datadog) compared to larger platforms.",
+      "urls": [
+        "https://www.gartner.com/reviews/product/shortcut"
+      ]
+    },
+    {
+      "text": "Weaker third-party integrations create \u201ctoil\u201d when trying to build consistent views across tools.",
+      "urls": [
+        "https://www.gartner.com/reviews/product/shortcut"
+      ]
+    },
+    {
+      "text": "After six months of use, a reviewer praised Shortcut for balancing \u201ccomplexity with simplicity\u201d.",
+      "urls": [
+        "https://www.youtube.com/watch?v=YcBqQfD0s34"
+      ]
+    },
+    {
+      "text": "A reviewer said Shortcut has an intuitive interface.",
+      "urls": [
+        "https://www.youtube.com/watch?v=YcBqQfD0s34"
+      ]
+    },
+    {
+      "text": "A reviewer said Shortcut's interface gets teams started without days of training.",
+      "urls": [
+        "https://www.youtube.com/watch?v=YcBqQfD0s34"
+      ]
+    },
+    {
+      "text": "Criticisms include reporting that is \u201csolid but not especially detailed\u201d.",
+      "urls": [
+        "https://www.youtube.com/watch?v=YcBqQfD0s34"
+      ]
+    },
+    {
+      "text": "Criticisms include fewer advanced customization options than Jira.",
+      "urls": [
+        "https://www.youtube.com/watch?v=YcBqQfD0s34"
+      ]
+    },
+    {
+      "text": "Positive themes include speed/simplicity versus \u201cheavyweight agile suites\u201d.",
+      "urls": [
+        "https://www.rfp.wiki/project-management/collaborative-work-management/shortcut-software/linear"
+      ]
+    },
+    {
+      "text": "Positive themes include strong Git and Slack integrations.",
+      "urls": [
+        "https://www.rfp.wiki/project-management/collaborative-work-management/shortcut-software/linear"
+      ]
+    },
+    {
+      "text": "Positive themes include dependable story/epic workflows.",
+      "urls": [
+        "https://www.rfp.wiki/project-management/collaborative-work-management/shortcut-software/linear"
+      ]
+    },
+    {
+      "text": "Recurring negatives include limited cross-project portfolio views.",
+      "urls": [
+        "https://www.rfp.wiki/project-management/collaborative-work-management/shortcut-software/linear"
+      ]
+    },
+    {
+      "text": "Recurring negatives include lighter dependency modeling compared to top enterprise suites.",
+      "urls": [
+        "https://www.rfp.wiki/project-management/collaborative-work-management/shortcut-software/linear"
+      ]
+    }
+  ]
+}

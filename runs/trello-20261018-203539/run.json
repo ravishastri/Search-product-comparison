@@ -1,0 +1,848 @@
+{
+  "product": "Trello",
+  "price_check": {
+    "checked": 4,
+    "missing": 0,
+    "unavailable": 0
+  },
+  "off_topic_dropped": 6,
+  "description": "Visual kanban board for task and project tracking",
+  "category": "project management",
+  "model": "moonshotai/Kimi-K2.6",
+  "run_date": "2026-10-18",
+  "similar": [
+    "MeisterTask",
+    "Kanban Tool",
+    "ClickUp"
+  ],
+  "candidate_status": {
+    "MeisterTask": {
+      "status": "active",
+      "source": "S6"
+    },
+    "Kanban Tool": {
+      "status": "unknown",
+      "source": ""
+    },
+    "ClickUp": {
+      "status": "active",
+      "source": "S8"
+    },
+    "Asana": {
+      "status": "unknown",
+      "source": ""
+    },
+    "Wrike": {
+      "status": "active",
+      "source": "S19"
+    }
+  },
+  "excluded_retired": [],
+  "queries": [
+    "Trello alternatives competitors project management",
+    "Trello pricing plans",
+    "MeisterTask pricing plans",
+    "Kanban Tool pricing plans",
+    "ClickUp pricing plans",
+    "Trello vs MeisterTask features",
+    "Trello vs Kanban Tool features",
+    "Trello vs ClickUp features",
+    "Trello launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.experte.com/project-management/trello-alternative",
+      "title": "Best Trello Alternative: Our Top 5 Choices | EXPERTE.com",
+      "content": "Limited real-time communication Notion doesn't have chat or private messaging features. It's not meant to be a communication platform. Missing features Some advanced project management features like time tracking and comprehensive reporting tools aren't included in Notion's basic toolkit. ### More Trello Alternatives We Reviewed There are many other project management tools that can work as Trello alternatives. Here are some options: MeisterTask Project Management Meistertask\\ is probably the most direct Trello competitor, as this German platform also focuses on Kanban. However, Meistertask takes a much stricter approach to Kanban - it offers few other functions, views, or ways of working, making it less versatile than Trello. Wrike Project Management [...] Wrike Project Management Wrike\\ is a team project management tool that's most similar to monday.com and Asana. It's more versatile than Trello and offers more features and views, but isn't as customizable as ClickUp. Beyond the free plan, Wrike isn't suitable for individual users. Airtable Airtable\\ combines database, spreadsheet, and project management tools into a versatile hybrid solution, often nicknamed \"Excel on steroids.\" It's much more complex and less process-oriented than Trello, making it especially good for data-focused projects. Smartsheet [...] Many project management tools are similar to Trello because most of them offer Kanban board visualization. MeisterTask is particularly similar as it also focuses on the Kanban method, though it offers fewer features overall. Trello is less versatile than other project management platforms, especially beyond Kanban-style project views. It has limited views and task customization options, and lacks important features like subtasks and dependencies. This makes Trello less suitable for complex projects. The best Trello alternative depends on your team's specific needs. For example, monday.com, ClickUp, and Asana offer many more features and customization options, but they're also a bit more complex to use.",
+      "dimension": "discovery",
+      "query": "Trello alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S2",
+      "url": "https://www.cbinsights.com/company/trello",
+      "title": "Trello - Products, Competitors, Financials, Employees, Headquarters Locations",
+      "content": "Competitors of Trello include Hubly, Smartsheet, Teamwork, atono, Wrike and 7 more. Loading... ## Compare Trello to Competitors Basecamp Logo Basecamp Basecamp is a company that provides project management solutions within the software industry. Their offering includes a project management system designed for task assignment, team collaboration, and workflow organization. Basecamp serves businesses and organizations focused on improving their project management and communication. Basecamp was formerly known as 37Signals. It was founded in 1999 and is based in Chicago, Illinois. Wrike Logo Wrike",
+      "dimension": "discovery",
+      "query": "Trello alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S3",
+      "url": "https://thedigitalprojectmanager.com/tools/best-trello-alternatives",
+      "title": "10 Best Trello Alternatives In 2026 (Free & Paid Options)",
+      "content": "As a project manager, I\u2019ve evaluated the best Trello alternatives to help you tailor project management tools to your unique workflow and team needs. ## 10 Best Trello Alternatives Shortlist 1. 1. monday AI Workspace \u2014 Best AI-powered project insights 2. 2. GQueues \u2014 Best for Google Workspace integration 3. 3. Quire \u2014 Best for nested task hierarchies 4. 4. Zoho Projects \u2014 Best price for freelancers and small teams 5. 5. Kanban Tool \u2014 Best for visual project management 6. 6. MeisterTask \u2014 Best for automation capabilities 7. 7. ClickUp \u2014 Best free plan for a Trello alternative 8. 8. Breeze \u2014 Best combination with a full project management suite 9. 9. Workzone \u2014 Best personalized onboarding and training 10. 10. Kanban Zone \u2014 Best cross-portfolio Kanban board [...] Cons: May feel excessive for single-team projects Requires time to customize and configure boards LEARN MORE ABOUT KANBAN ZONE: Check out Kanban Zone on their website ## Other Trello Alternative Tools Here\u2019s a list of a few more alternatives to Trello that are worth your consideration. 1. Shortcut For development teams 2. Hygger For software development 3. Bonsai Agency Software For agencies 4. Taskworld For large variety of features 5. Kissflow Workflow Collaborative Kanban tool 6. Zenhub For agile project management within GitHub 7. ProjectManager Kanban board tool with reporting features 8. Planview LeanKit For lean project management 9. Businessmap For agile portfolio management 10. Pneumatic Workflow [...] Why MeisterTask is a good Trello alternative: MeisterTask simplifies project management with automation capabilities that reduce repetitive manual tasks. Its fully customizable Kanban boards allow your team to tailor workflows to match specific project requirements. Additionally, its progress tracking widgets provide real-time updates on project status, keeping everyone aligned. MeisterTask Standout Features & Integrations:",
+      "dimension": "discovery",
+      "query": "Trello alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S4",
+      "url": "https://zapier.com/blog/trello-alternatives",
+      "title": "The 9 best Trello alternatives in 2026 (free and paid)",
+      "content": "Microsoft Planner pricing: Free for all Microsoft 365 users on Business plans; upgrade to Planner Plan 1 ($10/user/month) for full access to reporting, or the catchily-titled \"Planner and Project Plan 3\" ($30/user/month) to use AI in Planner. Read more: Microsoft Planner vs. Trello ## Other Trello alternatives There are plenty of Trello alternatives on the market\u2014more than I could possibly list here. If none of the apps listed above quite satisfy your must-haves, here are some other popular options that are worth exploring. Other project management software like ClickUp and Wrike. Open source Trello alternatives like Baserow and OpenProject. All-in-one productivity apps like Notion or Coda. Dead simple project management templates for Google Docs and Sheets users. [...] Airtable cons: More involved setup process Airtable is a database tool (with a spreadsheet vibe) where you can store huge volumes of data and tackle complex projects; Trello is mostly a digital Kanban board. But since both apps can be used for project management, Airtable makes a strong case as a Trello alternative. [...] ### Asana Asana, our pick for the best Trello alternative for scaling teams. Asana pros: Flexible project view options Robust template library, complete with preset automation workflows Asana cons: More expensive than Trello Trello and Asana are two of the most popular project management apps on the market. Compared to Trello, though, Asana is better for larger teams that want more project templates and views. When you build a project from a template, Asana will even suggest the best primary view (Calendar, Board, List, or Timeline), automated workflows, and app integrations.",
+      "dimension": "discovery",
+      "query": "Trello alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S5",
+      "url": "https://lovable.dev/guides/10-trello-alternatives-for-project-management",
+      "title": "10 Trello Alternatives for Project Management in 2026 | Lovable",
+      "content": "Watch out for: Capterra specifically documents 55% of negative reviews citing pricing concerns, with key features locked behind higher tiers. Trustpilot reviews document support response times stretching to weeks for critical issues including billing disputes. ## 3. ClickUp: Best for All-in-One Customization ClickUp provides a unified workspace combining project management, documentation, goals, and an AI assistant. Automation is available from the free plan\u2014a differentiator compared to competitors that lock automation behind paid tiers. [...] Asana delivers feature-rich task and project management with native timeline views and workflow capabilities that eliminate Trello's Power-Up dependency. The platform's AI Studio, rolling out starting June 2025, provides a no-code builder for AI-powered workflows including automated task renaming, request summarization, and workload-based task suggestions. Pricing: Starter runs $10.99/user/month (annual billing) with timeline views, custom fields, and workflow builder. Advanced costs $24.99/user/month for portfolio views, goals tracking, and resource management. A 10-person team pays $1,318.80/year on Starter or $2,998.80/year on Advanced. [...] Get started Log inGet started Published February 6, 2026 in App Comparisons # 10 Trello Alternatives for Project Management 10 Trello Alternatives for Project Management Author: Lovable Team at Lovable Product builders search for Trello alternatives when they hit walls: no native task dependencies, limited views beyond Kanban, automation requiring Power-Ups, or pricing that doesn't scale with team growth. This guide covers 10 alternatives organized by workflow fit. Whether you need native task dependencies, AI-powered automation, flat-rate pricing for large teams, or the ability to build something entirely custom, you'll find options matched to how your team works.",
+      "dimension": "discovery",
+      "query": "Trello alternatives competitors project management",
+      "published": ""
+    },
+    {
+      "id": "S6",
+      "url": "https://academiccloud.de/services",
+      "title": "Services | Academic Cloud",
+      "content": "## MeisterTask more info open tool teaching software development teams ## MeisterTask ### Project Management MeisterTask can be used to manage tasks and organize projects. Various functions support teams and student working groups in collaboration and communication. more info teaching software development teams ## MeisterTask more info teaching software development teams ## MeisterTask Tiho ### Project Management MeisterTask can be used to manage tasks and organize projects. Various functions support teams and student working groups in collaboration and communication. more info open tool teaching software development teams ## MeisterTask Tiho more info open tool teaching software development teams upcoming ## Open Research Knowledge Graph ### Data Representation [...] ## Meet ### Video Conference System A digital tool for conducting video conferences that allows users to set up breakout rooms, share their screens, communicate via chat, and collaborate using an interactive whiteboard. The new service, \u201cMeet,\u201d replaces its predecessor, \u201cBigBlueButton,\u201d and is based on the latest version of BigBlueButton. more info open tool videoconferencing teaching communication teams ## Meet more info open tool videoconferencing teaching communication teams ## MeisterTask ### Project Management MeisterTask can be used to manage tasks and organize projects. Various functions support teams and student working groups in collaboration and communication. more info open tool teaching software development teams ## MeisterTask more info open tool [...] ## Protein AI ### Protein Structure Prediction Protein AI enables the latest protein structure predictions. Using high-performance computing (HPC) and AlphaFold2/Boltz models, our platform provides fast, accurate, and reliable automatic structure predictions for various proteins. more info open tool teaching AI research ## Protein AI more info open tool teaching AI research ## QR Code ### QR Code Generator Create a QR code with this generator\u2014no tracking, no frills. QR Code is part of AC-Basis. more info open tool writing ## QR Code more info open tool writing ## Rocket.Chat ### Chat Rocket.Chat has become obsolete and is planned to be discontinued. Please see our end of life plan. more info open tool messenger communication teams ## Rocket.Chat more info open tool",
+      "dimension": "status",
+      "query": "MeisterTask discontinued or shut down",
+      "published": "Wed, 26 Au"
+    },
+    {
+      "id": "S7",
+      "url": "https://fluidwave.com/alternatives/clickup",
+      "title": "7 Best ClickUp Alternatives in 2026 (Free and Paid) | Fluidwave: Act Wisely",
+      "content": "| Feature | Fluidwave | Asana | monday.com | Notion | Trello | Motion | Taskade | ClickUp | --- --- --- --- | Built-in email clientRead, reply, archive, label and search your inbox without leaving the app. | Included | Not availableGmail and Outlook add-ons create tasks from email; there is no inbox inside Asana. | Not availableEmail sync is a monday CRM feature; Work Management has no inbox. | Not availableNotion Mail, a Gmail-only client, was discontinued on 22 September 2026. | Not available | Not available | Not availableEmail only enters through automation triggers; you cannot read or reply inside the app. | PartialThe Email ClickApp sends and receives email from inside a task; it is not an inbox you can browse. | [...] Alternatives # The best ClickUp alternatives in 2026 ClickUp can do almost anything, which is exactly why some people leave it. These seven alternatives trade breadth for speed, focus or a lower price. Updated September 22, 2026 ## Why people look for a ClickUp alternative ClickUp\u2019s pitch is that it replaces everything, and the Free Forever plan genuinely includes unlimited tasks and users, Gantt, dependencies and calendar view. People who leave are rarely leaving over missing features. They leave because of what all those features cost in time, attention and add-ons. The constant context switching between ClickUp, your inbox and your calendar is what most people describe when they explain why they left. The Fluidwave vs ClickUp page compares the two directly. ### Fluidwave [...] ### Pricing | Feature | Fluidwave | Asana | monday.com | Notion | Trello | Motion | Taskade | ClickUp | --- --- --- --- | Free planA usable free plan with no credit card required. | Included | Included | PartialTwo seats, three boards and 200 items, with no automations or integrations. | Included | Included | Not available | PartialFree covers tasks and projects, but AI credits are one-time and you get one workspace, one agent and three automations. | Included | ## What to look for in a ClickUp replacement Start by listing what you actually used. Most ClickUp workspaces run on a handful of lists, one or two views and a few automations; the rest is potential you paid for in setup time. Once you know your real footprint, three questions sort the alternatives quickly.",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Tue, 22 Se"
+    },
+    {
+      "id": "S8",
+      "url": "https://get-alfred.ai/blog/best-motion-alternatives",
+      "title": "7 Best Motion Alternatives in 2026 (Cheaper, Simpler, Better) | alfred_",
+      "content": "What's better than Motion for teams? For teams, the long-time pick was Clockwise, but it shut down on March 27, 2026 after Salesforce acquired its team. The closest replacement for team-wide calendar optimization and focus time is Reclaim.ai, which offers similar scheduling automation at $12/mo per seat on its Business plan. For team project management without the scheduling complexity, traditional tools like Asana or ClickUp paired with a simpler calendar tool often work better than Motion's all-in-one approach. Can Motion replace my email inbox? [...] Strengths: Widest integration library for task aggregation, solid time-blocking interface, pulls from Gmail/Slack/Notion/Jira/Trello, fast keyboard shortcuts Limitations: No AI auto-scheduling, steep price with no free plan, subscription cancellation complaints, no team features, requires manual planning ### 5. Clockwise: Shut Down in 2026 (Use Reclaim Instead) Pricing: No longer available. Clockwise shut down on March 27, 2026. [...] The best Motion alternative depends on why you left: Too expensive? Reclaim.ai\u2019s free plan offers AI scheduling at no cost. Todoist also has a free tier. Auto-scheduling too aggressive? Sunsama gives you intentional planning. Reclaim.ai offers a gentler AI. Needed more calendar providers? Morgen supports Google, Outlook, iCloud, Exchange, and Fastmail. Needed email management? alfred\\_ is the one tool connecting calendar, email, and tasks in one AI. Just wanted better task management? Todoist is simplest. Akiflow aggregates tasks from everywhere. Needed team-wide help? Reclaim.ai is the closest option now that Clockwise has shut down.",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Fri, 13 Fe"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.latestly.com/quickly/technology/clickup-ceo-zeb-evans-takes-full-responsibility-for-22-tech-layoffs-7444692.html",
+      "title": "Technology News | ClickUp CEO Zeb Evans Takes Full Responsibility for 22% Tech Layoffs | \ud83d\udcf2 LatestLY",
+      "content": "Read Full Story Related Stories Who Was Jonathan McKinsey? NYT Executive Shot Dead by In-Laws After Alleging Transphobic Abuse Anthropic IPO Filing Carries Stark Warning Over AI; Says Its Models May Resist Shutdown and Mimic Blackmail Silicon Valley Predator List: What It Is and Why Women Are Sharing It Viral Car Video: AI Prompts To Create Cinematic Driving Videos Read All QuickLY [...] ## Technology # \u26a1ClickUp CEO Zeb Evans Takes Full Responsibility for 22% Tech Layoffs By Team Latestly ClickUp CEO Zeb Evans announced a 22 per cent workforce reduction driven by the structural impact of artificial intelligence on corporate productivity. Evans stated the business is performing at its strongest and that savings will be reinvested into remaining staff, including new salary bands worth up to USD 1 million annually for elite AI talent. Read Full Story Related Stories",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Sun, 24 Ma"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.idahostatesman.com/news/business/article316794354.html",
+      "title": "Boise-area rock climbing gym owner says it will remain open | Idaho Statesman",
+      "content": "Asana has been an indoor climbing spot for the Treasure Valley at 4977 N. Glenwood St. since 2017. In June, the gym\u2019s owner, Jamey Sproull, sent out the dreaded message to its climbers notifying them of the pending closure in November of this year. According to the message, Asana had \u201cnot been offered a new long-term lease agreement.\u201d On Friday, Sproull sent out the good news in a message \u201cI never thought I would be able to write.\u201d According to the message, the property manager expressed a commitment to keeping Asana open at the current location. But there still are kinks to work out, Sproull said. A long-term lease agreement is not finalized yet, but Sproull stated that they have \u201cevery reason to believe\u201d Asana will continue to operate at the location. [...] \u201cWhen I announced that the gym would be closing, I did so because that was the reality we were facing,\u201d Sproull stated in the message. \u201cWe had no long-term lease, no viable path to remain in the building, and no realistic alternative location that could support a climbing gym. It was one of the hardest announcements I have ever had to make.\u201d Sproull said Asana will continue its regular operations and invest in the gym\u2019s programs, youth climbing, competitions and events. He noted that the gym still has work to do as the agreement is finalized and will share updates. The \u201cstrength\u201d of the climbing community helped Asana push through the weeks following the closure announcement, Sproull stated in the message. He thanked the gym\u2019s members, staff, volunteers and the property manager. [...] The property is owned by TPC Glenwood, LLC, an affiliate of a developer and property manager that oversees businesses and housing in the Treasure Valley and across the western U.S. According to the closure message, the gym\u2019s lease was originally set to expire at the end of June, but the property managers granted Asana an extension on the lease through the end of the year. Asana\u2019s new gym opened in January. Asana\u2019s new gym opened in January. Courtesy of Asana When Asana faced with the possibility of an end at the current location, Sproull said he looked for a new location, but niche zoning, the building height needed for a viable climbing gym and the high lease rates made the search nearly impossible.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Thu, 06 Au"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.fox4news.com/news/rodeo-dallas-ownership-2-25m-question-after-lawsuit-dropped",
+      "title": "Rodeo Dallas: Ownership of $2.25M in question after lawsuit dropped | FOX 4 Dallas-Fort Worth",
+      "content": "## $2.25 million up for grabs To shut Rodeo Dallas down, Asana Partners had to put up a $2.25 million cash bond with the court which would protect Rodeo Dallas if the shutdown turned out to be wrongful. Rodeo Dallas believes that money rightfully belongs to them. \"At this point, it's just a matter of trying to recoup the bond money that they had to put up in order to shut us down,\" Ybanez said. Asana Partners wants the money back, but Ybanez says his business deserves it for the revenue they\u2019ve lost. \"If you think about it, who has $2.25 million to shut down a competitor? You know, it's disgusting to me, what they did and what they got away with, because they're a billion dollar firm,\" Ybanez said. According to Ybanez, Rodeo Dallas isn't going anywhere. [...] article ### Dallas County judge still undecided on fate of popular Deep Ellum nightclub The court was told a decision on whether Rodeo Dallas would be allowed to reopen would come sometime Friday, after a seven-hour hearing the day before. Court records show real estate firm Asana Partners has dropped the lawsuit against the bar. Asana says Rodeo Dallas is being forced out of their space anyway because of a separate lawsuit with its landlord, and says the lawsuit no longer serves any purpose. Ybanez says the damage has already been done. \"They killed it. I mean, it's destroyed the business,\" Ybanez said. So now the fight moves to money. ## $2.25 million up for grabs [...] #### The Brief + Rodeo Dallas is no longer court-ordered to stay closed after a lawsuit was dropped. + The dispute now centers on a $2.25M cash bond and who is entitled to the money. + A judge will decide whether the bar or the real estate firm Asana Partners gets the funds. DEEP ELLUM, Texas - Rodeo Dallas's owner is riled up, and the battle now shifts to more than two million dollars and who has the right to it. After months of sitting in the dark in one of Deep Ellum's busiest corridors, Rodeo Dallas is no longer under a court order forcing it to stay closed. ## Rodeo Dallas lawsuit dropped What's new: Asana Partners originally argued that Rodeo Dallas attracted crime to the area.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Wed, 31 De"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.idahostatesman.com/news/business/article316162809.html",
+      "title": "Garden City bouldering gym to close after lease dispute | Idaho Statesman",
+      "content": "A Boise-area rock climbing gym will close its doors later this year after more than a decade, citing leasing disagreements with the property manager and difficulty finding a new space. Asana Climbing Gym, which has operated at 4977 N Glenwood St. in Garden City since 2017, announced the closure to members of its mailing list via email on Tuesday. Owner Jamey Sproull wrote in the message that Asana has \u201cnot been offered a new long-term lease agreement\u201d and will close on Nov. 29. Sproull did not immediately respond to a request for comment through the gym. [...] \u201cAs the owner of Asana Climbing Gym, I am deeply disappointed. Furthermore, as a climber, I am heartbroken,\u201d Sproull said. He clarified that Asana Climbing \u2014 a separate business he operates that makes bouldering equipment \u2014 will stay in business. Asana shared an FAQ document online to address questions about memberships, future operations and other concerns, as well as a timeline for anticipated changes. According to the climbing gym\u2019s website, Asana began as a manufacturing company in 1999 and in 2013 purchased The Front, a bouldering gym on Chinden Boulevard and 33rd Street in Garden City. It moved to its current location a few years later. [...] The property is owned by TPC Glenwood, LLC, which is affiliated with The Pacific Cos., a developer and property manager that oversees businesses and housing across the Treasure Valley and the West. The company did not respond to a request for comment on the leasing agreement with Asana or its future plans for the building. Sproull said he also looked for a new location for the gym during the lease process and came up empty-handed due to the niche zoning and height requirements needed to house the climbing gym or the \u201csignificantly higher lease rates\u201d at plausible locations. He noted that Asana is financially stable and growing and said the closure is \u201cnot the result of any single event, disagreement, or the financial health or performance of the gym.\u201d",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Wed, 17 Ju"
+    },
+    {
+      "id": "S13",
+      "url": "https://1035kissfmboise.com/asana-climbing-gym-boise-closure",
+      "title": "With 'Heavy Heart', Popular Boise Climbing Gym Announces Closure",
+      "content": "Asana Climbing Gym on Glenwood, right near Expo Idaho, has announced that while they still have 'most of the year' to be open--they will indeed be closing their doors for good. The news is heartbreaking, and a memo from ownership was sent out via email blast to members and fans of the gym: [...] > For the past two years, I have worked diligently to find a path forward for the climbing gym. I explored multiple options, evaluated every reasonable avenue available to me, and worked in good faith toward the possibility of entering a new lease agreement. Unfortunately, there are factors outside of my control and property management has made it clear that they intend to lease to another party and/or repurpose the building for something else. Obviously, this is not the outcome I want for the gym. Asana Climbing Gym is financially stable, growing, and deeply loved by its community. Without a viable long-term lease or a realistic path to remain in this building, I have had to make the difficult decision to close gym operations. [...] Skip to site footer TRENDING: Win $25,000! Phone Taps Second Date Update Song of the Week Get Our Newsletter 103.5 KISSFM Boise\u2019s \u2018Asana Climbing Gym\u2019 To Close Permanently This Winter Boise\u2019s \u2018Asana Climbing Gym\u2019 To Close Permanently This Winter # Boise\u2019s \u2018Asana Climbing Gym\u2019 To Close Permanently This Winter Mateo Mateo Credit: Asana Climbing Gym, Facebook Share on Facebook Share on Twitter We're lucky to live in the Treasure Valley, where local business thrives thanks to the support of our neighbors that understand the importance of 'keeping it local'. Unfortunately, circumstances beyond one local business' control has led to the announcement that they will be closing their doors for good.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Wed, 17 Ju"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.idahostatesman.com/news/northwest/idaho/article316178726.html",
+      "title": "Bathroom ban ruling, gym closure, tax debate: Boise news | Idaho Statesman",
+      "content": "A federal judge issued a preliminary injunction blocking Idaho\u2019s bathroom ban from fully taking effect, finding the plaintiffs were likely to succeed on the merits of their claim that the law was unconstitutionally vague. The law, which was set to take effect July 1, would have made it a misdemeanor \u2014 and a felony on a second offense \u2014 to use a restroom that doesn\u2019t align with one\u2019s sex assigned at birth. Asana Climbing Gym in Garden City will close on Nov. 29 after more than a decade, with owner Jamey Sproull citing the property manager\u2019s decision not to offer a new long-term lease. Sproull spent two years trying to find a new location but cited niche zoning requirements and high lease rates as obstacles. [...] Read today's Edition Idaho Statesman Logo Log In | Subscribe Welcome Back! Edit Profile My Subscriptions Sign Out Boise State Words & Deeds Boise Favorites Idaho News # Bathroom ban ruling, gym closure, tax debate \u2014 what you may have missed By Edited by Chadd Cripe. Produced with AI assistance Asana Climbing Gym will be closing later this year. \"Asana Climbing Gym will be closing later this year.\") Asana Climbing Gym will be closing later this year. Sarah A. Miller smiller@idahostatesman.com From a court ruling on Idaho\u2019s transgender bathroom law to a finalist named for Boise State\u2019s presidency, several major stories shaped the news in Idaho this week. Here\u2019s a roundup of top stories from the Idaho Statesman.",
+      "dimension": "status",
+      "query": "Asana discontinued or shut down",
+      "published": "Thu, 18 Ju"
+    },
+    {
+      "id": "S15",
+      "url": "https://theretailexec.com/tools/wrike-review",
+      "title": "Wrike Review: Pros, Cons, Features and Pricing",
+      "content": "## Wrike FAQs ## Wrike Company Overview & History Wrike, Inc. is a project management software company founded in 2006 by Andrew Filev, with its headquarters located in San Jose, California. As of October 2023, Wrike employs around 1,000 people and has offices in various locations, including India, Dallas, and Dublin. Known for its work culture and innovative project management solutions, Wrike serves notable clients across different industries. It was acquired by Citrix Systems in 2021 for $2.25 billion and later transitioned to ownership under Vista Equity Partners and Evergreen Coast Capital in 2022. ### Wrike Major Milestones [...] ### Wrike Major Milestones 2006: Founded by Andrew Filev. 2012: Received $1 million in investment. 2013: Secured $10 million in funding. 2021: Acquired by Citrix Systems for $2.25 billion. 2022: Transitioned to ownership under Vista Equity Partners and Evergreen Coast Capital. [...] ## Wrike Specs API: Yes Batch Permissions & Access: Yes Budgeting: Yes Calendar Management: Yes Collaboration Support: Yes Contact Management: Yes Contact Sharing: No Customer Management: No Dashboard: Yes Dashboards: Yes Data Export: Yes Data Import: Yes Data Visualization: Yes Dependency Tracking: Yes Document Sharing: Yes Expense Tracking: Yes External Integrations: Yes File Sharing: Yes Gantt Charts: Yes Kanban Boards: Yes Multi-User: Yes Notifications: Yes Project Management: Yes Resource Management: Yes Scheduling: Yes Task Scheduling/Tracking: Yes Third-Party Plugins/Add-Ons: Yes Time Management: Yes Travel Management: No Workflow Management: Yes ## Wrike FAQs ## Wrike Company Overview & History",
+      "dimension": "status",
+      "query": "Wrike discontinued or shut down",
+      "published": "Mon, 05 Oc"
+    },
+    {
+      "id": "S16",
+      "url": "https://uctoday.com/ai-expiry-week-gpt-5-5-exposes-the-ai-lifecycle-problem",
+      "title": "AI Expiry Week: GPT-5.5 Exposes the AI Lifecycle Problem \u2014 UC Today",
+      "content": "UC Todaypowering productive workplaces Front page NewsWork Management15 Oct 2026 \u00b7 14 min read # AI Expiry Week: GPT-5.5 Exposes the AI Lifecycle Problem AI agents are taking on more project work across Jira, Wrike, and Google, just as GPT-5.5 heads for retirement on October 14. It's a good reason to check who's running each recurring task, which model it depends on, and who signs off on changes. Finding out after a workflow stops won't be much fun. Rebekah Carter AI retirement week AI retirement week Lately, we\u2019ve been watching enterprise software age in dog years. The retirement notices are getting hard to keep up with. [...] Migrating off GPT-5.5 the hard way, or dealing with an AI workflow retirement, pricing change, or project handoff problem of your own? Tell us what broke. ## Talking Point: Who Owns the AI Retirement Plan? Apparently, managing AI agents now means dealing with all the paperwork that comes with employees. Permissions, performance checks, budgets, and eventually, a retirement plan. Lucky project managers. Wrike's October 7 update introduced tighter agent permissions and human approval checkpoints. Microsoft's Autopilot goes further, giving agents their own identity, memory, and workspace, with the ability to chase updates for days. Someone still has to supervise them, though. [...] A couple of quick things to watch in the Beat this week: 1. Linear Makes Agent Work and Spend Easier to Audit: On October 8, Linear added live views of code changes during agent sessions, plus an AI-credit usage explorer and spending limits by workspace, user, or loop. Managers can see an agent taking a wrong turn before its work lands, and measure what the runs cost. 2. Wrike Gives Outside Agents a Place to Work: Wrike's October 7 Collaborate announcements included support for external agents, with role-based access, audit trails, and required human checks before certain work proceeds. The company also expanded its MCP server and portfolio-management capabilities. Its dedicated Project Manager Workmate is scheduled for a phased rollout later in 2026. ## What to Watch",
+      "dimension": "status",
+      "query": "Wrike discontinued or shut down",
+      "published": "Thu, 15 Oc"
+    },
+    {
+      "id": "S17",
+      "url": "https://hr-ai-index.com/performance/goals-and-okrs",
+      "title": "Goals and OKRs: what AI models recommend, October 2026 \u00b7 HR AI Recommendation Index",
+      "content": "MiniMax M2.5TabilityFour alternativesLattice, Mooncamp, Perdoo, Profit.coLatticeChangedThree alternativesEngagedly, Leapsome, Tabilityagainst: Betterworksno first choiceFive alternatives7Geese, Lattice, Quantive, Wrike, airfocusProfit.coTwo alternativesTability, Teamflectno first choiceagainst: Asana, Betterworks, ClickUp, Lattice, Leapsome, Monday.com GPT-6 LunaPerdooThree alternativesLattice, Profit.co, WorkBoardPerdooHeldOne alternativeLatticeno first choiceSix alternatives15Five, Betterworks, Lattice, Perdoo, Profit.co, WorkBoardagainst: Microsoft Viva Goals, QuantivePerdooOne alternativeWeekdoneagainst: Latticeno first choiceagainst: 7Geese, Microsoft Viva Goals, Quantive",
+      "dimension": "status",
+      "query": "Wrike discontinued or shut down",
+      "published": "Thu, 01 Oc"
+    },
+    {
+      "id": "S18",
+      "url": "https://help.wrike.com/hc/en-us/articles/39147650905362-Dashboard-Sample-Widgets",
+      "title": "Dashboard Sample Widgets \u2013 Wrike Help Center",
+      "content": "With this widget, users can quickly see: Total, maximum, or average time spent in a status, for example, how long tasks typically remain In Review, or which projects are stuck in On Hold. A breakdown by Historical status, meaning you\u2019re not just seeing where the work is now, but where it has been. This makes it easier to pinpoint bottlenecks or inefficiencies in past steps. Alternatively, you can break the view down by Historical Status Groups such as Active, Completed, Deferred, or Cancelled to get a high-level look at how work progresses through your lifecycle. To make the report even more insightful, the data can be grouped in several useful ways: [...] ## Oops we're sorry! It looks like we don't have the translated page you're looking for, but we do have other content in English and offer support in English. Browse Help Center in EnglishSubmit a Request #### Wrike Lightspeed is here \u26a1 Visit our FAQs to find out what this means for you and to discover how you can get the most out of our updated experience! #### If you're using the New Wrike Experience, please visit our New Wrike Experience Help Center to access related resources. Get started with Wrike Team Hey there! Need more information about your Team plan? Learn how to set up your workspace and kick-start projects with our quick guide \u2014 click here. What can we help you with? Learn. Share. Discuss.",
+      "dimension": "status",
+      "query": "Wrike discontinued or shut down",
+      "published": "Mon, 21 Se"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.projectmanagement.center/reviews/wrike-review",
+      "title": "Wrike Review: Gantt Planning, Plans and Fit",
+      "content": "Wrike pricing and FAQ checked 8 October 2026 Wrike plan comparison table checked 8 October 2026 Wrike Gantt chart checked 8 October 2026 Wrike project views checked 8 October 2026 ## Next step Gantt starts on Team; time tracking, request forms and reports start on Business. Seats are sold in groups.Compare alternatives or answer six questions to narrow your shortlist. Explore Wrike \u2197Find a tool for my team [...] Which Wrike plan includes Gantt charts? Wrike's plan comparison lists the dynamic Gantt chart and calendars from the Team plan upward. Time tracking, request forms, proofing and real-time reports start on Business. How does Wrike sell seats? In groups. Wrike's pricing FAQ says accounts up to 30 seats buy in groups of five, 30 to 100 seats in groups of 10, and above 100 in groups of 25. Business plans and above are annual only. Is there a Wrike free trial? Yes. Wrike offers a two-week free trial with no credit card required. When it ends, the account is blocked until you downgrade to Free or choose a plan, and Wrike says your data stays intact. ## Sources Vendor pages used for this guide. Plans and features change, so confirm details on the vendor site before you buy. [...] ## How to trial Wrike Sign up for the two-week trial and rebuild one real project with its tasks, dates and dependencies. Test the Gantt chart by moving an early task and checking how the dependent tasks shift, then turn on the critical path. If you take requests from other teams, build a request form and route a few test requests. Before the trial ends, decide whether you will downgrade to Free or buy a plan, because Wrike blocks an expired trial account until you choose. ## Common questions Does Wrike have a free plan? Yes. Wrike's Free plan includes web, desktop and mobile apps, project and task management, and Board and Table views. Wrike notes that active task limitations apply. Which Wrike plan includes Gantt charts?",
+      "dimension": "status",
+      "query": "Wrike discontinued or shut down",
+      "published": "Wed, 07 Oc"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.empyra.com/trello-pricing",
+      "title": "Trello Pricing 2026 : Plans & Costs Compared | Empyra",
+      "content": "Get Consultation Get Consultation Frame 1010108665 # Trello Pricing- Plans, Costs & Licensing Guide Trello pricing runs from $0 on the Free plan to $17.50 per user, per month on Enterprise, with Standard at $5/user/month and Trello Premium at $10/user/month (billed annually). All four Trello plans Free, Standard, Premium, and Enterprise add more boards, automation, views, and admin control as you move up, so the right Trello plan depends on team size and how much reporting or security your organization needs. [...] Empyra Atlassian customer logos (6).svg) Empyra Atlassian customer logos (7).svg) ## Trello Pricing at a Glance Compare all four Trello plans below before you commit to a seat count. Trello pricing has four tiers: Free ($0), Standard ($5/user/month), Trello Premium ($10/user/month), and Enterprise (from $17.50/user/month). Most growing teams that need Timeline, Calendar, and Dashboard views choose Trello Premium. Annual billing saves roughly 20% over monthly pricing on the Standard and Premium Trello plans. This Trello pricing guide was last verified in September 2026. Talk to our Expert trello_dashboard ## How Trello Pricing Works [...] Integration with Your Business Tools Scalable Solutions for Growing Teams Trusted Atlassian Solution Partner ## Trello Pricing Plans Explained: Compare Free, Standard, Premium, and Enterprise Plans Choose Your Trello Plan Unlimited cards and collaborators, up to 10 boards per Workspace, 250 automation runs/month. Best for individuals and very small teams. <p>Get Started</p> $5/user/month (annual) or $6 (monthly): Unlimited boards, custom fields, card mirroring, 1,000 automation runs/month. Best for small-to-mid teams running multiple boards. <p>Sign up Now</p> ### Trello Premium $10/user/month (annual) or $12.50 (monthly)",
+      "dimension": "pricing",
+      "query": "Trello pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S21",
+      "url": "https://tech.co/project-management-software/trello-review",
+      "title": "Trello Pricing 2026: Plans, Hidden Costs, Power-Ups, and More",
+      "content": "Time tracking Unlimited projects AI insights Trello pricing starts at $5 per user, per month, with more expensive plans costing $10 per user, per month, and $17.50 per user, per month. There\u2019s a limited free plan, too. Trello is inexpensive and easy to use, setting it apart from complex, high-end competitors like monday work management. Our expert testers ranked it among the best simple project management providers for customer support options. In this guide, we cover Trello pricing plans, features, and hidden costs. ### Key Takeaways [...] However, if you have some budget reserved for new software and you need a complete Work OS hub, I\u2019d recommend Teamwork\u2019s Starter plan. ClickUp\u2019s free plan is also worth a look. Aaron Drapkin Headshot Aaron Drapkin Content Manager ## Trello Pricing Plans Trello\u2019s four plans are: Trello Free \u2013 Best for getting started (not as good as ClickUp\u2019s free tier) Trello Standard ($5 per user, per month) \u2013 Best for smaller teams that need basic features Trello Premium ($10 per user, per month) \u2013 Best for businesses that need admin control Trello Enterprise ($17.50 per user, per month) \u2013 Best for enterprise-level organizations 0 out of 0 [...] ### Key Takeaways We recommend Trello for businesses that want an affordable and easy-to-use platform for simple projects by small teams. Pricing starts at $5 per user, per month, for the \u201cStandard\u201d plan, which is more affordable than most competitors. Trello\u2019s free plan is very limited, and users will have to purchase add-ons for advanced functions. Trello lacks built-in automations and robust data dashboards. Better options for larger operations include monday work management, ClickUp, and Jira. In this guide: Trello: At a Glance Is Trello Free? Trello Pricing Plans Does Trello Have Any Hidden Costs? What Are Trello\u2019s Main Features? What Are the Top Trello Alternatives? About Our Research Verdict FAQs ## Trello: At a Glance",
+      "dimension": "pricing",
+      "query": "Trello pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S22",
+      "url": "https://plaky.com/learn/plaky/trello-pricing",
+      "title": "Trello Pricing (2025): Overview of Plans & Features",
+      "content": "Here\u2019s a quick comparison of all Trello plans: | Trello Plan | Monthly price | Yearly price | --- | Free | $0 | $0 | | Standard | $6/user/month | $5/user/month | | Premium | $12.50/user/month | $10/user/month | | Enterprise\\ | n/a | Est. $17.50/user/month (50 users) | \\The price per seat decreases as more users are added. As far as discounts go, Trello offers a discount for non-profit organizations, as well as students and teachers \u2014 75% off Trello\u2019s Standard and Premium plans. The discount for the Enterprise plan is 50%. How much would you save? To illustrate, a non-profit team of 30 members would pay $1,075 for the Standard plan and $2,125 for the Premium plan per year. There\u2019s also a 50% discount off all paid Trello plans for academic institutions. [...] How much does Trello cost on a monthly basis and which features are included in the pricing plans? Read on to find out. ## 2025 key takeaways Here\u2019s an overview of Trello\u2019s pricing plans and what they include in 2025: Trello is free for up to 10 collaborators. There are 3 paid plans: Standard, Premium, and Enterprise. You can invite single-board collaborators for free. The Enterprise plan has a minimum of 50 users. ## How much does Trello cost? Trello\u2019s billing starts at $5/user/month, but you can also use the platform for free. In total, there are 4 pricing plans: Free, Standard, Premium, and Enterprise. Here\u2019s a quick comparison of all Trello plans: [...] | Plan | Trello | Asana | --- | Free/Personal | $0 | $0 | | Standard/Starter | $5/user/month\\ | $10.99/user/month\\ | | Premium/Advanced | $10/user/month\\ | $24.99/user/month\\ | | Enterprise | $17.50/user/month\\ | POA | \\billed annually Asana\u2019s free plan offers a larger file size limit, while Trello\u2019s includes templates and automations. Here are the key differences between their free plans: | Feature | Trello | Asana | --- | User limit | 10/Workspace | 10 | | File size limit | 10 MB | 100 MB | | Templates | \u2714 | \u274c | | Automations | \u2714 | \u274c | \ud83d\udca1 Plaky Pro Tip There are even more differences between Trello and Asana to discover in our article: Trello vs. Asana ### Trello vs. monday.com pricing",
+      "dimension": "pricing",
+      "query": "Trello pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S23",
+      "url": "https://www.chanty.com/blog/trello-pricing",
+      "title": "Trello Pricing Explained: How to Navigate Costs and Maximize Savings| Chanty",
+      "content": "Please, enter a valid email ## Trello pricing plans For teams looking at Trello, it helps to see the pricing as of October 2025. Trello offers plans for all sizes, from a free option for small teams to Enterprise features for larger organizations. | | | | | --- --- | | Free | Standard | Premium | Enterprise | | Cost | $0/month/user | $5/month/user | $10/month/user | $17.50/month/user | | Minimum Users | 1 | 1 | 20 | 25 | | Max Team Boards | 10 | Unlimited | Unlimited | Unlimited | | Max File Size | 10 MB | 250 MB | 250 MB | 250 MB | It\u2019s worth noting that all of Trello\u2019s plans include unlimited personal boards, cards, lists, and 2FA, so teams can start small and scale without missing any core features. ## Trello \u2013 free vs. paid ### Free CAN be enough [...] Trello has a pretty generous free plan, especially for individuals or small teams. As teams get bigger and need more advanced features, Trello\u2019s paid plans start at $5 per user per month for the Standard plan and can go up to $17.50 per user for its Enterprise plan. While these plans offer some pretty advanced capabilities, the costs can get pretty high for larger teams, particularly when you need a lot of Power-Up integrations. [...] Storage is another big factor. Free plans limit file uploads to 10MB per attachment, while Standard, Premium, and Enterprise allow 250MB. If your team frequently shares large files, you\u2019ll either need to move to a higher-tier plan or rely on outside storage. Per-user pricing can also get expensive. Trello\u2019s Standard, Premium, and Enterprise plans charge per user \u2013 roughly $5, $10, and $17.50 per month (billed annually). A small team might find it manageable, but larger organizations will see costs rise quickly. Automation limits apply too. Butler, Trello\u2019s automation tool, comes with quotas. Free users get just 250 command runs per month, Standard users get 1,000, and higher plans offer more. Once you hit those limits, your automations stop running unless you upgrade.",
+      "dimension": "pricing",
+      "query": "Trello pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S24",
+      "url": "https://lifestack.ai/blog/trello-pricing",
+      "title": "Trello Pricing 2026: Free vs Standard vs Premium | Lifestack",
+      "content": "If you use Trello for teams but need a stronger personal productivity layer, pairing it with Lifestack for individual time management covers both sides without abandoning the tool your team already uses. ## Frequently Asked Questions ### How much does Trello cost in 2026? Trello has four pricing tiers: Free ($0), Standard ($5/user/month annual or $6/month monthly), Premium ($10/user/month annual or $12.50/month monthly), and Enterprise ($17.50/user/month, annual only). All paid plans are priced per user, and annual billing saves roughly 20% compared to monthly. ### What is included in Trello's free plan? [...] If you use Trello for teams but need a stronger personal productivity layer, pairing it with Lifestack for individual time management covers both sides without abandoning the tool your team already uses. ## Frequently Asked Questions ### How much does Trello cost in 2026? Trello has four pricing tiers: Free ($0), Standard ($5/user/month annual or $6/month monthly), Premium ($10/user/month annual or $12.50/month monthly), and Enterprise ($17.50/user/month, annual only). All paid plans are priced per user, and annual billing saves roughly 20% compared to monthly. ### What is included in Trello's free plan? [...] ## Trello Pricing at a Glance Free: $0/month. Up to 10 boards per workspace, unlimited cards, unlimited Power-Ups. Standard: $5/user/month (annual) or $6/user/month (monthly). Unlimited boards, custom fields, card mirroring, 250 MB file storage. Premium: $10/user/month (annual) or $12.50/user/month (monthly). Everything in Standard plus Calendar, Timeline, Table, Dashboard, and Map views. Workspace-level templates. Enterprise: $17.50/user/month (billed annually). Everything in Premium plus unlimited Workspaces, organization-wide permissions, multi-board guests, SSO. All prices are per user. Annual billing gives you roughly 20% savings over monthly across the paid tiers. ## Trello Free Plan: Is It Enough?",
+      "dimension": "pricing",
+      "query": "Trello pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S25",
+      "url": "https://www.larksuite.com/en_us/blog/meistertask-pricing",
+      "title": "MeisterTask Pricing: Plans, Features, and Real Costs",
+      "content": "## MeisterTask pricing plans explained in detail ### MeisterTask Free plan ### MeisterTask Pro plan: $13/user/month ### MeisterTask Business plan: $25/user/month ### MeisterTask Enterprise plan: Custom ## When MeisterTask pricing makes sense ## Where MeisterTask pricing starts to feel limiting ## MeisterTask app experience across devices ## Support, onboarding, and self-service help Simplify collaboration without limiting future growth Contact experts ## Meet Lark: Move beyond task boards to connected execution ### Built-in task management tool for clean planning and execution Lark enhances tables with custom fields ### Custom fields that form a customized project hub Lark Base flexible view ### Visual project views for instant clarity [...] | | | | | | --- --- | Feature\u200b | Free\u200b | Pro\u200b | Business\u200b | Enterprise\u200b | | Price\u200b | $0 (Forever)\u200b | $13/user/ month\u200b | $25/user/month\u200b | Custom\u200b | | Target users\u200b | Individuals\u200b | Small teams\u200b | Teams managing full workflows\u200b | Large organizations\u200b | | Unlimited tasks\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | | Projects\u200b | Up to 3 projects\u200b | Unlimited\u200b | Unlimited\u200b | Unlimited\u200b | | Notes\u200b | Up to 5 notes\u200b | Unlimited\u200b | Unlimited\u200b | Unlimited\u200b | | Team members\u200b | Unlimited\u200b | Unlimited\u200b | Unlimited\u200b | Unlimited\u200b | | Templates\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | | Mobile & desktop apps\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | | Import from Asana & Trello\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b | | MeisterTask AI prompts\u200b | 20 prompts\u200b | 75 prompts\u200b | 350 prompts\u200b | Custom\u200b | | External sharing\u200b | \u2717\u200b | \u2713\u200b | \u2713\u200b | \u2713\u200b |",
+      "dimension": "pricing",
+      "query": "MeisterTask pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S26",
+      "url": "https://softwarefinder.com/project-management-software/meistertask",
+      "title": "MeisterTask Software Reviews, Demo & Pricing | Software Finder - 2026",
+      "content": "### What Is MeisterTask Best For? MeisterTask is best known for its flexible and customizable task management environment. It offers a range of features and tools that allow teams to organize and manage tasks to suit their unique needs and workflows. One of the key differentiators of MeisterTask is its Kanban-style project boards, which visually represent tasks and their progress. This allows teams to easily track the status of tasks and optimize their workflows. ### MeisterTask Pricing MeisterTask pricing plans to meet the needs of different users. Here is a summary of their pricing plans: Basic - $0 Pro - $8/user/month Business - $14.50/user/month Enterprise - Customized [...] ### What types of pricing plans does MeisterTask offer? MeisterTask pricing plans suit different user needs, including a free version, a Basic plan, and Pro, Business, and customized Enterprise plans starting at $8 to $14.50, and custom pricing per user per month, respectively. ### Who are the typical users of MeisterTask? MeisterTask project management software is designed for teams of all sizes, from small to large, across industries such as technology, marketing, and education. ### Does MeisterTask support mobile devices? Yes, the software supports mobile devices. ### What language does MeisterTask support? [...] | Free | Pro | Business | Enterprise | --- --- | | $0per month | $8per month | $14.50per month | Customized | | Up to 3 projects Unlimited project members Customizable project boards Up to 5 collaborative notes. | Unlimited projects Agenda Unlimited integrations Private projects Automations Statistics and reports Unlimited collaborative notes. | Timeline Roles and permissions Custom fields Security restrictions Priority email & phone support | Tailored pricing offer Dedicated account manager Personalized onboarding assistance SAML Single Sign-On | Disclaimer: The pricing details were last updated on Aug 21, 2026 from the vendor's website. Please contact us for a tailored pricing list. ## MeisterTask SoftwareReviews",
+      "dimension": "pricing",
+      "query": "MeisterTask pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S27",
+      "url": "https://www.trustradius.com/products/meistertask/pricing",
+      "title": "MeisterTask Pricing 2026",
+      "content": "TrustRadius: an HG Insights company MeisterTask logo # MeisterTask Score 9 out of 10 47 Reviews and Ratings ## MeisterTask Pricing Plan Options MeisterTask has 3 pricing plans(s), starting at $16. Available deployment types include saas. Review pricing options and learn more about the product to determine which plan is right for you. A free version is available for MeisterTask. ## Plans ### Pro $16 per month / per user Cloud ### Business $32 per month / per user Cloud ### Enterprise Custom Cloud ### Additional Pricing Information Discounts are available for education and non-profit organisations. 28% discount for annual pricing. For the latest information on pricing, visit the MeisterTask official pricing page ## Alternatives for MeisterTask",
+      "dimension": "pricing",
+      "query": "MeisterTask pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S28",
+      "url": "https://thedigitalprojectmanager.com/tools/meistertask-pricing",
+      "title": "MeisterTask Pricing Tiers & Costs",
+      "content": "## How Much Does MeisterTask Cost? MeisterTask\u2019s paid plans start at $13/user/month and go up to $25/user/month, paid yearly. A free version of MeisterTask is available, which is best suited for single users who need basic task management features. For companies with specific requirements, a custom pricing tier exists under the Enterprise plan, which includes tailored pricing, a dedicated account manager, and personalized onboarding assistance. Users can also choose to pay on either a monthly or yearly basis, with there being a 28% discount on yearly plans. ## MeisterTask Plans & Pricing Tiers Here's an overview of the available MeisterTask plans: [...] Here's an overview of the available MeisterTask plans: | | | | --- | Plan Type | Price | What\u2019s Included? | | Basic | Free | Up to 3 projects, unlimited project members, customizable project boards, up to 5 collaborative notes, quick reports | | Pro | $13/user/month | Basic features, external sharing, unlimited projects & notes, agenda, unlimited integrations, private projects, automations, advanced search | | Business | $25/user/month | Pro features, subtasks, timeline, roles and permissions, custom fields, security restrictions, priority email & phone support, custom reports | | Enterprise | Custom upon request | Business features, tailored pricing offer, dedicated account manager, personalized onboarding assistance, SAML single sign-on | MeisterTask offers screenshot [...] MeisterTask offers screenshot MeisterTask offers four pricing tiers: Basic, Pro, Business, and Enterprise. Let\u2019s break down the available MeisterTask plans a bit further: ### MeisterTask Basic Plan Ideal for single users or small teams, the Basic plan is free and includes up to 3 projects, unlimited tasks, and customizable project boards. It is best suited for simple task management including checklists, due dates, notifications, and real-time collaboration. However, it is limited by the number of projects and lacks advanced features like integrations and automations. Stay Ahead of What Deserves Your Attention Get timely perspective on the shifts, decisions, and trade-offs shaping your role, plus practical resources you can put to work.",
+      "dimension": "pricing",
+      "query": "MeisterTask pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S29",
+      "url": "https://www.techrepublic.com/article/meistertask-review",
+      "title": "MeisterTask Review: Features, pricing, and more",
+      "content": "### Micro (0-49), Small (50-249), Medium (250-999), Large (1,000-4,999), Enterprise (5,000+) Figure A MeisterTask board. ## MeisterTask pricing ### MeisterTask Basic plan The MeisterTask Basic forever free plan offers basic project management for single users. You get up to three projects, unlimited project members, customizable project boards and up to five collaborative notes. ### Best business software ### MeisterTask Pro plan The MeisterTask Pro plan costs $11.99 per user per month billed annually, or $14.49 per user per month billed monthly. It includes unlimited projects, agenda, unlimited integrations, unlimited collaborative notes, private projects and email support. ### MeisterTask Business plan [...] ### MeisterTask Business plan The MeisterTask Business plan costs $23.99 per user per month billed annually, or $28.99 per user per month billed monthly. It includes all the features of the Pro plan plus a timeline view, roles and permissions, custom fields and priority email and phone support. A 30-day free trial of this plan is available. ### MeisterTask Enterprise plan The MeisterTask Enterprise plan is a custom plan, so you must contact the sales team to get a custom quote. It includes all the features of the Business plan plus dedicated account management, a personalized onboarding experience and SAML single sign-on. ### Meister Bundle [...] | | MeisterTask | monday | Teamwork | Notion | --- --- | Multiple project views | Yes | Yes | Yes | Yes | | Native time tracking | Yes | Yes | Yes | No | | Built-in messaging | No | Yes | Yes | No | | Forever free plan | Yes | Yes | Yes | Yes | | Starting price for paid plans | $11.99 per user per month | $8 per user per month | $5.99 per user per month | $8 per user per month | ### Monday work management Monday is one of the most popular project management apps, and for a good reason: It combines a comprehensive set of features with affordable prices, with paid plans starting at only $12 per person per month. It\u2019s also reasonably user-friendly considering the sheer number of advanced features, though it will have a longer learning curve than a simpler platform such as MeisterTask.",
+      "dimension": "pricing",
+      "query": "MeisterTask pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S30",
+      "url": "https://www.trustradius.com/products/kanban-tool/pricing",
+      "title": "Kanban Tool Pricing 2026",
+      "content": "Kanban Tool has 4 pricing plans(s), starting at $6 and ranges from $6 to $1320. Available deployment types include on-premise, saas. Review pricing options",
+      "dimension": "pricing",
+      "query": "Kanban Tool pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S31",
+      "url": "https://kanbantool.com/pricing",
+      "title": "Free Trial & Pricing | Kanban Tool \u2013 Online and On-Site Kanban Software | Kanban Tool",
+      "content": "2 boards 2 users for free No file attachments Kanban Tool On-Site new - installed on your server, available for 10+ users, annual billing. All plans include: real-time board updates, advanced Kanban board analytics and all other features. No extra fees, no credit card required for trial. You can upgrade, downgrade or cancel at any time. Contact us directly for special volume discounts, non-profit and educational pricing. Can't decide? Start free trial and choose plan later. ## Enterprise ### $11 per user / month Unlimited boards File attachments Time tracking and reporting User groups management Process automation ## Team ### $6 per user / month Unlimited boards File attachments ## Free ### $0 per user / month [...] Kanban Tool pricing & sign up log in \u2261 ### Log in Thank you! We have sent you an email with details about your accounts. Every account in Kanban Tool has its own web address. For example, if you signed up to use \"acme\" domain, your account and login page is available on Don't have an account? Sign up \u00bb # Start with a 14-day free trial.No credit card required, no extra fees. ## Enterprise ### \u20ac11 per user / month Unlimited boards File attachments Time tracking and reporting User groups management Process automation ## Team ### \u20ac6 per user / month Unlimited boards File attachments ## Free ### \u20ac0 per user / month 2 boards 2 users for free No file attachments [...] ## Free ### $0 per user / month 2 boards 2 users for free No file attachments Kanban Tool On-Site new - Enterprise solution installed on your server, available for 10+ users, annual billing. All plans include: real-time board updates, advanced Kanban board analytics and all other features. No extra fees, no credit card required for trial. You can upgrade, downgrade or cancel at any time. Contact us directly for special volume discounts, non-profit and educational pricing. Can't decide? Start free trial and choose plan later. ## Kanban Tool powers over 25,000 small and large businesses. These are just a few of Kanban Tool's happy customers: Kanban Tool customers",
+      "dimension": "pricing",
+      "query": "Kanban Tool pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S32",
+      "url": "https://rocketreach.co/kanban-tool-profile_b7ef842dc38dbaa5",
+      "title": "Kanban Tool Information",
+      "content": "Kanban Tool is a project management platform that focuses on helping companies implement Kanban into their workflow management and development processes. The software enables real-time collaboration and all the features you will need to enable Kanban in your organization, including task management, productivity tracking, process automation, deadline tracking, resource allocation and digital Kanban cards. Your team will have all the tools necessary to visualize tasks, limit WIPs and improve efficiency across the company. Kanban Tool has 60 reviews on Software Advice with a 4.75 rating. Pricing: Kanban Tool offers a free account for up to two boards and two users. Its Team tier is $5 per user, per month, with unlimited boards and file attachments. Its Enterprise tier is $9 per user, per [...] file attachments. Its Enterprise tier is $9 per user, per month, and adds features such as productivity tracking and process automation.",
+      "dimension": "pricing",
+      "query": "Kanban Tool pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S33",
+      "url": "https://kanbantool.com/support/pricing-and-payments",
+      "title": "Pricing & payments | Kanban Tool Support",
+      "content": "If you choose the Team or Enterprise plan, there is a monthly fee per user. Click here to view current pricing. Kanban Tool also offers a Free plan, sufficient for those who only need two boards and two users. Please note the Free plan does not include: File attachments, Time tracking & reporting, The My work widget, Process automation, User groups. To view or change your account plan, go to Account Administration \u2192 Plan & Billing details. ### No hidden fees, complete flexibility! There are no hidden fees or extra costs - everything is straightforward. You can upgrade, downgrade, or cancel your plan at any time. Furthermore, all our support is completely free for users on every plan. [...] ## I need a tax invoice We\u2019re happy to provide it! Go to Account Administration \u2192 Plans & Billing details and fill in the details: Your company name and address The EU VAT company registration number (for companies based in the European Union) Please provide this information within five days of your first payment. Invoices are issued and sent via email each month within seven days of payment. ## How many users can I have in each plan? That depends on the pricing plan you choose. The Free plan is limited to two users, while both the Team and Enterprise plans support an unlimited number of users. Note that the monthly price of a Team or Enterprise subscription is directly proportional to the number of users added. [...] Both of the paid plans offer file attachments and unlimited boards. Additionally, the Enterprise plan will give you access to a set of rich, exclusive features. Account owners and admins can manage the plan setting from Account Administration \u2192 Plan & Billing details. ## What is the pricing for a nonprofit and educational organization? Kanban Tool strongly supports do-gooders. We are very happy to offer huge discounts for non-profit and educational organizations. Please contact us to get more information. Do provide your organization\u2019s name, address, account domain name in Kanban Tool (eg. mydomain.kanbantool.com), as well as which service plan you would like to use, and with how many team members. ## How can I switch to the Free plan?",
+      "dimension": "pricing",
+      "query": "Kanban Tool pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S34",
+      "url": "https://zapier.com/blog/best-kanban-apps",
+      "title": "The 5 best Kanban tools in 2026 | Zapier",
+      "content": "Best for Standout feature Pricing Trello Ease of use and best overall Clean user interface Free for 10 boards and users per workspace; paid plans from $5/month/user Zapier Forms Automation and AI orchestration Integrates tightly with thousands of apps Free for unlimited projects and basic features; paid plans from $19.99/month workstreams.ai AI-powered Kanban AI-generated descriptions and action lists Free plan for unlimited tasks and up to 3 users; paid plans from $9.99/month/user Sortd Kanban within Gmail Tight integration with Google Workspace Free for 2 boards and 4 lists per; paid plans from $10/month/user Taskworld Adding tasks to multiple Kanban projects at once Shrink cards down to a single line of text From $19/month/user [...] | | Best for | Standout feature | Pricing | --- --- | | Trello | Ease of use and best overall | Clean user interface | Free for 10 boards and users per workspace; paid plans from $5/month/user | | Zapier Forms | Automation and AI orchestration | Integrates tightly with thousands of apps | Free for unlimited projects and basic features; paid plans from $19.99/month | | workstreams.ai | AI-powered Kanban | AI-generated descriptions and action lists | Free plan for unlimited tasks and up to 3 users; paid plans from $9.99/month/user | | Sortd | Kanban within Gmail | Tight integration with Google Workspace | Free for 2 boards and 4 lists per; paid plans from $10/month/user | [...] workstreams.ai pricing: Free plan for 3 users that includes most core features; $9.99/month/user for the Pro plan that includes unlimited workflows, tasks, and automations, calendar view, and due dates. ## The best Kanban software for using Kanban within Gmail ### Sortd (Gmail, Google Chrome) Sortd, our pick for the best Kanban software for using Kanban within Gmail Sortd pros: Works within your Gmail inbox Generous free plan Supports shared inboxes Sortd cons: Only works in Google Chrome and Gmail",
+      "dimension": "pricing",
+      "query": "Kanban Tool pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S35",
+      "url": "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency",
+      "title": "ClickUp Pricing Plans Compared (2026): Free vs Business vs Enterprise | ZenPilot",
+      "content": "One thing has changed since this article was first written: you can now buy ClickUp licenses through ZenPilot at ClickUp\u2019s official rates. Same plans, same prices, plus a team that has implemented ClickUp 3,100+ times helping you pick. More on that at the end. ## ClickUp Pricing Plans: Key Feature Differences As of 2026, ClickUp\u2019s pricing page shows four plans. A fifth is still available even though it no longer appears there. The five ClickUp pricing plans are: 1. Free Forever 2. Unlimited 3. Business 4. Business Plus (no longer on the public pricing page, but still available as an upgrade and through partners like ZenPilot) 5. Enterprise On top of any paid plan, ClickUp sells AI as separate per-seat add-ons: ClickUp Brain and Everything AI. We\u2019ll cover those after the core plans. [...] ClickUp Brain at $9 per user per month (billed annually). Unlimited Brain assistant, @Brain agent, and AI chat, plus a monthly pool of AI Super Credits. Everything AI at $28 per user per month. Everything in Brain plus unlimited Ambient Answers, the AI Notetaker, image generation, and a much larger credit pool for Super Agents. AI Super Credits can be added on top of either tier when your agents, AI fields, and automations burn through the included pool. [...] #### Buy ClickUp Licenses Through ZenPilot Same plans, same official ClickUp rates. The difference is a Diamond Solutions Partner picking the plan with you, one invoice for licenses and services, and a human to call before the help desk. See How It Works \u2192 ## The Business Plus Plan This plan costs $19 per member per month billed annually. ClickUp removed Business Plus from its public pricing page in late 2024, but it\u2019s still available as an upgrade, and we can quote it for you. For some teams that might feel steep. But the payoff of the additional features can definitely be worth it. At ZenPilot, we highlight three key features of Business Plus: Subtasks in Multiple Lists Conditional Logic in Forms Custom Capacity in Workload Allow me to break these three down.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S36",
+      "url": "https://www.vendr.com/marketplace/clickup",
+      "title": "ClickUp Software Pricing & Plans 2026: See Your Cost",
+      "content": "# How much does ClickUp cost in 2026? ClickUp uses a per-seat, per-month pricing model with five main tiers: Free, Unlimited, Business, Business Plus, and Enterprise. Published pricing ranges from $0 for the Free plan to $19 per user per month for Business Plus when billed annually. Enterprise pricing is custom and negotiated directly with ClickUp's sales team. The total cost depends on several factors beyond the base subscription: [...] ## ClickUp vs. Notion ### Pricing comparison | Pricing component | ClickUp | Notion | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10/user/month (Plus) | | Mid-tier (annual) | $12/user/month (Business) | $18/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $15,000\u2013$21,600 | ### Pricing notes [...] ## ClickUp vs. Asana ### Pricing comparison | Pricing component | ClickUp | Asana | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10.99/user/month (Premium) | | Mid-tier (annual) | $12/user/month (Business) | $24.99/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $20,000\u2013$30,000 | ### Pricing notes",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S37",
+      "url": "https://www.larksuite.com/en_us/blog/clickup-pricing-plans-guide",
+      "title": "ClickUp Pricing 2026: Plans, Features + Hidden Costs",
+      "content": "Log in Download # ClickUp pricing for 2026 ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. A free plan is available, while paid plans cost $7\u2013$19 per user/month (annual billing) and $10\u2013$29 per user/month (monthly billing). Enterprise pricing is custom. A free trial is available for the paid tiers. ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. ## What's included in each ClickUp plan Tasks, Docs, Whiteboards, Chat, Dashboards, Goals, Forms, Calendar, and 17 other products are included. [...] | See other plans | Free Forever Best for testing, solo use, and very light workflows. $0/ user / month | Unlimited Best for small teams that need unlimited storage and day-to-day flexibility. $7/ user / monthAnnual$10/ user / monthMonthly | Business Best for cross-functional teams that need reporting, workload, and tighter controls. $12/ user / monthAnnual$19/ user / monthMonthly | Business Plus Best for multiple teams that need higher automation limits, custom roles, and team sharing. $19/ user / monthAnnual$29/ user / monthMonthly | Enterprise Best for large organizations with security, procurement, and rollout requirements. Custom pricing | --- --- --- | | Max users | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S38",
+      "url": "https://niftypm.com/blog/clickup-pricing",
+      "title": "ClickUp Pricing For Small Businesses in 2026",
+      "content": "## ClickUp Pricing Plans Explained (2026) ClickUp has four major pricing tiers. ClickUp\u2019s free version, known as ClickUp\u2019s free plan, is ideal for individuals and small teams who need essential features, but it comes with limitations compared to paid plans. Here\u2019s what each plan really offers and what type of user it fits. ### 1. ClickUp Free Forever Plan ($0) Best for: Individuals, students, freelancers, small business owners, or very small teams ClickUp\u2019s Free Forever plan is attractive because it includes unlimited tasks and unlimited members. That makes it seem like a \u201cno brainer\u201d for teams trying to save money, and it\u2019s especially suitable for small business owners who need basic project management tools without extensive features. What ClickUp Free Plan Includes [...] In this guide, we\u2019ll break down: ClickUp\u2019s full pricing (with annual per-user rates)\u2014ClickUp offers a variety of plans and features to suit different team needs ClickUp AI pricing and hidden add-on Where does ClickUp become a costly choice for teams? A detailed comparison table (ClickUp vs Nifty) Why is Nifty the better fit for most teams in 2026? Let\u2019s get into it. ## Quick Overview: ClickUp Pricing (Annual Billing) Before we dive deep, here\u2019s the pricing snapshot based on tool\u2019s official pricing page. Free Forever: $0 Unlimited: $7 per user/month (billed annually) Business: $12 per user/month (billed annually) Enterprise: Custom pricing (Source: ClickUp Pricing Page) [...] How much does ClickUp cost per person? ClickUp costs $7 per user/month (Unlimited plan) and $12 per user/month (Business plan) when billed annually. AI is extra. How much does ClickUp AI cost? ClickUp AI costs $9 per user/month for Brain AI and $28 per user/month for Everything AI. Does Nifty include AI? Yes. Nifty includes Orbit AI and allows teams to start using it even on the free plan. Which is better: ClickUp or Nifty? ClickUp is better for teams needing deep customization and complex dashboards. Nifty is better for teams wanting predictable pricing, easier onboarding, client collaboration, and AI included without expensive add-ons. #### Recent Articles: Shiv Kapoor2026-08-07T11:34:21-04:00 #### When everyone has an agent, alignment becomes the bottleneck",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S39",
+      "url": "https://www.forbes.com/advisor/business/software/clickup-pricing",
+      "title": "ClickUp: Plans And Pricing Explained",
+      "content": "ClickUp vs. Competitors ; Plan Price Range. Free to $19 per member per month. Free to $24 per user per month (billed monthly). Free to $17.50 per",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S40",
+      "url": "https://omr.com/en/reviews/contenthub/project-management-free-software",
+      "title": "The 7 best free project management software",
+      "content": "### Free features in Asana ### Asana alternatives ## 2. Notion Notion Logo Notion Screenshot ### Free features in Notion ### Notion alternatives ## 3. Trello Trello Logo Trello Screenshot ## Free features in Trello ## Trello alternatives ## 4. monday.com monday.com Logo monday.com Screenshot ### Free features in monday.com ### monday.com alternatives ## 5. Jira Jira Logo Jira Screenshot ### Free features in Jira ### Jira alternatives ## 6. MeisterTask MeisterTask Logo MeisterTask Screenshot ### Free features in MeisterTask ## 7. ClickUp ClickUp Logo ClickUp Screenshot ### Free features in ClickUp ### ClickUp alternatives ## Other project management software providers Nils Martens [...] # The 7 best free project management softwares We reveal the advantages of project management software and which free planning tools you can use ## Recommended project management software On our comparison platform OMR Reviews you can find more recommended Project management-Software. We present over 300 tools that are particularly suitable for small and medium-sized companies, start-ups and large corporations and offer support in all areas of project management. Take the opportunity to compare the different software and rely on authentic and verified user reviews: ## Why should you use a project management tool? ## These are the top 7 free project management software on OMR Reviews ## 1. Asana Asana Logo Asana Screenshot ### Free features in Asana ### Asana alternatives [...] Nils Martens Nils ist Gr\u00fcnder der Personal Branding Rebels und seit Jahren fester Bestandteil des LinkedIn-Games. Mit seinem Team hilft er Menschen und Unternehmen, auf LinkedIn und anderen Plattformen als Personal Brands sichtbar zu werden. Die Rebels unterst\u00fctzen mittelst\u00e4ndische Unternehmen dabei Sichtbarkeit aufzubauen, \u00fcber einen 360 Grad Personal Branding Ansatz, mit dem Fokus auf Personal Branding Strategie und Beratung sowie das Personal Branding Takeover. Immer mit einem rebellischen Ansatz: Out-of-the-Box-Denken und authentische Sichtbarkeit stehen im Fokus, fernab von starren Algorithmen und Blaupausen. ## Software mentioned in the article Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo Logo",
+      "dimension": "competitive",
+      "query": "Trello vs MeisterTask features",
+      "published": "Mon, 24 No"
+    },
+    {
+      "id": "S41",
+      "url": "https://tech-insider.org/trello-vs-jira-2026",
+      "title": "Trello vs Jira 2026: 38% Price Gap and 3,000 vs 200 Integrations",
+      "content": "The fundamental architectural difference between Trello and Jira determines which teams each tool serves best. Trello was built as a Kanban board. Every feature, every view, every integration revolves around cards moving across lists. Jira was built as an issue tracker for software development and has expanded outward from that core into general project management. [...] Add Now ## Trello vs Jira 2026: Quick Verdict Trello wins for small teams, freelancers, and non-technical project management. Its Kanban-first design, generous free plan with 10 boards and unlimited cards, and $5/user/month starting price make it the obvious choice when simplicity matters more than complexity. Trello\u2019s learning curve takes minutes, not days. Jira wins for software development teams, enterprise operations, and any organization that needs advanced workflows, sprint management, or deep reporting. Its $7.91/user/month starting price buys you Scrum boards, backlog management, custom issue types, and a level of configurability that Trello cannot match. If your team files bug reports, tracks sprints, or manages releases, Jira is the better tool. [...] 1. Choose Trello if you need visual simplicity. If your team\u2019s primary need is seeing tasks move across stages, Trello\u2019s Kanban-first approach is unmatched. Marketing teams, content teams, event planners, and personal productivity users should start with Trello and only consider Jira if they outgrow it. 2. Choose Jira if you run sprints. Any team practicing Scrum, SAFe, or structured agile methodologies needs Jira. Sprint planning, backlog management, velocity tracking, and burndown charts are table stakes for agile teams, and Jira provides them natively while Trello does not.",
+      "dimension": "competitive",
+      "query": "Trello vs Kanban Tool features",
+      "published": "Fri, 10 Ap"
+    },
+    {
+      "id": "S42",
+      "url": "https://itsfoss.com/open-source-trello-alternatives",
+      "title": "7 Open Source Trello Alternatives For Your Kanban Boards",
+      "content": "\ud83d\udca1 Use it if you want to move your existing Trello tasks to a self-hosted tool with modern look and feel. ## 2. Planka If you want to use something that looks and feels like Trello, look no further than Planka. Look at the screenshots, and you'll feel like you are looking at Trello itself. You get all the usual Trello and kanban board features. You have lists with tasks and those tasks can have deadline and time tracking. Kanban, grid and list views are available. You should also be able to import your Trello tasks here. REST API with 50+ webhook events helps you integrate task management with external tools in your workflow. Public boards were supposed to arrive with version 2 but I don't think that has happened yet. [...] There is no automation or AI feature at the time of writing this article. Which is not entirely a bad thing because sometimes simplicity itself is a feature. One thing that does bother me is the lack of smartphone apps. I like to keep a track on tasks while on the move. That doesn't mean Kan doesn't provide ways for efficient work. They are already working on implementing templates so that you can easily create same type of tasks. Integrations with external tools is also a work in progress. The biggest feature for people moving away from Trello is that you can import your Trello boards directly in Kan. That makes it a true open source alternative to Trello. Kan can be self-hosted or you can pay for their hosted service. Hosted service is free for single user. \ud83d\udca1 [...] \ud83d\udca1 Use it if you want an open source Kanban tool with the ability to add docs. ## 6. Leantime While not exactly a Trello clone, Leantime is a project management tool created specifically with ADHD and neurodivergence in mind. So you get more color codings, emoji-based priority features. There is a \"personal view\" that shows all your tasks in one place irrespective of which board they belong to. This is something I have seen in ClickUp. You can also take notes that won't be saved in the main tasks and would only be used in personal view. You can track productivity with built in reports and see how the project is coming together.",
+      "dimension": "competitive",
+      "query": "Trello vs Kanban Tool features",
+      "published": "Tue, 14 Ju"
+    },
+    {
+      "id": "S43",
+      "url": "https://learn.g2.com/trello-vs-asana",
+      "title": "I Tested Trello vs. Asana: Which Is Better in 2026",
+      "content": "User interface: Trello\u2019s UI is simple and visual; everything happens on Kanban boards, where you drag and drop cards. It\u2019s easy to understand and quick to start using. Asana\u2019s UI is more detailed, with more fields and controls, which helps with complex planning but takes a bit more time to learn. Reporting and insights: Trello provides a lightweight reporting system. Users can use power-ups to add custom fields, get a detailed dashboard view, and use integrations for automation and get detailed insights via sheets and Power BI. Asana has built-in reporting capabilities within the platform; teams can track progress of projects in real time, get notifications on upcoming projects, and get visual data on the dashboard about the team\u2019s progress [...] | Task management | Can create task cards with checklists and comments, enhanced by Power-ups, drag-and-drop, and automation. | Use tasks and sub-tasks with multiple views, plus milestones and multiple tracking to keep teams aligned. | | Project views | Trello centers on a visual, intuitive Kanban board with multiple views available via Power-ups. | Asana offers real-time multi-project views and workload tracking, ideal for complex projects. | | AI and automation capabilities | Automate card movement, add due dates, and use AI tools for summaries, brainstorming, and action items. | Brainstorm and draft tasks, generate summary reports, and recommend priorities. |",
+      "dimension": "competitive",
+      "query": "Trello vs Kanban Tool features",
+      "published": "Wed, 25 Ma"
+    },
+    {
+      "id": "S44",
+      "url": "https://www.mobileappdaily.com/product-review/clickup",
+      "title": "ClickUp Review 2026: Features, Pricing & Honest Verdict",
+      "content": "As your team explores the best AI productivity tools to streamline their workflows, ClickUp stands out for bringing project management, automation, and AI-powered capabilities together in one place. Here's a breakdown of the features that matter most. #### 1. Task Management (4.4/5) This is the foundation of the platform: tasks, subtasks, dependencies, priorities, and custom statuses that map to however your team actually works. You can assign multiple people to one task, set custom fields to track anything from budget to client name, and nest work as deep as your project actually needs. For teams coming from simpler tools like Trello, the depth here is a genuine upgrade, though it takes real time to configure well. #### 2. Multiple Views (3.9/5) [...] \\ClickUp wins on raw feature count and price-to-feature ratio, but it loses to Asana and Trello on ease of use, and it loses to Notion specifically as a docs/wiki tool, and to Jira for teams that live and die by engineering sprint workflows. ## MobileAppDaily\u2019s Final Verdict for ClickUp By the time I'd clicked through every view, tested the automation builder, poked at Brain2, and compared four different pricing tiers, I was impressed and a little exhausted. ClickUp doesn't just have a lot of features; it has opinions about how you should work, and forming your own opinion about it takes real time. So I did what we usually do at MobileAppDaily when a tool leaves us this divided: I pulled the team in and asked what they actually thought. [...] | Tool | Best For | Learning Curve | Starting Price | Standout Strength | --- --- | ClickUp | Teams wanting an all-in-one platform | High | Free / $7 per user | Feature breadth, customization, native AI | | Asana | Teams that prioritize simplicity | Low\u2013Medium | Free / ~$11 per user | Clean UI, easier onboarding | | Monday.com | Visual, non-technical teams | Medium | Free / ~$9 per user | Visual workflow building, ease of use | | Trello | Very small teams, simple boards | Low | Free / ~$5 per user | Lightweight Kanban simplicity | | Notion | Docs-first teams that also need light task tracking | Medium | Free / ~$8 per user | Best-in-class docs and wiki functionality | | Jira | Software and engineering teams | High | Free / ~$7.75 per user | Deep dev-focused sprint and issue tracking |",
+      "dimension": "competitive",
+      "query": "Trello vs ClickUp features",
+      "published": "Tue, 21 Ju"
+    },
+    {
+      "id": "S45",
+      "url": "https://www.techrepublic.com/article/5-essential-remote-collaboration-tools-for-distributed-teams",
+      "title": "10 Best Remote Work Tools for Team Collaboration in 2026",
+      "content": "### It\u2019s best for fast-scaling startups, product teams, agencies, and remote organizations wanting flexibility and complete visibility across workloads. The downside is that ClickUp\u2019s power comes with complexity; initial setup can feel overwhelming, and teams without strong processes may struggle to adopt its full features. Compared to Trello, ClickUp is far more powerful; compared to Asana, it\u2019s more flexible but sometimes less polished. ### Pricing Annual billing is available. ### Standout features ClickUp's dashboard. SEE: ClickUp Review: Features, Pricing, Pros, and Cons ## 7. Trello: Best for individuals or small teams looking for a simple Kanban-style task management experience My rating: 4.23/5 ### Why I chose Trello [...] The downside is that Asana can feel heavy for small teams or teams that work chaotically or organically. ClickUp may offer more flexibility, and Trello may feel simpler for lightweight workflows. | Pros | Cons | --- | | \u2705 Excellent task and workflow visibility | \u274c Free plan is limiting | | \u2705 Multiple project views | \u274c Overkill for small or simple projects | | \u2705 Strong for cross-team coordination | \u274c Requires upkeep as workflows expand | ### Pricing Annual billing is available. ### Standout features Asana's reporting dashboard SEE: Asana Review: Pricing, Ease of Use, Pros & Cons ## 6. ClickUp: Best all-in-one work platform that replaces multiple tools for tasks, docs & project planning My rating: 4.44:/5 ### Why I chose ClickUp",
+      "dimension": "competitive",
+      "query": "Trello vs ClickUp features",
+      "published": "Mon, 08 De"
+    },
+    {
+      "id": "S46",
+      "url": "https://tech-insider.org/notion-vs-clickup-2026",
+      "title": "Notion vs ClickUp 2026: 30% Price Gap and 10x Template Divide [Tested]",
+      "content": "ClickUp\u2019s project management is more thorough. Native features include task dependencies (finish-to-start, start-to-start, finish-to-finish, start-to-finish), critical path analysis, workload management across team members, milestone tracking, and sprint velocity reporting. These features are built into the core platform, not layered on top of a document system, which means they perform better at scale and offer more configuration options. [...] The hidden cost comparison also favors ClickUp for teams needing time tracking, goal management, and advanced automations. Notion\u2019s pricing page bundles fewer operational features, meaning teams often supplement with Asana, Todoist, or Trello for task execution, adding $5 to $15 per user per month. ClickUp\u2019s pricing includes these capabilities natively, making its effective cost advantage even larger than the sticker price suggests. [...] Use Case 2: Marketing Agency (25 to 100 people) Agencies managing multiple client projects need time tracking, deadline management, resource allocation, and client-facing dashboards. ClickUp dominates this scenario with native time tracking that logs billable hours per task, workload views that prevent team burnout, and guest access that lets clients view project progress without a full license. ClickUp\u2019s automation capabilities also allow agencies to create standardized onboarding workflows that trigger automatically when new client projects are created. Winner: ClickUp, with its time tracking and client management features saving agencies $150 to $300 per month in third-party tool costs. Use Case 3: Remote Engineering Team (15 to 50 people)",
+      "dimension": "competitive",
+      "query": "Trello vs ClickUp features",
+      "published": "Fri, 10 Ap"
+    },
+    {
+      "id": "S47",
+      "url": "https://www.salesforce.com/compare/clickup-alternatives",
+      "title": "7 Best ClickUp Alternatives and Competitors in 2026 | Salesforce",
+      "content": "Key features include: ### 6. Trello Trello is a Kanban-style task management tool known for its simple, visual card-and-board interface. Sales teams often use it for lightweight deal tracking or personal to-do lists, though it offers limited native reporting and automation compared with other tools on this list. It\u2019s best suited for small teams or individual reps who need a quick, visual way to track their work without a steep learning curve or lengthy setup. Key features include: ### 7. Smartsheet Smartsheet [...] ### Who does ClickUp compete with? ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet. These tools offer task and project management features with varying levels of automation, reporting, and integration capabilities. For sales teams in particular, Sales Cloud is also a strong alternative. While many project management tools include sales-related workflows, Sales Cloud is purpose-built to support the full sales lifecycle\u200c \u2014 \u200ccombining pipeline management, automation, reporting, and cross-functional collaboration in one platform. ### Which ClickUp competitor is best for small businesses? [...] ### Which ClickUp competitor is best for small businesses? Trello and Notion are popular among small businesses for their ease of setup and low entry cost. For small sales teams that need CRM alongside task management, a platform like Sales Cloud may offer more value by consolidating tools. ### Which ClickUp alternative is easiest to use for beginners? Trello is often cited as one of the most intuitive options for new users, thanks to its simple drag-and-drop Kanban interface and a minimal learning curve. Asana and Monday.com also offer onboarding templates and guided setup to help teams get started quickly. ### Is there a cheaper alternative to ClickUp for large organizations?",
+      "dimension": "competitive",
+      "query": "Trello vs ClickUp features",
+      "published": "Tue, 14 Ap"
+    },
+    {
+      "id": "S48",
+      "url": "https://www.simplilearn.com/tutorials/project-management-tutorial/project-management-tools",
+      "title": "Top 10 Project Management Tools: Comprehensive Guide [2026]",
+      "content": "Also Read: Asana vs Monday vs ClickUp ## 4. Trello Trello is a highly visual, web-based project management tool. It organizes projects into boards representing the project or workflow; cards represent tasks within these boards. These cards can be moved across different lists, typically representing stages of progress (e.g., To Do, In Progress, Done). Trello's flexibility allows it to be used for many projects, from simple to-do lists to complex project management. ### How Does It Work?",
+      "dimension": "competitive",
+      "query": "Trello vs ClickUp features",
+      "published": "Tue, 18 Au"
+    },
+    {
+      "id": "S49",
+      "url": "https://gamerant.com/fortnite-update-schedule-2026",
+      "title": "Fortnite's Entire Update Schedule for 2026 Has Been Revealed",
+      "content": "Sign in to your GameRant account Epic Games has updated the Fortnite roadmap Trello page with the entire release schedule for 2026, letting players know when they can expect content patches and season launches. Fortnite has entered its seventh chapter and 35th full season, and Epic Games tends to change major aspects of the game whenever there is a new chapter, as these releases are much bigger compared to season launches. However, Chapter 7 Season 1, also known as Pacific Break, took it up a notch, as main elements were completely modified, such as how players land on the island and how Battle Pass pages are unlocked and redeemed.",
+      "dimension": "reception",
+      "query": "Trello launch reviews 2026",
+      "published": "Mon, 05 Ja"
+    },
+    {
+      "id": "S50",
+      "url": "https://cybersecuritynews.com/product-management-tools",
+      "title": "Top 10 Best Product Management Tools - 2026",
+      "content": "| What is Good? | What Could Be Better? | --- | | Anyone may start using Trello immediately due to its simple design and usability. | Larger projects with many tasks can overwhelm Trello\u2019s card-based architecture. | | Visual project and task management with boards, lists, and cards is simple and effective. | Its searching and reporting capabilities may not meet commercial objectives. | | Trello integrates with third-party apps and services to improve functionality. | \ufeff | | It supports teamwork with comments, attachments, and deadlines. | \ufeff | Trello \u2013 Demo/Trial ## 8. Product Plan Product Plan ProductPlan is intuitive and visually appealing product development software that empowers teams to effortlessly create, manage, and communicate product roadmaps. [...] Jira \u2013 Demo/Trial ## 7. Trello .webp) Trello A Kanban-style project management tool called Trello assists in communication and organization for a product management team. Trello simplifies task management through intuitive Kanban boards and checklists, ensuring seamless workflows. Trello\u2019s standout feature is its automation capabilities powered by the butler bot, streamlining repetitive tasks and processes. Additionally, it offers a user-friendly mobile app compatible with Android and iOS devices, enabling on-the-go productivity. The platform further enhances productivity with various templates tailored for product management, team management, productivity, and more. It\u2019s a versatile solution designed to keep teams organized and projects on track. ### Main Features: [...] Wrike: Offers robust project management with customizable workflows. Miro: Provides an online collaborative whiteboard for team brainstorming. Product board: Centralizes product feedback and helps prioritize features. Asana: Facilitates task management and project tracking with an intuitive interface. Airfocus: Offers prioritization and roadmapping features tailored for product teams. Jira: I specialize in agile project management and bug tracking. Trello: Uses boards, lists, and cards for easy project visualization and management. Product Plan: Simplifies roadmap planning and sharing with interactive timelines. Confluence: A collaborative platform for document creation and sharing. ClickUp: Combines tasks, docs, goals, and more into a single productivity platform.",
+      "dimension": "reception",
+      "query": "Trello launch reviews 2026",
+      "published": "Mon, 12 Ja"
+    },
+    {
+      "id": "S51",
+      "url": "https://www.techrepublic.com/article/software-development-project-management-tools",
+      "title": "7 Best Software Development Project Management Tools in 2026",
+      "content": "When I need additional functionality, I use Power-Ups to connect Trello with GitHub, create automations, or generate reports. Trello does not offer the same development planning capabilities as tools like Jira, but it works well for teams that want a simple way to track software development work. | Pros | Cons | --- | | \u2705Generous free plan for solo devs | \u274cNo built-in documentation tool | | \u2705Easy to use for task tracking and managing basic workflows | \u274cLacks native advanced analytics like velocity or lead/cycle time | | \u2705Offers an AI summary of sprint performance | \u274c Core features like dependencies are not built-in and may require add-ons from third-parties | ### Trello pricing ### Standout features ## Review methodology [...] | Pros | Cons | --- | | \u2705Clean and minimalist interface | \u274cWorkspace customization takes time and may require skills | | \u2705Flexible to use for building databases and documentation | \u274cDoesn\u2019t integrate with Azure DevOps | | \u2705Highly customizable database pages | \u274cLacks a folder-based organization system | ### Notion pricing ### Standout features ## 7. Trello: Best for task tracking My rating: 4.26 / 5 Trello logo. ## Trello agile board showing backlog, sprint backlog, in-progress tasks, and completed items arranged in Kanban columns for workflow tracking. ### Why I chose Trello [...] ### Why I chose Trello Small development teams that need straightforward task tracking often choose Trello over more complex project management tools. I have used it to manage bug fixes, internal apps, and short development projects where the work can be tracked on a Kanban board. Each task is represented by a card that moves through stages such as backlog, development, review, and completed. This setup makes it easy to see where work stands without managing epics or portfolios. Most of the information related to a task stays within the card itself. I can add comments, due dates, file attachments, and checklists, then update progress during standups or code reviews by dragging the card to the next stage.",
+      "dimension": "reception",
+      "query": "Trello launch reviews 2026",
+      "published": "Mon, 08 Ju"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "Trello offers a free plan at $0 per user per month.",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S22",
+        "S23"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello's Standard plan costs $5 per user per month with annual billing and $6 per user per month with monthly billing.",
+      "source_ids": [
+        "S20",
+        "S22",
+        "S23",
+        "S24"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello's Premium plan costs $10 per user per month with annual billing and $12.50 per user per month with monthly billing.",
+      "source_ids": [
+        "S20",
+        "S22",
+        "S23",
+        "S24"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello's Enterprise plan costs $17.50 per user per month and requires annual billing.",
+      "source_ids": [
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Annual billing for Trello's paid plans saves approximately 20% compared to monthly billing.",
+      "source_ids": [
+        "S24"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello offers discounts of 75% on Standard and Premium plans and 50% on Enterprise plans for non-profit organizations, students, and teachers.",
+      "source_ids": [
+        "S22"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello's free plan allows up to 10 team boards.",
+      "source_ids": [
+        "S23",
+        "S34",
+        "S41"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello's free plan supports unlimited project members.",
+      "source_ids": [
+        "S23"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello's free plan includes a maximum file size of 10 MB, while paid plans allow 250 MB.",
+      "source_ids": [
+        "S23"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Trello's Premium plan requires a minimum of 20 users, and its Enterprise plan requires a minimum of 25 users.",
+      "source_ids": [
+        "S23"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "MeisterTask is described as the most direct Trello competitor because it also focuses on Kanban boards.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "MeisterTask supports managing tasks and organizing projects for teams and student groups.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Kanban Tool is identified as a Trello alternative best for visual project management.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp is identified as offering the best free plan among Trello alternatives.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp provides automation on its free plan, unlike competitors that reserve automation for paid tiers.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp combines project management, documentation, goals, and an AI assistant in a unified workspace.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Capterra data indicates that 55% of negative ClickUp reviews cite pricing concerns, with key features locked behind higher tiers.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Trustpilot reviews document ClickUp support response times stretching to weeks for critical issues including billing disputes.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Compared to Trello, ClickUp is considered far more powerful, although its initial setup can feel overwhelming.",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp competes with Trello alongside Asana, Monday.com, Smartsheet, Jira, and Notion.",
+      "source_ids": [
+        "S47"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Trello is considered better suited than Jira for small teams, freelancers, and non-technical project management.",
+      "source_ids": [
+        "S41"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira was built as an issue tracker for software development, while Trello was built as a Kanban board.",
+      "source_ids": [
+        "S41"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Trello has a simple and visual user interface centered on Kanban boards where users drag and drop cards.",
+      "source_ids": [
+        "S43"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Trello offers a lightweight reporting system and uses power-ups for custom fields, dashboard views, and integrations.",
+      "source_ids": [
+        "S43"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Trello is considered to have limited native reporting and automation compared with other tools.",
+      "source_ids": [
+        "S47"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Trello is best suited for small teams or individuals who need a quick, visual way to track work without a steep learning curve.",
+      "source_ids": [
+        "S47"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Notion does not include chat or private messaging features and lacks advanced project management features such as time tracking and comprehensive reporting.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Kanban Tool's free plan does not include file attachments, time tracking and reporting, the My work widget, process automation, or user groups.",
+      "source_ids": [
+        "S33"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Kanban Tool offers an Enterprise plan at $11 per user per month.",
+      "source_ids": [
+        "S31"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "MeisterTask's paid plans range from $13 per user per month to $25 per user per month when billed annually.",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "ClickUp's paid plans range from $7 to $19 per user per month with annual billing.",
+      "source_ids": [
+        "S36",
+        "S37"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Users can begin using Trello immediately because of its simple design and usability.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello's visual management of projects and tasks with boards, lists, and cards is regarded as simple and effective.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello supports teamwork through comments, attachments, and deadlines.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello integrates with third-party apps and services to extend functionality.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Large projects with many tasks can overwhelm Trello's card-based architecture.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello's searching and reporting capabilities may not meet commercial objectives.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello offers a generous free plan for solo developers.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello is easy to use for task tracking and managing basic workflows.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello provides an AI summary of sprint performance.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello does not include a built-in documentation tool.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello lacks native advanced analytics such as velocity or lead/cycle time.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Core features like dependencies in Trello require paid upgrades or Power-Ups.",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Trello is considered inexpensive and easy to use, distinguishing it from complex, high-end competitors.",
+      "source_ids": [
+        "S21"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Expert testers ranked Trello among the best simple project management providers for customer support options.",
+      "source_ids": [
+        "S21"
+      ]
+    }
+  ],
+  "unsupported_claims": []
+}

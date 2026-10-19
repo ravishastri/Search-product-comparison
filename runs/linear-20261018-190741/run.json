@@ -1,0 +1,881 @@
+{
+  "product": "Linear",
+  "price_check": {
+    "checked": 2,
+    "missing": 1,
+    "unavailable": 0
+  },
+  "description": "Issue tracker for software teams",
+  "category": "issuetracker",
+  "model": "moonshotai/Kimi-K2.6",
+  "run_date": "2026-10-18",
+  "similar": [
+    "Jira",
+    "GitHub Issues",
+    "Height"
+  ],
+  "candidate_status": {
+    "Jira": {
+      "status": "active",
+      "source": "S6"
+    },
+    "GitHub Issues": {
+      "status": "unknown",
+      "source": ""
+    },
+    "Height": {
+      "status": "unknown",
+      "source": ""
+    },
+    "Plane": {
+      "status": "unknown",
+      "source": ""
+    },
+    "YouTrack": {
+      "status": "unknown",
+      "source": ""
+    }
+  },
+  "excluded_retired": [],
+  "queries": [
+    "Linear alternatives competitors issuetracker",
+    "Linear pricing plans",
+    "Jira pricing plans",
+    "GitHub Issues pricing plans",
+    "Height pricing plans",
+    "Linear vs Jira features",
+    "Linear vs GitHub Issues features",
+    "Linear vs Height features",
+    "Linear launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://thedigitalprojectmanager.com/tools/best-linear-alternatives",
+      "title": "10 Best Linear Alternatives for Issue Tracking in 2026",
+      "content": "I\u2019ve rounded up the standout Linear alternatives for 2026, revealing which tools truly level up your workflow\u2014so you can pick the right fit without second-guessing. ## Best Linear Alternatives Shortlist 1. 1. OpenProject \u2014 Best for a self-hosted option 2. 2. Zenhub \u2014 Best for teams managing code and tasks together 3. 3. Taiga \u2014 Best for agile sprints 4. 4. YouTrack \u2014 Best for AI-powered issue tracking 5. 5. Jira \u2014 Best with advanced agile boards 6. 6. Superthread \u2014 Best with threaded project discussions 7. 7. Bugasura \u2014 Best for tracking bugs within product teams 8. 8. GitHub Issues \u2014 Best for developers already using GitHub 9. 9. Huly \u2014 Best for visualizing projects on a timeline 10. 10. Plane \u2014 Best for teams needing open source flexibility [...] ### Pros and Cons Pros: Active, engaged community for support Advanced cycles and custom workflow builder Self-hosting option with data ownership Cons: Limited analytics and reporting functionality Workflow automations are still basic LEARN MORE ABOUT PLANE: Check out Plane on their website ## Other Linear Alternatives Here are some additional linear alternative options that didn\u2019t make it onto my shortlist but are still worth checking out: 1. Atono With note-driven task management 2. GoodDay For customizable workflows 3. Smartsheet For spreadsheet-style project tracking 4. Wrike With advanced workflow automations 5. Shortcut For fast story-based planning 6. Teamwork For managing client deliverables 7. Notion [...] ### Pros and Cons Pros: Modular design for scalable project management Advanced Gantt chart and timeline tools Supports on-premises and private cloud hosting Cons: Reporting features are less customizable Performance slows with very large projects LEARN MORE ABOUT OPENPROJECT: Check out OpenProject on their website Read my in-depth review of OpenProject Visit Website Customer Rating: 4.3/5 This rating combines scores from multiple user review sites to reflect overall customer sentiment about the product. Zenhub screenshot - 10 Best Linear Alternatives for Issue Tracking in 2026 Zenhub helps teams manage GitHub issues, workflows, and planning.",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S2",
+      "url": "https://resources.rework.com/tools/dev-tools/best-linear-alternatives",
+      "title": "\"Best Linear Alternatives 2026: 10 Issue Trackers Ranked\"",
+      "content": "Jira is the incumbent. It's been the default issue tracker for engineering teams for over 15 years, and for mid-market to enterprise orgs, it often stays the default because swapping it out is a bigger project than just finding a better UX. The best Jira alternatives guide covers the full landscape if you're also weighing whether to leave Jira at the same time you're leaving Linear. Methodology: Jira is built around agile ceremonies: sprints, backlogs, velocity, burndown. Atlassian has invested heavily in connecting Jira to the rest of the enterprise stack (Confluence, Bitbucket, and now a growing AI layer via Atlassian Intelligence). The product vision is \"the system of record for software development\" in large orgs. [...] Best for: DevOps-first engineering orgs at 30+ that want CI/CD, security, and issue tracking under one roof, including compliance-sensitive industries. ## 8. YouTrack (JetBrains): Developer-focused issue tracker built by the people who make IDEs YouTrack is JetBrains' issue tracker, and if you're already paying for IntelliJ, WebStorm, or PyCharm, it's worth a serious look. It's developer-opinionated in a way that feels like it was designed by developers who were frustrated with Jira. [...] | Strengths | Limitations | --- | | Powerful workflow customization engine | UI feels dated compared to Linear, Height, Shortcut | | Smart search and query language | Steeper learning curve than most alternatives | | Strong Scrum and Kanban support | Ecosystem is smaller than Jira's | | JetBrains ecosystem integration | Design has not kept pace with newer tools | | Reasonable pricing for JetBrains customers | Reporting could be stronger | Pricing: Free for up to 10 users. Cloud: starts at $4.40/user/month. Server license also available. Best for: Engineering teams at 10-200 already in the JetBrains ecosystem who want developer-first issue tracking with powerful workflow customization. ## 9. Plane: Open-source Linear alternative with no lock-in and no per-seat pricing",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S3",
+      "url": "https://www.zoye.io/blog/best-linear-alternatives",
+      "title": "Best Linear Alternatives 2026: 7 Tools for Teams That Outgrew Issue Tracking | Zoye",
+      "content": "### 7. Height - the AI-leaning issue tracker Height is the closest spiritual alternative to Linear for teams that want a fast, modern issue tracker with AI woven through it. It focuses on autonomous project management features, using AI to help triage, organize, and keep work moving, in a clean interface that will feel familiar to anyone who liked Linear. Where it works best: Software teams that want a fast, modern issue tracker Teams curious about AI-assisted backlog management Groups that liked Linear's feel but want a different take Product and engineering teams comfortable in a focused tool Pricing: Free tier available. Paid plans start around $7 per user per month. [...] ## The 7 best Linear alternatives in 2026 ### 1. Zoye - the AI-native all-in-one alternative Zoye is the strongest Linear alternative for teams that have outgrown pure issue tracking and want to run the whole business in one place. Where Linear gives you a beautiful issue tracker and leaves customers, budget, and reporting to a separate stack, Zoye bundles tasks and projects with CRM, budget, calendar, and reporting, all under a native acting AI, at flat-rate pricing. [...] For those teams, Zoye, ClickUp, and Asana are the strongest alternatives because they handle general project work rather than engineering issues. ClickUp and Asana cover cross-functional projects well. Zoye goes furthest by adding CRM, budget, and a native acting AI in the same workspace, so a non-dev team does not just track tasks, it runs customers, money, and reporting in one place. ## Best AI-powered Linear alternative Almost every option here now has some AI, but there is a meaningful difference between AI that triages issues and AI that runs the workspace. Linear AI, Jira's assistant, ClickUp AI, Notion AI, and Height's AI are mostly assistive layers: they help summarize, organize, or draft inside a single tool, and several cost extra.",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S4",
+      "url": "https://www.ideaplan.io/alternatives/linear",
+      "title": "Linear Alternatives: 7 Better Picks for Eng Teams (2026)",
+      "content": "Published 2026-03-04Updated 2026-06-23 Share: TL;DR: Linear alternatives ranked for engineering teams: 7 faster, cheaper, or open-source picks like Plane, Huly, and GitHub Issues. Pricing and fit compared. ## Why Look for Linear Alternatives? Linear earned its reputation by being the fastest, most opinionated issue tracker available. Its keyboard-first interface, automatic sprint management, and clean design make it a favorite among small-to-mid product and engineering teams. Where other tools offer maximum flexibility, Linear offers maximum velocity. [...] Jira is the industry standard for issue tracking, and it represents the opposite end of the philosophy spectrum from Linear. Where Linear constrains workflows for speed, Jira allows nearly unlimited customization: custom issue types, fields, workflows, screens, permission schemes, and automation rules. If you can describe a process, Jira can model it. For product teams in larger organizations (100+ engineers), Jira's advantages are real. Cross-project reporting, advanced roadmaps (formerly Portfolio), and the Atlassian ecosystem (Confluence, Bitbucket, Opsgenie) create an integrated development operations platform. The automation engine handles complex routing, SLA tracking, and status transitions without code. [...] If your team has outgrown Linear's opinionated workflow, needs deeper customization, or wants issue tracking integrated more tightly with your development platform, the alternatives below each take a different approach. The Product Operations Handbook covers how to evaluate project management tools against your team's actual workflow needs. ## The 7 Best Linear Alternatives ### 1. Jira Best for: Large engineering organizations needing deep customization and enterprise-grade project management",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S5",
+      "url": "https://www.cbinsights.com/company/linear-software/alternatives-competitors",
+      "title": "Top Linear Software Alternatives, Competitors",
+      "content": "Technology Vendors Recent Research Newsletter Media Support Login CB Insights # Linear Software linear-software.de ## Linear Software's alternatives and competitors See how Linear Softwarecompares to similar products. Linear Software's top competitors include Berrly, Momentive Software, and Yolawo. Berrly Logo Berrly Berrly operates as a cloud-based software company. It provides membership management and event organization services for non-profit associations, sports clubs, and foun\u2026 Linear Software vs. Berrly View more in-depth data on: Competitors Products Customer References and more Compare Linear Software and Berrly New call-to-action Momentive Software Logo Momentive Software",
+      "dimension": "discovery",
+      "query": "Linear alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S6",
+      "url": "https://www.theregister.com/software/2025/09/09/atlassian-goes-cloud-only-customers-face-integration-issues/391022",
+      "title": "Atlassian goes cloud-only, customers face integration issues",
+      "content": "# Atlassian's move to cloud-only means customers face integration issues and more First, server products go end of life, now datacenter gets the chop, and larger customers will pay more Atlassian is discontinuing its datacenter products, including Jira, Confluence and Bamboo, in favor of Atlassian Cloud. There is a partial exception for Bitbucket, a source code repository manager, which will have a license option covering both cloud and datacenter. The official post states that \"nearly all our new customers\" are choosing cloud and that there are benefits in AI search, chat and automation, thanks to its Rovo offering.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 09 Se"
+    },
+    {
+      "id": "S7",
+      "url": "https://windowsforum.com/news/cisa-kev-cve-2026-21589-exploited-in-atlassian-data-center-patch-jira-confluence-and-bitbucket.448534",
+      "title": "CISA KEV: CVE-2026-21589 Exploited in Atlassian Data Center\u2014Patch Jira, Confluence and Bitbucket",
+      "content": "1. Shut down the node. 2. Locate and back up your Tomcat configuration file: For Confluence, Jira, JSM, and Bamboo: `conf/server.xml` For Crowd: Either `apache-tomcat/conf/Catalina/localhost/crowd.xml` or `apache-tomcat/conf/server.xml` (whichever file contains your application `<Context>` element). [...] ### \u200b For Bitbucket Data Center, apply this change across all cluster nodes, Bitbucket mirrors, and mirror farm nodes after backing up your instance: 1. Open `<installation-directory>/app/WEB-INF/urlrewrite.xml`. 2. Insert the following `<rule>` block at the very top of the file, before any existing `<rule>` entries: Code: ``` <rule> <from>(?is).(?:/|\\\\%(?:25)(?:2f|5c)|(?::|%(?:25)3a){2})(?:\\.|%(?:25)2e){2}(?:/|\\\\%(?:25)(?:2f|5c)|(?::|%(?:25)3a){2}|;|%(?:25)3b|$).</from> <set type=\"status\">404</set> <to>/mvc/error404</to> </rule> ``` 3. Restart Bitbucket Data Center. [...] | Product | Affected Versions | Fixed Versions (Upgrade Target) | Related Jira Ticket | --- --- | | Bitbucket Data Center | All versions prior to fix | `9.4.26`, `10.2.8`, `10.5.1` | BSERV-20604 | | Confluence Data Center | All versions prior to fix | `9.2.26`, `10.2.19` | CONFSERVER-104488 | | Jira Service Management Data Center | All versions prior to fix | `5.12.40`, `10.3.26`, `11.3.12` | JSDSERVER-16809 | | Jira Software Data Center | All versions prior to fix | `9.12.40`, `10.3.26`, `11.3.12` | JRASERVER-79546 | | Bamboo Data Center | All versions prior to fix | `10.2.24`, `12.1.12` | BAM-26567 | | Crowd Data Center | All versions prior to fix | `6.3.7`, `7.0.3`, `7.1.7`, `7.2.4` | CWD-6610 | | Crucible | All versions prior to fix | `4.9.15` | CRUC-8741 |",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Thu, 15 Oc"
+    },
+    {
+      "id": "S8",
+      "url": "https://cxtoday.com/opsgenie-end-of-life-the-six-month-countdown-has-started",
+      "title": "Opsgenie end of life: PagerDuty, incident.io, JSM \u2014 CX Today",
+      "content": "CX Today # Opsgenie End of Life: The Six-Month Countdown Has Started Opsgenie shuts down in April 2027, so customers can\u2019t put off the replacement decision much longer. PagerDuty, incident.io and Jira Service Management are all making their pitch, but this isn\u2019t only about where the next alert goes, it's about how to survive long-term. Opsgenie end of life On September 18, Atlassian published the kind of postmortem that makes the Opsgenie end-of-life deadline feel a lot more daunting. [...] ## FAQs ### When does Opsgenie shut down? The end of life date is April 5, 2027, when the standalone product becomes inaccessible. New sales have already stopped, which means your remaining window is for migration, validation and checking that critical data or workflows haven\u2019t been stranded. ### What happens to Opsgenie data after April 2027? Anything that hasn\u2019t been moved out of Opsgenie will be deleted once access ends. Customers should also check JSM retention limits after the migration, particularly if older incident records matter for compliance, investigations, reporting, or AI analysis. ### Is Jira Service Management replacing Opsgenie? [...] On September 14, Opsgenie, Jira Service Management, and Compass hit a disruption that left affected customers waiting an average of 22 minutes for alerts to be created and notifications delivered. Nothing was ultimately dropped. That sounds reassuring until you picture what 22 minutes means during a payment failure, contact center outage, or broken customer login. Atlassian traced it to long-running transactions after a configuration change, with heavier US traffic exhausting a core service's thread pool. Automated monitoring caught the problem within a minute, yet alert and notification delivery still averaged a 22-minute delay.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Wed, 07 Oc"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.atlassian.com/blog/company-news/farewell-to-server",
+      "title": "Farewell Server, Hello Cloud - Inside Atlassian",
+      "content": "What happens to your Server instances after Feb 15, 2024? Your products won\u2019t be eligible for renewal or receive updates, enhancements, or security patches. Over time, this may lead to performance and compatibility issues with evolving technologies, posing security and operational risks for your organization. Act now to mitigate these concerns. Which products does Server end of support apply to? Jira Software Server Jira Core Server Jira Service Management Server Confluence Server Bitbucket Server Crowd Server Bamboo Server Atlassian-built Server apps What to do next To remain supported, we recommend migrating to Cloud or upgrading to Data Center. Visit the Atlassian Migration Program to explore your options and learn how to take the next step. [...] Did you purchase a dual license? Here\u2019s what you can expect. If you purchased a Cloud subscription for more than 1,000 users of Jira Software & Confluence or more than 250 agents of Jira Service Management between September 12, 2023 and February 15, 2024 qualifying you for dual licensing, you\u2019re eligible for extended Server support for up to 12 months. If you have a dual license, make sure to update your preferences here in order to receive email updates for security patches, bug fixes, and tech alerts. Have questions? Get in touch: Your advocate is ready to help. ## Unable to make the move? Upgrade to Data Center [...] ## Unable to make the move? Upgrade to Data Center For those unable to move to Cloud for now, we encourage you to upgrade to Data Center to stay supported and receive dozens of additional enterprise-grade features not available on Server, such as advanced auditing, rate limiting, and rolling and zero-downtime upgrades. In addition to these, we\u2019ve continued to introduce more functionality in our Data Center products in the areas of performance and scale, security & compliance, and infrastructure and operations to increase productivity across admins and end-users. Just last year, we released the latest LTS (long-term support) releases for Jira Software and Jira Service Management, Confluence, and Bitbucket.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Thu, 15 Fe"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.ghacks.net/2022/06/09/githubs-atom-text-editor-will-be-retired-in-december",
+      "title": "Atom Editor discontinued in December 2022: Github announcement - gHacks Tech News",
+      "content": "## Why is Atom being shut down? The announcement article that was published on GitHub's blog says that Atom's development had stagnated over the years, without new features being added to it. The open source project received maintenance and security updates over the years, but claims that the community's involvement in Atom declined as new cloud-based tools emerged. The company wants to focus its efforts on improving its own cloud-based solution for developers, GitHub Codespaces. That is the official reason given by GitHub as to why Atom text editor is being discontinued. [...] ghacks.net # Atom Editor discontinued in December 2022: Github announcement GitHub's Atom text editor will be retired in December Ashwin Karthik Updated \u2022 Mar 6, 2026 GitHub Atom (commonly known simply as Atom) was a free open-source, and highly customizable text and source-code editor developed by GitHub. It was popular among developers for its flexibility and deep Git and GitHub integration. However, GitHub officially discontinued Atom on December 15, 2022, and it no longer receives updates or official support. GitHub archived all associated repositories and stopped all development and support for the project on that date. [...] Atom emerged as a promising tool for code developers, and laid the foundation for the Electron framework (formerly Atom Shell). Microsoft attributes the rise of Visual Studio Code to it. The text editor was popular amongst the developer community for its customizable interface and functionality, as well as its built-in support for Git and GitHub. ## Why is Atom being shut down?",
+      "dimension": "status",
+      "query": "GitHub Issues discontinued or shut down",
+      "published": "Thu, 09 Ju"
+    },
+    {
+      "id": "S11",
+      "url": "https://github.com/watzon/pindrop",
+      "title": "GitHub - watzon/pindrop: Discontinued. Replaced by Sayso (https://justsayso.app). A native macOS menu bar dictation app using local speech-to-text with WhisperKit \u00b7 GitHub",
+      "content": "| Name | Name | Last commit message | Last commit date | --- --- | | .github | .github | | | | .opencode/workflows | .opencode/workflows | | | | Localization | Localization | | | | Pindrop.xcodeproj | Pindrop.xcodeproj | | | | Pindrop | Pindrop | | | | PindropTests | PindropTests | | | | PindropUITests | PindropUITests | | | | assets | assets | | | | bin | bin | | | | docs | docs | | | | release-notes | release-notes | | | | scripts | scripts | | | | .gitignore | .gitignore | | | | AGENTS.md | AGENTS.md | | | | BUILD.md | BUILD.md | | | | CLAUDE.md | CLAUDE.md | | | | CONTRIBUTING.md | CONTRIBUTING.md | | | | LICENSE | LICENSE | | | | README.md | README.md | | | | RELEASING.md | RELEASING.md | | | | justfile | justfile | | | | | [...] Skip to content ## Navigation Menu Sign in Appearance settings Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} This repository was archived by the owner on Oct 4, 2026. It is now read-only. ## Repository navigation watzon pindrop Public archive NotificationsYou must be signed in to change notification settings Fork52 (52) Star626 (626)You must be signed in to star a repository ## About Discontinued. Replaced by Sayso (). A native macOS menu bar dictation app using local speech-to-text with WhisperKit pindropstt.com [...] Global hotkeys: toggle mode, push-to-talk, and a dedicated cancel shortcut.",
+      "dimension": "status",
+      "query": "GitHub Issues discontinued or shut down",
+      "published": "Sun, 04 Oc"
+    },
+    {
+      "id": "S12",
+      "url": "https://twistedvoxel.com/nintendo-has-shut-down-switch-emulator-eden",
+      "title": "Nintendo Has Shut Down Repository Of Switch Emulator Eden",
+      "content": "GamingNews # Nintendo Has Shut Down Repository Of Switch Emulator Eden by Muhammad Ali Bari by Muhammad Ali Bari 568 Continuing its spree of shutting down Switch emulators, Nintendo has now disabled the GitHub repository of the Eden emulator. The developers behind the Nintendo Switch emulator Eden have announced that the project\u2019s GitHub repository has been taken offline following a DMCA complaint from Nintendo. The news was shared by crueter (via MrSujano on Twitter/X), a member of the development team, in a message posted to the project\u2019s community Discord server, where they criticized the handling of the situation by both GitHub and its parent company Microsoft. Switch emulator eden [...] Switch emulator eden According to the developer, the repository previously used to distribute official Eden builds has been disabled after a DMCA notice filed by Nintendo earlier this year. The takedown affects the GitHub \u201cReleases\u201d section that had served as the primary distribution point for the emulator\u2019s compiled builds. In the Discord post, crueter stated that the Eden team had submitted legal countermeasures in response to Nintendo\u2019s DMCA complaint. However, they claim that GitHub proceeded with disabling the repository without acknowledging those countermeasures. The developer described the situation as an \u201cincredible display of unprofessionalism,\u201d arguing that the platform failed to properly address their response. [...] Despite the removal of the GitHub repository, the Eden team says the project itself is not shutting down. The emulator\u2019s source code and release builds have been moved to an independent hosting platform controlled by the developers. Going forward, this alternative site will act as the primary distribution hub for official releases of the emulator. They also noted that a temporary archive containing previous Eden releases is currently available for users while the project transitions away from GitHub. Notably, one of the most recent release candidates is not included in that archive.",
+      "dimension": "status",
+      "query": "GitHub Issues discontinued or shut down",
+      "published": "Fri, 06 Ma"
+    },
+    {
+      "id": "S13",
+      "url": "https://github.com/FishB0nes98/tekken-rivals-releases",
+      "title": "GitHub - FishB0nes98/tekken-rivals-releases: Discontinued project. Downloads and updates are no longer available. \u00b7 GitHub",
+      "content": "### Resources Readme Activity ### Stars 7 stars ### Watchers 0 watching ### Forks 0 forks Report repository You can\u2019t perform that action at this time. [...] Skip to content ## Navigation Menu Sign in Appearance settings Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert {{ message }} This repository was archived by the owner on Oct 17, 2026. It is now read-only. ## Repository navigation FishB0nes98 tekken-rivals-releases Public archive NotificationsYou must be signed in to change notification settings Fork0 (0) Star7 (7)You must be signed in to star a repository ## About Discontinued project. Downloads and updates are no longer available. ### Resources Readme Activity ### Stars 7 stars [...] ### Resources Readme Activity ### Stars 7 stars ### Watchers 0 watching ### Forks 0 forks Report repository BranchesTags Open more actions menu ## Latest commit ## History 4 Commits 4 Commits ## Folders and files | Name | Name | Last commit message | Last commit date | --- --- | | README.md | README.md | | | | | ## Repository files navigation # TEKKEN Rivals This project has been discontinued. Development and the planned original-disc installer have stopped. Downloads and updates are no longer available. The previous releases have been withdrawn. No replacement release is planned. Please keep any personal save files you wish to retain. ## About Discontinued project. Downloads and updates are no longer available. ### Resources Readme Activity ### Stars",
+      "dimension": "status",
+      "query": "GitHub Issues discontinued or shut down",
+      "published": "Sat, 17 Oc"
+    },
+    {
+      "id": "S14",
+      "url": "https://insider-gaming.com/sp-tarkov-shutting-down-legal-action-battlestate-games",
+      "title": "SP Tarkov Shutting Down Following Legal Action From Battlestate Games (Updated) - Insider Gaming",
+      "content": "> > On the day the Forge is shut down, the GitHub Org will be renamed and archived, to remove all direct references to the Tarkov name or other trademarked words. Due to sensitive internal information, the GitHub Org will not be passed on directly. The code can still be forked from the archived repos. > > The fate of the Discord is still being discussed internally. > > This is the end of the SPT Project under the current team, and in its current form. However, all of the source code will remain available if a future team wishes to continue from where we left off. >",
+      "dimension": "status",
+      "query": "GitHub Issues discontinued or shut down",
+      "published": "Tue, 04 Au"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.jagranjosh.com/general-knowledge/samsung-discontinuing-quick-measure-app-2026-1820012081-1",
+      "title": "Why is Samsung Discontinuing Quick Measure for Galaxy Phones by 2026?",
+      "content": "Samsung has announced it will shut down its Quick Measure utility alongside AR Doodle on December 31, 2026. The camera tool will be removed",
+      "dimension": "status",
+      "query": "Height discontinued or shut down",
+      "published": "Fri, 18 Se"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.app.com/story/news/2026/04/06/samsung-messages-being-discontinued-samsung-messages-going-away-samsung-phone-messages-shutting-down/89483883007",
+      "title": "Samsung messages shutting down. Here's what you need to know right now",
+      "content": "Many Samsung Galaxy users are receiving \u2014 or will receive \u2014 in-app prompts inside Samsung Messages telling them the app is ending. Verizon had previously issued a notice they were no longer supporting RCS support (\"Advanced Messaging\") \u2014 but Verizon users can still use Samsung Messages. Carriers like AT&T and T-Mobile, plus Boost and Mint Mobile services, have not issued any widespread notices. Here's what you need to know now. ## Is Samsung Messages being discontinued? Yes. Samsung Messages is being discontinued with Samsung transitioning to Google Messages, Samsung said in an End of Service Announcement on their webpage. [...] # Is Samsung Messages being discontinued? Here's when and what we know Portrait of Lori Comstock Is Samsung Messages being discontinued? The rumors are true, Samsung phone users, with Samsung officially announcing it will end support of the Samsung Messages app, meaning Samsung Messages are going away for good. Not sure how to upgrade your Samsung phone with this latest Samsung news? Here's what you need to know about when Samsung Messages will be discontinued, what message app you need to upgrade or download on your Samsung Galaxy, and why Samsung messages are shutting down. [...] The Samsung Messages app will no longer be supported \u2014 meaning you won't be able to use the app on your Samsung phone anymore. The default messaging app will be Google Messages. ## When is Samsung Messages going away? Samsung Messages will be discontinued in July 2026, when the messaging app will no longer be functional on your Samsung phone. Samsung advises customers to check the Messages app for the exact cutoff date, which may vary slightly by device or region. ## Who is affected? Samsung phones affected include any Galaxy devices running Android 12 or newer. Not affected (for now) are devices running Android 11 or older, Samsung said. You may have already gotten a notice to switch app if you are running Samsung Messages.",
+      "dimension": "status",
+      "query": "Height discontinued or shut down",
+      "published": "Mon, 06 Ap"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.heise.de/en/news/Notion-Mail-is-shutting-down-What-users-need-to-do-now-11345988.html",
+      "title": "Notion Mail is shutting down: What users need to do now | heise online",
+      "content": "(Image: Notion) Notion is shutting down its email client Notion Mail on September 22, 2026. The web, desktop, and iOS versions are affected. The company justifies the move by stating that it wants to manage emails more through agents than through a classic mail client in the future. Notion Mail is closely linked to the acquisition of the start-up Skiff in February 2024. Shortly thereafter, Notion discontinued the start-up's mail service and released Notion Mail as a Gmail client in April 2025. The product carried the Skiff DNA from the beginning, even though the focus has recently clearly been on Notion and AI automation. [...] heise Plus heise Plus Logo Hannover 96 ${title} ${title} ### ${intro} ${title} ${lead} ${title} ${title} ### ${intro} ${title} ${lead} ## heise+ Das Beste aus heise+ ## heise online Top-Beitr\u00e4ge von heise online ## heise online Most popular articles by heise online # Notion Mail is shutting down: What users need to do now Notion is discontinuing its email client Notion Mail on September 22, 2026. Users must back up certain data by then. Email client with folders, search bar, and email list Email client with folders, search bar, and email list (Image: Notion) [...] Notion writes on X that more than half of Notion Mail users now process their emails without even opening the inbox. This refers to Notion agents, i.e., automated assistants that can read emails, draft replies, send messages, or apply rules. Instead of manually sorting an email, an agent can automatically label it according to predefined rules, for example. ### What users need to save Despite the shutdown, the actual emails will remain in Gmail. According to the Help Center, Notion Mail synchronized messages bidirectionally with Gmail anyway. So, if you just want to keep your email history, you don't need to do anything else.",
+      "dimension": "status",
+      "query": "Height discontinued or shut down",
+      "published": "Fri, 26 Ju"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.nbcnews.com/business/consumer/spirit-airlines-shuts-down-rcna343155",
+      "title": "Spirit Airlines shuts down, crushed by price of Iran war jet fuel",
+      "content": "At its height of success in the mid-2010s, Spirit opened as many as 28 new routes in less than a year and the company was valued at as much as $6 billion. It attracted passengers with its \u201cbare fare\u201d offerings, where everything from drinks to overhead carry-on bags cost extra, while base airfare was kept to a minimum. And while it only carried a small slice of the flying public, Spirit\u2019s profitability was, at one point, among the top three of major U.S. airlines. Long the subject of takeover rumors in an industry known for them, Spirit attempted to sell itself to JetBlue in 2022 after it struggled to regain financial footing in the wake of the pandemic. Had that happened, it would have created the fifth-largest airline in the country. [...] \u201cThey\u2019re refunding the tickets, but the only tickets right now are $600,\u201d she said, adding that it looks unlikely she will make it to the wedding in time. \u201cI hope the best for those people who really needed that flight.\u201d Ricardo Tejedo, 72, found out about the closure as he arrived at the airport in Fort Lauderdale for his flight to the Dominican Republic. \u201cI came here not to vacation. I came here for medical reasons,\u201d he said. \u201cI cannot understand how they\u2019re going to go bankrupt and not make any arrangement for people to have a smooth return back home.\u201d On the website dedicated to its shutdown, the airline said passengers who were expecting to travel should not go to the airport, directing them to a page for refund status and next steps. [...] The troubled budget carrier canceled all flights and announced an \u201corderly wind-down\u201d of operations early Saturday. \u201cTo our Guests: all flights have been cancelled, and customer service is no longer available,\u201d the company said in a statement. Spirit, which has struggled to maintain consistent profitability since the Covid-19 pandemic, had been looking to emerge from its second bankruptcy in less than a year. But those plans were derailed amid soaring jet fuel costs sparked by the outbreak of the war with Iran. Spirit Airlines aircraft in Las Vegas last year. While it only ever carried a small slice of the flying public, Spirit's profitability was, at one point, among the top three of major U.S. airlines.Kevin Carter / Getty Images file",
+      "dimension": "status",
+      "query": "Height discontinued or shut down",
+      "published": "Sat, 02 Ma"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.tastingtable.com/2177282/legendary-midwest-beer-schlitz-discontinued",
+      "title": "A Legendary Midwest Beer Is Being Discontinued After 177 Years",
+      "content": "For most of the time that the United States has been a country, 177 of its now 250 years, the Milwaukee-based brewery Schlitz has been",
+      "dimension": "status",
+      "query": "Height discontinued or shut down",
+      "published": "Sat, 20 Ju"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.slashgear.com/1631130/major-airplanes-manufacturers-discontinued",
+      "title": "10 Major Airplanes That Were Discontinued By Manufacturers, And Why",
+      "content": "Tupolev Tu-154M landing Mikhalis Makarov/Shutterstock Russia's last commercial Tupolev Tu-154 was finally retired from service in 2020, almost half a century after the first one left the factory. Production of the jet began in 1972, just as the then-Soviet Union's domestic aviation industry was starting to rapidly expand. The Tu-154 formed a vital part of that expansion, and was a common sight in the country's skies all the way through to the 2000s. It remained in production until 2013, but by that time, Russia's airlines had already largely replaced the jet with more modern, fuel-efficient aircraft from Airbus and Boeing. [...] It was announced in 2019 that production of the A380 would end, since the demand simply wasn't there to keep the production line open. Most airlines instead favored the twin-jet A350, which could carry almost as many passengers but was notably cheaper to run. Thanks to their inherent inefficiency and limited versatility, many A380 aircraft were sent into retirement as the effects of the pandemic plunged many operators into losses. However, with the post-pandemic travel boom, many are now returning to service and are expected to remain in the skies for the next decade or more. ## Concorde Concorde 001 at launch Victor Drees/Getty Images [...] The 757's design also made it less practical to update, with more significant \u2013- and therefore costly \u2013- revisions needed for it to become as efficient as market-leading models. Boeing's original plan was to scale down production but keep order books open for the plane, but in the wake of 9/11, overall demand for new planes plummeted. Boeing had to make drastic cuts, and one of the first casualties was the 757, which closed for new orders in 2002 and ended production two years later. ## Gulfstream G550 Gulfstream G550 at takeoff Kevin Porter/Shutterstock",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Wed, 07 Au"
+    },
+    {
+      "id": "S21",
+      "url": "https://simpleflying.com/airbus-a318-first-model-retired-passenger-service",
+      "title": "Airbus A318 About To Become The 1st Model Fully Retired From Passenger Service",
+      "content": "| Airline | A318s Operated | First Delivery | Final Operation | Replacement | --- --- | Frontier Airlines | 11 | 2003 | 2013 | A319/A320 family | | Air France | 18 | 2003 | 2026 | A220-300 | | Mexicana | 10 | 2004 | 2010 | Airline ceased operations | | TAROM | 4 | 2006 | 2024 | Larger Boeing narrowbodies | | LAN Airlines | 15 | 2007 | 2013 | A319 | | British Airways | 2 | 2009 | 2020 | LCY\u2013JFK service discontinued | | Avianca | 10 | 2011 | 2019 | Larger A320-family aircraft | | Avianca Brasil | 15 | 2011 | 2019 | Airline ceased operations | | Titan Airways | 1 | 2017 | 2021 | No direct replacement |",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Fri, 14 Au"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.sun-sentinel.com/2026/05/02/spirit-airlines-out-of-business-cancels-flights",
+      "title": "Spirit Airlines shuts down operations and cancels all flights",
+      "content": "He had been out of the country in Haiti and arrived at a customer service desk Saturday in hopes of finding a bag he had checked with the airline months ago; it contained important legal documents. Informed the airline had shut down, he was shocked. \u201cLast night?\u201d Richard said incredulously. DQ Simpson, 55, walked through the terminal in one of his many button-down shirts adorned with Spirit planes, filming the scene on his cellphone. [...] \u201cIt takes you from a place of cold, brutal weather down to a nice sunny Florida,\u201d he said. \u201cSo that means a lot to me, being able to, in the middle of wintertime, just get up and go. And they had so many affordable options, that you can just jump on a plane.\u201d He was at the airport Saturday because he had a flight to Atlantic City to visit family. Now, he said, he has to take JetBlue. \u201cMy brand\u2019s going to have to be a legacy now,\u201d he said. Late Friday, Spirit passengers had wondered what types of alternate plans they could make. Gorgeous Jacobs, who lives in New Orleans, said she was returning home from a cruise. Her group\u2019s flight to New Orleans was scheduled for 10:30 p.m. Friday, and she encountered news about the pending shutdown while scrolling on Instagram. [...] A resident of Norfolk, Virginia, who goes by the Instagram handle @spiritshirtguy, Simpson would wear one of the shirts \u2014 or his Spirit Christmas sweater \u2014 every time he flew the airline, which was about 90% of the time. He has made the airline his brand since his first flight on one of their planes in 2008, flying to Florida 20 times a year, mostly for Miami Dolphins games. Just last week, he posted a video of himself touring the airline\u2019s Dania Beach headquarters. When Simpson heard about Spirit\u2019s demise, he said, \u201cI was in tears.\u201d",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Sat, 02 Ma"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.detroitnews.com/story/travel/2026/05/02/spirit-airlines-shutdown-refund-schedule-hotel-reimburse/89908112007",
+      "title": "Spirit Airlines shuts down. What to know about your flight",
+      "content": "# Spirit Airlines shuts down. What to know about your flight After two recent bankruptcies, countless punch lines and untold number of cheap flights, Spirit Airlines ceased operations early Saturday morning. All of the budget carrier\u2019s flights are canceled. The closure has left travelers scrambling across the country wondering: What happens to my flight in a few days? How do I get my money back? What about my points and flight credits? Spirit offered some answers on its website - and much of the news is bad for its customers. Here\u2019s what travelers should know. A Spirit Airline plane sits on the tarmac at LaGuardia Airport in Queens, in New York City, U.S., May 2, 2026. ## We've heard this before. Is Spirit really shutting down? [...] \u201cPlans for the loyalty program will be determined at a later date through the bankruptcy process,\u201d the airline said. [...] No. The airline said it would not be able to pay passengers back \u201cfor incidental travel costs associated with cancelled trips.\u201d Spirit said in a post on social media that customer service \u201cis no longer available.\u201d For those who bought travel insurance, Spirit suggests checking with the provider to see if those expenses are covered. Customers should also check their credit card policies; some may cover expenses related to trip disruption. ## What are other airlines doing to help affected passengers? Multiple airlines have agreed to offer measures meant to help Spirit customers and employees, especially those who are currently traveling and stuck without a way to get home.",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Thu, 21 Ma"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.aerotime.aero/articles/29634-top-10-challenges-when-identifying-aircraft",
+      "title": "Planespotting: Top 10 challenges when identifying aircraft - AeroTime",
+      "content": "The second is the Boeing 717, and its older siblings \u2013 the MD-80 and MD-90. All three are essentially the same aircraft, designed by McDonnel Douglas and rebranded by Boeing in the 1990s. While all are discontinued, hundreds of them remain operational, mostly in the United States, and fill roughly the same role as larger models of the CRJ. The 717, the MD-80 and the MD-90 do not have the Boeing beak \u2013 their noses are a quite stubby, which distinguishes them from the CRJ. And lastly, there is the COMAC ARJ21. While it is unlikely to appear in the West, in Asia it poses a serious threat to Embraer and Bombardier \u2013 and is China\u2019s first attempt at mass-producing a modern airliner. Sometimes accused of being a copy of the MD-90, it has the stubby nose and oval windows. [...] Bombardier CRJ Embraer ERJ Boeing 717 spotting guide Image: Mark Harkin / AEMoreira042281/ redlegsfan21 ## 6. Going bigger: Airbus A300, A310 and 330 Airbus is a conglomerate of European aircraft manufacturers that banded together in the 1960s in an attempt to withstand the competition of American companies. Its first creation, the Airbus A300, was nothing short of revolutionary. The jet bridged the gap between intercontinental wide-body airliners and smaller intracontinental aircraft. Through the years, the A300 mutated into the A310 and A330, three models that are very much interrelated and remain popular to this day. While the A300 and the A310 were discontinued in favor of the A330, the older models can still be found across the globe.",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Tue, 07 De"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.jetbrains.com/help/teamcity/upgrade-notes.html",
+      "title": "Upgrade Notes | TeamCity On-Premises Documentation",
+      "content": "Linux and macOS agents no longer seek for a x86 version of Java if the `TEAMCITY_JRE` environment variable or `/jre` directory store a suitable Java version. The migration date for Java 21 is now finalized: starting with version 2026.1, TeamCity servers and agents will not be able to start under Java versions older than 21. TeamCity no longer tracks file changes in the `DataDirectory``/config/projects/_Root/plugins/metarunners` folder. This means you can no longer update existing and create new Recipes by editing their configuration files directly in the file system. See the TW-97816 YouTrack ticket for more information and a suggested workaround. [...] If you face the \"Invalid or corrupt jarfile /data/build/teamcity/buildAgent/plugins/environment-fetcher...\" error reported by the bundled Node.js or legacy TeamCity.Node plugins, download the updated Process Environment Fetcher plugin from this YouTrack issue: TW-87170. Build agents can unregister due to inactivity after the server restarts. See this issue for more information: TW-87156. [...] ### Upcoming DupFinder Runner Deprecation Starting with the next TeamCity version, the Duplicates Finder (ReSharper) runner will be unable to operate since it relies on a tool that is no longer shipped with ReSharper Command Line Tools. See the corresponding server health report for more information. ### Known Issues Builds that pull TFS repositories fail with the `java.lang.NoClassDefFoundError` message if the checkout mode is \"Always checkout files on agent\". See this YouTrack issue for more information: TW-82824. ## Changes from 2023.05 to 2023.05.1 ### Publishing Artifacts of Batch Builds in Parent Configuration Builds",
+      "dimension": "status",
+      "query": "YouTrack discontinued or shut down",
+      "published": "Tue, 08 Se"
+    },
+    {
+      "id": "S26",
+      "url": "https://crumble.me/guides/beer-tracking-apps",
+      "title": "7 Best Beer Tracking Apps in 2026 (Untappd & More)",
+      "content": "Trade-offs: its mobile app history is patchy \u2014 the original app was discontinued years ago, and the site is the reliable way in \u2014 so as a phone-first tracking tool it lags everything above. Treat it as the place to research a beer deeply, paired with a faster app for day-to-day logging. What happened to RateBeer? Anheuser-Busch InBev, its owner since 2016, shut RateBeer down on February 1, 2025. If you had ratings there and didn't export them before the deadline, they're gone \u2014 a good argument for keeping your beer history somewhere you can always export from. ## 6. BreweryDB \u2014 best for planning brewery visits [...] This guide compares the beer tracking apps that are actually alive and maintained in 2026 \u2014 what each does best, where it falls short, and who should pick it. One famous name is missing for a reason: RateBeer shut down in February 2025, and we cover what to use instead. Full disclosure: Crumble (this site) makes one of the apps on this list. To keep the comparison honest, Untappd goes first \u2014 it's the default for good reasons \u2014 and every competitor description is based on that app's own published features, not our opinion of it. Where another app is the better choice for you, we say so. ## The picks at a glance [...] The RateBeer shutdown proved the case for it: a plain spreadsheet with columns for beer, brewery, style, date, score, and a one-line note can't be acquired, redesigned, or turned off. Plenty of serious tasters keep one. Trade-offs: everything is manual \u2014 no label lookup, no map, no friends layer \u2014 and in practice the sheet stops getting filled in by February. If you go this route, our guide on how to track beer covers what's actually worth writing down so the habit sticks. ## How to choose",
+      "dimension": "status",
+      "query": "YouTrack discontinued or shut down",
+      "published": "Fri, 25 Se"
+    },
+    {
+      "id": "S27",
+      "url": "https://help.getskimmer.com/article/149-skimmer-release-notes",
+      "title": "Skimmer Release Notes - Pool Software Videos & Tutorials | Skimmer",
+      "content": "Discontinued products: Skimmer now lets you mark products as discontinued. Discontinued products stay visible on your Products page so your records stay complete, but Skimmer automatically hides them from quotes, work orders, shopping lists, and service stops, so techs can't select them by mistake. You can filter your product list to show active products, discontinued products, or both. Office alerts and issues: Two new features work together to keep your office in the loop when something happens in the field. + Issues give techs a structured way to flag problems at a service location, things like low water, a system down, or a repair needed, right from the field. [...] + Date and time stamp on service photos: Skimmer now prints the date and time directly on every photo taken through the mobile app. The timestamp reflects the device's local time, even if it was taken offline and synced later. The timestamp appears in the top-left corner of the photo and is visible wherever the photo is displayed, including in emails and forwarded images. + Additional image types now viewable in the app: The mobile app can now display WebP, GIF, and BMP image files. + Product screen updates: Skimmer added the following fields to product screens so that the mobile app more closely mirrors the web app: Cost, markup type, markup value, default price, manufacturer ID, Heritage ID, discontinued product.",
+      "dimension": "status",
+      "query": "YouTrack discontinued or shut down",
+      "published": "Tue, 06 Oc"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.spendflo.com/blog/linear-pricing-guide",
+      "title": "Linear Pricing: A Comprehensive Guide",
+      "content": "\u200d ###### Frequently Asked Questions About Linear Pricing \u200d1. What is the cost of Linear pricing plans? \u200d Linear pricing plans range from $5000 to $70,000 based on your needs. \u200d 2. Does Linear offer a free version? \u200d Yes, Linear does offer a free version for organizations with up to two teams and fewer needs. \u200d 3. What factors affect the pricing of the Linear platform? \u200d Things like the number of teams, necessary features, and size of the organization can affect the pricing of the Linear platform. \u200d 4. Will I get a discount on the Linear pricing plan with annual billing? \u200d Yes, you will get a 20% discount with annual billing on select plans in the Linear platform. \u200d 5. Does Linear offer a pricing plan for smaller organizations? \u200d [...] ###### How Much Does Linear Cost? Linear comes with different pricing plans that can range from anywhere between $5000 to $70000. This offers a greater deal of flexibility in terms of evaluating your team\u2019s unique needs and requirements and picking a plan that best caters to those needs. If your organization is working with up to two teams, you can use the free version of the platform, and meet most of your needs. However, if your organization has more needs, there is the option of using the Basic plan. This plan will cost you $8 monthly in exchange for allowing you to raise unlimited issues and upload as many files as needed. \u200d [...] \u200d Leverage the Free Plan: As you know, Linear provides users with a free plan where they can work with up to two teams. If you are a small organization with one or two teams and 250 issues are enough for you, then you must leverage the free plan. \u200d Pay Annually: Another great way to get the most out of the Linear platform\u2019s pricing plan is to choose annual payment options. When you do that, you get a discount of 20% on different plans, which is a great way to save some money. \u200d Keep an Eye Out for Discounts: Platforms like Linear often offer impressive discounts based on different timings, like the end of the quarter. You must keep an eye out for these special discounts and strike the hammer while the iron is still hot to get better deals. \u200d",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S29",
+      "url": "https://www.usecarly.com/blog/linear-pricing",
+      "title": "Linear Pricing in 2026: What Every Plan Actually Costs",
+      "content": "Fast keyboard-driven Linear issue tracker surrounded by alternative project-management tool icons # Linear Pricing in 2026: What Every Plan Actually Costs LinearProject ManagementIssue TrackingDev Tools Linear (linear.app) keeps its pricing refreshingly short: one free plan, two paid tiers, and a custom Enterprise plan. As of July 2026, Basic runs $10 per user/month and Business runs $16 per user/month, both billed yearly, while the free plan is genuinely usable for small teams \u2014 unlimited members, but capped at 2 teams and 250 issues. Prices change, so confirm the current numbers on Linear\u2019s official pricing page before you commit; the figures below reflect what Linear advertised in mid-2026. ## Linear plans at a glance [...] ## Business \u2014 $16/user/month Business is where Linear puts most of what a scaling company asks for. On top of Basic, you get unlimited teams, private teams and guest access, Linear Insights (analytics and reporting), Linear Asks (turning Slack requests into tracked issues), Triage Intelligence, Code Intelligence, agent automations (in beta), an audit log, advanced team management, and native Zendesk and Intercom integrations. Two things worth flagging: guests and private teams \u2014 a common ask the moment you work with contractors or clients \u2014 are gated all the way up to this tier, and much of Linear\u2019s AI and reporting story lives here rather than lower down. Like Basic, the $16 rate is billed yearly. [...] Whichever tracker you land on, Carly, an AI executive assistant that integrates with Linear and starts at $35/month, can create and update issues from your inbox and calendar so the busywork around the board doesn\u2019t fall on you. ## FAQ How much does Linear cost per user? Basic is $10 per user/month and Business is $16 per user/month, both billed yearly. Enterprise is custom-quoted. The free plan is $0 for unlimited members. Does Linear have a free plan? Yes. It\u2019s free forever for unlimited members, capped at 2 teams, 250 issues, and 10MB file uploads. It\u2019s a full plan, not a time-limited trial.",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S30",
+      "url": "https://theintactone.com/2023/01/04/linear-and-non-linear-pricing",
+      "title": "Linear and Non-linear Pricing",
+      "content": "Pros and Cons of Linear Pricing Linear pricing is a type of pricing strategy where the price of a product or service is based on the quantity of units sold. This means that each unit sold has the same price, regardless of how many units are sold. linear pricing can be used to encourage customers to buy more products or services, as they know that they will get the same price per unit regardless of how many units they purchase.",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S31",
+      "url": "https://get-alfred.ai/blog/is-linear-worth-it",
+      "title": "Is Linear Worth It? Honest Review for Engineering Teams (2026) | alfred_",
+      "content": "## Pricing Breakdown Linear\u2019s current plans: Free: Unlimited members, up to 250 active issues. Core issue tracking, cycles, projects, and roadmaps included. Generous for evaluation and small teams. Basic: $10/user/month. Unlimited issues, guest access, advanced filtering, and integrations. Business: $16/user/month. Everything in Basic plus priority support, advanced analytics, SAML SSO, and SCIM provisioning. Enterprise: Custom pricing. Dedicated support, advanced security, and compliance features. For comparison (10-person engineering team, annual):",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S32",
+      "url": "https://www.vendr.com/marketplace/linear",
+      "title": "Linear Software Pricing & Plans 2026: See Your Cost",
+      "content": "Whether you're evaluating Linear for the first time or preparing for renewal, this guide is designed to help you budget accurately and negotiate with clearer market context. # How much does Linear cost in 2026? Linear's pricing is structured around three paid tiers\u2014Standard, Plus, and Enterprise\u2014plus a Free plan for small teams. Costs scale with the number of users (seats) and the features required. Linear bills monthly or annually, with annual commitments typically offering a discount compared to month-to-month billing. Core pricing components: [...] # Introduction Linear is a project management and issue tracking platform designed for software development teams. Built for speed and simplicity, Linear offers a streamlined alternative to traditional project management tools, with features including issue tracking, sprint planning, roadmaps, and integrations with development workflows. Pricing is based on the number of users and the plan tier selected, with options ranging from free plans for small teams to enterprise packages with advanced features and support. Evaluating Linear or planning a purchase? [...] # How do you negotiate Linear pricing? Linear pricing is negotiable, particularly for annual commitments, larger seat counts, and competitive evaluations. These strategies are based on anonymized Linear deals in Vendr's dataset and reflect tactics that have produced favorable outcomes for buyers. ### 1. Engage early and anchor to budget Start conversations 60\u201390 days before your target start date or renewal. Early engagement creates time for competitive evaluation and negotiation. Anchor to a budget constraint rather than accepting the first quote. Vendr data shows that buyers who frame pricing discussions around budget limitations often achieve better outcomes than those who negotiate from the vendor's initial offer. ### 2. Commit to annual or multi-year terms",
+      "dimension": "pricing",
+      "query": "Linear pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S33",
+      "url": "https://ones.com/blog/ones-solutions/jira-pricing-plans-2026-an-atlassian-plan-guide",
+      "title": "Jira Pricing Plans 2026: An Atlassian Plan Guide",
+      "content": "## Jira Pricing Plans in 2026: The Quick Overview Jira generally offers four main plans: Free, Standard, Premium, and Enterprise. Each tier adds capacity, administration, security, support, or scale controls. | Plan | Best suited to | Main consideration | --- | Free | Small teams testing Jira or managing simple projects | Limited users, storage, automation, and administration | | Standard | Growing teams running regular delivery work | More capacity and collaboration features at a per-user price | | Premium | Organizations needing scale, advanced planning, and stronger controls | Higher cost in exchange for enterprise-oriented capabilities | | Enterprise | Large organizations with complex governance and multiple teams | Custom commercial terms and organizational requirements | [...] Jira offers four main plans: Free, Standard, Premium, and Enterprise, each designed for different team sizes and needs. Costs are influenced by the number of active contributors, monthly vs. annual billing, and any additional Atlassian products. Build three budget scenarios (conservative, expected, growth) and calculate cost per active contributor for a realistic estimate. Avoid common mistakes like comparing only headline prices, paying for inactive accounts, or upgrading without a defined problem. Regularly review user access and map all product needs to prevent unexpected cost increases.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S34",
+      "url": "https://tech.co/project-management-software/jira-pricing",
+      "title": "Jira Pricing Guide: How Much Does the Provider Cost in 2026?",
+      "content": "Time tracking Unlimited projects AI insights Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users. Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users. There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available. In this guide, I\u2019ll take you through everything you need to know about Jira pricing, including plans, hidden fees, and potential competitors. In This Guide: [...] ### Key Takeaways Jira\u2019s Standard plan starts at $7.91 per user, per month, while its Premium plan goes up to $14.54 per user, per month, for up to 300 users. Choose annual billing to reduce the cost of the Standard plan to $6.52 per user, per month for a team of 300. Large enterprises that favor a self-hosting option should go for Jira Data Center, which starts at $51,000 per year and supports teams of 500 or more. Alternatives include Trello, which is great for budget-conscious teams, and monday work management, which is much easier to use. Jira has hidden costs in the form of paid add-ons from the Atlassian marketplace. ## How Much Does Jira Cost? Jira has four pricing plans \u2014 a free plan, Standard, Premium, and Enterprise. [...] 0 out of 0 | | | Price (monthly) The amount you'll pay per month, when paying on a rolling monthly basis with no 12-month commitment | Users | --- --- | | | | | | | Jira Free | Jira Standard | Jira Premium | Jira Enterprise | | Free | $7.91/user/month (300 users) | $14.54/user/month (300 users) | On request (and only billed annually) | | 10 maximum | 50,000 maximum | 50,000 maximum | 50,000 maximum | Find Project Management Software To Suit Your Business Compare Deals Here ## How Much Does Jira Cost if You Pay Annually? If you opt to annually, the price of your Standard and Premium plans will drop considerably.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S35",
+      "url": "https://thedigitalprojectmanager.com/tools/jira-pricing",
+      "title": "Jira Pricing Tiers & Costs",
+      "content": "## How Much Does Jira Cost? Jira\u2019s paid plans start at $7/user/month and go up to $12/user/month. A free version is available for small teams or individual users with up to 10 users. Additionally, there is a custom pricing tier for enterprise users, which includes advanced analytics, enhanced security features, and support for multiple instances. ## Jira Plans & Pricing Tiers Here's an overview of the available Jira plans: [...] ## Jira Pricing Vs. Competitors Jira is generally considered to be in the average to affordable range for project management software. It offers four user tiers: Free, Standard ($7/user/month), Premium ($12/user/month), and Enterprise (custom pricing). Each plan includes features such as various project views, automation capabilities, and extensive integrations. The Free plan offers basic features, while the Standard and Premium plans offer more advanced perks like user roles, permissions, and increased storage. Overall, Jira's pricing is competitive, especially for small to medium-sized teams, and it provides strong security safeguards across all plans. ### Comparison Chart: Jira vs. Alternatives [...] jira pricing screenshot Jira offers Free, Standard, Premium, and custom Enterprise plans for different needs. Let\u2019s break down the available Jira plans a bit further: ### Jira Free Plan This plan is most ideal for small teams or startups. The Free plan supports up to 10 users and includes unlimited projects, tasks, and forms, along with basic views and dashboards. It\u2019s best for teams needing simple project management tools without advanced features. However, it\u2019s limited to 2 GB of storage and offers community support only. Stay Ahead of What Deserves Your Attention Get timely perspective on the shifts, decisions, and trade-offs shaping your role, plus practical resources you can put to work.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S36",
+      "url": "https://ones.com/blog/jira-pricing-explained-why-you-should-consider-other-options",
+      "title": "Jira Pricing 2026: Plans, Hidden Costs & TCO Guide",
+      "content": "| Plan | Price | Users | Storage | Automation | SLA | --- --- --- | | Free | $0 | Up to 10 | 2 GB | 100 rules/month | None | | Standard | $7.91/user/mo | Up to 100,000 | 250 GB | 1,700 rules/month | None | | Premium | $14.54/user/mo | Unlimited | Unlimited | 1,000 rules/user/mo | 99.9% | | Enterprise | Custom | Unlimited | Unlimited | Unlimited | 99.95% | Monthly billing costs 7\u201310% more. Standard goes from $7.91 to $8.15, Premium from $14.54 to $15.25. The practical trigger point: once you exceed 10 users, you\u2019re forced onto a paid Jira pricing plan. For a 50-person team on Standard, that\u2019s roughly $4,750/year \u2014 before any add-ons. ## Jira Cloud Pricing Plans: The Full Breakdown [...] Log in Book a Demo Try for free Jira Alternative # Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives Scott, Andrew Scott, Andrew \u00b7 14 min read Try ONES for free ![Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives]( If you\u2019re considering Jira as your project management tool, you\u2019re not alone. Jira has long been a popular choice for software development teams, especially those working with Agile workflows. That said, pricing is still worth a closer look before you commit. Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page. [...] According to Atlassian\u2019s pricing tables, Jira Data Center currently starts at $51,000/year for up to 500 users. From February 17, 2026 PT, that tier will increase to $59,000/year. The 1,000-user tier will rise from $87,000 to $100,000/year, and the 2,000-user tier will rise from $158,000 to $182,000/year. Because Jira DC pricing uses fixed tiers, costs can jump quickly when your team crosses into the next user band. For example, moving from 500 to 501 users means moving into the 1,000-user tier. ### Data Center EOL: March 28, 2029 (What It Means for Your Budget?) Atlassian has announced end-of-life for Jira Data Center Server on March 28, 2029. After that date, no security patches, no bug fixes, no support.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S37",
+      "url": "https://almarise.com/en/jira-pricing",
+      "title": "The True Cost of Jira: Pricing Breakdown and Considerations - Almarise",
+      "content": "Jira Premium \u2013 here you can do (almost) everything. Advanced Roadmaps mechanism in Jira Software, resource management in Jira Service Management, unlimited disk space or global automation. The Premium plan also gives you the option to run an additional test instance (the so-called sandbox), to which you can automatically copy production data to test the planned changes. Jira Premium pricing ranges from $18.30 per user per month for the Software edition to $57.30 per agent per month for Jira Service Management (updated in October 2025).",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S38",
+      "url": "https://github.com/pricing",
+      "title": "Pricing \u00b7 Plans for every developer \u00b7 GitHub",
+      "content": "$4 per user/month $21 per user/month Issues Track bugs, enhancements, and other requests, prioritize work, and communicate with stakeholders as changes are proposed and merged. ### Uh oh! There was an error while loading. Please reload this page. Projects Visualize and manage issues and pull requests across tables, boards, and roadmaps with custom fields and views that you can arrange to suit your workflow. ### Uh oh! There was an error while loading. Please reload this page. Milestones Track progress on groups of issues or pull requests in a repository, and map groups to overall project goals. ### Uh oh! There was an error while loading. Please reload this page. Organization and team management [...] Unlimited Unlimited Unlimited Invite any GitHub member, or all GitHub members, to work with you on code in a public repository you control \u2013 including making changes and opening issues. ### Uh oh! There was an error while loading. Please reload this page. Unlimited Unlimited Unlimited Collaborators for private repositories Unlimited $4 per user/month $21 per user/month Invite any GitHub member, or all GitHub members, to work with you on code in a private repository you control \u2013 including making changes and opening issues. ### Uh oh! There was an error while loading. Please reload this page. Unlimited $4 per user/month $21 per user/month Issues [...] Learn more ### GitHub Codespaces Starting at $0.18 per hour of compute and $0.07 per GB of storage. Learn more Preview ### GitHub sandbox (public preview) Run Copilot agent workflows in isolated, resumable cloud environments. See pricing details ### Git Large File Storage $5 per month for 50 GB bandwidth and 50 GB of storage. Learn more Create a custom estimate with the pricing calculator. Compare all features Trustpilot office Netdata team American Airlines office SAP meeting Spotify studio Stripe office Ford car interior Nubank office \u201cGitHub is the world\u2019s mono repository, so sharing our open source there is natural.\u201d \u2014 Martin Andersen, VP of Engineering, Trustpilot Read the case study",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S39",
+      "url": "https://www.emergentsoftware.net/resources/insights/github-pricing-simply-explained",
+      "title": "GitHub Pricing Simply Explained",
+      "content": "## GitHub Pricing Plans Overview GitHub currently offers three main pricing tiers: Free, Team, and Enterprise. Each plan provides different levels of functionality and support, so it\u2019s important to understand what\u2019s included. ### Free Plan Cost: $0 USD per month Unlimited public and private repositories Automatic security and version updates 2,000 CI/CD minutes per month (free for public repositories) 500MB of Packages storage (free for public repositories) Access to Issues & Projects for project management Community support ### Team Plan Cost: $4 USD per user/month [...] ### Quick recommendation Start with the Free Plan while experimenting or for small teams. Upgrade to Team as collaboration and CI/CD needs grow. Move to Enterprise when you need enterprise-grade security, compliance, or centralized governance. ## FAQs #### 1. How much does GitHub cost? GitHub\u2019s pricing ranges from $0 for the Free Plan to $21 per user per month for the Enterprise Plan, with optional add-ons for advanced security, AI assistance, and cloud-based development environments. The Free Plan is ideal for individuals or small teams getting started with version control, offering unlimited repositories, basic CI/CD minutes, and essential collaboration tools. [...] The Team Plan, at $4 per user per month, introduces features like branch protection, required reviewers, and enhanced CI/CD capacity, making it a practical choice for growing teams that rely on consistent collaboration and automated testing. For larger organizations, the Enterprise Plan starts at $21 per user per month and includes enterprise-grade features such as SAML single sign-on, advanced auditing, and dedicated support. Custom pricing may apply depending on the scale and compliance requirements of your business. In short, GitHub\u2019s pricing is designed to scale with your organization \u2014 you pay only for the features and support level you actually need. #### 2. Is GitHub free or paid?",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S40",
+      "url": "https://www.spendflo.com/blog/github-pricing-guide",
+      "title": "GitHub Pricing: Plans, Features, and Best Deals",
+      "content": "March 23, 2025 ## GitHub Pricing: A Comprehensive Guide GitHub pricing ranges from $3,000 to $95,000 annually. Explore its collaboration tools, security features, and automation for developers and teams. \u200d GitHub enterprise is a code-sharing platform that facilitates collaboration between companies and developers. It allows multiple people to work on the same project and make changes to it as needed. For example, if a company wants to build a website and assigns the work to a developer team, GitHub provides a space where all team members can update, modify, and edit the code. \u200d [...] This way, the project does not rely on just one person to make changes. Instead, everyone can contribute according to the ongoing requirements. By enabling collaborative coding, GitHub enterprise helps streamline workflow and accelerate project development and delivery. The platform makes it easy to coordinate efforts even when people are working remotely. \u200d ###### How Much Does GitHub Cost? GitHub enterprise pricing ranges from $3,000 to $95,000 annually, depending on the plan and organization size. It offers a Free plan for individuals, while Team and Enterprise plans provide enhanced collaboration, security, and automation features. The Team plan starts at $4 per user/month, and larger businesses can opt for Enterprise plans for GitHub advanced security and GitHub support. \u200d [...] \u200d | Plan | Price | Features | --- | Free | $0 per month | Unlimited public/private repositories, 2,000 CI/CD minutes per month, community support, primary features | | Team | $4 per user/month | All Free features, plus 3,000 CI/CD minutes, protected branches, multiple reviewers, web support | | Enterprise | $21 per user/month | All Team features, 50,000 CI/CD minutes, SAML SSO, advanced security features, audit logs, premium support | \u200d",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S41",
+      "url": "https://docs.github.com/en/get-started/learning-about-github/faq-about-changes-to-githubs-plans",
+      "title": "FAQ about changes to GitHub's plans - GitHub Docs",
+      "content": "GitHub announced the following plans and pricing changes: GitHub Free for organizations is immediately available and includes private repositories for unlimited users All organizations previously using Team for Open Source now have GitHub Free GitHub Free for individual developers now includes unlimited collaborators Organizations and individuals using GitHub Free will receive GitHub Community Support GitHub Pro will now include 2GB of Packages storage and 10GB of data transfer GitHub Pro now has a reduced monthly price of $4 GitHub Team now has a reduced monthly price of $4 per user GitHub Team no longer has a required five-seat minimum GitHub Team includes 3,000 Actions minutes per month for private repositories ## How can I upgrade my plan?",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S42",
+      "url": "https://www.eesel.ai/blog/github-pricing",
+      "title": "A complete guide to GitHub pricing in 2026 | eesel AI",
+      "content": "Here\u2019s a quick side-by-side look at the three main plans. | Feature | Free Plan | Team Plan | Enterprise Plan | --- --- | | Price | $0 | $4/user/month | Starts at $21/user/month | | Private Repositories | Unlimited | Unlimited | Unlimited | | CI/CD Minutes | 2,000/month | 3,000/month | 50,000/month | | Package Storage | 500MB | 2GB | 50GB | | Protected Branches | Public repos only | Yes | Yes | | Required Reviewers | No | Yes | Yes | | SAML SSO | No | No | Yes | | Data residency | No | No | Yes (EU, Australia) | | Support | Community | Web-based | Web-based + optional Premium | ## Beyond the subscription: Understanding add-on costs [...] All posts Blog / Guides # GitHub pricing 2026: All enterprise plans compared Kurnia Kharisma Written by Kurnia Kharisma Katelin Teen Reviewed by Katelin Teen Last editedJune 24, 2026 Expert Verified A complete guide to GitHub pricing in 2026 Table of Contents What is GitHub? GitHub pricing plans + The Free plan + The Team plan ($4/user/month) + The Enterprise plan (starts at $21/user/month) + Plan comparison table Beyond the subscription: Understanding add-on costs + GitHub Copilot: The AI assistant add-on + GitHub Advanced Security: Now two separate add-ons + Usage-based costs: Actions, Packages, and Codespaces The hidden costs: What's not on the page? Making the right choice for your budget [...] ### The Enterprise plan (starts at $21/user/month) The Enterprise plan is GitHub's most comprehensive offering, built for large companies that have serious security, compliance, and admin requirements.",
+      "dimension": "pricing",
+      "query": "GitHub Issues pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S43",
+      "url": "https://www.techrepublic.com/article/height-app-review",
+      "title": "Height App Review: Features, Pricing, Pros & Cons",
+      "content": "## Height pricing: 4.4/5 | Pricing Plan | Cost/month (per user, billed monthly) | Cost/month (per user, billed annually) | --- | Free | free | free | | Team | $8.50 | $6.99 | | Business | $14.99 | $11.99 | | Enterprise | Custom quote | Custom quote | ### Free plan Height offers a generous free plan for small teams and startups. The free plan allows you to add unlimited team members and guests and create unlimited tasks and subtasks. Though this plan gives you the necessary tools to run a basic AI-charged project, it is limited in terms of customization. File storage for Height\u2019s free plan is limited to 50MB. ### Team plan [...] ### Team plan You can try this plan for free for 30 days, after which you will be required to choose either a month-to-month plan or an annual plan. The Height team plan is priced at $8.50 per member per month, billed monthly, or $6.99 per member per month, billed yearly. It is well suited for fast-growing teams managing multiple cross-functional workstreams. This plan bumps the file storage up from the 50MB you will get in the free plan to 100MB. Consider the business plan if you need more storage space, advanced project management features and priority support. ### Business plan [...] ### Business plan Height\u2019s business plan is designed to cater to the needs of diverse teams across an entire organization. Costing $14.99 per member per month when billed monthly or $11.99 per member per month when billed annually, the plan offers strong administrative and security capabilities. It also gives you access to priority support and up to 1GB of storage space for file uploads. ### Enterprise Height doesn\u2019t advertise its enterprise plan on its website. The company requires potential buyers to contact their sales team for custom quotes. The plan gives you up to 5GB of storage space and up to 2,500 monthly automation runs per member. ## Core Height features: 3.2/5 ### Code to task",
+      "dimension": "pricing",
+      "query": "Height pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S44",
+      "url": "https://www.g2.com/products/height/pricing",
+      "title": "Height Pricing 2026",
+      "content": "Height offers 4 pricing editions, starting at $0. Free plan \u2014 $0 Team plan \u2014 $6.99 / Per Year Business Plan \u2014 $11.99 / Per Year Enterprise plan. Per Year Rated",
+      "dimension": "pricing",
+      "query": "Height pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S45",
+      "url": "https://digijaws.com/reviews/height-pricing",
+      "title": "Height Pricing 2026: Every Plan and What It Really Costs",
+      "content": "DigiJaws Scan free # Height Pricing (2026): Every Plan and What It Really Costs Posted by Beau Thoutt \u00b7 Project Management, Tool Reviews Height pricing starts at $6.99/member/mo billed yearly (Team). Every figure on this page was checked against Height\u2019s own pricing page on 2026-09-18, and the date is on the page so you can judge how stale it is. Below: what each plan costs, what the step up actually buys you, and what the headline price leaves out. There is a free plan: yes \u2014 unlimited tasks, lists and AI features. Read the allowance rather than the label \u2014 what runs out first is usually what forces the upgrade. ## Height pricing at a glance Height pricing at a glance [...] ## Is Height worth the money? Our reviewers rated Height 4.0/5. All autonomous capabilities on every plan, including free. In a category where AI is routinely the premium upsell, Height charges the same for it at every level. The full assessment \u2014 what it does well, where it falls down and who should avoid it \u2014 is in our Height review. ## Frequently asked questions ### How much does Height cost? The entry paid plan is $6.99/member/mo billed yearly (Team). The full range runs from $0 on Free to $8.50/member/mo \u00b7 $6.99/member/mo yearly on Team. Figures were checked against Height\u2019s own pricing page on 2026-09-18. ### Does Height have a free plan? Yes \u2014 yes \u2014 unlimited tasks, lists and AI features. ### What does the headline Height price not include? [...] ## Height pricing at a glance Height pricing at a glance | Plan | Price | Per year | What it includes | | Free | $0 | \u2014 | \u2b50 Unlimited tasks \u00b7 unlimited lists \u00b7 all AI features included \u00b7 suitable for individuals and small teams | | Team | $8.50/member/mo \u00b7 $6.99/member/mo yearly | $83.88 | \u2b50 All autonomous capabilities, as on every plan \u00b7 team collaboration and shared workspaces | Verified against the vendor\u2019s pricing page on 2026-09-18. ## Monthly or annual The entry tier is quoted at two rates: $8.5 and $6.99 a month. The lower figure is the annual rate, so committing for a year saves $18.12 over twelve months \u2014 about 18% \u2014 and the monthly rate is what you pay for the flexibility to leave. ## What the headline price leaves out",
+      "dimension": "pricing",
+      "query": "Height pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S46",
+      "url": "https://magnifi.space/pricing/height",
+      "title": "Height Pricing \u2014 Shut Down September 2025 (What It Cost) | Magnifi",
+      "content": "## Heightplans and prices | Plan | Billed annually | Billed monthly | --- | Team (retired) Final published price before shutdown. | $6.99/seat/mo | $8.50/seat/mo | | Business (retired) Final published price before shutdown. | $11.99/seat/mo | $14.99/seat/mo | | Magnifi Free up to 5seats. No minimums, no seat blocks. | $2.50/seat/mo | $3.00/seat/mo | ## What it costs for your team Annual totals at the prices above, including seat minimums and seat blocks where the vendor uses them. 10 Annual billing where the vendor publishes it. Drag to match your team. Height Team (retired)$839/yr Final published price before shutdown. Height Business (retired)$1,439/yr Final published price before shutdown. Magnifi$300/yr $30 per seat per year, no minimums, no seat blocks [...] # What Heightcost \u2014 and where its users went. Heightshut down on September 24, 2025 Height announced its shutdown on 22 March 2025 and stopped operating on 24 September 2025. User data was deleted after that date. The company had raised $18.3M including a $14M Series A led by Redpoint. Height shut down on September 24, 2025 and is no longer available at any price. Before it closed, Height charged $6.99 per member per month billed annually. List prices read fromCreativerly on August 2, 2026. ## Heightplans and prices [...] ## When Heightis worth the money Never \u2014 the product no longer exists. This page is here because people still search for it after the shutdown and deserve a straight answer rather than a pricing table for a dead service. ## Heightpricing questions ### Is Height still available? No. Height shut down on 24 September 2025 after announcing the wind-down in March 2025, and user data was deleted after that date. ### How much did Height cost? Before the shutdown, Team was $6.99 per member per month billed annually ($8.50 monthly) and Business was $11.99 annually ($14.99 monthly). ### What should Height users move to?",
+      "dimension": "pricing",
+      "query": "Height pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S47",
+      "url": "https://www.heightsplatform.com/pricing",
+      "title": "Heights Platform - Pricing and Plans",
+      "content": "Skip to Content # Pricing and Plans Create unlimited content. No hard limits on number of students. Zero transaction fees on payments you collect. Billed monthlyBilled annually Save 20% with Annual Plans #### Challenge Get started and grow by creating challenges for your audience $2919/month HEIGHTS AI 1 Challenge Course Lesson Comments Unlimited Students Collect Payments with 0 Fees Unlimited Email to 1,000 Contacts Up to 100 Active Students Expert Email Support Unlimited Video Upload/Hosting Live Lessons Drag-&-drop lesson builder Coupons and Coupon Links Gamification Completion Certificates Learner Analytics Desktop/Tablet/Mobile Access Private Creator Community #### Basic [...] Private Creator Community #### Basic Launch your courses and community as a growing creator $4939/month HEIGHTS AI Unlimited Courses & Challenges Unlimited Community Channels Unlimited Students Collect Payments with 0 Fees Unlimited Email to 5,000 Contacts Up to 5,000 Active Students Expert Email Support Includes all \"Challenge\" features Create and Sell Digital Products Meeting Rooms & Chat Bundles and Hidden Products Create Student Projects Affiliate Program Product Sales Pages & Blog Custom Code All Integrations + Zapier #### Pro MOST POPULAR All you need to grow an online knowledge business $11999/month HEIGHTS AI Unlimited Courses & Challenges Unlimited Community Channels Unlimited Students [...] Unlimited Community Channels Unlimited Students Collect Payments with 0 Fees Unlimited Email to 10,000 Contacts Up to 10,000 Active Students Expert Email Support Includes all \"Basic\" features Weekly Personal Coaching Drag-&-Drop Web Page Builder Custom Domain Live Streaming Remove HEIGHTS Branding 2 Admin Users Free T-30 Launch Course #### Academy For the largest creators at scale and organizations $499399/month HEIGHTS AI Unlimited Courses & Challenges Unlimited Community Channels Unlimited Students Collect Payments with 0 Fees Unlimited Email to 100,000 Contacts Unlimited Active Students Expert Email Support Includes all \"Pro\" features 25 Admin Users Advanced Reporting Customizable Student Roles",
+      "dimension": "pricing",
+      "query": "Height pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S48",
+      "url": "https://tech-insider.org/linear-vs-jira-2026",
+      "title": "Linear vs Jira: Why 30% of Teams Switched [2026]",
+      "content": "Fireship, the YouTube channel known for concise and opinionated tech commentary, summed up the dynamic perfectly: \u201cJira is the tool everyone loves to hate but can\u2019t replace in large organizations. Linear is what happens when you start from scratch with modern UX principles.\u201d This captures the essential tension in the market. Jira\u2019s dominance comes from its comprehensiveness and enterprise features, while Linear\u2019s appeal comes from rethinking the fundamentals of how issue tracking should work. [...] Linear\u2019s Enterprise plan includes SSO via SAML, SCIM provisioning for automated user management, audit logs, and dedicated customer success management, and a 2026 head-to-head comparison of the two platforms confirms Linear Enterprise pricing remains custom-quoted rather than published, with SSO and SCIM still bundled as baseline inclusions rather than paid add-ons. These are the table-stakes features that enterprise procurement teams look for, and Linear covers them competently. However, Linear lacks some of the deeper enterprise features that large organizations have come to expect from Jira: granular permission schemes that control field-level visibility, custom security levels for issues, project-level role-based access control, and the ability to create organization-wide policies [...] The pattern is clear: Linear wins on speed, simplicity, and developer experience. Jira wins on breadth, enterprise readiness, and customization. Neither tool is objectively better; they serve different needs and organizational cultures. The right choice depends on which set of tradeoffs aligns with your team\u2019s priorities. ## The Leading Verdict: Linear vs Jira in 2026 After exhaustive analysis of pricing, performance, features, integrations, and real-world usage, we can offer a clear framework for the linear vs jira decision in 2026. There is no universal winner. Instead, the right choice depends on three key factors: your team size, your complexity needs, and your organizational culture.",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features",
+      "published": "Sat, 04 Ap"
+    },
+    {
+      "id": "S49",
+      "url": "https://www.augmentcode.com/tools/ai-sprint-planning-tools-jira-linear-github",
+      "title": "AI Sprint Planning Tools: Jira, Linear, GitHub & Beyond | Augment Code",
+      "content": "When I compared Linear's GitHub integration with Jira's key-based flow, Linear documented automatic issue linking from branches and PR status updates back to Linear issues. The Linear MCP server lets work move forward 'from any environment, code, design, or research, without breaking flow,' including Claude Code, ChatGPT Deep Research, and Figma. Linear includes core agent features across all plans. Compared with Linear's agent-first model, Jira's sprint automation depends more heavily on deployment type and Marketplace apps. Atlassian documents built-in auto-managed sprints for Jira Software Server/Data Center, and Marketplace apps provide similar automation for Jira Cloud. [...] Linear replaces discrete sprint ceremonies with Cycles and a continuous planning model. Its AI capabilities center on agents that create issues, auto-triage, and draft descriptions. Linear fits developer-first teams that value GitHub-native flow because its agent platform is available on all plans. Business adds Triage Intelligence, Code Intelligence beta, and CI/CD Releases integration. Linear says it is built for product teams and serves more than 33,000 product teams. [...] Talk to SalesSign in Try CosmosGet Started Back to Tools # AI Sprint Planning Tools: Jira, Linear, GitHub & Beyond Jul 5, 2026Last updated: Sep 16, 2026\u2022 Paula Hingel Choose an AI sprint planning tool based on where your team already tracks work. Jira's Rovo works best for Atlassian-native organizations, Linear fits developer-first teams that want GitHub-native flow, and ZenHub keeps sprint planning inside GitHub. ClickUp and Monday.com combine sprint planning with work management, while GitHub Copilot moves issues into code and pull requests. ## TL;DR",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features",
+      "published": "Sun, 05 Ju"
+    },
+    {
+      "id": "S50",
+      "url": "https://www.augmentcode.com/guides/ai-sprint-planning-with-agents",
+      "title": "AI Sprint Planning With Agents: A Practical 2026 Guide | Augment Code",
+      "content": "Atlassian documents assignable agents in Jira through the collaborate-with-AI-agents open beta and describes Rovo sprint goal generation in its cloud release notes. Linear describes agents as first-class users that can be assigned issues, added to teams, and mentioned in comments. GitHub Copilot's coding agent is assignable directly from Issues. Azure DevOps ships work-item routing to coding agents on its public features roadmap. SpotOn's VP of IT Ryan Boyd describes Jira agents as support for an agentic SDLC workflow. In that workflow, agents generate PRDs in Confluence, break them into epics and issues in Jira, and support developers as work moves into execution.",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features",
+      "published": "Mon, 20 Ju"
+    },
+    {
+      "id": "S51",
+      "url": "https://tech-insider.org/au/best-project-management-software-2026",
+      "title": "9 Best Project Management Tools in 2026 Ranked",
+      "content": "### Which tool is best for software development teams? Jira and Linear are the two standouts. Jira suits teams that want deep agile structure, sprint management and a large ecosystem of integrations. Linear suits teams that prize speed, a clean interface and modern AI features included at no extra cost. The choice comes down to whether you value rigour or pace. ### Do these prices include GST for Australian buyers? No. All prices quoted are the vendors\u2019 US-dollar figures. Australian buyers should expect currency conversion plus GST where it applies, which together can lift the effective cost by roughly a third above the listed USD amount. Always check the final AUD total at checkout before committing. ### Is it worth paying for AI features? [...] To make that concrete: a small team or solo operator wanting simplicity should start with Trello at $5 a seat with no minimum, and its free tier may carry you for months. Software and product teams choose between Jira\u2019s agile depth and Linear\u2019s speed. Cross-functional marketing and operations work suits Asana or Monday.com, with Asana ahead on portfolio depth. Agencies and client-heavy businesses lean on Basecamp\u2019s flat rate, spreadsheet-native and construction teams on Smartsheet, knowledge-led teams on Notion, and anyone consolidating five subscriptions into one on ClickUp, provided the AI add-on is budgeted honestly. [...] ## The verdict There is no single best project management tool in 2026, only the best fit for how your team works and what you are willing to spend. Trello and Linear represent opposite ends of simplicity and speed done well. Asana and Monday.com anchor the cross-functional middle. Jira owns engineering, Smartsheet owns spreadsheets, Notion owns connected knowledge, Wrike owns structured enterprise work, and Basecamp owns flat-rate sanity.",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features",
+      "published": "Sun, 07 Ju"
+    },
+    {
+      "id": "S52",
+      "url": "https://quasa.io/video/linear-review-the-ai-era-issue-tracker-that-teams-actually-love",
+      "title": "Linear Review: The AI-Era Issue Tracker That Teams Actually Love \u2014 Quasa",
+      "content": "It shines especially at accelerating shipping velocity, reducing meeting and tool noise, enabling human-AI collaboration, and making product development feel intuitive and delightful again. Downsides: The opinionated workflow requires a short adjustment period for Jira refugees; some advanced enterprise features live on higher-tier plans; and the platform\u2019s speed and simplicity mean it\u2019s best for teams that value focus over endless customization. Overall, for product and engineering teams in 2026 who want to ship faster with less friction, \\\\Linear is one of the most loved and effective tools in the entire software ecosystem\\\\. It\u2019s not just another issue tracker \u2014 it\u2019s the complete product development system that actually feels like the future. Earn QUA reward via Quasa too! [...] English\u0420\u0443\u0441\u0441\u043a\u0438\u0439\u0939\u093f\u0928\u094d\u0926\u0940Espa\u00f1olFran\u00e7ais\u7b80\u4f53\u4e2d\u6587\u0627\u0644\u0639\u0631\u0628\u064a\u0629Portugu\u00eas (Brasil)Bahasa Indonesia\u09ac\u09be\u0982\u09b2\u09be\u65e5\u672c\u8a9eDeutsch\u0627\u0631\u062f\u0648T\u00fcrk\u00e7eTi\u1ebfng Vi\u1ec7t\ud55c\uad6d\uc5b4Shqip\u0540\u0561\u0575\u0565\u0580\u0565\u0576\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0456\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438Hrvatski\u010ce\u0161tinaDanskNederlandsEestiFilipinoSuomi\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac\u05e2\u05d1\u05e8\u05d9\u05eaMagyar\u00cdslenskaItalianoLatvie\u0161uLietuvi\u0173\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438\u041c\u043e\u043d\u0433\u043e\u043bNorsk\u0641\u0627\u0631\u0633\u06ccPolskiRomn\u0103\u0421\u0440\u043f\u0441\u043a\u0438Sloven\u010dinaSloven\u0161\u010dinaSvenska\u0e44\u0e17\u0e22 Sign inMy cabinetSign in # Linear Review: The AI-Era Issue Tracker That Teams Actually Love #linear #Quasa #QUA Linear (featured on Quasa.io/projects/linear) is the product development system for teams and agents \u2014 a beautifully designed, lightning-fast platform that replaces slow, bloated tools like Jira and brings joy back to building software. [...] Purpose-built for the AI era, Linear combines elegant issue tracking with native AI workflows, roadmaps, cycles, and seamless collaboration between humans and autonomous agents. At its core, Linear turns messy conversations, customer feedback, and ideas into prioritized, actionable work \u2014 and ships it faster than ever.",
+      "dimension": "competitive",
+      "query": "Linear vs Jira features",
+      "published": "Thu, 18 Ju"
+    },
+    {
+      "id": "S53",
+      "url": "https://www.theregister.com/software/2026/03/26/linear-adopts-agentic-ai-as-ceo-declares-issue-tracking-dead/5227428",
+      "title": "Linear adopts agentic AI as CEO declares issue tracking dead",
+      "content": "The agent also supports skills and automations, which require a business ($16 per user/month) or enterprise plan. Skills are workflows saved for future use to automate common tasks. Automations are workflows triggered automatically when issues are created. Future features will include a coding agent to write code and fix bugs, as well as the ability to answer questions about a codebase and to present code diffs (changes made to a block of code). Pricing is unchanged during the beta, but the post suggests that automations and coding features will move to usage-based pricing \"beyond a certain threshold.\" [...] Saarinen said that \"issue tracking is dead,\" arguing that agents \"make software development a lot simpler\" as they do more of the procedural work. He said that coding agents are already installed in 75 percent of Linear enterprise workspaces, and that the volume of work done by agents has increased five times in the last three months. A diagram in his post shows Linear as a tool for capturing context while agents do most of the engineering work. Despite his post, issues will remain as the core items in Linear. In the company's Slack channel, customers were positive about the announcement, but asked for model context protocol (MCP) support. An employee responded that \"we're working on MCP support.\" [...] # Linear moves sideways to agentic AI as CEO declares issue tracking dead Agent will capture issues and eventually debug code The Linear cloudy issue tracker and project manager has introduced an AI agent and plans to add AI coding assistance, with CEO and co-founder Karri Saarinen declaring that \"issue tracking is dead.\" Now in beta, the Linear Agent works in the online, mobile, or desktop app, and as a plug-in for products including Slack, Teams, and Zendesk. It has a chat user interface and examples of usage are things like \"make issues based on the discussion here and assign them to me,\" according to the introductory post.",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features",
+      "published": "Thu, 26 Ma"
+    },
+    {
+      "id": "S54",
+      "url": "https://x.ai/news/grok-connectors",
+      "title": "Connectors in web, iOS, and Android | SpaceXAI",
+      "content": "Notion: Work directly in your Notion workspace. Search or edit pages, databases, and wikis across you and your team\u2019s docs. GitHub: Connect your repositories, issues, and pull requests. Grok can search code, summarize PRs, review changes, and help you stay on top of your development workflow. Linear: Connect your Linear workspace to bring tasks, issues, roadmaps, and projects directly into Grok. Grok can search through your backlog, summarize sprint progress, draft updates, and create new issues.",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features",
+      "published": "Wed, 06 Ma"
+    },
+    {
+      "id": "S55",
+      "url": "https://www.coursera.org/articles/project-management-tools",
+      "title": "8 Popular Project Management Tools and What They're Useful For | Coursera",
+      "content": "If you're looking for a project management tool specifically designed with developers in mind, Linear delivers exceptional performance and user experience. Built for speed and simplicity, Linear focuses on issue tracking, project planning, and team coordination without the bloat often found in traditional project management platforms. Its clean, keyboard-friendly interface and Git-like workflow make it particularly appealing to engineering teams who value efficiency and minimal friction in their daily workflows. Features include: [...] Features include: Customizable boards and views (Kanban, timeline, calendar, etc.) Workflow automations to reduce manual work Time tracking and workload management Integrations with popular tools like Slack, Google Drive, and Zoom Collaborative features like @mentions and file sharing ### 8. Linear Best for: Software development teams seeking a fast, streamlined project management experience",
+      "dimension": "competitive",
+      "query": "Linear vs GitHub Issues features",
+      "published": "Tue, 10 Fe"
+    },
+    {
+      "id": "S56",
+      "url": "https://medium.com/google-earth/improved-forest-carbon-estimation-with-alphaearth-foundations-and-airborne-lidar-data-af2d93e94c55",
+      "title": "Improved forest carbon estimation with AlphaEarth Foundations and Airborne LiDAR data | by Google Earth | Google Earth and Earth Engine | Medium",
+      "content": "One benefit of using a linear model is that they are quite simple to interpret. Predictors that have larger magnitude coefficients have more leverage over the prediction. In Figure 10, you can see we\u2019ve plotted the values of the 64 coefficients derived from the final ElasticNet model. The three embedding axes that had the greatest magnitude were: A29, A39, and A55. The spatial patterns in these features visually appear to be associated with variations in species composition and climatological gradients \u2014 this intuitively makes sense as that sort of information would be useful for producing height estimates. Press enter or click to view image in full size [...] We\u2019ll use an elastic net regression model\u2075, a regularized regression technique that shrinks coefficients of the model to prevent overfitting, to estimate forest height. This technique pairs well with embedding fields because the AlphaEarth Foundations model has already condensed and organized the complex structure of the input data. Given that the embeddings are highly information-dense, a simpler linear model often achieves excellent predictive power. [...] Overall, the embeddings-based regression model performs quite well! Maine is an especially difficult area to construct forest structure models: there is a huge range of variability over a relatively small geographic area, mixed species forests are common, there are a large number of species present, and the entire region has been subjected to four centuries of human management. When developing forest height models from Landsat, Sentinel-1, and Sentinel-2 for this region, we typically employ a large number of feature engineering and preprocessing techniques to, ultimately, obtain roughly the same performance as using the Satellite Embedding dataset directly!",
+      "dimension": "competitive",
+      "query": "Linear vs Height features",
+      "published": "Wed, 04 Fe"
+    },
+    {
+      "id": "S57",
+      "url": "https://www.nature.com/articles/s41598-026-59984-9",
+      "title": "A systematic evaluation of the reliability of feature selection methods and SHAP-based interpretability in machine learning models for arrhythmia analysis | Scientific Reports",
+      "content": "Fig. 4 Dataset I\u2014Distribution of height amongst the classes before (left), after (right) handling the outliers. Data cleaning: This involves identifying and addressing missing values, outliers, and inconsistencies within the dataset. This process may include imputing missing data or determining suitable strategies for managing them. The height feature contained two outliers in class 5, where the recorded heights of a 0-year-old and a 1-year-old were 780 cm and 608 cm, respectively. These values were replaced with the average height corresponding to their age group (Fig. 4). Features with a high proportion of missing values were removed (features 10\u201314 in the dataset). The heart rate column in class 7 contained a missing value, which was imputed using the class-wise average. [...] Inference time per sample remained low across all models, typically within the millisecond or sub-millisecond range. Linear models and decision trees achieved near-instantaneous inference, while ensemble methods exhibited slightly higher but still clinically feasible latency. Importantly, feature selection did not adversely impact inference efficiency and, in many cases, further reduced per-sample prediction time. For deployment scenarios, inference complexity remains particularly relevant, and the observed latency confirms that even ensemble-based configurations remain computationally tractable for real-time ECG decision support. [...] #### Dataset I\u2013UCI dataset In this study, the Arrhythmia dataset from UCI ML Repository is used. The dataset contains 452 instances of multivariate characteristics and associated with a classification task. The features are linear valued and nominal (Fig. 3). Classes considered in this study are Normal, Ischemic Changes, Sinus Bradycardy, RBBB. There are a total of 279 attributes (206 are linear valued and the remaining 73 are nominal)46. \"). Experiments were conducted for binary classification. Class selection was based on the availability of a considerable number of samples, and the experiments were performed on the following four subsets derived from the dataset: Experiment 1: Normal vs. Ischemic Changes",
+      "dimension": "competitive",
+      "query": "Linear vs Height features",
+      "published": "Mon, 06 Ju"
+    },
+    {
+      "id": "S58",
+      "url": "https://www.nature.com/articles/s41593-026-02262-8",
+      "title": "Cheese3D enables sensitive detection and analysis of whole-face movement in mice | Nature Neuroscience",
+      "content": "Linear sliding window, which uses the sliding window facial features as input and current EEG frequency band power as target; Linear autoregressive, which uses the sliding window facial features and autoregressive window of the EEG frequency band power as input and the current EEG frequency band power as target; Linear vector autoregressive, which uses the sliding window facial features and autoregressive window of the EEG frequency band power as input and the current facial features and the EEG frequency band power as target; [...] For Fig. 3h,i and Extended Data Fig. 7, we trained models to predict each EEG frequency band power, using the three facial features of left ear angle, left eye height and nose bulge. All models are trained as a linear fit from facial features and past EEG frequency band power signal to current EEG frequency band power (and facial features) signal. To remain agnostic to the necessary features required for prediction, we trained several model classes where differences consist solely of variations on the features passed in and targets predicted out. These are illustrated in detail in Fig. 3h and Extended Data Fig. 7a, but we describe them in brief here. Input facial features consist of the three features during a sliding window of the past 1 min. Input autoregressive EEG features consist of [...] powers from ear angle, eye height, and nose bulge volume using a linear model with time as a latent variable. (d)Variance explained in each EEG frequency band power (unsmoothed) using all linear models in (a) of ear angle, eye height, and nose bulge volume during held-out recordings; linear (SW), theta: 14.94 \u00b1 8.00%; linear (SW), delta: 4.64 \u00b1 6.57%; linear (SW), sub-delta: 1.46 \u00b1 2.76%; linear (AR), theta: 14.94 \u00b1 8.00%; linear (AR), delta: 4.64 \u00b1 6.57%; linear (AR), sub-delta: 1.46 \u00b1 2.76%; linear (VAR), theta: 20.07 \u00b1 8.96%; linear (VAR), delta: 9.30 \u00b1 8.84%; linear (VAR), sub-delta: 7.67 \u00b1 10.99%; time-latent (AR), theta: 23.85 \u00b1 7.65%; time-latent (AR), delta: 11.92 \u00b1 9.72%; time-latent (AR), sub-delta: 11.77 \u00b1 13.38%; n = 6 mice, 29 total sessions.",
+      "dimension": "competitive",
+      "query": "Linear vs Height features",
+      "published": "Mon, 01 Ju"
+    },
+    {
+      "id": "S59",
+      "url": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/linear-and-nonlinear-interactions-between-stationary-crossflow-instabilities-and-a-smooth-surface-hump/2FBE664448A0C9F52376D1351C0FD356",
+      "title": "Linear and nonlinear interactions between stationary cross-flow instabilities and a smooth surface hump",
+      "content": "Smooth surface features were recently found to stabilise stationary cross-flow instability (CFI) of swept-wing boundary layers, thus holding potential for",
+      "dimension": "competitive",
+      "query": "Linear vs Height features",
+      "published": "Wed, 21 Ja"
+    },
+    {
+      "id": "S60",
+      "url": "https://www.nature.com/articles/s41598-026-42333-1",
+      "title": "Haptic perception of 2.5D surface feature height - Scientific Reports",
+      "content": "The present study investigates the human haptic perception of 2.5D dome-shaped surface features in terms of difference and absolute thresholds.",
+      "dimension": "competitive",
+      "query": "Linear vs Height features",
+      "published": "Sun, 22 Ma"
+    },
+    {
+      "id": "S61",
+      "url": "https://www.stocktitan.net/news/MXL/max-linear-introduces-topaz-tm-one-of-the-industry-s-most-advanced-sxnzxh3mpwnm.html",
+      "title": "MaxLinear launches Topaz 10G fiber gateway chip | MXL Stock News",
+      "content": "### MaxLinear Accelerates AI-Powered Broadband with Topaz\u2122 and Intelligent Network Innovations at Network X 2026 ### MaxLinear, Inc. Announces Conference Call to Review Third Quarter 2026 Financial Results Thursday, Oct. 22, 2026 at 1:30 p.m. Pacific Time; 4:30 p.m. Eastern Time ### Wise Group plc reports Q2 FY27 Results ### CDW Canada Awarded Canadian Partner Excellence Award by Dell Technologies for the Fifth Consecutive Year ### Datavault AI Highlights Data Futures Platform Patent Amid Tokenized Stock Exemption ### DHI Group Earns Great Place To Work Certification\u2122 for the Fifth Consecutive Year ### BCM Intercepts Strong Skarn Mineralization in Diamond Drill Hole TK21 at its 100% Controlled Thompson Knolls Project, Utah [...] In addition to these risks and uncertainties, investors should review the risks and uncertainties contained in the filings of MaxLinear with the Securities and Exchange Commission, including our Current Reports on Form 8-K, as well as the information to be set forth under the caption \"Risk Factors\" in MaxLinear\u2019s Quarterly Report on Form 10-Q for the quarter ended June 30, 2026. All forward-looking statements are based on the estimates, projections and assumptions of management as of the date of this press release, and MaxLinear is under no obligation (and expressly disclaims any such obligation) to update or revise any forward-looking statements whether as a result of new information, future events, or otherwise. View source version on businesswire.com: [...] Select OEMs are already designing next-generation gateways with Topaz. By consolidating key broadband, Wi-Fi, security, and processing functions into a single highly integrated platform, Topaz enables operators to deliver superior subscriber experiences while reducing system complexity, lowering power consumption, and improving overall cost efficiency. MaxLinear will be attending Network X 2026 in Vienna, Austria. Visit us at Booth D21 to see the debut of Topaz, our next-generation PON home gateway platform, and learn how we're enabling the future of broadband connectivity. About MaxLinear, Inc.",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026",
+      "published": "Tue, 06 Oc"
+    },
+    {
+      "id": "S62",
+      "url": "https://www.broadcastnow.co.uk/broadcast-international/netflix-and-disney-new-launches-down-in-2026/5221434.article",
+      "title": "Netflix & Disney+ new launches down in 2026 | News | Broadcast",
+      "content": "This year, linear TV viewership continued to diminish, albeit at varying paces. Italy is the country maintaining the highest viewing time, averaging 3h 32mins daily in H1 2026, losing just three minutes compared to the previous year. In Europe, France (2h 41mins) and Spain (2h 36mins) come next, both down by six minutes, closely followed by Germany (down seven minutes to 2h35). The UK saw the biggest drop, down nine minutes to 2h, while the Netherlands has the lowest viewing time at 1h57, despite dropping by only three minutes. By comparison, the loss last year for all these countries was 10 minutes or more. SVoD and AVoD streaming platforms\u2019 share of video consumption remained stable in France at 11%, and increased slightly (+1 percentage point) to 18% in the UK. [...] Glance 2 Glance 2 Fr\u00e9d\u00e9ric Vaulpr\u00e9 Video sharing platforms, however, continue to grow, according to Fr\u00e9d\u00e9ric Vaulpr\u00e9, senior vice president at The Glance, who his findings during a presentation at Mipcom this week. Linear broadcasters have had on average 12% fewer new series so far across the 48 territories surveyed by Glance, he said. There was also a 12% drop at Netflix, 41% at Disney+, and 45% at Apple TV+, Vaulpr\u00e9 added, although Prime Video\u2019s launches were largely stable. In some areas, streamer catalogues continue to grow significantly, but this is thanks to the addition of third-party content. In France, Netflix\u2019s catalogue volume increased by 61% to reach 74,000 hours when including TF1+, while Prime Video\u2019s catalogue grew by 49% following its deals with France.tv and M6+. [...] Broadcast International Broadcast logo # Netflix & Disney+ new launches down in 2026 2026-10-14T10:23:00+01:00 Double-digit declines reported in new data from French ratings and analytics firm M\u00e9diam\u00e9trie New show launches on streamers and broadcasters across almost 50 key territories have fallen over the past year, with Netflix and Disney+ among those reporting double-digit declines. The figures were revealed by Glance, the international TV and video market intelligence division of France\u2019s M\u00e9diam\u00e9trie, and showed that both SVoD platforms and linear broadcaster markets have largely matured. Glance 2 Glance 2 Fr\u00e9d\u00e9ric Vaulpr\u00e9",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026",
+      "published": "Wed, 14 Oc"
+    },
+    {
+      "id": "S63",
+      "url": "https://shattered.io/control-resonant-launch-review-scores-2026",
+      "title": "Control Resonant Review: 84 Metacritic Score [2026]",
+      "content": "The lower scores tell a different story. Eurogamer\u2019s 3 out of 5 and ComicBook.com\u2019s 2 out of 5 both center on the expanded, more open-world structure feeling padded rather than purposeful, a common complaint whenever a linear franchise stretches into a bigger map. It\u2019s the same tension that has hit other narrative-driven franchises attempting to scale up, and it\u2019s worth remembering the original Control was praised specifically for its tight, atmospheric level design. Making a sequel bigger doesn\u2019t automatically make it better, and a chunk of this week\u2019s criticism argues Remedy proved that the hard way. ## The PC Performance Problem Remedy Didn\u2019t Fully Solve [...] Remedy will probably treat this launch as a bridge to further Remedy Connected Universe projects rather than a one-off, given the studio\u2019s consistent pattern of using each release to set up narrative threads for the next. [...] For players troubleshooting stutter or shader-compilation hitching on a new PC release, the standard first pass is still worth trying before assuming a card is underpowered: clearing the shader cache, forcing a fresh DX12 pipeline rebuild, and toggling frame generation off to isolate whether it\u2019s the source of pacing issues. A typical Steam launch-option sequence used for that kind of triage looks like this: ``` -dx12 -force-d3d12-recreate-shaders -novsync -high ``` That\u2019s general PC troubleshooting syntax, not an official fix distributed by Remedy, and it won\u2019t resolve a genuine GPU shortfall. But it\u2019s a reasonable first step before spending money on new hardware for a game that\u2019s one week old. ## Pricing Breakdown: Standard, Deluxe and the Steelbook Premium",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026",
+      "published": "Thu, 24 Se"
+    },
+    {
+      "id": "S64",
+      "url": "https://wccftech.com/review/marvels-wolverine-review-linear-slaughterhouse",
+      "title": "Marvel's Wolverine Review: Insomniac Trades Spider-Man's Open World for a Linear, Rage-Fueled Slaughterhouse, and It Mostly Works",
+      "content": "##### Developer Insomniac Games It's no secret that Marvel's Wolverine holds Sony's biggest hopes among its first-party releases this year. Bungie's Marathon and Housemarque's Saros have both already largely underwhelmed, albeit for different reasons and with different outcomes. After Wolverine, the only other Sony-published release due in 2026 is Ghost of Y\u014dtei: Complete Edition, which, however, is unlikely to make a major splash given that it's just a full edition of a game already released last year, adding the new Echoes of Sekigahara expansion that will also be available as a separate purchase. [...] cover Gaming 8.5 # Marvel\u2019s Wolverine Review: Insomniac Trades Spider-Man\u2019s Open World for a Linear, Rage-Fueled Slaughterhouse, and It Mostly Works Alessio Palumbo \u2022 Comments Game Info ##### Marvel's Wolverine September 15, 2026 ##### Platform PlayStation 5 ##### Publisher Sony Interactive Entertainment ##### Developer Insomniac Games [...] It all rests on the shoulders of Insomniac Games, then. The Californian studio has already proven its Marvel chops with the Spider-Man games: those titles have been a gold mine for Sony, nearing the 60-million-unit mark in combined sales, although with the caveat of Marvel's hefty licensing fee. The question is, can they do it again with Marvel's Wolverine? ##### Related Story Forza Horizon 6 Crushes Every 2026 First-Party Game With $579.2M, and Its PS5 Launch Puts Gran Turismo 7 in Sight",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026",
+      "published": "Thu, 10 Se"
+    },
+    {
+      "id": "S65",
+      "url": "https://theloamwolf.com/reviews/components/first-ride-review-rockshox-vivid-air",
+      "title": "First Ride Review: RockShox Vivid Air | The Loam Wolf",
+      "content": "Skip to content The Loam Wolf Logo The Loam Wolf Logo The Loam Wolf Logo First Ride Review: RockShox Vivid Air MY27 Rockshox Super Deluxe First Ride Review # MY27 ROCKSHOX VIVID AIR FIRST RIDE REVIEW ## ADJUSTABLE AND PREDICTABLE Words By Robert Johnston | Photos By Callum Wood // Sven Martin April 7, 2026 The Vivid Air is one of four new RockShox products launching today for MY27, joining the Zeb, Lyrik, and Super Deluxe in the trail and enduro suspension lineup. With the global target of reducing friction and increasing consistency, the Vivid air has some notable changes, and we\u2019ve been logging some preliminary miles to see how it performs. ### THE WOLF\u2019S FIRST IMPRESSION",
+      "dimension": "reception",
+      "query": "Linear launch reviews 2026",
+      "published": "Tue, 07 Ap"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "Linear offers a free plan for organizations with up to two teams, allowing unlimited members but capping usage at 250 issues",
+      "source_ids": [
+        "S28",
+        "S29",
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Factors that affect Linear\u2019s pricing include the number of teams, necessary features, and organization size",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "As of July 2026, Linear\u2019s Basic plan costs $10 per user per month and its Business plan costs $16 per user per month when billed yearly",
+      "source_ids": [
+        "S29",
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "One source lists Linear\u2019s paid tiers as Standard, Plus, and Enterprise, with annual commitments typically offering a discount compared to monthly billing",
+      "source_ids": [
+        "S32"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Linear offers an Enterprise plan with custom pricing, dedicated support, advanced security, and compliance features",
+      "source_ids": [
+        "S31",
+        "S32"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Annual billing for Linear typically offers a discount compared to month-to-month billing",
+      "source_ids": [
+        "S28",
+        "S32"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Agent features such as skills and automations require a Business or Enterprise plan",
+      "source_ids": [
+        "S53"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Linear has indicated that future automations and coding capabilities may shift to usage-based pricing beyond a certain threshold",
+      "source_ids": [
+        "S53"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira has been the default issue tracker for engineering teams for over 15 years",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira is considered the industry standard for issue tracking",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira is built around agile ceremonies such as sprints, backlogs, velocity, and burndown, and Atlassian has invested heavily in connecting it to the enterprise stack",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Atlassian is discontinuing its datacenter products, including Jira, in favor of Atlassian Cloud, and customers may face integration issues",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Height is described as the closest spiritual alternative to Linear for teams seeking a fast, modern issue tracker with integrated AI",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Height\u2019s Team plan was priced at $6.99 per seat per month with annual billing before retirement",
+      "source_ids": [
+        "S46"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear has earned a reputation as the fastest and most opinionated issue tracker available, featuring a keyboard-first interface and automatic sprint management",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear is favored by small-to-mid product and engineering teams that value velocity and a clean design",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear is built for speed and simplicity, focusing on issue tracking, project planning, and team coordination, with a clean, keyboard-friendly interface and a Git-like workflow that appeals to engineering teams valuing minimal friction",
+      "source_ids": [
+        "S55"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "According to Fireship, Jira is the tool that large organizations love to hate but cannot replace, while Linear represents issue tracking redesigned from scratch with modern user experience principles",
+      "source_ids": [
+        "S48"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear\u2019s Enterprise plan includes single sign-on via SAML and SCIM provisioning for automated user management",
+      "source_ids": [
+        "S48"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear includes core agent features across all plans, whereas Jira\u2019s sprint automation depends more heavily on deployment type and Marketplace apps",
+      "source_ids": [
+        "S49"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear describes agents as first-class users that can be assigned issues, added to teams, and mentioned in comments",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira offers assignable agents through a collaborate-with-AI-agents open beta",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "SpotOn's VP of IT Ryan Boyd describes Jira agents as support for an agentic software development lifecycle workflow",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear connects with Grok, enabling tasks, issues, roadmaps, and projects to be accessed within the AI assistant",
+      "source_ids": [
+        "S54"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira suits teams seeking deep agile structure, sprint management, and a large ecosystem of integrations",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear suits teams that prioritize speed, a clean interface, and modern AI features included at no extra cost",
+      "source_ids": [
+        "S51"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear excels at accelerating shipping velocity, reducing meeting and tool noise, enabling human-AI collaboration, and making product development feel intuitive",
+      "source_ids": [
+        "S52"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear\u2019s opinionated workflow may require an adjustment period for teams switching from Jira, some advanced enterprise features are limited to higher-tier plans, and the platform is best for teams that prefer focus over extensive customization",
+      "source_ids": [
+        "S52"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Linear has adopted agentic AI, with agents supporting skills and automations, and future features are expected to include a coding agent and the ability to answer questions about a codebase",
+      "source_ids": [
+        "S53"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira\u2019s Standard plan starts at approximately $7.91 per user per month, and its Premium plan costs approximately $14.54 per user per month",
+      "source_ids": [
+        "S34",
+        "S36"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira offers a free plan for up to 10 users and an Enterprise plan with custom pricing",
+      "source_ids": [
+        "S36"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "GitHub\u2019s Team plan costs $4 per user per month, and its Enterprise plan starts at $21 per user per month",
+      "source_ids": [
+        "S38",
+        "S42"
+      ]
+    }
+  ],
+  "unsupported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "Linear pricing plans can range from $5,000 to $70,000 depending on organizational needs (price $5,000 not found on the cited page)",
+      "source_ids": [
+        "S28"
+      ]
+    }
+  ]
+}

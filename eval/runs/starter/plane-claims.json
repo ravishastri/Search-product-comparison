@@ -1,0 +1,802 @@
+{
+  "claims": [
+    {
+      "text": "The Community Edition (Self-hosted) is free.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) is licensed under AGPL-3.0.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes unlimited users.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes unlimited projects.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes work items.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes cycles.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes modules.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes pages.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes five layout views.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes intake.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes dashboards.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes estimates.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes REST API.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "The Community Edition (Self-hosted) includes webhooks.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Cloud Free costs $0.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Cloud Free supports up to 12 users.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Cloud Free is no-frills project management for startups and small teams.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Pro costs $6/seat/month (annual).",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Pro includes RBAC.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Pro includes custom roles.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Pro includes 5 guests per paid member.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Pro is designed for mature teams.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "Business has custom pricing.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "Business is cited by a third party as costing ~$39k+/yr for 250 seats.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "Business includes advanced governance features.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "Enterprise / Airgapped has custom pricing.",
+      "urls": [
+        "https://plane.so/pricing",
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Enterprise / Airgapped includes SAML.",
+      "urls": [
+        "https://plane.so/pricing",
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Enterprise / Airgapped includes OIDC.",
+      "urls": [
+        "https://plane.so/pricing",
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Enterprise / Airgapped includes audit trails.",
+      "urls": [
+        "https://plane.so/pricing",
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Enterprise / Airgapped is for fully disconnected networks for Defense, Healthcare, Government.",
+      "urls": [
+        "https://plane.so/pricing",
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Self-hosting requirements are 2 CPU cores.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Self-hosting requirements are 4GB RAM.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Self-hosting requirements are under 2GB image.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Plane can be deployed via Docker Compose.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Plane can be deployed via Kubernetes with Helm.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Plane can be deployed via Podman.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Plane can be deployed via Coolify.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Plane can be deployed via Portainer.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Most teams deploy Plane in under 10 minutes.",
+      "urls": [
+        "https://plane.so/open-source"
+      ]
+    },
+    {
+      "text": "Plane's starting price (paid) is $6/seat/mo.",
+      "urls": []
+    },
+    {
+      "text": "Plane's free tier supports up to 12 users (cloud).",
+      "urls": []
+    },
+    {
+      "text": "Plane's free tier supports unlimited self-hosted users.",
+      "urls": []
+    },
+    {
+      "text": "Plane supports Cloud deployment.",
+      "urls": []
+    },
+    {
+      "text": "Plane supports Self-hosted deployment.",
+      "urls": []
+    },
+    {
+      "text": "Jira's starting price (paid) is ~$8.15\u20139.05/user/mo.",
+      "urls": []
+    },
+    {
+      "text": "Jira's free tier supports up to 10 users.",
+      "urls": []
+    },
+    {
+      "text": "Jira is Cloud only.",
+      "urls": []
+    },
+    {
+      "text": "Linear's starting price (paid) is $8\u201310/user/mo.",
+      "urls": []
+    },
+    {
+      "text": "Linear's free tier supports up to 250 issues.",
+      "urls": []
+    },
+    {
+      "text": "Linear is Cloud only.",
+      "urls": []
+    },
+    {
+      "text": "ClickUp's starting price (paid) is $7/user/mo.",
+      "urls": []
+    },
+    {
+      "text": "ClickUp's free tier supports unlimited users.",
+      "urls": []
+    },
+    {
+      "text": "ClickUp is Cloud only.",
+      "urls": []
+    },
+    {
+      "text": "Monday.com's starting price (paid) is $9\u201312/user/mo.",
+      "urls": []
+    },
+    {
+      "text": "Monday.com's free tier supports 2 seats.",
+      "urls": []
+    },
+    {
+      "text": "Monday.com is Cloud only.",
+      "urls": []
+    },
+    {
+      "text": "Asana's starting price (paid) is $10.99/user/mo.",
+      "urls": []
+    },
+    {
+      "text": "Asana's free tier supports 1\u20132 users.",
+      "urls": []
+    },
+    {
+      "text": "Asana is Cloud only.",
+      "urls": []
+    },
+    {
+      "text": "Plane positions itself as a simpler alternative with a modern UI.",
+      "urls": [
+        "https://www.hatica.io/blog/plane-the-open-source-project-management-tool",
+        "https://plane.so/blog/best-linear-alternatives-in-2026"
+      ]
+    },
+    {
+      "text": "Plane positions itself as a faster alternative with a modern UI.",
+      "urls": [
+        "https://www.hatica.io/blog/plane-the-open-source-project-management-tool",
+        "https://plane.so/blog/best-linear-alternatives-in-2026"
+      ]
+    },
+    {
+      "text": "Jira offers more configuration depth (workflows, permission schemes, 3,000+ marketplace apps).",
+      "urls": [
+        "https://www.hatica.io/blog/plane-the-open-source-project-management-tool",
+        "https://plane.so/blog/best-linear-alternatives-in-2026"
+      ]
+    },
+    {
+      "text": "Jira has higher effective cost once add-ons (SSO, roadmaps, time tracking) are included.",
+      "urls": [
+        "https://www.hatica.io/blog/plane-the-open-source-project-management-tool",
+        "https://plane.so/blog/best-linear-alternatives-in-2026"
+      ]
+    },
+    {
+      "text": "Plane offers self-hosting.",
+      "urls": [
+        "https://plane.so/blog/best-linear-alternatives-in-2026",
+        "https://www.eesel.ai/blog/linear-vs-clickup"
+      ]
+    },
+    {
+      "text": "Plane offers open-source flexibility.",
+      "urls": [
+        "https://plane.so/blog/best-linear-alternatives-in-2026",
+        "https://www.eesel.ai/blog/linear-vs-clickup"
+      ]
+    },
+    {
+      "text": "Linear is cloud-only.",
+      "urls": [
+        "https://plane.so/blog/best-linear-alternatives-in-2026",
+        "https://www.eesel.ai/blog/linear-vs-clickup"
+      ]
+    },
+    {
+      "text": "Linear is praised for a lightning-fast interface.",
+      "urls": [
+        "https://plane.so/blog/best-linear-alternatives-in-2026",
+        "https://www.eesel.ai/blog/linear-vs-clickup"
+      ]
+    },
+    {
+      "text": "Linear is praised for minimalism.",
+      "urls": [
+        "https://plane.so/blog/best-linear-alternatives-in-2026",
+        "https://www.eesel.ai/blog/linear-vs-clickup"
+      ]
+    },
+    {
+      "text": "Plane's Pro tier is at $6/seat/mo.",
+      "urls": [
+        "https://plane.so/blog/best-linear-alternatives-in-2026",
+        "https://www.eesel.ai/blog/linear-vs-clickup"
+      ]
+    },
+    {
+      "text": "Linear's Business tier is at $16/user/mo.",
+      "urls": [
+        "https://plane.so/blog/best-linear-alternatives-in-2026",
+        "https://www.eesel.ai/blog/linear-vs-clickup"
+      ]
+    },
+    {
+      "text": "ClickUp offers more raw features.",
+      "urls": [
+        "https://www.visioneerit.com/blog/monday-com-vs-asana-vs-clickup-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "ClickUp offers generous free unlimited users.",
+      "urls": [
+        "https://www.visioneerit.com/blog/monday-com-vs-asana-vs-clickup-vs-jira-2026"
+      ]
+    },
+    {
+      "text": "Monday.com is a broader work-management platform.",
+      "urls": [
+        "https://thefrontkit.com/blogs/jira-alternatives-2026"
+      ]
+    },
+    {
+      "text": "Asana is a broader work-management platform.",
+      "urls": [
+        "https://thefrontkit.com/blogs/jira-alternatives-2026"
+      ]
+    },
+    {
+      "text": "Plane is explicitly built for software teams with issue-centric workflows.",
+      "urls": [
+        "https://thefrontkit.com/blogs/jira-alternatives-2026"
+      ]
+    },
+    {
+      "text": "Plane is explicitly built for software teams with sprints.",
+      "urls": [
+        "https://thefrontkit.com/blogs/jira-alternatives-2026"
+      ]
+    },
+    {
+      "text": "Plane is explicitly built for software teams with Git integration.",
+      "urls": [
+        "https://thefrontkit.com/blogs/jira-alternatives-2026"
+      ]
+    },
+    {
+      "text": "Monday targets cross-functional use.",
+      "urls": [
+        "https://thefrontkit.com/blogs/jira-alternatives-2026"
+      ]
+    },
+    {
+      "text": "Asana targets cross-functional use.",
+      "urls": [
+        "https://thefrontkit.com/blogs/jira-alternatives-2026"
+      ]
+    },
+    {
+      "text": "Plane uses the AGPL-3.0 license.",
+      "urls": []
+    },
+    {
+      "text": "Plane self-hosted cost is Free.",
+      "urls": []
+    },
+    {
+      "text": "Plane has a modern UI/UX.",
+      "urls": []
+    },
+    {
+      "text": "Plane has built-in AI.",
+      "urls": []
+    },
+    {
+      "text": "Plane has no scheduling engine/Gantt.",
+      "urls": []
+    },
+    {
+      "text": "OpenProject uses the GPL v3 license.",
+      "urls": []
+    },
+    {
+      "text": "OpenProject self-hosted cost is Free.",
+      "urls": []
+    },
+    {
+      "text": "OpenProject is mature.",
+      "urls": []
+    },
+    {
+      "text": "OpenProject has strong Gantt/classical PM.",
+      "urls": []
+    },
+    {
+      "text": "OpenProject requires a 25-user minimum for paid tiers.",
+      "urls": []
+    },
+    {
+      "text": "Taiga uses the AGPL-3.0 license.",
+      "urls": []
+    },
+    {
+      "text": "Taiga self-hosted cost is Free.",
+      "urls": []
+    },
+    {
+      "text": "Taiga is a Scrum/Kanban purist.",
+      "urls": []
+    },
+    {
+      "text": "Taiga has flat cloud pricing.",
+      "urls": []
+    },
+    {
+      "text": "Taiga has less frequent releases.",
+      "urls": []
+    },
+    {
+      "text": "Taiga has no native time tracking.",
+      "urls": []
+    },
+    {
+      "text": "Redmine uses the GPL v2 license.",
+      "urls": []
+    },
+    {
+      "text": "Redmine self-hosted cost is Free.",
+      "urls": []
+    },
+    {
+      "text": "Redmine has a highly mature plugin ecosystem.",
+      "urls": []
+    },
+    {
+      "text": "Redmine is PHP-based.",
+      "urls": []
+    },
+    {
+      "text": "Leantime uses the MIT license.",
+      "urls": []
+    },
+    {
+      "text": "Leantime self-hosted cost is Free.",
+      "urls": []
+    },
+    {
+      "text": "Leantime has a strategy-to-task focus.",
+      "urls": []
+    },
+    {
+      "text": "Leantime is neurodivergent-friendly.",
+      "urls": []
+    },
+    {
+      "text": "Worklenz uses the AGPL-3.0 license.",
+      "urls": []
+    },
+    {
+      "text": "Worklenz self-hosted cost is Free.",
+      "urls": []
+    },
+    {
+      "text": "Worklenz is built for agencies (time tracking, resource mgmt, client portal).",
+      "urls": []
+    },
+    {
+      "text": "OpenProject is the closest to Jira in scope for classical PM (Gantt, work packages, budgets).",
+      "urls": [
+        "https://xtom.com/blog/best-project-management-tools",
+        "https://onplana.com/blog/best-self-hosted-pm-tools"
+      ]
+    },
+    {
+      "text": "OpenProject's interface has changed little since 2020.",
+      "urls": [
+        "https://xtom.com/blog/best-project-management-tools",
+        "https://onplana.com/blog/best-self-hosted-pm-tools"
+      ]
+    },
+    {
+      "text": "Plane targets broader product teams wanting Linear/Jira-like experience with open-source freedom.",
+      "urls": [
+        "https://uibakery.io/blog/self-hosted-project-management-software"
+      ]
+    },
+    {
+      "text": "Plane lacks native time tracking.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "Plane lacks resource management.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "OpenProject includes time tracking.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "OpenProject includes resource management.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "Worklenz includes time tracking.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "Worklenz includes resource management.",
+      "urls": [
+        "https://worklenz.com/open-source-project-management-tools"
+      ]
+    },
+    {
+      "text": "Plane reached #1 in the project management category in under a year.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=40372686",
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "As of May 2024, the team reported 100K+ Docker deploys.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=40372686",
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "As of May 2024, the team reported 44K+ Kubernetes deploys.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=40372686",
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "By late 2025, Plane had shipped 467 features to the Community Edition.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=40372686",
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "Plane had multiple front-page posts on Hacker News.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=40372686"
+      ]
+    },
+    {
+      "text": "A May 2024 Hacker News submission by Plane hit significant traction.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=40372686"
+      ]
+    },
+    {
+      "text": "Plane is active on Reddit in r/selfhosted and related communities.",
+      "urls": [
+        "https://plane.so/blog/how-we-got-to-20k-github-stars"
+      ]
+    },
+    {
+      "text": "Early growth of Plane was driven by Reddit engagement.",
+      "urls": [
+        "https://plane.so/blog/how-we-got-to-20k-github-stars"
+      ]
+    },
+    {
+      "text": "Reddit posts drove 300+ GitHub stars for Plane in a single day.",
+      "urls": [
+        "https://plane.so/blog/how-we-got-to-20k-github-stars"
+      ]
+    },
+    {
+      "text": "Reviewers consistently highlight that Plane avoids the \"clunky open-source UI\" problem.",
+      "urls": [
+        "https://xtom.com/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "Plane is built with React and Django.",
+      "urls": [
+        "https://xtom.com/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "Plane is called out as \"single-click\" Docker setup.",
+      "urls": [
+        "https://xtom.com/blog/best-project-management-tools"
+      ]
+    },
+    {
+      "text": "Self-hosting Plane is positioned as 60\u201380% cheaper at scale than per-seat SaaS models.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "A 10-user Jira + Confluence setup (~$2,084/yr) is compared to Plane at ~$720/yr.",
+      "urls": [
+        "https://plane.so/pricing"
+      ]
+    },
+    {
+      "text": "SSO (SAML/OIDC) is locked behind the paid Commercial/Enterprise edition of Plane.",
+      "urls": [
+        "https://news.ycombinator.com/item?id=40372686"
+      ]
+    },
+    {
+      "text": "As of mid-2025, Plane has limited native integrations.",
+      "urls": [
+        "https://plane.so/blog/self-hosted-project-management-jira-server-alternative"
+      ]
+    },
+    {
+      "text": "As of mid-2025, Plane's native integrations are largely limited to Slack, Discord, Mattermost, and GitHub.",
+      "urls": [
+        "https://plane.so/blog/self-hosted-project-management-jira-server-alternative"
+      ]
+    },
+    {
+      "text": "An MCP Server plugin is available for Plane for AI connectivity.",
+      "urls": [
+        "https://plane.so/blog/self-hosted-project-management-jira-server-alternative"
+      ]
+    },
+    {
+      "text": "Plane's integration ecosystem is thinner than Jira's.",
+      "urls": [
+        "https://plane.so/blog/self-hosted-project-management-jira-server-alternative"
+      ]
+    },
+    {
+      "text": "Plane's built-in Pages/Wiki feature is noted to \"lag modern knowledge tools\" like Notion.",
+      "urls": [
+        "https://plane.so/blog/self-hosted-project-management-jira-server-alternative"
+      ]
+    },
+    {
+      "text": "Plane's built-in Pages/Wiki feature is noted to \"lag modern knowledge tools\" like Confluence.",
+      "urls": [
+        "https://plane.so/blog/self-hosted-project-management-jira-server-alternative"
+      ]
+    },
+    {
+      "text": "Unlike OpenProject, Plane Community Edition lacks Gantt charts.",
+      "urls": [
+        "https://onplana.com/blog/best-self-hosted-pm-tools"
+      ]
+    },
+    {
+      "text": "Plane Community Edition lacks critical path.",
+      "urls": [
+        "https://onplana.com/blog/best-self-hosted-pm-tools"
+      ]
+    },
+    {
+      "text": "Plane Community Edition lacks resource pool scheduling.",
+      "urls": [
+        "https://onplana.com/blog/best-self-hosted-pm-tools"
+      ]
+    },
+    {
+      "text": "Plane maintains a strict open-core model.",
+      "urls": [
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "Plane's Community Edition has \"zero borrowed code\" from paid editions.",
+      "urls": [
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "The Plane team responds to community support requests in under 3 hours.",
+      "urls": [
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "The Plane project has survived \"the scrutiny of the harshest open-source defenders\".",
+      "urls": [
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "Plane maintains active community engagement through Discord.",
+      "urls": [
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    },
+    {
+      "text": "Plane maintains active community engagement through GitHub discussions.",
+      "urls": [
+        "https://plane.so/blog/lessons-in-sustainability-from-scaling-in-open-source"
+      ]
+    }
+  ]
+}

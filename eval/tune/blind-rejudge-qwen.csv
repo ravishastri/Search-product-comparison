@@ -1,0 +1,63 @@
+id,product,human,deepseek_judge,agree,evidence
+B01,asana,supported,supported,yes,"In 2025, Monday.com redesigned its interface with what it calls the “monday 3.0” update, introducing improved navigation, faster load times (the company claims 40% faster page renders), and a unified "
+B02,asana,supported,unverified_evidence,no,"2. Trello
+Best for: Simple projects, small teams
+3. Asana
+Best for: Enterprise teams with complex needs"
+B03,youtrack,supported,supported,yes,"> ""It is a very complete product, I appreciate the deep integration between the different part of the software."""
+B04,jira,supported,supported,yes,"A Jira alternative is any project management or dev-ops platform that replaces Atlassian Jira's issue tracking, sprint planning, and workflow capabilities – typically with simpler UX, better AI, or ti"
+B05,trello,supported,supported,yes,"Sales teams often use it for lightweight deal tracking or personal to-do lists, though it offers limited native reporting and automation compared with other tools on this list."
+B06,youtrack,supported,supported,yes,"Scaling to 100 users would cost about $500 per month or $6,000 per year."
+B07,jira,supported,supported,yes,"Jira connects to over 3,000 apps through the Atlassian Marketplace."
+B08,trello,contradicted,not_stated,no,"The source text mentions Capterra reviews for other tools like Monday.com and Wrike, but does not provide any Capterra data specifically about negative ClickUp reviews citing pricing concerns."
+B09,asana,contradicted,supported,no,"A free plan is available, while paid plans cost $7–$19 per user/month (annual billing) and $10–$29 per user/month (monthly billing). Enterprise pricing is custom."
+B10,shortcut,supported,supported,yes,"If you're a smaller team, want an easy setup, or need a tool for non-engineering departments, Jira's complexity and user experience will likely get in the way. Expect low adoption and frustration unle"
+B11,plane,supported,supported,yes,"Monthly client reporting, once a manual and hours-long process, is now automated through a combination of Plane’s exports, APIs, and a third-party reporting tool. Reports that took hours to compile no"
+B12,asana,supported,not_stated,no,The source text does not mention any G2 user review specifically citing Asana's reporting feature as having room for improvement.
+B13,shortcut,supported,supported,yes,"Score 8.4 out of 10
+10 Reviews and Ratings"
+B14,trello,supported,supported,yes,"Meistertask\ is probably the most direct Trello competitor, as this German platform also focuses on Kanban."
+B15,asana,supported,supported,yes,Overall dollar-based net retention rate was 97%.
+B16,shortcut,supported,supported,yes,"What types of pricing plans does Shortcut offer? In addition to a free version, the software offers three pricing plans: Team ($10.00/user/month), Business ($16.00/user/month), and Enterprise (custom "
+B17,youtrack,supported,supported,yes,"For monthly plans, the new pricing starts at USD 5.40 per user per month."
+B18,trello,supported,supported,yes,All prices are per user. Annual billing gives you roughly 20% savings over monthly across the paid tiers.
+B19,jira,supported,unverified_evidence,no,"Azure DevOps Basic includes the first five users at no cost. After that allowance is used, each additional Basic user is charged $6 per month."
+B20,asana,not_stated,supported,no,"| Document collaboration | Workdocs (Native) | Integration-based (Google/MS) |
+| Digital whiteboard | WorkCanvas (Native) | Integration-based (Miro/FigJam) |"
+B21,trello,supported,supported,yes,"Enterprise
+$11 per user / month"
+B22,asana,supported,supported,yes,"Client work needs purpose-built tools: Asana lacks native time tracking, budget management, and utilization reporting, forcing teams to bolt on integrations that add cost and complexity."
+B23,youtrack,supported,supported,yes,"As of July 2026, Basic runs $10 per user/month and Business runs $16 per user/month, both billed yearly, while the free plan is genuinely usable for small teams — unlimited members, but capped at 2 te"
+B24,plane,supported,supported,yes," Plane runs every team in one workspace, with cycles, epics, and releases built into one model. ClickUp calls itself the everything app, adding a feature for each job, with epics left as ordinary task"
+B25,plane,supported,no_source_text,no,
+B26,clickup,supported,supported,yes,"ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet."
+B27,jira,supported,supported,yes,"There’s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available."
+B28,trello,contradicted,supported,no,Trustpilot reviews document support response times stretching to weeks for critical issues including billing disputes.
+B29,trello,supported,supported,yes,The core difference in 2026: Trello is a visual task manager that happens to support project management. Jira is a project management platform built specifically for software teams that has expanded i
+B30,youtrack,supported,supported,yes, Ultimate Plan: €99/user/year (~$108) — Enterprise with advanced security
+B31,plane,supported,supported,yes,"It claims full parity with Jira Standard and 80% parity with Jira Professional, and unlike most tools on this list, it ships AI, documentation, intake, and time tracking as native capabilities rather "
+B32,jira,supported,supported,yes,"The cost of  Data Center is less flexible than that of Cloud. There are no monthly options, only tiers starting at 500 users."
+B33,youtrack,supported,supported,yes,"For 10 users, the monthly cost is around $50, translating to approximately $600 annually."
+B34,trello,supported,supported,yes,Anyone may start using Trello immediately due to its simple design and usability.
+B35,youtrack,supported,unverified_evidence,no,"YouTrack ships a predefined import script for Redmine, alongside the Jira, GitHub, Asana, ClickUp and Mantis ones, which connects to your instance through its API instead of asking you to hand-prepare"
+B36,youtrack,supported,supported,yes,"YouTrack is JetBrains' issue tracker, and if you're already paying for IntelliJ, WebStorm, or PyCharm, it's worth a serious look."
+B37,youtrack,supported,no_source_text,no,
+B38,trello,supported,supported,yes,"Please note the Free plan does not include:
+ File attachments,
+ Time tracking & reporting,
+ The My work widget,
+ Process automation,
+ User groups."
+B39,jira,supported,supported,yes,The Basic + Test Plans tier costs approximately $52 per user per month and includes advanced testing capabilities such as test case management and reporting.
+B40,jira,supported,supported,yes,"Jira users who self-host their software had been requested to make plans to move to the cloud or data center, as support for self-hosted Jira is no longer available since spring 2024."
+B41,youtrack,supported,supported,yes,"GitLab's issue tracker is not as configurable as YouTrack's, but it has one advantage nothing else here matches: issues, merge requests, pipelines, and releases are the same system."
+B42,youtrack,supported,supported,yes,"Who Is YouTrack Best For?
+Mid-size and large development teams that need customizable workflows and advanced issue management across software projects."
+B43,shortcut,supported,no_source_text,no,
+B44,trello,not_stated,supported,no,"ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet. These tools offer task and project management features with varying levels of automation, reporting, and integ"
+B45,youtrack,supported,supported,yes,"JetBrains AI helps with writing, summaries and turning text into issues."
+B46,youtrack,contradicted,supported,no,"Now, we are here: Server support ends on Feb 15, 2024."
+B47,asana,supported,supported,yes,"For Asana vs. Monday vs. ClickUp integrations and automation, ClickUp leads with 1,000+ native integrations vs 200+ each for Asana and Monday."
+B48,shortcut,supported,supported,yes,"Shortcut is a project management platform that integrates product and engineering efforts within the software development sector. The platform includes tools for issue tracking, sprint planning, and r"
+B49,jira,supported,supported,yes," Choose YouTrack, GitLab, or Azure DevOps Boards when the priority is a closer engineering or DevOps replacement."
+B50,jira,supported,supported,yes,"Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users."

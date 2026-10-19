@@ -1,0 +1,868 @@
+{
+  "product": "Jira",
+  "description": "Issue tracking and project management for software teams",
+  "category": "issuetracker",
+  "model": "moonshotai/Kimi-K2.6",
+  "run_date": "2026-10-18",
+  "similar": [
+    "YouTrack",
+    "GitLab",
+    "Azure DevOps Boards"
+  ],
+  "candidate_status": {
+    "YouTrack": {
+      "status": "unknown",
+      "source": ""
+    },
+    "GitLab": {
+      "status": "active",
+      "source": "S10"
+    },
+    "Azure DevOps Boards": {
+      "status": "active",
+      "source": "S17"
+    },
+    "OpenProject": {
+      "status": "active",
+      "source": "S22"
+    },
+    "Plane": {
+      "status": "unknown",
+      "source": ""
+    }
+  },
+  "excluded_retired": [],
+  "queries": [
+    "Jira alternatives competitors issuetracker",
+    "Jira pricing plans",
+    "YouTrack pricing plans",
+    "GitLab pricing plans",
+    "Azure DevOps Boards pricing plans",
+    "Jira vs YouTrack features",
+    "Jira vs GitLab features",
+    "Jira vs Azure DevOps Boards features",
+    "Jira launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://devrev.ai/blog/jira-alternatives",
+      "title": "10 Best Jira Alternatives & Competitors for 2026",
+      "content": "We built Computer, your AI teammate DevRev Editorial A Jira alternative is any project management or dev-ops platform that replaces Atlassian Jira's issue tracking, sprint planning, and workflow capabilities \u2013 typically with simpler UX, better AI, or tighter integration with customer-facing teams. In September 2025, Atlassian announced that Jira Data Center would reach end of life on March 28, 2029. As of March 30, 2026, Atlassian stopped selling new Data Center licenses entirely. Teams already on Data Center can renew until March 30, 2028 \u2013 after which all DC environments switch to read-only mode. That three-year window has pushed a lot of engineering and product leaders to start evaluating their options seriously, many for the first time in years. [...] 2. In 2026, Jira alternatives fall into three categories: AI-native dev platforms that connect customer context to engineering work (Computer, by DevRev), lightweight project trackers (Linear, Shortcut), and flexible work-OS platforms (ClickUp, Monday.com, Asana) 3. Most Jira alternatives only solve the UX problem. The deeper issue is that Jira \u2013 and every Gen 2 alternative \u2013 keeps engineering disconnected from customer impact. Engineers ship without knowing which customer asked for a fix or how much ARR depends on it. [...] But the Data Center sunset is only part of the story. Separately, AI-native platforms are changing what issue tracking is even for. J ira was built to ensure no request gets lost. The best Jira alternatives in 2026 go further \u2013 connecting engineering work to the customers it affects, and using AI that acts rather than just summarises. Here are a few Jira alternatives worth evaluating in 2026, along with the seven criteria to use when deciding between them. TL;DR 1. Jira Data Center is end-of-life. Atlassian stopped selling new DC licenses on March 30, 2026. Existing customers can renew until March 30, 2028 \u2013 after which all DC environments go read-only on March 28, 2029. If you're on DC, you have a defined window to migrate.",
+      "dimension": "discovery",
+      "query": "Jira alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S2",
+      "url": "https://www.epicflow.com/blog/jira-alternatives",
+      "title": "12 Best Jira Alternatives for Portfolio and Multi-Project Management - Epicflow",
+      "content": "If engineering wants a tighter DevOps or issue-tracking replacement, consider YouTrack, GitLab, Azure DevOps Boards, OpenProject, and Plane. If the real issue is feasible delivery when too many projects compete for the same scarce experts, Epicflow should be first on the shortlist. Jira can show work. Epicflow helps leaders decide which work deserves constrained capacity first. Book a call with our team to learn more about how supplementing Jira with Epicflow can help your company achieve strategic goals faster. ## FAQs about Jira alternatives ### What are the best Jira alternatives? [...] ### What are the best Jira alternatives? The best Jira alternatives depend on the use case. Epicflow is best for constraint-based portfolio orchestration. YouTrack is closest to Jira-style issue tracking. GitLab and Azure DevOps Boards fit DevOps-heavy teams. Monday.com, Asana, ClickUp, Wrike, and Smartsheet fit business work management. OpenProject and Plane fit open-source or self-hosted needs. ### What is the best Jira alternative for portfolio management? [...] ### What are the best free Jira alternatives? Good free Jira alternatives include OpenProject Community Edition, Plane\u2019s, and GitLab\u2019s free plans. YouTrack\u2019s free plan is offered for up to ten users, Azure DevOps Boards serves the first five Basic users for free, Zoho Projects has a free plan for up to five users. ### What are the best open-source Jira alternatives? OpenProject and Plane are the strongest open-source options in this list. OpenProject is more established for broad project management and self-hosted control. Plane is a modern issue-tracking and project-management option with cloud, self-hosted, and air-gapped positioning. ### Can Trello replace Jira?",
+      "dimension": "discovery",
+      "query": "Jira alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S3",
+      "url": "https://www.issuetrak.com/blog/jira-vs-issuetrak",
+      "title": "Jira Alternative: Simpler Issue Tracking for Business Workflows",
+      "content": "The impact of choosing overly complex software is lost time and slow user adoption. Your team needs a solution that works now. Issuetrak is designed for a fast and effective implementation. Instead of starting from a blank slate that requires custom coding, you receive personalized support to quickly configure your workflows, forms, and reporting to match your processes. The user interface is intuitive and requires minimal training, allowing your teams to jump right in and focus on resolving issues faster. Development-savvy Jira users claim that a minimum of 10 hours\u2014but likely more\u2014are needed to get used to using Jira\u2019s complex ticketing system. ## Customer Support and Resources As a smaller, homegrown company, Issuetrak\u2019s customer support consistently outshines its competitors. [...] Issuetrak offers the enterprise-grade power you need\u2014complete with audit trails, workflow automation, and custom reporting\u2014but with a business-friendly interface and pricing model built for the entire organization. ## Jira vs. Issuetrak: An Overview Jira is a ticketing system developed by Atlassian. Organizations can use different products under the Jira umbrella to manage various types of task management workflows. Jira Service Management is known an ITSM solution for incident management and IT service software. It is not built for help desks but does offer certain help desk functions to aid support ticketing. Agile teams prefer Jira Software for project management, whereas IT help desks and support teams rely on Jira Align or Jira Service Management as a ticketing system.",
+      "dimension": "discovery",
+      "query": "Jira alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S4",
+      "url": "https://monday.com/blog/rnd/best-jira-alternative-for-issue-tracking",
+      "title": "10 Best Jira Alternatives For Issue Tracking (2026 Comparison)",
+      "content": "ScreenshotScreenshot Screenshot Screenshot #### Example: Trello excels at visual issue tracking for teams that need quick setup, cross-functional collaboration, and the flexibility to scale from simple bug boards to integrated workflows with Jira. #### Key features: #### Pricing: #### Considerations: ### 10. Basecamp With its signature flat-rate pricing and emphasis on simplicity, Basecamp offers an all-in-one project management platform that treats issue tracking as one component of a broader collaborative workspace. It is particularly well-suited for small to midsize businesses managing client projects or cross-functional collaboration, prioritizing ease of use over complex workflow automation. ScreenshotScreenshot Screenshot Screenshot #### Example: [...] Most modern alternatives provide built-in migration tools (e.g., CSV or API connectors) that simplify the transfer of core data, including issues, users, and comments. The complexity depends on how heavily customized your current instance is. A good platform partner will offer support or templates to ensure history is imported accurately. ### Will non-technical teams (product, marketing) be able to use the new platform? Yes, this is a key advantage of switching. Many alternatives emphasize a visual, intuitive, no-code interface (like the Work OS design). This allows non-technical stakeholders to collaborate on planning, tracking, and reporting without needing to learn complex developer-centric tools. This boosts cross-functional alignment immediately. [...] ScreenshotScreenshot Screenshot Screenshot #### Example: Basecamp combines issue tracking with team communication and client collaboration features, making it perfect for agencies and teams that need to manage bugs alongside broader project discussions. #### Key features: #### Pricing: #### Considerations: Learn more: Jira alternatives for small teams: free and paid tools G2 comparison of monday-dev vs. Jira G2 comparison of monday-dev vs. Jira ## Jira alternative pricing: a comparison guide",
+      "dimension": "discovery",
+      "query": "Jira alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S5",
+      "url": "https://www.teamwork.com/blog/jira-alternatives",
+      "title": "10 Best Jira Alternatives for Client Work (2026)",
+      "content": "Is Jira still relevant in 2026? Jira remains a strong choice for software development teams that need detailed issue tracking, sprint management, and DevOps integrations. However, its relevance has narrowed. With Jira Server discontinued and pricing pressure from competitors offering broader feature sets at lower costs, teams outside of engineering increasingly choose alternatives that better match their workflows. Jira's strength is depth in a specific domain, not breadth across work types. What are the top 5 project management tools?",
+      "dimension": "discovery",
+      "query": "Jira alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S6",
+      "url": "https://elevenapril.com/blog/mealime-alternatives",
+      "title": "Mealime Is Shutting Down: 6 Best Mealime Alternatives (2026) | ElevenApril",
+      "content": "If you're also rethinking how you track what you eat, not just what you buy, our guide to food journal apps covers that side. ## Frequently asked questions ### When is Mealime shutting down? Mealime says the app will be discontinued on October 21, 2026. Pro subscribers are not charged again before then, and all Pro recipes and features are open to every Mealime user until it closes. Mealime also says all personal data will be deleted when the app shuts down. ### What is replacing Mealime? [...] ElevenApril Home Projects Tools Blog FAQ Get In Touch Back to Blog October 14, 2026 \u00b78 min readComparison # Mealime Is Shutting Down: The Best Mealime Alternatives Mealime closes on October 21, 2026. Here is where its recipes are going, what's worth saving this week, and six apps that can take over the weekly plan and the grocery list. Micky Indie developer, ElevenApril If you've been looking for Mealime alternatives this week, it's because Mealime is going away. The meal-planning app, which holds a 4.8 average from more than 54,000 ratings on the US App Store, says it will be discontinued on October 21, 2026. What made it popular was the loop: pick a few quick recipes for the week, and it writes one grocery list, sorted by aisle, for all of them. [...] The app stops on October 21, 2026. Mealime was bought by Albertsons Companies in 2021, and its recipes are moving to Meals Hub inside the Albertsons Companies store apps. Pro is free until then. Pro subscribers won't be charged again, and every Pro recipe and feature is open to all users until the app closes. Your account doesn't move. Preferences such as diet and allergies have to be set up again in Meals Hub. Your data is deleted. Mealime says all personal data will be deleted when the app shuts down.",
+      "dimension": "status",
+      "query": "YouTrack discontinued or shut down",
+      "published": "Wed, 14 Oc"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.reddit.com/r/shopify/comments/1wof4o9/i_dont_know_how_to_track_inventory_adjustments",
+      "title": "I don't know how to track inventory adjustments now that ...",
+      "content": "I don't know how to track inventory now that Stocky was discontinued. I need to be able to track inventory adjustments for damages, lost/stolen\u2026",
+      "dimension": "status",
+      "query": "YouTrack discontinued or shut down",
+      "published": "Sun, 27 Se"
+    },
+    {
+      "id": "S8",
+      "url": "https://endoflife.date/ibm-i",
+      "title": "IBM iSeries | endoflife.date",
+      "content": "| 7.1 | 16 years ago (23 Apr 2010) | Ended 8 years ago (30 Apr 2018) | Ended 2 years and 5 months ago (30 Apr 2024) | 7.1.0 (23 Apr 2010) | | 6.1 | 18 years ago (21 Mar 2008) | Ended 11 years ago (30 Sep 2015) | Ended 7 years ago (30 Sep 2019) | 6.1.0 (23 Apr 2008) | | 5.4 | 20 years ago (14 Feb 2006) | Ended 13 years ago (30 Sep 2013) | Ended 9 years ago (30 Sep 2017) | 5.4 (14 Feb 2006) | | 5.3 | 22 years ago (11 Jun 2004) | Ended 17 years ago (30 Apr 2009) | Ended 13 years ago (30 Apr 2013) | 5.3 (11 Jun 2004) | | 5.2 | 24 years ago (30 Aug 2002) | Ended 19 years ago (30 Apr 2007) | Unavailable | 5.2 (30 Aug 2002) | | 5.1 | 25 years ago (25 May 2001) | Ended 21 years ago (30 Sep 2005) | Unavailable | 5.1 (25 May 2001) | [...] | 4.5 | 26 years ago (28 Jul 2000) | Ended 24 years ago (31 Jul 2002) | Ended 23 years ago (31 Dec 2002) | 4.5 (28 Jul 2000) | | 4.4 | 27 years ago (21 May 1999) | Ended 25 years ago (31 May 2001) | Ended 24 years ago (30 Nov 2001) | 4.4 (21 May 1999) | | 4.3 | 28 years ago (11 Sep 1998) | Ended 25 years ago (31 Jan 2001) | Unavailable | 4.3 (11 Sep 1998) | | 4.2 | 28 years ago (27 Feb 1998) | Ended 26 years ago (31 May 2000) | Ended 25 years ago (31 Jan 2001) | 4.2 (27 Feb 1998) | | 4.1 | 29 years ago (29 Aug 1997) | Ended 26 years ago (31 May 2000) | Unavailable | 4.1 (29 Aug 1997) | | 3.7 | 29 years ago (08 Nov 1996) | Ended 27 years ago (30 Jun 1999) | Unavailable | 3.7 (08 Nov 1996) | [...] | 3.6 | 30 years ago (22 Dec 1995) | Ended 27 years ago (31 Oct 1998) | Unavailable | 3.6 (22 Dec 1995) | | 3.2 | 30 years ago (21 Jun 1996) | Ended 26 years ago (31 May 2000) | Unavailable | 3.2 (21 Jun 1996) | | 3.1 | 31 years ago (25 Nov 1994) | Ended 27 years ago (31 Oct 1998) | Unavailable | 3.1 (25 Nov 1994) | | 3.0 | 32 years ago (03 Jun 1994) | Ended 29 years ago (31 May 1997) | Unavailable | 3.0.5 (03 Jun 1994) | | 2.3 | 32 years ago (17 Dec 1993) | Ended 30 years ago (31 May 1996) | Unavailable | 2.3 (17 Dec 1993) | | 2.2 | 34 years ago (18 Sep 1992) | Ended 31 years ago (31 Mar 1995) | Unavailable | 2.2 (18 Sep 1992) | | 2.1 | 35 years ago (24 May 1991) | Ended 32 years ago (30 Jun 1994) | Unavailable | 2.1.1 (06 Mar 1992) | | |",
+      "dimension": "status",
+      "query": "YouTrack discontinued or shut down",
+      "published": "Sat, 26 Se"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.tradingview.com/news/zacks:51fcea924094b:0-gitlab-down-35-in-six-months-should-you-buy-sell-or-hold-the-stock",
+      "title": "Gitlab Down 35% in Six Months: Should You Buy, Sell or Hold the Stock? \u2014 TradingView News",
+      "content": "However, GitLab is experiencing headwinds from U.S. public sector softness due to slower decision-making caused by the government shutdown and ongoing challenges in the SMB segment. Stiff competition and stretched valuation remain a concern. Gitlab currently has a Zacks Rank #4 (Sell), suggesting that investors should stay away from the stock right now. You can see the complete list of today\u2019s Zacks #1 Rank (Strong Buy) stocks here. Research Chief Names \"Single Best Pick to Double\" From thousands of stocks, 5 Zacks experts each have chosen their favorite to skyrocket +100% or more in months to come. From those 5, Director of Research Sheraz Mian hand-picks one to have the most explosive upside of all. [...] Zacks Zacks # Gitlab Down 35% in Six Months: Should You Buy, Sell or Hold the Stock? Gitlab GTLB shares have plunged 34.8% in the trailing six-month period, underperforming the broader Zacks Computer & Technology sector\u2019s rise of 7.9% and the Zacks Internet - Software industry\u2019s decline of 22.4%. The underperformance can be attributed to challenges from U.S. public sector delays due to the government shutdown and ongoing budget constraints, as well as continued weakness in the price-sensitive SMB segment, which remains a headwind. Stiff competition from companies like Atlassian TEAM and Microsoft MSFT remains a concern. GTLB Stock's Performance Zacks Investment Research [...] GitLab Inc. (GTLB): Free Stock Analysis Report This article originally published on Zacks Investment Research (zacks.com). Zacks Investment Research ## GTLB chart ## Latest news ## More news from Zacks Select market data provided by ICE Data Services. Select reference data provided by FactSet. Copyright \u00a9 2026 FactSet Research Systems Inc.Copyright \u00a9 2026, American Bankers Association. CUSIP Database provided by FactSet Research Systems Inc. All rights reserved. SEC filings and other documents provided by Quartr.\u00a9 2026 TradingView, Inc. Look First Look First",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Tue, 17 Fe"
+    },
+    {
+      "id": "S10",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gitlab-set-report-q1-earnings-170800243.html",
+      "title": "GitLab Set to Report Q1 Earnings: What's in Store for the Stock?",
+      "content": "GitLab's SaaS and higher-tier offerings are expected to continue contributing to growth in the first quarter of fiscal 2027. In fourth-quarter fiscal 2026, SaaS revenues grew 38% year over year and accounted for approximately 32% of total revenues, driven by continued strength in GitLab Dedicated and Duo offerings. GitLab Ultimate represented 56% of ARR in the quarter and accounted for nine of the top 10 deals. The above-mentioned factors are expected to have supported continued enterprise adoption and revenue growth in the to-be-reported quarter. However, challenges stemming from U.S. public sector delays due to the government shutdown and ongoing budget constraints, along with continued weakness in the price-sensitive SMB segment, are likely to remain a headwind. [...] GitLab's first-quarter fiscal 2027 performance is expected to have benefited from continued momentum in its AI-driven DevSecOps offerings and expanding go-to-market initiatives. The company highlighted that sales-led first orders began reaccelerating in the second quarter of fiscal 2026, while product-led growth improved, with four consecutive months of better logo trends entering fiscal 2027. [...] The continued rollout of GitLab Duo Agent Platform (\"DAP\") is also expected to have contributed to customer engagement in the to-be-reported quarter. The company cited growing customer interest in automating software development tasks, including vulnerability remediation, dependency updates and cloud migrations. GitLab also introduced usage-based pricing and included DAP promotional credits with Premium and Ultimate subscriptions to accelerate platform adoption.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Fri, 29 Ma"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.fool.com/investing/2026/03/09/is-now-the-time-to-buy-beaten-up-gitlab",
+      "title": "Is Now the Time to Buy Beaten-Up GitLab? | The Motley Fool",
+      "content": "The company continues to see solid growth within its existing customer base, with dollar-based net retention of 118%. Meanwhile, enterprise customer growth remains solid. The number of customers with $100,000 or more in annual recurring revenue (ARR) rose by 18% to 1,456, while customers with $1 million in ARR jumped 26% to 155. It continues to see pressure in the mid-market, while its government business saw a partial recovery after the government shutdown. Looking ahead, GitLab guided for full-year fiscal 2027 revenue between $1.099 billion and $1.118 billion, representing growth of 15% to 17%. That was below the analyst consensus for revenue of $1.12 billion, as compiled by FactSet. It is looking for EPS in the range of $0.76 and $0.80. [...] +Fool.comon ## Key Points GitLab shares continued their rough ride after the company issued conservative guidance. The software development platform is transitioning to a hybrid consumption model. The stock is now in the deep discount bin, making it worth a closer look. [...] Image source: Getty Images. ## Is the stock a buy? Given its shift to a hybrid seat-plus consumption pricing model (combining a fixed, recurring per-user fee with variable charges based on product usage) and the introduction of its Duo Agent Platform, which requires consumption credits, it's not surprising that GitLab issued conservative fiscal 2027 guidance. However, both of these initiatives have the potential to be long-term growth drivers. Meanwhile, with the stock already washed out, it makes sense for management to set a low bar to jump over going forward.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Mon, 09 Ma"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-five-year-old-gitlab-flaw-exploited-in-attacks",
+      "title": "CISA warns of five-year-old GitLab flaw exploited in attacks",
+      "content": "\"These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise,\" CISA warned. \"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.\" Shodan is currently tracking over 49,000 devices with a GitLab fingerprint exposed online, the vast majority of which are from China, and nearly 27,000 are using the default port 443. GitLab says its DevSecOps platform has more than 30 million registered users and is used by over 50% of Fortune 100 organizations, including high-profile companies such as Nvidia, Airbus, Goldman Sachs, T-Mobile, and Lockheed Martin.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Wed, 04 Fe"
+    },
+    {
+      "id": "S13",
+      "url": "https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads",
+      "title": "GitLab cuts 14% of staff as it scales its platform to serve AI workloads | TechCrunch",
+      "content": "Developer platform GitLab has laid off about 14% of its workforce, about 350 employees, as part of a broader restructuring effort it detailed last month. The company said in May that it was going to reduce its workforce as it exited 22 countries, flattened management layers, and invested in infrastructure to scale its platform and serve increased traffic from AI workflows, with a sharper focus on research and development. CEO Bill Staples said during a conference call on Tuesday that agentic workloads are stressing developer infrastructure more than it was designed to handle. It isn\u2019t a problem unique to GitLab. The company\u2019s rival GitHub has itself struggled to deal with a massive influx of AI-powered submissions that have affected its uptime. [...] GitLab joins a number of tech companies such as Intuit, Amazon, Block, Cisco, Cloudflare, Meta, Microsoft, and Oracle that have laid off large numbers of employees, citing a need to make AI a core part of their business. The tech industry has already cut more than 100,000 jobs this year, per Statista, and is on track to outpace both 2024 and 2025 if the layoff trend continues. The pattern is by now familiar: Companies are reporting record revenues while simultaneously shrinking their workforces, with AI cited as both the reason for the growth and the justification for the cuts. Indeed, all of these companies have recently reported strong revenue and profit, pointing to strong demand for AI products, services, or the infrastructure to power them, and GitLab is no exception.",
+      "dimension": "status",
+      "query": "GitLab discontinued or shut down",
+      "published": "Wed, 03 Ju"
+    },
+    {
+      "id": "S14",
+      "url": "https://developercommunity.microsoft.com/t/Azure-Boards-GitHub-pull-request-insight/11166114?stateGroup=active&sort=newest",
+      "title": "Azure Boards GitHub pull request insights count skipped ...",
+      "content": "Azure Boards GitHub integration resets Closed. Azure DevOps pipeline summary remains running after pipeline fails\ue8a7. Solutions & workarounds",
+      "dimension": "status",
+      "query": "Azure DevOps Boards discontinued or shut down",
+      "published": "Wed, 14 Oc"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.vanitech.com.au/blog/azure-devops-global-pat-retirement-2026",
+      "title": "Azure DevOps Global PAT Retirement: 2026 Migration Guide",
+      "content": "An Azure Repos remote already using an SSH URL does not authenticate with a global PAT, so the 1 December global PAT shutdown does not by itself require that remote to change credentials. However, SSH is not a universal PAT replacement. It is designed for Git transport and does not replace authentication for REST API calls, Boards automation, package workflows or every third-party connector. [...] vanitech Get a Quote Back to Blog Azure DevOps authentication change # Azure DevOps Global PAT Retirement: 2026 Migration Guide Global Azure DevOps PATs retire on 1 December 2026. Audit affected integrations, choose safer authentication and understand what the change means for SSH. Azure DevOps global Personal Access Tokens stop working on 1 December 2026. If a token's access scope is set to All accessible organizations, Microsoft says it will be fully decommissioned on that date. [...] ## What Microsoft is retiring\u2014and when Global PATs are Azure DevOps bearer credentials with an access scope of All accessible organizations. Their reach grows when the account gains access to another organisation, so one leaked credential can expose a broader set of resources than an organisation-specific token with the same permission scopes. Microsoft originally planned to block creation and regeneration of global PATs from 15 March 2026. A 5 March update cancelled that intermediate restriction, allowing users to continue creating them until the final retirement. The date that now matters is 1 December 2026: Microsoft says all existing global PATs will be decommissioned and stop working.",
+      "dimension": "status",
+      "query": "Azure DevOps Boards discontinued or shut down",
+      "published": "Wed, 30 Se"
+    },
+    {
+      "id": "S16",
+      "url": "https://learn.microsoft.com/en-ca/answers/questions/6025099/exact-end-of-life-dates-for-azure-devops-oauth-and",
+      "title": "Exact end-of-life dates for Azure DevOps OAuth and Global PATs \u2014 any extensions, and do they hard-stop? - Microsoft Q&A",
+      "content": "2. Global Personal Access Tokens (PATs) Microsoft has confirmed December 1, 2026, as the retirement date for Global PATs in Azure DevOps Services. Existing Global PATs will stop working after this date. No extension mechanism or phased shutdown has been documented. This change does not apply to Azure DevOps Server. We recommend migrating to organization-scoped PATs with the minimum required permissions or Microsoft Entra authentication, where supported. Official references: Azure DevOps OAuth retirement announcement Global PAT retirement announcement Microsoft Entra OAuth for Azure DevOps ## Your answer [...] 2. Global Personal Access Tokens (PATs scoped to \"All accessible organizations\") General Thanks! ' cx='32' cy='32' r='32' /%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFF' %3ESM%3C/text%3E%3C/svg%3E) Hi Nadav Tzabari, We reviewed Microsoft's published guidance on both authentication changes. 1. Legacy Azure DevOps OAuth Microsoft stopped accepting new OAuth app registrations on April 23, 2025, and has announced retirement of the existing platform in 2026. However, the exact end-of-life date, token shutdown sequence, and extension options have not been specified in the published guidance. Microsoft recommends migrating existing integrations to Microsoft Entra ID OAuth. 2. Global Personal Access Tokens (PATs)",
+      "dimension": "status",
+      "query": "Azure DevOps Boards discontinued or shut down",
+      "published": "Sun, 04 Oc"
+    },
+    {
+      "id": "S17",
+      "url": "https://learn.microsoft.com/en-us/azure/devops/release-notes/features-timeline",
+      "title": "Azure DevOps Roadmap | Microsoft Learn",
+      "content": "| Timeframe | Feature | Area | --- | Future | Policies to disable authentication methods | General | | Substring search | General | | Commits search | General | | PR search | General | | New Boards Hub | Boards | | Markdown editor for work item multi-line fields | Boards | | Stop shipping Node 6 and Node 10 runners with the agent | Pipelines | | Support Pipelines App with GitHub Enterprise | Pipelines | | Service connections in checks | Pipelines | | Checks extensibility | Pipelines | | Package promote task in Azure Pipelines | Artifacts | | Deprecate old Azure Artifacts tasks in Azure Pipelines and default to new, auth-only tasks | Artifacts | | Dashboard Global Parameter | Reporting | | Dashboard Template | Reporting | [...] | Timeframe | Feature | Area | --- | 2026 Q3 | Commits search | General | | Remote Azure DevOps MCP Server (GA) | General | | Show pull request annotations on cards | Boards | | Copilot Code Reviews for Azure Repos (public preview) | Repos | | Large hosted agents | Pipelines | | Control access to GitHub repositories | Pipelines | | Stage-level traceability | Pipelines | | On-demand out of order execution of stages | Pipelines | | Improve the Reliability and Performance of the Azure Test Plans' Browser Extensions | Test Plans | | Support for JavaScript (Playwright) in Azure Test Plans | Test Plans | | Copilot Autofix for code scanning alerts (public preview) | GitHub Advanced Security for Azure DevOps | [...] | Malware alerts for dependency scanning | GitHub Advanced Security for Azure DevOps | | Dependency scanning ecosystem improvements | GitHub Advanced Security for Azure DevOps | | 2026 Q4 | MCP Server, elicitation support for organization and project selection | General | | Improvements to Copilot Code Review (Public Preview) | Repos | | Pull request commenter filtering | Repos | | Replace existing Wiki editor with Monaco Editor | Wiki | | Bulk attachment actions in Azure Boards | Boards | | Work item Import/Export to Microsoft Excel | Boards | | AI security detections for non-CodeQL supported languages | GitHub Advanced Security for Azure DevOps | | CodeQL default setup runs on pull request trigger | GitHub Advanced Security for Azure DevOps | | Future | Auditing GA | General |",
+      "dimension": "status",
+      "query": "Azure DevOps Boards discontinued or shut down",
+      "published": "Wed, 05 Au"
+    },
+    {
+      "id": "S18",
+      "url": "https://learn.microsoft.com/en-us/azure/devops/server/release-notes/azuredevopsserver?view=azure-devops",
+      "title": "Azure DevOps Server Release Notes - Azure DevOps Server & TFS | Microsoft Learn",
+      "content": "This patch resolves an issue introduced in the original Azure DevOps Server release that, under certain conditions, could cause group memberships to become deactivated. For more details related to the issue, see the updated blog post. Who should install this patch This patch applies to customers who installed Azure DevOps Server prior to the March 13, 2026 re\u2011published release. If you previously applied the mitigation described in earlier guidance, installing Patch 2 completes the remediation. Customers who have not run the mitigation script do not need to do so, installing Patch 2 is sufficient. Who does not need this patch Customers performing new installations or upgrades using the re\u2011published release available as of March 13, 2026. [...] ## Azure DevOps Server RC Release Date: October 7, 2025 ### Summary of What's New in Azure DevOps Server RC Azure DevOps Server introduces features that we have previously released in our hosted version of the product. You can jump to individual sections to see all the new features for each service: General Boards Repos Pipelines Test Plans Reporting Wiki ## General ### Copy code block to clipboard In response to your feedback in the Developer Community, we\u2019ve introduced a Copy to clipboard button for all code blocks in rendered markdown. This enhancement is available across Wiki pages, markdown file previews in Repos, pull request discussions and descriptions, and work item discussions. ### Delivery Plans permission added [...] These endpoints include: Listing current connections Listing connected repositories Adding and removing repositories We have also provided sample code to help you get started. ### Change for deleting area and iteration paths Deleting an area or iteration path can be disruptive. It can move work items to a new path and may cause teams to lose access to their boards and backlogs. Despite warnings and prompts, paths are sometimes deleted without fully understanding the consequences. To address this, we changed the behavior: Area and Iteration paths can now only be deleted if they are no longer used by any work items. ### Enhanced tag management on work item form",
+      "dimension": "status",
+      "query": "Azure DevOps Boards discontinued or shut down",
+      "published": "Tue, 13 Oc"
+    },
+    {
+      "id": "S19",
+      "url": "https://itsfoss.com/news/siemens-openradioss-fork",
+      "title": "Siemens Abruptly Takes Down OpenRadioss, But a Fork is Already Live",
+      "content": "It's FOSS Log in Sign up Sign in Log in Subscribe # Siemens Abruptly Takes Down OpenRadioss, But a Fork is Already Live Another reminder of why open source saves software from being lost forever. Sourav Rudra Sourav Rudra 2 min read Warp Terminal The globally recognized tech and engineering company has quietly shut down the OpenRadioss project at the start of this month, keeping the GitHub page around but completely removing the repository. I sound complainy because usually when an open project is discontinued, the maintainers put it into a read-only, public archive state, which allows other developers to learn and fork off it.",
+      "dimension": "status",
+      "query": "OpenProject discontinued or shut down",
+      "published": "Mon, 05 Oc"
+    },
+    {
+      "id": "S20",
+      "url": "https://bluespice.com/bluespice-at-the-smart-country-convention-2026",
+      "title": "BlueSpice at the Smart Country Convention 2026 | BlueSpice MediaWiki",
+      "content": "12. October 2026 OpenProject and Hallo Welt!, the company behind BlueSpice, are combining their expertise in project and knowledge management. The partnership strengthens the open-source ecosystem and opens up new opportunities for organizations to achieve digital sovereignty. Read more + ### Confluence Data Center Is Being Discontinued: BlueSpice as a Solid Alternative 17. September 2026 A recent article in ComputerWeekly (German) addresses the announced discontinuation of Confluence Data Center and the question of when it remains worthwhile to operate a knowledge platform in-house. The article also mentions BlueSpice as an alternative for companies that want to retain control over their data, systems, and operating models. Read more + [...] Schedule an appointment! Hallo Welt! GmbH is the company behind the open-source enterprise wiki software BlueSpice, which is distributed in more than 160 countries with over 1 million downloads. The Regensburg-based company has been building collaborative software for knowledge management, online documentation and quality management since 2007. #### Share This Story, Choose Your Platform! | | | Unless otherwise stated, the news on this website is licensed under Creative Commons Attribution 4.0 International License. | ## More BlueSpice News ### Hallo Welt! and OpenProject Join Forces 12. October 2026",
+      "dimension": "status",
+      "query": "OpenProject discontinued or shut down",
+      "published": "Tue, 18 Au"
+    },
+    {
+      "id": "S21",
+      "url": "https://alternativeto.net/software/openproject?platform=self-hosted",
+      "title": "Self-Hosted OpenProject Alternatives",
+      "content": "Other interesting Self-Hosted alternatives to OpenProject are Redmine, Kan.bn, Taiga.io and Fizzy. Discontinued Platforms Mac Windows Linux",
+      "dimension": "status",
+      "query": "OpenProject discontinued or shut down",
+      "published": "Tue, 22 Se"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.openproject.org/blog/open-source-jira-alternative",
+      "title": "OpenProject: The open source alternative to Jira",
+      "content": "## Hosting Jira shifted its focus to the cloud edition and has discontinued the on-premises offer. This move marks a shift in focus towards the cloud edition. Jira users who self-host their software had been requested to make plans to move to the cloud or data center, as support for self-hosted Jira is no longer available since spring 2024. Since then, many Jira customers already migrated to an alternative or are still looking for an easy way to do so. [...] OpenProject continues offering both the cloud and on-premises editions. OpenProject Enterprise on-premises edition enables companies to install OpenProject on their own servers and offers additional Enterprise add-ons and security features, as well as support. It provides the flexibility of self-hosting while ensuring a high level of security and extensibility with additional features. ## Open source [...] Open Source Migrations # OpenProject: The open source alternative to Jira Published by Maya Berdygylyjova Estimated reading time: 8 minutes > Caution > > Atlassian has announced that Jira Data Center will reach end of life on March 28, 2029. After this date, Data Center licenses and apps will expire and become read-only, leaving cloud hosting as the only supported option. Update March 2026: OpenProject is developing an official Jira Migrator to support your transition.",
+      "dimension": "status",
+      "query": "OpenProject discontinued or shut down",
+      "published": "Mon, 10 Ma"
+    },
+    {
+      "id": "S23",
+      "url": "https://en.wikipedia.org/wiki/List_of_airline_bankruptcies_in_the_United_States",
+      "title": "List of airline bankruptcies in the United States",
+      "content": "Text Small Standard Large This page always uses small font size Width Standard Wide The content is as wide as possible for your browser window. Color Automatic Light Dark This page is always in light mode. From Wikipedia, the free encyclopedia A number of major airlines have declared bankruptcy and have either ceased operations, or reorganized under bankruptcy protection. Airlines, like any business, are susceptible to market fluctuations and economic difficulties. The economic structure of the airline industry may contribute to airline bankruptcies as well. One major element in almost every airline bankruptcy is the rejection by the debtor of its current collective bargaining agreements with employees. After satisfying certain requirements, bankruptcy law permits courts to approve the rejection of labor contracts by the debtor-employer. With this tool, airline managers reduce costs. Terms of an employee contract negotiated over years can be eliminated in months through Chapter 11. Terms of the Railway Labor Act, amended in 1936 to cover airlines, prevent most labor union work actions before, during and after an airline bankruptcy. Continental Airlines declared bankruptcy, Chapter 11, a second time in December 1990. ## Timeline [edit] This is a timeline of airlines who have filed for bankruptcy protection. Also see list of defunct airlines for a list of airlines which are no longer operating. ### U.S. airlines bankruptcy filings [edit] #### Chapter 7 [edit] [...] | Airline | Date Bankruptcy filed | Date Exited Bankruptcy | Notes | --- --- | | American Trans Air (ATA) | 2008-04-02 April 2, 2008 | | Ceased operations | | New York Airways | 1979-05-18 May 18, 1979 | | Ceased operations | | Aeroamerica | 1979-11-19 November 19, 1979 | | Ceased operations | | Florida Airlines | 1980-01-24 January 24, 1980 | | Ceased operations | | Indiana Airlines\") | 1980-03-03 March 3, 1980 | | | | Air Bahia | 1980-12-15 December 15, 1980 | | Ceased operations | | Tejas Airlines | 1980-12-31 December 31, 1980 | | Ceased Operations( | | Mountain West Airlines-Idaho | 1981-03-06 March 6, 1981 | | Ceased operations | | LANICA | 1981-03-16 March 16, 1981 | | Nicaraguan airline; ceased operations | | Coral Air | 1981-07-13 July 13, 1981 | | | | Pacific Coast Airlines | 1981-09-11 September 11, 1981 | | | | Swift Aire Lines | 1981-09-18 September 18, 1981 | | Ceased operations (Charter flights) | | Golden Gate Airlines | 1981-10-09 October 9, 1981 | | Ceased operations | | Pinehurst Airlines | 1982-01-26 January 26, 1982 | | | | Silver State Airlines | 1982-03-03 March 3, 1982 | | | | Air Pennsylvania | 1982-03-26 March 26, 1982 | | Ceased operations | | Air South?action=edit&redlink=1 \"Air South (Alabama) (page does not exist)\") | 1982-04-02 April 2, 1982 | | | | Cochise Airlines | 1982-04-16 April 16, 1982 | | Ceased operations | | Braniff International | 1982-05-13 May 13, 1982 | | Ceased operations | | Astec Air East | 1982-07-08 July 8, 1982 | | | | Will's Air\") | 1982-08-19 August 19, 1982 | | | [...] | United Airlines | 2002-12-09 December 9, 2002 | 2006-02-01 February 1, 2006 | | | Air Canada | 2003-04-01 April 1, 2003 | 2004-09-30 September 30, 2004 | Canadian airline | | Flash Airlines | 2004-03-01 March 1, 2004 | | Ceased operations | | US Airways | 2004-09-12 September 12, 2004 | 2005-09-27 September 27, 2005 | Second filing and last before merging with American Airlines on oct 17 2015. Emerges in conjunction with its acquisition by America West | | Avianca | 2004-12-10 March 21, 2003 May 10, 2020( | December 10, 2004( December 1, 2021( | Colombian airline | | Aloha Airlines | 2004-12-30 December 30, 2004 | 2006-02-17 February 17, 2006 | Cargo division continued flying as Aloha Air Cargo | | Northwest Airlines | 2005-09-14 September 14, 2005 | 2007-05-31 May 31, 2007 | Ceased Operations; Merged with Delta Air Lines | | Delta Air Lines | 2005-09-14 September 14, 2005 | 2007-04-30 April 30, 2007 | Included subsidiary Comair \"Comair (USA)\") | | Maxjet Airways | 2007-12-26 December 26, 2007 | | Ceased operations | | Aloha Airlines | 2008-03-31 March 31, 2008 | | Second filing; ceased passenger operations | | ATA Airlines | 2008-04-03 April 3, 2008 | | Ceased operations | | Skybus Airlines | 2008-04-05 April 5, 2008 | | Ceased operations | | Frontier Airlines | 2008-04-10 April 10, 2008 | 2009-10-01 October 1, 2009 | | | Eos Airlines | 2008-08-26 August 26, 2008 | | Ceased operations | | Sun Country Airlines | 2008-10-06 October 6, 2008 | 2011-02-23 February 23, 2011 | Second bankruptcy |",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Sun, 25 De"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.slashgear.com/1631130/major-airplanes-manufacturers-discontinued",
+      "title": "10 Major Airplanes That Were Discontinued By Manufacturers, And Why",
+      "content": "## Airbus A380 Emirates Airbus A380 KITTIKUN YOKSAP/Shutterstock As the largest passenger jet ever built, there was only ever going to be a limited market for the Airbus A380 superjumbo. It can carry more than 600 passengers across its two full-length decks, and the first example was delivered to Singapore Airlines in 2007. After an initial flurry of orders, it soon became clear that most airlines simply couldn't justify the purchase of such a huge plane, and so demand quickly fell. Emirates was the largest customer of the A380 having purchased over 120 examples, but most other airlines purchased only a handful to serve their most popular routes. It was announced in 2019 that production of the A380 would end, since the demand simply wasn't there to keep the production line open. Most airlines instead favored the twin-jet A350, which could carry almost as many passengers but was notably cheaper to run. Thanks to their inherent inefficiency and limited versatility, many A380 aircraft were sent into retirement as the effects of the pandemic plunged many operators into losses. However, with the post-pandemic travel boom, many are now returning to service and are expected to remain in the skies for the next decade or more. ## Concorde Concorde 001 at launch Victor Drees/Getty Images After many years and thousands of hours of development, Concorde took its first commercial flight in 1976. For the first time, major global hubs like London, Paris, and New York were connected by an aircraft capable of traveling at supersonic speeds, vastly cutting down travel time for passengers. Concorde could complete journeys in less than half the time it took for a conventional passenger jet, and so it's easy to see why many passengers assumed that supersonic jets were the future of air travel. However, that was not to be. The first issue with Concorde was that it was incredibly expensive and complex to produce. It was developed jointly by a British and French consortium, with two production lines, one in each country. It was built only for the flag carrier airlines of those two countries, and its high fuel costs and controversial sonic boom meant that it was only viable on select routes. As a result, only 20 examples were constructed before production ceased.Questions were already being asked about the plane's future due to rising fuel costs before a fatal crash in 2000 sealed Concorde's fate. Air France Flight 4590 hit a piece of debris from another plane upon takeoff from Charles de Gaulle Airport in Paris, which caused a tire to burst. The debris from the tire damaged a fuel tank and caused a fire, with the plane subsequently losing control and crashing, killing all 109 people on board. The negative publicity caused passenger demand to drop significantly and Concorde was retired from service in 2003. ## Boeing 757 Boeing 757 at Seattle Airport Jon Tetzlaff/Shutterstock Built for more than two decades between 1982 and 2004, the Boeing 757 was popular with both passengers and airlines. Over 1,000 examples were built, but a combination of factors led to the plane being discontinued despite many calling for an updated version to be built. The first issue facing the 757 was the competition from its sibling, the 737. A new generation of 737 was launched in the '90s that drastically updated its capabilities, making it nearly as versatile as the 757 but significantly cheaper to buy and run. Airlines gravitated towards this newer model, but as a result, 757 sales suffered. [...] ## Tupolev Tu-154 Tupolev Tu-154M landing Mikhalis Makarov/Shutterstock Russia's last commercial Tupolev Tu-154 was finally retired from service in 2020, almost half a century after the first one left the factory. Production of the jet began in 1972, just as the then-Soviet Union's domestic aviation industry was starting to rapidly expand. The Tu-154 formed a vital part of that expansion, and was a common sight in the country's skies all the way through to the 2000s. It remained in production until 2013, but by that time, Russia's airlines had already largely replaced the jet with more modern, fuel-efficient aircraft from Airbus and Boeing. The Tu-154 was also dogged by safety concerns throughout its working life. It was involved in more than 70 crashes, with both civilian and military jets affected. One high-profile incident in 2011 saw a Russian Air Force Tu-154 dancing in mid-air after its flight controls failed shortly after takeoff. In that incident, the plane landed safely without casualties, but in many cases, passengers were not so lucky. In total, almost 3,000 people have reportedly been killed as a result of Tu-154 crashes. ## Boeing 727 Lufthansa Boeing 727 Peter Scharkowski/Shutterstock Built between 1963 and 1984, the 727 was at one point the best-selling passenger jet on the planet. It played a key role in helping major carriers connect smaller airports around the U.S. to major hubs, as well as ferrying passengers on shorter international trips across both America and Europe. It was visually very different to most other planes thanks to its unique wings and three jet engines, one of which was mounted centrally above the fuselage. Its unique design was also eventually the reason that the 727 was discontinued. Its three engines were substantially noisier than the newer twinjet 757, as well as being less efficient. As production for the 757 ramped up, there was little incentive for airlines to order the 727, and so it was discontinued. It would remain in use for another two decades after the last example left the factory, with Delta retiring its final 727 in 2003. ## Airbus A300 UPS Airbus A300 Robin Guess/Shutterstock The A300 was the first aircraft made by Airbus, taking its maiden flight in 1972. Airbus was created in an effort to unite aircraft production facilities across Europe, with parts of the A300 made in Germany and the U.K. being transported to Toulouse in France for final assembly. It was an unprecedented project and one that, at the time of its launch, attracted very few customers. Before launch, Airbus had only received orders for ten aircraft. However, after an extensive program of international demonstrations, the A300 slowly won favor with airlines both within Europe and outside of it. By the time the aircraft was discontinued in 2007 as a result of declining sales, a total of 561 examples had been built. Almost half of those were reported to be still in service as of 2022. The plane became an increasingly popular choice for freight airlines in its later years, with all 14 examples built in its last year of production being freighters. ## Lockheed JetStar Lockheed JetStar Air Force One EWY Media/Shutterstock Private jets are notoriously expensive, with even the cheapest examples costing several million dollars. The market for private jets \u2013- or business jets, to use the official terminology \u2013- keeps increasing year on year, but the market may not have existed were it not for the Lockheed JetStar. It's considered the first ever business jet, although it was originally designed for government use. It took just 241 days from the date that the idea was conceived for the first example to take its maiden flight.The jet was designed to carry between eight and 10 passengers depending on its configuration, and was ordered by several governments and air forces to transport high-ranking leaders and their staff. The U.S. Air Force was one such customer, ordering six examples in 1961 to transport the president and other officials. However, total orders for the aircraft were still lower than Lockheed's forecasts, and so the decision was made to market the jet to private buyers and corporations as a new category of personal transport. It proved a successful move, with over 200 examples of the JetStar built before production ended due to declining interest at the end of the '70s. The jet's original engines did not comply with noise regulations introduced earlier in the decade, and so new engines were fitted to later models. However, these later models still sold in relatively small numbers, with only 40 second generation aircraft built. The JetStar remained in the skies for decades after it was discontinued, with the last known example retired in 2019. ## Learjet Learjet taxiing at airport Kevin Porter/Shutterstock",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Wed, 07 Au"
+    },
+    {
+      "id": "S25",
+      "url": "https://simpleflying.com/7-beloved-jets-no-longer-fly",
+      "title": "7 Beloved Jets That No Longer Fly",
+      "content": "A right front view of a Concorde aircraft making a low pass during Air Fete '84. Credit: National Archives Catalog The Concorde is likely the most famous commercial airliner ever made, and undoubtedly the fastest and highest flying to ever enter service. The official Type Certificate for Concorde was withdrawn by the Civil Aviation Authority (CAA) in 2003. Of the 20 aircraft originally built, 18 are preserved and on display at various museums and airports across Europe and North America. The French prototype (001) made its maiden flight on March 2, 1969, from Toulouse, followed by the British prototype (002) from Filton on April 9, 1969. It pioneered technologies such as analogue fly-by-wire flight controls, a \u2018droop nose\u2019 for visibility during landing, and specialized engines that allowed it to supercruise at supersonic speeds without afterburners for extended periods. Russia technically completed the Tupolev Tu-144 just before the Concorde took its first flight, however the \u2018Concodski,\u2019 as it was known, was an abject failure in actual passenger service. The Concorde was famed as much for its speed and elegance as it was for the extravagance of the in-flight experience. free-flowing champagne and bottomless caviar made every departure a celebration of supersonic flight. ## 5 Boeing 737-100 ### Retired 2004 Aircraft in Photograph Boeing 737-100, UH-1H, T-38A, BE-80 Queenaire, OV-10A, U-21A, T-34C, Boeing 757-200, F-16XL Credit: Department of DefenseThe Boeing 737-100 was the archetype for one of the world's most iconic commercial jet aircraft and the best-selling airliner family until last year, when the Airbus A320 overtook the Boeing twinjet. Lufthansa launched the 737-100 in 1965, marking the first time a non-US airline served as the launch customer for a Boeing aircraft. According to Key Aero, the final commercial example was grounded by Peru\u2019s Aero Continente in 2003, and NASA\u2019s flying laboratory of the same airframe was retired a year later, in 2004. Despite its legacy of epic proportions, 737-100 was produced in a very limited run of only 30 airplanes, before the 737-200 became the first model in the famous aircraft family to see large-scale mass production and widespread commercial success. As major airlines moved toward larger variants, the original -100s found second lives with secondary carriers. The first prototype (N73700) was acquired by NASA in 1974. Re-registered as NASA 515, it spent nearly 30 years as the Transport Systems Research Vehicle, testing technologies like glass cockpits, electronic flight displays, and wind-shear detection systems that are now standard in modern aviation. ## 4 English Electric Lightning ### Retired 2009 English electric Lightning XR728 does a fast taxi during an open day at Bruntingthorpe. Credit: Shutterstock The English Electric Lightning had a storied career as Britain's first and only all-domestic Mach two interceptor. To minimize drag while maximizing power, it featured a unique staggered vertical engine layout, with two Rolls-Royce Avon turbojets stacked one above the other. Designed and built for the Royal Air Force (RAF), the English Electric Lightning entered service in 1959 and flew as a high-speed Interceptor until 1988. After the last operational Squadron stood down, a handful continued to serve British aerospace engineering until 1992. A number of airframes have been maintained around the world, with several in near airworthy condition, and even after BAE retired its test airframes, a small civilian group continues flying tours in South Africa with their own jets. The last operational civilian fleet was Thunder City in South Africa, which operated three Lightnings for tourist flights. This operation ceased following a fatal crash of a Lightning T.5 in 2009. Several Lightnings are maintained in live condition in the UK, meaning they can perform high-speed taxi runs but are not licensed to fly. It was famously described by pilots as \u2018being saddled to a skyrocket\u2019 thanks to its incredible thrust-to-weight ratio. It could reach an initial climb rate of 50,000 feet per minute and had a service ceiling exceeding 60,000 feet. ## 3 de Havilland Comet ### Retired 2011 DTEO Boscombe Down De Havilland DH106 Comet 4C, XS235. RIAT 1996 Credit: Shutterstock [...] The last unmodified de Havilland Comet to fly was a Comet 4C, serial number XS235 and nicknamed Canopus, which was operated by the UK's Ministry of Defence for avionics and radar research. Its final flight was into Bruntingthorpe Aerodrome on March 14, 1997, for preservation as a ground-running exhibit. ## 2 Avro Vulcan ### Retired 2015 A British Avro Vulcan soars through above thousands of spectators July 13, 2012. Credit: Shutterstock The Avro Vulcan was the most iconic of Britain's three V-Bombers, including the Victor and Valiant. Designed to deliver nuclear weapons at high altitudes, it became a symbol of British Cold War power and engineering, serving from 1956 to 1984. The Vulcan was revolutionary for its massive delta wing, which provided high lift and maneuverability at altitudes over 50,000 feet. Despite its size, it had a surprisingly small radar cross-section, making it an early pioneer in stealth-like characteristics. Throughout the late 1950s and 60s, the Vulcan served as the UK\u2019s primary nuclear deterrent. Aircraft were kept on Quick Reaction Alert (QRA), capable of getting airborne within four minutes of a warning. The Vulcan\u2019s only combat missions occurred at the very end of its career during the Falklands conflict.The RAF retired the Vulcan as a bomber in 1982, though a few remained in service as tankers until 1984. The last remaining airworthy example, Avro Vulcan XH558, ceased flying on October 28, 2015, due to rising maintenance costs and lack of engineering support. Several, including XH558 \u2018The Spirit of Great Britain,\u2019 are preserved in taxiable condition in the UK. ## 1 Antonov An-225 Mriya ### Destroyed 2022 he world largest cargo aircraft Antonov 225 Mriya stops at Prestwick airport for a fuel stop in 2020. Credit: Shutterstock The Antonov An-225 \u2018Mriya\u2019 (meaning \u2018Dream\u2019 in Ukrainian) was the world\u2019s largest and heaviest aircraft. Its destruction in February 2022 was a significant loss to global aviation and Ukrainian national pride. The world's only completed An-225 was destroyed at Hostomel Airport in Ukraine during the Russian invasion in February 2022. Hostomel Airport was a primary target for Russian paratroopers. During the intense fighting for control of the airfield, the An-225 was caught in the crossfire and suffered catastrophic fire damage.Designed by the Antonov Design Bureau in the 1980s, its original mission was to carry the Buran space shuttle and components of the Energia rocket for the Soviet space program. A second, unfinished AN-225 airframe exists but was also damaged during the conflict, making it unusable in its current state. Antonov Company has announced plans to reconstruct a new An-225 using components from the destroyed plane and the unfinished second airframe, but this project will only proceed after the war, with an estimated cost of over $500 million.",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Sun, 01 Fe"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.cnn.com/travel/gallery/junkers-coolest-retired-planes",
+      "title": "Beloved planes that have been retired | CNN",
+      "content": "The pioneering Junkers F13 was designed in 1919 by German aviation entrepreneur and businessman Hugo Junkers. In the era of fabric-and-wood biplanes and triplanes, it was the first all-metal transport aircraft. Luggagemakers RIMOWA and airline Ju-Air have teamed up to build a brand new Junkers F13, which will take its maiden flight in March 2016. There are only five F13 aircraft in museums around the world, none of them airworthy. So the new F13 is an exact replica built from scratch, using old blueprints. <br /> The last commercial F13 retired in Brazil in 1951, ending a significant chapter in the world of aviation development. Here are 10 more planes which, for better or worse, have been retired. Dan Hagedorn, curator of Seattle's Museum of Flight, points to the now-defunct Lockheed M-21 Blackbird as one of history's greatest flying machines. The spy plane built to support a CIA program in 1963. It was a precursor to the SR-71 Blackbird, which Hagedorn describes as \"the fastest, highest-flying piloted jet in history.\" The DC-10 took its last flight in 2014, 43 years after it first flew in 1971. The American-made \"trijet\" was famous for having three engines and is credited with launching modern, long haul air travel, and the long-haul flight, as we know it today. Known as the \"Flying Pancake,\" the Vought V-173 was designed during World War II to take off on short runways. The H-4 Hercules, or Spruce Goose was a massive sea plane designed and built by American industrialist, aviator, and film producer Howard Hughes in 1947.Pima Air & Space Museum in Tuscon, Arizona, displays a Fairchild C-82 Packet, a twin-engined cargo aircraft used briefly by the United States Air Force following World War II. Believe it or not, flying cars have been in existence since the 40s. The Convair Model 118 made a test flight in 1947. Alas, the hybrid vehicle never went into production after its one-hour demonstration flight, in which it had a crash landing due to low fuel, destroying the car body. In 1968, several Taylor Aerocar III's were built, though Hagedorn says they never really took off in the public eye. \"They were cumbersome and a little bit underpowered,\" he admits. A Church Army canteen worker is seen here handing a cup of tea to the pilot of a Sikorsky R-4 helicopter hovering overhead at an RAF Helicopter School in Andover, England, in 1945. Though not an airplane, the R-4 was the world's first mass-produced helicopter. The Douglas DC-2 was, according to Hagedorn, \"one of the most loved (planes) with the Royal Air Force.\" The Museum of Flight displays the last air-worthy model of the DC-2. Of course, no list of retired planes would be complete without the Concorde. The supersonic plane made its final transatlantic flight in October, 2003. British Airways flight BA001 took three hours and twenty minutes to reach New York from London's Heathrow Airport. <br />\u00a9 2026 Cable News Network. All Rights Reserved. CNN Sans \u2122 & \u00a9 2016 Cable News Network. ## Download the CNN app Scan the QR code to download the CNN app on Google Play. Scan the QR code to download the CNN app from Google Play. ## Download the CNN app Scan the QR code to download the CNN app from the Apple Store. Scan the QR code to download the CNN app from the Apple Store.",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Wed, 13 Ja"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.detroitnews.com/story/travel/2026/05/02/spirit-airlines-shutdown-refund-schedule-hotel-reimburse/89908112007",
+      "title": "Spirit Airlines shuts down. What to know about your flight",
+      "content": "# Spirit Airlines shuts down. What to know about your flight After two recent bankruptcies, countless punch lines and untold number of cheap flights, Spirit Airlines ceased operations early Saturday morning. All of the budget carrier\u2019s flights are canceled. The closure has left travelers scrambling across the country wondering: What happens to my flight in a few days? How do I get my money back? What about my points and flight credits? Spirit offered some answers on its website - and much of the news is bad for its customers. Here\u2019s what travelers should know. A Spirit Airline plane sits on the tarmac at LaGuardia Airport in Queens, in New York City, U.S., May 2, 2026. ## We've heard this before. Is Spirit really shutting down? Yes. It\u2019s done - for real this time. Previously, the airline had announced plans to merge with other airlines - first Frontier, then JetBlue. But a judge blocked the JetBlue plans in 2024 after the Justice Department sued to stop it from happening. \u201cIt is with great disappointment that on May 2, 2026, Spirit Airlines started an orderly wind-down of our operations, effective immediately,\u201d Spirit said on its website. \u201cWe are proud of the impact of our ultra-low-cost model on the industry over the last 34 years and had hoped to serve our Guests for many years to come.\u201d The final flights took off Friday night. ## What should I do if I am booked on an upcoming flight? [...] For those who bought travel insurance, Spirit suggests checking with the provider to see if those expenses are covered. Customers should also check their credit card policies; some may cover expenses related to trip disruption. ## What are other airlines doing to help affected passengers? Multiple airlines have agreed to offer measures meant to help Spirit customers and employees, especially those who are currently traveling and stuck without a way to get home. United, Delta, JetBlue and Southwest are capping ticket prices for a limited time for travelers whose Spirit flights were canceled. Passengers will need to provide information such as proof of payment and a Spirit confirmation number. JetBlue, for example, said it was offering $99 one-way fares to people with proof of a valid Spirit itinerary for the same route for travel through Wednesday. According to the Department of Transportation, American and Delta are offering lower fares on routes that Spirit flies frequently, while Allegiant will freeze prices on routes that overlap with Spirit. ## What happens to my points and miles in the loyalty program? The points can no longer be redeemed. They can\u2019t be transferred to another airline or loyalty program. \u201cPlans for the loyalty program will be determined at a later date through the bankruptcy process,\u201d the airline said.",
+      "dimension": "status",
+      "query": "Plane discontinued or shut down",
+      "published": "Thu, 21 Ma"
+    },
+    {
+      "id": "S28",
+      "url": "https://tech.co/project-management-software/jira-pricing",
+      "title": "Jira Pricing Guide: How Much Does the Provider Cost in 2026?",
+      "content": "Time tracking Unlimited projects AI insights Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users. Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users. There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available. In this guide, I\u2019ll take you through everything you need to know about Jira pricing, including plans, hidden fees, and potential competitors. In This Guide: [...] ### Key Takeaways Jira\u2019s Standard plan starts at $7.91 per user, per month, while its Premium plan goes up to $14.54 per user, per month, for up to 300 users. Choose annual billing to reduce the cost of the Standard plan to $6.52 per user, per month for a team of 300. Large enterprises that favor a self-hosting option should go for Jira Data Center, which starts at $51,000 per year and supports teams of 500 or more. Alternatives include Trello, which is great for budget-conscious teams, and monday work management, which is much easier to use. Jira has hidden costs in the form of paid add-ons from the Atlassian marketplace. ## How Much Does Jira Cost? Jira has four pricing plans \u2014 a free plan, Standard, Premium, and Enterprise. [...] Free \u2013 Free (up to 10 users) Standard \u2013 $7.91 per user, per month (300 users) Premium \u2013 $14.54 per user, per month (300 users) Enterprise \u2013 Custom pricing Jira is favored by tech and IT teams for its deep level of customizability, scrum and kanban boards, and integration with developer tools, such as GitHub. As a result of this, some of the terminology used in the app might be unfamiliar, and it\u2019s not very easy to use. Screenshot of Jira The \u201cimpact vs effort\u201d graph is a great way of measuring ROI. Source: Tech.co testing 0 out of 0",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S29",
+      "url": "https://thedigitalprojectmanager.com/tools/jira-pricing",
+      "title": "Jira Pricing Tiers & Costs",
+      "content": "## How Much Does Jira Cost? Jira\u2019s paid plans start at $7/user/month and go up to $12/user/month. A free version is available for small teams or individual users with up to 10 users. Additionally, there is a custom pricing tier for enterprise users, which includes advanced analytics, enhanced security features, and support for multiple instances. ## Jira Plans & Pricing Tiers Here's an overview of the available Jira plans: [...] ### Jira Premium Plan Aimed at larger teams, the Premium plan costs $12/user/month. It offers AI-powered features, collaborative teamwork, customizable approval processes, and unlimited storage. This plan is ideal for organizations requiring advanced project management and automation. Limitations include a 1-hour response time from Jira service management for critical issues. ### Jira Enterprise Plan Tailored for large enterprises, the Enterprise plan includes advanced analytics, security, and multiple instances. It\u2019s best for organizations needing extensive customization, data isolation, and administrative autonomy. This plan offers unlimited automations and 24/7 premium support with a 30-minute response time for critical issues. Limitations are based on annual billing only. [...] ## Jira Pricing Vs. Competitors Jira is generally considered to be in the average to affordable range for project management software. It offers four user tiers: Free, Standard ($7/user/month), Premium ($12/user/month), and Enterprise (custom pricing). Each plan includes features such as various project views, automation capabilities, and extensive integrations. The Free plan offers basic features, while the Standard and Premium plans offer more advanced perks like user roles, permissions, and increased storage. Overall, Jira's pricing is competitive, especially for small to medium-sized teams, and it provides strong security safeguards across all plans. ### Comparison Chart: Jira vs. Alternatives",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S30",
+      "url": "https://ones.com/blog/jira-pricing-explained-why-you-should-consider-other-options",
+      "title": "Jira Pricing 2026: Plans, Hidden Costs & TCO Guide",
+      "content": "| Plan | Price | Users | Storage | Automation | SLA | --- --- --- | | Free | $0 | Up to 10 | 2 GB | 100 rules/month | None | | Standard | $7.91/user/mo | Up to 100,000 | 250 GB | 1,700 rules/month | None | | Premium | $14.54/user/mo | Unlimited | Unlimited | 1,000 rules/user/mo | 99.9% | | Enterprise | Custom | Unlimited | Unlimited | Unlimited | 99.95% | Monthly billing costs 7\u201310% more. Standard goes from $7.91 to $8.15, Premium from $14.54 to $15.25. The practical trigger point: once you exceed 10 users, you\u2019re forced onto a paid Jira pricing plan. For a 50-person team on Standard, that\u2019s roughly $4,750/year \u2014 before any add-ons. ## Jira Cloud Pricing Plans: The Full Breakdown [...] Log in Book a Demo Try for free Jira Alternative # Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives Scott, Andrew Scott, Andrew \u00b7 14 min read Try ONES for free ![Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives]( If you\u2019re considering Jira as your project management tool, you\u2019re not alone. Jira has long been a popular choice for software development teams, especially those working with Agile workflows. That said, pricing is still worth a closer look before you commit. Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page. [...] According to Atlassian\u2019s pricing tables, Jira Data Center currently starts at $51,000/year for up to 500 users. From February 17, 2026 PT, that tier will increase to $59,000/year. The 1,000-user tier will rise from $87,000 to $100,000/year, and the 2,000-user tier will rise from $158,000 to $182,000/year. Because Jira DC pricing uses fixed tiers, costs can jump quickly when your team crosses into the next user band. For example, moving from 500 to 501 users means moving into the 1,000-user tier. ### Data Center EOL: March 28, 2029 (What It Means for Your Budget?) Atlassian has announced end-of-life for Jira Data Center Server on March 28, 2029. After that date, no security patches, no bug fixes, no support.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S31",
+      "url": "https://www.vendr.com/marketplace/atlassian",
+      "title": "Atlassian Software Pricing & Plans 2026: See Your Cost",
+      "content": "## How much does Jira Software cost? Pricing Structure: Free: Up to 10 users, basic features, community support Standard: Starts at $8.15/user/month (billed annually) for 1\u201310 users; decreases to ~$7.16/user/month for 11\u2013100 users, and continues to scale down with volume Premium: Starts at $16/user/month (billed annually) for 1\u201310 users; includes advanced permissions, analytics, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, enterprise-grade security, and dedicated support Observed Outcomes: [...] Benchmarking context: Vendr transaction data shows that bundled Jira + Confluence deals often achieve lower effective per-user pricing compared to standalone purchases. Compare Confluence pricing with Vendr to see how your quote aligns with recent market outcomes. ## How much does Jira Service Management cost? Pricing Structure: Free: Up to 3 agents, basic ITSM features Standard: Starts at $21.25/agent/month (billed annually) for 1\u20133 agents; scales down with volume Premium: Starts at $49.50/agent/month (billed annually); includes advanced automation, SLA management, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, and enterprise-grade controls Observed Outcomes: [...] Small teams (10\u201350 users) Small teams typically purchase Standard or Premium tiers at or near list pricing, with limited negotiation leverage. Total annual cost for Jira Software + Confluence (Standard tier) for 25 users is approximately $4,000\u2013$5,000 at list rates. In Vendr's dataset, buyers in this range often achieve modest discounts through annual prepayment or bundling. Mid-market teams (50\u2013200 users)",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S32",
+      "url": "https://www.salto.io/blog-posts/jira-pricing-plans-guide",
+      "title": "Jira Pricing: A Comprehensive Guide to All Plans",
+      "content": "## Summary Jira's pricing depends on several parameters. If you choose on-premise hosting with a Data Center version, you may only pay annually with a minimum of 500 users. On the other hand, if you choose the cloud option, you have more flexibility with monthly or annual payments and four different plans - Free, Standard, Premium, and Enterprise, each with its limitations, pricing list, and unique features. When planning your budget, keep in mind the cost of apps. If you plan to add more users, you will also have to pay more for the apps. Check the Atlassian Pricing formal page to explore the updated pricing, a simulator to get the exact payment for your number of users, and the Atlassian Marketplace to check the apps' cost. WRITTEN BY OUR EXPERT Gal Fatal",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S33",
+      "url": "https://www.itqlick.com/youtrack/pricing",
+      "title": "YouTrack Pricing: Full 2026 Breakdown | ITQlick",
+      "content": "## YouTrack Pricing Plans YouTrack offers a tiered pricing structure. For a single user, the cost is free. For 10 users, the monthly cost is around $50, translating to approximately $600 annually. Scaling to 100 users would cost about $500 per month or $6,000 per year. Implementation costs for SMBs are minimal, potentially a few hundred dollars for initial setup. For enterprises, implementation, customization, training, and migration can range from $5,000 to $50,000 depending on complexity. ### Pricing Tiers & Hidden Costs Revealed [...] ### Which Plan Is Right for You? YouTrack is a good fit for businesses with varying budget thresholds. Smaller teams with limited budgets can leverage the free plan. Teams with 10-50 users and a budget of $50-$250 per month find the mid-tier plans suitable. Larger enterprises with budgets exceeding $500 per month benefit from the comprehensive features of the top-tier plan. Industries like software development, project management, and IT benefit most from YouTrack's features. Its scalability makes it suitable for both SMBs and large enterprises. ### YouTrack vs. Alternatives (pricing) [...] License price deltas are stated first, then annual TCO deltas with explicit $ differences across real competitors. Compared to competitors, YouTrack's licensing is competitive. Jira's standard plan for 100 users costs around $750 per month, making YouTrack approximately $250 cheaper monthly. Asana's business plan for 100 users is about $2500 per month, a significant difference of $2000. Trello's business class plan is around $1250 per month for 100 users, $750 more than YouTrack. In terms of TCO, considering implementation, training, and ongoing support, YouTrack's annual TCO for 100 users is roughly $8,000-$12,000. Jira's TCO is $10,000-$15,000, Asana's is $30,000-$40,000, and Trello's is $15,000-$20,000. Therefore, YouTrack offers a cost-effective solution, saving businesses between",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S34",
+      "url": "https://www.capterra.com/p/123548/YouTrack/pricing",
+      "title": "YouTrack Pricing 2026",
+      "content": "How much does YouTrack cost? YouTrack has 3 different plans. The pricing starts at $3.67 per user per month with a free plan available.",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S35",
+      "url": "https://www.g2.com/products/youtrack/pricing",
+      "title": "YouTrack Pricing 2026",
+      "content": "According to G2 data, YouTrack pricing in 2026 starts at $3.67 and can reach $600.00 depending on the selected plan. Pricing may vary based on billing terms or",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S36",
+      "url": "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025",
+      "title": "New YouTrack Prices Starting from October 2025 - The JetBrains Blog",
+      "content": "If your team has more than 10 users, subscription prices will be adjusted starting October 1, 2025. For monthly plans, the new pricing starts at USD 5.40 per user per month. If you prefer an annual subscription, you\u2019ll get two months free \u2013 the new starting price will be USD 4.50 per user per month. The larger your team, the lower your price, thanks to discount increasing as you add users. You can explore updated pricing examples in our FAQ. Helpdesk functionality remains fully included with your subscription. It stays free for teams with up to 3 support agents and unlimited reporters. For teams with 4 or more agents, new pricing will apply: USD 6 per agent per month with a monthly plan, or USD 5.50 per agent per month with an annual plan. [...] The new per-user pricing will take effect on October 1, 2025. After that date, monthly plans will start at USD 5.40 per user, and annual plans at USD 4.50 per user, with increasing discounts as your team grows. You can check our FAQ for examples to estimate your cost. As always, the full set of features, support, and AI assistance are included at no extra charge. Discounts for startups, educational and non-profit organizations, and open-source projects will remain available. ## Updates for YouTrack Server customers If you\u2019re using YouTrack Server, here\u2019s what will and won\u2019t change starting October 1, 2025. ### What\u2019s not changing YouTrack Server will remain free for teams of up to 10 users \u2013 no changes there.",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S37",
+      "url": "https://sales.jetbrains.com/hc/en-gb/articles/11558334281234-Helpdesk-pricing-and-licensing",
+      "title": "Helpdesk pricing and licensing \u2013 Licensing and Purchasing FAQ",
+      "content": "The YouTrack Cloud trial plan includes 50 support agents in addition to 100 users and 100 GB of disk space for 14 days. After the 14-day trial period expires, your YouTrack instance will go back to the free plan with 10 users and 3 support agents. If you need 4 or more agents, the price is $6 per agent/month for monthly subscriptions and $5.50 per agent/month for an annual subscription for support teams of 4 support agents or more. Each support agent also requires a user license. For example, if your team consists of 30 members and 25 of them are regular users and 5 are support agents, you will pay for 30 users and 5 support agents for your YouTrack subscription. Feel free to use our YouTrack Cloud price calculator to estimate your costs.",
+      "dimension": "pricing",
+      "query": "YouTrack pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S38",
+      "url": "https://www.spendflo.com/blog/gitlab-pricing-guide",
+      "title": "GitLab pricing plans in 2025 (+ cost saving tips)",
+      "content": "\u200dHow much does GitLab cost? \u200d GitLab pricing ranges from $3,000 to $120,000 annually, depending on the number of user per month and features required. Pricing tiers include Free, Premium plan, and Ultimate, with the cost varying based on the organization's scale and usage needs. \u200d What is the difference between GitLab's free, premium, and ultimate tiers? \u200d The free tier is for small teams and has limited features. Premium plan has more advanced features like code quality and security tools. Ultimate has the full feature set including dynamic security testing and compliance tools. \u200d Do you offer discounted rates for nonprofits or educational organizations? \u200d [...] ###### How Much Does GitLab Cost? GitLab premium pricing ranges from $3,000 to $120,000 annually, depending on the number of users and the required features. GitLab offers a free \"Core\" tier for small teams and paid tiers, like \"Premium\" and \"Ultimate,\" for businesses needing advanced security testing capabilities. The cost varies based on factors like CI/CD pipelines, security features, and compliance tools. For a more personalized estimate, GitLab provides a pricing calculator, allowing businesses to tailor costs to their needs. \u200d \u200dPlans Offered by GitLab: \u200d [...] \u200d \u200dPlans Offered by GitLab: \u200d | Plan | Cost | Features | --- | Free | $0 per user/month | 400 compute minutes/month, 5 users per top-level group, great for small teams | | GitLab Premium | $29 per user/month (billed annually) | Everything from Free, plus: Code Ownership, Protected Branches, Merge Requests Approval, Advanced CI/CD, 10,000 compute minutes per month | | Ultimate | Contact Sales | Everything from Premium, plus: Dynamic Application Security Testing, Security Dashboards, Vulnerability Management, 50,000 compute minutes per month | \u200d How to Get a Better Deal on GitLab? \u200d Here are some tips for getting a better deal on GitLab premium : \u200d Ask about discounts \u200d",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S39",
+      "url": "https://www.capterra.com/p/159806/GitLab/pricing",
+      "title": "GitLab Pricing 2026",
+      "content": "GitLab has 1 plan. The pricing starts at $29 per user per month with a free plan available. Premium $29.00 Per User, Per Month Premium plan includes: 10000 CI/",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S40",
+      "url": "https://www.trustradius.com/products/gitlab/pricing",
+      "title": "GitLab Pricing 2026",
+      "content": "GitLab offers three different plans, ranging from $0 to $1,188 in cost per user a year. These are GitLab SaaS plans. Their free, open-source option is self-",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S41",
+      "url": "https://www.spendhound.com/marketplace/gitlab-pricing",
+      "title": "Actual GitLab Pricing 2026 | See How We Help You Pay Less",
+      "content": "GitLab offers multiple pricing tiers to match different team sizes and use cases. At an average of $23292 SMB plans are designed for small to mid-size teams who need core functionality. For larger organizations, Enterprise plans at an average of $310688 include enterprise-grade features and support. Pricing may be custom and based on headcount, usage volume, and contract length. Most businesses use a combination of tiers depending on team function. ### Can you negotiate GitLab pricing? [...] Across the major CI/CD and DevOps providers, list pricing for comparable capabilities is generally similar, but real differences emerge in performance per dollar for your specific use case. On average, GitLab is priced at $23292 and $310688 for SMB and Enterprise plans, respectively. JFrog runs at an average of $33271 and $227381. CircleCI is priced at $23894 and $5292, on average. Perforce pricing averages out to $12145 AND $221722. ### What is GitLab Enterprise pricing and what does it include? [...] ### How much does GitLab cost per month? GitLab pricing varies depending on your usage tier and the features you need. For individual users and small teams, SMB plans typically average around $23292. Enterprise plans average around $310688 and add more features and higher usage limits. Custom pricing may be negotiated directly with GitLab using SpendHound. ### What are GitLab\u2019s pricing plans and which one is right for my business?",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S42",
+      "url": "https://www.activepieces.com/blog/gitlab-pricing-in-2026-what-teams-pay",
+      "title": "GitLab Pricing in 2026: What Teams Pay | Activepieces",
+      "content": "While the entry point is accessible for solo hobbyists, the transition to team-based development triggers a significant financial step-function. This occurs regardless of which specific features you actually utilize. The following table outlines the current 2024 tier specifications. Resource ceilings and user caps drive upgrades, forcing you to forecast growth to avoid mid-cycle plan changes. ## Gitlab pricing plans and feature limits | Tier | Price (Per User/Mo) | CI/CD Minutes | Max Users | Key Features | --- --- | Free | $0 | 400 mins | 5 users | Basic CI/CD | | Premium | $29 | 10,000 mins | Unlimited | Advanced CI/CD, Code Reviews | | Ultimate | $99 | 50,000 mins | Unlimited | Vulnerability Management, Compliance |",
+      "dimension": "pricing",
+      "query": "GitLab pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S43",
+      "url": "https://ones.com/blog/solution-guide/azure-devops-pricing-2026",
+      "title": "Azure DevOps Pricing 2026: Plans and Costs",
+      "content": "### Basic Basic is the standard license for software delivery teams. It includes Azure Boards work item tracking, Kanban boards, backlogs, sprint planning, portfolio management, private Git repositories, dashboards, queries, and collaboration features. Each organization receives the first five Basic users at no cost. After that allowance is used, each additional Basic user is charged $6 per month. Visual Studio subscribers may receive Azure DevOps access through their subscription, and eligible GitHub Enterprise customers may also receive Basic access without a separate Azure DevOps license charge. ### Basic + Test Plans [...] | Plan or service | Published pricing | What it covers | --- | Stakeholder access | Free | Basic work item access and selected project visibility | | Basic | First five users free; then $6 per user per month | Boards, backlogs, sprint planning, private Git repositories, dashboards, and core collaboration features | | Basic + Test Plans | $52 per user per month | Basic capabilities plus test planning, test execution, exploratory testing, and user acceptance testing features | | Microsoft-hosted pipeline capacity | One parallel job with 1,800 minutes free; $40 per additional parallel job per month | Hosted build and deployment execution | [...] Azure DevOps pricing in 2026 is based on a combination of user licenses, test management access, CI/CD capacity, artifact storage, and optional security services. The most common starting point is Azure DevOps Basic: the first five users are free, and additional users cost $6 per user per month. Teams that need structured test planning and execution can choose Basic + Test Plans at $52 per user per month. Build concurrency, package storage, code security, and deployment volume can add separate charges, so the headline license price is not always the full cost of an implementation. ## Azure DevOps pricing at a glance",
+      "dimension": "pricing",
+      "query": "Azure DevOps Boards pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S44",
+      "url": "https://www.jalasoft.com/blog/cost-of-devops",
+      "title": "Azure DevOps Pricing & Cost Guide: Free Options and Budget Planning | Jalasoft USA",
+      "content": "## Azure DevOps Pricing Breakdown: Complete Cost Structure To accurately forecast your Azure DevOps cost, you must deconstruct the bill into its four primary components: Users, Pipelines, Storage, and Administration. ### User Licensing Costs (Basic, Basic + Test Plans, Stakeholder) Azure DevOps uses a per-user/per-month model: Stakeholder (Free): Unlimited users. Ideal for business executives or project managers who need to view progress and add items to the backlog but do not code or run pipelines. Basic Plan (~$6/user/month): The standard license for developers. Includes access to Repos, Boards, and Pipelines. The first 5 are free; you pay for the 6th onwards. [...] ### What's Included in the Azure DevOps Free Plan Microsoft offers a generous entry point designed to get teams hooked on the ecosystem. The free tier includes: First 5 Users: Free access to Basic features (Boards, Repos, Pipelines, Artifacts). Azure Pipelines: One free Microsoft-hosted job with 1,800 minutes per month for CI/CD, and one self-hosted job with unlimited minutes. Azure Boards: Work item tracking and Kanban boards. Azure Repos: Unlimited private Git repositories. ### Free User Limits and Limitations [...] ### Support Plan Selection Do not forget the cost of support. Standard Azure Support plans range from $29/mo to $1000/mo, depending on your SLA requirements for response times. ## Cost Optimization Strategies for Azure DevOps To keep your Azure DevOps costs sustainable, you should implement these governance policies. ### Maximizing Free Tier Usage Ensure every Stakeholder is actually assigned a \"Stakeholder\" license, not a \"Basic\" one by default. Regularly audit user lists to remove inactive accounts. ### Reducing Parallel Job Overcommitment Use self-hosted agents for heavy workloads. You can run self-hosted agents on \"Spot Instances\" (Azure Spot VMs) to save up to 90% on compute costs. ### Artifact Storage Cleanup and Management",
+      "dimension": "pricing",
+      "query": "Azure DevOps Boards pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S45",
+      "url": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services",
+      "title": "Azure DevOps Services Pricing | Microsoft Azure",
+      "content": "Microsoft-hosted 1,800 minutes free with 1 free parallel job $40 per parallel job with unlimited minutes /mo First 2 GiB free $0/extra gigabyte $2/extra gigabyte $1/extra gigabyte $0.5/extra gigabyte $0.25/extra gigabyte /mo Code Security committers $30/committer/month /mo Self-hosted 1 free parallel job with unlimited minutes $15 per extra parallel job with unlimited minutes /mo Rate card Secret Protection committers $19/committer/month /mo User licenses Basic Plan First 5 users free, then $6 per user per month First 5 users free $6/user/month /mo Basic + Test Plans $52 per user per month First 5 users free. For additional users, use slider Additional users are charged $6/user/month /mo $52 per user per month $52/user/month /mo [...] /mo $52 per user per month $52/user/month /mo ## Azure DevOps is included with Visual Studio Subscriptions Visual Studio subscribers get free access to Azure DevOps. Subscribers get access to any number of organizations and don't count against your 5 free users. ## Azure DevOps Basic is included in GitHub Enterprise GitHub Enterprise includes access to Azure DevOps. GitHub Enterprise Cloud customers who manage users with Entra ID can access Azure DevOps without additional cost. ## Compare features [...] Learn more Important\u2014The price in R$ is merely a reference; this is an international transaction and the final price is subject to exchange rates and the inclusion of IOF taxes. An eNF will not be issued. Individual services GitHub Copilot Code Review Azure Pipelines 1 Free Microsoft-hosted CI/CD 1 Free Self-Hosted CI/CD Microsoft-hosted 1 free parallel job with 1,800 minutes $40 per extra parallel job with unlimited minutes /mo Self-hosted 1 free parallel job with unlimited minutes $15 per extra parallel job with unlimited minutes /mo Azure Artifacts 2 GiB free, then starting at $2 per GiB GitHub Advanced Security for Azure DevOps Code Security: $30 per committer per month Secret Protection: $19 per committer per month Microsoft-hosted",
+      "dimension": "pricing",
+      "query": "Azure DevOps Boards pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S46",
+      "url": "https://xebia.com/blog/what-does-azure-devops-services-cost",
+      "title": "What Does Azure DevOps Services Cost? | Xebia",
+      "content": "Stakeholder: these users have most of the functionality available but have no access to Azure Repos and lack some advanced features on Azure Boards. This access level is free though! Basic: have access to everything, except Azure Test Plan administration (creation of test plans, test suites and test cases). They can run tests though. A Basic user costs $6/month. Basic+Test Plans: have the Azure Test Plans administration on top of the features of the Basic user. A Basic+Test Plans user costs $52/month. Visual Studio Subscriber: when you pay for a Visual Studio subscription, a license to use Azure DevOps Services comes with it. So, there is no need to pay for a Basic user when a user has a Visual Studio Subscription. ## Cost #2: Pipelines [...] The Basic + Test Plans tier costs approximately $52 per user per month and includes advanced testing capabilities such as test case management and reporting. Azure Pipelines includes one free parallel job with limited minutes. Additional Microsoft-hosted parallel jobs cost around $40 per job per month, while self-hosted jobs cost about $15 per additional job. GitHub Advanced Security for Azure DevOps is priced based on active committers, typically around $49 per active committer per month, depending on usage and features enabled. In many cases, Azure DevOps Services can be more cost-effective than on-premises setups because it eliminates infrastructure, maintenance, and operational overhead costs such as hardware, power, and system administration. Tags: [...] ## Cost #6: Support plans By default, there is no real support. There is the documentation and some self-service pages. If you want more, you pay. There are three levels, and these are the same levels/plans as for Azure. You can find all the details on this page. Support starts at $29/month and goes up to $1000/month. Most of my customers already have support plans on their existing Azure subscriptions and as such don\u2019t need an additional support plan. ## Cost #7: GitHub Advanced Security for Azure DevOps (updated 2024)",
+      "dimension": "pricing",
+      "query": "Azure DevOps Boards pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S47",
+      "url": "https://www.ppm.express/glossary/azure-boards",
+      "title": "What is Azure Boards? | PPM Express",
+      "content": "Basic + Test Plans: The Standard plan starts at $52 per user per month and includes additional features such as portfolio management, custom fields, and test",
+      "dimension": "pricing",
+      "query": "Azure DevOps Boards pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S48",
+      "url": "https://www.datamation.com/cloud/cloud-project-management-software",
+      "title": "10 Best Cloud Project Management Software for 2026",
+      "content": "Like Trello and YouTrack, Jira is primarily geared toward software project management. However, the leading project management platform has also gained a following outside of software circles. The solution features a customizable workflow, a multi-faceted issue-tracking system, and other features that help to streamline the management of complex projects. Visit Jira Jira interface. Jira\u2019s new dashboard of project management shows individual tasks and who they\u2019re assigned to organized in cards. ### Pros and cons | Pros | Cons | --- | | Ideal for managing application development projects | Some organizations may find the solution too specific for software teams | | Strong task and activity tracking features | The user interface can be confusing for some users | Advertisement [...] Top cloud project management software comparison Asana: Best for support, collaboration, and reporting Jira: Best for software teams and customizable dashboards monday work management: Best for pre-made templates and customizability Smartsheet: Best for industry-specific applications TeamGantt: Best for visualizing workloads and team availability YouTrack: Best for extensive customization and collaborative tools Zoho Projects: Best for time-tracking and resource management Wrike: Best for AI-powered automation Basecamp: Best for simple, innovative features Trello: Best for visual Kanban collaboration Key features of cloud project management software Methodology Frequently asked questions (FAQs) Bottom line ## Top cloud project management software comparison [...] Asana: Best for support, collaboration, and reporting Jira: Best for software teams and customizable dashboards monday work management: Best for pre-made templates and customizability Smartsheet: Best for industry-specific applications TeamGantt: Best for visualizing workloads and team availability YouTrack: Best for extensive customization and collaborative tools Zoho Projects: Best for time-tracking and resource management Wrike: Best for AI-powered automation Basecamp: Best for simple, innovative features Trello: Best for visual Kanban collaboration",
+      "dimension": "competitive",
+      "query": "Jira vs YouTrack features",
+      "published": "Thu, 30 Ju"
+    },
+    {
+      "id": "S49",
+      "url": "https://maketecheasier.com/youtrack-task-management-tool",
+      "title": "Why YouTrack Is the Best Free Task Management Tool I Have Ever Used - Make Tech Easier",
+      "content": "## Time Tracking Is a Bonus I always struggled with time tracking. Most tools made it feel like a chore. YouTrack handles it differently. Its time tracking feature blends naturally with tasks. I simply log the hours when I finish something or track time as I work. The timesheet report shows: how long each task took, how accurate my estimates were, and where my time goes every week. Seeing these patterns helped me improve my planning. I now estimate my work better and avoid overloading my schedule. ## It Comes with Knowledge Base too YouTrack also comes with a built-in knowledge base. I use it to store: notes, guides, research, meeting summaries, and project documentation. [...] The visual nature of Agile boards also keeps me motivated. Moving a card to the Done column isn\u2019t just satisfying; it provides a real sense of progress. Before YouTrack, my tasks were usually just short notes like \u201cwrite article\u201d, \u201cupdate website\u201d, or \u201cfix issue\u201d. They didn\u2019t give me directions. YouTrack taught me to add details. Now each task includes a short but clear title, notes or steps, priority, estimated time, and attachments when needed. Writing tasks this way keeps me accountable. When a task has structure, I\u2019m more likely to finish it. It also saves time because I no longer have to \u201cremember\u201d what I meant when I wrote the task. ## Time Tracking Is a Bonus [...] Everything stays connected to my tasks. When I open a project, the related notes are just a click away. It feels like having my own personal wiki, integrated directly into my task manager. ## Wrapping Up If you like simple tools, prefer full control, or want something powerful but not overwhelming, YouTrack is worth trying. It works for individuals, freelancers, developers, and even small teams. Apart from YouTrack, you can also explore other team and project management tools to boost your productivity. The MTE Letter Practical tech reads, once a week.",
+      "dimension": "competitive",
+      "query": "Jira vs YouTrack features",
+      "published": "Fri, 12 De"
+    },
+    {
+      "id": "S50",
+      "url": "https://www.techrepublic.com/article/software-development-project-management-tools",
+      "title": "7 Best Software Development Project Management Tools in 2026",
+      "content": "One feature I rely on is the issue hierarchy. It connects epics, stories, and tasks, which helps me understand how day-to-day development work contributes to larger product initiatives. This becomes especially useful when managing large backlogs or planning future releases. Jira also helps me track dependencies between teams and projects. Roadmaps show how upcoming releases are connected, while custom workflows let me define the stages each task must complete before it reaches production. | Pros | Cons | --- | | \u2705Easy to build Agile reports | \u274cBeginners may struggle with complex admin processes | | \u2705Comprehensive ticketing system | \u274cCan be feature-heavy for small teams | | \u2705More robust and scalable for larger teams | \u274c Requires technical training to fully maximize the platform | [...] Software development project management tools are platforms that help engineering and product teams plan, track, and deliver software projects. They typically include features like issue tracking, sprint planning, backlog management, and reporting to organize development tasks. ### What is the best software development project management tool? The best software development project management tool depends on your team size and workflow. Jira is the most widely used option for agile and enterprise teams, while tools like monday dev and Trello are popular among startups and mid-size product teams looking for simpler interfaces. ### What is the difference between project management tools and software development tools? [...] ### Micro (0-49), Small (50-249), Medium (250-999), Large (1,000-4,999), Enterprise (5,000+) ## 1. Jira: Best for large product teams My rating: 4.91 / 5 ## Jira backlog interface showing sprint tasks with statuses, assignees, story points, and issue details used for agile sprint management. ### Why I chose Jira I typically recommend Jira when multiple development teams contribute to the same product. As the number of projects, developers, and backlog items increases, it becomes harder to coordinate work using simpler task management tools. I\u2019ve used Jira to manage products where developers, testers, and product teams all work from the same backlog. Teams can track work through development, code review, testing, and release while maintaining a shared view of product priorities.",
+      "dimension": "competitive",
+      "query": "Jira vs YouTrack features",
+      "published": "Mon, 08 Ju"
+    },
+    {
+      "id": "S51",
+      "url": "https://www.simplilearn.com/free-agile-tools-for-every-project-manager-article",
+      "title": "Top 28 Free Agile Tools for Project Managers",
+      "content": "### Pros: ## 4. Hansoft Hansoft is a project management tool that caters to Agile and Lean development processes. It's designed for large and complex projects, offering features like backlog management, sprint planning, and real-time reporting. Hansoft is best suited for organizations seeking scalability and flexibility in their project management software. ### Pros: ## 5. YouTrack YouTrack is an issue tracker and project management tool designed for development teams. It supports Agile methodologies like Scrum and Kanban, offering customizable boards, backlogs, and reports. YouTrack is known for its powerful search and query functions, making it easy for teams to manage and prioritize issues and tasks. ### Pros: ## 6. Scrumblr [...] Top 28 Free Agile Tools for Project Managers The Agile methodology emphasizes \"just in time\" production, helping project teams deliver their work timely and with improved quality. Agile promotes a comprehensive approach where design, development, and testing happen concurrently, unlike the sequential phases seen in traditional project methods, where one stage concludes before the next begins. It advocates for brief, regular feedback cycles and welcomes requirement changes, contrasting with traditional project management (often called Waterfall), where feedback is typically gathered only at the project's end, and changes are usually avoided. [...] ### Pros: ## 18. Businessmap Businessmap focuses on Kanban methodology but also supports elements of Lean and Agile. It offers advanced analytics, flow efficiency, and time tracking. Businessmap is designed for teams that want to optimize their workflow and improve productivity through detailed analysis and process improvement. ### Pros: ## 19. Jira A popular tool for issue tracking and project management, tailored for Agile development teams. It supports Scrum and Kanban methodologies, offering customizable boards, sprints, backlogs, and reports. Jira is ideal for teams looking for a robust, scalable solution to manage complex software development projects. ### Pros: ## 20. Asana",
+      "dimension": "competitive",
+      "query": "Jira vs YouTrack features",
+      "published": "Fri, 07 Au"
+    },
+    {
+      "id": "S52",
+      "url": "https://tech-insider.org/linear-vs-jira-2026",
+      "title": "Linear vs Jira: Why 30% of Teams Switched [2026]",
+      "content": "Linear has the edge for GitHub integration quality. Linear\u2019s native GitHub integration automatically links pull requests to issues based on branch naming conventions, updates issue statuses when PRs are merged, and surfaces commit and PR data directly in the issue view. Creating a branch from a Linear issue generates a properly formatted branch name with the issue identifier. Jira\u2019s GitHub integration is functional and has improved with the development panel that aggregates code data, but it has historically been less responsive and less smoothly bidirectional than Linear\u2019s implementation. That said, Jira\u2019s native Bitbucket integration is excellent if your team uses Atlassian\u2019s version control platform. For a broader comparison of version control platforms, see our GitHub vs GitLab [...] ### Developer Tool Integrations: CI/CD and Version Control For development teams, the most critical integrations connect project management to version control and CI/CD pipelines. Linear offers deep, native integrations with GitHub and GitLab that automatically link pull requests to issues, update issue statuses when PRs are merged, and surface branch names and commit messages directly in the issue view. The GitHub integration in particular is polished: creating a branch from a Linear issue automatically names it with the issue identifier, and merging a PR can automatically move the linked issue to \u201cDone.\u201d For teams that want to understand how GitHub and GitLab compare, our GitHub vs GitLab 2026 comparison provides a detailed analysis. [...] Jira\u2019s GitHub integration is functional but has historically lagged behind Linear\u2019s in terms of real-time responsiveness and bidirectional sync quality. That said, Jira\u2019s native integration with Bitbucket is excellent, as both products are part of the Atlassian ecosystem. Jira also connects to virtually every CI/CD tool through its Marketplace, including Jenkins, CircleCI, GitHub Actions, and GitLab CI. The Jira Development panel aggregates commits, branches, and pull requests from multiple sources into a single view, which is particularly valuable for teams using diverse version control setups. ### Communication Tool Integrations: Slack, Teams, and Discord",
+      "dimension": "competitive",
+      "query": "Jira vs GitLab features",
+      "published": "Sat, 04 Ap"
+    },
+    {
+      "id": "S53",
+      "url": "https://tech-insider.org/trello-vs-jira-2026",
+      "title": "Trello vs Jira 2026: 38% Price Gap and 3,000 vs 200 Integrations",
+      "content": "Jira connects to over 3,000 apps through the Atlassian Marketplace. This includes deep integrations with development tools (GitHub, GitLab, Bitbucket), CI/CD platforms (Jenkins, CircleCI, GitHub Actions), design tools (Figma, Sketch), communication platforms (Slack, Teams), and specialized add-ons for time tracking, test management, portfolio planning, and more. Many Marketplace apps offer free plans, but premium apps can add $2-$10 per user per month on top of Jira\u2019s base price. [...] ## Trello vs Jira for Software Development Teams For software development, Jira is the clear winner. This is not a close comparison. Jira was purpose-built for software teams, and its feature set reflects decades of iteration based on developer feedback. Trello can work for simple development workflows, but it requires significant customization to approximate what Jira offers out of the box. Jira\u2019s Scrum boards include sprint planning, backlog grooming, story point estimation, velocity tracking, and burndown charts. Developers can create branches directly from Jira issues, link pull requests to tickets, and see the complete development history of every issue. The integration with Bitbucket and GitHub means code changes are automatically associated with the issues they address. [...] As tech content creator and developer advocate ThePrimeagen has noted in discussions about project management tooling, the best tool for a software team is the one that integrates directly into the development workflow. Jira\u2019s native Git integration, CI/CD triggers, and issue-to-code traceability give it a structural advantage that no amount of Trello Power-Ups can fully replicate. The overhead of Jira\u2019s complexity is justified when the alternative is losing track of bugs, requirements, and release timelines. ## Trello vs Jira for Non-Technical Teams",
+      "dimension": "competitive",
+      "query": "Jira vs GitLab features",
+      "published": "Fri, 10 Ap"
+    },
+    {
+      "id": "S54",
+      "url": "https://tech-insider.org/github-vs-gitlab-2026",
+      "title": "GitHub vs GitLab: 1 Key Difference in 2026 [Tested]",
+      "content": "The marketplace disparity also matters more in practice than in theory. GitHub\u2019s 20,000-plus integrations mean that virtually any tool in your existing stack \u2013 Jira, Slack, Datadog, Snyk, SonarQube, PagerDuty, and hundreds of others \u2013 will have a maintained, well-documented GitHub Actions integration. GitLab\u2019s ecosystem is growing but remains significantly smaller. Organizations running heterogeneous toolchains with many existing investments will find GitHub\u2019s integration surface area a material advantage. ## CI/CD Pipeline Showdown: GitHub Actions vs GitLab CI [...] GitLab CI/CD takes a more powerful but more complex approach. Its pipeline model supports Directed Acyclic Graph (DAG) execution, where individual jobs within a pipeline can declare dependencies on other jobs regardless of stage ordering \u2013 enabling truly parallel pipelines that are impossible to express in GitHub Actions\u2019 stage-based model. GitLab\u2019s pipeline efficiency features, including parent-child pipeline hierarchies, pipeline-as-code inheritance, and granular rules-based pipeline triggers, give platform engineering teams fine-grained control that larger organizations increasingly demand. [...] | GitHub Copilot Business (add-on) | $39/user | \u2013 | All Individual features + org policy controls, IP indemnity, codebase context, Plan mode, custom agents | | GitLab Free | $0 | 400 min/mo | 5-user limit, basic CI/CD, SCM, issue tracking, container registry | | GitLab Premium | $29 | 10,000 min/mo | Advanced CI/CD, code owners, merge approvals, audit events, Duo features, SAML SSO | | GitLab Top | $99 | 50,000 min/mo | All 8+ security scans, compliance management, value stream analytics, DORA metrics, portfolio management |",
+      "dimension": "competitive",
+      "query": "Jira vs GitLab features",
+      "published": "Tue, 31 Ma"
+    },
+    {
+      "id": "S55",
+      "url": "https://learn.g2.com/asana-vs-jira",
+      "title": "I Tested Asana vs. Jira: Which Is Better in 2026?",
+      "content": "Jira operates at a much larger scale. With access to 3,000+ apps through the Atlassian Marketplace, it\u2019s more likely to support niche or highly specialized use cases. More importantly, Jira\u2019s real strength lies in its developer and IT ecosystem. Native integrations with tools like GitHub, GitLab, Bitbucket, CI/CD platforms, and service desk software tightly connect project tracking with code, deployments, and incidents. In practice, this allows Jira to function as a system of record for technical teams, surfacing commits, builds, and operational data directly within work items \u2014 a level of integration depth that general project management tools like Asana don\u2019t aim to replicate.",
+      "dimension": "competitive",
+      "query": "Jira vs GitLab features",
+      "published": "Mon, 02 Fe"
+    },
+    {
+      "id": "S56",
+      "url": "https://cio.economictimes.indiatimes.com/tools/10-best-free-ci/cd-tools-for-devops-teams-in-2026/133560700",
+      "title": "Top 10 Free CI/CD Tools for DevOps in 2026, ETCIO",
+      "content": "Overview: GitLab CI/CD \u2014 GitLab CI/CD is the built-in automation layer of the GitLab DevOps platform, uniting source control, pipelines, security, and deployment in a single application. It is available both as a hosted service and as a free, self-managed Community Edition. Core Features: Pipelines-as-code via .gitlab-ci.yml, Auto DevOps, a built-in container registry, and integrated security scanning. The SaaS Free tier includes 400 compute minutes per month, while the self-managed Community Edition runs unlimited pipelines on your own runners at no licence cost. Integrations: Kubernetes, Docker, AWS, Google Cloud, Azure, Jira, Slack, Prometheus, and Terraform.",
+      "dimension": "competitive",
+      "query": "Jira vs GitLab features",
+      "published": "Thu, 27 Au"
+    },
+    {
+      "id": "S57",
+      "url": "https://tech-insider.org/tenable-vs-qualys-vs-rapid7-2026",
+      "title": "Tenable vs Qualys vs Rapid7: Vulnerability Management 2026",
+      "content": "Rapid7 differentiates hardest on CI/CD and DevOps tooling: its Jira integration and container-scanning workflows are built for teams that want vulnerability data to show up inside the same sprint board where engineers already track their work, rather than in a separate security-only interface. For cloud-provider coverage, all three platforms connect to AWS, Azure, and Google Cloud in some form, though the depth of native cloud-posture features varies. Organizations running heavier cloud-security posture management workloads often pair one of these three with a dedicated CNAPP platform like the vendors compared in our Wiz vs Orca vs Prisma Cloud breakdown, since vulnerability management and full cloud posture management remain distinct disciplines even where the product marketing overlaps.",
+      "dimension": "competitive",
+      "query": "Jira vs Azure DevOps Boards features",
+      "published": "Fri, 31 Ju"
+    },
+    {
+      "id": "S58",
+      "url": "https://cio.economictimes.indiatimes.com/tools/best-apm-tools/127608550",
+      "title": "Top 10 Application Lifecycle Management Tools for Enterprises in 2026, ETCIO",
+      "content": "| | | --- | | Pros | Cons | | Comprehensive all\u2011in\u2011one ALM suite (planning, repos, CI/CD, tests, artifacts) Enterprise-grade scalability and integration (Azure AD, Visual Studio) Flexible CI/CD pipelines that work with any language and target cloud Free for small teams (5 users) and easy setup for Azure-hosted projects Strong security and compliance features (Azure-backed) | Some users find the UI and Boards features clunky or unintuitive Feature gaps: e.g., lacking in-app notifications and some agile controls On\u2011prem server licensing (DevOps Server) can be complex/expensive Best fit for code-centric teams; non-technical stakeholders may find it heavy Tighter integration if fully on Azure; mixed-tool environments may need extra setup | ### GitLab [...] Other features include agile planning and work tracking (Scrum/Kanban, backlogs), Git repos with PRs and branch policies, built-in CI/CD pipelines, test management for manual/exploratory testing, artifact/package feeds (NuGet, npm, Maven, etc.), dashboards and analytics for project insights, project wikis for documentation, and a large extension ecosystem via the Azure DevOps Marketplace. Integrations: Works smoothly with GitHub, Microsoft Teams, Slack, Jenkins, SonarQube, Jira, ServiceNow, Docker/Kubernetes, plus hundreds of integrations via extensions and webhooks. [...] Other features include agile planning and tracking (Scrum/Kanban boards, sprints, releases), portfolio and roadmap management with hierarchy and dependencies, real-time dashboards and analytics (including scaled agile metrics), collaboration tools like wikis and discussions, test case and defect management linked to work items, objective/OKR alignment, advanced reporting with snapshots and audit trails, and integration capabilities through APIs and platforms like ConnectALL. Integrations: Rally integrates with GitHub/GitLab (link PRs and commits to stories), Jenkins and CI servers, Azure DevOps/TFS, Jira (two-way syncing), ServiceNow, Slack, Aha! Roadmaps, and other enterprise tools through connectors and integration layers like ConnectALL or third-party platforms.",
+      "dimension": "competitive",
+      "query": "Jira vs Azure DevOps Boards features",
+      "published": "Tue, 27 Ja"
+    },
+    {
+      "id": "S59",
+      "url": "https://officechai.com/learn/github-alternatives",
+      "title": "10 Best GitHub Alternatives [2026]",
+      "content": "## 7. Azure DevOps \u2014 The Enterprise-Planning GitHub Alternative Ironically owned by the same company as GitHub, Azure DevOps is Microsoft\u2019s older, enterprise-oriented suite covering boards, repos, pipelines, test plans, and artifact management. Microsoft has been steering new AI investment toward GitHub, but Azure DevOps remains actively supported and is far from being retired. Strengths: Best-in-class Agile planning tools (Azure Boards), tight integration with the broader Azure and Visual Studio ecosystem, and robust enterprise governance features that GitHub\u2019s project-management tools still don\u2019t fully match.",
+      "dimension": "competitive",
+      "query": "Jira vs Azure DevOps Boards features",
+      "published": "Wed, 19 Au"
+    },
+    {
+      "id": "S60",
+      "url": "https://itbrief.com.au/story/atlassian-launches-jira-tools-for-agentic-software-teams",
+      "title": "Atlassian launches Jira tools for agentic software teams",
+      "content": "IT Brief Australia - Technology news for CIOs & IT decision-makers IT Brief Australia logo Powered By TechDay logo Atlassian launches Jira tools for agentic software teams SaaS DevOps Risk & Compliance # Atlassian launches Jira tools for agentic software teams Fri, 25th Sep 2026 Mara Sugue MARA SUGUE News Editor Atlassian has launched new Jira and DX features for agentic software engineering workflows, aimed at helping engineering teams manage AI use across the software development lifecycle. [...] For team leaders using Jira, the new Agent Usage Dashboard is intended to show which agents are appearing in workflows and how those sessions relate to Jira work items. Atlassian said the dashboard is designed to help managers connect agent activity with changes in delivery performance. The move reflects a broader challenge for software teams that have begun using AI in development but have struggled to expand that use in a controlled way. Atlassian cited findings from its 2026 AI SDLC study showing that 94% of engineering leaders report using AI, while only 6% have systems in place to scale it across the full software development lifecycle.",
+      "dimension": "reception",
+      "query": "Jira launch reviews 2026",
+      "published": "Fri, 25 Se"
+    },
+    {
+      "id": "S61",
+      "url": "https://www.atlassian.com/blog/development/jira-summer-release",
+      "title": "What's new in Jira: Summer 2026 release",
+      "content": "Published In Development Over the last six months, we\u2019ve been evolving Jira for AI-native work \u2013 building the infrastructure for agents to act on work, shipping new MCP capabilities so coding agents can take more actions in Jira, and making Teamwork Graph CLI generally available to ensure agents have the enterprise-scale context they need to work effectively. Today, we\u2019re announcing our Jira Summer Release: 15 new capabilities that make the everyday parts of Jira faster, simpler, and more powerful for both teams and agents. These features are rolling out now and will be generally available across Jira Cloud by the end of August 2026. Let\u2019s take a look at some of the highlights. ## AI and agents that do real work [...] List and All Work, merged into one List and All Work have been combined into a single view called List that has the best of both. Search with Jira Query or natural language, see parent/child hierarchy, edit inline, and save custom views \u2013 all in one place instead of two views doing similar things. Boards that keep up with your team The software board in team-managed spaces has been rebuilt. Faster loads, swimlanes, subtasks on cards, inline editing, and no more work item caps. Your workflows stay the same; the board underneath them is just significantly better. ## Plan smarter, automatically Teams shouldn\u2019t have to leave Jira to answer questions like \u201cwho\u2019s overloaded?\u201d or \u201chow is this deadline tracking?\u201d Now the numbers live right alongside the work and Jira does the math for you. [...] ## AI and agents that do real work Jira\u2019s AI agents are now more proactive \u2013 surfacing insights, creating updates, and taking on the recurring coordination work so you can focus on what matters most. Let an agent run your recurring coordination work The new Delivery Agent automates coordination tasks teams used to do manually: health checks, standup digests, and stakeholder updates. Use the automation templates in the Jira Summary view to set it up in seconds.",
+      "dimension": "reception",
+      "query": "Jira launch reviews 2026",
+      "published": "Thu, 06 Au"
+    },
+    {
+      "id": "S62",
+      "url": "https://thenewstack.io/cursor-jira-integration-test",
+      "title": "I tested Cursor's new Jira integration and it's 5 stars, no notes. Here's why. - The New Stack",
+      "content": "Sep 29th 2026 10:00am, by Zeen Rachidi The cloud reduced operational complexity. But many teams need someone to own it completely. Sep 22nd 2026 10:00am, by Sabari Sawant and Janakiram MSV AWS open-sources an AI agent it says is 45% cheaper than Claude Code and Codex Sep 21st 2026 2:30pm, by Paul Sawers \u201cDormant deployments were quietly consuming storage\u201d: Why Vercel tightened its free-tier rules Sep 19th 2026 9:00am, by Meredith Shubel The critical vulnerability was a test database. That's the whole triage problem. Sep 17th 2026 12:56pm, by Megan Carnegie Most AI incident tools still leave a key decision to humans Oct 8th 2026 12:20pm, by Charles Humble AI changed how you respond to incidents. Your tabletops haven't caught up. [...] Oct 8th 2026 11:00am, by Naseeb Ahmed Mian AI changed how you respond to incidents. Your tabletops haven't caught up. Oct 8th 2026 9:00am, by Andy Gombar OpenSSH 10.6 deliberately breaks two features in the name of security Oct 7th 2026 5:27pm, by Amanda Caswell Claude\u2019s cyber safeguards are getting more flexible -- but not for everyone. Oct 7th 2026 5:25pm, by Meredith Shubel How much control should AI get? Inside the SOC autonomy question Oct 6th 2026 1:38pm, by Carly Page Bit Cloud\u2019s next chapter starts after the AI builds your app Oct 1st 2026 1:00pm, by Nick Lucchesi Kill the code review theater, keep the review Sep 30th 2026 10:00am, by Ankit Jain CRA readiness starts in the codebase Sep 30th 2026 9:00am, by Ekaterina Okuneva [...] Oct 8th 2026 9:00am, by Andy Gombar OpenSSH 10.6 deliberately breaks two features in the name of security Oct 7th 2026 5:27pm, by Amanda Caswell Kubernetes won the orchestration wars. Its teams are still fighting. Oct 7th 2026 3:57pm, by Alex Wilhelm XCOR launches to trace outages in minutes. It still pages engineers. Oct 5th 2026 11:04am, by Adrian Bridgwater Kubernetes won the orchestration wars. Its teams are still fighting. Oct 7th 2026 3:57pm, by Alex Wilhelm The CNCF is graduating projects faster than ever. AI agents are helping with the due diligence. Oct 6th 2026 4:02pm, by Alex Wilhelm What Kubernetes\u2019 \"monolith\" lesson means for AI agent harnesses Oct 2nd 2026 12:31pm, by Bill Doerrfeld",
+      "dimension": "reception",
+      "query": "Jira launch reviews 2026",
+      "published": "Sun, 31 Ma"
+    },
+    {
+      "id": "S63",
+      "url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available",
+      "title": "GitHub Copilot for Jira is now generally available - GitHub Changelog",
+      "content": "Skip to content Skip to sidebar / Blog Try GitHub Copilot app Attend GitHub Universe Back to changelog Improvement \u2022 2 minute read # GitHub Copilot for Jira is now generally available Integration banner showing Copilot and Jira logos GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection, Confluence context via MCP, custom agents, custom fields, space-level guidance, and review request notifications in Jira. Today\u2019s release to general availability builds on that foundation with new capabilities designed to give you greater visibility and control over agent sessions. ## What\u2019s new ### Streaming agent progress to Jira",
+      "dimension": "reception",
+      "query": "Jira launch reviews 2026",
+      "published": "Thu, 25 Ju"
+    },
+    {
+      "id": "S64",
+      "url": "https://learn.g2.com/best-free-knowledge-base-software",
+      "title": "9 Best Free Knowledge Base Software for Tech Startups in 2026",
+      "content": "What kept coming up in the G2 reviews from software and IT teams was how central it becomes once it's the system of record. Architecture decisions, runbooks, and onboarding guides all land here, and the native Jira link is what elevates it above a plain wiki; a ticket connects to its spec, which connects to its release notes. Reviewers do flag the free-tier ceilings worth planning around: 2GB of file storage, three active whiteboards, and just 10 automation rule runs a month. ##### What does Confluence's free plan include? Free forever for up to 10 users Unlimited pages and spaces 3 active whiteboards per user 10 automation rule runs per month Templates and version history 2GB file storage Native Jira integration ##### When should you upgrade your Confluence free plan? [...] #### Where Confluence genuinely stands out: The Jira integration is what drives engineering teams to commit to it. Reviewers mention it cut new developer onboarding, because devs could self-serve through a documented onboarding space. Its maturity shows in the structure. Templates for PRDs and runbooks paired with version control mean teams start from a proven format instead of a blank page, G2 reviewers raise this as the reason it holds up as the system of record rather than just another wiki. #### What G2 users like about Confluence: [...] If your knowledge lives across docs, projects, and tasks, Notion or ClickUp can be a strong starting point. If your team already runs on Jira, Confluence will likely feel like the easiest next step. If you are building a customer-facing help center, Document360 or Helpjuice may be a better fit. For IT teams or service providers, Hudu is worth a closer look. And if you are a small, remote tech team that just needs a simple place to document and share answers, Slab keeps things straightforward. Once you have a shortlist, do not overthink it. Test the tool with real work. Move in your onboarding guide, the last few answers your team keeps repeating in Slack, and the process only one senior teammate seems to know. Give it a week.",
+      "dimension": "reception",
+      "query": "Jira launch reviews 2026",
+      "published": "Thu, 02 Ju"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "Jira offers a free plan that supports up to 10 users.",
+      "source_ids": [
+        "S29",
+        "S30",
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Jira Standard plan is priced at $7.91 per user per month.",
+      "source_ids": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Jira Premium plan is priced at $14.54 per user per month.",
+      "source_ids": [
+        "S28",
+        "S30"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Jira Enterprise plan uses custom pricing.",
+      "source_ids": [
+        "S28",
+        "S29",
+        "S30",
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Jira offers volume discounts, with per-user costs decreasing as more users are added.",
+      "source_ids": [
+        "S28",
+        "S31"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Jira Data Center is available with annual billing and requires a minimum of 500 users.",
+      "source_ids": [
+        "S32"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack pricing starts at $3.67 per user per month.",
+      "source_ids": [
+        "S34",
+        "S35"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack offers a free plan for teams with up to 10 users.",
+      "source_ids": [
+        "S34",
+        "S36"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "YouTrack monthly paid plans start at $5.40 per user per month, while annual paid plans start at $4.50 per user per month as of October 2025.",
+      "source_ids": [
+        "S36"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "GitLab Premium plan is priced at $29 per user per month.",
+      "source_ids": [
+        "S39",
+        "S42"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "GitLab offers a free tier with limited features.",
+      "source_ids": [
+        "S38",
+        "S39",
+        "S42"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Azure DevOps offers the first five Basic users at no cost, with each additional Basic user costing $6 per month.",
+      "source_ids": [
+        "S43",
+        "S45"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Azure DevOps Basic plus Test Plans costs $52 per user per month.",
+      "source_ids": [
+        "S45",
+        "S46"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira Data Center is scheduled to reach end of life on March 28, 2029, and Atlassian stopped selling new Data Center licenses on March 30, 2026.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Existing Jira Data Center customers may renew licenses until March 30, 2028, after which environments switch to read-only mode.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira ended support for self-hosted deployments in spring 2024 and shifted focus to its cloud edition.",
+      "source_ids": [
+        "S22"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira is primarily geared toward software project management and features customizable workflows and issue tracking.",
+      "source_ids": [
+        "S48"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira connects to over 3,000 apps through the Atlassian Marketplace.",
+      "source_ids": [
+        "S53",
+        "S55"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira integrates natively with development tools including GitHub, GitLab, Bitbucket, and CI/CD platforms.",
+      "source_ids": [
+        "S55"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "YouTrack, GitLab, and Azure DevOps Boards are among the alternatives recommended for engineering teams replacing Jira's issue tracking or DevOps capabilities.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Some alternatives to Jira are positioned as offering simpler user experiences, better AI, or tighter integration with customer-facing teams.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "One source states that Jira remains a strong choice for software development teams, though its relevance has narrowed outside of engineering.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira's GitHub integration is described as historically less responsive and less smoothly bidirectional than Linear's implementation.",
+      "source_ids": [
+        "S52"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Azure DevOps is described as having best-in-class Agile planning tools and robust enterprise governance features.",
+      "source_ids": [
+        "S59"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Some users find Azure DevOps UI and Boards features clunky or unintuitive.",
+      "source_ids": [
+        "S58"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "GitLab provides a built-in CI/CD automation layer and is available both as a hosted service and as a free self-managed Community Edition.",
+      "source_ids": [
+        "S56"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Users rely on Jira's issue hierarchy to connect epics, stories, and tasks, which helps manage large backlogs and plan releases.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Jira provides roadmaps for tracking dependencies between teams and projects.",
+      "source_ids": [
+        "S50"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Atlassian launched new Jira features for agentic software engineering workflows, including an Agent Usage Dashboard.",
+      "source_ids": [
+        "S60"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "Jira's Summer 2026 release introduced 15 new capabilities focused on AI-native work, agent infrastructure, and MCP capabilities for coding agents.",
+      "source_ids": [
+        "S61"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "A reviewer who tested Cursor's new Jira integration rated it five stars.",
+      "source_ids": [
+        "S62"
+      ]
+    },
+    {
+      "dimension": "reception",
+      "text": "GitHub Copilot for Jira became generally available in June 2026 with enhancements including model selection and Confluence context via MCP.",
+      "source_ids": [
+        "S63"
+      ]
+    }
+  ],
+  "unsupported_claims": []
+}

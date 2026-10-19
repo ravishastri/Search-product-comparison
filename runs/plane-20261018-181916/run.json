@@ -1,0 +1,713 @@
+{
+  "product": "Plane",
+  "description": "Open-source project management for software teams",
+  "category": "issuetracker",
+  "model": "moonshotai/Kimi-K2.6",
+  "run_date": "2026-10-18",
+  "similar": [
+    "ClickUp",
+    "monday AI Work Platform",
+    "Jira"
+  ],
+  "candidate_status": {
+    "ClickUp": {
+      "status": "active",
+      "source": "S9"
+    },
+    "monday AI Work Platform": {
+      "status": "active",
+      "source": "S11"
+    },
+    "Jira": {
+      "status": "active",
+      "source": "S16"
+    },
+    "GitHub": {
+      "status": "active",
+      "source": "S20"
+    }
+  },
+  "excluded_retired": [],
+  "queries": [
+    "Plane alternatives competitors issuetracker",
+    "Plane pricing plans",
+    "ClickUp pricing plans",
+    "monday AI Work Platform pricing plans",
+    "Jira pricing plans",
+    "Plane vs ClickUp features",
+    "Plane vs monday AI Work Platform features",
+    "Plane vs Jira features",
+    "Plane launch reviews 2026"
+  ],
+  "errors": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.g2.com/products/plane-so/competitors/alternatives",
+      "title": "Top 10 Plane Alternatives & Competitors in 2026",
+      "content": "The best Plane alternatives are ClickUp, monday AI Work Platform, and Jira. issue tracking, and mass updates, are: monday AI Work Platform. Jira is an issue",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S2",
+      "url": "https://www.cbinsights.com/company/pilot-1/alternatives-competitors",
+      "title": "Top Plane Alternatives, Competitors",
+      "content": "Technology Vendors Recent Research Newsletter Media Support Login CB Insights Plane company logo # Plane plane.com ## Plane's alternatives and competitors See how Planecompares to similar products. Plane's top competitors include RemotePass, Deel, and Oyster. RemotePass Logo RemotePass Analyst Briefing Submitted RemotePass operates as a platform that provides global human resources (HR) and payroll management, facilitating the hiring, onboarding, and payment of teams worldwide.\u2026 Plane vs. RemotePass View more in-depth data on: Competitors Products Customer References and more Compare Plane and RemotePass New call-to-action Deel Logo Deel Analyst Briefing Submitted [...] Deel Logo Deel Analyst Briefing Submitted Deel provides global payroll, human resources (HR), compliance, and information technology (IT) solutions. It offers payroll processing, HR management, IT support, empl\u2026 Plane vs. Deel View more in-depth data on: + Competitors + Products + Customer References and more Compare Plane and Deel Oyster Logo Oyster Oyster provides employment solutions within the HR tech industry. Its services include acting as an employer of record, managing payroll for multi-country teams, ensuri\u2026 Plane vs. Oyster View more in-depth data on: + Competitors + Products + Customer References and more Compare Plane and Oyster Lano Logo Lano Analyst Briefing Submitted [...] ## Compare Plane to Competitors Rise Logo Rise Rise focuses on providing payroll and workforce solutions. The company offers services to facilitate the onboarding and payment of global teams in both traditional fiat and cryptocurrency while ensuring tax compliance. Its primary customers are businesses and organizations that operate on a global scale. It was founded in 2019 and is based in Pepper Pike, Ohio. Remote Logo Remote",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S3",
+      "url": "https://www.cbinsights.com/company/plane/alternatives-competitors",
+      "title": "Top Plane Alternatives, Competitors",
+      "content": "Technology Vendors Recent Research Newsletter Media Support Login CB Insights Plane company logo # Plane plane.so ## Plane's alternatives and competitors See how Planecompares to similar products. Plane's top competitors include KnowCode, Planisware, and GitHub. KnowCode Logo KnowCode KnowCode specializes in enhancing software development team productivity within the technology sector. The company offers services such as CTO as a service and Remote S\u2026 Plane vs. KnowCode View more in-depth data on: Competitors Products Customer References and more Compare Plane and KnowCode New call-to-action Planisware Logo Planisware [...] New call-to-action ### Top5Planecompetitors KnowCode Planisware GitHub Zube CodeFirst ## Compare Plane to Competitors Zube Logo Zube Zube is a company focused on Agile project management, operating within the software development and project management industry. It offers a platform that integrates with GitHub Issues, providing tools such as kanban boards, Agile Epics, Scrum style Sprints, and customer support ticketing systems for product planning and management. The platform is designed for product development teams. It is based in San Francisco, California. Keto Software Logo Keto Software [...] F Flower Flower focuses on business process automation and agile project management within the software development industry. The company provides tools for Atlassian Jira, allowing users to create and manage Business Process Model and Notation (BPMN) workflows, which are turned into Jira issues to support project and product management. Flower's solutions address teams aiming to improve their workflow and decision-making processes through insights. It was founded in 2012 and is based in Paphos, Cyprus. C CodeFactor",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S4",
+      "url": "https://www.cbinsights.com/company/point-me-to-the-plane/alternatives-competitors",
+      "title": "Top Point Me to the Plane Alternatives, Competitors",
+      "content": "Technology Vendors Recent Research Newsletter Media Support Login CB Insights Point Me to the Plane company logo # Point Me to the Plane pointmetotheplane.boardingarea.com ## Point Me to the Plane's alternatives and competitors See how Point Me to the Planecompares to similar products. Point Me to the Plane's top competitors include Blay, JetBlue Airways, and AirGuide Destinations. Blay Logo Blay Blay focuses on social networking within the air travel industry. Its main service is an app that helps air travelers find and connect with future travel partners. The \u2026 Point Me to the Plane vs. Blay View more in-depth data on: Competitors Products Customer References and more Compare Point Me to the Plane and Blay New call-to-action JetBlue Airways Logo JetBlue Airways [...] Compare Point Me to the Plane and TravelPulse New call-to-action ### Top5Point Me to the Planecompetitors Blay JetBlue Airways AirGuide Destinations AirlineGeeks TravelPulse ## Compare Point Me to the Plane to Competitors D Dream International Dream International focuses on restaurant brand management and international expansion within the food and beverage sector. The company invests in and develops partnerships with entrepreneurs to create and manage a portfolio of restaurant brands. Dream International's brands include Azumi Group, COYA Group, Nusr-Et Group, and Paraguas Group, each offering distinct dining options and entering key markets worldwide. It was founded in 2012 and is based in London, United Kingdom. Air France Logo Air France [...] Air France Logo Air France Air France operates as a participant in the aviation sector, focusing on passenger air travel, freight services, and aircraft maintenance and upkeep. The company operates an international network and adheres to health, safety, and sustainability practices. Air France is part of the Air France-KLM Group, which utilizes its hubs in Paris-Charles de Gaulle and Amsterdam-Schiphol, and is a member of the SkyTeam alliance. It was founded in 1933 and is based in Roissy, France. Transportes Aereos Portugueses Logo Transportes Aereos Portugueses",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S5",
+      "url": "https://www.cbinsights.com/company/control-plane/alternatives-competitors",
+      "title": "Top Control Plane Alternatives, Competitors",
+      "content": "Technology Vendors Recent Research Newsletter Media Support Login CB Insights Control Plane company logo # Control Plane controlplane.com ## Control Plane's alternatives and competitors See how Control Planecompares to similar products. Control Plane's top competitors include Spectro Cloud, emma, and Northflank. Spectro Cloud Logo Spectro Cloud Spectro Cloud provides services in artificial intelligence (AI) infrastructure management and Kubernetes fleet management. The company has a platform for designing, dep\u2026 Control Plane vs. Spectro Cloud View more in-depth data on: Competitors Products Customer References and more Compare Control Plane and Spectro Cloud New call-to-action emma Logo emma [...] Stitch Technologies Stitch Technologies specializes in cloud optimization and software deployment for the software-as-a-service (SaaS) industry. The company offers services that enable Saa\u2026 Control Plane vs. Stitch Technologies View more in-depth data on: + Competitors + Products + Customer References and more Compare Control Plane and Stitch Technologies VMware Logo VMware VMware provides cloud computing solutions for enterprise environments. The company offers services including optimization of cloud infrastructure, private cloud solutio\u2026 Control Plane vs. VMware View more in-depth data on: + Competitors + Products + Customer References and more Compare Control Plane and VMware Kion Logo Kion Analyst Briefing Submitted [...] Klarrio Klarrio provides cloud native and cloud agnostic software solutions within the data management sector. The company offers services for scalable platform building, with \u2026 Control Plane vs. Klarrio View more in-depth data on: + Competitors + Products + Customer References and more Compare Control Plane and Klarrio New call-to-action ### Top10Control Planecompetitors Spectro Cloud emma Northflank Stitch Technologies VMware Kion Platform9 CorsairM360 ScaleArc Klarrio ## Compare Control Plane to Competitors Giant Swarm Logo Giant Swarm",
+      "dimension": "discovery",
+      "query": "Plane alternatives competitors issuetracker",
+      "published": ""
+    },
+    {
+      "id": "S6",
+      "url": "https://www.cloudwards.net/best-wunderlist-alternative",
+      "title": "The Best Wunderlist Alternative in 2026 [Free List Apps]",
+      "content": "Reviewed by Aleksander Hougen (Chief Editor) Facts checked by Jasna Mishevska (Lead Fact-Checking Editor) Last Updated: All our content is written fully by humans; we do not publish AI writing. Learn more here. ## Key Takeaways: Alternative to Wunderlist Wunderlist was shut down in 2020 and is no longer available to use. We have a selection of alternatives to help you seamlessly transition to a new task management app. The best Wunderlist alternative is monday.com, closely followed by ClickUp, Notion, Trello and Todoist. If you\u2019re looking for a free replacement for Wunderlist, ClickUp is your best option. Trello and Todoist are also worth considering. [...] Next, select \u201cpriority.\u201d 6. Choose level of priority Finally, click inside the column and select the priority of your task. ## What Is the Best Free Task Management App Like Wunderlist? ClickUp is the best free project management app available that offers a similar experience to Wunderlist. You can create simple to-do lists and add as many tasks as you wish. You also get access to the Kanban board and native calendar, plus the mind map and document creator. ## Final Thoughts: Wunderlist Alternatives While the likes of Microsoft To Do and Google Tasks often come up as Wunderlist alternatives, we don\u2019t think they\u2019re very good. The options above are far better tools when compared to the tech giants. [...] Save 20% Standard Minimum users: 3; All prices per user 1-month plan1-month plan $14/month1-year plan $12/month $144 billed every year Save 14% ## 2. ClickUp ClickUp offers lots of features at an affordable price. More details about ClickUp: Pricing: $7 per month (one-year plan) Free plan: Yes, limited to five workspaces Provider website: clickup.com Pros: Very affordable Many task management tools Good free plan Cons: Steep learning curve",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Thu, 23 Se"
+    },
+    {
+      "id": "S7",
+      "url": "https://feedzy.io/terms",
+      "title": "Terms of Service - Feedzy",
+      "content": "If we discontinue Feedzy entirely, we will give you at least 60 days notice and the opportunity to export your data before the Service is shut down. ... ClickUp",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Mon, 28 Se"
+    },
+    {
+      "id": "S8",
+      "url": "https://get-alfred.ai/blog/best-motion-alternatives",
+      "title": "7 Best Motion Alternatives in 2026 (Cheaper, Simpler, Better) | alfred_",
+      "content": "What's better than Motion for teams? For teams, the long-time pick was Clockwise, but it shut down on March 27, 2026 after Salesforce acquired its team. The closest replacement for team-wide calendar optimization and focus time is Reclaim.ai, which offers similar scheduling automation at $12/mo per seat on its Business plan. For team project management without the scheduling complexity, traditional tools like Asana or ClickUp paired with a simpler calendar tool often work better than Motion's all-in-one approach. Can Motion replace my email inbox?",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Fri, 13 Fe"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.cloudwards.net/clickup-review",
+      "title": "ClickUp Review 2026: Pros & Cons, Pricing, Features & Guides",
+      "content": "ClickUp also has a generous free plan with unlimited teammates and tasks, which makes it one of the best free project management software programs. However, its complexity is also a limitation, as it can be difficult for teams to adopt the project management software space. Keep reading to learn more about the service and how it compares to other project management platforms. 05/21/2023 Facts checked Our ClickUp review has been rewritten with new information and now uses an easy-to-read format. 09/25/2023 Facts checked Removed references to discontinued Business Plus plan. 02/08/2024 Facts checked We updated this review, adding an \u201cexpert opinion\u201d that evaluates the strengths and weaknesses of ClickUp for project management. 06/21/2024 Facts checked [...] We have updated our ClickUp review by adding a section covering ClickUp Brain. 04/16/2025 Facts checked We added more information on ClickUp\u2019s new and upcoming features. 08/16/2025 Facts checked We rewrote our full review of ClickUp with fresh information about its different plans and features, including a step-by-step installation guide. ## What Is ClickUp & Who Is It For? ClickUp is a cloud-based project management and productivity platform that helps individuals and teams plan, organize and collaborate. It combines task management, time tracking, resource management tools, goal setting, document sharing and automation tools to streamline workflows and improve team efficiency. ## Avoid Costly Project Management Mistakes \u2013 Get Free Tips Today! [...] From my hands-on testing, ClickUp is one of the most ambitious project management tools out there, with impressive flexibility for all kinds of businesses. Here at Cloudwards, we use ClickUp as our own project management tool to manage our editorial calendar and other communication projects. We chose the ClickUp Unlimited plan because it allows us to monitor project progress with incredible customization options: adding members to tasks and subtasks, enabling notifications and automations, setting conditional deadlines, sharing documents and more. For the features you get, it\u2019s also more affordable than other project management software.",
+      "dimension": "status",
+      "query": "ClickUp discontinued or shut down",
+      "published": "Fri, 31 Ja"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1845338/000117891326000870/zk2634436.htm",
+      "title": "monday.com Ltd. - 1845338 - 2026",
+      "content": "monday.com Ltd (\u201cmonday.com\u201d and together with its subsidiaries collectively, \u201cthe Company\u201d) was incorporated under the laws of Israel and commenced operations in 2012. The Company operates an artificial intelligence (\u201cAI\u201d) cloud-based work platform that consists of modular building blocks that can be easily used and assembled to create software applications and work management tools and serves as a connective layer to integrate with other systems and applications across an organization. On top of our platform, we have built a product suite to address the needs of specific industries and use cases. By using the Company\u2019s AI work platform and products, customers can simplify and accelerate their digital transformation, enhance organizational agility, create a unifying workspace across [...] Increase impactful work: Our AI work platform helps our customers reimagine workflows with AI in order to offload low impact work and maximize the user\u2019s capacity for high-value work that only humans can do. With capabilities such as AI-powered automations at scale, custom AI agents to handle time-consuming tasks, and the ability to create fully functioning custom apps with simple prompts, our customers are able to gain time and efficiency that was previously unimaginable. [...] Our platform With the monday.com AI work platform, organizations can build software applications and work management tools to fit their needs and execute on their behalf. Our no-code and low-code platform consists of modular building blocks that are simple enough for anyone to assemble, yet powerful enough to build solutions that drive the core business of any organization in any vertical. On top of the platform, we have built a suite of products, for the work management, sales, marketing, software development, and service verticals, to address the needs of specific industries and use cases.",
+      "dimension": "status",
+      "query": "monday AI Work Platform discontinued or shut down",
+      "published": "Fri, 13 Ma"
+    },
+    {
+      "id": "S11",
+      "url": "https://uctoday.com/monday-com-repositions-as-ai-work-platform-putting-agents-at-the-centre-of-project-execution",
+      "title": "monday.com Relaunches as an AI Work Platform \u2014 UC Today",
+      "content": "monday.com is now calling itself an AI Work Platform. The tools that once served as glorified to-do lists have evolved into autonomous delivery infrastructure, capable of planning projects and balancing workloads without a human lifting a finger. monday.com is going further than most by rebuilding its core platform around that premise rather than adding agent features on top of an existing architecture. [...] UC Todaypowering productive workplaces Front page NewsWork Management6 May 2026 \u00b7 4 min read # monday.com Repositions as AI Work Platform, Putting Agents at the Centre of Project Execution monday.com has rebuilt its platform around native AI agents that execute work autonomously. Here is what it means for project and task management buyers. Marcus Law For over a decade, monday.com has helped teams track work. Today, it wants to do the work itself. [...] The company has announced the most significant change in its eleven-year history: a full platform rebuild centred on native AI agents that plan, coordinate, and execute tasks alongside human teams. It is a bold repositioning for a company with more than 250,000 customers worldwide, and one that reflects a growing conviction across the enterprise software market that managing work and doing work are no longer the same thing.",
+      "dimension": "status",
+      "query": "monday AI Work Platform discontinued or shut down",
+      "published": "Wed, 06 Ma"
+    },
+    {
+      "id": "S12",
+      "url": "https://uctoday.com/monday-com-cuts-20-of-its-workforce-as-its-ai-work-platform-bet-deepens",
+      "title": "monday.com Layoffs: Inside Its AI Pivot \u2014 UC Today",
+      "content": "UC Todaypowering productive workplaces Front page NewsWork Management29 Jul 2026 \u00b7 3 min read # monday.com Cuts 20% of Its Workforce as Its AI Work Platform Bet Deepens Why it matters: monday.com is cutting 20% of staff to deepen its AI work platform push, with Claude, Microsoft 365 Copilot, ChatGPT and Gemini. Marcus Law The real question behind monday.com's restructuring isn't whether the company can afford to lose 620 people. It's whether any project management vendor can survive a moment when AI coding tools can spin up a passable clone of the entire category in under an hour. [...] ## From Rebrand to Reset UC Today covered the first half of this story in May, when monday.com rebuilt its platform around native AI agents that plan, coordinate and execute work rather than just track it, adding connectors to Claude, Microsoft 365 Copilot, ChatGPT and Gemini, plus monday vibe, its natural-language app builder. Eran Zinman, co-founder and co-CEO, called it an obligation to customers at the time: > \"We owe them a platform built for what comes next.\" The July cuts extend that same argument to headcount. In a LinkedIn post announcing the layoffs, Zinman said the organisation monday.com built for its last chapter doesn't fit the one it's entering now: > \"We have never seen such a significant opportunity in software\" ## What Analysts Are Saying [...] The question monday.com is restructuring around, how much autonomous execution to hand an agent, isn't unique to it. Microsoft's Project Online deprecation is already driving migrations across the category, and the same question is shaping every vendor's roadmap in this space, not just the one currently cutting a fifth of its staff to answer it. ### Related Reading monday.com Repositions as AI Work Platform, Putting Agents at the Centre of Project Execution Only 5% of Companies Are Closing the AI Productivity Gap. Asana Thinks It Knows Why Will AI Agents Break the Project Management Software Model? The Great Microsoft Project Migration and Why the April 2026 Deadline Changes Everything rate this story helps rank stories across uc today The discussion0 takes \u00b7 attributed & checked",
+      "dimension": "status",
+      "query": "monday AI Work Platform discontinued or shut down",
+      "published": "Wed, 29 Ju"
+    },
+    {
+      "id": "S13",
+      "url": "https://smbtech.au/news/monday-com-repositions-as-ai-work-platform",
+      "title": "monday.com Repositions As AI Work Platform",
+      "content": "Monday.com has announced a fundamental repositioning of its platform, moving from work management software to what the company is calling an",
+      "dimension": "status",
+      "query": "monday AI Work Platform discontinued or shut down",
+      "published": "Sun, 10 Ma"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.globaltimes.cn/page/202607/1365159.shtml",
+      "title": "Chinese LLMs Doubao, Qwen to shut down personalized AI agents on July 15, to comply with government regulation - Global Times",
+      "content": "Meanwhile, Qwen also sent users a notice, noting that the platform's AI Agent function and related services will be discontinued on July 15, the Global Times learned. The move has sparked discussions on social media platform Sina Weibo. While some users disapprove of the shutdown, citing long-term companionship, others viewed it as a strategic pivot to boost business efficiency, and to ensure regulatory compliance. Liu Dingding, a veteran internet observer, told the Global Times on Sunday that there may be several factors driving the shutdown of AI agents on the two platforms: enhancing safety and compliance to avoid the abuse of AI agents by third parties while reducing investment in businesses with limited commercial viability.",
+      "dimension": "status",
+      "query": "monday AI Work Platform discontinued or shut down",
+      "published": "Wed, 15 Ju"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.theregister.com/software/2025/09/09/atlassian-goes-cloud-only-customers-face-integration-issues/391022",
+      "title": "Atlassian goes cloud-only, customers face integration issues",
+      "content": "# Atlassian's move to cloud-only means customers face integration issues and more First, server products go end of life, now datacenter gets the chop, and larger customers will pay more Atlassian is discontinuing its datacenter products, including Jira, Confluence and Bamboo, in favor of Atlassian Cloud. There is a partial exception for Bitbucket, a source code repository manager, which will have a license option covering both cloud and datacenter. The official post states that \"nearly all our new customers\" are choosing cloud and that there are benefits in AI search, chat and automation, thanks to its Rovo offering.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Tue, 09 Se"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.cnbc.com/2026/03/11/atlassian-slashes-10percent-of-workforce-to-self-fund-investments-in-ai.html",
+      "title": "Atlassian slashes 10% of workforce to 'self-fund' investments in AI",
+      "content": "The maker of Jira project tracking software has been trying to expand demand of its Rovo AI features, and in February the company touted 5 million monthly users. Atlassian offers Rovo credits in its subscriptions, and the company's year-over-year revenue growth has accelerated for the past three quarters. In 2023 Atlassian trimmed 500 employees, or 5% of its headcount.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Wed, 11 Ma"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.techtarget.com/it-infrastructure/news/366583456/Cloud-campaign-intensifies-for-Atlassian-software-products",
+      "title": "Cloud campaign intensifies for Atlassian software products | TechTarget",
+      "content": "More than three-quarters of Atlassian customers now use cloud products, according to presenters at this week's Team '24 conference. In the last year, Atlassian has opened seven new cloud data residency zones for customers with compliance concerns, adding to its previous total of four. In that time, multiple products -- so far without on-premises Data Center equivalents -- launched or were made generally available, including Jira Product Discovery, Atlassian Compass, Loom and Atlassian Intelligence. In fact, Atlassian shipped more than 10,000 new features for cloud in the last year, at a rate of 8,000 deployments per month, according to Atlassian co-founder and co-CEO Mike Cannon-Brookes during a keynote presentation Tuesday. [...] Another customer who has stuck with Data Center editions of Atlassian software products said this week that he's not happy with Atlassian's support and development for them. \"They are introducing new features only for cloud, which is obvious, because they want to force customer migration into their SaaS,\" said Marcin Lis, a senior Atlassian engineer at an EU entertainment company, in an online interview this week. \"Right now, Jira Cloud and Jira on-premises are two different products. [It's] the same for Confluence. Data Center is missing a lot of features if you compare it to cloud.\" ## Team super session drops heavy cloud hints [...] #### Related Resources #### Dig Deeper on IT Operations ##### Atlassian adds 'multi-player' agent collaboration, expands context BenLutkevich ##### Atlassian Team \u201926 Europe: move to AI as team sport with \u2018multi-player\u2019 agentic system BrianMcKenna ##### Atlassian Jira Planner joins spec-driven development AI coding trend BethPariseau ##### Atlassian introduces Product Collection for AI developer decisions AdrianBridgwater Coordinating robots and autonomous systems will be critical to unlocking physical AI, but it\u2019s still unclear whether ... As AI agents move from answering questions to making decisions and acting, businesses face a growing challenge of keeping ...",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Fri, 03 Ma"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.atlassian.com/blog/development/announcing-connect-end-of-support-timeline-and-next-steps",
+      "title": "Announcing Connect End of Support: Timeline and Next Steps - Inside Atlassian",
+      "content": "Each new extensibility feature is an opportunity for partners to build innovative apps that solve previously unsolvable use cases for customers. In recent months, we\u2019ve released multiple new ways for developers to add value to Atlassian products, including Forge modules to create custom Rovo agent actions. Forge already provides extensibility features developers can\u2019t get anywhere [\u2026] Article in Development ### Getting Ready for Connect End of Support Note: This post applies to Connect apps for Jira and Confluence. Bitbucket Connect end of support information can be found here. Since we announced Connect end of support a year and a half ago, the app ecosystem has undergone a remarkable transition. Over 95% of paid app seats have been migrated to Forge, moving the [\u2026] [...] Subscribe for more ## Inside Atlassian ### Get insights like this in your inbox ## Related content Article in Development ### Taking the Ecosystem Forward: An Update on the Future of Connect In 2014, the year Connect was introduced, the Atlassian ecosystem was a very different place. We didn\u2019t have apps \u2013 we had add-ons \u2013 which installed into \u201cJIRA OnDemand\u201d, the precursor to Jira Cloud. That year, Atlassian hit 33,000 customers and the Marketplace reached $20 million in sales. Today, Atlassian\u2019s 300,000+ customers centralize teamwork on [\u2026] Article in Development ### Connect apps will gain new extensibility features through Forge",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Mon, 17 Ma"
+    },
+    {
+      "id": "S19",
+      "url": "https://timothysykes.com/news/atlassian-corporation-team-news-2026_08_06",
+      "title": "Atlassian TEAM Stock Jumps As Jira Adds Powerful AI",
+      "content": "At the same time, the fundamentals still scream \u201chigh\u2011beta tech.\u201d TEAM is unprofitable on a GAAP basis, margins are negative, leverage is real, and valuation rests on continued cloud and AI execution. KeyBanc\u2019s lowered target is a reminder that if FY27 cloud growth underwhelms, this name can give back gains fast. Earnings scheduled for 2026/08/06 are the next big checkpoint, where management will update the market on AI feature uptake and cloud momentum. [...] ## Conclusion For active traders, TEAM has all the ingredients of a live, tradable story: strong trend off the lows, heavy AI news flow, and big\u2011name analyst support. Atlassian Corporation just turned Jira into an AI-native platform, integrated with leading coding agents and collaboration tools, and handed those features to existing Jira Cloud customers for free. That kind of product move often fuels adoption first and monetization later, which can keep growth headlines coming. [...] ## Why Traders Are Watching TEAM\u2019s AI Push The real story driving TEAM right now is Atlassian\u2019s full\u2011court press on AI. The company is not just bolting a chatbot onto Jira. Atlassian Corporation is trying to turn Jira into the command center for AI-powered software development. TEAM announced a suite of AI-native, agent\u2011orchestration features inside Jira: the Teamwork Graph context layer, a built\u2011in Jira Coding Agent, plus tight integrations with Slack, Microsoft Teams, and Loom. Traders should pay attention to one key detail \u2014 Atlassian is giving these tools to paid Jira Cloud customers at no extra cost. That is classic land\u2011and\u2011expand. Make the platform more valuable, lock teams deeper into the workflow, and worry about monetizing higher usage and extra modules later.",
+      "dimension": "status",
+      "query": "Jira discontinued or shut down",
+      "published": "Thu, 06 Au"
+    },
+    {
+      "id": "S20",
+      "url": "https://finance.biggo.com/news/7b14e3c3-666c-403d-b3cb-5a5cc50135c1",
+      "title": "GitHub's 'Spark' to Shut Down at Month's End \u2014 Platform Lock-In Casts Shadow Over Vibe Coding Market \u2014 BigGo Finance",
+      "content": "##### Key Elements GitHub's 'Spark' to Shut Down at Month's End \u2014 Platform Lock-In Casts Shadow Over Vibe Coding Market GitHub's vibe coding service \"Spark\" will cease operations at the end of this month. Some artificial intelligence (AI) features that were available in apps built with Spark have already been discontinued. The industry is increasingly highlighting the importance of interoperability \u2014 the ability to operate apps without being locked into a specific platform. According to IT industry sources on the 20th, GitHub plans to run the Spark service through the end of this month before shutting it down. GitHub halted new user sign-ups and app creation for Spark starting on the 4th. [...] The core problem is that \"GitHub Models\" \u2014 which provided chatbot and document summarization features to Spark apps \u2014 was discontinued on the 30th of last month, causing apps that relied on the service to lose their AI capabilities. To restore these features, users must connect external AI models themselves and separately manage usage fees and authentication keys. [...] GitHub's vibe coding service Spark will cease operations at the end of this month. New sign-ups and app creation have already been halted, and GitHub Models \u2014 which powered chatbot and document summarization features \u2014 was discontinued last month, causing some apps to lose their AI capabilities. Users have pointed out that even with source code in hand, data and runtime environments remain tied to the platform, making it difficult to operate apps on other servers. In response, vibe coding companies are racing to strengthen interoperability, allowing code and data to be exported to external environments. Meanwhile, Cursor has launched Origin, a code hosting platform that directly challenges GitHub. Origin, which debuted amid GitHub's frequent outages, supports GitHub repository integration",
+      "dimension": "status",
+      "query": "GitHub discontinued or shut down",
+      "published": "Thu, 20 Au"
+    },
+    {
+      "id": "S21",
+      "url": "https://tech-insider.org/ie/gemini-code-assist-shutdown-2026",
+      "title": "Gemini Code Assist Shutdown: 3 Tools Killed [2026]",
+      "content": "### Stage Two: July 17, 2026, Full Termination A month later, everything left standing shut off. Every code review action the GitHub app used to run stopped for good. Signing in with a personal Google account no longer unlocks the IDE extensions or the CLI at all, regardless of subscription status. [...] Instead of counting flat \u201cpremium requests,\u201d GitHub now meters actual token consumption through GitHub AI Credits, where one credit equals one cent. Heavy users who once paid a flat $10 and coded as much as they wanted suddenly had to watch a running balance. GitHub also paused new Copilot Pro, Pro+, and student sign-ups starting April 20, 2026, ahead of the migration, which briefly locked new users out entirely while the transition settled. The pattern across both companies matches. Flat-rate or fully free access to an AI coding agent turned out to be expensive to sustain once usage shifted from short autocomplete suggestions toward longer, agentic sessions that burn far more compute per request. Google shut its free door entirely. GitHub kept its door open but put a meter on it. [...] | Tool | Free Tier Status, July 2026 | Reported Monthly Limit | Source | --- --- | | GitHub Copilot Free | Active | ~50 AI credits (~$0.50), up to 2,000 completions | GitHub official documentation | | Cursor Hobby | Active | ~2,000 completions, 50 premium requests (unofficial, no longer published by Cursor) | Cursor community forum, third-party trackers | | Gemini Code Assist (individuals) | Discontinued July 17, 2026 | N/A, service terminated | Google official documentation | | Gemini Code Assist Enterprise | Active, business only | Per-seat, contract pricing | Google Cloud |",
+      "dimension": "status",
+      "query": "GitHub discontinued or shut down",
+      "published": "Sat, 18 Ju"
+    },
+    {
+      "id": "S22",
+      "url": "https://twistedvoxel.com/nintendo-has-shut-down-switch-emulator-eden",
+      "title": "Nintendo Has Shut Down Repository Of Switch Emulator Eden",
+      "content": "GamingNews # Nintendo Has Shut Down Repository Of Switch Emulator Eden by Muhammad Ali Bari by Muhammad Ali Bari 568 Continuing its spree of shutting down Switch emulators, Nintendo has now disabled the GitHub repository of the Eden emulator. The developers behind the Nintendo Switch emulator Eden have announced that the project\u2019s GitHub repository has been taken offline following a DMCA complaint from Nintendo. The news was shared by crueter (via MrSujano on Twitter/X), a member of the development team, in a message posted to the project\u2019s community Discord server, where they criticized the handling of the situation by both GitHub and its parent company Microsoft. Switch emulator eden [...] Despite the removal of the GitHub repository, the Eden team says the project itself is not shutting down. The emulator\u2019s source code and release builds have been moved to an independent hosting platform controlled by the developers. Going forward, this alternative site will act as the primary distribution hub for official releases of the emulator. They also noted that a temporary archive containing previous Eden releases is currently available for users while the project transitions away from GitHub. Notably, one of the most recent release candidates is not included in that archive. [...] Switch emulator eden According to the developer, the repository previously used to distribute official Eden builds has been disabled after a DMCA notice filed by Nintendo earlier this year. The takedown affects the GitHub \u201cReleases\u201d section that had served as the primary distribution point for the emulator\u2019s compiled builds. In the Discord post, crueter stated that the Eden team had submitted legal countermeasures in response to Nintendo\u2019s DMCA complaint. However, they claim that GitHub proceeded with disabling the repository without acknowledging those countermeasures. The developer described the situation as an \u201cincredible display of unprofessionalism,\u201d arguing that the platform failed to properly address their response.",
+      "dimension": "status",
+      "query": "GitHub discontinued or shut down",
+      "published": "Fri, 06 Ma"
+    },
+    {
+      "id": "S23",
+      "url": "https://videocardz.com/newz/sony-takes-down-ps5-piracy-store-offering-1600-games-multiple-clones-appear-just-hours-later",
+      "title": "Sony takes down PS5 piracy store offering 1,600 games, multiple clones appear just hours later - VideoCardz.com",
+      "content": "Overdrive, an unofficial game store offering more than 1,600 PS4 and PS5 games for free, reportedly shut down following legal action by Sony Interactive Entertainment. The project\u2019s original GitHub repository disappeared, and the application reportedly stopped working. However, the shutdown did not last long. Overdrive has already reappeared under a different GitHub account, complete with a new release. The original repository, hosted under the half144 account, now returns a 404 error. Allegedly, Sony\u2019s lawyers had sent the developers a cease-and-desist letter. The report was shared by Oliver Darko, although neither Sony nor the developers have publicly confirmed receiving such a notice.",
+      "dimension": "status",
+      "query": "GitHub discontinued or shut down",
+      "published": "Wed, 14 Oc"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.engadget.com/2259317/x-viewing-services-nitter-and-xcancel-shut-down-after-threats-of-legal-action",
+      "title": "X-Viewing Services Nitter And XCancel Shut Down After Threats Of Legal Action",
+      "content": "Over the last few days, though, the pair has gone dark again. Nitter's GitHub repository was archived and moved into read-only mode on September 11, and yesterday XCancel posted a statement to its own site that said service was suspended. The message from XCancel cited \"a new development in the ongoing legal proceedings\" as the reason for the break in service and added \"We can't share more details.\" It seems like things may have escalated behind the scenes, so users of Nitter and XCancel will have to wait and see if the platforms are able to fend off the legal action or if the suspensions will become permanent shutdowns.",
+      "dimension": "status",
+      "query": "GitHub discontinued or shut down",
+      "published": "Tue, 15 Se"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.g2.com/products/plane/pricing",
+      "title": "Plane Pricing 2026",
+      "content": "Plane offers 4 pricing editions, starting from $0 to $499. Plane pricing tiers are designed to support different usage levels and team sizes.",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S26",
+      "url": "https://outplane.com/pricing",
+      "title": "Pricing | Out Plane",
+      "content": "Every plan has a monthly base price that already includes an amount of usage. Compute is metered by the minute for each running instance, managed databases and persistent volumes by what you provision, and build minutes beyond your plan allowance. Anything above the included amount is added to the same monthly invoice. No. Plans start at $9 a month. Starter and Pro both begin with a 14-day free trial, so you can deploy and see how the platform behaves with your own workload before you pay anything. Eight sizes, from op-20 upwards. Starter reaches op-46, Pro reaches op-70, and Growth and Enterprise can use every size. The table above lists each one with its monthly cost. [...] Most Popular ### Pro $29/month + usage $15 of usage included Covers two small apps running all month For teams shipping to production Start free trial on Pro Free for 14 days. Cancel before it ends and you pay nothing. #### Includes: 100 apps 10 managed databases 10 team members 25 custom domains 5 replicas per app 200 GB volume storage 15,000 build minutes / month Instances up to op-70 500 Otto messages / month #### Everything in Starter, plus: Team collaboration & roles Deploy previews per branch ### Growth $299/month + usage $150 of usage included Covers an 8 vCPU app running all month For high-volume workloads Get started on Growth Billed monthly. Cancel any time, effective at the end of the period. #### Includes: [...] Pre-bundled vCPU + RAM combos \u00b7 pick from the dashboard | Plan | vCPU | RAM | Price per Service | --- --- | | op-20 | 500 mCPU | 512 MB | $3.04/mo ($0.0042/hr) | | op-22 | 1000 mCPU | 512 MB | $6.08/mo ($0.0083/hr) | | op-34 | 1000 mCPU | 2000 MB | $18.25/mo ($0.0250/hr) | | op-46 | 2000 mCPU | 4000 MB | $36.50/mo ($0.0500/hr) | | op-58 | 4000 mCPU | 8000 MB | $73.00/mo ($0.1000/hr) | | op-70 | 8000 mCPU | 16000 MB | $146.00/mo ($0.2000/hr) | | op-82 | 16000 mCPU | 32000 MB | $292.00/mo ($0.4000/hr) | | op-94 | 32000 mCPU | 64000 MB | $584.00/mo ($0.8000/hr) | Included on every plan. No add-ons, no feature unlocks. Otto, the AI agent that deploys and operates your apps Browser shell into running apps HTTP logs & request tracing Container registry Environment variables & secrets",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S27",
+      "url": "https://elest.io/open-source/plane/resources/plans-and-pricing",
+      "title": "Plane - Plans and pricing | Elestio",
+      "content": "Databases Applications Development Hosting & Infrastructure AI & GPU All Services Domains CI/CD Terraform Clusters AI DevOps Agents AI & Automation Vibecoder Documentation Blog Use Cases Community Pricing Documentation Login Get Started ### Plane Guide & Resources # Plans and pricing for Plane fully managed by Elestio Plane Guide & Resources Knowledge base Installation guide Features Quickstart Plans and pricing Managed service features Official documentation Platform overview Elestio offers a range of plans to fit any team size and budget. From basic setups perfect for small teams, to enterprise-grade solutions with advanced features and support, find the perfect plan that scales with your needs. ## Plans for Plane Choose your Provider: Choose your Region: [...] ## Billing We generate invoices when you buy credits or when your auto-recharge. Enter your billing details in the account settings. Business customers can enter their company name, and VAT number for the invoice. ## Elestio support plans for Plane Elestio support plans We provide 3 different support plans to help you with your Plane instance. The first level of support is free and included when you create your instance. You can upgrade to a higher or lower support plan at any time. Compare our different support plans [...] Choose your Provider: Choose your Region: | | | --- | | | The range of disc sizes available is 10 GB to 10 TB for $0.15/GB/month. | [PLAN] $[PPM]/month $[PPH]/hr [CORE] CPUs [RAM] GB RAM [DISK] GB SSD Deploy now ## Credits system Elestio charges you on an hourly basis for the resources you use. Each resource has a credit cost per hour. From the dashboard, you can view your current balance, credit cost per hour, and the number of days left before you run out of credits. Elestio credits system This system ensures that you only pay for the resources you use. The credits never expire, and you can use them to pay for any resource you want.",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S28",
+      "url": "https://www.gappsy.com/tools/plane-project-management",
+      "title": "Plane Review 2026: Open-Source PM Features and Pricing",
+      "content": "It includes a built-in Wiki linked to work items and Plane AI for AI-assisted workflows, and can be deployed as a managed Plane Cloud service or self-hosted via Docker or Kubernetes, including air-gapped enterprise setups. ## Pricing Plane follows a freemium, per-seat model: the Free tier supports up to 12 users, Pro is $6/seat/month, and Business is $13/seat/month, each with an increasing allocation of AI credits per seat. Enterprise Grid is custom-priced for organizations that need private or managed deployments, SSO/LDAP, audit logs and migration support. ## Key Features [...] # Plane Project Management Review, Pricing & Features Plane (plane.so) review: open-source Jira and Linear alternative with work items, cycles, docs and AI. Compare pricing, features and alternatives. Researched and fact-checked by Bartu Cavusoglu \u00b7 Updated July 19, 2026 Visit Plane Project Management Website \u2192 Category : Project Management Pricing : Freemium, from Free for up to 12 seats; paid plans from $6/seat/month Verified : Not yet Last updated : July 19, 2026 Founded : 2022 Headquarters : Hyderabad, India and Delaware/San Francisco, United States (dual headquarters) Free PlanWindowsWeb AppiOSAndroidAPIOpen SourceAIFreemiumTemplatesSelf-HostedMac ## Overview [...] ## Pricing Free $0/seat/month Monthly Pro $6/seat/month Monthly or annual (25% off annually) Business $13/seat/month Monthly or annual (13% off annually) Enterprise Grid Custom Custom ## Frequently Asked Questions Is Plane (plane.so) free? Yes, Plane offers a free cloud tier for up to 12 seats, plus a fully free self-hosted option since the software is open source. Who owns Plane? Plane is developed by a company founded by Vamsi Kurama and Vihar Kurama in 2022, backed by OSS Capital. Is Plane the same company as the payroll platform Plane at plane.com? No, they are unrelated companies that happen to share the name Plane; plane.so is the project management tool, and plane.com is a separate payroll and HR company founded in 2017. Can Plane be self-hosted?",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S29",
+      "url": "https://plane.so/pricing",
+      "title": "Plane Pricing | Simple per-seat plans for teams that ship",
+      "content": "Yes, Plane offers a generous free tier with core features. We also have paid plans for advanced features, enterprise needs, and priority support. Absolutely! Plane is open-source and can be self-hosted on your own infrastructure for complete control and privacy. We provide comprehensive documentation and support for self-hosting. Plane integrates with popular tools like GitHub, GitLab, Slack, Discord, and many more to streamline your workflow and keep your team connected. We provide migration tools and support to help you move from tools like Jira, Asana, Trello, or Linear to Plane. Our team can assist with the migration process. [...] Built for compliance and custom infra Ideal for teams with security, compliance, or infrastructure requirements. Complete feature listSavings calculator #### Slash your bills by more than 70% Choose one from both sets of tools below and we will automatically set their comparable plans. Number of members 10 100 1000 5000 Project management software Knowledge management software Plan Price $6 seat per month Annual cost with Jira for 1010 users $1,497.61,497.6 per year Annual cost with Confluence for 1010 users $586.8586.8 per year ##### We did the math for you. Your tools of choice today ##### $2,084.4$2,084.4 Price with Plane ##### $720$720 Savings with Plane ##### $1,364.4$1,364.4 ###### Join 50,000+ teams that actually enjoy their work [...] | | | | | | | --- --- --- | | Seat limitMaximum users allowed in your workspace or instance based on your plan | 12 users | Unlimited | Unlimited | Unlimited | 12 users | | RolesChoose from one of four pre-defined roles or create custom ones with RBAC. | Basic | RBAC | RBAC | GAC | Basic | | GuestsLet some users see everything or just their work items in a project. Enterprise handles this through custom roles with RBAC and GAC. | Limited | 5 per paid member | 5 per paid member | Custom roles via RBAC + GAC | Limited | | Power KAccess a keyboard-first gateway to almost anything in Plane. | | SAMLGet the officially supported SAML implementation and make Plane secure with any IdP. | | OIDCGet the officially supported OIDC implementation and make Plane secure with any IdP. |",
+      "dimension": "pricing",
+      "query": "Plane pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S30",
+      "url": "https://tech.co/project-management-software/clickup-pricing",
+      "title": "ClickUp Pricing 2026: Everything You Need to Know",
+      "content": "### Key Takeaways ClickUp offers five pricing tiers, including a free plan. Its four paid plans range from $7 to $12, while the Enterprise plan has no public pricing. The Unlimited plan ($7 per user, per month), is ideal for small teams, while the Business plan ($12 per user, per month) is better suited for mid-sized businesses. ClickUp offers great value for money, with a pricing score of 4.4/5, making it more affordable than competitors like monday work management and Smartsheet. ClickUp\u2019s free plan is one of the best on the market, offering features like unlimited tasks and two-factor authentication, which are often paid features in other tools. In this guide: [...] Unlimited posts Live onboarding training White labeling ClickUp pricing starts at just $7 per user, per month (when billed annually), for the Unlimited plan. If your company or team is growing and needs advanced features, then you can opt for the Business tier, which costs just $12 per user, per month, when paid annually. ClickUp also offers an Enterprise plan, but it has no public pricing. And there\u2019s a free plan with no user limit, which our testers found to be the best free project management software, overall. ClickUp\u2019s pricing undercuts a lot of the big names on the market \u2014 you\u2019ll pay more for paid plans from Wrike, Asana, and Teamwork \u2014 making it a great option if you\u2019re concerned about project management costs. [...] It\u2019s important to note that not all of these criteria hold equal weight in our testing methodology. This is best practice and based on what businesses have told us is essential, compared with what\u2019s simply \u201cnice to have\u201d. Because of their central importance to project management, how easy each tool is to use, how much it costs, features for project and workflow creation, and task management had more of an impact overall than other criteria. ### Is ClickUp Worth The Cost? ClickUp\u2019s pricing plans start at $7 per user, per month, for the Unlimited plan and, all in all, it\u2019s definitely worth the cost, making it an ideal choice for small businesses and teams. Medium-sized teams will find the $12 per user, per month, Business plan good value for money, too.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S31",
+      "url": "https://www.zenpilot.com/blog/how-to-choose-the-right-clickup-pricing-plan-for-your-agency",
+      "title": "ClickUp Pricing Plans Compared (2026): Free vs Business vs Enterprise | ZenPilot",
+      "content": "One thing has changed since this article was first written: you can now buy ClickUp licenses through ZenPilot at ClickUp\u2019s official rates. Same plans, same prices, plus a team that has implemented ClickUp 3,100+ times helping you pick. More on that at the end. ## ClickUp Pricing Plans: Key Feature Differences As of 2026, ClickUp\u2019s pricing page shows four plans. A fifth is still available even though it no longer appears there. The five ClickUp pricing plans are: 1. Free Forever 2. Unlimited 3. Business 4. Business Plus (no longer on the public pricing page, but still available as an upgrade and through partners like ZenPilot) 5. Enterprise On top of any paid plan, ClickUp sells AI as separate per-seat add-ons: ClickUp Brain and Everything AI. We\u2019ll cover those after the core plans. [...] ClickUp Brain at $9 per user per month (billed annually). Unlimited Brain assistant, @Brain agent, and AI chat, plus a monthly pool of AI Super Credits. Everything AI at $28 per user per month. Everything in Brain plus unlimited Ambient Answers, the AI Notetaker, image generation, and a much larger credit pool for Super Agents. AI Super Credits can be added on top of either tier when your agents, AI fields, and automations burn through the included pool. [...] #### Buy ClickUp Licenses Through ZenPilot Same plans, same official ClickUp rates. The difference is a Diamond Solutions Partner picking the plan with you, one invoice for licenses and services, and a human to call before the help desk. See How It Works \u2192 ## The Business Plus Plan This plan costs $19 per member per month billed annually. ClickUp removed Business Plus from its public pricing page in late 2024, but it\u2019s still available as an upgrade, and we can quote it for you. For some teams that might feel steep. But the payoff of the additional features can definitely be worth it. At ZenPilot, we highlight three key features of Business Plus: Subtasks in Multiple Lists Conditional Logic in Forms Custom Capacity in Workload Allow me to break these three down.",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S32",
+      "url": "https://www.vendr.com/marketplace/clickup",
+      "title": "ClickUp Software Pricing & Plans 2026: See Your Cost",
+      "content": "# How much does ClickUp cost in 2026? ClickUp uses a per-seat, per-month pricing model with five main tiers: Free, Unlimited, Business, Business Plus, and Enterprise. Published pricing ranges from $0 for the Free plan to $19 per user per month for Business Plus when billed annually. Enterprise pricing is custom and negotiated directly with ClickUp's sales team. The total cost depends on several factors beyond the base subscription: [...] ## ClickUp vs. Notion ### Pricing comparison | Pricing component | ClickUp | Notion | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10/user/month (Plus) | | Mid-tier (annual) | $12/user/month (Business) | $18/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $15,000\u2013$21,600 | ### Pricing notes [...] ## ClickUp vs. Asana ### Pricing comparison | Pricing component | ClickUp | Asana | --- | Entry-level paid tier (annual) | $7/user/month (Unlimited) | $10.99/user/month (Premium) | | Mid-tier (annual) | $12/user/month (Business) | $24.99/user/month (Business) | | Enterprise pricing | Custom, negotiated | Custom, negotiated | | Typical negotiated discount (50\u2013200 users) | 15\u201330% off list | 10\u201320% off list | | Estimated total for 100 users, mid-tier, annual | $10,000\u2013$14,400 | $20,000\u2013$30,000 | ### Pricing notes",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S33",
+      "url": "https://www.larksuite.com/en_us/blog/clickup-pricing-plans-guide",
+      "title": "ClickUp Pricing 2026: Plans, Features + Hidden Costs",
+      "content": "Log in Download # ClickUp pricing for 2026 ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. A free plan is available, while paid plans cost $7\u2013$19 per user/month (annual billing) and $10\u2013$29 per user/month (monthly billing). Enterprise pricing is custom. A free trial is available for the paid tiers. ClickUp is a cloud-based, all-in-one project management platform that brings tasks, docs, whiteboards, goals, and time tracking into a single workspace. ## What's included in each ClickUp plan Tasks, Docs, Whiteboards, Chat, Dashboards, Goals, Forms, Calendar, and 17 other products are included. [...] | See other plans | Free Forever Best for testing, solo use, and very light workflows. $0/ user / month | Unlimited Best for small teams that need unlimited storage and day-to-day flexibility. $7/ user / monthAnnual$10/ user / monthMonthly | Business Best for cross-functional teams that need reporting, workload, and tighter controls. $12/ user / monthAnnual$19/ user / monthMonthly | Business Plus Best for multiple teams that need higher automation limits, custom roles, and team sharing. $19/ user / monthAnnual$29/ user / monthMonthly | Enterprise Best for large organizations with security, procurement, and rollout requirements. Custom pricing | --- --- --- | | Max users | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S34",
+      "url": "https://niftypm.com/blog/clickup-pricing",
+      "title": "ClickUp Pricing For Small Businesses in 2026",
+      "content": "## ClickUp Pricing Plans Explained (2026) ClickUp has four major pricing tiers. ClickUp\u2019s free version, known as ClickUp\u2019s free plan, is ideal for individuals and small teams who need essential features, but it comes with limitations compared to paid plans. Here\u2019s what each plan really offers and what type of user it fits. ### 1. ClickUp Free Forever Plan ($0) Best for: Individuals, students, freelancers, small business owners, or very small teams ClickUp\u2019s Free Forever plan is attractive because it includes unlimited tasks and unlimited members. That makes it seem like a \u201cno brainer\u201d for teams trying to save money, and it\u2019s especially suitable for small business owners who need basic project management tools without extensive features. What ClickUp Free Plan Includes [...] In this guide, we\u2019ll break down: ClickUp\u2019s full pricing (with annual per-user rates)\u2014ClickUp offers a variety of plans and features to suit different team needs ClickUp AI pricing and hidden add-on Where does ClickUp become a costly choice for teams? A detailed comparison table (ClickUp vs Nifty) Why is Nifty the better fit for most teams in 2026? Let\u2019s get into it. ## Quick Overview: ClickUp Pricing (Annual Billing) Before we dive deep, here\u2019s the pricing snapshot based on tool\u2019s official pricing page. Free Forever: $0 Unlimited: $7 per user/month (billed annually) Business: $12 per user/month (billed annually) Enterprise: Custom pricing (Source: ClickUp Pricing Page) [...] How much does ClickUp cost per person? ClickUp costs $7 per user/month (Unlimited plan) and $12 per user/month (Business plan) when billed annually. AI is extra. How much does ClickUp AI cost? ClickUp AI costs $9 per user/month for Brain AI and $28 per user/month for Everything AI. Does Nifty include AI? Yes. Nifty includes Orbit AI and allows teams to start using it even on the free plan. Which is better: ClickUp or Nifty? ClickUp is better for teams needing deep customization and complex dashboards. Nifty is better for teams wanting predictable pricing, easier onboarding, client collaboration, and AI included without expensive add-ons. #### Recent Articles: Shiv Kapoor2026-08-07T11:34:21-04:00 #### When everyone has an agent, alignment becomes the bottleneck",
+      "dimension": "pricing",
+      "query": "ClickUp pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S35",
+      "url": "https://www.capterra.com/p/147657/monday-com/pricing",
+      "title": "monday AI Work Platform Pricing 2026",
+      "content": "monday AI Work Platform has 5 different plans. The pricing starts at $9 per user per month with a free plan available. Basic $9.00 Per User, Per Month.",
+      "dimension": "pricing",
+      "query": "monday AI Work Platform pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S36",
+      "url": "https://crozdesk.com/software/monday-ai-work-platform/pricing",
+      "title": "monday AI Work Platform Pricing",
+      "content": "monday AI Work Platform offers freemium subscriptions starting from USD8.0/month. View all plans and pricing for monday AI Work Platform in 2026.",
+      "dimension": "pricing",
+      "query": "monday AI Work Platform pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S37",
+      "url": "https://transfunnel.com/blog/monday-ai-pricing-model",
+      "title": "monday AI Pricing 2026: Credits, Costs & Usage Explained",
+      "content": "## Frequently Asked Questions monday AI uses a credit-based pricing model. AI credits cost $0.01 per credit in USD, and the minimum monthly allocation starts at 1,000 credits for Basic, 2,000 for Standard, and 3,000 for Pro. For customers who joined the monday AI Work Platform on or after May 6, 2026, AI credits must be purchased alongside seats. They are not included as unlimited free AI usage. There isn\u2019t one AI feature that always uses the most credits because consumption depends on the capability and task. AI Notetaker uses 120 credits per meeting hour, while Agents, Sidekick, and AI Workflows vary based on task complexity. More complex Agent tasks can consume 250+ credits per task. [...] Under the new monday AI pricing model, you pay for both seats and AI credits. AI credits are purchased alongside your plan. The credit allocation you need basically depends on your selected plan and how your team uses monday AI. Here\u2019s a quick look at the minimum monthly AI credit allocation by plan: | | | | --- | monday.com Plans | Cost | Minimum AI Credits / Month | | Basic | $9 seat/month | 1000 Credits | | Standard | $12 seat/month | 2000 Credits | | Pro | $19 seat/month | 3000 Credits | | Enterprise | Custom Price | Custom Credits | ## What Changed in monday AI Pricing in 2026? [...] ## What Changed in monday AI Pricing in 2026? The main change to monday.com pricing tiers is the change from a seat-based model to a hybrid seats + AI credits model. For customers who joined the monday Work Platform on or after May 6, 2026, AI credits are now a required part of the purchase alongside seats. Before May 6, 2026 monday AI capabilities were priced through different feature-specific options. Teams could then opt for separate pricing structures for capabilities such as AI Notetaker, Sidekick, Vibe, and AI Workflows. From May 6, 2026",
+      "dimension": "pricing",
+      "query": "monday AI Work Platform pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S38",
+      "url": "https://plaky.com/learn/plaky/monday-com-pricing",
+      "title": "Monday.com Pricing: Plans, Cost, and Features (2026 update)",
+      "content": "The Standard plan is $31/seat/month whereas the Pro plan costs $45/seat/month. If you need monday service Enterprise plan, you\u2019ll have to contact their sales team for a quote. The same goes for all other plans if you have more than 40 people in your team. ## Monday.com pricing plans explained Now that we\u2019ve covered different monday.com apps and their plans and pricing, let\u2019s go back to the primary monday AI work platform and take a closer look at each plan\u2019s feature set to see which one offers the best value for your money. ### Free plan Monday.com\u2019s free plan is quite limited and best suited for individuals or 2-person teams mainly looking for a good task tracking app. It includes several notable features: [...] When comparing the many tools available on the market today, managers must have a clear idea of what their team needs and consider their budget limit. So, how much does monday.com really cost and what does each plan offer? Read on to find out! ## 2026 key takeaways Here are some key facts to sum up monday.com\u2019s AI work platform 2026 pricing: A free plan is available for up to 2 seats. There are 4 paid plans that require a minimum of 3 seats. Each paid plan includes both seats and AI credits. AI credits are billed alongside your seats with the Standard and Pro plans \u2014 $0.01 per credit for yearly plans and $0,0125 for monthly plans. Users get AI credits to use across all monday.com\u2019s AI capabilities \u2014 no more need for separate add-on purchases. ## How much does monday.com cost? [...] Storage up to 5 GB, Unlimited boards, items, docs, and viewers, Custom fields, 1 custom dashboard, and 24/7 customer support and daily live webinars. In general, the Basic plan is a step-up from the free version and suits small teams with modest project collaboration needs. Basic plan users also get 1,000 AI credits/month/account. However, if they run out of credits, they can\u2019t upgrade to the next AI credit bucket since it\u2019s only available on the Standard, Pro, and Enterprise plans. ### Standard plan Monday.com\u2019s Standard plan costs only $3 more per user than the Basic plan \u2014 but offers a large set of additional workflow management features. Specifically, this plan allows users to:",
+      "dimension": "pricing",
+      "query": "monday AI Work Platform pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S39",
+      "url": "https://monday.com/pricing",
+      "title": "monday.com pricing and plans",
+      "content": "Most Popular Standard $ 12 seat / month Total $36/ month Billed annually Execute product workflows with advanced capabilities Includes Basic, plus: Monday AI AI credits Run AI powered features that streamline your work Monday AI AI Sidekick (lite) An intelligent, context-aware AI assistant that runs your work. Start for free, buy more as needed Timeline & Gantt views See all upcoming work in a visual timeline & use Gantt charts to ensure you're meeting deadlines successfully. Guest access Collaborate on specific projects with outside users without giving them access to your full account. Sprint management Use agile methodology & manage sprints using story points. Single Roadmap planning [...] Customer Portal \u2013 access for up to 10 users Provide self-service capabilities for up to 10 users, enabling them to submit requests, track progress, and find solutions independently. Create a dashboard based on 1 board Gain insights from all corners of your service operations by visualizing data with different widgets. Pro $ 45 seat / month Total $135/ month Billed annually Gain insights into your entire service operations Includes Standard, plus: Monday AI AI credits Run AI powered features that streamline your work Monday AI AI Sidekick (lite) An intelligent, context-aware AI assistant that runs your work. Start for free, buy more as needed Dynamic auto-responses for any channel Save time by sending out pre-defined, fully customizable email templates. [...] Automations (250 actions per month) Automate repetitive work by setting customizable actions within your boards. Integrations (250 actions per month) Connect monday.com with the tools you already use to centralize all your team's work. Create a dashboard that combines up to 5 boards Gain insights about your work by aggregating & visualizing data from various boards. Pro $ 20 seat / month Total $60/ month Billed annually Collaborate & report on high-level product roadmaps Includes Standard, plus: Monday AI AI credits Run AI powered features that streamline your work Monday AI AI Sidekick (lite) An intelligent, context-aware AI assistant that runs your work. Start for free, buy more as needed Hierarchy New",
+      "dimension": "pricing",
+      "query": "monday AI Work Platform pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S40",
+      "url": "https://tech.co/project-management-software/jira-pricing",
+      "title": "Jira Pricing Guide: How Much Does the Provider Cost in 2026?",
+      "content": "Time tracking Unlimited projects AI insights Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users. Jira operates a per-user pricing model, meaning that those starting prices drop dramatically if you add more users. There\u2019s also an Enterprise plan with custom pricing, and a free plan that we ranked as one of the best free project management software plans available. In this guide, I\u2019ll take you through everything you need to know about Jira pricing, including plans, hidden fees, and potential competitors. In This Guide: [...] ### Key Takeaways Jira\u2019s Standard plan starts at $7.91 per user, per month, while its Premium plan goes up to $14.54 per user, per month, for up to 300 users. Choose annual billing to reduce the cost of the Standard plan to $6.52 per user, per month for a team of 300. Large enterprises that favor a self-hosting option should go for Jira Data Center, which starts at $51,000 per year and supports teams of 500 or more. Alternatives include Trello, which is great for budget-conscious teams, and monday work management, which is much easier to use. Jira has hidden costs in the form of paid add-ons from the Atlassian marketplace. ## How Much Does Jira Cost? Jira has four pricing plans \u2014 a free plan, Standard, Premium, and Enterprise. [...] Free \u2013 Free (up to 10 users) Standard \u2013 $7.91 per user, per month (300 users) Premium \u2013 $14.54 per user, per month (300 users) Enterprise \u2013 Custom pricing Jira is favored by tech and IT teams for its deep level of customizability, scrum and kanban boards, and integration with developer tools, such as GitHub. As a result of this, some of the terminology used in the app might be unfamiliar, and it\u2019s not very easy to use. Screenshot of Jira The \u201cimpact vs effort\u201d graph is a great way of measuring ROI. Source: Tech.co testing 0 out of 0",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S41",
+      "url": "https://thedigitalprojectmanager.com/tools/jira-pricing",
+      "title": "Jira Pricing Tiers & Costs",
+      "content": "## How Much Does Jira Cost? Jira\u2019s paid plans start at $7/user/month and go up to $12/user/month. A free version is available for small teams or individual users with up to 10 users. Additionally, there is a custom pricing tier for enterprise users, which includes advanced analytics, enhanced security features, and support for multiple instances. ## Jira Plans & Pricing Tiers Here's an overview of the available Jira plans: [...] ### Jira Premium Plan Aimed at larger teams, the Premium plan costs $12/user/month. It offers AI-powered features, collaborative teamwork, customizable approval processes, and unlimited storage. This plan is ideal for organizations requiring advanced project management and automation. Limitations include a 1-hour response time from Jira service management for critical issues. ### Jira Enterprise Plan Tailored for large enterprises, the Enterprise plan includes advanced analytics, security, and multiple instances. It\u2019s best for organizations needing extensive customization, data isolation, and administrative autonomy. This plan offers unlimited automations and 24/7 premium support with a 30-minute response time for critical issues. Limitations are based on annual billing only. [...] ## Jira Pricing Vs. Competitors Jira is generally considered to be in the average to affordable range for project management software. It offers four user tiers: Free, Standard ($7/user/month), Premium ($12/user/month), and Enterprise (custom pricing). Each plan includes features such as various project views, automation capabilities, and extensive integrations. The Free plan offers basic features, while the Standard and Premium plans offer more advanced perks like user roles, permissions, and increased storage. Overall, Jira's pricing is competitive, especially for small to medium-sized teams, and it provides strong security safeguards across all plans. ### Comparison Chart: Jira vs. Alternatives",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S42",
+      "url": "https://ones.com/blog/jira-pricing-explained-why-you-should-consider-other-options",
+      "title": "Jira Pricing 2026: Plans, Hidden Costs & TCO Guide",
+      "content": "| Plan | Price | Users | Storage | Automation | SLA | --- --- --- | | Free | $0 | Up to 10 | 2 GB | 100 rules/month | None | | Standard | $7.91/user/mo | Up to 100,000 | 250 GB | 1,700 rules/month | None | | Premium | $14.54/user/mo | Unlimited | Unlimited | 1,000 rules/user/mo | 99.9% | | Enterprise | Custom | Unlimited | Unlimited | Unlimited | 99.95% | Monthly billing costs 7\u201310% more. Standard goes from $7.91 to $8.15, Premium from $14.54 to $15.25. The practical trigger point: once you exceed 10 users, you\u2019re forced onto a paid Jira pricing plan. For a 50-person team on Standard, that\u2019s roughly $4,750/year \u2014 before any add-ons. ## Jira Cloud Pricing Plans: The Full Breakdown [...] Log in Book a Demo Try for free Jira Alternative # Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives Scott, Andrew Scott, Andrew \u00b7 14 min read Try ONES for free ![Jira Pricing Breakdown: Plan Breakdown, Hidden Cost & Alternatives]( If you\u2019re considering Jira as your project management tool, you\u2019re not alone. Jira has long been a popular choice for software development teams, especially those working with Agile workflows. That said, pricing is still worth a closer look before you commit. Jira offers a free plan for small teams, while its paid Cloud plans start at $7.91 per user/month for Standard and $14.54 per user/month for Premium on Atlassian\u2019s current monthly pricing page. [...] According to Atlassian\u2019s pricing tables, Jira Data Center currently starts at $51,000/year for up to 500 users. From February 17, 2026 PT, that tier will increase to $59,000/year. The 1,000-user tier will rise from $87,000 to $100,000/year, and the 2,000-user tier will rise from $158,000 to $182,000/year. Because Jira DC pricing uses fixed tiers, costs can jump quickly when your team crosses into the next user band. For example, moving from 500 to 501 users means moving into the 1,000-user tier. ### Data Center EOL: March 28, 2029 (What It Means for Your Budget?) Atlassian has announced end-of-life for Jira Data Center Server on March 28, 2029. After that date, no security patches, no bug fixes, no support.",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S43",
+      "url": "https://www.vendr.com/marketplace/atlassian",
+      "title": "Atlassian Software Pricing & Plans 2026: See Your Cost",
+      "content": "## How much does Jira Software cost? Pricing Structure: Free: Up to 10 users, basic features, community support Standard: Starts at $8.15/user/month (billed annually) for 1\u201310 users; decreases to ~$7.16/user/month for 11\u2013100 users, and continues to scale down with volume Premium: Starts at $16/user/month (billed annually) for 1\u201310 users; includes advanced permissions, analytics, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, enterprise-grade security, and dedicated support Observed Outcomes: [...] Benchmarking context: Vendr transaction data shows that bundled Jira + Confluence deals often achieve lower effective per-user pricing compared to standalone purchases. Compare Confluence pricing with Vendr to see how your quote aligns with recent market outcomes. ## How much does Jira Service Management cost? Pricing Structure: Free: Up to 3 agents, basic ITSM features Standard: Starts at $21.25/agent/month (billed annually) for 1\u20133 agents; scales down with volume Premium: Starts at $49.50/agent/month (billed annually); includes advanced automation, SLA management, and 24/7 support Enterprise: Custom pricing; includes unlimited storage, data residency, and enterprise-grade controls Observed Outcomes: [...] Small teams (10\u201350 users) Small teams typically purchase Standard or Premium tiers at or near list pricing, with limited negotiation leverage. Total annual cost for Jira Software + Confluence (Standard tier) for 25 users is approximately $4,000\u2013$5,000 at list rates. In Vendr's dataset, buyers in this range often achieve modest discounts through annual prepayment or bundling. Mid-market teams (50\u2013200 users)",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S44",
+      "url": "https://www.salto.io/blog-posts/jira-pricing-plans-guide",
+      "title": "Jira Pricing: A Comprehensive Guide to All Plans",
+      "content": "## Summary Jira's pricing depends on several parameters. If you choose on-premise hosting with a Data Center version, you may only pay annually with a minimum of 500 users. On the other hand, if you choose the cloud option, you have more flexibility with monthly or annual payments and four different plans - Free, Standard, Premium, and Enterprise, each with its limitations, pricing list, and unique features. When planning your budget, keep in mind the cost of apps. If you plan to add more users, you will also have to pay more for the apps. Check the Atlassian Pricing formal page to explore the updated pricing, a simulator to get the exact payment for your number of users, and the Atlassian Marketplace to check the apps' cost. WRITTEN BY OUR EXPERT Gal Fatal",
+      "dimension": "pricing",
+      "query": "Jira pricing plans",
+      "published": ""
+    },
+    {
+      "id": "S45",
+      "url": "https://plane.so/blog/plane-vs-clickup-which-should-you-choose-in-2026",
+      "title": "Plane vs. ClickUp: Which should you choose in 2026? | Plane Blog",
+      "content": "Blog / Comparisons # Plane vs. ClickUp: Which should you choose in 2026? Sneha Kanojia 12 Jan, 2026 Start a free trial Share Start a free trial Plane and ClickUp are often pitted against each other as \"all-in-one\" platforms, but they answer very different questions. ClickUp set out to be the everything app for everyone: tasks, docs, chat, whiteboards, goals, all in one cloud workspace. Plane took a tighter approach: connect work items, documentation, sprints, intake, and AI in a single workspace that engineering-led teams can self-host, extend, and audit. The choice usually comes down to whether you want feature density in the cloud or a focused work platform you can deploy on your own terms. [...] ## What makes Plane different from ClickUp ## 1. All-in-one workspace for modern teams ClickUp markets itself as the \"everything app for work,\" covering tasks, docs, chat, whiteboards, goals, and mind maps in a single cloud platform. A few capabilities sit outside the base plans: AI is a paid add-on. Brain AI is $9/user/month; Everything AI is $28/user/month. Wiki features scale with the plan. Doc tags and wiki organization have usage limits on Free and lower-tier plans; full wiki capabilities are unlocked on Business. Sprint reporting unlocks at Business. Burndown and Burnup Dashboard cards are available from that tier upward. [...] ## 7. AI features and pricing The defining difference between Plane and ClickUp regarding AI is solely where the bill lands. #### ClickUp's AI ClickUp has built a genuinely capable AI layer across two tiers: Brain AI ($9/user/month add-on) covers writing assistance, summarization, task generation, and the Brain Assistant chat experience. It includes monthly Super Credits with usage caps, additional credits cost $10 per 10,000. Everything AI ($28/user/month add-on) layers on AI Notetaker, Ambient Agents, AI Fields, AI Automations, and Super Agents, the features that make ClickUp's AI story compelling for automation-heavy workflows.",
+      "dimension": "competitive",
+      "query": "Plane vs ClickUp features",
+      "published": "Mon, 12 Ja"
+    },
+    {
+      "id": "S46",
+      "url": "https://plane.so/plane-vs-clickup",
+      "title": "Plane vs ClickUp | Projects, Wiki, and Intake in one place",
+      "content": "CIO, Fortune 500 financial services company ## Where Plane goes further than ClickUp One workspace for every team Plane runs every team in one workspace, with cycles, epics, and releases built into one model. ClickUp calls itself the everything app, adding a feature for each job, with epics left as ordinary tasks. Built for the agentic era Plane Agents take assignments and mentions, run on schedules or when work items change, and act only in the projects you grant them. ClickUp's Super Agents need a paid AI add-on on top of seats. Runs where you need it Run Plane in Plane Cloud, on your infrastructure, or fully airgapped, with the Commercial and Airgapped editions at full parity with Cloud. ClickUp is cloud-only, and its AI processing runs outside the chosen data region. [...] Explore deployment options \u2192 Ready for procurement Plane is ISO 27001 certified and SOC 2 Type II audited, with support for GDPR and HIPAA requirements. Data is encrypted with AES-256 at rest and TLS 1.3 in transit. Self-hosted, your data never leaves your infrastructure. Review the security posture \u2192 ## Ready to switch from ClickUp? Bring your ClickUp work into Plane, rebuild the workflows your team needs, and move at your own pace. Enterprise Grid adds hands-on migration services. Get started freeTalk to a migration expert Product Project Management Wiki Plane AI Plane Compose Self-hosted Commercial Edition Airgapped Edition Prime Portal Features [...] ## Plane vs ClickUp, feature by feature Compare twenty-two capabilities across execution, planning, governance, collaboration, AI, and deployment.",
+      "dimension": "competitive",
+      "query": "Plane vs ClickUp features",
+      "published": "Sun, 05 Ap"
+    },
+    {
+      "id": "S47",
+      "url": "https://plane.so/customers/minimalart",
+      "title": "Why MinimalArt replaced ClickUp with Plane for simpler project management",
+      "content": "Reporting made simple Monthly client reporting, once a manual and hours-long process, is now automated through a combination of Plane\u2019s exports, APIs, and a third-party reporting tool. Reports that took hours to compile now take minutes. Faster decision-making With all work items centralized, leadership gained real-time visibility into what each department was working on and where the pains were. Happier teams Developers were initially cautious about switching tools, but Plane\u2019s simplicity made the transition easy. Most teams adapted quickly and now rely on Plane for day-to-day tracking + long-term planning. Contextual documentation [...] Contextual documentation The Wiki and Pages features made it easier for teams to maintain up-to-date specifications and meeting notes next to their projects. It reduced dependency on separate knowledge bases and messaging threads. [...] But with scale came its challenges, especially with central reporting across clients. They needed a project management software that didn't bury admins in configs without trading off essential reporting features. After exploring several alternatives, MinimalArt replaced ClickUp entirely with Plane. \u201cClickUp felt like a Swiss army knife\u2014powerful, but overloaded. We needed a clean, purpose-built system focused on project and release management. Plane gave us exactly that.\u201d Max Kraszewski, CEO, MinimalArt ### The challenge As MinimalArt grew, ClickUp became harder to maintain. Its flexibility came at the cost of complexity. Every dashboard and report had to be built manually, and anything custom or automated, including exports, was locked behind higher plans.",
+      "dimension": "competitive",
+      "query": "Plane vs ClickUp features",
+      "published": "Tue, 25 No"
+    },
+    {
+      "id": "S48",
+      "url": "https://www.heise.de/en/news/Plane-Update-of-the-open-source-alternative-to-Jira-11399212.html",
+      "title": "Plane: Update of the open-source alternative to Jira | heise online",
+      "content": "(Image: Plane) With version 1.4.0, Plane introduces two important new features: there are now lightweight REST API endpoints for list views and a translation architecture divided by features. At the same time, the developers have improved webhooks, telemetry, log retention, accessibility, and operation behind reverse proxies. Plane is open-source project management software aimed at software developers as an alternative to Jira, Linear, Monday, and ClickUp.",
+      "dimension": "competitive",
+      "query": "Plane vs ClickUp features",
+      "published": "Wed, 05 Au"
+    },
+    {
+      "id": "S49",
+      "url": "https://thefrontkit.com/blogs/clickup-alternatives-2026",
+      "title": "ClickUp Alternatives: 8 Project Management Tools for 2026",
+      "content": "Weaknesses: No structure beyond boards: no sprints, workload, goals Reporting is minimal Scaling pain arrives fast Best for: Teams that consolidated into ClickUp and realized they only ever needed a board. (Its market: our Trello alternatives guide.) trello.com ## 6. Plane Open-source, self-hosted, no seat math. Strengths: Free, self-hostable, modern UI Issues, cycles, modules, roadmaps: the useful core of ClickUp's project features No per-seat fees ever Cloud option available Weaknesses: You operate it Docs and goals features are lighter than ClickUp's Younger ecosystem Best for: Teams that liked ClickUp's capability but want ownership and no subscription. plane.so ## 7. OpenProject The classical-PM specialist. Strengths: [...] Directional numbers. Note the honest finding: almost nothing beats ClickUp on price. Teams leave over experience, not cost, and the alternatives charge more for less software on purpose. ## Frequently Asked Questions ### What is the best free alternative to ClickUp? Trello free for boards, Linear free for small engineering teams, Plane self-hosted for unlimited users. But note that ClickUp's free tier is the most generous in the category; if free is the constraint, leaving ClickUp rarely helps. ### What is the best open-source alternative to ClickUp? Plane covers the project core (issues, cycles, roadmaps) with a modern UI. OpenProject covers classical PM depth. Neither replicates ClickUp's docs-whiteboards-goals sprawl, which for most leavers is the point. [...] ### How hard is it to migrate off ClickUp? ClickUp exports CSV (tasks, fields, assignees), and Asana, monday, Linear, and Plane all import it. Docs, whiteboards, and automations don't come along, which is the real cost of consolidating into an everything-app. Migrate the active work, export the docs to Markdown, and accept the automation rebuild. ## The Honest Take ClickUp won the value war; nothing gives you more for $7. The alternatives compete on what value-per-dollar misses: Linear on speed, Asana on curation, monday on approachability, Notion on context, Trello on simplicity, Plane and OpenProject on ownership.",
+      "dimension": "competitive",
+      "query": "Plane vs ClickUp features",
+      "published": "Wed, 22 Ju"
+    },
+    {
+      "id": "S50",
+      "url": "https://tech.co/project-management-software/monday-review",
+      "title": "monday Work Management Review 2026",
+      "content": "AI features: monday work management provides an entire catalog of AI features, including AI assistants, note takers, task schedulers, AI analytics, workflow builders, and resource managers. Ease of use: monday work management is one of the easiest project management platforms to use, with an intuitive drag-and-drop interface and lots of helpful tips during setup. Pricing: monday work management pricing starts at $9 per user, per month, with a more expensive plan that costs $19 per user, per month, with more advanced features like AI time tracking. Free plan: monday work management offers a free forever plan with basic features that allows for up to two users. [...] This framework is based on the factors companies and project managers have told us are important to their everyday usage, including ease of use, integrations, security, and overall functionality. that break down into a range of smaller subcategories. Learn more about our research of monday work management below. ## monday Work Management AI Features AI Sidekick AI Agents AI Blocks AI Notetaker monday work management Monday.com Logo In Short Pros Robust automation features Built-in AI tools for workflows and note taking Extremely customizable Cons Free plan has 2-person user limit Strict AI credit limits Can get expensive with high AI usage Pricing price tag Basic: $9/user/month price tag Standard: $12/user/month price tag Pro: $19/user/month price tag [...] ### All plans from monday Work Management are SOC 2 Type II compliant and offer multi-factor authentication. You\u2019ll have to pay for the Pro plan to get Google authentication and private projects, while advanced security like HIPAA compliance, IP restrictions, and integration permissions are reserved for the Enterprise plan. ### No, you do not need to know how to code to use monday Work Management automation features, because its AI Blocks system allows for simple commands to create advanced workflows. ### Each AI action in monday work management consumes eight credits, with credits priced at approximately $0.01 each.",
+      "dimension": "competitive",
+      "query": "Plane vs monday AI Work Platform features",
+      "published": "Tue, 21 Ju"
+    },
+    {
+      "id": "S51",
+      "url": "https://tech-insider.org/asana-vs-monday-2026",
+      "title": "Asana vs Monday.com 2026: 31% Price Gap and 22% Speed Divide [Tested]",
+      "content": "On comparable mid-tier plans, Monday.com Pro (50 users) costs $11,400/year versus Asana Advanced at $14,994/year \u2013 a savings of $3,594 per year or 24%. On Monday.com Standard, the cost drops to $7,200/year, saving $7,794 annually compared to Asana Advanced. ### Which platform has better AI features in 2026? Asana has more sophisticated AI with its AI Teammates feature, which maintains persistent memory across sessions and can take autonomous actions. Monday AI offers useful features like the monday vibe board setup wizard and AI-generated task descriptions, but sessions reset between interactions. For teams that want AI to function as a persistent project collaborator, Asana leads. For teams that want simple AI-powered quick wins, Monday.com is sufficient. [...] Monday AI takes a different approach with a suite of feature-specific AI tools. The monday AI assistant can generate task descriptions, summarize discussions, and auto-categorize items. In 2026, Monday.com introduced monday vibe, an AI-powered project setup wizard that generates entire board structures from natural language descriptions, alongside monday Sidekick, a broader AI copilot that Gantt-Chart.co.uk reported reached general availability in January 2026 after roughly a year in beta. Monday.com expanded that lineup again in August 2026, when its own product-update log confirmed that monday service, a dedicated AI-powered service-management product, had officially exited beta. However, Monday AI sessions still reset between interactions \u2013 they lack the persistent memory that makes [...] The practical difference is significant. In testing, Asana AI Teammates could identify a bottleneck in a sprint backlog, suggest rebalancing workload across team members, and draft the Slack message to communicate the change \u2013 all in one prompt chain. Monday AI required three separate interactions and manual context-setting to achieve the same outcome. Fireship covered this distinction in his \u201cAI Project Management Tools\u201d video: \u201cAsana is treating AI like a team member that sits in your standup every morning. Monday.com is treating AI like a really good autocomplete. Both are useful, but they\u2019re solving fundamentally different problems.\u201d He awarded Asana the edge in AI sophistication while noting Monday.com\u2019s AI was \u201cmore approachable for teams that just want quick wins.\u201d",
+      "dimension": "competitive",
+      "query": "Plane vs monday AI Work Platform features",
+      "published": "Thu, 09 Ap"
+    },
+    {
+      "id": "S52",
+      "url": "https://learn.g2.com/free-work-management-software",
+      "title": "My Top 8 Free Work Management Tools for SMBs to Try in 2026",
+      "content": "The most common upgrade trigger is team growth. If you need to add a third team member or manage more than three active boards, you\u2019ll quickly outgrow the free plan. I would also consider upgrading if your team relies on automations, integrations, timeline views, or dashboard reporting, since those features are reserved for paid plans. monday AI Work Platform\u2019s plan starts at $9 per seat/month (billed annually) with a three-seat minimum, while many growing teams may find more value in the Standard plan at $12 per seat/month, which unlocks automations, integrations, and additional project views. #### Where monday AI Work Platform genuinely stands out: [...] monday AI Work Platform earned a 4.7/5 rating on G2, and after testing it, I could see why. I found myself spending less time looking for project updates than with most of the other tools I evaluated. Its board-based workspace gives you an immediate snapshot of what's in progress, what's falling behind, and who owns each task, making it easy to understand the state of a project at a glance. Source: monday AI Work Platform [...] Source: monday AI Work Platform I tested monday AI Work Platform with the kinds of projects many small businesses manage every day, including marketing campaigns, recurring operational work, and cross-functional initiatives. The platform made it easy to organize information and keep projects visible as they evolved. What I found, and what many G2 small-business reviewers echoed, is that monday AI Work Platform works particularly well for teams that prefer seeing their work visually rather than managing it through spreadsheets or task lists. ##### What does monday AI Work Platform\u2019s free plan include?",
+      "dimension": "competitive",
+      "query": "Plane vs monday AI Work Platform features",
+      "published": "Fri, 17 Ju"
+    },
+    {
+      "id": "S53",
+      "url": "https://tech.co/project-management-software/smartsheet-vs-monday",
+      "title": "Smatsheet vs monday: Pricing and Features Compared",
+      "content": "monday work management has a better selection of customer support options than Smartsheet, with a knowledge base, community forum, and 24/7 live chat supportavailable. Alternatives to monday work management and Smartsheet include Zoho Projects, ClickUp, and Teamwork. [...] Smartsheet\u2019s free plan supports one user and two \u201ceditors\u201d who can contribute to projects, whereas monday work management\u2019s free plan has a two-person user limit. Smartsheet\u2019s free plan includes features that monday work management\u2019s doesn\u2019t, such as milestones, task dependencies, custom automations, and a dashboard for your project data. monday work management\u2019s free plan has some collaboration tools that Smartsheet doesn\u2019t offer, such as real-time user updates. Neither Smartsheet nor monday work managementoffer much in terms of customer support.With monday work management, you\u2019ll have access to email support,while Smartsheet has a community support center. In both Smartsheet and monday work management, storage is limited to 500MB. [...] | Free \u2013 2 Basic \u2013 Unlimited Standard \u2013 Unlimited Pro \u2013 Unlimited Enterprise \u2013 Unlimited | Individual \u2013 1 Business \u2013 Unlimited Enterprise \u2013 Unlimited | Free \u2013 3 Premium \u2013 50 Enterprise \u2013 Unlimited | Unlimited | Free Forever \u2013 5 Starter \u2013 Unlimited Deliver \u2013 Unlimited Grow \u2013 Unlimited Enterprise \u2013 Unlimited | | Intuitive, color-coordinated interface Vibe coding tool available Helpful, step-by-step setup guide | Spreadsheet UI Great security options Suitable for all companies | Pretty affordable Free tier for duos Responsive live chat | More affordable than alternatives Unlimited users on free plan Time tracking, client portal, and limited offline mode | Native time tracking and billing features Project profitability tracking AI insights throughout platform |",
+      "dimension": "competitive",
+      "query": "Plane vs monday AI Work Platform features",
+      "published": "Mon, 28 Se"
+    },
+    {
+      "id": "S54",
+      "url": "https://es.tradingview.com/news/zacks:89fc5cd47094b:0-monday-com-and-evercore-have-been-highlighted-as-zacks-bull-and-bear-of-the-day",
+      "title": "Monday.com and Evercore have been highlighted as Zacks Bull and Bear of the Day \u2014 Noticias de TradingView",
+      "content": "How Monday.com Is Benefiting From AI \u00b7 Accelerating AI revenue: Most recently, annual recurring revenue (ARR) from AI products doubled sequentially during Q2, accounting for 17% of total net new ARR. This is particularly encouraging because it demonstrates that customers are willing to pay for Monday.com's AI capabilities. \u00b7 AI-powered automation: Monday.com launched its AI Work Platform in May, introducing autonomous AI agents that help businesses automate workflows, qualify sales leads, manage customer-service requests, and execute projects. These capabilities extend across its work management, CRM, and service offerings.",
+      "dimension": "competitive",
+      "query": "Plane vs monday AI Work Platform features",
+      "published": "Thu, 15 Oc"
+    },
+    {
+      "id": "S55",
+      "url": "https://plane.so/blog/11-jira-alternatives-you-can-self-host-in-2026",
+      "title": "11 best Jira alternatives you can self-host in 2026 | Plane Blog",
+      "content": "Plane is a full-featured project management platform built to replace Jira across cloud, self-hosted, and air-gapped environments. Over 50,000 teams run it on their own infrastructure today, with 100,000+ Docker deploys and 44,000+ Kubernetes deploys. It claims full parity with Jira Standard and 80% parity with Jira Professional, and unlike most tools on this list, it ships AI, documentation, intake, and time tracking as native capabilities rather than plugin afterthoughts. ### Core project management [...] Features include rich-text document editing, databases with Table/Board/Calendar/Grid views, knowledge management wikis, and AI integration. Cross-platform native apps exist for macOS, Windows, Linux, iOS, and Android. The project raised $6.4 million in seed funding from Matt Mullenweg (Automattic), Steve Chen (YouTube), and Tom Preston-Werner (GitHub). [...] Replacing Jira for software engineering with modern UX: Plane covers sprints, Kanban, Gantt, AI, time tracking, documentation, and intake in a single platform with the simplest deployment path. It is the closest to a drop-in Jira replacement that also happens to be better to use. Gantt charts, scheduling, and cost management are your primary needs: OpenProject has the strongest scheduling implementation in the open-source space, is backed by a stable EU-based company. Pure Scrum shop that wants the cleanest Scrum implementation: Taiga, with the caveat that long-term roadmap uncertainty exists due to the ownership transition.",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Tue, 03 Ma"
+    },
+    {
+      "id": "S56",
+      "url": "https://blog.orangescrum.com/open-source-project-management-software",
+      "title": "Top 6 Free Open Source Project Management Software 2026",
+      "content": "Repository : makeplane/plane Plane is the closest open source answer to Linear and Jira Software, and it has the most GitHub stars of the six, 59,116. Plane gives you issues, cycles, modules, views and pages in a fast interface, and it ships a release almost every week. Plane Community Edition work items board, with backlog and to do columns Plane Community Edition, AGPL v3. This is Plane\u2019s own marketing image, from its open source page, read 10 September 2026. Plane publishes no public demo, so this is not our capture of a running instance. ### Plane key features Issues with sub-issues, relations and custom properties Cycles for sprints and modules for epics Saved views and filters Pages for documentation Importers for Jira and GitHub REST API and webhooks [...] Pricing. The self-hosted community edition is free with no user cap. Pro is $6 per user per month and adds time tracking, automation and full Jira import. Business is $13 per seat and adds worklog approval. A team of 25 on Pro pays $1,800 a year. #### Strengths The best interface of the six. The largest and fastest-moving community. A strong Jira importer. #### Trade offs Time tracking is a paid feature, so the free edition has none. There are no budgets at any tier. Pricing is per user on the paid tiers. There are only 15 G2 reviews so far, so the rating is thin. Who should not pick Plane: anyone who bills hours or runs client projects on the free edition. Time tracking starts at Pro, $6 per user per month, and there are no budgets at any tier. [...] ### What is the best open source alternative to Jira? + Plane, for teams that want the same issue and sprint model. OpenProject or Orangescrum for Jira Data Center customers who need an on-premise replacement with migration help before the 2029 end of life. ### What is the best open source alternative to Trello, Asana or monday.com? + For a plain board, Wekan or Plane. For a board plus time tracking and client access, Orangescrum. Taiga imports directly from Trello and Asana. ### Can I run these tools without an internet connection? + Yes. All six run entirely inside a private network. Orangescrum activates its licensed editions offline, which is what air-gapped sites need. ### Is the AGPL licence a problem for my company? +",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Wed, 09 Se"
+    },
+    {
+      "id": "S57",
+      "url": "https://www.heise.de/en/news/Jira-Alternative-Plane-1-2-0-Migrates-from-Next-js-to-React-Router-and-Vite-11113903.html",
+      "title": "Jira Alternative: Plane 1.2.0 Migrates from Next.js to React Router and Vite | heise online",
+      "content": "The Enterprise Edition (plane-ee) and Helm packages receive the same changes as the Community Edition. Differences only exist in the additional cloud and analytics features of the enterprise variant. Plane does not publish quantitative performance metrics on bundle size or runtime latency before and after the migration, but emphasizes the significantly faster build and development workflows. Plane positions itself as an open-source alternative to Jira, Linear, Monday, and Asana. Details about version 1.2.0 can be found in the GitHub release. Mehr von iX Magazin Mehr von iX Magazin Mehr von iX Magazin Mehr von iX Magazin (fo) Don't miss any news \u2013 follow us on Facebook, LinkedIn or Mastodon. [...] The switch was made because Plane relies on a \"client first\" architecture without server-side rendering and does not utilize Next.js-specific features such as hybrid routing or special data fetching mechanisms. The developers report in a blog post that hot reload times dropped from 20 to 30 seconds to milliseconds. The dev server also starts significantly faster. Furthermore, build pipelines could be simplified, as tests and production builds are now based on the same tooling. [...] ### New Navigation and Keyboard Shortcuts In addition to the technical migration, version 1.2.0 also brings visible changes: a new top bar with global search and inbox replaces parts of the previous sidebar. Project features such as Cycles, Modules, Epics, and Pages appear as horizontal tabs. The left navigation can be reduced to an icon-only mode. With \"Power K,\" Plane introduces advanced keyboard shortcuts that include navigation, creating work items, cycles, and modules, as well as switching sidebars and copying links.",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Fri, 12 De"
+    },
+    {
+      "id": "S58",
+      "url": "https://www.innoq.com/en/blog/2026/06/openproject-besser-als-jira",
+      "title": "OpenProject: A Real Alternative to Jira? \u2013 INNOQ",
+      "content": "### Plane Plane is also open source and self-hostable, with cloud options available. It appealed to me strongly on UX grounds \u2014 everything feels clean, organized, and easy to navigate; I could find my way around quickly. For a self-hosted agile project management tool, Plane would be my first choice. As a Jira replacement, I set it aside because it\u2019s still a relatively young project \u2014 only three years old, compared to OpenProject\u2019s origins in 2012. Although Plane supports project hierarchies too, OpenProject felt like the more mature product with better long-term investment security. That said, Plane is definitely worth a second look if OpenProject doesn\u2019t suit you. ### Summary and Conclusion",
+      "dimension": "competitive",
+      "query": "Plane vs Jira features",
+      "published": "Sun, 07 Ju"
+    },
+    {
+      "id": "S59",
+      "url": "https://www.nasa.gov/news-release/nasa-to-share-artemis-ii-flight-readiness-review-update",
+      "title": "NASA to Share Artemis II Flight Readiness Review Update",
+      "content": "NASA's crawler-transporter 2, carrying the agency's Artemis II SLS (Space Launch System) rocket with the Orion spacecraft, arrives Feb. 25, 2026, inside the",
+      "dimension": "reception",
+      "query": "Plane launch reviews 2026",
+      "published": "Sun, 22 Ma"
+    },
+    {
+      "id": "S60",
+      "url": "https://keeptrack.space/week-in-review/week-in-review-2026-07-26",
+      "title": "Starship Flight 13 Flies as 6 Launches Succeed - KeepTrack",
+      "content": "2026-07-23: Long March 3B/E / Tianlian 2-06 (CASC). Launched from LC-2, this mission added another data-relay satellite to China\u2019s Tianlian network, which supports communications with crewed and uncrewed spacecraft. Outcome: successful, placed into geostationary transfer orbit. 2026-07-23: Kinetica 1 / 5 satellites (CAS Space). Lifting off from Launch Area 130, this flight delivered five satellites to sun-synchronous orbit. Outcome: successful. 2026-07-22: Gravity-1 / 9 satellites (OrienSpace). Launched from a sea platform in the Yellow Sea, this solid-fueled rocket carried nine satellites to sun-synchronous orbit. Outcome: successful. [...] ## The Week Ahead 2026-07-30: Falcon 9 launches NROL-95, a national security payload for the NRO, alongside a Long March 6A mission from China carrying an unannounced payload. 2026-07-31: A busy day with three Rocket Lab Electron launches (LOXSAT 1, StriX Launch 11, and the iQPS-7 mission \u201cThe Grain Goddess Provides\u201d), plus the debut demo flight of ADD\u2019s new Mir rocket. 2026-07-29: Falcon 9 flies Starlink Group 17-52, paired with a Long March 7A mission carrying an unspecified payload. 2026-08-01: Another Falcon 9 Starlink launch, Group 17-53, opens the following week. Watch the Mir demo flight closely since it is a new vehicle\u2019s first attempt, and keep an eye on NROL-95 given the added national security significance of anything flying under that designation. # Theodore Kruczek [...] 2026-07-21: Falcon 9 Block 5 / Starlink Group 17-39 (SpaceX). This mission is notable for what happened the day before it flew. SpaceX aborted the first liftoff attempt at the last second on July 20, a rare event for the Falcon 9 program, before successfully launching 24 Starlink satellites from Vandenberg\u2019s pad 4E on July 21. 2026-07-21: Falcon 9 Block 5 / MRV-1 and MEP-1 (SpaceX). A second Falcon 9 of the day flew from Cape Canaveral carrying the MRV-1 and MEP-1 spacecraft and reached orbit successfully. This recap originally listed the outcome as unconfirmed; the launch archive has since confirmed it.",
+      "dimension": "reception",
+      "query": "Plane launch reviews 2026",
+      "published": "Sun, 26 Ju"
+    },
+    {
+      "id": "S61",
+      "url": "https://aerospaceglobalnews.com/news/eaa-airventure-2026-oshkosh-vintage-aircraft",
+      "title": "5 vintage aircraft that will steal the show at AirVenture Oshkosh",
+      "content": "Airbus needs record fourth-quarter delivery push to meet 2026 target October 9, 2026\u20223 min read Shield AI X-BAT \u2013 everything you need to know about the AI-powered fighter jet Shield AI X-BAT \u2013 everything you need to know about the AI-powered fighter jet October 7, 2026\u20223 min read BETA launches North Carolina electric flight programme focused on rural healthcare BETA launches North Carolina electric flight programme focused on rural healthcare September 24, 2026\u20225 min read Heart Aerospace unveils evolved ES-36 as JSX converts options into orders Heart Aerospace unveils evolved ES-36 as JSX converts options into orders September 24, 2026\u20225 min read FAA clears Boeing to sell 777Fs beyond 2028 emissions deadline FAA clears Boeing to sell 777Fs beyond 2028 emissions deadline [...] EAA AirVenture Oshkosh Photo: EAA AirVenture / Flickr As well as the vintage aircraft themselves, the pilots of these magnificent aircraft will be interviewed alongside their rare and unique antique and classic aircraft, providing some insight into just what it takes to restore them and have them back on the display circuit. For visitors to AirVenture Oshkosh, the Vintage in Review exhibits shine a light on aviation of yesteryear, reminding them of the spirit of aviation in the first part of the last century. Previewing the Oshkosh Vintage in Review 2026 show The five aircraft so far listed for this year\u2019s Vintage in Review all date back to between 1934 and 1953 and are all single-engined fixed-wing aircraft. [...] Featured image: Paul Novorolsky / stock.adobe.com News Airshows History 2026 aviation history EAA AirVenture Oshkosh Vintage aircraft Vintage in Review ###### Sign up for our newsletter and get our latest content in your inbox. Similar Reads 1 The rise and fall of Air Europe: How a British airline built a pan-European network The rise and fall of Air Europe: How a British\u2026 aviation history October 10, 2026\u202210 min read 2 Spitfire RK858 takes to the skies again after eight decades and a full restoration Spitfire RK858 takes to the skies again after eight decades\u2026 aviation history October 6, 2026\u20225 min read 3 The flight that changed travel forever: BOAC\u2019s transatlantic jet breakthrough",
+      "dimension": "reception",
+      "query": "Plane launch reviews 2026",
+      "published": "Sun, 14 Ju"
+    },
+    {
+      "id": "S62",
+      "url": "https://libyaherald.com/2026/10/tripoli-government-reviews-progress-of-partnership-with-boeing-and-project-to-launch-a-new-airline",
+      "title": "Libyan Government and Boeing Review Progress on New Airline Project",
+      "content": "GECOL Begins Rehabilitation of West Tripoli Power Plant Units Libyan Delegation Discusses OPEC+ Agenda and Investment in Riyadh US Advisor Discusses Energy Investment Opportunities in Libya and Alge Libya Minister Presents Political Vision at Atlantic Council Session Libya Central Bank Governor Discusses Banking Reform with BIS Libya Audit Bureau Clarifies Oil Revenue Figures for October 2026 CBL Governor Discusses Cash Dollar Supply with Numisma Bank Libyan-Indonesian Business Forum held at Trade Expo Indonesia 2026 HoR Speaker Abdelnabi Calls for Session on October 19-20 Misrata Chamber of Commerce Explores Investment Ties with Japan Business & Investment # Tripoli government reviews progress of partnership with Boeing and project to launch a new airline S",
+      "dimension": "reception",
+      "query": "Plane launch reviews 2026",
+      "published": "Fri, 02 Oc"
+    },
+    {
+      "id": "S63",
+      "url": "https://blog.cloudflare.com/agents-week-in-review",
+      "title": "Building the agentic cloud: everything we launched during Agents Week 2026 | Cloudflare Blog",
+      "content": "Outbound Workers for Sandboxes provide a programmable, zero-trust egress proxy for AI agents. This allows developers to inject credentials and enforce dynamic security policies without exposing sensitive tokens to untrusted code. Durable Objects in Dynamic Workers: Give each AI-generated app its own database Durable Object Facets allows Dynamic Workers to instantiate Durable Objects with their own isolated SQLite databases. This enables developers to build platforms that run persistent, stateful code generated on-the-fly. Rearchitecting the Workflows control plane for the agentic era [...] | Rearchitecting the Workflows control plane for the agentic era | Cloudflare Workflows, a durable execution engine for multi-step applications, now supports 50,000 concurrency and 300 creation rate limits through a rearchitectured control plane, helping scale to meet the use cases for durable background agents. | [...] Cloudflare Workflows, a durable execution engine for multi-step applications, now supports 50,000 concurrency and 300 creation rate limits through a rearchitectured control plane, helping scale to meet the use cases for durable background agents. %22%2F%3E%3C%2Fsvg%3E) BLOG-3239 2 ## Security Running agents and their code is only half the challenge. Agents connect to private networks, access internal services, and take autonomous actions on behalf of users. When anyone in an organization can spin up their own agents, security can't be an afterthought. It has to be the default. This week, we launched the tools to make that easy.",
+      "dimension": "reception",
+      "query": "Plane launch reviews 2026",
+      "published": "Mon, 20 Ap"
+    }
+  ],
+  "supported_claims": [
+    {
+      "dimension": "pricing",
+      "text": "Plane provides four pricing editions that range from zero to 499 dollars, built for different usage levels and team sizes.",
+      "source_ids": [
+        "S25"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "A review states Plane uses a freemium per-seat model with a free tier for up to twelve users, a Pro tier at six dollars per seat per month, a Business tier at thirteen dollars per seat per month, and custom-priced Enterprise Grid plans.",
+      "source_ids": [
+        "S28"
+      ]
+    },
+    {
+      "dimension": "pricing",
+      "text": "Plane advertises a free tier with core features alongside paid plans that unlock advanced features, enterprise needs, and priority support.",
+      "source_ids": [
+        "S29"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "G2 identifies ClickUp, monday AI Work Platform, and Jira as top alternatives to Plane.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "The Plane blog contrasts its platform with ClickUp by describing Plane as a tighter, self-hostable workspace for engineering-led teams versus ClickUp\u2019s broader all-in-one cloud approach.",
+      "source_ids": [
+        "S45"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "The Plane blog notes that Plane embeds cycles, epics, and releases in one model, offers native agent features without requiring an additional artificial intelligence purchase, and supports self-hosted deployments, unlike ClickUp.",
+      "source_ids": [
+        "S46"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "A customer case study on the Plane website describes how MinimalArt migrated from ClickUp to Plane to automate monthly reporting and gain real-time visibility into workloads.",
+      "source_ids": [
+        "S47"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Heise Online reports that Plane is open-source project management software aimed at software developers and positioned as an alternative to Jira, Linear, Monday, and ClickUp.",
+      "source_ids": [
+        "S48"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "An analysis of ClickUp alternatives characterizes Plane as free and self-hostable with a modern interface covering issues, cycles, modules, and roadmaps, but cautions that its documentation and goals features are lighter than ClickUp\u2019s and its ecosystem is newer.",
+      "source_ids": [
+        "S49"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "The Plane blog claims full feature parity with Jira Standard and eighty percent parity with Jira Professional, along with more than fifty thousand self-hosting teams, over one hundred thousand Docker deploys, and forty-four thousand Kubernetes deploys.",
+      "source_ids": [
+        "S55"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "The Plane blog also says Plane includes artificial intelligence, documentation, intake, and time tracking as native built-in features rather than afterthought plugins.",
+      "source_ids": [
+        "S55"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "A review of open-source project management tools calls Plane the nearest open-source equivalent to Linear and Jira Software, citing fifty-nine thousand one hundred sixteen GitHub stars and near-weekly releases.",
+      "source_ids": [
+        "S56"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "Heise Online notes that Plane markets itself as an open-source alternative to Jira, Linear, Monday, and Asana.",
+      "source_ids": [
+        "S57"
+      ]
+    },
+    {
+      "dimension": "competitive",
+      "text": "An INNOQ review states Plane offers a clean, organized user experience that the reviewer would choose first for self-hosted agile project management, though the reviewer considers it a relatively young project compared with more mature Jira replacements.",
+      "source_ids": [
+        "S58"
+      ]
+    }
+  ],
+  "unsupported_claims": []
+}

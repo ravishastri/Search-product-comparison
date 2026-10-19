@@ -1,0 +1,720 @@
+{
+  "claims": [
+    {
+      "text": "YouTrack offers cloud-hosted editions",
+      "urls": []
+    },
+    {
+      "text": "YouTrack offers self-hosted (Server) editions",
+      "urls": []
+    },
+    {
+      "text": "YouTrack has a built-in helpdesk module",
+      "urls": []
+    },
+    {
+      "text": "The Free plan supports up to 10 users",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan is Free for Cloud",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan is Free (perpetual) for Server",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan includes full issue tracking",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan includes agile boards",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan includes backlog",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan includes time tracking",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan includes AI Assistant",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Free plan includes Helpdesk free for up to 3 agents",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/buy"
+      ]
+    },
+    {
+      "text": "The Team plan supports 11+ users",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Cloud Price is $4.50/user/month billed annually",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Cloud Price is $5.40 if billed monthly",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Cloud price drops with volume",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Cloud price is ~$3.74 at 500 users",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Cloud price is ~$2.81 at 1,000 users",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Server Price is from $900/year for 15 users",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Server Price is $3.75/user/month equivalent for 15 users",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan Server Price scales up in packs",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan adds Gantt charts",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan adds unlimited boards",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan adds automation rules",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Team plan adds Slack/GitHub/GitLab integrations",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples",
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382668077970-%D0%A1hanges-to-YouTrack-Cloud-per-user-subscription-prices"
+      ]
+    },
+    {
+      "text": "The Enterprise plan user count is as needed",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan Cloud Price is $14.70/user/month (annual)",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan Server Price is custom quote",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan custom quote starts at higher user counts",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan adds advanced security",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan adds SAML SSO",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan adds project templates",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan adds custom workflows",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Enterprise plan adds priority support",
+      "urls": [
+        "https://ones.com/blog/jetbrains-youtrack-pricing-tiers-explained-with-examples"
+      ]
+    },
+    {
+      "text": "The Helpdesk plan supports 4+ agents",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The Helpdesk plan Cloud Price is $5.50/agent/month (annual)",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The Helpdesk plan Cloud Price is $6.00/agent/month (monthly)",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "The Helpdesk plan Server Price is $72/agent/year (as of Oct 2025)",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "Helpdesk is free for up to 3 agents + unlimited reporters",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "Helpdesk paid tier kicks in at 4 agents",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2025/06/new-youtrack-prices-starting-from-october-2025"
+      ]
+    },
+    {
+      "text": "JetBrains raised per-user Cloud rates effective October 1, 2025",
+      "urls": [
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382529526162-Changes-to-YouTrack-Server-subscriptions-prices"
+      ]
+    },
+    {
+      "text": "The annual entry point moved to $4.50/user/month (from a previous lower rate)",
+      "urls": [
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382529526162-Changes-to-YouTrack-Server-subscriptions-prices"
+      ]
+    },
+    {
+      "text": "Server subscription renewal/extension prices also increased",
+      "urls": [
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382529526162-Changes-to-YouTrack-Server-subscriptions-prices"
+      ]
+    },
+    {
+      "text": "50-user pack renewal is now $1,500/year",
+      "urls": [
+        "https://sales.jetbrains.com/hc/en-gb/articles/28382529526162-Changes-to-YouTrack-Server-subscriptions-prices"
+      ]
+    },
+    {
+      "text": "YouTrack competes most directly with Jira, Linear, and GitHub Issues",
+      "urls": []
+    },
+    {
+      "text": "YouTrack competes with lightweight trackers like ClickUp, Monday.com, and open-source tools",
+      "urls": []
+    },
+    {
+      "text": "Jira starts at roughly $7.00\u2013$7.91/user/month for the Standard cloud plan",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024",
+        "https://automaiva.com/linear-vs-jira-vs-github-issues-saas-2026"
+      ]
+    },
+    {
+      "text": "Jira is the enterprise incumbent",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024"
+      ]
+    },
+    {
+      "text": "Jira has highly customizable workflows",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024"
+      ]
+    },
+    {
+      "text": "Jira has deep reporting",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024"
+      ]
+    },
+    {
+      "text": "Jira has a massive plugin ecosystem",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024"
+      ]
+    },
+    {
+      "text": "Jira is often criticized for complexity",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024"
+      ]
+    },
+    {
+      "text": "Jira is often criticized for a steep learning curve",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024"
+      ]
+    },
+    {
+      "text": "Linear starts at $10/user/month (Basic)",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Linear starts at $16/user/month (Business)",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Linear is more than double YouTrack\u2019s entry price",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Linear is optimized for speed",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "Linear is optimized for opinionated workflows",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "Linear has a keyboard-first command palette",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "Linear has instant search",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "Linear has minimal UI friction",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "YouTrack offers deep customization",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack offers custom issue types",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack offers custom fields",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack offers custom states",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack offers JavaScript workflow rules",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack offers a query language",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack has an integrated helpdesk",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack has an integrated knowledge base",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack supports self-hosting",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Linear does not offer self-hosting at any tier",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "GitHub Issues is free with public/private repositories",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "GitHub Team (which includes Projects) is $4/user/month",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "GitHub Enterprise is $21/user/month for the first 12 months",
+      "urls": [
+        "https://octopusbuilds.com/blog/linear-vs-jira-vs-github-issues-ai-driven-development"
+      ]
+    },
+    {
+      "text": "GitHub Issues is lightweight",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024",
+        "https://klavity.in/blog/jira-vs-linear-vs-github-issues-bug-tracker"
+      ]
+    },
+    {
+      "text": "GitHub Issues is thin on multi-team QA processes compared to dedicated trackers",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024",
+        "https://klavity.in/blog/jira-vs-linear-vs-github-issues-bug-tracker"
+      ]
+    },
+    {
+      "text": "GitHub Issues is thin on custom states compared to dedicated trackers",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024",
+        "https://klavity.in/blog/jira-vs-linear-vs-github-issues-bug-tracker"
+      ]
+    },
+    {
+      "text": "GitHub Issues is thin on cross-repo reporting compared to dedicated trackers",
+      "urls": [
+        "https://www.bugbrain.app/blog/bug-tracking-system-comparison-2024",
+        "https://klavity.in/blog/jira-vs-linear-vs-github-issues-bug-tracker"
+      ]
+    },
+    {
+      "text": "Zoho BugTracker starting price is $3/user/month",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Zoho BugTracker has basic agile boards",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Zoho BugTracker has auto SLAs",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "ClickUp starting price is $5/user/month",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "ClickUp is an all-in-one PM with 1,000+ integrations",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Monday.com starting price is $6/user/month",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Monday.com has visual boards",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Monday.com has a 14-day trial",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Bugzilla / Redmine price is Free (open source)",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Bugzilla / Redmine is self-hosted only",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "YouTrack holds a 4.5/5 rating on Capterra from ~95 reviews",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "YouTrack scores 4.1/5 overall on Software Finder",
+      "urls": [
+        "https://softwarefinder.com/project-management-software/youtrack/reviews"
+      ]
+    },
+    {
+      "text": "Software Finder Ease of Use for YouTrack is 8/10",
+      "urls": [
+        "https://softwarefinder.com/project-management-software/youtrack/reviews"
+      ]
+    },
+    {
+      "text": "Software Finder Value for Money for YouTrack is 7/10",
+      "urls": [
+        "https://softwarefinder.com/project-management-software/youtrack/reviews"
+      ]
+    },
+    {
+      "text": "Software Finder Functionality for YouTrack is 8/10",
+      "urls": [
+        "https://softwarefinder.com/project-management-software/youtrack/reviews"
+      ]
+    },
+    {
+      "text": "G2 users consistently praise YouTrack's adaptability",
+      "urls": [
+        "https://www.g2.com/products/youtrack/reviews"
+      ]
+    },
+    {
+      "text": "G2 users consistently praise YouTrack's ease of use for various workflows",
+      "urls": [
+        "https://www.g2.com/products/youtrack/reviews"
+      ]
+    },
+    {
+      "text": "JetBrains advertises \u201cLeader\u201d in Small-Business Product Management (Winter 2025)",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/promo/compare/youtrack-competitive-offer"
+      ]
+    },
+    {
+      "text": "JetBrains advertises \u201cHigh Performer\u201d in Small-Business Product Management (Winter 2025)",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/promo/compare/youtrack-competitive-offer"
+      ]
+    },
+    {
+      "text": "JetBrains advertises \u201cHighest User Adoption\u201d (Winter/Spring 2024) from G2/Capterra ecosystems",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/promo/compare/youtrack-competitive-offer"
+      ]
+    },
+    {
+      "text": "A user states: \u201cIt is affordable \u2026 and is free for up to 10 users.\u201d",
+      "urls": [
+        "https://www.capterra.com/p/123548/YouTrack/reviews?page=2"
+      ]
+    },
+    {
+      "text": "A user states: \u201cIncredibly flexible and powerful issue tracking and project management system.\u201d",
+      "urls": [
+        "https://www.softwareadvice.com/project-management/youtrack-profile/reviews"
+      ]
+    },
+    {
+      "text": "Smart search is routinely highlighted as a productivity booster",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/promo/compare/youtrack-competitive-offer"
+      ]
+    },
+    {
+      "text": "Inline editing is routinely highlighted as a productivity booster",
+      "urls": [
+        "https://www.jetbrains.com/youtrack/promo/compare/youtrack-competitive-offer"
+      ]
+    },
+    {
+      "text": "Helpdesk and knowledge base are included under the same license",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Wix switched to YouTrack in 2022",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "Wix reported 30% faster bug-fixing time within six months",
+      "urls": [
+        "https://daily.dev/blog/10-best-bug-tracking-tools-for-developers-2024"
+      ]
+    },
+    {
+      "text": "There is acknowledged friction for non-technical members",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Permissions are \u201cfiddly.\u201d",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Onboarding material is \u201cthin.\u201d",
+      "urls": [
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Reviewers call the interface \u201cclunky next to modern trackers.\u201d",
+      "urls": [
+        "https://softwarefinder.com/project-management-software/youtrack/reviews",
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Ease-of-use scores (4.1) lag behind its overall rating (4.5)",
+      "urls": [
+        "https://softwarefinder.com/project-management-software/youtrack/reviews",
+        "https://www.breeze.pm/articles/compare/youtrack-vs-linear"
+      ]
+    },
+    {
+      "text": "Some users report lag under heavy workload",
+      "urls": [
+        "https://softwarefinder.com/project-management-software/youtrack/reviews"
+      ]
+    },
+    {
+      "text": "YouTrack is expanding beyond engineering into legal, HR, marketing, finance, and support teams",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2024/04/youtrack-roadmap-2024"
+      ]
+    },
+    {
+      "text": "JetBrains notes that internal adoption often grows 3\u20135\u00d7 within months once one department starts using it",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2024/04/youtrack-roadmap-2024"
+      ]
+    },
+    {
+      "text": "JetBrains has maintained 99.9% availability for YouTrack Cloud",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2024/04/youtrack-roadmap-2024"
+      ]
+    },
+    {
+      "text": "JetBrains is investing in a major UI/UX redesign with new sidebar navigation",
+      "urls": [
+        "https://blog.jetbrains.com/youtrack/2024/04/youtrack-roadmap-2024"
+      ]
+    },
+    {
+      "text": "Jira Free tier is 7-day trial only",
+      "urls": []
+    },
+    {
+      "text": "Linear Free tier is up to 250 issues / 2 teams",
+      "urls": []
+    },
+    {
+      "text": "Jira supports self-hosted (Data Center)",
+      "urls": []
+    },
+    {
+      "text": "GitHub Issues does not support self-hosted",
+      "urls": []
+    }
+  ]
+}
