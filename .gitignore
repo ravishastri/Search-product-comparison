@@ -11,3 +11,4 @@ starter_agent.py
 2606_Tavily_FDE_TakeHomeAssignment.md
 eval/cache/
 eval/store/prices.db
+eval/tune/key.json

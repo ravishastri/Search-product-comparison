@@ -1,0 +1,8 @@
+{"id": "T001", "label": "supported", "how": "live page", "note": "JetBrains blog: discount increases as users are added; annual rate lower than monthly."}
+{"id": "T002", "label": "not_stated", "how": "live page", "note": "YouTube page text shows no G2 rating (page may not have fully loaded)."}
+{"id": "T003", "label": "no_source", "how": "live page", "note": "Cited support article did not render. The JetBrains blog (different URL) says Helpdesk is free for up to 3 agents."}
+{"id": "T004", "label": "supported", "how": "live page", "note": "Rework lists YouTrack as best for JetBrains shops; judgement on 'particularly strong' is loose."}
+{"id": "T005", "label": "supported", "how": "live page", "note": "Substack: Linear Agent has access to context in the workspace (threads, backlog, customer requests)."}
+{"id": "T006", "label": "supported", "how": "live page", "note": "Tech Insider: Plus $16, up from $14 previously (Comparedge data, March 2026)."}
+{"id": "T007", "label": "not_stated", "how": "live page", "note": "'Advanced security' is listed under GitHub Enterprise, not Jira Enterprise. Jira Enterprise pricing is custom."}
+{"id": "T008", "label": "not_stated", "how": "live page", "note": "Page mentions a 2024 parent-child issue feature and Dependabot alerts, not added dependencies in 2024-2025."}
