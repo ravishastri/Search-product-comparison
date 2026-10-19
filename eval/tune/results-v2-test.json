@@ -1,0 +1,251 @@
+{
+  "variant": "v2",
+  "splits": [
+    "test"
+  ],
+  "judge": "moonshotai/Kimi-K2.6",
+  "max_chars_per_url": 20000,
+  "run_at": "2026-10-19 09:16",
+  "summary": {
+    "test": {
+      "n": 27,
+      "agreement": 0.593,
+      "confusion": {
+        "supported->supported": 8,
+        "not_stated->not_stated": 8,
+        "not_stated->supported": 6,
+        "supported->not_stated": 3,
+        "not_stated->contradicted": 2
+      }
+    },
+    "all": {
+      "n": 27,
+      "agreement": 0.593,
+      "confusion": {
+        "supported->supported": 8,
+        "not_stated->not_stated": 8,
+        "not_stated->supported": 6,
+        "supported->not_stated": 3,
+        "not_stated->contradicted": 2
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "T002",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Linear at four, five fifths."
+    },
+    {
+      "id": "T006",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Linear has not stayed still on price either: Comparedge\u2019s March 2026 pricing data shows Linear\u2019s paid tiers climbing to $10 per user per month for Standard and $16 for Plus, up from the $8 and $14 price points it held previously, even as the company expanded its free tier to include unlimited team m"
+    },
+    {
+      "id": "T008",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Sub-issues: GitHub added parent-child issue relationships in 2024"
+    },
+    {
+      "id": "T012",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Jira at four three-fifths."
+    },
+    {
+      "id": "T014",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Removes the 10-user cap, adds audit logs, user management controls, and 250GB storage."
+    },
+    {
+      "id": "T015",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Performance issues: Users frequently report slow loading times, especially with large workspaces or complex automations."
+    },
+    {
+      "id": "T023",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "| Jira Software | $0 (up to 10 users) | $7.91/user/mo | $14.54/user/mo | Custom quote |"
+    },
+    {
+      "id": "T032",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Deployment also differs, with Plane supporting cloud, self-hosted, and air-gapped environments."
+    },
+    {
+      "id": "T034",
+      "split": "test",
+      "label": "supported",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Now, we share our journey to over 100K+ Docker pulls and 44K+ K8 deploys in this blog."
+    },
+    {
+      "id": "T036",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "| Jira | $7.75/user/month (Standard), $15.25/user/month (Pr | Project and issue tracking... | \u2014 |"
+    },
+    {
+      "id": "T039",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "The Team Plan bills at $10/user per month on the monthly subscription, or $8.50/user per month if pre-paid annually."
+    },
+    {
+      "id": "T044",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "For customers that require better visibility across the entire organization, the Business Plan is a better-suited offering to help them plan, execute, and measure their work."
+    },
+    {
+      "id": "T047",
+      "split": "test",
+      "label": "supported",
+      "verdict": "disagreement",
+      "verdict_comparable": "not_stated",
+      "evidence": "figure $19 not in the evidence. judge quote: Business Plus (no longer on the public pricing page, but still available as an upgrade and through partners like ZenPilot)"
+    },
+    {
+      "id": "T051",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "disagreement",
+      "verdict_comparable": "not_stated",
+      "evidence": "figure $24 not in the evidence. judge quote: Pro ($19/seat/month annual): Time tracking, 25,000 automations/month, private boards, chart views."
+    },
+    {
+      "id": "T053",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "A 10-person team pays roughly $120/mo on ClickUp Business vs $190/mo on Monday.com Pro - an $840/year difference - and ClickUp includes more features at the lower price."
+    },
+    {
+      "id": "T056",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "Business: $12/user/month (annual) or $19/user/month (monthly). Everything in Unlimited plus timelines, mind maps, workload management, time tracking, automations (unlimited), and advanced permissions."
+    },
+    {
+      "id": "T059",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "It includes all Personal features plus timeline and Gantt views, unlimited automations, workflow builder, project dashboards, universal reporting, forms, and custom fields."
+    },
+    {
+      "id": "T065",
+      "split": "test",
+      "label": "supported",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "The biggest upside is its ability to connect individual tasks and projects directly to higher-level company goals and maintain visibility across multiple projects contributing to the same objective."
+    },
+    {
+      "id": "T072",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "There are several effective strategies to explore when considering how to save money on Trello\u2019s standard plan, which costs $5 per user per month when billed annually."
+    },
+    {
+      "id": "T076",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Feature density leads to cluttered interface for some users"
+    },
+    {
+      "id": "T078",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "For $10 per user per month when billed annually or $12.50 per user per month when billed monthly, Trello\u2019s Premium plan includes the same unlimited cards, boards and activity logs, but adds multiple ways to view a project."
+    },
+    {
+      "id": "T079",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Unlike Trello, monday.com can handle complex projects with ease."
+    },
+    {
+      "id": "T080",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "contradicted",
+      "verdict_comparable": "contradicted",
+      "evidence": "| Starting Price | $5/user/month | $11/user/month | $7/user/month |"
+    },
+    {
+      "id": "T082",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "Asana's free plan is excellent but limited to 15 users."
+    },
+    {
+      "id": "T083",
+      "split": "test",
+      "label": "supported",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "YouTrack's answer to the same problem is a query language and JavaScript workflow rules."
+    },
+    {
+      "id": "T084",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "supported",
+      "verdict_comparable": "supported",
+      "evidence": "This tier unlocks unlimited agile boards, Gantt charts, burndown and cumulative flow reports, unlimited custom fields, and basic automation rules."
+    },
+    {
+      "id": "T093",
+      "split": "test",
+      "label": "not_stated",
+      "verdict": "not_stated",
+      "verdict_comparable": "not_stated",
+      "evidence": "Standard: From $7.91 per user per month (annual, scales with team size) \u2014 250 GB storage, role-based permissions, 1,700 automation runs per month, audit log"
+    }
+  ]
+}

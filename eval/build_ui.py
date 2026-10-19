@@ -122,6 +122,7 @@ def build() -> None:
     }
 
     runs = {
+        "final_scores": load(ROOT / "eval/tune/final-scores.json"),
         "phase4": load(ROOT / "eval/results/phase4-summary.json"),
         "judge": {k: load(ROOT / f"eval/tune/{k}.json") for k in ("results-v1", "results-v2-dev", "results-check-dev")},
         "human": {"sheet": "human-review-final.csv", "judge_right": 19, "labels_right": 11, "neither": 5, "disagreements": 35},
@@ -238,7 +239,10 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
   <h2>Run results</h2>
   <div class="wrap"><table><thead><tr><th>Product</th><th>Starter supported</th><th>Starter contradicted</th><th>Evaluator supported</th><th>Evaluator contradicted</th><th>Evaluator prices verified</th></tr></thead><tbody id="phase4rows"></tbody></table></div>
   <p class="muted" style="font-size:13px">Judge verdicts on the saved runs (not checked accuracy). Plane's price check was not run.</p>
-  <h3>Judge agreement with my labels (90 claims)</h3>
+  <h3>Judge accuracy against the final labels (90 claims)</h3>
+  <p class="muted" style="font-size:13px">Final label set: 35 claims with your human review, 55 AI labels not yet human-checked. The 55 AI labels agreed with the current judge when they were made, so this set favors the current judge. Treat these figures as a comparison of the three versions on the same labels, not as accuracy.</p>
+  <div class="wrap"><table><thead><tr><th>Version</th><th>Tuning (46)</th><th>Validation (17)</th><th>Held-out test (27)</th><th>All (90)</th></tr></thead><tbody id="finalrows"></tbody></table></div>
+  <h3>Earlier label set (for reference)</h3>
   <div class="wrap"><table><thead><tr><th>Judge version</th><th>Tuning (46)</th><th>Validation (17)</th><th>Held-out test (27)</th></tr></thead><tbody id="judgerows"></tbody></table></div>
   <h3>Human check of the 35 disagreements</h3>
   <div class="grid" id="humanCards"></div>
@@ -367,6 +371,10 @@ function runsSection() {
     const pct2 = x => x == null ? "-" : Math.round(x * 100) + "%";
     return `<tr><td>${esc(p.product)}</td><td>${pct2(s.support_rate)}</td><td>${pct2(s.contradiction_rate)}</td><td>${pct2(e.support_rate)}</td><td>${pct2(e.contradiction_rate)}</td><td>${pct2(p.evaluator_prices_in_cited_text)}</td></tr>`;
   }).join("") || `<tr><td colspan="6" class="muted">No Phase 4 summary yet.</td></tr>`;
+  const fs = R.final_scores || {};
+  const pc = v => v == null ? "-" : Math.round(v * 100) + "%";
+  document.getElementById("finalrows").innerHTML = Object.entries(fs).map(([name, row]) =>
+    `<tr><td>${esc(name)}</td>${["tune","val","test","all"].map(s => `<td>${row[s] ? pc(row[s][1]) + " (n=" + row[s][0] + ")" : "-"}</td>`).join("")}</tr>`).join("") || `<tr><td colspan="5" class="muted">No final scores yet.</td></tr>`;
   const judge = [["Current judge (v1)", "results-v1"], ["Stricter prompt (v2)", "results-v2-dev"], ["Second model check", "results-check-dev"]];
   document.getElementById("judgerows").innerHTML = judge.map(([label, k]) => {
     const r = R.judge[k];
