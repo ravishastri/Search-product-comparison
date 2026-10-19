@@ -63,9 +63,12 @@ JUDGE_WORKERS = 4
 SEARCH_ATTEMPTS = 3
 DIMENSION_TITLES = {
     "pricing": "Pricing and plans",
+    "features": "Must-have features",
     "competitive": "Competitive landscape",
     "reception": "Recent reception",
 }
+# One features search per must-have. Keep in sync with "must_have" in eval/purchases/pm_memory.md.
+MUST_HAVE_SEARCH = ["SSO", "time tracking"]
 
 SIMILAR_PROMPT = """You identify similar products. Given a product and search results, name up to {limit} products in the same category that target the same kind of customer.
 Use only product names that appear in the search results. Do not include the product itself.
@@ -80,7 +83,7 @@ Rules:
 - Write every price as digits with a dollar sign, for example $10 or $5,000, never as words like "ten dollars".
 - Paraphrase every claim in your own words. Do not copy sentences from the evidence. Use no quotation marks.
 - Never combine quotes or statements from different people into one claim. Attribute each opinion to its source.
-- Dimensions: "pricing", "competitive", "reception". Skip a dimension if the evidence does not cover it.
+- Dimensions: "pricing", "features" (must-have features such as SSO or time tracking), "competitive", "reception". Skip a dimension if the evidence does not cover it.
 Return only JSON: {"claims": [{"dimension": "pricing", "text": "...", "sources": ["S1"]}]}"""
 
 
@@ -118,10 +121,12 @@ def plan_discovery(product: str, category: str) -> PlannedSearch:
     return PlannedSearch("discovery", f"{product} alternatives competitors{suffix}")
 
 
-def plan_searches(product: str, similar: list[str], today: date) -> list[PlannedSearch]:
-    """Fixed query plan for the three dimensions. Reception covers the last 365 days only."""
+def plan_searches(product: str, similar: list[str], today: date,
+                  must_have: list[str] = MUST_HAVE_SEARCH) -> list[PlannedSearch]:
+    """Fixed query plan: pricing, must-have features, competitive, and reception. Reception covers the last 365 days only."""
     cutoff = (today - timedelta(days=365)).isoformat()
     plan = [PlannedSearch("pricing", f"{name} pricing plans") for name in [product, *similar]]
+    plan += [PlannedSearch("features", f"{product} {feature} plans") for feature in must_have]
     dated = {"start_date": cutoff, "topic": "news", "require_date": True}
     plan += [PlannedSearch("competitive", f"{product} vs {name} features", **dated) for name in similar]
     plan.append(PlannedSearch("reception", f"{product} launch reviews {today.year}", **dated))

@@ -461,7 +461,7 @@ function purchaseSection() {
       <div><strong>${esc(r.vendor)} ${esc(r.plan)}</strong><div class="label">${esc(f)}</div></div>
       <div style="text-align:right"><div style="font-weight:650;color:${colour(r.recommendation)}">${esc(LABEL[r.recommendation] || r.recommendation)}</div><div class="muted" style="font-size:13px">${esc(r.headline || "")}</div>
       <div class="label">confidence</div><div class="big">${r.confidence.toFixed(2)}</div></div></div>
-      <div style="margin:8px 0 0">${(r.evidence?.memory_checks || []).map(c => `<div style="font-size:14px"><span class="pill" style="color:${c.result === "pass" ? "var(--ok)" : "var(--bad)"};font-weight:650;text-transform:uppercase">${c.result === "pass" ? "pass" : "fail"}</span> ${esc(c.rule)}</div>`).join("")}</div>
+      <div style="margin:8px 0 0">${(r.evidence?.memory_checks || []).map(c => `<div style="font-size:14px"><span class="pill" style="color:${c.result === "pass" ? "var(--ok)" : c.result === "unknown" ? "var(--warn)" : "var(--bad)"};font-weight:650;text-transform:uppercase">${esc(c.result)}</span> ${esc(c.rule)}</div>`).join("")}</div>
       <ul style="margin:8px 0 0;padding-left:18px">${r.reasons.map(x => `<li class="muted">${esc(x)}</li>`).join("")}</ul></div>`;
   }).join("");
   document.getElementById("purchRows").innerHTML = P.purchases.map(p =>
@@ -478,7 +478,7 @@ function whySection() {
     const other = P.purchases.filter(p => p.vendor.toLowerCase() === r.vendor.toLowerCase() && !r.plan.toLowerCase().includes(p.plan.toLowerCase()));
     const otherNote = other.length ? ` (${esc(r.vendor)} ${esc(other[0].plan)} was bought on ${esc(other[0].purchased_on)} at ${esc(other[0].unit_price)} ${esc(other[0].currency)}, a different plan)` : "";
     const last = e.last_purchase ? `${esc(e.last_purchase.unit_price)} on ${esc(e.last_purchase.purchased_on)} (${e.last_purchase.price_verified ? "verified" : "<span style='color:var(--warn)'>illustrative</span>"}) · ${link(e.last_purchase.price_source)}` : `no past purchase of this plan${otherNote}`;
-    const checks = (e.memory_checks || []).map(c => `<tr><td>${esc(c.rule)}</td><td style="color:${c.result === "pass" ? "var(--ok)" : "var(--bad)"}">${esc(c.result)}</td><td class="muted">${esc(c.evidence)}</td></tr>`).join("") || `<tr><td colspan="3" class="muted">No memory rules set.</td></tr>`;
+    const checks = (e.memory_checks || []).map(c => `<tr><td>${esc(c.rule)}</td><td style="color:${c.result === "pass" ? "var(--ok)" : c.result === "unknown" ? "var(--warn)" : "var(--bad)"}">${esc(c.result)}</td><td class="muted">${esc(c.evidence)}</td></tr>`).join("") || `<tr><td colspan="3" class="muted">No memory rules set.</td></tr>`;
     const claims = (e.supporting_claims || []).map(c => `<li>${esc(c.text)}<div class="muted" style="font-size:12px">quote: “${esc(c.quote)}”</div></li>`).join("") || "<li class='muted'>No supported claims to show.</li>";
     return `<div class="card"><strong>${esc(r.vendor)} ${esc(r.plan)}</strong> — ${esc(LABEL[r.recommendation] || r.recommendation)} (confidence ${r.confidence.toFixed(2)})
       <div class="label" style="margin-top:8px">Current price</div><div>${cur}</div>

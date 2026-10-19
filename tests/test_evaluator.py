@@ -33,6 +33,11 @@ class PlanTests(unittest.TestCase):
         self.assertEqual(dims.count("competitive"), 2)  # one per similar product
         self.assertEqual(dims.count("reception"), 1)
 
+    def test_each_must_have_gets_a_features_search(self):
+        plan = plan_searches("Acme", ["Beta"], date(2026, 10, 18), must_have=["SSO", "time tracking"])
+        queries = [p.query for p in plan if p.dimension == "features"]
+        self.assertEqual(queries, ["Acme SSO plans", "Acme time tracking plans"])
+
     def test_competitive_searches_use_the_same_cutoff(self):
         plan = plan_searches("Acme", ["Beta"], date(2026, 10, 18))
         competitive = [p for p in plan if p.dimension == "competitive"]

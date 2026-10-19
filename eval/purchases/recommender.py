@@ -223,8 +223,8 @@ def build_evidence(last, cur, memory, bullets, facts=()) -> dict:
             ev = (f"verified: {fact['feature']} in {fact['plan']} via {fact['via_add_on'] or 'plan'} | "
                   f"page says: \"{fact['quote']}\" ({fact['source_url']})")
         else:
-            ev = "no supported claim or verified fact for this plan"
-        checks.append({"rule": f"must_have: {m}", "result": "pass" if (hit or fact) else "fail", "evidence": ev})
+            ev = "not found on the pages checked for this plan"
+        checks.append({"rule": f"must_have: {m}", "result": "pass" if (hit or fact) else "unknown", "evidence": ev})
     terms = [m.lower() for m in memory.get("must_have", [])] + ["$", "per user", "per seat", "per month", "annual", "monthly"]
     used = [b for b in supported if any(t in b["text"].lower() for t in terms)][:6]
     return {
