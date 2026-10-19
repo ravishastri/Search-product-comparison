@@ -19,7 +19,7 @@ Applies to every claim in `eval/tune/to_label.json`, and to any future claim che
 **not stated**
 - The cited page does not contain the fact, or contains only part of it and the missing part is one the claim relies on (for example, a range whose upper or lower figure is not on the page).
 - Not the same as false.
-- **Open:** the final human review of the 35 disagreements used no "not stated" labels. Whether a partial match counts as supported or not stated still needs a decision.
+- **Decided:** a partial match counts as not stated. If any figure, unit, billing period, or qualifier the claim relies on is missing from the page, the label is not stated.
 
 **no source**
 - The cited page could not be read (empty, blocked, or the URL is gone).
