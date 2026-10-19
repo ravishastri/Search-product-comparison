@@ -6,16 +6,15 @@ The starter code (`starter_agent.py`) gives one search and one model reply. Our 
 
 ## Results
 
-These two pages are generated from this repo. Both are private to the account that published them.
+These pages are published from this repo. They are private to the account that published them.
 
-- **Main results page** (four tabs: starter vs ours, search outputs, evaluation, purchase recommendations): https://claude.ai/artifact/3afXof9TfKhpmUoa7kNXNw
-- **Purchase recommendations page** (recommendations, past purchases, PM memory): https://claude.ai/artifact/3Mdtw7VSxSc3iFE4vw711e
+- **Story** (the launch brief to purchase decision, with architecture and roadmap): https://claude.ai/artifact/LhBFRmp7YKZUL6LivMdeh3
+- **Results** (four tabs: starter vs ours, search outputs, evaluation, purchase recommendations): https://claude.ai/artifact/3afXof9TfKhpmUoa7kNXNw
 
 To rebuild them locally:
 
 ```bash
 python3 eval/build_ui.py              # writes eval/ui/index.html (main results page)
-python3 eval/purchases/build_page.py  # writes eval/ui/purchases.html (purchase page)
 ```
 
 ## Setup
@@ -47,8 +46,7 @@ python3 tests/test_store.py            # unit tests (price store)
 | `eval/llm_judge.py` | LLM judge: checks each claim against full page text |
 | `eval/store.py` | Price history: gate, alerts, review queue (`eval/store/prices.db`) |
 | `eval/purchases/` | Purchases, verified SSO facts, PM memory, recommender |
-| `eval/build_ui.py` | Builds the main results page |
-| `eval/purchases/build_page.py` | Builds the purchase page |
+| `eval/build_ui.py` | Builds the results page (`eval/ui/index.html`) |
 | `eval/tune/` | Hand labels, labelling rule, judge scores |
 | `runs/` | Output of each evaluator run (`brief.md`, `run.json`) |
 | `tests/` | Unit tests |
