@@ -82,6 +82,16 @@ FACTS = [
          via_add_on="Atlassian Guard (separate subscription, from $4/month per user)",
          quote="Free SSO and user provisioning with Atlassian Guard",
          source_url="https://trello.com/pricing", checked_on="2026-10-19"),
+    dict(vendor="Asana", plan="Enterprise", feature="SSO", included=1, via_add_on=None,
+         quote="SAML authentication connects Asana to your company's single sign-on",
+         source_url="https://asana.com/pricing", checked_on="2026-10-19"),
+    dict(vendor="ClickUp", plan="Enterprise", feature="SSO", included=1, via_add_on=None,
+         quote="SAML SSO & SCIM Provisioning", source_url="https://clickup.com/pricing", checked_on="2026-10-19"),
+    dict(vendor="Linear", plan="Enterprise", feature="SSO", included=1, via_add_on=None,
+         quote="SAML and SCIM", source_url="https://linear.app/pricing", checked_on="2026-10-18"),
+    dict(vendor="Jira", plan="Atlassian Guard add-on", feature="SSO", included=1, via_add_on="Atlassian Guard (add-on)",
+         quote="Atlassian Guard Standard (SSO, SCIM, Active Directory Sync) Requires Atlassian Guard",
+         source_url="https://www.atlassian.com/software/jira/pricing", checked_on="2026-10-19"),
 ]
 
 
