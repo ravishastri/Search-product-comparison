@@ -10,8 +10,8 @@ B04,jira,"supported.
 B05,trello,supported,supported,supported,yes,
 B06,youtrack,Supported,supported,supported,yes,
 B07,jira,supported,supported,supported,yes,
-B08,trello,Supported,supported,contradicted,no,
-B09,asana,Supported,supported,contradicted,no,
+B08,trello,Supported,contradicted,contradicted,yes,corrected after reading the page
+B09,asana,Supported,contradicted,contradicted,yes,corrected after reading the page
 B10,shortcut,Supported,supported,supported,yes,
 B11,plane,Supported,supported,supported,yes,
 B12,asana,Supported,supported,not_stated,no,
@@ -30,7 +30,7 @@ B24,plane,Supported,supported,supported,yes,
 B25,plane,Supported,supported,no_source_text,no,
 B26,clickup,Supported,supported,supported,yes,
 B27,jira,Supported,supported,supported,yes,
-B28,trello,Supported,supported,contradicted,no,
+B28,trello,Supported,contradicted,contradicted,yes,corrected after reading the page
 B29,trello,Supported,supported,supported,yes,
 B30,youtrack,supported,supported,supported,yes,
 B31,plane,supported,supported,supported,yes,
@@ -46,9 +46,9 @@ B40,jira,supported,supported,supported,yes,
 B41,youtrack,supported,supported,supported,yes,
 B42,youtrack,supported,supported,supported,yes,
 B43,shortcut,supported,supported,no_source_text,no,
-B44,trello,supported,supported,contradicted,no,
+B44,trello,supported,not_stated,contradicted,no,corrected after reading the page
 B45,youtrack,supported,supported,supported,yes,
-B46,youtrack,supported,supported,contradicted,no,
+B46,youtrack,supported,contradicted,contradicted,yes,corrected after reading the page
 B47,asana,supported,supported,supported,yes,
 B48,shortcut,supported,supported,supported,yes,
 B49,jira,supported,supported,supported,yes,

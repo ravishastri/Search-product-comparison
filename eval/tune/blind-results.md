@@ -35,3 +35,10 @@ Result: the judge was right on four of the five. Your label was wrong on all fiv
 If these corrections are accepted, agreement moves from 39 of 50 (78%) to 43 of 50 (86%). The four that move to contradicted now agree with the judge. B44 still disagrees, because the judge said contradicted and the rule says not_stated.
 
 These are proposed, not applied. Your labels in `blind-labels-human.csv` are unchanged, pending your decision.
+
+## Corrections applied
+
+The five corrections above are now in `blind-labels-human.csv`. `your_label_raw` keeps the original label, and `your_label` has the corrected one.
+
+- Corrected agreement: 43 of 50 (86%). This replaces the 39 of 50 (78%) figure above.
+- Remaining disagreements: the three judge `no_source_text` rows (B25, B37, B43), the `unverified_evidence` row (B02), the `not_stated` vs `supported` rows (B12, B20), and B44 (judge contradicted, corrected label not_stated).
