@@ -56,7 +56,8 @@ def load_bullets(slug: str) -> list[dict]:
     path = ROOT / "eval" / "results" / f"evaluator-{slug}-llm.json"
     if not path.exists():
         return []
-    return [{"text": c["text"], "verdict": c["verdict"]} for c in json.loads(path.read_text())["claims"]]
+    return [{"text": c["text"], "verdict": c["verdict"], "evidence": c.get("evidence", "")}
+            for c in json.loads(path.read_text())["claims"]]
 
 
 def current_price(vendor: str, plan: str) -> dict | None:
@@ -144,12 +145,40 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
     return finish(rec, reasons, factors, confidence, last, cur, memory, bullets)
 
 
+def build_evidence(last, cur, memory, bullets) -> dict:
+    """The evidence behind the recommendation: sources, memory checks, and the supported claims used."""
+    supported = [b for b in bullets if b["verdict"] == "supported"]
+    checks = []
+    max_price = memory.get("max_price_per_seat")
+    if max_price is not None and cur is not None:
+        ok = cur["amount"] <= max_price
+        checks.append({"rule": f"max_price_per_seat = {max_price:g}", "result": "pass" if ok else "fail",
+                       "evidence": f"current verified price {cur['amount']:g} {cur['unit']} (source: {cur.get('source_url')})"})
+    for m in memory.get("must_have", []):
+        hit = next((b for b in supported if m.lower() in b["text"].lower()), None)
+        checks.append({"rule": f"must_have: {m}", "result": "pass" if hit else "fail",
+                       "evidence": (f"{hit['text']} | page says: \"{hit.get('evidence', '')[:160]}\"" if hit
+                                    else "no supported claim mentions it")})
+    terms = [m.lower() for m in memory.get("must_have", [])] + ["$", "per user", "per seat", "per month", "annual", "monthly"]
+    used = [b for b in supported if any(t in b["text"].lower() for t in terms)][:6]
+    return {
+        "current_price": cur and {"amount": cur["amount"], "unit": cur["unit"], "billing": cur["billing"],
+                                  "source_url": cur.get("source_url"), "checked_at": str(cur["checked_at"])[:10]},
+        "last_purchase": last and {"unit_price": last["unit_price"], "purchased_on": last["purchased_on"],
+                                   "price_verified": bool(last["price_verified"]), "price_source": last.get("price_source"),
+                                   "note": last.get("note")},
+        "memory_checks": checks,
+        "supporting_claims": [{"text": b["text"], "quote": b.get("evidence", "")[:200]} for b in used],
+    }
+
+
 def finish(rec, reasons, factors, confidence, last, cur, memory, bullets) -> dict:
     value = 1.0
     for f in factors.values():
         value *= f
     confidence = round(max(0.0, min(1.0, value)), 2)
     return {
+        "evidence": build_evidence(last, cur, memory, bullets),
         "recommendation": rec,
         "confidence": confidence,
         "reasons": reasons,

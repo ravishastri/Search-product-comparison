@@ -254,7 +254,12 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 
 <h2>Purchase recommendations</h2>
 <p class="muted" style="font-size:13px">Compares the current verified price and judged evidence with past purchases and the PM memory (eval/purchases/pm_memory.md). Confidence is the product of the factors shown.</p>
+<div class="tabs" id="purchTabs">
+  <button data-pt="summary" aria-selected="true">Summary</button>
+  <button data-pt="why" aria-selected="false">Why (evidence)</button>
+</div>
 <div id="recs"></div>
+<div id="recsWhy" hidden></div>
 <h3>Past purchases</h3>
 <div class="wrap"><table><thead><tr><th>Vendor</th><th>Plan</th><th>Unit price</th><th>Unit / billing</th><th>Purchased</th><th>Verified</th><th>Note</th></tr></thead><tbody id="purchRows"></tbody></table></div>
 <h3>PM memory</h3>
@@ -391,6 +396,31 @@ function purchaseSection() {
   document.getElementById("memRows").innerHTML = Object.entries(P.memory).map(([k, v]) =>
     `<tr><td>${esc(k)}</td><td>${esc(Array.isArray(v) ? v.join(", ") : v)}</td></tr>`).join("");
 }
+function whySection() {
+  const P = D.runs.purchases;
+  const link = u => u ? `<a href="${esc(u)}">${esc(u.length > 70 ? u.slice(0, 70) + "…" : u)}</a>` : "no link";
+  document.getElementById("recsWhy").innerHTML = P.recommendations.map(r => {
+    const e = r.evidence || {};
+    const cur = e.current_price ? `${esc(e.current_price.amount)} ${esc(e.current_price.unit.replace(/_/g, " "))} / ${esc(e.current_price.billing)}, checked ${esc(e.current_price.checked_at)} · ${link(e.current_price.source_url)}` : "no verified current price";
+    const last = e.last_purchase ? `${esc(e.last_purchase.unit_price)} on ${esc(e.last_purchase.purchased_on)} (${e.last_purchase.price_verified ? "verified" : "<span style='color:var(--warn)'>illustrative</span>"}) · ${link(e.last_purchase.price_source)}` : "no past purchase";
+    const checks = (e.memory_checks || []).map(c => `<tr><td>${esc(c.rule)}</td><td style="color:${c.result === "pass" ? "var(--ok)" : "var(--bad)"}">${esc(c.result)}</td><td class="muted">${esc(c.evidence)}</td></tr>`).join("") || `<tr><td colspan="3" class="muted">No memory rules set.</td></tr>`;
+    const claims = (e.supporting_claims || []).map(c => `<li>${esc(c.text)}<div class="muted" style="font-size:12px">quote: “${esc(c.quote)}”</div></li>`).join("") || "<li class='muted'>No supported claims to show.</li>";
+    return `<div class="card"><strong>${esc(r.vendor)} ${esc(r.plan)}</strong> — ${esc(r.recommendation.replace(/_/g, " "))} (confidence ${r.confidence.toFixed(2)})
+      <div class="label" style="margin-top:8px">Current price</div><div>${cur}</div>
+      <div class="label" style="margin-top:6px">Last purchase</div><div>${last}</div>
+      <div class="label" style="margin-top:8px">Memory checks</div>
+      <div class="wrap"><table><thead><tr><th>Rule</th><th>Result</th><th>Evidence</th></tr></thead><tbody>${checks}</tbody></table></div>
+      <div class="label" style="margin-top:8px">Supported claims behind this</div><ul style="margin:4px 0;padding-left:18px">${claims}</ul>
+    </div>`;
+  }).join("");
+}
+whySection();
+document.querySelectorAll("#purchTabs button").forEach(b => b.onclick = () => {
+  const why = b.dataset.pt === "why";
+  document.getElementById("recs").hidden = why;
+  document.getElementById("recsWhy").hidden = !why;
+  document.querySelectorAll("#purchTabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+});
 purchaseSection();
 function explainSection() {
   const p4 = (D.runs.phase4 && D.runs.phase4.products) || [];
