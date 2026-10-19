@@ -136,6 +136,11 @@ def build() -> None:
                                 "judge": r["judge_verdict"], "agree": r["agree"] == "yes",
                                 "note": r["note"]} for r in blind_rows]},
             "variance": variance,
+            "judges": [
+                {"name": "Kimi-K2.6 (earlier verdicts)", "agree": sum(r["agree"] == "yes" for r in blind_rows), "n": len(blind_rows)},
+                {"name": "DeepSeek-V4-Pro", "agree": sum(r["agree"] == "yes" for r in _csv.DictReader(open(ROOT / "eval/tune/blind-rejudge-deepseek.csv"))), "n": len(blind_rows)},
+                {"name": "Qwen3-235B-Instruct", "agree": sum(r["agree"] == "yes" for r in _csv.DictReader(open(ROOT / "eval/tune/blind-rejudge-qwen.csv"))), "n": len(blind_rows)},
+            ],
         },
         "final_scores": load(ROOT / "eval/tune/final-scores.json"),
         "phase4": load(ROOT / "eval/results/phase4-summary.json"),
@@ -437,6 +442,9 @@ function maturity() {
     <div class="grid"><div class="card"><div class="label">Agreement after corrections</div><div class="big">${b.agree} of ${b.n} (${pct(b.agree / b.n)})</div><div class="label">Before the corrections: 39 of 50 (78%)</div></div></div>
     <p class="muted" style="font-size:13px">The five contradictions were read against their pages. The judge was right on four; the labels were corrected on those and on one partial match (B44). Remaining disagreements:</p>
     <div class="wrap"><table><thead><tr><th>Row</th><th>Product</th><th>Human</th><th>Judge</th><th>Note</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <h3>Which judge to use</h3>
+    <p class="muted" style="font-size:13px">The same 50 claims, judged by each model, agreement with the corrected human labels. Kimi is the default.</p>
+    <div class="wrap"><table><thead><tr><th>Judge</th><th>Agreement</th></tr></thead><tbody>${M.judges.map(j => `<tr><td>${esc(j.name)}</td><td>${j.agree} of ${j.n} (${pct(j.agree / j.n)})</td></tr>`).join("")}</tbody></table></div>
     <h3>Variance: three Linear runs, same settings</h3>
     <p class="muted" style="font-size:13px">Writer: Kimi. Judge: DeepSeek-V4-Pro, a different model family.</p>
     <div class="wrap"><table><thead><tr><th>Run</th><th>Sources</th><th>Supported</th><th>Unsupported</th><th>Judge: supported</th><th>Judge: contradicted</th><th>Judge: not stated</th><th>Judge: no source text</th></tr></thead><tbody>${vrows}</tbody></table></div>`;
