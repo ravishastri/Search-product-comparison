@@ -66,3 +66,11 @@
 {"id": "T070", "label": "supported", "how": "live page", "note": "VendorBenchmark: AI features including anomaly detection, sold as an add-on."}
 {"id": "T071", "label": "not_stated", "how": "live page", "note": "Plaky lists Enterprise's Atlassian Guard and org-wide permissions. SSO is not listed."}
 {"id": "T072", "label": "supported", "how": "live page", "note": "Chanty: Standard $5/user/month, billed annually."}
+{"id": "T073", "label": "supported", "how": "live page", "note": "OCM Solution: Software Advice 4.5/5 (13,872 reviews)."}
+{"id": "T074", "label": "supported", "how": "live page", "note": "Blogverdict table: ClickUp time tracking built in; Trello needs a Power-Up."}
+{"id": "T075", "label": "supported", "how": "live page", "note": "Blogverdict: performance can slow with large, complex workspaces."}
+{"id": "T076", "label": "supported", "how": "live page", "note": "Blogverdict: feature density leads to a cluttered interface."}
+{"id": "T077", "label": "not_stated", "how": "live page", "note": "Spendflo: Free is 10 boards and command limits. Unlimited cards is not stated."}
+{"id": "T078", "label": "not_stated", "how": "live page", "note": "Forbes lists Premium's price. Atlassian Intelligence is not on the cited page."}
+{"id": "T079", "label": "not_stated", "how": "live page", "note": "Cited Plaky page is about Trello pricing; it says nothing about Monday.com minimums."}
+{"id": "T080", "label": "not_stated", "how": "live page", "note": "Cited blogverdict page does not show Asana's $10.99 price."}
