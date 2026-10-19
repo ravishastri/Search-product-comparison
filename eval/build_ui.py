@@ -136,7 +136,8 @@ def build() -> None:
     pdb = purchases_db.connect()
     purchases = [dict(r) for r in pdb.execute("SELECT * FROM purchases ORDER BY vendor, purchased_on DESC")]
     pdb.close()
-    cases = [("Trello", "Premium", "trello"), ("Asana", "Starter", "asana"), ("ClickUp", "Business", "clickup"),
+    cases = [("Trello", "Enterprise", "trello"), ("Asana", "Enterprise", "asana"), ("ClickUp", "Enterprise", "clickup"),
+         ("Linear", "Enterprise", "linear"), ("Trello", "Premium", "trello"), ("Asana", "Starter", "asana"), ("ClickUp", "Business", "clickup"),
              ("Jira", "Standard", "jira"), ("Linear", "Plus", "linear"), ("YouTrack", "Per-user starting price", "youtrack")]
     recs = [{"vendor": v, "plan": pl, **R.recommend(v, pl, s, memory=memory, today=date.today())} for v, pl, s in cases]
     runs["purchases"] = {"recommendations": recs, "purchases": purchases, "memory": memory}

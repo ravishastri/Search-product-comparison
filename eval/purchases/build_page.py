@@ -18,7 +18,8 @@ import recommender as R  # noqa: E402
 
 OUT = ROOT / "eval" / "ui" / "purchases.html"
 # (vendor, plan, slug for the judged claims)
-CASES = [("Trello", "Premium", "trello"), ("Asana", "Starter", "asana"), ("ClickUp", "Business", "clickup"),
+CASES = [("Trello", "Enterprise", "trello"), ("Asana", "Enterprise", "asana"), ("ClickUp", "Enterprise", "clickup"),
+         ("Linear", "Enterprise", "linear"), ("Trello", "Premium", "trello"), ("Asana", "Starter", "asana"), ("ClickUp", "Business", "clickup"),
          ("Jira", "Standard", "jira"), ("Linear", "Plus", "linear"), ("YouTrack", "Per-user starting price", "youtrack")]
 
 
