@@ -124,6 +124,13 @@ def facts_for(db: sqlite3.Connection, vendor: str, plan: str) -> list[dict]:
         (vendor, plan))]
 
 
+def facts_elsewhere(db: sqlite3.Connection, vendor: str, feature: str) -> list[dict]:
+    """Verified facts for a feature on any plan of a vendor, used to say where a must-have is verified."""
+    return [dict(r) for r in db.execute(
+        "SELECT * FROM verified_facts WHERE lower(vendor)=lower(?) AND lower(feature)=lower(?) AND included=1",
+        (vendor, feature))]
+
+
 def seed(db: sqlite3.Connection) -> int:
     if db.execute("SELECT COUNT(*) FROM purchases").fetchone()[0]:
         return 0

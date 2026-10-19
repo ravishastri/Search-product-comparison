@@ -128,7 +128,11 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
                if not any(m.lower() in b["text"].lower() for b in supported)
                and not any(m.lower() == f["feature"].lower() for f in facts)]
     for m in missing:
-        reasons.append(f"Must-have '{m}' is not in any supported claim.")
+        edb = purchases_db.connect()
+        elsewhere = [f["plan"] for f in purchases_db.facts_elsewhere(edb, vendor, m) if f["plan"].lower() != plan.lower()]
+        edb.close()
+        where = f" Verified on {', '.join(sorted(set(elsewhere)))} only." if elsewhere else ""
+        reasons.append(f"Must-have '{m}' is not in any supported claim for {plan}.{where}")
     memory_penalty = 0.0
     if not budget_ok:
         memory_penalty += 0.2
