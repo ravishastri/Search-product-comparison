@@ -12,3 +12,4 @@ starter_agent.py
 eval/cache/
 eval/store/prices.db
 eval/tune/key.json
+eval/purchases/purchases.db
