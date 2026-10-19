@@ -92,7 +92,8 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
     if cur is None:
         factors["current_price"] = 0.3
         reasons.append("No verified current price for this plan. Only verified prices are stored.")
-        return finish("insufficient_data", reasons, factors, confidence, last, cur, memory, bullets, facts)
+        return _with_extras("insufficient_data", reasons, factors, last, cur, memory, bullets, facts,
+                            vendor, plan, headline="Validate further: no verified current price for this plan")
     factors["current_price"] = 1.0
 
     # 2. Compare with the last purchase.
@@ -127,12 +128,18 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
     missing = [m for m in must
                if not any(m.lower() in b["text"].lower() for b in supported)
                and not any(m.lower() == f["feature"].lower() for f in facts)]
+    failed: list[str] = []   # verified on another plan of this vendor, not on this one
+    unknown: list[str] = []  # no evidence for this vendor at all
     for m in missing:
         edb = purchases_db.connect()
         elsewhere = [f["plan"] for f in purchases_db.facts_elsewhere(edb, vendor, m) if f["plan"].lower() != plan.lower()]
         edb.close()
-        where = f" Verified on {', '.join(sorted(set(elsewhere)))} only." if elsewhere else ""
-        reasons.append(f"Must-have '{m}' is not in any supported claim for {plan}.{where}")
+        if elsewhere:
+            failed.append(m)
+            reasons.append(f"Must-have '{m}' is verified on {', '.join(sorted(set(elsewhere)))} only, not on {plan}.")
+        else:
+            unknown.append(m)
+            reasons.append(f"Must-have '{m}' was not found on the pages checked for {plan}. It may still be there.")
     memory_penalty = 0.0
     if not budget_ok:
         memory_penalty += 0.2
@@ -141,8 +148,11 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
 
     # Recommendation.
     tolerance = memory.get("price_change_tolerance_pct", 10.0)
-    if not budget_ok or missing:
+    if not budget_ok or failed:
         rec = "review_alternatives"
+    elif unknown:
+        return _with_extras("insufficient_data", reasons, factors, last, cur, memory, bullets, facts,
+                            vendor, plan, headline=f"Validate further: '{unknown[0]}' not found for {plan}")
     elif change is not None and change > tolerance:
         rec = "negotiate"
         reasons.append(f"Price is up {change:.1f}% from the last purchase, above the {tolerance:.0f}% tolerance.")
@@ -151,7 +161,48 @@ def recommend(vendor: str, plan: str, slug: str, memory: dict | None = None, tod
         if change is not None:
             reasons.append(f"Price change since the last purchase: {change:+.1f}%, within the tolerance.")
 
-    return finish(rec, reasons, factors, confidence, last, cur, memory, bullets, facts)
+    if rec == "review_alternatives":
+        if not budget_ok:
+            headline = f"Look at alternatives: {cur['amount']:g} is over the budget of {max_price:g} per seat"
+        else:
+            headline = f"Look at alternatives: '{failed[0]}' is not on {plan}"
+    elif rec == "negotiate":
+        headline = f"Negotiate price: up {change:.1f}% since the last purchase"
+    else:
+        headline = "Recommended product: passes every rule"
+    return _with_extras(rec, reasons, factors, last, cur, memory, bullets, facts, vendor, plan, headline=headline)
+
+
+def _with_extras(rec, reasons, factors, last, cur, memory, bullets, facts, vendor, plan, headline) -> dict:
+    out = finish(rec, reasons, factors, 1.0, last, cur, memory, bullets, facts)
+    out["headline"] = headline
+    out["alternatives"] = alternatives(vendor, plan, memory) if rec == "review_alternatives" else []
+    return out
+
+
+def alternatives(vendor: str, plan: str, memory: dict) -> list[dict]:
+    """Other plans of this vendor with a verified price under budget and a verified fact for every must-have."""
+    store = Store(PRICES)
+    try:
+        rows = store.current(vendor)
+    finally:
+        store.close()
+    max_price = memory.get("max_price_per_seat")
+    must = memory.get("must_have", [])
+    out = []
+    edb = purchases_db.connect()
+    try:
+        for r in rows:
+            if r["plan"].lower() == plan.lower():
+                continue
+            if max_price is not None and r["amount"] > max_price:
+                continue
+            feats = {f["feature"].lower() for f in purchases_db.facts_for(edb, vendor, r["plan"])}
+            if all(m.lower() in feats for m in must):
+                out.append({"plan": r["plan"], "amount": r["amount"], "unit": r["unit"]})
+    finally:
+        edb.close()
+    return out
 
 
 def build_evidence(last, cur, memory, bullets, facts=()) -> dict:

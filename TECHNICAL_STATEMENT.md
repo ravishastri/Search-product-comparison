@@ -2,7 +2,7 @@
 
 ## What it does
 
-Given a product, the system finds similar products, searches for their pricing, competitors, and recent reception, and writes a brief in which every claim cites its source. For PM tools it also stores verified prices and SSO facts, and recommends whether to renew, negotiate, review alternatives, or wait for data, with a confidence score and the factors behind it.
+Given a product, the system finds similar products, searches for their pricing, competitors, and recent reception, and writes a brief in which every claim cites its source. For PM tools it also stores verified prices and SSO facts, and recommends one of four outcomes (recommended product, negotiate price, look at alternatives, or validate further), with a confidence score and the factors behind it.
 
 ## Approach
 
@@ -34,7 +34,7 @@ Three Linear runs with the current pipeline gave 28, 26, and 22 supported claims
 
 In the blind check, one person labeled 50 claims against their pages. The judge agreed with 39 of 50 labels as first recorded. After the five contradictions were read against their pages, agreement was 43 of 50 (86%). The judge was right on four of the five contradictions. Comparing judges on the same 50 claims gave Kimi 43, DeepSeek 38, and Qwen 37.
 
-On purchases, no plan reached renew or negotiate. The main reasons were that SSO is on higher plans only, some plans have no public price, and one tool (YouTrack) has no SSO on the pages checked.
+On purchases, no plan reached "recommended product" or "negotiate price." The main reasons were that SSO is on higher plans only, some plans have no public price, and one tool (YouTrack) has no SSO on the pages checked.
 
 ## AI output and how it was checked
 

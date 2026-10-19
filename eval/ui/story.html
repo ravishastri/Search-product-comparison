@@ -104,7 +104,7 @@ a { color: var(--accent); }
     </div>
     <div class="part">
       <h3>Purchase recommender</h3>
-      <p>Reads verified prices, verified SSO facts, and a PM memory file (budget and must-have features). It returns renew, negotiate, review alternatives, or insufficient data, with a confidence score and the factors behind it.</p>
+      <p>Reads verified prices, verified SSO facts, and a PM memory file (budget and must-have features). It returns one of four outcomes: recommended product, negotiate price, look at alternatives, or validate further, with a confidence score and the factors behind it.</p>
     </div>
   </div>
 
@@ -151,11 +151,11 @@ a { color: var(--accent); }
     <table>
       <thead><tr><th>Plan</th><th>Result</th><th>Confidence</th><th>Main reason</th></tr></thead>
       <tbody>
-        <tr><td>YouTrack</td><td class="bad">Review alternatives</td><td>0.82</td><td>SSO not found on the JetBrains pages checked</td></tr>
-        <tr><td>Trello Premium</td><td class="bad">Review alternatives</td><td>0.80</td><td>No SSO on Premium; SSO is on Enterprise only</td></tr>
-        <tr><td>Trello Enterprise</td><td class="bad">Review alternatives</td><td>0.53</td><td>SSO passes; $17.50 per user is over the $12 budget</td></tr>
-        <tr><td>Asana, ClickUp, Linear Enterprise</td><td class="muted">Insufficient data</td><td>0.30</td><td>SSO passes; no public price (contact sales)</td></tr>
-        <tr><td>Asana Starter, ClickUp Business, Jira Standard, Linear Plus</td><td class="muted">Insufficient data</td><td>0.30</td><td>No verified current price in the store</td></tr>
+        <tr><td>YouTrack</td><td class="muted">Validate further</td><td>0.82</td><td>SSO not found on the JetBrains pages checked</td></tr>
+        <tr><td>Trello Premium</td><td class="bad">Look at alternatives</td><td>0.80</td><td>No SSO on Premium; SSO is on Enterprise only</td></tr>
+        <tr><td>Trello Enterprise</td><td class="bad">Look at alternatives</td><td>0.53</td><td>SSO passes; $17.50 per user is over the $12 budget</td></tr>
+        <tr><td>Asana, ClickUp, Linear Enterprise</td><td class="muted">Validate further</td><td>0.30</td><td>SSO passes; no public price (contact sales)</td></tr>
+        <tr><td>Asana Starter, ClickUp Business, Jira Standard, Linear Plus</td><td class="muted">Validate further</td><td>0.30</td><td>No verified current price in the store</td></tr>
       </tbody>
     </table>
   </div>
@@ -236,7 +236,7 @@ flowchart LR
   <ul class="points">
     <li><strong>Every claim traces to a source.</strong> A buyer or procurement reviewer can click through to the page behind each price or SSO claim, and see its date. This makes a recommendation defensible in a review.</li>
     <li><strong>Wrong prices stay out of the history.</strong> Only prices with a unit, billing period, and a supporting quote are stored. A bad number cannot quietly drive a renewal decision.</li>
-    <li><strong>Known gaps are visible.</strong> The recommender reports "insufficient data" when a price is missing, instead of guessing. A team can see what to check before it spends money.</li>
+    <li><strong>Known gaps are visible.</strong> The recommender says "validate further" when a price or a must-have is missing, instead of guessing. A team can see what to check before it spends money.</li>
     <li><strong>Judgments are measured, not assumed.</strong> The judge's agreement with hand labels is recorded, including where it is weaker. That tells the business how far to trust the tool before it replaces manual research.</li>
     <li><strong>Memory sets the rules.</strong> Budget and must-have features live in one editable file, so the recommendation follows the team's policy, not a model's preference.</li>
     <li><strong>Cost of a wrong call.</strong> Renewing a tool that lacks a required feature, or paying more than the budget, costs more than the time spent on these checks. The roadmap items are priced by that risk.</li>

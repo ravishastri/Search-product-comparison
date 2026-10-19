@@ -320,6 +320,7 @@ const D = __DATA__;
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pct = x => x == null ? null : Math.round(x * 100) + "%";
 const pend = '<span class="pending">pending</span>';
+const LABEL = {renew: "Recommended product", negotiate: "Negotiate price", review_alternatives: "Look at alternatives", insufficient_data: "Validate further"};
 
 function headline() {
   const run = D.products.filter(p => p.starter && p.evaluator);
@@ -452,13 +453,13 @@ function maturity() {
 
 function purchaseSection() {
   const P = D.runs.purchases;
-  const colour = r => ({renew: "var(--ok)", negotiate: "var(--warn)"}[r] || "var(--bad)");
+  const colour = r => ({renew: "var(--ok)", negotiate: "var(--warn)", insufficient_data: "var(--warn)"}[r] || "var(--bad)");
   document.getElementById("recs").innerHTML = P.recommendations.map(r => {
     const f = "Confidence factors: " + Object.entries(r.factors).map(([k, v]) => k === "current_price" && !r.current_price
       ? `current price: none verified (${v.toFixed(2)})` : `${esc(k.replace(/_/g, " "))} ${v.toFixed(2)}`).join(" · ");
     return `<div class="card"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
       <div><strong>${esc(r.vendor)} ${esc(r.plan)}</strong><div class="label">${esc(f)}</div></div>
-      <div style="text-align:right"><div style="font-weight:650;color:${colour(r.recommendation)}">${esc(r.recommendation.replace(/_/g, " "))}</div>
+      <div style="text-align:right"><div style="font-weight:650;color:${colour(r.recommendation)}">${esc(LABEL[r.recommendation] || r.recommendation)}</div><div class="muted" style="font-size:13px">${esc(r.headline || "")}</div>
       <div class="label">confidence</div><div class="big">${r.confidence.toFixed(2)}</div></div></div>
       <div style="margin:8px 0 0">${(r.evidence?.memory_checks || []).map(c => `<div style="font-size:14px"><span class="pill" style="color:${c.result === "pass" ? "var(--ok)" : "var(--bad)"};font-weight:650;text-transform:uppercase">${c.result === "pass" ? "pass" : "fail"}</span> ${esc(c.rule)}</div>`).join("")}</div>
       <ul style="margin:8px 0 0;padding-left:18px">${r.reasons.map(x => `<li class="muted">${esc(x)}</li>`).join("")}</ul></div>`;
@@ -479,7 +480,7 @@ function whySection() {
     const last = e.last_purchase ? `${esc(e.last_purchase.unit_price)} on ${esc(e.last_purchase.purchased_on)} (${e.last_purchase.price_verified ? "verified" : "<span style='color:var(--warn)'>illustrative</span>"}) · ${link(e.last_purchase.price_source)}` : `no past purchase of this plan${otherNote}`;
     const checks = (e.memory_checks || []).map(c => `<tr><td>${esc(c.rule)}</td><td style="color:${c.result === "pass" ? "var(--ok)" : "var(--bad)"}">${esc(c.result)}</td><td class="muted">${esc(c.evidence)}</td></tr>`).join("") || `<tr><td colspan="3" class="muted">No memory rules set.</td></tr>`;
     const claims = (e.supporting_claims || []).map(c => `<li>${esc(c.text)}<div class="muted" style="font-size:12px">quote: “${esc(c.quote)}”</div></li>`).join("") || "<li class='muted'>No supported claims to show.</li>";
-    return `<div class="card"><strong>${esc(r.vendor)} ${esc(r.plan)}</strong> — ${esc(r.recommendation.replace(/_/g, " "))} (confidence ${r.confidence.toFixed(2)})
+    return `<div class="card"><strong>${esc(r.vendor)} ${esc(r.plan)}</strong> — ${esc(LABEL[r.recommendation] || r.recommendation)} (confidence ${r.confidence.toFixed(2)})
       <div class="label" style="margin-top:8px">Current price</div><div>${cur}</div>
       <div class="label" style="margin-top:6px">Last purchase</div><div>${last}</div>
       <div class="label" style="margin-top:8px">Memory checks</div>
