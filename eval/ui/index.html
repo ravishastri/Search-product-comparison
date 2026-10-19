@@ -246,6 +246,7 @@ function purchaseSection() {
       <div><strong>${esc(r.vendor)} ${esc(r.plan)}</strong><div class="label">${esc(f)}</div></div>
       <div style="text-align:right"><div style="font-weight:650;color:${colour(r.recommendation)}">${esc(r.recommendation.replace(/_/g, " "))}</div>
       <div class="label">confidence</div><div class="big">${r.confidence.toFixed(2)}</div></div></div>
+      <div style="margin:8px 0 0">${(r.evidence?.memory_checks || []).map(c => `<div style="font-size:14px"><span style="color:${c.result === "pass" ? "var(--ok)" : "var(--bad)"};font-weight:650">${esc(c.result)}</span> · ${esc(c.rule)}</div>`).join("")}</div>
       <ul style="margin:8px 0 0;padding-left:18px">${r.reasons.map(x => `<li class="muted">${esc(x)}</li>`).join("")}</ul></div>`;
   }).join("");
   document.getElementById("purchRows").innerHTML = P.purchases.map(p =>
