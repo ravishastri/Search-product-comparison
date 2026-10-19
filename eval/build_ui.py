@@ -126,6 +126,20 @@ def build() -> None:
         "judge": {k: load(ROOT / f"eval/tune/{k}.json") for k in ("results-v1", "results-v2-dev", "results-check-dev")},
         "human": {"sheet": "human-review-final.csv", "judge_right": 19, "labels_right": 11, "neither": 5, "disagreements": 35},
     }
+    import sys
+    from datetime import date
+    sys.path.insert(0, str(ROOT / "eval" / "purchases"))
+    import db as purchases_db
+    import recommender as R
+    memory = R.load_memory()
+    pdb = purchases_db.connect()
+    purchases = [dict(r) for r in pdb.execute("SELECT * FROM purchases ORDER BY vendor, purchased_on DESC")]
+    pdb.close()
+    cases = [("Trello", "Premium", "trello"), ("Asana", "Starter", "asana"), ("ClickUp", "Business", "clickup"),
+             ("Jira", "Standard", "jira"), ("Linear", "Plus", "linear"), ("YouTrack", "Per-user starting price", "youtrack")]
+    recs = [{"vendor": v, "plan": pl, **R.recommend(v, pl, s, memory=memory, today=date.today())} for v, pl, s in cases]
+    runs["purchases"] = {"recommendations": recs, "purchases": purchases, "memory": memory}
+
     data = {"products": products, "enhancements": enh, "pages": pages, "runs": runs,
             "calibration": load(ROOT / "eval/calibration/labels-playwright.json")}
     payload = json.dumps(data).replace("</", "<\\/")
@@ -212,6 +226,14 @@ select{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--lin
 
 <h2>What we changed, and what it did</h2>
 <div class="wrap"><table><thead><tr><th>Problem in the basic agent</th><th>What we changed</th><th>Status</th></tr></thead><tbody id="enh"></tbody></table></div>
+
+<h2>Purchase recommendations</h2>
+<p class="muted" style="font-size:13px">Compares the current verified price and judged evidence with past purchases and the PM memory (eval/purchases/pm_memory.md). Confidence is the product of the factors shown.</p>
+<div id="recs"></div>
+<h3>Past purchases</h3>
+<div class="wrap"><table><thead><tr><th>Vendor</th><th>Plan</th><th>Unit price</th><th>Unit / billing</th><th>Purchased</th><th>Verified</th><th>Note</th></tr></thead><tbody id="purchRows"></tbody></table></div>
+<h3>PM memory</h3>
+<div class="wrap"><table><thead><tr><th>Key</th><th>Value</th></tr></thead><tbody id="memRows"></tbody></table></div>
 
 <h2>How to read this</h2>
 <div class="note">
@@ -328,6 +350,23 @@ function runsSection() {
   ].map(([l, v]) => `<div class="card"><div class="label">${esc(l)}</div><div class="big">${esc(v)}</div></div>`).join("");
 }
 runsSection();
+function purchaseSection() {
+  const P = D.runs.purchases;
+  const colour = r => ({renew: "var(--ok)", negotiate: "var(--warn)"}[r] || "var(--bad)");
+  document.getElementById("recs").innerHTML = P.recommendations.map(r => {
+    const f = Object.entries(r.factors).map(([k, v]) => `${esc(k.replace(/_/g, " "))} ${v.toFixed(2)}`).join(" · ");
+    return `<div class="card"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <div><strong>${esc(r.vendor)} ${esc(r.plan)}</strong><div class="label">${esc(f)}</div></div>
+      <div style="text-align:right"><div style="font-weight:650;color:${colour(r.recommendation)}">${esc(r.recommendation.replace(/_/g, " "))}</div>
+      <div class="label">confidence</div><div class="big">${r.confidence.toFixed(2)}</div></div></div>
+      <ul style="margin:8px 0 0;padding-left:18px">${r.reasons.map(x => `<li class="muted">${esc(x)}</li>`).join("")}</ul></div>`;
+  }).join("");
+  document.getElementById("purchRows").innerHTML = P.purchases.map(p =>
+    `<tr><td>${esc(p.vendor)}</td><td>${esc(p.plan)}</td><td>${esc(p.unit_price)} ${esc(p.currency)}</td><td>${esc(p.unit)} / ${esc(p.billing)}</td><td>${esc(p.purchased_on)}</td><td>${p.price_verified ? "yes" : "no"}</td><td class="muted">${esc(p.note)}</td></tr>`).join("");
+  document.getElementById("memRows").innerHTML = Object.entries(P.memory).map(([k, v]) =>
+    `<tr><td>${esc(k)}</td><td>${esc(Array.isArray(v) ? v.join(", ") : v)}</td></tr>`).join("");
+}
+purchaseSection();
 headline(); tabs(); detail(); enh();
 </script>
 </body></html>
