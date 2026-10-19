@@ -18,3 +18,11 @@
 {"id": "T019", "label": "supported", "how": "live page", "note": "Project-Management.com: positive experiences with the knowledge base."}
 {"id": "T020", "label": "not_stated", "how": "live page", "note": "Zenhub describes Linear as fast and Jira as configurable. No claim about competitors capturing dissatisfied users."}
 {"id": "T021", "label": "supported", "how": "live page", "note": "Project-Management.com: Standard has community support; Premium gets 24/7."}
+{"id": "T022", "label": "not_stated", "how": "live page", "note": "Softwarepricingguide: Standard $8.15 (previously $7.75). The $7.53 lower bound is not on the page."}
+{"id": "T023", "label": "not_stated", "how": "live page", "note": "Seibert page mentions Enterprise but says nothing about custom quotes."}
+{"id": "T024", "label": "supported", "how": "live page", "note": "Worklenz: Plane Business at $39,000+/year for 250 seats."}
+{"id": "T025", "label": "not_stated", "how": "live page", "note": "Cited Plane blog gives Plane Business as $13/seat and no Linear $16 figure. The eesel page was not checked."}
+{"id": "T026", "label": "not_stated", "how": "live page", "note": "Page says cloud trials are free; it never says the Community Edition is free."}
+{"id": "T027", "label": "not_stated", "how": "live page", "note": "Reddit is one of several growth tactics. 'Driven by' overstates it."}
+{"id": "T028", "label": "supported", "how": "live page", "note": "Open-source page: Docker Compose, Kubernetes, Podman, or Portainer."}
+{"id": "T029", "label": "supported", "how": "live page", "note": "Open-source page lists work items among Plane's features."}
