@@ -159,3 +159,19 @@ Each decision lists what we chose, the cost, and what we would change next.
 - **Date:** 2026-10-18
   - Listed the starter's shortcomings from the code review (Phase 1).
   - Added the changes, evidence, and remaining gaps for each shortcoming. Recorded the decisions and trade-offs from the Linear runs and the date-filter work.
+
+## Maturity work (2026-10-19)
+
+Response to the solution review. Each item lists the change, and its status.
+
+| # | Item | Change | Status |
+|---|---|---|---|
+| 1 | Verification depth | Every supported claim is judged against the full text of its cited pages inside the run. Claims the judge rejects move to unsupported with the verdict. The writer sees 1,500 characters per source (was 600). | **Done** in code, tested with fake judges. Live effect measured in the variance runs below. |
+| 2 | Judge validity | A 50-claim blind sheet (`eval/tune/blind-sheet.csv`) is prepared. The five contradictions are included, plus 45 claims drawn at random. The verdict key stays local, in `eval/tune/blind-key.json`. | **Open.** Needs a human to label the sheet. Agreement is not measured until it is labeled. |
+| 3 | Judge and writer share a family | The in-run judge is `deepseek-ai/DeepSeek-V4-Pro`, not the Kimi writer. Set with `PIPELINE_JUDGE_MODEL`. | **Done** in code. The earlier Kimi-judged results are not re-judged yet. |
+| 4 | Recommender tests | Tests for each decision rule: must-have met by a verified fact, must-have missing on the plan, price up past tolerance, price within tolerance, stale price, no price. | **Done.** 12 tests pass. Rules are tested, not outcomes against a PM's expectations. |
+| 5 | Run variance | Three live Linear runs with the new pipeline. | **In progress.** See the results section below when they finish. |
+| 6 | Coverage gaps | A page that comes back empty gets one retry with advanced extraction. Pricing sources are still undated. | **Partial.** Undated pricing is still open. |
+| 7 | Structured output | Pricing claims are stored as fields (amounts, unit, billing) in `run.json`. Missing fields are `unknown`. | **Partial.** The brief itself is still Markdown. |
+| 8 | Reliability | Tavily searches retry with backoff. The writer model retries on transient errors. Pinned `requirements.txt`. Run records include search depth and results per query. | **Partial.** The Langfuse live trace check is still open. |
+| 9 | Hygiene | CI runs the 67 unit tests on every push (`.github/workflows/tests.yml`). Playwright logs untracked. `eval/store/` renamed to `eval/data/` to clear its collision with `eval/store.py`. | **Done.** The stale remote branches are left for you to decide. |
