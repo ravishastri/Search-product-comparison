@@ -97,6 +97,28 @@ Caveats, to state in the interview:
 | The brief wrote prices as words ("ten dollars"), which the check could not read. | The brief prompt now requires digits with a dollar sign. | **Done** |
 | Off-topic sources (Nintendo emulators, Spirit Airlines, airplane lists) reached the brief through the status searches. | Each result must name the product or one of its similar products, as a whole word, capitalized. The count of dropped results is in `run.json` as `off_topic_dropped`. Live on Linear: 27 dropped, 0 off-topic sources left. | **Done.** Limit: a product name used as a common word in a relevant article can still match. |
 
+## Phase 4 results, eight PM tools (aggregated by `eval/aggregate.py`)
+
+| Product | Starter supported | Starter contradicted | Evaluator supported | Evaluator contradicted | Evaluator prices in cited text |
+|---|---|---|---|---|---|
+| Linear | 65% | 3% | 88% | 0% | 88% |
+| Jira | 63% | 3% | 84% | 0% | 86% |
+| Plane | 44% | 3% | 79% | 0% | - |
+| Shortcut | 76% | 1% | 89% | 0% | 100% |
+| ClickUp | 60% | 9% | 77% | 0% | 100% |
+| Asana | 76% | 11% | 84% | 5% | 100% |
+| Trello | 69% | 6% | 89% | 7% | 100% |
+| YouTrack | 69% | 4% | 92% | 3% | 100% |
+
+### Problems from this run, and fixes
+
+| Problem | Fix | Status |
+|---|---|---|
+| Evaluator contradictions are not zero everywhere: Trello 7%, Asana 5%, YouTrack 3%. | Read the contradicted claims for these three products before quoting them. Some may be judge errors, as in the calibration sample. | **Open** |
+| Plane's evaluator price check is missing (no pricing claims with figures). | Check the brief for Plane. A missing check can mean the claims were phrased without figures, or that the figures were filtered out. | **Open** |
+| Linear, Jira, and ClickUp briefs predate the price check and the source filter. | Rerun those three evaluator briefs when the user asks. | **Open** |
+| The judge is Kimi at 20,000 characters per page, with the calibration result of 24/26 on Linear's starter sample only. | Blind human labeling on a sample from every product. | **Open** |
+
 ## Decisions and trade-offs
 
 Each decision lists what we chose, the cost, and what we would change next.

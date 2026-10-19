@@ -1,0 +1,80 @@
+== Linear
+   done Linear
+== Jira
+   done Jira
+== Plane
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ python3 eval/judge.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/runs/plane-20261018-181916 --ground-truth eval/golden/ground_truth.json
+{
+  "run": "plane-20261018-181916",
+  "claims": 14,
+  "cited_ids_valid": 1.0,
+  "price_claims": 0,
+  "prices_in_cited_text": null,
+  "quoted_claims": 0,
+  "quotes_verbatim": null,
+  "dated_claims": 0.714,
+  "stale_claims": 0,
+  "errors": 0,
+  "ground_truth_price_recall": 0.0,
+  "ground_truth_facts": 3,
+  "ground_truth_found_in_brief": [],
+  "ground_truth_missing_from_brief": [
+    "$0",
+    "$6 per seat per month",
+    "$13"
+  ]
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-plane-det.json
+   done Plane
+== Shortcut
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 --with rich>=13.0.0 --with typer>=0.12.0 --with langfuse>=5.0.0 ev
+───────────────────────────── Evaluating Shortcut ──────────────────────────────
+Discovery: Shortcut alternatives competitors issuetracker
+Failed to export spans batch due to timeout, max retries or shutdown.
+Similar products: Jira, Asana, ClickUp
+Search : Shortcut pricing plans
+  5 new sources
+Search : Jira pricing plans
+  5 new sources
+Search : Asana pricing plans
+  5 new sources
+Search : ClickUp pricing plans
+  5 new sources
+Search : Shortcut vs Jira features
+  5 new sources
+Search : Shortcut vs Asana features
+  3 new sources
+Search : Shortcut vs ClickUp features
+  4 new sources
+Search : Shortcut launch reviews 2026
+  1 new sources
+
+Sources: 52  Supported claims: 18  Unsupported: 0  Errors: 0
+Brief: runs/shortcut-20261018-203642/brief.md
+Run record: runs/shortcut-20261018-203642/run.json
+  $ uv run --with langchain-nebius>=0.1.0 --with langchain-tavily>=0.2.0 --with langchain>=1.0.0 --with python-dotenv>=1.0.0 --with rich>=13.0.0 --with typer>=0.12.
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 python eval/extract_claims.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_
+81 claims -> /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/runs/starter/shortcut-claims.json
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ python3 eval/judge.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/runs/shortcut-20261018-203642 --ground-truth eval/golden/ground_truth.j
+{
+  "run": "shortcut-20261018-203642",
+  "claims": 18,
+  "cited_ids_valid": 1.0,
+  "price_claims": 4,
+  "prices_in_cited_text": 1.0,
+  "quoted_claims": 0,
+  "quotes_verbatim": null,
+  "dated_claims": 0.167,
+  "stale_claims": 0,
+  "errors": 0,
+  "ground_truth_price_recall": null,
+  "ground_truth_facts": 0,
+  "ground_truth_found_in_brief": [],
+  "ground_truth_missing_from_brief": []
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-shortcut-det.json
+   done Shortcut

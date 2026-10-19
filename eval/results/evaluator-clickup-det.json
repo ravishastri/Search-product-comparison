@@ -1,0 +1,383 @@
+{
+  "summary": {
+    "run": "clickup-20261018-175708",
+    "claims": 31,
+    "cited_ids_valid": 1.0,
+    "price_claims": 6,
+    "prices_in_cited_text": 1.0,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.645,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": 1.0,
+    "ground_truth_facts": 4,
+    "ground_truth_found_in_brief": [
+      "$7",
+      "$10",
+      "$12",
+      "$19"
+    ],
+    "ground_truth_missing_from_brief": []
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "ClickUp offers five pricing tiers, including a free plan and paid plans ranging from $7 to $12 per user per month, while",
+      "all_ids_valid": true,
+      "prices": [
+        "$7",
+        "$12"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "ClickUp\u2019s entry-level Unlimited plan costs $7 per user per month with annual billing, and its Business plan costs $12 pe",
+      "all_ids_valid": true,
+      "prices": [
+        "$7",
+        "$12"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "ClickUp\u2019s Business Plus plan costs $19 per user per month when billed annually.",
+      "all_ids_valid": true,
+      "prices": [
+        "$19"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Annual billing saves 30% on ClickUp\u2019s Unlimited plan compared to month-to-month pricing.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "ClickUp\u2019s Free Forever plan includes 100 MB of storage and 100 automation runs per month.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Asana\u2019s Starter plan costs $10.99 per user per month billed annually, and its Advanced plan costs $24.99 per user per mo",
+      "all_ids_valid": true,
+      "prices": [
+        "$10.99",
+        "$24.99"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Monday.com\u2019s work management paid plans start at approximately $9 per seat per month billed annually for Basic and reach",
+      "all_ids_valid": true,
+      "prices": [
+        "$9",
+        "$19"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Monthly billing without an annual commitment costs roughly 20\u201330% more on Monday.com.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Notion\u2019s Plus plan costs $10 per seat per month with annual billing, and its Business plan costs $20 per seat per month ",
+      "all_ids_valid": true,
+      "prices": [
+        "$10",
+        "$20"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "ClickUp is rated more affordable than monday work management and Smartsheet, with a pricing score of 4.4 out of 5.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wrike, and Smartsheet.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "ClickUp, Asana, and monday.com are among the leading options for AI-powered project management.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Asana is preparing to launch its Agentic Work Management platform.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Monday.com was downgraded by Zacks Research from a strong-buy rating to a hold rating.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Notion is discontinuing its email client, Notion Mail, on September 22, 2026, to shift focus toward AI agent-driven emai",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Notion\u2019s project management features are considered less developed than those of dedicated tools like ClickUp and Asana,",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "ClickUp is 22% cheaper than Monday.com at the entry-level paid tier and includes unlimited storage on all paid plans.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Monday.com loads 25% faster than ClickUp and offers deeper enterprise security features.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Teams that focus on structured work tend to gravitate toward Asana, whereas teams seeking visual flexibility often prefe",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "In comparative evaluations, ClickUp ranks highest for most features per dollar, monday.com for visual work and easy adop",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "ClickUp loses to Asana and Trello on ease of use and to Notion as a docs and wiki tool, according to one review.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "ClickUp introduced an AI assistant and SyncUp video calls to compete more directly with Slack and Notion.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "G2 data gathered by April 28, 2026 placed ClickUp in the Leader tier based on satisfaction and market presence.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Reviewers praise ClickUp\u2019s integrations with Google Workspace and Slack for keeping teams and external clients synchroni",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Reviewers highlight ClickUp\u2019s integrated search, Brain assistant, and Super Agents as growing strengths.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Managers and agencies appreciate real-time visibility into progress, workload, and time tracking within ClickUp.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Users frequently praise ClickUp\u2019s nested subtasks, dependencies, and task relationships for handling complex work.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Some ClickUp users report that the interface can feel overwhelming until it is tailored to specific needs.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "G2 data indicates ClickUp has 77% adoption among small businesses and 20% among mid-market firms.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Reviewers note that ClickUp\u2019s interface can sometimes feel crowded.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Reviewers value that ClickUp places documentation and wikis directly alongside tasks and projects.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    }
+  ]
+}

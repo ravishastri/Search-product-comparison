@@ -1,0 +1,199 @@
+{
+  "summary": {
+    "claims": 37,
+    "supported": 34,
+    "contradicted": 1,
+    "not_stated": 1,
+    "unverified_evidence": 0,
+    "no_source_text": 1,
+    "support_rate": 0.919,
+    "contradiction_rate": 0.027
+  },
+  "claims": [
+    {
+      "text": "YouTrack offers a free plan for up to 10 users on both Cloud and Server editions.",
+      "verdict": "not_stated",
+      "evidence": "Independent developers and small teams can continue using the free YouTrack Cloud plan, which includes support for up to 10 users."
+    },
+    {
+      "text": "YouTrack paid monthly plans start at $5.40 per user.",
+      "verdict": "supported",
+      "evidence": "For monthly plans, the new pricing starts at USD 5.40 per user per month."
+    },
+    {
+      "text": "YouTrack paid annual plans start at $4.50 per user per month.",
+      "verdict": "supported",
+      "evidence": "If you prefer an annual subscription, you\u2019ll get two months free \u2013 the new starting price will be USD 4.50 per user per month."
+    },
+    {
+      "text": "One source lists YouTrack pricing starting at $3.67 per user per month.",
+      "verdict": "supported",
+      "evidence": "The pricing for Jetbrains Youtrack starts at $3.67 per user per month."
+    },
+    {
+      "text": "A team of 10 users pays roughly $50 per month, or about $600 per year.",
+      "verdict": "supported",
+      "evidence": "For 10 users, the monthly cost is around $50, translating to approximately $600 annually."
+    },
+    {
+      "text": "A team of 100 users pays roughly $500 per month, or about $6,000 per year.",
+      "verdict": "supported",
+      "evidence": "Scaling to 100 users would cost about $500 per month or $6,000 per year."
+    },
+    {
+      "text": "YouTrack implementation for small and midsize businesses can cost a few hundred dollars, while enterprise implementation ranges from $5,000 to $50,000.",
+      "verdict": "supported",
+      "evidence": "For enterprises, implementation, customization, training, and migration can range from $5,000 to $50,000 depending on complexity."
+    },
+    {
+      "text": "YouTrack HelpDesk includes three support agent seats at no extra charge; additional cloud agents cost $6 per month each.",
+      "verdict": "supported",
+      "evidence": "For cloud-based HelpDesk users, the add-on remains free for the first three agents. For larger support teams, each additional agent seat is priced at $6 per month."
+    },
+    {
+      "text": "For self-hosted YouTrack Server, additional HelpDesk agents beyond the included three cost $72 per year each.",
+      "verdict": "supported",
+      "evidence": "Beyond this, each additional agent seat is priced at $72 per year."
+    },
+    {
+      "text": "YouTrack uses volume pricing where the per-user cost decreases as more users are added.",
+      "verdict": "supported",
+      "evidence": "The larger your team, the lower your price, thanks to discount increasing as you add users."
+    },
+    {
+      "text": "Jira Standard plan pricing starts at $7.91 per user per month and Premium at $14.54 per user per month.",
+      "verdict": "supported",
+      "evidence": "Jira pricing starts at $7.91 per user, per month for the Standard plan and $14.54 per user, per month for the Premium version, for up to 300 users."
+    },
+    {
+      "text": "Jira offers a free plan for up to 10 users.",
+      "verdict": "supported",
+      "evidence": "A free version is available for small teams or individual users with up to 10 users."
+    },
+    {
+      "text": "Linear Basic costs $10 per user per month and Business costs $16 per user per month with yearly billing.",
+      "verdict": "supported",
+      "evidence": "As of July 2026, Basic runs $10 per user/month and Business runs $16 per user/month, both billed yearly, while the free plan is genuinely usable for small teams \u2014 unlimited members, but capped at 2 teams and 250 issues."
+    },
+    {
+      "text": "Linear offers a free plan capped at two teams and 250 issues.",
+      "verdict": "supported",
+      "evidence": "As of July 2026, Basic runs $10 per user/month and Business runs $16 per user/month, both billed yearly, while the free plan is genuinely usable for small teams \u2014 unlimited members, but capped at 2 teams and 250 issues."
+    },
+    {
+      "text": "GitLab Premium is listed at $29 per user per month by one source. (price check unavailable)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Another source lists GitLab Premium at roughly $32 per user per year.",
+      "verdict": "supported",
+      "evidence": "Premium Plan: \u20ac29/user/year (~$32) \u2014 Best value for growing teams"
+    },
+    {
+      "text": "GitLab Ultimate is listed at roughly $108 per user per year.",
+      "verdict": "supported",
+      "evidence": "Ultimate Plan: \u20ac99/user/year (~$108) \u2014 Enterprise with advanced security"
+    },
+    {
+      "text": "YouTrack is a developer-focused issue tracker built by the same company that creates IntelliJ, WebStorm, and PyCharm.",
+      "verdict": "supported",
+      "evidence": "YouTrack is JetBrains' issue tracker, and if you're already paying for IntelliJ, WebStorm, or PyCharm, it's worth a serious look."
+    },
+    {
+      "text": "One reviewer describes YouTrack as feeling like it was designed by developers frustrated with Jira.",
+      "verdict": "supported",
+      "evidence": "It's developer-opinionated in a way that feels like it was designed by developers who were frustrated with Jira."
+    },
+    {
+      "text": "YouTrack bundles Scrum and Kanban boards, sprint planning with dependencies, time tracking, a Gantt chart, 20 configurable reports and dashboards, a knowledge base, and helpdesk projects.",
+      "verdict": "supported",
+      "evidence": "YouTrack puts in one product much of what Linear leaves to other tools: Scrum and Kanban boards, sprint planning with dependencies, time tracking, a Gantt chart, 20 configurable reports and dashboards, a knowledge base, and helpdesk projects that turn email or a web form into tickets."
+    },
+    {
+      "text": "YouTrack includes JetBrains AI for writing assistance, summaries, and converting text into issues.",
+      "verdict": "supported",
+      "evidence": "JetBrains AI helps with writing, summaries and turning text into issues."
+    },
+    {
+      "text": "YouTrack Cloud is free with all features for up to 10 users, and a self-hosted Server edition is available.",
+      "verdict": "supported",
+      "evidence": "The cloud edition is free with every feature for up to 10 users, larger teams pay per user at a rate that falls with size, and a Server edition can be self-hosted."
+    },
+    {
+      "text": "YouTrack is denser and more configurable than Linear, which can demand more from users.",
+      "verdict": "supported",
+      "evidence": "The trade-off: it is a denser, more configurable tool than Linear, so it asks more of whoever sets it up."
+    },
+    {
+      "text": "One reviewer selected YouTrack because its AI features are deeper than those of most issue trackers, highlighting a Text-to-Issue Transformation capability.",
+      "verdict": "supported",
+      "evidence": "I picked YouTrack because its AI features go deeper than what most issue trackers offer."
+    },
+    {
+      "text": "YouTrack is positioned as best for mid-size and large development teams needing customizable workflows and advanced issue management.",
+      "verdict": "supported",
+      "evidence": "Mid-size and large development teams that need customizable workflows and advanced issue management across software projects."
+    },
+    {
+      "text": "YouTrack supports backlog automation that automatically brings issues with a specified Fix version into the backlog.",
+      "verdict": "supported",
+      "evidence": "YouTrack's Fix version backlog lets teams configure a scrum board so that issues with a specified Fix version enter the backlog automatically, or add issues manually during sprint planning."
+    },
+    {
+      "text": "YouTrack offers a sprint rollover feature via a Move to the next sprint button.",
+      "verdict": "supported",
+      "evidence": "Sprint rollover: Teams move unfinished items forward via YouTrack's \"Move to the next sprint\" button or planning view."
+    },
+    {
+      "text": "YouTrack can require complex setup and has a steep learning curve for teams unfamiliar with custom workflow configuration.",
+      "verdict": "supported",
+      "evidence": "YouTrack requires complex setup for teams unfamiliar with custom workflow configuration."
+    },
+    {
+      "text": "YouTrack provides agile boards with sprints and burndown charts, a query language, JavaScript workflow rules, time tracking, reports, and a helpdesk with a knowledge base.",
+      "verdict": "supported",
+      "evidence": "Where Redmine hands you a foundation, YouTrack hands you an assembled product: agile boards with sprints and burndown charts, a search-based query language, JavaScript workflow rules for automation, time tracking, reports, and a helpdesk with a knowledge base for teams that also field customer ticke"
+    },
+    {
+      "text": "YouTrack includes predefined import scripts for migrating data from Redmine, Jira, GitHub, Asana, ClickUp, and Mantis.",
+      "verdict": "supported",
+      "evidence": "It also ships a predefined import script for Redmine, alongside the Jira, GitHub, Asana, ClickUp and Mantis ones, which connects to your instance through its API instead of asking you to hand-prepare a file."
+    },
+    {
+      "text": "Linear is considered faster than YouTrack and offers defaults that reduce team process debates, along with a smoother daily filing and triaging experience.",
+      "verdict": "supported",
+      "evidence": "Linear is better than YouTrack on speed, on defaults that stop teams debating process, and on the daily experience of filing and triaging work \u2014 which is what most of its users are buying."
+    },
+    {
+      "text": "Jira is an enterprise agile project management platform with customizable workflows and issue tracking used inside and outside software teams.",
+      "verdict": "supported",
+      "evidence": "The solution features a customizable workflow, a multi-faceted issue-tracking system, and other features that help to streamline the management of complex projects."
+    },
+    {
+      "text": "GitLab\u2019s issue tracker is less configurable than YouTrack but integrates issues, merge requests, pipelines, and releases into one system.",
+      "verdict": "supported",
+      "evidence": "GitLab's issue tracker is not as configurable as YouTrack's, but it has one advantage nothing else here matches: issues, merge requests, pipelines, and releases are the same system."
+    },
+    {
+      "text": "Atlassian is discontinuing Jira Server and datacenter products in favor of cloud-only offerings, with server support ending after February 15, 2024.",
+      "verdict": "contradicted",
+      "evidence": "Server support ends on Feb 15, 2024."
+    },
+    {
+      "text": "A user review calls YouTrack a very complete product and notes appreciation for its depth.",
+      "verdict": "supported",
+      "evidence": "> \"It is a very complete product, I appreciate the deep integration between the different part of the software.\""
+    },
+    {
+      "text": "A reviewer chose YouTrack because its AI features are more extensive than those of most other issue trackers.",
+      "verdict": "supported",
+      "evidence": "I picked YouTrack because its AI features go deeper than what most issue trackers offer."
+    },
+    {
+      "text": "One review indicates YouTrack can require complex setup and has a steep learning curve for teams unfamiliar with custom workflow configuration.",
+      "verdict": "supported",
+      "evidence": "YouTrack requires complex setup for teams unfamiliar with custom workflow configuration."
+    }
+  ]
+}

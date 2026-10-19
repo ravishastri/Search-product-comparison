@@ -1,0 +1,178 @@
+{
+  "summary": {
+    "run": "plane-20261018-181916",
+    "claims": 14,
+    "cited_ids_valid": 1.0,
+    "price_claims": 0,
+    "prices_in_cited_text": null,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.714,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": 0.0,
+    "ground_truth_facts": 3,
+    "ground_truth_found_in_brief": [],
+    "ground_truth_missing_from_brief": [
+      "$0",
+      "$6 per seat per month",
+      "$13"
+    ]
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "Plane provides four pricing editions that range from zero to 499 dollars, built for different usage levels and team size",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "A review states Plane uses a freemium per-seat model with a free tier for up to twelve users, a Pro tier at six dollars ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Plane advertises a free tier with core features alongside paid plans that unlock advanced features, enterprise needs, an",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "G2 identifies ClickUp, monday AI Work Platform, and Jira as top alternatives to Plane.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "The Plane blog contrasts its platform with ClickUp by describing Plane as a tighter, self-hostable workspace for enginee",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "The Plane blog notes that Plane embeds cycles, epics, and releases in one model, offers native agent features without re",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "A customer case study on the Plane website describes how MinimalArt migrated from ClickUp to Plane to automate monthly r",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Heise Online reports that Plane is open-source project management software aimed at software developers and positioned a",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "An analysis of ClickUp alternatives characterizes Plane as free and self-hostable with a modern interface covering issue",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "The Plane blog claims full feature parity with Jira Standard and eighty percent parity with Jira Professional, along wit",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "The Plane blog also says Plane includes artificial intelligence, documentation, intake, and time tracking as native buil",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "A review of open-source project management tools calls Plane the nearest open-source equivalent to Linear and Jira Softw",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Heise Online notes that Plane markets itself as an open-source alternative to Jira, Linear, Monday, and Asana.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "An INNOQ review states Plane offers a clean, organized user experience that the reviewer would choose first for self-hos",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    }
+  ]
+}

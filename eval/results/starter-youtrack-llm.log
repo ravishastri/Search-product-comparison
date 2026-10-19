@@ -1,0 +1,130 @@
+[1/119] no_source_text: YouTrack offers cloud-hosted editions
+[2/119] no_source_text: YouTrack offers self-hosted (Server) editions
+[3/119] no_source_text: YouTrack has a built-in helpdesk module
+[4/119] supported: The Free plan supports up to 10 users
+[5/119] supported: The Free plan is Free for Cloud
+[6/119] supported: The Free plan is Free (perpetual) for Server
+[7/119] supported: The Free plan includes full issue tracking
+[8/119] not_stated: The Free plan includes agile boards
+[9/119] not_stated: The Free plan includes backlog
+[10/119] not_stated: The Free plan includes time tracking
+[11/119] supported: The Free plan includes AI Assistant
+[12/119] supported: The Free plan includes Helpdesk free for up to 3 agents
+[13/119] supported: The Team plan supports 11+ users
+[14/119] contradicted: The Team plan Cloud Price is $4.50/user/month billed annually
+[15/119] not_stated: The Team plan Cloud Price is $5.40 if billed monthly
+[16/119] supported: The Team plan Cloud price drops with volume
+[17/119] contradicted: The Team plan Cloud price is ~$3.74 at 500 users
+[18/119] not_stated: The Team plan Cloud price is ~$2.81 at 1,000 users
+[19/119] contradicted: The Team plan Server Price is from $900/year for 15 users
+[20/119] contradicted: The Team plan Server Price is $3.75/user/month equivalent for 15 users
+[21/119] supported: The Team plan Server Price scales up in packs
+[22/119] supported: The Team plan adds Gantt charts
+[23/119] supported: The Team plan adds unlimited boards
+[24/119] supported: The Team plan adds automation rules
+[25/119] supported: The Team plan adds Slack/GitHub/GitLab integrations
+[26/119] not_stated: The Enterprise plan user count is as needed
+[27/119] supported: The Enterprise plan Cloud Price is $14.70/user/month (annual)
+[28/119] supported: The Enterprise plan Server Price is custom quote
+[29/119] supported: The Enterprise plan custom quote starts at higher user counts
+[30/119] supported: The Enterprise plan adds advanced security
+[31/119] supported: The Enterprise plan adds SAML SSO
+[32/119] supported: The Enterprise plan adds project templates
+[33/119] supported: The Enterprise plan adds custom workflows
+[34/119] supported: The Enterprise plan adds priority support
+[35/119] supported: The Helpdesk plan supports 4+ agents
+[36/119] supported: The Helpdesk plan Cloud Price is $5.50/agent/month (annual)
+[37/119] supported: The Helpdesk plan Cloud Price is $6.00/agent/month (monthly)
+[38/119] supported: The Helpdesk plan Server Price is $72/agent/year (as of Oct 2025)
+[39/119] supported: Helpdesk is free for up to 3 agents + unlimited reporters
+[40/119] supported: Helpdesk paid tier kicks in at 4 agents
+[41/119] not_stated: JetBrains raised per-user Cloud rates effective October 1, 2025
+[42/119] not_stated: The annual entry point moved to $4.50/user/month (from a previous lowe
+[43/119] not_stated: Server subscription renewal/extension prices also increased
+[44/119] supported: 50-user pack renewal is now $1,500/year
+[45/119] no_source_text: YouTrack competes most directly with Jira, Linear, and GitHub Issues
+[46/119] no_source_text: YouTrack competes with lightweight trackers like ClickUp, Monday.com, 
+[47/119] contradicted: Jira starts at roughly $7.00–$7.91/user/month for the Standard cloud p
+[48/119] supported: Jira is the enterprise incumbent
+[49/119] supported: Jira has highly customizable workflows
+[50/119] supported: Jira has deep reporting
+[51/119] not_stated: Jira has a massive plugin ecosystem
+[52/119] supported: Jira is often criticized for complexity
+[53/119] supported: Jira is often criticized for a steep learning curve
+[54/119] supported: Linear starts at $10/user/month (Basic)
+[55/119] supported: Linear starts at $16/user/month (Business)
+[56/119] supported: Linear is more than double YouTrack’s entry price
+[57/119] supported: Linear is optimized for speed
+[58/119] not_stated: Linear is optimized for opinionated workflows
+[59/119] not_stated: Linear has a keyboard-first command palette
+[60/119] not_stated: Linear has instant search
+[61/119] supported: Linear has minimal UI friction
+[62/119] supported: YouTrack offers deep customization
+[63/119] supported: YouTrack offers custom issue types
+[64/119] supported: YouTrack offers custom fields
+[65/119] supported: YouTrack offers custom states
+[66/119] supported: YouTrack offers JavaScript workflow rules
+[67/119] supported: YouTrack offers a query language
+[68/119] supported: YouTrack has an integrated helpdesk
+[69/119] supported: YouTrack has an integrated knowledge base
+[70/119] supported: YouTrack supports self-hosting
+[71/119] supported: Linear does not offer self-hosting at any tier
+[72/119] not_stated: GitHub Issues is free with public/private repositories
+[73/119] supported: GitHub Team (which includes Projects) is $4/user/month
+[74/119] supported: GitHub Enterprise is $21/user/month for the first 12 months
+[75/119] supported: GitHub Issues is lightweight
+[76/119] supported: GitHub Issues is thin on multi-team QA processes compared to dedicated
+[77/119] supported: GitHub Issues is thin on custom states compared to dedicated trackers
+[78/119] supported: GitHub Issues is thin on cross-repo reporting compared to dedicated tr
+[79/119] supported: Zoho BugTracker starting price is $3/user/month
+[80/119] not_stated: Zoho BugTracker has basic agile boards
+[81/119] supported: Zoho BugTracker has auto SLAs
+[82/119] supported: ClickUp starting price is $5/user/month
+[83/119] not_stated: ClickUp is an all-in-one PM with 1,000+ integrations
+[84/119] supported: Monday.com starting price is $6/user/month
+[85/119] supported: Monday.com has visual boards
+[86/119] supported: Monday.com has a 14-day trial
+[87/119] supported: Bugzilla / Redmine price is Free (open source)
+[88/119] supported: Bugzilla / Redmine is self-hosted only
+[89/119] supported: YouTrack holds a 4.5/5 rating on Capterra from ~95 reviews
+[90/119] supported: YouTrack scores 4.1/5 overall on Software Finder
+[91/119] not_stated: Software Finder Ease of Use for YouTrack is 8/10
+[92/119] supported: Software Finder Value for Money for YouTrack is 7/10
+[93/119] supported: Software Finder Functionality for YouTrack is 8/10
+[94/119] no_source_text: G2 users consistently praise YouTrack's adaptability
+[95/119] no_source_text: G2 users consistently praise YouTrack's ease of use for various workfl
+[96/119] supported: JetBrains advertises “Leader” in Small-Business Product Management (Wi
+[97/119] supported: JetBrains advertises “High Performer” in Small-Business Product Manage
+[98/119] not_stated: JetBrains advertises “Highest User Adoption” (Winter/Spring 2024) from
+[99/119] no_source_text: A user states: “It is affordable … and is free for up to 10 users.”
+[100/119] supported: A user states: “Incredibly flexible and powerful issue tracking and pr
+[101/119] not_stated: Smart search is routinely highlighted as a productivity booster
+[102/119] not_stated: Inline editing is routinely highlighted as a productivity booster
+[103/119] supported: Helpdesk and knowledge base are included under the same license
+[104/119] supported: Wix switched to YouTrack in 2022
+[105/119] supported: Wix reported 30% faster bug-fixing time within six months
+[106/119] supported: There is acknowledged friction for non-technical members
+[107/119] supported: Permissions are “fiddly.”
+[108/119] supported: Onboarding material is “thin.”
+[109/119] supported: Reviewers call the interface “clunky next to modern trackers.”
+[110/119] supported: Ease-of-use scores (4.1) lag behind its overall rating (4.5)
+[111/119] supported: Some users report lag under heavy workload
+[112/119] supported: YouTrack is expanding beyond engineering into legal, HR, marketing, fi
+[113/119] supported: JetBrains notes that internal adoption often grows 3–5× within months 
+[114/119] supported: JetBrains has maintained 99.9% availability for YouTrack Cloud
+[115/119] supported: JetBrains is investing in a major UI/UX redesign with new sidebar navi
+[116/119] no_source_text: Jira Free tier is 7-day trial only
+[117/119] no_source_text: Linear Free tier is up to 250 issues / 2 teams
+[118/119] no_source_text: Jira supports self-hosted (Data Center)
+[119/119] no_source_text: GitHub Issues does not support self-hosted
+{
+  "claims": 119,
+  "supported": 82,
+  "contradicted": 5,
+  "not_stated": 20,
+  "unverified_evidence": 0,
+  "no_source_text": 12,
+  "support_rate": 0.689,
+  "contradiction_rate": 0.042
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/starter-youtrack-llm.json

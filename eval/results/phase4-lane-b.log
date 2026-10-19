@@ -1,0 +1,137 @@
+== ClickUp
+   done ClickUp
+== Asana
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ python3 eval/judge.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/runs/asana-20261018-181608 --ground-truth eval/golden/ground_truth.json
+{
+  "run": "asana-20261018-181608",
+  "claims": 19,
+  "cited_ids_valid": 1.0,
+  "price_claims": 6,
+  "prices_in_cited_text": 1.0,
+  "quoted_claims": 0,
+  "quotes_verbatim": null,
+  "dated_claims": 0.526,
+  "stale_claims": 0,
+  "errors": 0,
+  "ground_truth_price_recall": 0.667,
+  "ground_truth_facts": 3,
+  "ground_truth_found_in_brief": [
+    "$10.99",
+    "$24.99"
+  ],
+  "ground_truth_missing_from_brief": [
+    "$5.99 per user per month billed annually"
+  ]
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-asana-det.json
+   done Asana
+== Trello
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 --with rich>=13.0.0 --with typer>=0.12.0 --with langfuse>=5.0.0 ev
+────────────────────────────── Evaluating Trello ───────────────────────────────
+Discovery: Trello alternatives competitors project management
+Similar products: MeisterTask, Kanban Tool, ClickUp
+Search : Trello pricing plans
+  5 new sources
+Search : MeisterTask pricing plans
+  5 new sources
+Search : Kanban Tool pricing plans
+  5 new sources
+Search : ClickUp pricing plans
+  5 new sources
+Search : Trello vs MeisterTask features
+  1 new sources
+Search : Trello vs Kanban Tool features
+  3 new sources
+Search : Trello vs ClickUp features
+  5 new sources
+Search : Trello launch reviews 2026
+  3 new sources
+
+Sources: 51  Supported claims: 45  Unsupported: 0  Errors: 0
+Brief: runs/trello-20261018-203539/brief.md
+Run record: runs/trello-20261018-203539/run.json
+  $ uv run --with langchain-nebius>=0.1.0 --with langchain-tavily>=0.2.0 --with langchain>=1.0.0 --with python-dotenv>=1.0.0 --with rich>=13.0.0 --with typer>=0.12.
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 python eval/extract_claims.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_
+65 claims -> /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/runs/starter/trello-claims.json
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ python3 eval/judge.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/runs/trello-20261018-203539 --ground-truth eval/golden/ground_truth.jso
+{
+  "run": "trello-20261018-203539",
+  "claims": 45,
+  "cited_ids_valid": 1.0,
+  "price_claims": 7,
+  "prices_in_cited_text": 1.0,
+  "quoted_claims": 0,
+  "quotes_verbatim": null,
+  "dated_claims": 0.489,
+  "stale_claims": 0,
+  "errors": 0,
+  "ground_truth_price_recall": 1.0,
+  "ground_truth_facts": 4,
+  "ground_truth_found_in_brief": [
+    "$0",
+    "$5 per user/month billed annually",
+    "$10 per user/month billed annually",
+    "$17.50 per user/month billed annually"
+  ],
+  "ground_truth_missing_from_brief": []
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-trello-det.json
+   done Trello
+== YouTrack
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 --with rich>=13.0.0 --with typer>=0.12.0 --with langfuse>=5.0.0 ev
+───────────────────────────── Evaluating YouTrack ──────────────────────────────
+Discovery: YouTrack alternatives competitors issuetracker
+Similar products: Jira, Linear, GitLab
+Search : YouTrack pricing plans
+  5 new sources
+Search : Jira pricing plans
+  5 new sources
+Search : Linear pricing plans
+  5 new sources
+Search : GitLab pricing plans
+  5 new sources
+Search : YouTrack vs Jira features
+  4 new sources
+Search : YouTrack vs Linear features
+  4 new sources
+Search : YouTrack vs GitLab features
+  4 new sources
+Search : YouTrack launch reviews 2026
+  0 new sources
+
+Sources: 53  Supported claims: 37  Unsupported: 0  Errors: 0
+Brief: runs/youtrack-20261018-205105/brief.md
+Run record: runs/youtrack-20261018-205105/run.json
+  $ uv run --with langchain-nebius>=0.1.0 --with langchain-tavily>=0.2.0 --with langchain>=1.0.0 --with python-dotenv>=1.0.0 --with rich>=13.0.0 --with typer>=0.12.
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 python eval/extract_claims.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_
+119 claims -> /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/runs/starter/youtrack-claims.json
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ uv run --with langchain-nebius>=0.1.0 --with python-dotenv>=1.0.0 --with tavily-python>=0.5.0 python eval/llm_judge.py /Users/ravishastri/Downloads/2606_Tavily_
+  $ python3 eval/judge.py /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/runs/youtrack-20261018-205105 --ground-truth eval/golden/ground_truth.j
+{
+  "run": "youtrack-20261018-205105",
+  "claims": 37,
+  "cited_ids_valid": 1.0,
+  "price_claims": 13,
+  "prices_in_cited_text": 1.0,
+  "quoted_claims": 0,
+  "quotes_verbatim": null,
+  "dated_claims": 0.459,
+  "stale_claims": 0,
+  "errors": 0,
+  "ground_truth_price_recall": 0.667,
+  "ground_truth_facts": 3,
+  "ground_truth_found_in_brief": [
+    "$5.40 per user/month",
+    "$6 per agent/month"
+  ],
+  "ground_truth_missing_from_brief": [
+    "$2.81 per user/month"
+  ]
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-youtrack-det.json
+   done YouTrack

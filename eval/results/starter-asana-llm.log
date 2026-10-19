@@ -1,0 +1,115 @@
+[1/104] supported: Asana Personal (Free) plan is priced at $0 annual, per user/mo.
+[2/104] supported: Asana Personal plan is currently capped at 2 users.
+[3/104] supported: Accounts created before Nov 12, 2025 may be grandfathered at up to 10 
+[4/104] supported: Asana Personal plan includes unlimited tasks.
+[5/104] supported: Asana Personal plan includes unlimited projects.
+[6/104] supported: Asana Personal plan includes 100+ integrations.
+[7/104] supported: Asana Starter plan is priced at $10.99 annual, per user/mo.
+[8/104] supported: Asana Starter plan is priced at $13.49 monthly.
+[9/104] supported: Asana Starter plan adds Timeline/Gantt.
+[10/104] supported: Asana Starter plan adds task dependencies.
+[11/104] supported: Asana Starter plan adds forms.
+[12/104] supported: Asana Starter plan adds custom fields.
+[13/104] supported: Asana Starter plan adds Workflow Builder automations.
+[14/104] contradicted: Asana Starter plan adds AI Studio.
+[15/104] contradicted: Asana Starter plan has no hard seat minimum.
+[16/104] not_stated: Some reviewers note practical minimums apply to Asana Starter.
+[17/104] unverified_evidence: Asana Advanced plan is priced at $24.99 annual, per user/mo.
+[18/104] supported: Asana Advanced plan is priced at $30.49 monthly.
+[19/104] supported: Asana Advanced plan adds portfolios.
+[20/104] supported: Asana Advanced plan adds workload management.
+[21/104] supported: Asana Advanced plan adds proofing/approvals.
+[22/104] supported: Asana Advanced plan adds time tracking.
+[23/104] contradicted: Asana Advanced plan adds advanced reporting.
+[24/104] supported: Asana Enterprise / Enterprise+ plan has custom pricing.
+[25/104] supported: Asana Enterprise / Enterprise+ plan adds SAML SSO.
+[26/104] supported: Asana Enterprise / Enterprise+ plan adds SCIM provisioning.
+[27/104] contradicted: Asana Enterprise / Enterprise+ plan adds HIPAA compliance.
+[28/104] contradicted: Asana Enterprise / Enterprise+ plan adds SIEM.
+[29/104] contradicted: Asana Enterprise / Enterprise+ plan adds data residency.
+[30/104] supported: Asana Enterprise / Enterprise+ plan adds 24/7 support.
+[31/104] supported: Asana AI add-on is priced at +$10–$15/user/mo.
+[32/104] supported: Asana AI was launched in 2024.
+[33/104] supported: Asana AI includes task generation.
+[34/104] supported: Asana AI includes summaries.
+[35/104] supported: Asana AI includes goal drafting.
+[36/104] supported: Asana AI includes anomaly detection.
+[37/104] supported: Asana offers annual-pay discounts of roughly 18% over month-to-month b
+[38/104] supported: monday.com's entry paid plan starts at $9/user/mo (Basic).
+[39/104] supported: monday.com's Pro tier is $19/user/mo.
+[40/104] supported: Asana's Advanced plan is priced at $24.99/user/mo.
+[41/104] supported: There is a 24–52% price gap between monday.com and Asana depending on 
+[42/104] contradicted: Both Asana and monday.com now cap free plans at roughly 2 users.
+[43/104] not_stated: Asana previously offered up to 15 users on older plans.
+[44/104] supported: Monday.com positions itself as a broader "Work OS".
+[45/104] supported: Monday.com has native CRM, dev, and service products on one engine.
+[46/104] supported: Asana remains a structured project-and-goals tracker.
+[47/104] supported: On G2, monday.com currently scores higher than Asana on ease of use (9
+[48/104] supported: On G2, monday.com currently scores higher than Asana on quality of sup
+[49/104] supported: On G2, monday.com currently scores higher than Asana on project manage
+[50/104] supported: Trello is the cheapest mainstream alternative.
+[51/104] supported: Trello Standard plan is $5/user/mo.
+[52/104] supported: Trello Premium plan is $10/user/mo.
+[53/104] contradicted: Asana Starter costs roughly 54% more than Trello Standard.
+[54/104] not_stated: Asana Starter costs roughly 10% more than Trello Premium.
+[55/104] contradicted: Trello is strictly Kanban/card-based.
+[56/104] supported: Trello stays simple.
+[57/104] supported: Asana offers built-in Timeline/Gantt.
+[58/104] supported: Asana offers dependencies.
+[59/104] supported: Asana offers portfolio views.
+[60/104] not_stated: Trello only approximates Timeline/Gantt, dependencies, and portfolio v
+[61/104] supported: ClickUp Unlimited plan is $7/user/mo.
+[62/104] supported: ClickUp Business plan is $12/user/mo.
+[63/104] supported: ClickUp free plan allows unlimited members.
+[64/104] not_stated: ClickUp is an "everything app" with deep customization and 20+ views.
+[65/104] supported: Reviewers consistently note ClickUp has a steeper learning curve than 
+[66/104] supported: Reviewers consistently note ClickUp has a longer setup time than Asana
+[67/104] supported: Notion acts primarily as a connected wiki/workspace rather than a dedi
+[68/104] supported: Notion Plus plan is $10/user/mo.
+[69/104] supported: Reviewers caution Notion "isn't a real project management tool" for co
+[70/104] supported: Basecamp charges $15/user/mo.
+[71/104] supported: Basecamp charges a flat $299/mo for unlimited users.
+[72/104] supported: Basecamp is intentionally subtractive/minimalist compared to Asana's f
+[73/104] not_stated: Capterra rates Asana at ~4.5/5 stars.
+[74/104] contradicted: Capterra rating is based on 13,579+ reviews.
+[75/104] supported: SmartSuite internal review gives Asana an average 7.5/10.
+[76/104] supported: SmartSuite review praised Asana for integrations.
+[77/104] supported: SmartSuite review praised Asana for flexibility.
+[78/104] supported: SmartSuite review docked Asana for cost.
+[79/104] supported: SmartSuite review docked Asana for support access.
+[80/104] supported: Users praise streamlined workflow and task management.
+[81/104] supported: Users praise intuitive UI that maps closely to how teams already think
+[82/104] not_stated: Users praise strong goal alignment.
+[83/104] supported: Asana has the ability to connect tasks and projects upward to company-
+[84/104] supported: Asana has over 200 native integrations.
+[85/104] not_stated: Asana native integrations include Slack.
+[86/104] supported: Asana native integrations include Outlook.
+[87/104] not_stated: Asana native integrations include Google Drive.
+[88/104] supported: Asana has solid multihoming (tasks in multiple projects).
+[89/104] contradicted: Features that differentiate Asana—portfolios, workload management, adv
+[90/104] supported: Some consider Asana "expensive even for mid-sized teams".
+[91/104] supported: Workload/capacity planning is considered less robust than some rivals.
+[92/104] not_stated: Workload/capacity planning is unavailable on Starter.
+[93/104] supported: 24/7 support is restricted to Enterprise plans.
+[94/104] supported: Lower tiers rely on self-service forums and webinars.
+[95/104] supported: Some competitors include 24/7 support earlier than Asana.
+[96/104] supported: Asana's AI features require a separate per-user add-on.
+[97/104] not_stated: Unlike some rivals, Asana does not bundle AI credits.
+[98/104] not_stated: Asana is pursuing enterprise expansion under CEO Dan Rogers.
+[99/104] supported: Dan Rogers took over as CEO in July 2025.
+[100/104] not_stated: Asana has a renewed emphasis on AI Studio.
+[101/104] supported: Asana has goal-aware "AI Teammates" from Starter-tier upward.
+[102/104] supported: Asana generated $652.5 million in FY2024 (ended Jan 31, 2024).
+[103/104] supported: monday.com reached roughly $1.23 billion in FY2025.
+[104/104] supported: monday.com is growing ~27% YoY.
+{
+  "claims": 104,
+  "supported": 79,
+  "contradicted": 11,
+  "not_stated": 13,
+  "unverified_evidence": 1,
+  "no_source_text": 0,
+  "support_rate": 0.76,
+  "contradiction_rate": 0.106
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/starter-asana-llm.json

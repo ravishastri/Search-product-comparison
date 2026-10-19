@@ -1,0 +1,339 @@
+{
+  "summary": {
+    "claims": 65,
+    "supported": 45,
+    "contradicted": 4,
+    "not_stated": 8,
+    "unverified_evidence": 0,
+    "no_source_text": 8,
+    "support_rate": 0.692,
+    "contradiction_rate": 0.062
+  },
+  "claims": [
+    {
+      "text": "Trello offers four pricing tiers billed per user.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Trello's Free plan has a monthly price of $0 with annual billing.",
+      "verdict": "not_stated",
+      "evidence": "Yes, Trello has a free forever plan with basic project management features for up to 10 boards."
+    },
+    {
+      "text": "Trello's Free plan includes up to 10 boards.",
+      "verdict": "supported",
+      "evidence": " Free: Up to 10 boards, 250 workspace command runs per month, unlimited storage      (10MB/file)  "
+    },
+    {
+      "text": "Trello's Free plan includes unlimited cards.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Trello's Free plan includes 250 workspace command runs/month.",
+      "verdict": "supported",
+      "evidence": " Free: Up to 10 boards, 250 workspace command runs per month, unlimited storage      (10MB/file)  "
+    },
+    {
+      "text": "Trello's Free plan includes 10MB file attachments.",
+      "verdict": "supported",
+      "evidence": " Free: Up to 10 boards, 250 workspace command runs per month, unlimited storage      (10MB/file)  "
+    },
+    {
+      "text": "The monthly price of Trello's Standard plan is $5/user with annual billing.",
+      "verdict": "supported",
+      "evidence": "There are several effective strategies to explore when considering how to save money on Trello\u2019s standard plan, which costs $5 per user per month when billed annually."
+    },
+    {
+      "text": "The monthly price of Trello's Standard plan is $6/user if billed monthly.",
+      "verdict": "not_stated",
+      "evidence": "There are several effective strategies to explore when considering how to save money on Trello\u2019s standard plan, which costs $5 per user per month when billed annually."
+    },
+    {
+      "text": "Trello's Standard plan includes unlimited boards.",
+      "verdict": "supported",
+      "evidence": "Think about who on your team really needs access to the extra features that the Standard Plan offers, like having as many boards as you want, sending larger files (250 MB), or using advanced checklists."
+    },
+    {
+      "text": "Trello's Standard plan includes advanced checklists.",
+      "verdict": "supported",
+      "evidence": "Think about who on your team really needs access to the extra features that the Standard Plan offers, like having as many boards as you want, sending larger files (250 MB), or using advanced checklists."
+    },
+    {
+      "text": "Trello's Standard plan includes custom fields.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Trello's Standard plan includes 1,000 automation runs/month.",
+      "verdict": "supported",
+      "evidence": "Free users get just 250 command runs per month, Standard users get 1,000, and higher plans offer more."
+    },
+    {
+      "text": "The monthly price of Trello's Premium plan is $10/user with annual billing.",
+      "verdict": "supported",
+      "evidence": "For $10 per user per month when billed annually or $12.50 per user per month when billed monthly, Trello\u2019s Premium plan includes the same unlimited cards, boards and activity logs, but adds multiple ways to view a project."
+    },
+    {
+      "text": "The monthly price of Trello's Premium plan is $12.50/user if billed monthly.",
+      "verdict": "supported",
+      "evidence": "For $10 per user per month when billed annually or $12.50 per user per month when billed monthly, Trello\u2019s Premium plan includes the same unlimited cards, boards and activity logs, but adds multiple ways to view a project."
+    },
+    {
+      "text": "Trello's Premium plan adds Timeline, Calendar, Table, Dashboard, and Map views.",
+      "verdict": "supported",
+      "evidence": "Views: Calendar, Timeline, Table, Dashboard and Map"
+    },
+    {
+      "text": "Trello's Premium plan adds Atlassian Intelligence (AI).",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Trello's Premium plan includes a 14-day free trial.",
+      "verdict": "supported",
+      "evidence": "The 14-day free trial of the Premium plan does not require a credit card and can be canceled anytime in the first two weeks."
+    },
+    {
+      "text": "Trello's Enterprise plan is from $17.50/user annually.",
+      "verdict": "contradicted",
+      "evidence": "The price of the Enterprise plan starts at $210 annually per user and decreases as the number of users goes up."
+    },
+    {
+      "text": "Trello's Enterprise plan requires a minimum of 50 users.",
+      "verdict": "supported",
+      "evidence": "The Enterprise plan has a minimum of 50 users."
+    },
+    {
+      "text": "The price per seat for Trello's Enterprise plan decreases as more users are added.",
+      "verdict": "supported",
+      "evidence": "The price of the Enterprise plan starts at $210 annually per user and decreases as the number of users goes up."
+    },
+    {
+      "text": "Trello's Enterprise plan includes SSO, Atlassian Guard, and org-wide permissions.",
+      "verdict": "supported",
+      "evidence": "The Enterprise plan comes with additional features that the lower-tier Trello plans don\u2019t offer, including:\n Dedicated 24/7 admin support,\n Unlimited Workspaces,\n Organization-wide permissions,\n Organization-visible boards,\n Public board management,\n Multi-board guests,\n Attachment restrictions,\n Po"
+    },
+    {
+      "text": "Non-profits receive 75% off Standard and Premium plans.",
+      "verdict": "supported",
+      "evidence": "As far as discounts go, Trello offers a discount for non-profit organizations, as well as students and teachers \u2014 75% off Trello\u2019s Standard and Premium plans."
+    },
+    {
+      "text": "Non-profits receive 50% off Enterprise.",
+      "verdict": "supported",
+      "evidence": "The discount for the Enterprise plan is 50%."
+    },
+    {
+      "text": "Academic institutions receive 50% off all paid plans.",
+      "verdict": "supported",
+      "evidence": "There\u2019s also a 50% discount off all paid Trello plans for academic institutions."
+    },
+    {
+      "text": "Asana starts at $10.99/user/month.",
+      "verdict": "contradicted",
+      "evidence": "| Starting Price | $5/user/month | $11/user/month | $7/user/month |"
+    },
+    {
+      "text": "Asana has a free plan available.",
+      "verdict": "supported",
+      "evidence": "Asana's free plan is excellent but limited to 15 users."
+    },
+    {
+      "text": "Asana offers task dependencies, milestones, and multiple views (List, Board, Timeline, Calendar, Gantt).",
+      "verdict": "contradicted",
+      "evidence": "Choose Asana if you need advanced project management features like task dependencies, milestones, and multiple views (List, Kanban, Calendar, Timeline)."
+    },
+    {
+      "text": "Monday.com Basic plan starts at $9/user/month.",
+      "verdict": "contradicted",
+      "evidence": "| Basic | \u274c | $10.99/user/month\\ |"
+    },
+    {
+      "text": "Monday.com has a 3-user minimum.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com Standard plan is $12.",
+      "verdict": "supported",
+      "evidence": "| Standard | $5/user/month\\ | $12/user/month\\ |"
+    },
+    {
+      "text": "Monday.com Pro plan is $24.99.",
+      "verdict": "supported",
+      "evidence": "| Premium/Pro | $10/user/month\\ | $24.99/user/month\\ |"
+    },
+    {
+      "text": "Monday.com has 10+ project views.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp has a free plan available.",
+      "verdict": "supported",
+      "evidence": "Free; $7 per user"
+    },
+    {
+      "text": "ClickUp paid plans start at $7/user/month.",
+      "verdict": "supported",
+      "evidence": "Free; $7 per user"
+    },
+    {
+      "text": "ClickUp Business plan is $12.",
+      "verdict": "not_stated",
+      "evidence": "While ClickUp does not advertise its Enterprise plan pricing, both Trello and ClickUp offer similar-priced entry-level and mid-tier plans."
+    },
+    {
+      "text": "ClickUp has 15+ views (including Mind Maps and Whiteboards).",
+      "verdict": "supported",
+      "evidence": "| Views | Board, Table, Calendar, Timeline | List, Board, Timeline, Calendar, Gantt | 15+ views including Mind Maps, Whiteboards |"
+    },
+    {
+      "text": "ClickUp has built-in docs.",
+      "verdict": "supported",
+      "evidence": "| Built-in Docs | No | No | Yes |"
+    },
+    {
+      "text": "ClickUp has integrated time tracking.",
+      "verdict": "supported",
+      "evidence": "Docs, whiteboards, time tracking, goals, mind maps, and form views are all native."
+    },
+    {
+      "text": "ClickUp can suffer from performance issues.",
+      "verdict": "supported",
+      "evidence": "Performance can slow with large, complex workspaces"
+    },
+    {
+      "text": "ClickUp can suffer from feature clutter.",
+      "verdict": "supported",
+      "evidence": "Feature density leads to cluttered interface for some users"
+    },
+    {
+      "text": "Notion combines task management with documentation and databases in an all-in-one workspace.",
+      "verdict": "supported",
+      "evidence": "It's a go-to for teams that want an all-in-one workspace for notes, databases and planning."
+    },
+    {
+      "text": "Trello focuses strictly on visual Kanban task tracking.",
+      "verdict": "supported",
+      "evidence": "Known for its easy-to-use Kanban board tools, Trello is perfect for simple task tracking and visual workflows."
+    },
+    {
+      "text": "Trello has a starting paid price of $5/user/month.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Asana has a starting paid price of $10.99/user/month.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Monday.com has a starting paid price of $9/user/month.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp has a starting paid price of $7/user/month.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Trello has a Capterra rating of 4.5/5 based on 13,871 reviews.",
+      "verdict": "supported",
+      "evidence": " Capterra \u2013 4.5 out of 5 stars (13,871 user Trello reviews)"
+    },
+    {
+      "text": "Trello has a Software Advice rating of 4.5/5 based on 13,872 reviews.",
+      "verdict": "supported",
+      "evidence": " Software Advice \u2013 4.5 out of 5 stars (13,872 user Trello reviews)"
+    },
+    {
+      "text": "Trello has an Apple App Store rating of 4.7/5 based on 3,632 reviews.",
+      "verdict": "supported",
+      "evidence": " Apple App Store \u2013 4.7 out of 5 stars (3,632 user Trello app reviews)"
+    },
+    {
+      "text": "Trello has a Google Play rating of 4.6/5 based on 84,421 reviews.",
+      "verdict": "supported",
+      "evidence": "Google Play Store \u2013 4.6 out of 5 stars (84,421 user Trello app reviews)"
+    },
+    {
+      "text": "Trello has a Trustpilot rating of 2.2/5 (\"Poor\") based on 226 reviews.",
+      "verdict": "supported",
+      "evidence": "Image 12: Rated 2 out of 5 stars\n226 reviews"
+    },
+    {
+      "text": "Trustpilot reviews include recent complaints about billing cancellation difficulties.",
+      "verdict": "supported",
+      "evidence": "The trial and cancellation process also felt unnecessarily complicated, with unclear communication about automatic payments."
+    },
+    {
+      "text": "Trustpilot reviews include recent complaints about AI-only support.",
+      "verdict": "supported",
+      "evidence": "No actual support to be seen other than an AI bot that doesn't get you to the right solution."
+    },
+    {
+      "text": "SmartSuite (2026 review) scored Trello 9/10 for UI/usability and customer support.",
+      "verdict": "supported",
+      "evidence": " User interface and usability: 9/10. Customers of the platform agree that Trello has an easy-to-use and intuitive interface with its Kanban board."
+    },
+    {
+      "text": "SmartSuite (2026 review) scored Trello 7/10 for range of features.",
+      "verdict": "supported",
+      "evidence": "Range of features: 7/10."
+    },
+    {
+      "text": "SmartSuite notes Trello lacks built-in collaboration and reporting capabilities compared to alternatives.",
+      "verdict": "supported",
+      "evidence": "Trello\u2019s platform offers less functionality than alternatives on the market, as it lacks built-in collaboration and reporting capabilities."
+    },
+    {
+      "text": "Tech.co ranked Trello among the best simple project management providers.",
+      "verdict": "supported",
+      "evidence": "Our expert testers ranked it among the best simple project management providers for customer support options."
+    },
+    {
+      "text": "Trello has Butler automation (no-code) for streamlining repetitive tasks.",
+      "verdict": "supported",
+      "evidence": "Butler allows you to create rules, button actions, and scheduled commands to automate repetitive tasks."
+    },
+    {
+      "text": "Trello has mobile apps.",
+      "verdict": "supported",
+      "evidence": "We also found in our Trello app review of the iOS and Android mobile apps that users gave them high marks and felt they were generally as functional as the Trello desktop app."
+    },
+    {
+      "text": "Trello has a notification system.",
+      "verdict": "supported",
+      "evidence": "Additionally, using alerts in Trello ensures someone knows when their task deadline is coming up or when someone has assigned them a new task."
+    },
+    {
+      "text": "Atlassian's Trello redesign drew harsh criticism from users.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Headlines called the Trello redesign potentially the \"worst in tech history\".",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Users complained that boards were repositioned as individual workspaces in a confusing layout.",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Users report interface lag when handling many tasks.",
+      "verdict": "supported",
+      "evidence": "The boards and cards are helpful for organizing, but the interface lags a lot with many tasks."
+    },
+    {
+      "text": "Trello lacks built-in time tracking (requires Power-Ups).",
+      "verdict": "supported",
+      "evidence": "The platform lacks time tracking (you\u2019d need a paid integration for this)"
+    }
+  ]
+}

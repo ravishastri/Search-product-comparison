@@ -1,0 +1,42 @@
+[1/31] supported: ClickUp offers five pricing tiers, including a free plan and paid plan
+[2/31] supported: ClickUp’s entry-level Unlimited plan costs $7 per user per month with 
+[3/31] supported: ClickUp’s Business Plus plan costs $19 per user per month when billed 
+[4/31] supported: Annual billing saves 30% on ClickUp’s Unlimited plan compared to month
+[5/31] supported: ClickUp’s Free Forever plan includes 100 MB of storage and 100 automat
+[6/31] supported: Asana’s Starter plan costs $10.99 per user per month billed annually, 
+[7/31] supported: Monday.com’s work management paid plans start at approximately $9 per 
+[8/31] supported: Monthly billing without an annual commitment costs roughly 20–30% more
+[9/31] supported: Notion’s Plus plan costs $10 per seat per month with annual billing, a
+[10/31] supported: ClickUp is rated more affordable than monday work management and Smart
+[11/31] supported: ClickUp primarily competes with Asana, Monday.com, Notion, Trello, Wri
+[12/31] supported: ClickUp, Asana, and monday.com are among the leading options for AI-po
+[13/31] supported: Asana is preparing to launch its Agentic Work Management platform.
+[14/31] supported: Monday.com was downgraded by Zacks Research from a strong-buy rating t
+[15/31] supported: Notion is discontinuing its email client, Notion Mail, on September 22
+[16/31] supported: Notion’s project management features are considered less developed tha
+[17/31] supported: ClickUp is 22% cheaper than Monday.com at the entry-level paid tier an
+[18/31] not_stated: Monday.com loads 25% faster than ClickUp and offers deeper enterprise 
+[19/31] supported: Teams that focus on structured work tend to gravitate toward Asana, wh
+[20/31] not_stated: In comparative evaluations, ClickUp ranks highest for most features pe
+[21/31] supported: ClickUp loses to Asana and Trello on ease of use and to Notion as a do
+[22/31] supported: ClickUp introduced an AI assistant and SyncUp video calls to compete m
+[23/31] not_stated: G2 data gathered by April 28, 2026 placed ClickUp in the Leader tier b
+[24/31] not_stated: Reviewers praise ClickUp’s integrations with Google Workspace and Slac
+[25/31] not_stated: Reviewers highlight ClickUp’s integrated search, Brain assistant, and 
+[26/31] supported: Managers and agencies appreciate real-time visibility into progress, w
+[27/31] supported: Users frequently praise ClickUp’s nested subtasks, dependencies, and t
+[28/31] supported: Some ClickUp users report that the interface can feel overwhelming unt
+[29/31] not_stated: G2 data indicates ClickUp has 77% adoption among small businesses and 
+[30/31] not_stated: Reviewers note that ClickUp’s interface can sometimes feel crowded.
+[31/31] supported: Reviewers value that ClickUp places documentation and wikis directly a
+{
+  "claims": 31,
+  "supported": 24,
+  "contradicted": 0,
+  "not_stated": 7,
+  "unverified_evidence": 0,
+  "no_source_text": 0,
+  "support_rate": 0.774,
+  "contradiction_rate": 0.0
+}
+wrote /Users/ravishastri/Downloads/2606_Tavily_FDE_TakeHomeAssignment_v2/eval/results/evaluator-clickup-llm.json

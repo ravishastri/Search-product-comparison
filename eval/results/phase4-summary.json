@@ -1,0 +1,202 @@
+{
+  "products": [
+    {
+      "product": "linear",
+      "starter": {
+        "claims": 135,
+        "support_rate": 0.652,
+        "contradiction_rate": 0.03,
+        "not_stated_rate": 0.222,
+        "no_source_rate": 0.096,
+        "supported": 88,
+        "contradicted": 4
+      },
+      "evaluator": {
+        "claims": 34,
+        "support_rate": 0.882,
+        "contradiction_rate": 0.0,
+        "not_stated_rate": 0.088,
+        "no_source_rate": 0.029,
+        "supported": 30,
+        "contradicted": 0
+      },
+      "evaluator_prices_in_cited_text": 0.875,
+      "evaluator_ground_truth_recall": 1.0
+    },
+    {
+      "product": "jira",
+      "starter": {
+        "claims": 75,
+        "support_rate": 0.627,
+        "contradiction_rate": 0.027,
+        "not_stated_rate": 0.307,
+        "no_source_rate": 0.04,
+        "supported": 47,
+        "contradicted": 2
+      },
+      "evaluator": {
+        "claims": 32,
+        "support_rate": 0.844,
+        "contradiction_rate": 0.0,
+        "not_stated_rate": 0.062,
+        "no_source_rate": 0.031,
+        "supported": 27,
+        "contradicted": 0
+      },
+      "evaluator_prices_in_cited_text": 0.857,
+      "evaluator_ground_truth_recall": 0.0
+    },
+    {
+      "product": "plane",
+      "starter": {
+        "claims": 145,
+        "support_rate": 0.441,
+        "contradiction_rate": 0.028,
+        "not_stated_rate": 0.193,
+        "no_source_rate": 0.324,
+        "supported": 64,
+        "contradicted": 4
+      },
+      "evaluator": {
+        "claims": 14,
+        "support_rate": 0.786,
+        "contradiction_rate": 0.0,
+        "not_stated_rate": 0.071,
+        "no_source_rate": 0.143,
+        "supported": 11,
+        "contradicted": 0
+      },
+      "evaluator_prices_in_cited_text": null,
+      "evaluator_ground_truth_recall": 0.0
+    },
+    {
+      "product": "shortcut",
+      "starter": {
+        "claims": 81,
+        "support_rate": 0.765,
+        "contradiction_rate": 0.012,
+        "not_stated_rate": 0.136,
+        "no_source_rate": 0.037,
+        "supported": 62,
+        "contradicted": 1
+      },
+      "evaluator": {
+        "claims": 18,
+        "support_rate": 0.889,
+        "contradiction_rate": 0.0,
+        "not_stated_rate": 0.0,
+        "no_source_rate": 0.111,
+        "supported": 16,
+        "contradicted": 0
+      },
+      "evaluator_prices_in_cited_text": 1.0,
+      "evaluator_ground_truth_recall": null
+    },
+    {
+      "product": "clickup",
+      "starter": {
+        "claims": 55,
+        "support_rate": 0.6,
+        "contradiction_rate": 0.091,
+        "not_stated_rate": 0.309,
+        "no_source_rate": 0.0,
+        "supported": 33,
+        "contradicted": 5
+      },
+      "evaluator": {
+        "claims": 31,
+        "support_rate": 0.774,
+        "contradiction_rate": 0.0,
+        "not_stated_rate": 0.226,
+        "no_source_rate": 0.0,
+        "supported": 24,
+        "contradicted": 0
+      },
+      "evaluator_prices_in_cited_text": 1.0,
+      "evaluator_ground_truth_recall": 1.0
+    },
+    {
+      "product": "asana",
+      "starter": {
+        "claims": 104,
+        "support_rate": 0.76,
+        "contradiction_rate": 0.106,
+        "not_stated_rate": 0.125,
+        "no_source_rate": 0.0,
+        "supported": 79,
+        "contradicted": 11
+      },
+      "evaluator": {
+        "claims": 19,
+        "support_rate": 0.842,
+        "contradiction_rate": 0.053,
+        "not_stated_rate": 0.053,
+        "no_source_rate": 0.0,
+        "supported": 16,
+        "contradicted": 1
+      },
+      "evaluator_prices_in_cited_text": 1.0,
+      "evaluator_ground_truth_recall": 0.667
+    },
+    {
+      "product": "trello",
+      "starter": {
+        "claims": 65,
+        "support_rate": 0.692,
+        "contradiction_rate": 0.062,
+        "not_stated_rate": 0.123,
+        "no_source_rate": 0.123,
+        "supported": 45,
+        "contradicted": 4
+      },
+      "evaluator": {
+        "claims": 45,
+        "support_rate": 0.889,
+        "contradiction_rate": 0.067,
+        "not_stated_rate": 0.044,
+        "no_source_rate": 0.0,
+        "supported": 40,
+        "contradicted": 3
+      },
+      "evaluator_prices_in_cited_text": 1.0,
+      "evaluator_ground_truth_recall": 1.0
+    },
+    {
+      "product": "youtrack",
+      "starter": {
+        "claims": 119,
+        "support_rate": 0.689,
+        "contradiction_rate": 0.042,
+        "not_stated_rate": 0.168,
+        "no_source_rate": 0.101,
+        "supported": 82,
+        "contradicted": 5
+      },
+      "evaluator": {
+        "claims": 37,
+        "support_rate": 0.919,
+        "contradiction_rate": 0.027,
+        "not_stated_rate": 0.027,
+        "no_source_rate": 0.027,
+        "supported": 34,
+        "contradicted": 1
+      },
+      "evaluator_prices_in_cited_text": 1.0,
+      "evaluator_ground_truth_recall": 0.667
+    }
+  ],
+  "totals": {
+    "starter": {
+      "products": 8,
+      "claims": 779,
+      "support_rate": 0.642,
+      "contradiction_rate": 0.046
+    },
+    "evaluator": {
+      "products": 8,
+      "claims": 230,
+      "support_rate": 0.861,
+      "contradiction_rate": 0.022
+    }
+  }
+}

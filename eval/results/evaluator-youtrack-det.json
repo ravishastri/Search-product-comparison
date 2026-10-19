@@ -1,0 +1,463 @@
+{
+  "summary": {
+    "run": "youtrack-20261018-205105",
+    "claims": 37,
+    "cited_ids_valid": 1.0,
+    "price_claims": 13,
+    "prices_in_cited_text": 1.0,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.459,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": 0.667,
+    "ground_truth_facts": 3,
+    "ground_truth_found_in_brief": [
+      "$5.40 per user/month",
+      "$6 per agent/month"
+    ],
+    "ground_truth_missing_from_brief": [
+      "$2.81 per user/month"
+    ]
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack offers a free plan for up to 10 users on both Cloud and Server editions.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack paid monthly plans start at $5.40 per user.",
+      "all_ids_valid": true,
+      "prices": [
+        "$5.40"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack paid annual plans start at $4.50 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$4.50"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "One source lists YouTrack pricing starting at $3.67 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$3.67"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "A team of 10 users pays roughly $50 per month, or about $600 per year.",
+      "all_ids_valid": true,
+      "prices": [
+        "$50",
+        "$600"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "A team of 100 users pays roughly $500 per month, or about $6,000 per year.",
+      "all_ids_valid": true,
+      "prices": [
+        "$500",
+        "$6,000"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack implementation for small and midsize businesses can cost a few hundred dollars, while enterprise implementation",
+      "all_ids_valid": true,
+      "prices": [
+        "$5,000",
+        "$50,000"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack HelpDesk includes three support agent seats at no extra charge; additional cloud agents cost $6 per month each.",
+      "all_ids_valid": true,
+      "prices": [
+        "$6"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "For self-hosted YouTrack Server, additional HelpDesk agents beyond the included three cost $72 per year each.",
+      "all_ids_valid": true,
+      "prices": [
+        "$72"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack uses volume pricing where the per-user cost decreases as more users are added.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Jira Standard plan pricing starts at $7.91 per user per month and Premium at $14.54 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$7.91",
+        "$14.54"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Jira offers a free plan for up to 10 users.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear Basic costs $10 per user per month and Business costs $16 per user per month with yearly billing.",
+      "all_ids_valid": true,
+      "prices": [
+        "$10",
+        "$16"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Linear offers a free plan capped at two teams and 250 issues.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "GitLab Premium is listed at $29 per user per month by one source. (price check unavailable)",
+      "all_ids_valid": true,
+      "prices": [
+        "$29"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Another source lists GitLab Premium at roughly $32 per user per year.",
+      "all_ids_valid": true,
+      "prices": [
+        "$32"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "GitLab Ultimate is listed at roughly $108 per user per year.",
+      "all_ids_valid": true,
+      "prices": [
+        "$108"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack is a developer-focused issue tracker built by the same company that creates IntelliJ, WebStorm, and PyCharm.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "One reviewer describes YouTrack as feeling like it was designed by developers frustrated with Jira.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack bundles Scrum and Kanban boards, sprint planning with dependencies, time tracking, a Gantt chart, 20 configurab",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack includes JetBrains AI for writing assistance, summaries, and converting text into issues.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack Cloud is free with all features for up to 10 users, and a self-hosted Server edition is available.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack is denser and more configurable than Linear, which can demand more from users.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "One reviewer selected YouTrack because its AI features are deeper than those of most issue trackers, highlighting a Text",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack is positioned as best for mid-size and large development teams needing customizable workflows and advanced issu",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack supports backlog automation that automatically brings issues with a specified Fix version into the backlog.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack offers a sprint rollover feature via a Move to the next sprint button.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack can require complex setup and has a steep learning curve for teams unfamiliar with custom workflow configuratio",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack provides agile boards with sprints and burndown charts, a query language, JavaScript workflow rules, time track",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack includes predefined import scripts for migrating data from Redmine, Jira, GitHub, Asana, ClickUp, and Mantis.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Linear is considered faster than YouTrack and offers defaults that reduce team process debates, along with a smoother da",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira is an enterprise agile project management platform with customizable workflows and issue tracking used inside and o",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "GitLab\u2019s issue tracker is less configurable than YouTrack but integrates issues, merge requests, pipelines, and releases",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Atlassian is discontinuing Jira Server and datacenter products in favor of cloud-only offerings, with server support end",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "A user review calls YouTrack a very complete product and notes appreciation for its depth.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "A reviewer chose YouTrack because its AI features are more extensive than those of most other issue trackers.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "One review indicates YouTrack can require complex setup and has a steep learning curve for teams unfamiliar with custom ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "summary": {
+    "claims": 55,
+    "supported": 33,
+    "contradicted": 5,
+    "not_stated": 17,
+    "unverified_evidence": 0,
+    "no_source_text": 0,
+    "support_rate": 0.6,
+    "contradiction_rate": 0.091
+  },
+  "claims": [
+    {
+      "text": "ClickUp offers a Free Forever plan with unlimited tasks and members but only 60 MB of storage and limited automations.",
+      "verdict": "contradicted",
+      "evidence": "Free Forever: Unlimited members and tasks. 60MB storage. Basic features, no automations, limited custom fields, limited integrations."
+    },
+    {
+      "text": "Paid annual tiers start with Unlimited at $7 per user per month.",
+      "verdict": "supported",
+      "evidence": "Unlimited: $7/user/month (annual) or $10/user/month (monthly). Unlimited storage, integrations, dashboards, Gantt charts, custom fields, and automations."
+    },
+    {
+      "text": "Unlimited is $10 monthly.",
+      "verdict": "supported",
+      "evidence": " Unlimited: $7/user/month (annual) or $10/user/month (monthly)."
+    },
+    {
+      "text": "Unlimited adds unlimited storage.",
+      "verdict": "supported",
+      "evidence": "Unlimited: $7/user/month (annual) or $10/user/month (monthly). Unlimited storage, integrations, dashboards, Gantt charts, custom fields, and automations."
+    },
+    {
+      "text": "Unlimited adds custom fields.",
+      "verdict": "supported",
+      "evidence": "Unlimited: $7/user/month (annual) or $10/user/month (monthly). Unlimited storage, integrations, dashboards, Gantt charts, custom fields, and automations."
+    },
+    {
+      "text": "Unlimited adds Gantt charts.",
+      "verdict": "supported",
+      "evidence": " Unlimited: $7/user/month (annual) or $10/user/month (monthly). Unlimited storage, integrations, dashboards, Gantt charts, custom fields, and automations."
+    },
+    {
+      "text": "Unlimited adds native time tracking.",
+      "verdict": "contradicted",
+      "evidence": "Business: $12/user/month (annual) or $19/user/month (monthly). Everything in Unlimited plus timelines, mind maps, workload management, time tracking, automations (unlimited), and advanced permissions."
+    },
+    {
+      "text": "Business runs $12 per user per month annually.",
+      "verdict": "not_stated",
+      "evidence": "A 10-person team pays roughly $120/mo on ClickUp Business vs $190/mo on Monday.com Pro - an $840/year difference - and ClickUp includes more features at the lower price."
+    },
+    {
+      "text": "Business runs $19 monthly.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Business includes workload management.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Business includes advanced dashboards.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Business includes Google SSO.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "A semi-hidden Business Plus tier at $19 per user per month annually still exists through partners.",
+      "verdict": "supported",
+      "evidence": "This plan costs $19 per member per month billed annually."
+    },
+    {
+      "text": "Business Plus was removed from the public pricing page in late 2024.",
+      "verdict": "supported",
+      "evidence": "ClickUp removed Business Plus from its public pricing page in late 2024, but it\u2019s still available as an upgrade, and we can quote it for you."
+    },
+    {
+      "text": "Enterprise is custom-priced.",
+      "verdict": "supported",
+      "evidence": "Enterprise: Custom pricing."
+    },
+    {
+      "text": "Enterprise adds SAML SSO.",
+      "verdict": "not_stated",
+      "evidence": "Enterprise: Custom pricing. Advanced security, HIPAA compliance, SSO, and dedicated support."
+    },
+    {
+      "text": "Enterprise adds SCIM.",
+      "verdict": "not_stated",
+      "evidence": "Enterprise: Custom pricing. Advanced security, HIPAA compliance, SSO, and dedicated support."
+    },
+    {
+      "text": "Enterprise adds HIPAA compliance.",
+      "verdict": "supported",
+      "evidence": "Enterprise: Custom pricing. Advanced security, HIPAA compliance, SSO, and dedicated support."
+    },
+    {
+      "text": "Enterprise adds dedicated support.",
+      "verdict": "supported",
+      "evidence": "Enterprise: Custom pricing. Advanced security, HIPAA compliance, SSO, and dedicated support."
+    },
+    {
+      "text": "AI is not included.",
+      "verdict": "contradicted",
+      "evidence": "The tier bundles Super Agents, advanced automation capabilities, AI Notetaker, and higher credit allowances into a single package."
+    },
+    {
+      "text": "ClickUp Brain costs $9 per user per month on top of any paid plan.",
+      "verdict": "supported",
+      "evidence": "Super Agents require ClickUp Brain, which starts at $9 per user per month as an add on to any paid plan."
+    },
+    {
+      "text": "Everything AI tier is $28 per user per month.",
+      "verdict": "supported",
+      "evidence": "ClickUp introduced the Everything AI tier at $28 per user per month, positioned above the standard Brain add on at $9 per user per month."
+    },
+    {
+      "text": "Monday.com paid plans start around $12\u2013$14 per seat per month (Standard).",
+      "verdict": "supported",
+      "evidence": "Monday.com locks timeline and Gantt views behind the Standard plan ($12/seat/month)."
+    },
+    {
+      "text": "Monday.com paid plans start around $19\u2013$24 per seat per month (Pro).",
+      "verdict": "supported",
+      "evidence": "Pro ($19/seat/month annual): Time tracking, 25,000 automations/month, private boards, chart views."
+    },
+    {
+      "text": "Monday.com has a mandatory three-seat minimum.",
+      "verdict": "supported",
+      "evidence": "Monday.com also enforces a 3-seat minimum on all paid plans."
+    },
+    {
+      "text": "Monday.com has incremental \u201cbucket\u201d pricing that often forces teams to buy more seats than needed.",
+      "verdict": "supported",
+      "evidence": "Monday.com\u2018s pricing model requires a minimum of three seats on all paid plans and uses bucket pricing, forcing you to buy seats in bundles of five, ten, or 15."
+    },
+    {
+      "text": "Asana\u2019s Starter plan ranges from roughly $11 to $13.49 per user per month.",
+      "verdict": "not_stated",
+      "evidence": "Asana pricing starts at $13.49/user/month for its Starter plan."
+    },
+    {
+      "text": "Asana\u2019s Advanced tier runs $24.99 to $30.49 per user per month.",
+      "verdict": "not_stated",
+      "evidence": "Advanced: $30.49/seat/month"
+    },
+    {
+      "text": "Asana\u2019s Advanced tier unlocks portfolios.",
+      "verdict": "not_stated",
+      "evidence": "Excellent portfolio and workload views"
+    },
+    {
+      "text": "Asana\u2019s Advanced tier unlocks workload management.",
+      "verdict": "not_stated",
+      "evidence": "Excellent portfolio and workload views"
+    },
+    {
+      "text": "Notion begins at $10 per user per month for Plus.",
+      "verdict": "supported",
+      "evidence": "| Paid from | $10/user/mo (Plus, annual) | $7/user/mo (Unlimited, annual) |"
+    },
+    {
+      "text": "Notion Business is $20 per user per month.",
+      "verdict": "supported",
+      "evidence": "So if you pay $20 per user per month for Notion Business, AI is included at no extra cost."
+    },
+    {
+      "text": "Notion Business includes Notion AI at no extra cost since May 2025.",
+      "verdict": "supported",
+      "evidence": "Notion AI is bundled into Business at no extra cost since May 2025."
+    },
+    {
+      "text": "ClickUp markets itself as the \u201ceverything app.\u201d",
+      "verdict": "supported",
+      "evidence": "ClickUp continues to market itself as the \"Everything App\" in 2026."
+    },
+    {
+      "text": "ClickUp offers deep hierarchy (Workspaces > Spaces > Folders > Lists > Tasks).",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "ClickUp offers built-in chat.",
+      "verdict": "supported",
+      "evidence": "It offers more project views, native chat, and other tools that Monday.com doesn\u2019t match."
+    },
+    {
+      "text": "ClickUp offers docs.",
+      "verdict": "supported",
+      "evidence": "In terms of workflows and work organization, ClickUp\u2019s hierarchy, plus native Docs, whiteboards, and chat, built to replace multiple individual tools, make it more attractive to enterprises looking for an all-in-one, customizable approach."
+    },
+    {
+      "text": "ClickUp offers whiteboards.",
+      "verdict": "supported",
+      "evidence": "Built-in whiteboards: Brainstorm and plan visually without switching to Figma or Miro."
+    },
+    {
+      "text": "ClickUp offers goals.",
+      "verdict": "supported",
+      "evidence": "Enormous feature set: Docs, Whiteboards, Goals, Chat, Time Tracking"
+    },
+    {
+      "text": "ClickUp offers 1,000+ integrations.",
+      "verdict": "contradicted",
+      "evidence": "| Integrations | 50+ native, some available free plan | 200+ native, paid plans only |"
+    },
+    {
+      "text": "Monday.com locks Gantt behind higher tiers.",
+      "verdict": "supported",
+      "evidence": "Monday.com locks timeline and Gantt views behind the Standard plan ($12/seat/month)."
+    },
+    {
+      "text": "Monday.com locks workload views behind higher tiers.",
+      "verdict": "supported",
+      "evidence": "Monday.com locks timeline and Gantt views behind the Standard plan ($12/seat/month). Workload views require Pro ($19/seat)."
+    },
+    {
+      "text": "Monday.com locks SSO behind higher tiers.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "For development-focused teams, Jira and Linear are frequent alternatives.",
+      "verdict": "supported",
+      "evidence": "Linear has established itself in 2026 as the most beautiful and fastest alternative to Jira."
+    },
+    {
+      "text": "ClickUp holds a 4.7/5 on G2.",
+      "verdict": "supported",
+      "evidence": "ClickUp holds a 4.7/5 rating on G2 from over 11,500 reviews, yet drops to 3.6/5 on Trustpilot."
+    },
+    {
+      "text": "ClickUp holds a 4.6/5 on Capterra.",
+      "verdict": "supported",
+      "evidence": "| Capterra | 4.6/5 | 4,569 | Similar B2B focus with 95% positive sentiment |"
+    },
+    {
+      "text": "ClickUp holds a 3.6/5 on Trustpilot.",
+      "verdict": "supported",
+      "evidence": "ClickUp holds a 4.7/5 rating on G2 from over 11,500 reviews, yet drops to 3.6/5 on Trustpilot."
+    },
+    {
+      "text": "Capterra reviewers cite \u201chighly adaptable\u201d workflows.",
+      "verdict": "not_stated",
+      "evidence": "Most reviewers describe flexibility as enabling personalized workflows, extensive customization, and adaptation to diverse team requirements."
+    },
+    {
+      "text": "Capterra reviewers cite replacing multiple subscriptions.",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Critics commonly flag slow loading.",
+      "verdict": "supported",
+      "evidence": "Most reviewers report performance and speed issues, including slow loading, lag, and delays, especially with large projects or complex tasks."
+    },
+    {
+      "text": "Critics commonly flag lag.",
+      "verdict": "supported",
+      "evidence": "Most reviewers report performance and speed issues, including slow loading, lag, and delays, especially with large projects or complex tasks."
+    },
+    {
+      "text": "Critics commonly flag freezing with large workspaces.",
+      "verdict": "not_stated",
+      "evidence": "While ClickUp 3.0 claimed 2-3x speed improvements, users continue to report lag in larger workspaces, with issues persisting through the 3.0 lifecycle into early 2026."
+    },
+    {
+      "text": "Critics commonly flag a mobile app that lacks desktop parity.",
+      "verdict": "not_stated",
+      "evidence": "Some users comment the mobile app lacks key features, feels unintuitive, and often experiences bugs or inconsistent performance."
+    },
+    {
+      "text": "Since 2024\u20132025, ClickUp reclassified guests with edit access as paid \u201climited members.\u201d",
+      "verdict": "contradicted",
+      "evidence": "In 2025, ClickUp changed its billing policy so that guests with edit access were counted as paid members."
+    },
+    {
+      "text": "One verified Capterra review documented a 733% annual cost jump after automatic guest-to-member conversion.",
+      "verdict": "supported",
+      "evidence": "A verified Capterra review from February 16, 2025 documented a 733% cost increase caused by ClickUp's guest user policy: a CEO reported that the platform converted previously free guests into \"limited members,\" forcing full membership fees for users who only needed minimal access, causing annual cos"
+    }
+  ]
+}

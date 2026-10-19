@@ -1,0 +1,391 @@
+{
+  "summary": {
+    "run": "jira-20261018-175708",
+    "claims": 32,
+    "cited_ids_valid": 1.0,
+    "price_claims": 7,
+    "prices_in_cited_text": 0.857,
+    "quoted_claims": 0,
+    "quotes_verbatim": null,
+    "dated_claims": 0.438,
+    "stale_claims": 0,
+    "errors": 0,
+    "ground_truth_price_recall": 0.0,
+    "ground_truth_facts": 3,
+    "ground_truth_found_in_brief": [],
+    "ground_truth_missing_from_brief": [
+      "$0",
+      "$8.48",
+      "$15.56"
+    ]
+  },
+  "claims": [
+    {
+      "section": "Pricing and plans",
+      "text": "Jira offers a free plan that supports up to 10 users.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Jira Standard plan is priced at $7.91 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$7.91"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Jira Premium plan is priced at $14.54 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$14.54"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Jira Enterprise plan uses custom pricing.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Jira offers volume discounts, with per-user costs decreasing as more users are added.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Jira Data Center is available with annual billing and requires a minimum of 500 users.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack pricing starts at $3.67 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$3.67"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack offers a free plan for teams with up to 10 users.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "YouTrack monthly paid plans start at $5.40 per user per month, while annual paid plans start at $4.50 per user per month",
+      "all_ids_valid": true,
+      "prices": [
+        "$5.40",
+        "$4.50"
+      ],
+      "prices_in_cited_text": false,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "GitLab Premium plan is priced at $29 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$29"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "GitLab offers a free tier with limited features.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Azure DevOps offers the first five Basic users at no cost, with each additional Basic user costing $6 per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$6"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Pricing and plans",
+      "text": "Azure DevOps Basic plus Test Plans costs $52 per user per month.",
+      "all_ids_valid": true,
+      "prices": [
+        "$52"
+      ],
+      "prices_in_cited_text": true,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira Data Center is scheduled to reach end of life on March 28, 2029, and Atlassian stopped selling new Data Center lice",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Existing Jira Data Center customers may renew licenses until March 30, 2028, after which environments switch to read-onl",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira ended support for self-hosted deployments in spring 2024 and shifted focus to its cloud edition.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira is primarily geared toward software project management and features customizable workflows and issue tracking.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira connects to over 3,000 apps through the Atlassian Marketplace.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira integrates natively with development tools including GitHub, GitLab, Bitbucket, and CI/CD platforms.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "YouTrack, GitLab, and Azure DevOps Boards are among the alternatives recommended for engineering teams replacing Jira's ",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Some alternatives to Jira are positioned as offering simpler user experiences, better AI, or tighter integration with cu",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "One source states that Jira remains a strong choice for software development teams, though its relevance has narrowed ou",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": false,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira's GitHub integration is described as historically less responsive and less smoothly bidirectional than Linear's imp",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Azure DevOps is described as having best-in-class Agile planning tools and robust enterprise governance features.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Some users find Azure DevOps UI and Boards features clunky or unintuitive.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "GitLab provides a built-in CI/CD automation layer and is available both as a hosted service and as a free self-managed C",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Users rely on Jira's issue hierarchy to connect epics, stories, and tasks, which helps manage large backlogs and plan re",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Competitive landscape",
+      "text": "Jira provides roadmaps for tracking dependencies between teams and projects.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Atlassian launched new Jira features for agentic software engineering workflows, including an Agent Usage Dashboard.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "Jira's Summer 2026 release introduced 15 new capabilities focused on AI-native work, agent infrastructure, and MCP capab",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "A reviewer who tested Cursor's new Jira integration rated it five stars.",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    },
+    {
+      "section": "Recent reception",
+      "text": "GitHub Copilot for Jira became generally available in June 2026 with enhancements including model selection and Confluen",
+      "all_ids_valid": true,
+      "prices": [],
+      "prices_in_cited_text": null,
+      "quotes": 0,
+      "quotes_verbatim": null,
+      "dated": true,
+      "stale": false
+    }
+  ]
+}

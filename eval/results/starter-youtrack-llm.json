@@ -1,0 +1,609 @@
+{
+  "summary": {
+    "claims": 119,
+    "supported": 82,
+    "contradicted": 5,
+    "not_stated": 20,
+    "unverified_evidence": 0,
+    "no_source_text": 12,
+    "support_rate": 0.689,
+    "contradiction_rate": 0.042
+  },
+  "claims": [
+    {
+      "text": "YouTrack offers cloud-hosted editions",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack offers self-hosted (Server) editions",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack has a built-in helpdesk module",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "The Free plan supports up to 10 users",
+      "verdict": "supported",
+      "evidence": "The YouTrack free plan is for teams of up to 10 users and comes with 30 GB of storage."
+    },
+    {
+      "text": "The Free plan is Free for Cloud",
+      "verdict": "supported",
+      "evidence": "The YouTrack free plan is for teams of up to 10 users and comes with 30 GB of storage."
+    },
+    {
+      "text": "The Free plan is Free (perpetual) for Server",
+      "verdict": "supported",
+      "evidence": "A free license is granted for up to 10 users and 3 agents, and you may use all available updates for the free installation."
+    },
+    {
+      "text": "The Free plan includes full issue tracking",
+      "verdict": "supported",
+      "evidence": "It provides all of the functionality available with paid subscriptions except for a custom logo, which is only available with paid subscriptions."
+    },
+    {
+      "text": "The Free plan includes agile boards",
+      "verdict": "not_stated",
+      "evidence": "It provides all of the functionality available with paid subscriptions except for a custom logo, which is only available with paid subscriptions."
+    },
+    {
+      "text": "The Free plan includes backlog",
+      "verdict": "not_stated",
+      "evidence": "The YouTrack free plan is for teams of up to 10 users and comes with 30 GB of storage. It provides all of the functionality available with paid subscriptions except for a custom logo, which is only available with paid subscriptions."
+    },
+    {
+      "text": "The Free plan includes time tracking",
+      "verdict": "not_stated",
+      "evidence": "It provides all of the functionality available with paid subscriptions except for a custom logo, which is only available with paid subscriptions."
+    },
+    {
+      "text": "The Free plan includes AI Assistant",
+      "verdict": "supported",
+      "evidence": "All YouTrack Cloud customers, including small teams using YouTrack for free and YouTrack Server customers with active subscriptions, have access to free credits for AI-powered features."
+    },
+    {
+      "text": "The Free plan includes Helpdesk free for up to 3 agents",
+      "verdict": "supported",
+      "evidence": "You can start using YouTrack Helpdesk for free with up to three support agents and unlimited reporters (e.g. customers who submit tickets)."
+    },
+    {
+      "text": "The Team plan supports 11+ users",
+      "verdict": "supported",
+      "evidence": "| Team | $4.40 per user/month (billed annually) | $440/year for 15 users, scales with user packs | All features, unlimited agile boards, time tracking, Gantt charts, automation |"
+    },
+    {
+      "text": "The Team plan Cloud Price is $4.50/user/month billed annually",
+      "verdict": "contradicted",
+      "evidence": "| Team | $4.40 per user/month (billed annually) | $440/year for 15 users, scales with user packs | All features, unlimited agile boards, time tracking, Gantt charts, automation |"
+    },
+    {
+      "text": "The Team plan Cloud Price is $5.40 if billed monthly",
+      "verdict": "not_stated",
+      "evidence": "The new monthly subscription price is USD 5.40 per user/month, with the per-user rate decreasing as more users are added."
+    },
+    {
+      "text": "The Team plan Cloud price drops with volume",
+      "verdict": "supported",
+      "evidence": "The new monthly subscription price is USD 5.40 per user/month, with the per-user rate decreasing as more users are added."
+    },
+    {
+      "text": "The Team plan Cloud price is ~$3.74 at 500 users",
+      "verdict": "contradicted",
+      "evidence": "| Monthly | 15 users: $81.00 25 users: $135.00 50 users: $270.00 100 users: $539.00 250 users: $1,272.50 500 users: $1,995.00 | Costs per month with usage of the maximum number of available users |"
+    },
+    {
+      "text": "The Team plan Cloud price is ~$2.81 at 1,000 users",
+      "verdict": "not_stated",
+      "evidence": "The per-user rate also decreases as more users are added."
+    },
+    {
+      "text": "The Team plan Server Price is from $900/year for 15 users",
+      "verdict": "contradicted",
+      "evidence": "JetBrains sells server user packs in increments: 15 users for $440/year, 25 for $880, 50 for $1,800, and so on."
+    },
+    {
+      "text": "The Team plan Server Price is $3.75/user/month equivalent for 15 users",
+      "verdict": "contradicted",
+      "evidence": "| Team | $4.40 per user/month (billed annually) | $440/year for 15 users, scales with user packs | All features, unlimited agile boards, time tracking, Gantt charts, automation |"
+    },
+    {
+      "text": "The Team plan Server Price scales up in packs",
+      "verdict": "supported",
+      "evidence": "JetBrains sells server user packs in increments: 15 users for $440/year, 25 for $880, 50 for $1,800, and so on."
+    },
+    {
+      "text": "The Team plan adds Gantt charts",
+      "verdict": "supported",
+      "evidence": "This tier unlocks unlimited agile boards, Gantt charts, burndown and cumulative flow reports, unlimited custom fields, and basic automation rules."
+    },
+    {
+      "text": "The Team plan adds unlimited boards",
+      "verdict": "supported",
+      "evidence": "This tier unlocks unlimited agile boards, Gantt charts, burndown and cumulative flow reports, unlimited custom fields, and basic automation rules."
+    },
+    {
+      "text": "The Team plan adds automation rules",
+      "verdict": "supported",
+      "evidence": "This tier unlocks unlimited agile boards, Gantt charts, burndown and cumulative flow reports, unlimited custom fields, and basic automation rules."
+    },
+    {
+      "text": "The Team plan adds Slack/GitHub/GitLab integrations",
+      "verdict": "supported",
+      "evidence": "You can integrate with Slack, GitHub, and GitLab without extra cost."
+    },
+    {
+      "text": "The Enterprise plan user count is as needed",
+      "verdict": "not_stated",
+      "evidence": "On the cloud side, no \u2014 it\u2019s a flat $4.40/Tean and $14.70/Enterprise per user, regardless of volume."
+    },
+    {
+      "text": "The Enterprise plan Cloud Price is $14.70/user/month (annual)",
+      "verdict": "supported",
+      "evidence": "| Enterprise | $14.70 per user/month (billed annually) | Custom quote, starts at higher user counts | Everything in Team + advanced security, project templates, custom workflows, priority support |"
+    },
+    {
+      "text": "The Enterprise plan Server Price is custom quote",
+      "verdict": "supported",
+      "evidence": "Enterprise server requires a custom quote, but it typically lands significantly higher."
+    },
+    {
+      "text": "The Enterprise plan custom quote starts at higher user counts",
+      "verdict": "supported",
+      "evidence": "Custom quote, starts at higher user counts"
+    },
+    {
+      "text": "The Enterprise plan adds advanced security",
+      "verdict": "supported",
+      "evidence": "If you need advanced security or custom workflow automation, you\u2019d jump to Enterprise, which would cost $294 per month."
+    },
+    {
+      "text": "The Enterprise plan adds SAML SSO",
+      "verdict": "supported",
+      "evidence": "Here you gain SAML-based SSO, two-factor authentication enforcement, audit logs, project templates, advanced workflow designers, and priority support."
+    },
+    {
+      "text": "The Enterprise plan adds project templates",
+      "verdict": "supported",
+      "evidence": "Here you gain SAML-based SSO, two-factor authentication enforcement, audit logs, project templates, advanced workflow designers, and priority support."
+    },
+    {
+      "text": "The Enterprise plan adds custom workflows",
+      "verdict": "supported",
+      "evidence": "| Enterprise | $14.70 per user/month (billed annually) | Custom quote, starts at higher user counts | Everything in Team + advanced security, project templates, custom workflows, priority support |"
+    },
+    {
+      "text": "The Enterprise plan adds priority support",
+      "verdict": "supported",
+      "evidence": "Here you gain SAML-based SSO, two-factor authentication enforcement, audit logs, project templates, advanced workflow designers, and priority support."
+    },
+    {
+      "text": "The Helpdesk plan supports 4+ agents",
+      "verdict": "supported",
+      "evidence": "For teams with 4 or more agents, new pricing will apply: USD 6 per agent per month with a monthly plan, or USD 5.50 per agent per month with an annual plan."
+    },
+    {
+      "text": "The Helpdesk plan Cloud Price is $5.50/agent/month (annual)",
+      "verdict": "supported",
+      "evidence": "For teams with 4 or more agents, new pricing will apply: USD 6 per agent per month with a monthly plan, or USD 5.50 per agent per month with an annual plan."
+    },
+    {
+      "text": "The Helpdesk plan Cloud Price is $6.00/agent/month (monthly)",
+      "verdict": "supported",
+      "evidence": "For teams with 4 or more agents, new pricing will apply: USD 6 per agent per month with a monthly plan, or USD 5.50 per agent per month with an annual plan."
+    },
+    {
+      "text": "The Helpdesk plan Server Price is $72/agent/year (as of Oct 2025)",
+      "verdict": "supported",
+      "evidence": "Starting October 1, 2025, for teams with 4 or more agents, the price will be USD 72 per agent per year."
+    },
+    {
+      "text": "Helpdesk is free for up to 3 agents + unlimited reporters",
+      "verdict": "supported",
+      "evidence": "Helpdesk projects remain free for teams of up to 3 agents with unlimited reporters."
+    },
+    {
+      "text": "Helpdesk paid tier kicks in at 4 agents",
+      "verdict": "supported",
+      "evidence": "For teams with 4 or more agents, new pricing will apply: USD 6 per agent per month with a monthly plan, or USD 5.50 per agent per month with an annual plan."
+    },
+    {
+      "text": "JetBrains raised per-user Cloud rates effective October 1, 2025",
+      "verdict": "not_stated",
+      "evidence": "We\u2019ve introduced a few changes to YouTrack Server subscription pricing, which took effect as of October 1, 2025."
+    },
+    {
+      "text": "The annual entry point moved to $4.50/user/month (from a previous lower rate)",
+      "verdict": "not_stated",
+      "evidence": "| 15 users | $900 | $450 |"
+    },
+    {
+      "text": "Server subscription renewal/extension prices also increased",
+      "verdict": "not_stated",
+      "evidence": "As of October 1, 2025, extending a subscription or adding new users and agents is only possible at the updated prices."
+    },
+    {
+      "text": "50-user pack renewal is now $1,500/year",
+      "verdict": "supported",
+      "evidence": "| 50 users | $1500 |"
+    },
+    {
+      "text": "YouTrack competes most directly with Jira, Linear, and GitHub Issues",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "YouTrack competes with lightweight trackers like ClickUp, Monday.com, and open-source tools",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Jira starts at roughly $7.00\u2013$7.91/user/month for the Standard cloud plan",
+      "verdict": "contradicted",
+      "evidence": "Standard: From $7.91 per user per month (annual, scales with team size) \u2014 250 GB storage, role-based permissions, 1,700 automation runs per month, audit log"
+    },
+    {
+      "text": "Jira is the enterprise incumbent",
+      "verdict": "supported",
+      "evidence": "Jira has been the default choice for enterprise teams since 2002."
+    },
+    {
+      "text": "Jira has highly customizable workflows",
+      "verdict": "supported",
+      "evidence": "It's incredibly powerful, supporting virtually any workflow you can imagine\u2014if you're willing to configure it."
+    },
+    {
+      "text": "Jira has deep reporting",
+      "verdict": "supported",
+      "evidence": " Reporting: Advanced analytics and reporting for management visibility"
+    },
+    {
+      "text": "Jira has a massive plugin ecosystem",
+      "verdict": "not_stated",
+      "evidence": "Integrations: Connects to everything (Confluence, Bitbucket, Slack, etc.)"
+    },
+    {
+      "text": "Jira is often criticized for complexity",
+      "verdict": "supported",
+      "evidence": "Jira's complexity and cost aren't justified for teams under 50 people unless you have specific compliance requirements or are already in the Atlassian ecosystem."
+    },
+    {
+      "text": "Jira is often criticized for a steep learning curve",
+      "verdict": "supported",
+      "evidence": "Learning curve: New team members take weeks to become proficient"
+    },
+    {
+      "text": "Linear starts at $10/user/month (Basic)",
+      "verdict": "supported",
+      "evidence": "Linear Basic is $10 per user per month billed yearly against YouTrack Cloud's $4.50, so twenty people is about $2,400 a year versus $1,080."
+    },
+    {
+      "text": "Linear starts at $16/user/month (Business)",
+      "verdict": "supported",
+      "evidence": " Pricing: free for 2 teams and 250 issues; Basic $10 and Business $16 per user per month billed yearly"
+    },
+    {
+      "text": "Linear is more than double YouTrack\u2019s entry price",
+      "verdict": "supported",
+      "evidence": "The second is cost \u2014 free to ten users on both cloud and self-hosted Server, then $4.50 per user per month billed annually, which is less than half Linear's entry price."
+    },
+    {
+      "text": "Linear is optimized for speed",
+      "verdict": "supported",
+      "evidence": "Linear optimizes for speed, clarity, and operator quality"
+    },
+    {
+      "text": "Linear is optimized for opinionated workflows",
+      "verdict": "not_stated",
+      "evidence": "Linear optimizes for speed, clarity, and operator quality"
+    },
+    {
+      "text": "Linear has a keyboard-first command palette",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Linear has instant search",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Linear has minimal UI friction",
+      "verdict": "supported",
+      "evidence": "Linear's value is that it reduces interface drag, keeps taxonomy tighter, and encourages a cleaner issue culture."
+    },
+    {
+      "text": "YouTrack offers deep customization",
+      "verdict": "supported",
+      "evidence": "Issue types, fields, states and transitions are yours to define; saved searches are expressions in a query language; automation is JavaScript rules you write."
+    },
+    {
+      "text": "YouTrack offers custom issue types",
+      "verdict": "supported",
+      "evidence": "Issue types, fields, states and transitions are yours to define; saved searches are expressions in a query language; automation is JavaScript rules you write."
+    },
+    {
+      "text": "YouTrack offers custom fields",
+      "verdict": "supported",
+      "evidence": "Custom fields, workflow states and views are more constrained than in Jira or YouTrack \u2014 a Linear reviewer puts it as being opinionated by design, \"which is great for speed but can be frustrating if your team's workflow doesn't fit its assumptions\"."
+    },
+    {
+      "text": "YouTrack offers custom states",
+      "verdict": "supported",
+      "evidence": "Issue types, fields, states and transitions are yours to define; saved searches are expressions in a query language; automation is JavaScript rules you write."
+    },
+    {
+      "text": "YouTrack offers JavaScript workflow rules",
+      "verdict": "supported",
+      "evidence": "YouTrack's answer to the same problem is a query language and JavaScript workflow rules."
+    },
+    {
+      "text": "YouTrack offers a query language",
+      "verdict": "supported",
+      "evidence": "YouTrack for teams that need configurability, a query language, a helpdesk in the same product, or the ability to run it on their own hardware."
+    },
+    {
+      "text": "YouTrack has an integrated helpdesk",
+      "verdict": "supported",
+      "evidence": "YouTrack bundles a helpdesk and a knowledge base into the same licence, so support teams and engineers can share a tool rather than integrating two."
+    },
+    {
+      "text": "YouTrack has an integrated knowledge base",
+      "verdict": "supported",
+      "evidence": "YouTrack bundles a helpdesk and a knowledge base into the same licence, so support teams and engineers can share a tool rather than integrating two."
+    },
+    {
+      "text": "YouTrack supports self-hosting",
+      "verdict": "supported",
+      "evidence": "| Self-hosting | Yes \u2014 Server edition | Never offered |"
+    },
+    {
+      "text": "Linear does not offer self-hosting at any tier",
+      "verdict": "supported",
+      "evidence": "There is no on-premise option at any tier, Enterprise included."
+    },
+    {
+      "text": "GitHub Issues is free with public/private repositories",
+      "verdict": "not_stated",
+      "evidence": "Issues and Projects are included even on the free plan."
+    },
+    {
+      "text": "GitHub Team (which includes Projects) is $4/user/month",
+      "verdict": "supported",
+      "evidence": "Pricing: Free tier, Team at $4/user/month, Enterprise at $21/user/month for the first 12 months."
+    },
+    {
+      "text": "GitHub Enterprise is $21/user/month for the first 12 months",
+      "verdict": "supported",
+      "evidence": "Pricing: Free tier, Team at $4/user/month, Enterprise at $21/user/month for the first 12 months."
+    },
+    {
+      "text": "GitHub Issues is lightweight",
+      "verdict": "supported",
+      "evidence": "The three tools sit on a spectrum from lightweight and code-adjacent to heavyweight and process-rich:"
+    },
+    {
+      "text": "GitHub Issues is thin on multi-team QA processes compared to dedicated trackers",
+      "verdict": "supported",
+      "evidence": "The trade-off: GitHub Issues is thin on structure for non-technical reporters, multi-team QA processes, and cross-repository reporting."
+    },
+    {
+      "text": "GitHub Issues is thin on custom states compared to dedicated trackers",
+      "verdict": "supported",
+      "evidence": "Teams that need required fields, custom states, or stakeholder-specific views usually graduate to Linear or Jira."
+    },
+    {
+      "text": "GitHub Issues is thin on cross-repo reporting compared to dedicated trackers",
+      "verdict": "supported",
+      "evidence": "The trade-off: GitHub Issues is thin on structure for non-technical reporters, multi-team QA processes, and cross-repository reporting."
+    },
+    {
+      "text": "Zoho BugTracker starting price is $3/user/month",
+      "verdict": "supported",
+      "evidence": "| Zoho BugTracker | Custom boards, auto SLAs | $3/user/month | Free tier |"
+    },
+    {
+      "text": "Zoho BugTracker has basic agile boards",
+      "verdict": "not_stated",
+      "evidence": "Zoho BugTracker is a cloud-based tool for managing bugs and issues."
+    },
+    {
+      "text": "Zoho BugTracker has auto SLAs",
+      "verdict": "supported",
+      "evidence": "| Zoho BugTracker | Custom boards, auto SLAs | $3/user/month | Free tier |"
+    },
+    {
+      "text": "ClickUp starting price is $5/user/month",
+      "verdict": "supported",
+      "evidence": "| ClickUp | Custom fields, 1,000+ integrations | $5/user/month | Free tier, trial available |"
+    },
+    {
+      "text": "ClickUp is an all-in-one PM with 1,000+ integrations",
+      "verdict": "not_stated",
+      "evidence": "| ClickUp | Custom fields, 1,000+ integrations | $5/user/month | Free tier, trial available |"
+    },
+    {
+      "text": "Monday.com starting price is $6/user/month",
+      "verdict": "supported",
+      "evidence": "| Monday.com | Visual management, auto workflows | $6/user/month | 14-day trial, free for 2 users |"
+    },
+    {
+      "text": "Monday.com has visual boards",
+      "verdict": "supported",
+      "evidence": "| Monday.com | Visual management, auto workflows | $6/user/month | 14-day trial, free for 2 users |"
+    },
+    {
+      "text": "Monday.com has a 14-day trial",
+      "verdict": "supported",
+      "evidence": "You can try Monday.com for free for 14 days to see if it works for your team."
+    },
+    {
+      "text": "Bugzilla / Redmine price is Free (open source)",
+      "verdict": "supported",
+      "evidence": "Bugzilla is a free, open-source bug tracking tool that helps developers manage software issues."
+    },
+    {
+      "text": "Bugzilla / Redmine is self-hosted only",
+      "verdict": "supported",
+      "evidence": "Needs setup on your own servers"
+    },
+    {
+      "text": "YouTrack holds a 4.5/5 rating on Capterra from ~95 reviews",
+      "verdict": "supported",
+      "evidence": "Rating: 4.5/5 on Capterra from 95 reviews"
+    },
+    {
+      "text": "YouTrack scores 4.1/5 overall on Software Finder",
+      "verdict": "supported",
+      "evidence": "YouTrack Reviews\n4.1\n11 Reviews"
+    },
+    {
+      "text": "Software Finder Ease of Use for YouTrack is 8/10",
+      "verdict": "not_stated",
+      "evidence": "Satisfaction score\nEase of use\nValue for money\n7\nCustomer Support\n8\nFunctionality\n8"
+    },
+    {
+      "text": "Software Finder Value for Money for YouTrack is 7/10",
+      "verdict": "supported",
+      "evidence": "Value for money\n7"
+    },
+    {
+      "text": "Software Finder Functionality for YouTrack is 8/10",
+      "verdict": "supported",
+      "evidence": "Functionality\n8"
+    },
+    {
+      "text": "G2 users consistently praise YouTrack's adaptability",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "G2 users consistently praise YouTrack's ease of use for various workflows",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "JetBrains advertises \u201cLeader\u201d in Small-Business Product Management (Winter 2025)",
+      "verdict": "supported",
+      "evidence": "Image 88: Leader in Small-Business. Product management software Winter 2025 badge"
+    },
+    {
+      "text": "JetBrains advertises \u201cHigh Performer\u201d in Small-Business Product Management (Winter 2025)",
+      "verdict": "supported",
+      "evidence": "Image 87: High Performer in Small-Business. Product management software Winter 2025 badge"
+    },
+    {
+      "text": "JetBrains advertises \u201cHighest User Adoption\u201d (Winter/Spring 2024) from G2/Capterra ecosystems",
+      "verdict": "not_stated",
+      "evidence": "Image 89: Highest User Adoption. Product management software Spring 2024 badge"
+    },
+    {
+      "text": "A user states: \u201cIt is affordable \u2026 and is free for up to 10 users.\u201d",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "A user states: \u201cIncredibly flexible and powerful issue tracking and project management system.\u201d",
+      "verdict": "supported",
+      "evidence": "YouTrack offers an incredibly flexible and powerful issue tracking and project management system."
+    },
+    {
+      "text": "Smart search is routinely highlighted as a productivity booster",
+      "verdict": "not_stated",
+      "evidence": ""
+    },
+    {
+      "text": "Inline editing is routinely highlighted as a productivity booster",
+      "verdict": "not_stated",
+      "evidence": "Really enjoying using @youtrack from JetBrains, <3 all the inline editing and the command dialog is so handy."
+    },
+    {
+      "text": "Helpdesk and knowledge base are included under the same license",
+      "verdict": "supported",
+      "evidence": "YouTrack bundles a helpdesk and a knowledge base into the same licence, so support teams and engineers can share a tool rather than integrating two."
+    },
+    {
+      "text": "Wix switched to YouTrack in 2022",
+      "verdict": "supported",
+      "evidence": "In 2022, Wix, a website building company, switched to YouTrack."
+    },
+    {
+      "text": "Wix reported 30% faster bug-fixing time within six months",
+      "verdict": "supported",
+      "evidence": "They reported a 30% faster bug fixing time in the first six months."
+    },
+    {
+      "text": "There is acknowledged friction for non-technical members",
+      "verdict": "supported",
+      "evidence": "Linear is optimised for software and product work, and marketing, sales or operations teams forcing their work into it find it awkward \u2014 again, a reviewer's words rather than ours."
+    },
+    {
+      "text": "Permissions are \u201cfiddly.\u201d",
+      "verdict": "supported",
+      "evidence": "Permissions are fiddly to configure, per reviewers"
+    },
+    {
+      "text": "Onboarding material is \u201cthin.\u201d",
+      "verdict": "supported",
+      "evidence": "Reviewers mention permissions being fiddly, thin onboarding material and an interface that is not the prettiest \u2014 while praising exactly the flexibility that causes it."
+    },
+    {
+      "text": "Reviewers call the interface \u201cclunky next to modern trackers.\u201d",
+      "verdict": "supported",
+      "evidence": "Interface is not the draw; reviewers call it clunky next to modern trackers"
+    },
+    {
+      "text": "Ease-of-use scores (4.1) lag behind its overall rating (4.5)",
+      "verdict": "supported",
+      "evidence": "YouTrack rates 4.1 for ease of use against 4.5 overall on Capterra, which is the signature of a capable tool with rough edges."
+    },
+    {
+      "text": "Some users report lag under heavy workload",
+      "verdict": "supported",
+      "evidence": "Sometimes, the software lags because of the workload."
+    },
+    {
+      "text": "YouTrack is expanding beyond engineering into legal, HR, marketing, finance, and support teams",
+      "verdict": "supported",
+      "evidence": "Lots of teams beyond product management and software development need a powerful project management system to facilitate their workflows, which is helping YouTrack expand to numerous other departments, such as legal and compliance, HR, marketing and design, finance, administration, support, and more"
+    },
+    {
+      "text": "JetBrains notes that internal adoption often grows 3\u20135\u00d7 within months once one department starts using it",
+      "verdict": "supported",
+      "evidence": "For example, when one department starts using YouTrack, team members from other groups often quickly follow suit, and the overall number of YouTrack users in the company typically grows 3\u20135 times within several months."
+    },
+    {
+      "text": "JetBrains has maintained 99.9% availability for YouTrack Cloud",
+      "verdict": "supported",
+      "evidence": "The current 99.9% availability threshold has been maintained for several years now, and the team is working to guarantee that YouTrack Cloud will be able to handle even more data with speed and reliability for companies with thousands of users and millions of tasks."
+    },
+    {
+      "text": "JetBrains is investing in a major UI/UX redesign with new sidebar navigation",
+      "verdict": "supported",
+      "evidence": "Since we want to keep YouTrack flexible in order to meet the needs of any team regardless of its size or complexity, we\u2019re planning a major redesign of the UI/UX, including the introduction of a new sidebar navigation option that places all of YouTrack\u2019s features at your fingertips while also allowi"
+    },
+    {
+      "text": "Jira Free tier is 7-day trial only",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Linear Free tier is up to 250 issues / 2 teams",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "Jira supports self-hosted (Data Center)",
+      "verdict": "no_source_text",
+      "evidence": ""
+    },
+    {
+      "text": "GitHub Issues does not support self-hosted",
+      "verdict": "no_source_text",
+      "evidence": ""
+    }
+  ]
+}
