@@ -146,16 +146,32 @@ a { color: var(--accent); }
   <p>We labelled 90 pricing and feature claims by hand against their pages. The labelling rule: a partial match counts as <em>not stated</em>. We then scored an LLM judge against those labels.</p>
 
   <h2>Where it stands</h2>
-  <p>No plan reaches renew or negotiate yet.</p>
+  <p>Eight live runs on 2026-10-19, one per product, with the current pipeline. Every run finished with no errors.</p>
   <div class="wrap">
     <table>
-      <thead><tr><th>Plan</th><th>Result</th><th>Confidence</th><th>Main reason</th></tr></thead>
+      <thead><tr><th>Product</th><th>Supported</th><th>Unsupported</th></tr></thead>
       <tbody>
-        <tr><td>YouTrack</td><td class="muted">Validate further</td><td>0.82</td><td>SSO not found on the JetBrains pages checked</td></tr>
-        <tr><td>Trello Premium</td><td class="bad">Look at alternatives</td><td>0.80</td><td>No SSO on Premium; SSO is on Enterprise only</td></tr>
-        <tr><td>Trello Enterprise</td><td class="bad">Look at alternatives</td><td>0.53</td><td>SSO passes; $17.50 per user is over the $12 budget</td></tr>
+        <tr><td>Linear</td><td>26</td><td>6</td></tr>
+        <tr><td>Jira</td><td>33</td><td>7</td></tr>
+        <tr><td>Plane</td><td>38</td><td>1</td></tr>
+        <tr><td>Shortcut</td><td>32</td><td>3</td></tr>
+        <tr><td>ClickUp</td><td>42</td><td>12</td></tr>
+        <tr><td>Asana</td><td>34</td><td>11</td></tr>
+        <tr><td>Trello</td><td>23</td><td>6</td></tr>
+        <tr><td>YouTrack</td><td>43</td><td>2</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>No plan is recommended yet. Two Trello plans fail a rule. The rest need a verified price, or SSO evidence, first.</p>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>Plan</th><th>Result</th><th>Confidence</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>YouTrack</td><td class="muted">Validate further</td><td>0.80</td><td>SSO not found on the JetBrains pages checked</td></tr>
+        <tr><td>Trello Premium</td><td class="bad">Look at alternatives</td><td>0.77</td><td>SSO is on Enterprise only</td></tr>
+        <tr><td>Trello Enterprise</td><td class="bad">Look at alternatives</td><td>0.50</td><td>SSO passes; $17.50 per user is over the $12 budget</td></tr>
         <tr><td>Asana, ClickUp, Linear Enterprise</td><td class="muted">Validate further</td><td>0.30</td><td>SSO passes; no public price (contact sales)</td></tr>
-        <tr><td>Asana Starter, ClickUp Business, Jira Standard, Linear Plus</td><td class="muted">Validate further</td><td>0.30</td><td>No verified current price in the store</td></tr>
+        <tr><td>Asana Starter, ClickUp Business, Jira Standard, Linear Plus</td><td class="muted">Validate further</td><td>0.30</td><td>SSO fails on these plans (Enterprise or add-on only); no verified price</td></tr>
       </tbody>
     </table>
   </div>
