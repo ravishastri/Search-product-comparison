@@ -37,7 +37,7 @@ These came from checking the outputs, after the starter review. Each one is a wa
 - Known failures are recorded: stale sources, rumor-based verdicts, and the pricing gap.
 - Support is checked by hand on a sample. Automated checks confirm only that IDs exist.
 
-What is not yet true: we have no measured accuracy rate. The next step is the Phase 4 test set, with claims scored against their cited text, before and after each change.
+What is not yet true: accuracy is measured on one 50-claim blind sample, not across the full set. Agreement is 43 of 50 after corrections. The next step is a larger labeled sample and the Phase 4 test set, with claims scored against their cited text, before and after each change.
 
 ## Problems found in runs, and fixes
 
@@ -49,7 +49,7 @@ Each run's problems are listed with the fix and its status. Runs are listed in t
 | `linear-20261018-142022` | Three price claims cite sources whose snippets lack the figure, even though the figures are correct. Examples: Basic $10 (S52), and YouTrack $5.40 and $4.50. | Same label as above. The judge reports the rate (`prices_in_cited_text`). | **Partial.** The snippet is the limit. Real fix is row 6. |
 | `linear-20261018-142022` | The ground-truth check could not find the free plan, because "$0" never appears in the brief. | Fact-level match term ("free") added to the ground truth. | **Partial.** "free" is a loose match, so recall 1.0 is weak evidence. A stricter check is needed. |
 | `linear-20261018-142022` | Dated claims went from 0% to 58% after the news-mode change. Pricing claims are still undated, because pricing searches do not use news mode. | None needed; this is expected. Confirms the news-mode date setting works. | **Done** for news sections. Pricing is still undated by design. |
-| All runs | The judge checks 600-character snippets, not full pages, so "not in cited text" can mean "not in the snippet". | Fetch and store full page text for each cited source, then judge against that. | **Open**, the highest-priority fix. |
+| All runs | The judge checks 600-character snippets, not full pages, so "not in cited text" can mean "not in the snippet". | Fetch and store full page text for each cited source, then judge against that. | **Done** (2026-10-19): claims are judged against the full text of their cited pages inside each run. |
 
 ### Runs after the key fix (Linear, 2026-10-18)
 
@@ -83,7 +83,7 @@ Caveats, to state in the interview:
 | Starter judge | 4 claims were marked contradicted. Two are close calls: "Linear raised prices in 2025" and "YouTrack includes all features at no extra charge". The judge may be wrong on these. | Hand-label a sample of about 50 claims, including these four, and measure judge agreement before quoting the contradiction rate. | **Open** (calibration) |
 | Starter judge | 30 claims are "not stated". Some are inferences the starter made from uncited or loosely cited text. | Report them separately, as "not supported by the cited source", not as false. | **Open** |
 | Evaluator judge | 3 claims not stated and 1 with no source text. | Same fixes as above. The evaluator's remaining misses are a source-coverage problem, not a citation-format one. | **Open** |
-| Both | The judge and the generator are the same model family, so the judge may be lenient toward its own wording. | Judge with a different model when one is available, and compare verdicts on the same claims. | **Open** |
+| Both | The judge and the generator are the same model family, so the judge may be lenient toward its own wording. | Judge with a different model when one is available, and compare verdicts on the same claims. | **Tested** (2026-10-19): DeepSeek and Qwen scored lower than Kimi on the blind sample, so Kimi stays the judge. |
 
 ### Pricing check and source filter (branch `pricing-verification`)
 
@@ -113,7 +113,7 @@ Caveats, to state in the interview:
 | Evaluator contradictions are not zero everywhere: Trello 7%, Asana 5%, YouTrack 3%. | Read the contradicted claims for these three products before quoting them. Some may be judge errors, as in the calibration sample. | **Open** |
 | Plane's evaluator price check is missing (no pricing claims with figures). | Check the brief for Plane. A missing check can mean the claims were phrased without figures, or that the figures were filtered out. | **Open** |
 | Linear, Jira, and ClickUp briefs predate the price check and the source filter. | Rerun those three evaluator briefs when the user asks. | **Open** |
-| The judge reads 20,000 characters per page, with the calibration result of 24/26 on Linear's starter sample only. | Blind human labeling on a sample from every product. | **Open** |
+| The judge reads 20,000 characters per page, with the calibration result of 24/26 on Linear's starter sample only. | Blind human labeling on a sample from every product. | **Partial**: one 50-claim blind sample labeled by a person. |
 
 ### Step 3: show less (verified pricing only)
 
@@ -174,4 +174,4 @@ Response to the solution review. Each item lists the change, and its status.
 | 6 | Coverage gaps | A page that comes back empty gets one retry with advanced extraction. Pricing sources are still undated. | **Partial.** Undated pricing is still open. |
 | 7 | Structured output | Pricing claims are stored as fields (amounts, unit, billing) in `run.json`. Missing fields are `unknown`. | **Partial.** The brief itself is still Markdown. |
 | 8 | Reliability | Tavily searches retry with backoff. The writer model retries on transient errors. Pinned `requirements.txt`. Run records include search depth and results per query. The Langfuse live trace check passed: launch_evaluation traces, a span per search, and a generation per model call, with no errors in the first 100 observations. | **Partial.** Tracing an extraction failure to its cause is not done. |
-| 9 | Hygiene | CI runs the 67 unit tests on every push (`.github/workflows/tests.yml`). Playwright logs untracked. `eval/store/` renamed to `eval/data/` to clear its collision with `eval/store.py`. | **Done.** The stale remote branches are left for you to decide. |
+| 9 | Hygiene | CI runs the 69 unit tests on every push (`.github/workflows/tests.yml`). Playwright logs untracked. `eval/store/` renamed to `eval/data/` to clear its collision with `eval/store.py`. | **Done.** The stale remote branches are left for you to decide. |

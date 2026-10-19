@@ -52,12 +52,12 @@ Decided: SaaS is the main eval domain (pricing has ground truth; matches the tar
 
 - [x] 4a. Golden set: 8 SaaS products in the issue-tracker category. Captured 2026-10-18 with Playwright (accessibility snapshots in `eval/golden/`): Linear, Jira, Plane, Shortcut, ClickUp, Asana, Trello, YouTrack. These pages are the ground truth.
 - [~] 4b. Ground-truth sheet: `eval/golden/ground_truth.json`. Partial and extracted, not hand-written: I pulled price lines from the captured snapshots, and each fact quotes its line. Plan names are inferred for most rows and marked `context_verified: false`. Shortcut has no prices (not captured). A human needs to review it before scoring.
-- [ ] 4c. Starter baseline: run `starter_agent.py` on the same 8 products. Save raw outputs to `eval/runs/starter/`.
-- [ ] 4d. Evaluator run: run `evaluator.py` on the same 8 products. Save to `eval/runs/evaluator/`.
+- [x] 4c. Starter baseline: run on the 8 products. Raw outputs in `eval/runs/starter/`.
+- [x] 4d. Evaluator run on the 8 products. Run records in `runs/`; judged results in `eval/results/evaluator-*-llm.json`.
 - [~] 4e. Judge. Deterministic part built: `eval/judge.py` checks cited IDs exist, prices in a claim appear in its cited text, quotes are verbatim, and sources are dated and not stale. Not built yet: the LLM judge (claim vs full cited text, verdict plus evidence quote, different model from the generator). Framework choice: no RAGAS yet. RAGAS faithfulness needs its own model setup and dataset format, and the deterministic checks cover the pricing failures we have seen. Add RAGAS as a cross-check once the LLM judge exists.
-- [ ] 4f. Judge calibration: hand-label about 50 claims. Measure agreement with the judge. Report it with the scores. Seed: the claims already hand-checked this session.
-- [ ] 4g. Metrics for starter and evaluator, under the same judge: claim support rate, contradiction rate, citation precision, staleness rate, and recall of ground-truth prices.
-- [ ] 4h. Ablation: turn off one enhancement at a time (date rule, status judge, paraphrase rule) and record the change in each metric.
+- [~] 4f. Judge calibration: one blind sample of 50 claims, labeled by a person. Agreement 43 of 50 (86%) after corrections. Details in `eval/tune/blind-results.md`. A second labeler and a larger sample are not done.
+- [x] 4g. Metrics for starter and evaluator: `eval/aggregate.py` writes `eval/results/phase4-summary.json`. Claim support and contradiction rates, under the same judge.
+- [ ] 4h. Ablation: turn off one enhancement at a time (date rule, status judge, paraphrase rule) and record the change in each metric. Not done.
 - [ ] 4j. Record what the tool gets wrong, too.
 
 ### Phase 5: Deliver
@@ -132,3 +132,10 @@ The assignment asks for a record of how the project was built: chat history, ses
 - [ ] Save the chat history at the end of the project (in Claude Code, `/export` writes the conversation to a file).
 - [ ] Keep the eval results (inputs, outputs, scores) in the repo, so the record shows verification, not only claims.
 - [ ] Note which AI-generated output was checked, and how, in the technical statement.
+
+- **Date:** 2026-10-19
+  - Maturity work in response to the solution review (items 1 to 9 in `ENHANCEMENTS.md`). Full-text judging inside each run, claim validation, retries, structured pricing fields, recommender rule tests, and CI.
+  - Blind check: 50 claims labeled by a person. Agreement 39 of 50 as labeled, 43 of 50 after the five contradictions were read against their pages. The judge comparison: Kimi 43, DeepSeek-V4-Pro 38, Qwen3-235B-Instruct 37. Kimi stays the in-run judge.
+  - Three Linear runs with the current pipeline, no errors. Other products were not rerun: the Tavily usage limit was reached, and the upgrade was declined.
+  - Live Langfuse trace check passed. Removed the unfinished runs. Deleted the merged branches. Renamed the project to Search product comparison.
+
