@@ -40,7 +40,6 @@ On purchases, no plan reached renew or negotiate. The main reasons were that SSO
 
 - Judge verdicts were checked by a person on a 50-claim sample. Five contradictions were read against their cited pages, and the labels were corrected where the judge was right.
 - Price claims are checked against the full text of their cited pages before they reach the brief.
-- SSO facts were checked against the vendor pricing pages, with the quote stored beside each fact.
 - Every run record lists the models used, the sources, the verdict counts, and any errors.
 
 ## Limits
