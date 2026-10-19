@@ -1,0 +1,77 @@
+[1/63] T001 label=supported judge=supported
+[2/63] T003 label=no_source judge=supported
+[3/63] T004 label=supported judge=supported
+[4/63] T005 label=supported judge=supported
+[5/63] T007 label=not_stated judge=not_stated
+[6/63] T009 label=not_stated judge=not_stated
+[7/63] T010 label=supported judge=contradicted
+[8/63] T011 label=no_source judge=not_stated
+[9/63] T013 label=not_stated judge=supported
+[10/63] T017 label=supported judge=supported
+[11/63] T018 label=not_stated judge=supported
+[12/63] T019 label=supported judge=not_stated
+[13/63] T020 label=not_stated judge=not_stated
+[14/63] T021 label=supported judge=not_stated
+[15/63] T022 label=not_stated judge=not_stated
+[16/63] T024 label=supported judge=supported
+[17/63] T025 label=not_stated judge=supported
+[18/63] T026 label=not_stated judge=supported
+[19/63] T027 label=not_stated judge=supported
+[20/63] T028 label=supported judge=supported
+[21/63] T029 label=supported judge=supported
+[22/63] T030 label=contradicted judge=not_stated
+[23/63] T031 label=not_stated judge=not_stated
+[24/63] T033 label=not_stated judge=contradicted
+[25/63] T035 label=supported judge=supported
+[26/63] T037 label=supported judge=supported
+[27/63] T038 label=supported judge=supported
+[28/63] T041 label=not_stated judge=supported
+[29/63] T042 label=supported judge=not_stated
+[30/63] T043 label=not_stated judge=not_stated
+[31/63] T045 label=not_stated judge=not_stated
+[32/63] T046 label=not_stated judge=supported
+[33/63] T048 label=supported judge=supported
+[34/63] T049 label=supported judge=supported
+[35/63] T050 label=supported judge=supported
+[36/63] T054 label=not_stated judge=not_stated
+[37/63] T055 label=not_stated judge=not_stated
+[38/63] T057 label=supported judge=supported
+[39/63] T058 label=not_stated judge=supported
+[40/63] T060 label=supported judge=supported
+[41/63] T061 label=supported judge=not_stated
+[42/63] T063 label=supported judge=supported
+[43/63] T064 label=not_stated judge=supported
+[44/63] T066 label=not_stated judge=not_stated
+[45/63] T067 label=not_stated judge=not_stated
+[46/63] T068 label=supported judge=contradicted
+[47/63] T069 label=not_stated judge=contradicted
+[48/63] T070 label=supported judge=supported
+[49/63] T071 label=not_stated judge=supported
+[50/63] T073 label=supported judge=supported
+[51/63] T074 label=supported judge=supported
+[52/63] T075 label=supported judge=supported
+[53/63] T077 label=not_stated judge=not_stated
+[54/63] T081 label=not_stated judge=not_stated
+[55/63] T085 label=supported judge=supported
+[56/63] T086 label=supported judge=supported
+[57/63] T087 label=supported judge=supported
+[58/63] T088 label=not_stated judge=supported
+[59/63] T089 label=supported judge=not_stated
+[60/63] T090 label=not_stated judge=not_stated
+[61/63] T091 label=not_stated judge=not_stated
+[62/63] T092 label=supported judge=contradicted
+[63/63] T094 label=supported judge=contradicted
+{
+  "tune": {
+    "n": 46,
+    "agreement": 0.543
+  },
+  "val": {
+    "n": 17,
+    "agreement": 0.765
+  },
+  "all": {
+    "n": 63,
+    "agreement": 0.603
+  }
+}

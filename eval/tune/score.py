@@ -28,6 +28,31 @@ from langchain_nebius import ChatNebius  # noqa: E402
 
 import llm_judge  # noqa: E402
 
+# Prompt variants. "v1" is the judge's current prompt. "v2" is stricter about partial matches.
+PROMPT_V2 = """You check one claim against source text. Use only the source text provided.
+A claim is "supported" only if the text states the same specific facts: the same entity, figure, unit,
+billing period, date, and qualifiers such as "only", "all", "free", or "unlimited".
+- If the text covers the topic but not the specific fact, answer "not_stated".
+- Do not infer from other products, other years, or general statements about the category.
+- Answer "contradicted" only if the text gives a different value for the same fact.
+Quote the single sentence from the source that decides your answer, copied character for character.
+Return only JSON: {"verdict": "supported" | "contradicted" | "not_stated", "evidence": "..."}"""
+
+
+def judge_variant(llm, variant: str, claim: str, texts: dict) -> tuple[str, str]:
+    if variant == "v1":
+        return llm_judge.judge_one(llm, claim, texts)
+    source = "\n\n".join(f"[{u}]\n{x[:llm_judge.MAX_CHARS_PER_URL]}" for u, x in texts.items())
+    reply = llm.invoke([{"role": "system", "content": PROMPT_V2},
+                        {"role": "user", "content": f"Claim: {claim}\n\nSource text:\n{source}"}]).content
+    data = llm_judge.parse_json(reply)
+    verdict, evidence = str(data.get("verdict", "not_stated")), str(data.get("evidence", ""))
+    if verdict in ("supported", "contradicted"):
+        if not (llm_judge.norm(evidence) and any(llm_judge.norm(x) and llm_judge.norm(evidence) in llm_judge.norm(x)
+                                                 for x in texts.values())):
+            verdict = "unverified_evidence"
+    return verdict, evidence
+
 load_dotenv(ROOT / ".env")
 
 
@@ -53,9 +78,12 @@ def comparable(verdict: str) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--variant", default="v1", choices=["v1", "v2"])
+    ap.add_argument("--splits", default="tune,val,test")
     args = ap.parse_args()
 
-    items = load_items()
+    splits = set(args.splits.split(","))
+    items = [it for it in load_items() if it["split"] in splits]
     llm = ChatNebius(model=llm_judge.JUDGE_MODEL, max_tokens=32768, timeout=300, max_retries=1, temperature=0)
     results = []
     for n, it in enumerate(items, 1):
@@ -64,7 +92,7 @@ def main() -> None:
             verdict, evidence = "no_source_text", ""
         else:
             try:
-                verdict, evidence = llm_judge.judge_one(llm, it["claim"], texts)
+                verdict, evidence = judge_variant(llm, args.variant, it["claim"], texts)
                 if verdict == "supported":
                     ok, reason = llm_judge.code_check(it["claim"], evidence)
                     if not ok:
@@ -77,12 +105,14 @@ def main() -> None:
 
     summary = {}
     for split in ("tune", "val", "test", "all"):
+        if split != "all" and split not in splits:
+            continue
         rs = [r for r in results if split == "all" or r["split"] == split]
         agree = sum(r["verdict_comparable"] == r["label"] for r in rs)
         summary[split] = {"n": len(rs), "agreement": round(agree / len(rs), 3) if rs else None,
                           "confusion": dict(Counter((r["label"], r["verdict_comparable"]) for r in rs).most_common())}
         summary[split]["confusion"] = {f"{a}->{b}": c for (a, b), c in summary[split]["confusion"].items()}
-    out = {"judge": llm_judge.JUDGE_MODEL, "max_chars_per_url": llm_judge.MAX_CHARS_PER_URL,
+    out = {"variant": args.variant, "splits": sorted(splits), "judge": llm_judge.JUDGE_MODEL, "max_chars_per_url": llm_judge.MAX_CHARS_PER_URL,
            "run_at": time.strftime("%Y-%m-%d %H:%M"), "summary": summary, "rows": results}
     args.out.write_text(json.dumps(out, indent=2))
     print(json.dumps({k: {"n": v["n"], "agreement": v["agreement"]} for k, v in summary.items()}, indent=2))
