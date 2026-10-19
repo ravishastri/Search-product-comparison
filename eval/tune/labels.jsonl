@@ -82,3 +82,9 @@
 {"id": "T086", "label": "supported", "how": "live page", "note": "Breeze: YouTrack's answer is a query language and JavaScript workflow rules."}
 {"id": "T087", "label": "supported", "how": "live page", "note": "JetBrains: Free for 1-10 users on the cloud edition."}
 {"id": "T088", "label": "not_stated", "how": "live page", "note": "BugBrain is cited but does not discuss GitHub Issues' custom states."}
+{"id": "T089", "label": "supported", "how": "live page", "note": "JetBrains sales FAQ: monthly $5.40 per user/month for teams of 11+. ONES says $4.40, which conflicts with JetBrains."}
+{"id": "T090", "label": "not_stated", "how": "live page", "note": "$2.81 is not on either cited page. ONES says prices are flat regardless of volume."}
+{"id": "T091", "label": "not_stated", "how": "live page", "note": "Cited page is about Server pricing. It does not mention a previous lower rate for the cloud annual plan."}
+{"id": "T092", "label": "supported", "how": "live page", "note": "JetBrains sales FAQ: new annual subscription USD 4.50 per user/month."}
+{"id": "T093", "label": "not_stated", "how": "live page", "note": "Automaiva gives Jira Standard at $7.91, which matches. The $7.00 lower bound is not on the page."}
+{"id": "T094", "label": "supported", "how": "live page", "note": "JetBrains sales FAQ: per-user rate decreases as more users are added. ONES says the price is flat, so the sources conflict."}
