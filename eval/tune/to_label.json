@@ -145,7 +145,8 @@
   "urls": [
    "https://softwarepricingguide.com/atlassian-jira-pricing-2025-every-plan-the-data-center-vs-cloud-cost-decision-and-the-price-increases-nobody-warned-you-about"
   ],
-  "split": "tune"
+  "split": "tune",
+  "excluded": "Jira Data Center pricing (out of scope)"
  },
  {
   "id": "T017",
@@ -370,7 +371,8 @@
   "urls": [
    "https://www.shortcut.com/blog/8-best-jira-alternatives-for-engineering-teams-in-2026"
   ],
-  "split": "val"
+  "split": "val",
+  "excluded": "Notion is not a PM tool (out of scope)"
  },
  {
   "id": "T041",
@@ -482,7 +484,8 @@
   "urls": [
    "https://www.rock.so/blog/notion-vs-clickup"
   ],
-  "split": "val"
+  "split": "val",
+  "excluded": "Notion is not a PM tool (out of scope)"
  },
  {
   "id": "T053",
@@ -578,7 +581,8 @@
   "urls": [
    "https://till-freitag.com/en/blog/best-project-management-tools"
   ],
-  "split": "tune"
+  "split": "tune",
+  "excluded": "Notion is not a PM tool (out of scope)"
  },
  {
   "id": "T063",
